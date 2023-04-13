@@ -1,0 +1,134 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="GiaoDuc.master.cs" Inherits="Web.GiaoDuc" %>
+
+<%@ Register Src="Control/Giaoduc/SlideShow.ascx" TagName="SlideShow" TagPrefix="uc1" %>
+<%@ Register Src="Control/Giaoduc/BannerTop.ascx" TagName="BannerTop" TagPrefix="uc2" %>
+<!doctype html public "-//w3c//dtd xhtml 1.0 transitional//en" "http://www.w3.org/tr/xhtml1/dtd/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="google-site-verification" content="sizcwu7annt6cbxzlftet5be7ci6n-zf799ny6f4wvs" />
+    <title>Cổng thông tin giáo dục trực tuyến Vietnamobile</title>
+    <meta name="robots" content="index, follow" />
+    <meta name="application-name" content="chìa khóa vàng">
+    <meta name="description" content="chia khoa vang, chìa khóa vàng, luyện thi, trắc nghiệm, câu hỏi trắc nghiệm, câu hỏi" />
+    <meta name="title" content="cổng thông tin giáo dục và giải trí - chìa khóa vàng" />
+    <meta name="keywords" content="chia khoa vang, chìa khóa vàng, luyện thi, trắc nghiệm, câu hỏi trắc nghiệm, câu hỏi" />
+    <link rel="shortcut icon" href="../img/a7m9t9umbj.png" type="image/x-icon">
+    <meta name="author" content="" />
+    <meta name="generator" content="" />
+    <link href="App_Themes/Giaoduc/css/all.css" rel="stylesheet" type="text/css" />
+    <link href="App_Themes/Giaoduc/css/calendar.css" rel="stylesheet" type="text/css" />
+    <link href="App_Themes/Giaoduc/css/paging.css" rel="stylesheet" type="text/css" />
+    <script src="App_Themes/Giaoduc/js/calendar_us.js" type="text/javascript"></script>
+    <link href="App_Themes/Giaoduc/css/forall.css" rel="stylesheet" type="text/css" />
+    <link href="App_Themes/Giaoduc/css/facebox.css" rel="stylesheet" type="text/css" />
+    <script src="App_Themes/Giaoduc/js/forall.js" type="text/javascript"></script>
+    <script src="App_Themes/Giaoduc/js/facebox.js" type="text/javascript"></script>
+    <link href="App_Themes/Giaoduc/css/slide.css" rel="stylesheet" type="text/css" />
+    <link href="App_Themes/Giaoduc/css/default.css" rel="stylesheet" type="text/css" />
+    <link href="App_Themes/Giaoduc/css/nivo-slider.css" rel="stylesheet" type="text/css" />
+    <script src="App_Themes/Giaoduc/js/jquery-1.9.0.min.js" type="text/javascript"></script>
+    <script src="App_Themes/Giaoduc/js/jquery.nivo.slider.js" type="text/javascript"></script>
+    <script type="text/javascript" language="javascript" src="App_Themes/Giaoduc/js/jquery.carouFredSel-6.2.1-packed.js"></script>
+    <!-- optionally include helper plugins -->
+    <script type="text/javascript" language="javascript" src="App_Themes/Giaoduc/js/helper-plugins/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" language="javascript" src="App_Themes/Giaoduc/js/helper-plugins/jquery.touchSwipe.min.js"></script>
+    <script type="text/javascript" language="javascript" src="App_Themes/Giaoduc/js/helper-plugins/jquery.transit.min.js"></script>
+    <script type="text/javascript" language="javascript" src="App_Themes/Giaoduc/js/helper-plugins/jquery.ba-throttle-debounce.min.js"></script>
+    <script type="text/javascript">
+        $(window).load(function () {
+            $('#slider').nivoSlider();
+        });
+    </script>
+    <script type="text/javascript" language="javascript">
+
+        $(function () {
+
+            $('#foo2').carouFredSel({
+                auto: false,
+                prev: '#prev',
+                next: '#next',
+                mousewheel: true,
+                swipe: {
+                    onMouse: true,
+                    onTouch: true
+                }
+            });
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="header">
+        <div class="wrapper">
+            <a href="http://vietnamobile.com.vn/" class="logoleft">
+                <img alt="" src="App_Themes/Giaoduc/img/logo_vnm.png" /></a> <a href="" class="logoright">
+                    <img alt="" src="App_Themes/Giaoduc/img/logo_ctt.png" /></a>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="wrapper">
+            <ul>
+                <li ><a id="trangchu" href="/Trangchu.htm">Trang chủ</a></li>
+                <span></span>
+                <li><a id="tintuc" href="/Tintuc.htm">Tin tức</a></li>
+                <span></span>
+                <li><a id="monhoc" href="/Monhoc.htm">Môn học</a></li>
+                <span></span>
+                <li><a id="canhan" href="/Canhan.htm">Cá nhân</a></li>
+                <span></span>
+                <li><a id="bangvang" href="/Bangvang.htm">Bảng vàng</a></li>
+                <span></span>
+                <li><a id="thele" href="/Thele.htm">Thể lệ</a></li>
+                <span></span>
+            </ul>
+        </div>
+
+    </div>
+    <div class="wrapper">
+        <div class="main_content">
+            <!-- Banner Top -->
+            <uc2:BannerTop ID="BannerTop1" runat="server" />
+            <!-- end banner Top -->
+            <div class="marquee">
+                <marquee onmouseover="this.stop()" onmouseout="this.start()">
+        Từ 25/07/2013 soạn DK gửi 777 tham gia Cổng thông tin Giáo Dục Trực Tuyến để có cơ hội nhận Laptop Sony Vaio SVE-1513MCX và thẻ cào điện thoại 500.000 mỗi tuần.
+        </marquee>
+            </div>
+            <div class="content_view">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+                <!-- Menu Left -->
+            </div>
+        </div>
+        <!-- slide show -->
+        <uc1:SlideShow ID="SlideShow1" runat="server" />
+        <!-- End slide show -->
+    </div>
+    <div class="footer">
+        <div class="wrapper">
+            <ul>
+                <li><a href="/Trangchu.htm">Trang chủ</a></li>
+                |
+                <li><a href="/Tintuc.htm">Tin tức</a></li>
+                |
+                <li><a href="/Monhoc.htm">Môn học</a></li>
+                |
+                <li><a href="/Canhan.htm">Cá nhân</a></li>
+                |
+                <li><a href="/Bangvang.htm">Bảng vàng</a></li>
+                |
+                <li><a href="/Thele.htm">Thể lệ</a></li>
+            </ul>
+            <div class="content">
+                <div class="left_f">
+                    <span>&copy; Vietnamobile 2013</span>
+                </div>
+                <div class="right_f">
+                    Support by <a href="http://hts.vn/">
+                        <img src="App_Themes/Giaoduc/img/lg_hts.png" alt="" /></a></div>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

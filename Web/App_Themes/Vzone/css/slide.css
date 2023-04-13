@@ -1,0 +1,224 @@
+/* == truemove style == 
+*/
+.AllCommonCate
+{
+	float: left;
+   
+    /*
+ height: 240px;
+    margin-right: 5px;
+    margin-left: 4px;
+    margin-top: 5px;
+    width: 235px;
+	*/
+	margin-right: 25px;
+    margin-top: 5px;
+    width: 325px;
+}
+img.promotion-title{
+	float:left;
+	width:320px;
+	height:24px;
+}
+
+#promotion-prepay-pane,
+#promotion-postpay-pane{
+	clear:both;
+	padding:3px 3px 0;
+	background:white;
+}
+/* == Exclusive app == */
+div.rotator {
+	height: 102px;
+	width: 100%;
+	padding: 0;
+	margin:0;
+}
+
+/* == core style == */
+.accordion-list {	
+	width: 320px;
+}
+.accordion-head {
+	padding:5px 6px 6px 6px;
+	cursor: pointer;
+	position: relative;
+	margin:0;
+    font-weight:bold;
+	/*border-top:1px solid #E8E8E8;*/
+	color:#424142;
+	font-size:13px;
+}
+.accordion-head a{
+	text-decoration:none;
+	color:#424142;
+	
+}
+.accordion-head a:hover{
+	text-decoration:none;
+	color: #FC6707;
+}
+.accordion-head a:visited
+{
+	color:#424142;
+}
+.accordion-head a:visit
+{
+	color:#424142;
+}
+.accordion-pane {
+	height:250px;
+	background:white;
+	overflow:hidden;
+}
+.accordion-pane p.accordion-active span{
+	/*color:#436a0d;*/
+	color:#FC6707;
+	font-size:13px;
+}
+.accordion-head .txt-gray{
+	color:#788491;
+}
+.accordion-body {
+	display:none;
+	padding:0 10px 10px;
+	height:110px;
+	text-align:justify;
+}
+.accordion-body img{
+	width:105px;
+	height:100px;
+	float:left;
+	padding-right: 10px;
+}
+.accordion-body a{
+  display:block;
+  color:#006699;
+  padding-left:13px;
+  text-decoration:none;
+}
+.CateTileBar
+{
+	background-image: url('../img/CateBar.gif');
+	background-position:center;
+	background-repeat:repeat-x;
+	height:25px;
+	padding-left: 15px;
+}
+
+.CateTileBar .CateName
+{
+	background-image: url('../img/CateBarActive.gif');
+	background-position:center;
+	background-repeat:repeat-x;
+	height:25px;
+	float:left;
+	padding-left:10px;
+	width:160px;
+	text-align:left;
+	border-right-color:#ffffff;
+	border-right-width:1px;
+	border-right-style:solid;
+}
+
+.CateTileBar .CateName a
+{
+	color:#424142;
+	text-decoration: none;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:16px;
+}
+.CateTileBar .CateName a:hover
+{
+	color:#436a0d;
+}
+.CateTileBar .CateName a:visit
+{
+	color:#424142;
+}
+.CateTileBar .CateName_Euro
+{
+	background-image: url('../img/CateBarActive.gif');
+	background-position:center;
+	background-repeat:repeat-x;
+	height:18px;
+	float:left;
+	padding-left:10px;
+	width:160px;
+	text-align:left;
+	border-right-color:#ffffff;
+	border-right-width:1px;
+	border-right-style:solid;
+}
+.CateTileBar .CateName_Euro a
+{
+	color:#424142;
+	text-decoration: none;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:14px;
+}
+.CateTileBar .CateName_Euro a:hover
+{
+	color:#436a0d;
+}
+.CateTileBar .CateName_Euro a:visit
+{
+	color:#424142;
+}
+.CateTileBar .View
+{
+	float:right;
+	background-image: url('../img/Down.png');
+	background-position:right bottom;
+	background-repeat:no-repeat;
+	height:23px;
+	padding-top:2px;
+}
+.CateTileBar .View:hover
+{
+	background-image: url('../img/DownHover.png');
+	background-position:right bottom;
+	background-repeat:no-repeat;
+}
+.CateTileBar .View a
+{
+	color:#424142;
+	padding: 2px 6px 2px 6px;
+	height:22px;
+	width:30px;
+	white-space:nowrap;
+	padding-right:32px;
+}
+.CateTileBar .View a:hover
+{
+	color:#436a0d;
+}
+.CateTileBar .View a:visit
+{
+	color:#424142;
+}
+
+
+.AllCommonCate .cate-main
+{
+	background: url("../img/DownHoverOrange.png") repeat-x scroll 0 0 #FFFFFF;
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px 6px 6px;
+    color:#fff;	
+}
+
+.AllCommonCate .cate-main a
+{
+	color:#fff;
+	font-size:13px;
+}
+
+.AllCommonCate .cate-main a:hover
+{
+	text-decoration:underline;
+}

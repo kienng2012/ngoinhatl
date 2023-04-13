@@ -1,0 +1,210 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+#top_page{
+	width:100%;	
+	clear: both !important;
+	padding:0px;
+	font-family:'Arial';
+	font-size:12px;
+	color:#ffffff;
+	line-height:16px;
+	background-image:url('../img/toppage-bg.gif');
+	background-color:#376ec1; 
+	background-position:top;
+	background-repeat:repeat-x;
+	height:30px;
+	/*border-bottom: 2px solid #bebebe;*/
+	position:fixed;
+    top:0px;
+ 	z-index:9999;
+}
+
+#top_page li{list-style-type:none;}
+/*#top_page .left{ margin:0px auto;}*/
+#top_page .left
+{
+    display:inline-block;    
+    margin: 0 0 0 -40px;
+}
+#top_page .right{float:right}
+#top_page img{border:0px}
+#top_page p { margin:0px; padding-bottom:10px;}
+#top_page a:link, a:visited, a:active{
+	text-decoration:none;
+	outline:none;
+}
+#top_page a:hover{text-decoration:none;}
+#top_page a.outline-dotted:focus, a.outline-dotted.outline-dotted-focus {
+	outline:#333 dotted 1px;
+}
+.clearfix:after{
+	content:'[DO NOT LEAVE IT IS NOT REAL]'; 
+	display:block; 
+	height:0; 
+	clear:both; 
+	visibility:hidden;
+}
+.clearfix{
+	display:inline;
+}
+.clearfix{
+	display:block;
+}
+.clear{
+	clear:both;
+}
+#wrapper-container {
+    width: 100%;
+}
+
+
+#main_top .left li{
+	float:left;	
+	line-height:26px;
+	color:#c6d1dc;
+	background:url(../game/images/drash_1x11.gif) no-repeat left 9px;
+}
+.mynaviga li.start{
+	background:url(../game/images/drash_1x11.gif) no-repeat left 9px;	
+}
+#main_top .left li.start{
+	background:none;
+}
+#main_top .left li a{
+	padding:0 10px;
+	line-height:26px;
+	display:block;
+	height:26px;
+	float:left;
+	color:#ffffff;
+	border-left-width:1px;
+	border-left-color:#ffffff;
+}
+#main_top .left li a:hover{
+	color:#fff600;
+	text-decoration:none;
+	height:25px;
+	margin:1px 0 0 0;
+	line-height:25px;
+}
+#main_top .left li.start.more a{
+	padding-left:10px;
+}
+#main_top .left li.active a{
+	font:700 11px/26px Arial;
+	color:#0080ff;
+	background: repeat-x  left -2px;
+}
+#main_top .left li.active a:hover{
+	height:26px;
+	line-height:26px;
+	margin:0;
+}
+#main_top .left li .arrow{
+	background:url(../game/images/arrow-bottom.gif) no-repeat left 5px;
+}
+#main_top .left li.more{
+	position:relative;
+}
+
+#main_top .left li.lastItem{
+	position:relative;
+	float:left;
+	line-height:26px;
+	color:#c6d1dc;
+	background:url(../game/images/drash_1x11.gif) no-repeat left 9px;
+}
+
+#main_top .left li.lastItem span {
+	padding:0 10px;
+	line-height:26px;
+	display:block;
+	height:26px;
+	float:left;
+	color:#ffffff;
+	background:url(../game/images/arrow-bottom.gif) no-repeat right center;
+}
+
+#main_top .left li.lastItem #subtop{
+	display: none;
+}
+
+#main_top .left li.lastItem:hover #subtop{
+	display: block;
+	left: 0;
+}
+*html #main_top .left li.more #hasmore{
+	padding-top:7px!important;
+	height:18px!important;
+}
+
+#top_page #main_top {
+	width: 980px; 
+	margin: 0px auto;
+	text-align:center;
+}
+
+#main_top .left #hasmore{
+	display:block;
+	height:25px;
+	margin-left:2px;
+	margin-top:1px;
+	position:relative;
+	z-index:99999;
+	line-height:25px;
+	
+}
+#main_top .left #hasmore.over{
+	border-right:1px solid #719cc1;
+	border-left:1px solid #719cc1;
+	background:#fff;padding:0 9px;
+}
+#main_top .left #subtop{
+	width:105px;
+	z-index:9999;
+	border:1px solid #719cc1;
+	background:#fff;
+	display:none;
+	position:absolute;
+	left:2px;
+	top:25px;
+}
+*html #main_top .left #subtop{
+	left:4px;
+}
+#main_top .left #subtop .content_subtop a{
+	width:85px;
+	text-align:left;
+	display:block;
+	color:#636363;
+}
+#main_top .left #subtop .content_subtop{
+	position:relative;
+	z-index:999999;
+}
+#main_top .left #subtop a:hover{
+	color:#014c8f;
+}
+.nav-right {
+	padding-left:6px;
+}
+#top_page .nav-right a {
+	color:#014c8f;
+}
+
+
+
+#taskbar_top {
+    width: 100%;
+    position:fixed;
+    top:0px;
+ 	z-index:9999;
+    font-family: Arial;
+    font-size: 11px;
+    margin: 0px auto;
+    border-bottom: 2px solid #bebebe;
+}
+*html #taskbar_top{
+  position:absolute;
+}

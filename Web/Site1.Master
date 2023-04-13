@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Web.Site1" %>
+
+<%@ Register Src="Control/MenuTrai.ascx" TagName="MenuTrai" TagPrefix="uc1" %>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Hệ thống Quản lý NMN</title>
+    <link type="text/css" rel="stylesheet" href="/Skin/admivdc.css" />
+    <link type="text/css" rel="stylesheet" href="/Skin/reset.css" />
+    <link type="text/css" rel="stylesheet" href="/Skin/PopupPopup.css" />
+    <%--        <script type="text/javascript" src="/js/jquery-latest.js"></script>
+    <script type="text/javascript" src="/js/thickbox.js"></script>
+    <link rel="stylesheet" href="/js/thickbox.css" type="text/css" media="screen" />--%>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="doc3" class="yui-t2">
+            <div id="hd">
+                <div class="admin-header">
+                    <div class="bannerHead">
+                        <img src="Skin/Images/bannerHTS.png" />
+                    </div>
+                    <%--    <a href="http://home.vnn.vn/" target="_blank" class="logo"><img src="<%=strURL %>/images/logo.png" alt="adminlogo"></a>--%>
+                    <div class="tab-login" visible="false" runat="server" id="login">
+                        <p>Xin chào <a href="/Default.aspx?page=UserProfile&id=5"><span>
+                            <asp:Label ID="lblUser" runat="server" Text=""></asp:Label></span></a></p>
+                        <p>
+                            (<span><asp:Label ID="lblUserLogin" runat="server" Text=""></asp:Label></span> đã đăng nhập) |
+					            <asp:LinkButton ID="LinkButton1" runat="server" CausesValidation="False"
+                                    OnClick="LinkButton1_Click">Đăng xuất</a></asp:LinkButton>
+                        </p>
+                        <p>
+                            <%--<a href="Quantri_Thanhvien_Doimatkhau.aspx">thay đổi mật khẩu</a>--%>
+                        </p>
+                    </div>
+                    <div class="clear-all"></div>
+                </div>
+            </div>
+            <div id="bd">
+                <div id="yui-main">
+                    <div class="yui-b">
+                        <div class="yui-g">
+                            <div class="main-admin">
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="yui-b">
+                    <uc1:MenuTrai ID="MenuTrai1" runat="server" />
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+           <p class="mb-2 text-white">Copyright &copy; <a class="font-weight-bold" href="#">nmnchinhhang.vn</a>. All Rights Reserved.</a></p>
+
+        </div>
+    </form>
+</body>
+</html>

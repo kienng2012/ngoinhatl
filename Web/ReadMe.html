@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    Fix : Invalid postback or callback argument. Event validation is enabled using <pages enableeventvalidation="true" />
+    Ref : https://stackoverflow.com/questions/228969/invalid-postback-or-callback-argument-event-validation-is-enabled-using-page
+    Ref2: https://forums.asp.net/t/1903036.aspx?how+to+set+EnableEventValidation+false+from+userControl+DotNetNuke
+    Ex : <%@ Page Language="C#" AutoEventWireup="true" EnableEventValidation="false"  CodeBehind="WebForm1.aspx.cs" Inherits="WebApplication1.WebForm1" %>
+
+    Add : rewrite url in framework 4:
+    https://www.c-sharpcorner.com/article/url-rewriting-in-asp-net-4-0-4-5-webform/
+
+    Custom error 404 in web config :
+    https://stackoverflow.com/questions/10116804/how-to-return-own-404-custom-page
+
+    <system.web>
+        <customErrors mode="On" defaultRedirect="~/Error.aspx" redirectMode="ResponseRewrite" />
+    </system.web>
+
+    <system.webServer>
+        <httpErrors errorMode="Custom">
+            <remove statusCode="404" />
+            <error statusCode="404" path="/Error.aspx" responseMode="ExecuteURL" />
+        </httpErrors>
+    </system.webServer>
+
+    Config url rewrite
+    <!--http://chiencong.com/su-dung-url-rewrite-trong-asp-net -->
+    <!-- check route in aspx-->
+    if (Page.RouteData.Values[pageQuery] != null)
+    page = (ModulePages)Enum.Parse(typeof(ModulePages), Convert.ToString(Page.RouteData.Values["page"]), true);
+
+    <!-- enable GZip in IIS Window server https://docs.webfactory-i4.com/webfactory2010/en/enabling-dynamic-content-compression-in-internet-information-services--iis--manager.html-->
+</body>
+</html>

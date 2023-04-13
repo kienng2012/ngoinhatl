@@ -1,0 +1,70 @@
+.holder {
+	position: relative;
+	overflow: hidden;
+	margin-left:0px;
+	margin-right:0px;
+	z-index: 2;
+	width:974px;
+}
+.caroufredsel_wrapper {width:974px!important; height:140px!important;}
+.holder ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 30000px;
+}
+.holder ul li {
+	float: left;
+	width: 169px;
+	padding:5px;
+	background:#fff;
+	border-bottom:3px solid #ea4490;
+	margin-right:19px;
+	text-align:center;
+}
+.holder ul li img  
+{
+	width:169px;
+	height:100px;
+}
+p.title_s {color:#ff9100; padding:3px 0;}
+#next {
+	position: absolute;
+	right: -75px;
+	top: 40px;
+	width: 57px;
+	height: 47px;
+	background: url(../img/right-arrow-bottom.png) no-repeat bottom;
+	z-index: 20;
+	overflow: hidden;
+	text-indent: -9999px;
+	outline: none;
+	cursor: pointer;
+	padding-right:-40px;
+}
+#next:hover{
+	background-position:top;
+}
+#prev {
+	position: absolute;
+	left: -75px;
+	top: 40px;
+	width: 57px;
+	height: 47px;
+	background: url(../img/left-arrow-bottom.png) no-repeat bottom;
+	z-index: 20;
+	overflow: hidden;
+	text-indent: -9999px;
+	outline: none;
+	cursor: pointer;
+	padding-right:-40px;
+}
+#prev:hover{
+	background-position:top;
+}
+.slideservice
+{
+	margin-top:10px;	
+	margin-bottom:10px;
+	position:relative;
+}

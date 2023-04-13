@@ -1,0 +1,103 @@
+﻿.Paging {
+    padding: 0!important;
+    text-align: center!important;
+    display:inline-block!important;
+    font-weight:normal!important;
+    margin:6px 10px!important;
+}
+.Paging img
+{
+	border:0px!important;
+	padding:0px!important;
+}
+.Paging li {
+    float: left!important;
+    font: 10px arial!important;
+    list-style: none outside none!important;
+}
+.Paging a {
+    border: 1px solid #BBBCBE!important;
+    color: #000000!important;
+    margin-right: 2px!important;
+    font-weight:normal!important;
+	border-radius: 6px 6px 6px 6px;
+	-moz-border-radius: 6px 6px 6px 6px;
+	-webkit-border-radius: 6px 6px 6px 6px;
+}
+.Paging a:link, .Paging a:visited {
+    display: block!important;
+    float: left!important;
+    padding: 3px 7px!important;
+    text-decoration: none!important;
+}
+.Paging a:hover
+{
+	color:#ffffff!important;
+    -moz-box-shadow: 0px 0px 4px 1px #777777;
+	-webkit-box-shadow:0px 4px 0px 1px #777777;
+	box-shadow:0px 0px 4px 1px #777777;
+}
+.Paging a:hover {
+    background: none repeat scroll 0 0 #3399CC!important;
+    border: 1px solid #BBBCBE!important;
+    color: #FFFFFF!important;
+}
+.Paging .previous a:link, .Paging .previous a:visited, .Paging .previous a:active {
+    background: none repeat scroll 0 0 #3399CC!important;
+    border: 1px solid #BBBCBE!important;
+    color: #FFFFFF!important;
+    padding: 3px 8px 3px 9px!important;
+    text-decoration: none!important;
+}
+.Paging .next a:link, .Paging .next a:visited, .Paging .next a:active {
+    background: none repeat scroll 0 0 #3399CC!important;
+    border: 1px solid #BBBCBE!important;
+    color: #FFFFFF!important;
+    padding: 3px 8px 3px 9px!important;
+    text-decoration: none!important;
+}
+.Paging .active {
+    background: none repeat scroll 0 0 #3399CC!important;
+    border: 1px solid #BBBCBE!important;
+    color: #FFFFFF!important;
+    display: block!important;
+    float: left!important;
+    font-weight: bold!important;
+    margin-right: 2px!important;
+    padding: 3px 7px!important;
+}
+.Paging .p_current {
+    background: none repeat scroll 0 0 #3399CC!important;
+    border: 1px solid #BBBCBE!important;
+    color: #FFFFFF!important;
+    display: block!important;
+    float: left!important;
+    font-weight: bold!important;
+    margin-right: 2px!important;
+    padding: 3px 7px!important;
+}
+.Paging .viewmore {
+    background: none repeat scroll 0 0 #BBBCBE!important;
+    border: 0 none!important;
+    color: #014992!important;
+}
+.Paging .viewmore a {
+    border: 0 none!important;
+    color: #014992!important;
+    padding: 10px 0 0 5px!important;
+    text-decoration: none!important;
+}
+.Paging .viewmore a:hover {
+    background: none repeat scroll 0 0 transparent!important;
+    color: #FFFFFF!important;
+    text-decoration: none!important;
+}
+.Paging a.dot {
+    border: 1px solid #BBBCBE!important;
+    height: 17px!important;
+    padding: 3px 8px!important;
+    width: 13px!important;
+}
+.Paging a.dot:hover {
+    border: 1px solid #BBBCBE!important;
+}

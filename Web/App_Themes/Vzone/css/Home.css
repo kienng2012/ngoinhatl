@@ -1,0 +1,254 @@
+.ads-border{
+	z-index:50;
+}
+.ads-border,
+.banner-slide{
+	position:absolute;left:0;top:0;
+	width:300px;
+	height:250px;
+}
+
+#followus{
+	padding-left:111px;
+}
+
+#map-display{
+	overflow: hidden; height:200px; clear: both;
+}
+
+/* image replacement */
+	.graphic, #prevBtn, #nextBtn, #slider1prev, #slider1next{
+		margin:0;
+		padding:0;
+		display:block;
+		overflow:hidden;
+		text-indent:-8000px;
+	}
+/* // image replacement */
+		
+#container{	
+	margin:0 auto;
+	margin-top:0px;
+	position:relative;
+	text-align:left;
+	width:738px;	
+}	
+
+#content{
+	position:relative;
+}			
+.label {
+	position: absolute;
+	margin-left: 0px;
+	margin-top: 0px;
+	z-index:5;
+}
+/* Easy Slider */
+
+	#slider ul, #slider li{
+		margin:0;
+		padding:0;
+		list-style:none;
+		}
+
+	#slider ul, #slider li img{
+		margin:0;
+		padding:0;		
+	    border-radius: 7px 7px 7px 7px;
+	    -moz-border-radius: 7px 7px 7px 7px;
+	    -webkit-border-radius: 7px 7px 7px 7px;
+		}
+	#slider li{ 
+		/* 
+			define width and height of list item (slide)
+			entire slider area will adjust according to the parameters provided here
+		*/ 
+		width:738px;
+		height:250px;
+		overflow:hidden; 
+		}	
+	#prevBtn, #nextBtn{ 
+		display:block;
+		width:30px;
+		height:33px;
+		position:absolute;
+		top:110px;
+		z-index:200;
+		}	
+	#nextBtn{ 
+		left:708px;
+		}													
+	#prevBtn a, #nextBtn a{  
+		display:block;
+		position:relative;
+		width:30px;
+		height:30px;
+		background:url(../img/btn_prev.png) no-repeat 0 0;
+		}
+		#nextBtn a{
+			display:block;
+			position:relative;
+			width:30px;
+			height:30px;
+			background:url(../img/btn_next.png) no-repeat 0 0;
+		}
+		#prevBtn a:hover{  
+		display:block;
+		position:relative;
+		width:30px;
+		height:30px;
+		background:url(../img/btn_prev_over.png) no-repeat 0 0;
+		}
+	#nextBtn a:link,#nextBtn a:active,#nextBtn a:visited{ 
+		background:url(../img/btn_next.png) no-repeat 0 0;	
+		}	
+	#nextBtn a:hover{ 
+		background:url(../img/btn_next_over.png) no-repeat 0 0;	
+		}	
+		
+	/* numeric controls */	
+
+	ol#controls{
+		margin:1em 0;
+		padding:0;
+		height:28px;	
+		}
+	ol#controls li{
+		margin:0 10px 0 0; 
+		padding:0;
+		float:left;
+		list-style:none;
+		height:28px;
+		line-height:28px;
+		}
+	ol#controls li a{
+		float:left;
+		height:28px;
+		line-height:28px;
+		border:1px solid #ccc;
+		background:#DAF3F8;
+		color:#555;
+		padding:0 10px;
+		text-decoration:none;
+		}
+	ol#controls li.current a{
+		background:#5DC9E1;
+		color:#fff;
+		}
+	ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus{outline:none;}
+	
+	
+/* // Easy Slider */
+
+
+/* -----------------------------start---Promotion------------------------------------- */
+
+a.btn-slide{
+	display:inline-block;
+	width:10px;
+	height:10px;
+	margin:2px 3px;
+	position:relative;
+	cursor:pointer;
+}
+a.btn-off{
+	background:url('../img/bullet_off.png') left top;
+}
+a.btn-on{
+	background:url('../img/bullet_on.png') left top;
+}
+
+/* -----------------------------end---Promotion--------------------------------------- */
+
+#rightScroller{
+	cursor: pointer; position: absolute; top: 65px; right: 10px;
+}
+#leftClicker{
+	cursor: pointer; position: absolute; left: 4px; top: 65px;
+}
+
+/* What's new */
+#scroller{
+	clear:both;
+	position:relative;
+	width:450px;
+	height:160px;
+	background:url(../img/bg_new.jpg) no-repeat;
+	padding-left: 37px;
+}
+#outerScroller {
+	float:left;
+	padding-top: 10px;
+	width: 420px;
+	overflow: hidden;
+	height: 150px;
+	border:0px solid #000;
+	position:relative;
+}
+#outerScroller li{
+	float:left;
+	width:422px;
+	list-style:none;
+	height:150px;
+}
+#outerScroller li img{
+	float:left;
+}
+#leftControl {
+	float: left;
+	width: 25px;
+	text-align: center;
+	padding-top: 60px;
+}
+#rightControl {
+	float: left;
+	width: 25px;
+	text-align: center;
+	padding-top: 60px;
+}
+#whatnews-btnprev{
+	left:4px;
+	position:absolute;
+	top:0;
+	width:25px;
+}
+#whatnews-btnnext {
+	display:block;
+	width:25px;
+	left:459px;
+	position:absolute;
+}
+.btn-hlslide{
+	display:inline-block;
+	width:10px;
+	height:10px;
+	margin:2px 3px;
+	position:relative;
+	cursor:pointer;
+}
+
+/* a.btn-hloff{
+	background:url('../img/bullet_off.png') no-repeat left top;
+}
+a.btn-hlon{
+	background:url('../img/bullet_on.png') no-repeat left top;
+} */
+a.btn-hloff{
+	background:url('../img/bullet-on-off.gif') no-repeat left top;
+	width:10px;
+	height:10px;
+}
+a.btn-hloffpng{
+	background:url('../img/bullet_on_off.png') no-repeat left top;
+	width:10px;
+	height:10px;
+}
+a.btn-hlon{
+	background-position:left bottom;
+}
+a.btn-hlonpng{
+	background-position:left bottom;
+}
+.banner-hlslide{
+	position:absolute;left:0;top:0;
+}
