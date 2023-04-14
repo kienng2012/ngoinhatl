@@ -1,24 +1,135 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="MenuTop.ascx.cs" Inherits="Web.Control.nmn.MenuTop" %>
 
-<!-- Navbar Start -->
-<div class="container-fluid p-0 nav-bar">
-    <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
-        <a href="http://nmnchinhhang.vn/" class="navbar-brand px-lg-4 m-0">
-            <!--<h1 class="m-0 display-4 text-uppercase text-white">NMN25600+</h1>-->
-            <img src="../../App_Themes/nmn/img/logo-nmn.png" alt="" class="logo-nmn" />
-        </a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-            <div class="navbar-nav ml-auto p-4">
-                <%--<a href="Trang-chu.htm" class="nav-item nav-link active">Trang chủ</a>--%>
-                <a href="http://nmnchinhhang.vn" class="nav-item nav-link">Trang chủ</a>
-                <a href="San-pham.htm" class="nav-item nav-link">Sản phẩm</a>
-                <a href="Tin-tuc.htm" class="nav-item nav-link">Tin tức & Bài viết</a>
-                <a href="Lien-he.htm" class="nav-item nav-link">Liên hệ & Đặt lịch</a>
+<!-- HEADER -->
+<header id="header" class="overlay-top sticky-dark">
+    <div class="header-inner clearfix">
+
+        <!-- DEFAULT HEADER CONTENT -->
+        <div class="default-header-content">
+            <div id="logo" class="left-float">
+                <a id="default-logo" class="logotype" href="https://housedesign.vn/">
+                    <img width="180" height="98" src="App_Themes/nntl/img/light-1-1-e1510918301906.png" alt="Logo" data-lazy-src="https://housedesign.vn/wp-content/uploads/2017/11/light-1-1-e1510918301906.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="180" height="98" src="https://housedesign.vn/wp-content/uploads/2017/11/light-1-1-e1510918301906.png" alt="Logo"></noscript>
+                </a><a id="fixed-logo" class="logotype" href="https://housedesign.vn/">
+                    <img width="320" height="175" src="App_Themes/nntl/img/232Model.png" alt="Logo" data-lazy-src="https://housedesign.vn/wp-content/uploads/2017/11/232Model.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="320" height="175" src="https://housedesign.vn/wp-content/uploads/2017/11/232Model.png" alt="Logo"></noscript>
+                </a>
+            </div>
+
+            <div class="menu right-float clearfix">
+
+                <nav id="traditional-nav" class="clearfix">
+                    <ul id="primary" class="">
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="https://housedesign.vn/" data-bigletter="T">Trang chủ</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+                            <a href="https://housedesign.vn/du-an/" data-bigletter="D">Dự án</a>
+                            <ul class="sub-menu" style="display: none;">
+                                <li class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category"><a href="https://housedesign.vn/du-an/can-ho/">Căn hộ</a></li>
+                                <li class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category"><a href="https://housedesign.vn/du-an/nha-pho/">Nhà phố</a></li>
+                                <li class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category"><a href="https://housedesign.vn/du-an/biet-thu/">Biệt thự</a></li>
+                                <li class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category"><a href="https://housedesign.vn/du-an/cafe-nha-hang-khach-san/">Cafe – Nhà hàng – Khách sạn</a></li>
+                                <li class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category"><a href="https://housedesign.vn/du-an/showroom-shop/">Showroom-shop</a></li>
+                                <li class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category"><a href="https://housedesign.vn/du-an/van-phong/">Văn phòng</a></li>
+                                <li class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category"><a href="https://housedesign.vn/du-an/kien-truc/">Kiến trúc</a></li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/du-an-thi-cong/">Hình ảnh thi công</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+                            <a href="https://housedesign.vn/thiet-ke-noi-that/" data-bigletter="T">THIẾT KẾ NỘI THẤT</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/thiet-ke-noi-that-chung-cu/">Thiết kế nội thất chung cư</a></li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/thiet-ke-noi-that-van-phong/">Thiết kế nội thất văn phòng</a></li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/thiet-ke-noi-that-nha-pho/">Thiết kế nội thất nhà phố</a></li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/thiet-ke-noi-that-biet-thu/">Thiết kế nội thất biệt thự</a></li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/thiet-ke-noi-that-shop/">Thiết kế nội thất shop</a></li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/thiet-ke-noi-that-khach-san/">Thiết kế nội thất khách sạn</a></li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/thiet-ke-noi-that-showroom/">Thiết kế nội thất showroom</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+                            <a href="https://housedesign.vn/phong-cach-thiet-ke/" data-bigletter="P">PHONG CÁCH THIẾT KẾ</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-hien-dai/">Nội thất hiện đại</a></li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-industrial/">Industrial</a></li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-scandinavian/">Scandinavian</a></li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-duong-dai/">Đương đại</a></li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-minimalist/">Minimalist</a></li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-indochine//">Indochine</a></li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-urban/">Urban</a></li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-tan-co-dien/">Tân cổ điển</a></li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-mix-match/">Mix and match</a></li>
+                            </ul>
+                        </li>
+                        <li class="blogmenu menu-item menu-item-type-post_type menu-item-object-page"><a href="https://housedesign.vn/blog/" data-bigletter="B">Blog</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://amase.vn/" data-bigletter="D">Decor Shop</a></li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://housedesign.vn/gioi-thieu/" data-bigletter="G">Giới thiệu</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/lien-he/" data-bigletter="L">Liên hệ</a></li>
+                    </ul>
+                </nav>
+
+                <a href="https://housedesign.vn/#" class="open-nav ">
+                    <span class="hamburger"></span>
+                </a>
+                <nav id="main-nav" class="text-light">
+                    <div class="nav-logo">
+                        <img width="180" height="98" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20180%2098&#39;%3E%3C/svg%3E" alt="Logo Menu" data-lazy-src="https://housedesign.vn/wp-content/uploads/2017/11/light-1-1-e1510918301906.png"><noscript><img width="180" height="98" src="https://housedesign.vn/wp-content/uploads/2017/11/light-1-1-e1510918301906.png" alt="Logo Menu"></noscript>
+                    </div>
+                    <div class="nav-inner">
+                        <ul id="primary" class="">
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="https://housedesign.vn/" data-bigletter="T">Trang chủ</a></li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+                                <a href="https://housedesign.vn/du-an/" data-bigletter="D">Dự án</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category"><a href="https://housedesign.vn/du-an/can-ho/">Căn hộ</a></li>
+                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category"><a href="https://housedesign.vn/du-an/nha-pho/">Nhà phố</a></li>
+                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category"><a href="https://housedesign.vn/du-an/biet-thu/">Biệt thự</a></li>
+                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category"><a href="https://housedesign.vn/du-an/cafe-nha-hang-khach-san/">Cafe – Nhà hàng – Khách sạn</a></li>
+                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category"><a href="https://housedesign.vn/du-an/showroom-shop/">Showroom-shop</a></li>
+                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category"><a href="https://housedesign.vn/du-an/van-phong/">Văn phòng</a></li>
+                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category"><a href="https://housedesign.vn/du-an/kien-truc/">Kiến trúc</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/du-an-thi-cong/">Hình ảnh thi công</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+                                <a href="https://housedesign.vn/thiet-ke-noi-that/" data-bigletter="T">THIẾT KẾ NỘI THẤT</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/thiet-ke-noi-that-chung-cu/">Thiết kế nội thất chung cư</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/thiet-ke-noi-that-van-phong/">Thiết kế nội thất văn phòng</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/thiet-ke-noi-that-nha-pho/">Thiết kế nội thất nhà phố</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/thiet-ke-noi-that-biet-thu/">Thiết kế nội thất biệt thự</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/thiet-ke-noi-that-shop/">Thiết kế nội thất shop</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/thiet-ke-noi-that-khach-san/">Thiết kế nội thất khách sạn</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/thiet-ke-noi-that-showroom/">Thiết kế nội thất showroom</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+                                <a href="https://housedesign.vn/phong-cach-thiet-ke/" data-bigletter="P">PHONG CÁCH THIẾT KẾ</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-hien-dai/">Nội thất hiện đại</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-industrial/">Industrial</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-scandinavian/">Scandinavian</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-duong-dai/">Đương đại</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-minimalist/">Minimalist</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-indochine//">Indochine</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-urban/">Urban</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-tan-co-dien/">Tân cổ điển</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-mix-match/">Mix and match</a></li>
+                                </ul>
+                            </li>
+                            <li class="blogmenu menu-item menu-item-type-post_type menu-item-object-page"><a href="https://housedesign.vn/blog/" data-bigletter="B">Blog</a></li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://amase.vn/" data-bigletter="D">Decor Shop</a></li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://housedesign.vn/gioi-thieu/" data-bigletter="G">Giới thiệu</a></li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/lien-he/" data-bigletter="L">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-bg"></div>
+                </nav>
+
+
+
             </div>
         </div>
-    </nav>
-</div>
-<!-- Navbar End -->
+        <!-- DEFAULT HEADER CONTENT -->
+
+    </div>
+    <!-- END .header-inner -->
+</header>
+<!-- END header -->

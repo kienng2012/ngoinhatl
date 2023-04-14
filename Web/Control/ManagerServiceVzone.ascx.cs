@@ -263,7 +263,7 @@ namespace Web.Control
                         {
                             lblStatus.Text = "Please select a file to upload.";
                         }
-                    
+
                         //if (CheckValidFile(fileUpload) == false && CheckFileSize(fileUpload) == false)
                         //{
                         //    lblStatus.Text = "Kích thước tập tin quá lớn hoặc tập tin không đúng định dạng!";
@@ -343,16 +343,45 @@ namespace Web.Control
                 objInfo.U_UserName = Session["Username"].ToString();
                 if (fileUpload.HasFile)
                 {
-                    if (CheckValidFile(fileUpload) == false && CheckFileSize(fileUpload) == false)
+                    //if (CheckValidFile(fileUpload) == false && CheckFileSize(fileUpload) == false)
+                    //{
+                    //    lblStatus.Text = "Kích thước tập tin quá lớn hoặc tập tin không đúng định dạng!";
+                    //    return;
+                    //}
+                    //else
+                    //{
+                    //    String path = "/Skin/Images/Category/" + fileUpload.FileName;
+                    //    fileUpload.SaveAs(MapPath(path));
+                    //    objInfo.CS_ImageURL = path;
+                    //}
+                    if ((fileUpload.PostedFile != null) && (fileUpload.PostedFile.ContentLength > 0))
                     {
-                        lblStatus.Text = "Kích thước tập tin quá lớn hoặc tập tin không đúng định dạng!";
-                        return;
+                        var count = 0;
+                        String path = "/Upload/Article/";
+                        foreach (HttpPostedFile uploadedFile in fileUpload.PostedFiles)
+                        {
+                            //string fn = System.IO.Path.GetFileName(uploadedFile.FileName);
+                            string SaveLocation = path + uploadedFile.FileName;
+                            //string SaveLocation = Server.MapPath(urlFile);
+                            try
+                            {
+                                uploadedFile.SaveAs(MapPath(SaveLocation));
+                                count++;
+                                objInfo.CS_ImageURL = SaveLocation;
+                            }
+                            catch (Exception ex)
+                            {
+                                lblStatus.Text = "Error: " + ex.Message;
+                            }
+                        }
+                        if (count > 0)
+                        {
+                            lblStatus.Text = count + " files has been uploaded.";
+                        }
                     }
                     else
                     {
-                        String path = "/Skin/Images/Category/" + fileUpload.FileName;
-                        fileUpload.SaveAs(MapPath(path));
-                        objInfo.CS_ImageURL = path;
+                        lblStatus.Text = "Please select a file to upload.";
                     }
                 }
                 bool status = CategorySubDB.Update(objInfo);

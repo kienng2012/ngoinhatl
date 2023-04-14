@@ -13,59 +13,5 @@ namespace Web.Control.nmn
 
     public partial class Home
     {
-
-        /// <summary>
-        /// SlideShowHome1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::Web.Control.nmn.SlideShowHome SlideShowHome1;
-
-        /// <summary>
-        /// ArticleProduct1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::Web.Control.nmn.ArticleProduct ArticleProduct1;
-
-        /// <summary>
-        /// Offer1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::Web.Control.nmn.Offer Offer1;
-
-        /// <summary>
-        /// ArticleTop control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::Web.Control.nmn.ArticleTop ArticleTop;
-
-        /// <summary>
-        /// ReservationForm1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::Web.Control.nmn.ReservationForm ReservationForm1;
-
-        /// <summary>
-        /// Testimonial1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::Web.Control.nmn.Testimonial Testimonial1;
     }
 }
