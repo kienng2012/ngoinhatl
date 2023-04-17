@@ -1,7 +1,8 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="MenuTop.ascx.cs" Inherits="Web.Control.nmn.MenuTop" %>
 
 <!-- HEADER -->
-<header id="header" class="overlay-top sticky-dark">
+<%--<header id="header" class="overlay-top sticky-dark">--%>
+<header id="header" class="non-overlay sticky-dark">
     <div class="header-inner clearfix">
 
         <!-- DEFAULT HEADER CONTENT -->
@@ -21,7 +22,7 @@
                         <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="https://housedesign.vn/" data-bigletter="T">Trang chủ</a></li>
                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
                             <a href="https://housedesign.vn/du-an/" data-bigletter="D">Dự án</a>
-                            <ul class="sub-menu" style="display: none;">
+                            <ul class="sub-menu">
                                 <li class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category"><a href="https://housedesign.vn/du-an/can-ho/">Căn hộ</a></li>
                                 <li class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category"><a href="https://housedesign.vn/du-an/nha-pho/">Nhà phố</a></li>
                                 <li class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category"><a href="https://housedesign.vn/du-an/biet-thu/">Biệt thự</a></li>
