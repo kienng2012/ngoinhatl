@@ -144,7 +144,7 @@ img {
 }
 /** Ly do lua chon */
 
-@media (max-width: 768px)
+@media (max-width: 767px)
 .criteria_home {
     padding: 30px 0 30px;
 }
@@ -152,7 +152,7 @@ img {
     padding: 100px 0;
     position: relative;
 }
-@media (max-width: 768px)
+@media (max-width: 767px)
 .criteria_home .item {
     width: 100%;
     padding: 20px 0 10px;
@@ -162,11 +162,11 @@ img {
 .criteria_home .item .number {
     font-size: 42px;
 }
-@media (max-width: 768px)
+@media (max-width: 767px)
 .criteria_home .item .box {
     padding: 10px;
 }
-@media (max-width: 768px)
+@media (max-width: 767px)
 .criteria_home .item .number {
     font-size: 32px;
 }
@@ -174,12 +174,12 @@ img {
 .criteria_home .item .box {
     padding: 30px 0 0;
 }
-@media (max-width: 768px)
+@media (max-width: 767px)
 .criteria_home .title {
     font-size: 22px;
     margin-bottom: 0;
 }
-@media (max-width: 768px)
+@media (max-width: 767px)
 .criteria_home .list {
     padding-right: 0;
 }
@@ -332,7 +332,7 @@ img {
     font-size: 15px;
     line-height: 1.6;
 }
-@media (max-width: 768px)
+@media (max-width: 767px)
 .criteria_home .item .number {
     font-size: 32px;
 }
