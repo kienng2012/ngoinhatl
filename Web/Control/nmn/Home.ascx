@@ -3,8 +3,6 @@
 <%--<%@ Register Src="~/Control/nmn/SlideShowHome.ascx" TagName="slideShowHome" TagPrefix="uc2" %>--%>
 <!-- PAGEBODY -->
 <div class="">
-
-
     <section class="header1 cid-qNzLcQheRk mbr-fullscreen" id="header1-8w">
         <div class="slider-box mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-12">
             <div class="owl-carousel owl-theme banner-carousel owl-loaded owl-drag" id="banner-carousel">
@@ -113,7 +111,7 @@
         </div>
     </section>
 
-   <%-- <section id="service-slide">
+    <%-- <section id="service-slide">
         <div class="service-header">
         </div>
         <div class="container">
@@ -320,7 +318,84 @@
         </div>
     </section>--%>
 
-
+    <section class="criteria_home">
+        <div class="background" style="background-image: url(https://nordic.vn/wp-content/uploads/2022/08/Untitled-11.png);"></div>
+        <div class="container-fluid">
+            <h2 class="title"><span></span>tiêu chí thiết kế</h2>
+            <div class="list">
+                <div class="item">
+                    <div class="inner">
+                        <div class="number">
+                            <span class="num">1</span>
+                            <span class="text">Thói
+                                <br>
+                                quen</span>
+                            <span class="bgitem"><span class="num2">1</span></span>
+                        </div>
+                        <div class="box">
+                            <div class="text">Các thiết kế được Team R&amp;D nghiên cứu một cách tỉ mẩn, kỹ lưỡng dựa trên thói quen sống của người Việt nhằm mang đến trải nghiệm phù hợp nhất.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="inner">
+                        <div class="number">
+                            <span class="num">2</span>
+                            <span class="text">Lối
+                                <br>
+                                sống</span>
+                            <span class="bgitem"><span class="num2">2</span></span>
+                        </div>
+                        <div class="box">
+                            <div class="text">Trước khi một sản phẩm được hoàn thiện, Team R&amp;D đã có khoảng thời gian tìm hiểu về lối sống và văn hóa bao đời của người Việt. Từ những chi tiết nhỏ như khoang để đồ để không gian gọn gàng hơn, nâng cao chất lượng sống lên tầm cao mới.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="inner">
+                        <div class="number">
+                            <span class="num">3</span>
+                            <span class="text">Sở
+                                <br>
+                                thích</span>
+                            <span class="bgitem"><span class="num2">3</span></span>
+                        </div>
+                        <div class="box">
+                            <div class="text">Mỗi sản phẩm đều được cá nhân hóa theo sở thích của từng cá nhân, về chất liệu, màu sắc,... phù hợp với mọi nhu cầu của khách hàng và thị hiếu của người Việt.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="inner">
+                        <div class="number">
+                            <span class="num">4</span>
+                            <span class="text">Khí
+                                <br>
+                                hậu</span>
+                            <span class="bgitem"><span class="num2">4</span></span>
+                        </div>
+                        <div class="box">
+                            <div class="text">Các chất liệu được nghiên cứu và chọn lọc kỹ lưỡng để sản phẩm thích nghi với mọi vùng khí hậu. Chất liệu vải &amp; da được chọn lựa dễ lau chùi, khó bám bẩn, đặc biệt thích nghi tốt với khí hậu nhiệt đới gió mùa ẩm ở Việt Nam.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="inner">
+                        <div class="number">
+                            <span class="num">5</span>
+                            <span class="text">Nhân
+                                <br>
+                                trắc</span>
+                            <span class="bgitem"><span class="num2">5</span></span>
+                        </div>
+                        <div class="box">
+                            <div class="text">Mọi sản phẩm nội thất của NORDIC được nghiên cứu dựa trên form người của người Việt. Kích thước phù hợp mang đến trải nghiệm thoải mái, an toàn và tiện dụng cho khách hàng.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="lightbox2 slider cid-qOxVjlTQtx" id="lightbox2-gk">
         <div class="mbr-overlay"></div>
         <div class="container-fluid">
@@ -546,7 +621,7 @@
         </div>
     </section>
 
-  <%--  <section class="collection_home">
+    <%--  <section class="collection_home">
         <div class="container">
             <div class="background bg_section" style="background-image: url('App_Themes/nntl/img/bgPhongCach.jpg');"></div>
             <div class="container-fluid">
@@ -1155,7 +1230,7 @@
 
 
 
-<%--    <section class="mbr-section content1 cid-qNzXHD1s7j" id="content1-9a">
+    <%--    <section class="mbr-section content1 cid-qNzXHD1s7j" id="content1-9a">
         <div class="container">
             <h2 class="mbr-title align-center mbr-fonts-style display-2">Blog</h2>
         </div>

@@ -142,4 +142,198 @@ img {
     max-width: 50%;
     padding: 0 15px;
 }
+/** Ly do lua chon */
 
+@media (max-width: 768px)
+.criteria_home {
+    padding: 30px 0 30px;
+}
+.criteria_home {
+    padding: 100px 0;
+    position: relative;
+}
+@media (max-width: 768px)
+.criteria_home .item {
+    width: 100%;
+    padding: 20px 0 10px;
+}
+
+@media (max-width: 1536px)
+.criteria_home .item .number {
+    font-size: 42px;
+}
+@media (max-width: 768px)
+.criteria_home .item .box {
+    padding: 10px;
+}
+@media (max-width: 768px)
+.criteria_home .item .number {
+    font-size: 32px;
+}
+@media (max-width: 1536px)
+.criteria_home .item .box {
+    padding: 30px 0 0;
+}
+@media (max-width: 768px)
+.criteria_home .title {
+    font-size: 22px;
+    margin-bottom: 0;
+}
+@media (max-width: 768px)
+.criteria_home .list {
+    padding-right: 0;
+}
+@media (max-width: 1536px)
+.criteria_home .title {
+    font-size: 36px;
+}
+@media (max-width: 1536px)
+.criteria_home .title {font-size: 36px;}
+.criteria_home .background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+.criteria_home .title {
+    font-size: 46px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.criteria_home .container-fluid {
+    position: relative;
+    z-index: 2;
+}
+.container-fluid {
+    padding: 0 50px;
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container-fluid:before {
+    display: table;
+    content: " ";
+}
+.container-fluid:after{
+	clear: both;
+}
+@media (max-width: 1536px)
+.criteria_home .title span {
+    font-size: 72px;
+}
+.criteria_home .title span {
+    font-size: 100px;
+    color: #bea887;
+    margin-right: 10px;
+    font-style: italic;
+    line-height: 80px;
+    padding-bottom: 15px;
+}
+.criteria_home .list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 70px;
+}
+.criteria_home .item {
+    width: 20%;
+    padding: 0 0 50px 40px;
+    position: relative;
+}
+@media (max-width: 1536px)
+.criteria_home .item .number {
+    font-size: 42px;
+}
+.criteria_home .item .number {
+    border-radius: 50%;
+    background-image: -moz-linear-gradient(57deg,#f3f3f3 0%,#fff 100%);
+    background-image: -webkit-linear-gradient(57deg,#f3f3f3 0%,#fff 100%);
+    background-image: -ms-linear-gradient(57deg,#f3f3f3 0%,#fff 100%);
+    width: 170px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 170px;
+    box-shadow: rgb(0 0 0/30%) 0px 19px 38px, rgb(0 0 0/7%) 12px 8px 14px;
+}
+.criteria_home .item .number .num {
+    font-size: 180px;
+    font-weight: 700;
+    position: absolute;
+    bottom: -15px;
+    left: -6px;
+    color: #bea887;
+    z-index: 1;
+    line-height: 1;
+}
+.criteria_home .item .number .text {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1.1;
+    z-index: 3;
+}
+.criteria_home .item .number .bgitem {
+    display: block;
+    width: calc(100% - 12px);
+    height: calc(100% - 12px);
+    border-radius: 100%;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-image: -moz-linear-gradient(-159deg,#f3f3f3 0%,#fff 100%);
+    background-image: -webkit-linear-gradient(-159deg,#f3f3f3 0%,#fff 100%);
+    background-image: -ms-linear-gradient(-159deg,#f3f3f3 0%,#fff 100%);
+    content: '';
+    z-index: 2;
+    overflow: hidden;
+}
+.criteria_home .item .number .num2 {
+    font-size: 180px;
+    font-weight: 700;
+    position: absolute;
+    bottom: -21px;
+    left: -12px;
+    color: #d3bb96;
+    z-index: 1;
+    line-height: 1;
+}
+@media (max-width: 1536px)
+.criteria_home .item .box {
+    padding: 30px 0 0;
+}
+.criteria_home .item .box {
+    padding: 35px 0 0;
+    position: relative;
+    z-index: 2;
+    text-align: justify;
+    text-align-last: center;
+}
+.criteria_home .item .box .text {
+    font-size: 15px;
+    line-height: 1.6;
+}
+@media (max-width: 768px)
+.criteria_home .item .number {
+    font-size: 32px;
+}
+/***/
