@@ -113,15 +113,11 @@
         </div>
     </section>
 
-    <section id="service-slide">
+   <%-- <section id="service-slide">
         <div class="service-header">
         </div>
         <div class="container">
             <div class="owl-carousel owl-theme service-carousel owl-loaded owl-drag" id="service-carousel">
-
-
-
-
                 <div class="owl-stage-outer">
                     <div class="owl-stage" style="transform: translate3d(-2260px, 0px, 0px); transition: all 0.25s ease 0s; width: 9040px;">
                         <div class="owl-item cloned" style="width: 1110px; margin-right: 20px;">
@@ -322,7 +318,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>--%>
 
 
     <section class="lightbox2 slider cid-qOxVjlTQtx" id="lightbox2-gk">
@@ -528,7 +524,7 @@
                             <button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button>
                             <button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button>
                         </div>
-                        <div class="owl-dots">
+                        <%--<div class="owl-dots">
                             <button role="button" class="owl-dot"><span></span></button>
                             <button role="button" class="owl-dot"><span></span></button>
                             <button role="button" class="owl-dot active"><span></span></button>
@@ -538,7 +534,7 @@
                             <button role="button" class="owl-dot"><span></span></button>
                             <button role="button" class="owl-dot"><span></span></button>
                             <button role="button" class="owl-dot"><span></span></button>
-                        </div>
+                        </div>--%>
                     </div>
                 </div>
 
@@ -550,7 +546,7 @@
         </div>
     </section>
 
-    <section class="collection_home">
+  <%--  <section class="collection_home">
         <div class="container">
             <div class="background bg_section" style="background-image: url('App_Themes/nntl/img/bgPhongCach.jpg');"></div>
             <div class="container-fluid">
@@ -713,7 +709,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>--%>
 
     <section id="reason">
 
@@ -819,7 +815,7 @@
         </div>
     </section>
 
-    <section class="expert_home">
+    <%--<section class="expert_home">
         <div class="container">
             <div class="background bg_section" style="background-image: url('App_Themes/nntl/img/bgDoiNgu.jpg');"></div>
             <div class="container-fluid">
@@ -909,7 +905,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>--%>
 
 
     <%-- <section class="testimonials-slider3 slider cid-rc6ztNtWvz" id="testimonials-slider3-jl">
@@ -1157,25 +1153,26 @@
         </div>
     </section>--%>
 
-    <section class="mbr-section content1 cid-qNzXHD1s7j" id="content1-9a">
+
+
+<%--    <section class="mbr-section content1 cid-qNzXHD1s7j" id="content1-9a">
         <div class="container">
             <h2 class="mbr-title align-center mbr-fonts-style display-2">Blog</h2>
         </div>
-    </section>
+    </section>--%>
 
-    <section class="features7 cid-qNzO9fSDY2" id="features7-8z">
+    <%--<section class="features7 cid-qNzO9fSDY2" id="features7-8z">
         <div class="container">
             <div class="blog-view">
                 <div id="blog-grid" class="home-blog masonry blog-entries masonry-spaced clearfix" data-maxitemwidth="370" style="position: relative; height: 802px;">
                     <div class="blog-entry blog-masonry-entry masonry-item" style="position: absolute; left: 0px; top: 0px; width: 358px;">
                         <div class="blog-media">
-                            <a href="https://housedesign.vn/thiet-ke-noi-that-chung-cu-tphcm/" class="transition" style="height: 200px; background: url(&#39;https://housedesign.vn/wp-content/uploads/2022/12/thiet-ke-noi-that-chung-cu-tphcm-420x323.jpg&#39;) no-repeat center center"></a>
+                            <a href="https://housedesign.vn/thiet-ke-noi-that-chung-cu-tphcm/" class="transition" style="height: 200px; background: url('https://housedesign.vn/wp-content/uploads/2022/12/thiet-ke-noi-that-chung-cu-tphcm-420x323.jpg') no-repeat center center"></a>
                         </div>
                         <div class="blog-content">
                             <div class="blog-headline">
                                 <h5 class="post-name">
-                                    <a href="https://housedesign.vn/thiet-ke-noi-that-chung-cu-tphcm/" class="transition">20+ Mẫu thiết kế nội thất chung cư TpHCM - Phong cách hiện đại, sang trọng
-                                            </a>
+                                    <a href="https://housedesign.vn/thiet-ke-noi-that-chung-cu-tphcm/" class="transition">20+ Mẫu thiết kế nội thất chung cư TpHCM - Phong cách hiện đại, sang trọng                                </a>
                                 </h5>
                                 <span class="more-info">House Design - <span>17/12/2022</span></span>
                             </div>
@@ -1184,13 +1181,12 @@
                     </div>
                     <div class="blog-entry blog-masonry-entry masonry-item" style="position: absolute; left: 368px; top: 0px; width: 358px;">
                         <div class="blog-media">
-                            <a href="https://housedesign.vn/goi-y-7-xu-huong-thiet-ke-noi-that-2022-ma-ban-khong-nen-bo-lo/" class="transition" style="height: 200px; background: url(&#39;https://housedesign.vn/wp-content/uploads/2021/11/z2290751990143_1c02019a6621851edda724968d6befc1-420x240.jpg&#39;) no-repeat center center"></a>
+                            <a href="https://housedesign.vn/goi-y-7-xu-huong-thiet-ke-noi-that-2022-ma-ban-khong-nen-bo-lo/" class="transition" style="height: 200px; background: url('https://housedesign.vn/wp-content/uploads/2021/11/z2290751990143_1c02019a6621851edda724968d6befc1-420x240.jpg') no-repeat center center"></a>
                         </div>
                         <div class="blog-content">
                             <div class="blog-headline">
                                 <h5 class="post-name">
-                                    <a href="https://housedesign.vn/goi-y-7-xu-huong-thiet-ke-noi-that-2022-ma-ban-khong-nen-bo-lo/" class="transition">Gợi ý 7 xu hướng thiết kế nội thất 2022 mà bạn không nên bỏ lỡ
-                                            </a>
+                                    <a href="https://housedesign.vn/goi-y-7-xu-huong-thiet-ke-noi-that-2022-ma-ban-khong-nen-bo-lo/" class="transition">Gợi ý 7 xu hướng thiết kế nội thất 2022 mà bạn không nên bỏ lỡ                                </a>
                                 </h5>
                                 <span class="more-info">House Design - <span>24/11/2021</span></span>
                             </div>
@@ -1199,13 +1195,12 @@
                     </div>
                     <div class="blog-entry blog-masonry-entry masonry-item" style="position: absolute; left: 736px; top: 0px; width: 358px;">
                         <div class="blog-media">
-                            <a href="https://housedesign.vn/bao-gia-chi-phi-thi-cong-noi-that-can-ho-tron-goi-moi-nhat-2021/" class="transition" style="height: 200px; background: url(&#39;https://housedesign.vn/wp-content/uploads/2021/07/z2580310931970_ac1f6afafede519473707ea9d86b9fc6-420x336.jpg&#39;) no-repeat center center"></a>
+                            <a href="https://housedesign.vn/bao-gia-chi-phi-thi-cong-noi-that-can-ho-tron-goi-moi-nhat-2021/" class="transition" style="height: 200px; background: url('https://housedesign.vn/wp-content/uploads/2021/07/z2580310931970_ac1f6afafede519473707ea9d86b9fc6-420x336.jpg') no-repeat center center"></a>
                         </div>
                         <div class="blog-content">
                             <div class="blog-headline">
                                 <h5 class="post-name">
-                                    <a href="https://housedesign.vn/bao-gia-chi-phi-thi-cong-noi-that-can-ho-tron-goi-moi-nhat-2021/" class="transition">Báo giá chi phí thi công nội thất căn hộ trọn gói mới nhất 2021
-                                            </a>
+                                    <a href="https://housedesign.vn/bao-gia-chi-phi-thi-cong-noi-that-can-ho-tron-goi-moi-nhat-2021/" class="transition">Báo giá chi phí thi công nội thất căn hộ trọn gói mới nhất 2021                                </a>
                                 </h5>
                                 <span class="more-info">House Design - <span>24/07/2021</span></span>
                             </div>
@@ -1214,13 +1209,12 @@
                     </div>
                     <div class="blog-entry blog-masonry-entry masonry-item" style="position: absolute; left: 0px; top: 401px; width: 358px;">
                         <div class="blog-media">
-                            <a href="https://housedesign.vn/top-5-xu-huong-thiet-ke-noi-that-chu-dao-nam-2020/" class="transition" style="height: 200px; background: url(&#39;https://housedesign.vn/wp-content/uploads/2020/05/moodboard-blog_05-02-20378hny_blog-420x236.jpg&#39;) no-repeat center center"></a>
+                            <a href="https://housedesign.vn/top-5-xu-huong-thiet-ke-noi-that-chu-dao-nam-2020/" class="transition" style="height: 200px; background: url('https://housedesign.vn/wp-content/uploads/2020/05/moodboard-blog_05-02-20378hny_blog-420x236.jpg') no-repeat center center"></a>
                         </div>
                         <div class="blog-content">
                             <div class="blog-headline">
                                 <h5 class="post-name">
-                                    <a href="https://housedesign.vn/top-5-xu-huong-thiet-ke-noi-that-chu-dao-nam-2020/" class="transition">Top 5 xu hướng thiết kế nội thất chủ đạo năm 2020
-                                            </a>
+                                    <a href="https://housedesign.vn/top-5-xu-huong-thiet-ke-noi-that-chu-dao-nam-2020/" class="transition">Top 5 xu hướng thiết kế nội thất chủ đạo năm 2020                                </a>
                                 </h5>
                                 <span class="more-info">House Design - <span>27/05/2020</span></span>
                             </div>
@@ -1229,13 +1223,12 @@
                     </div>
                     <div class="blog-entry blog-masonry-entry masonry-item" style="position: absolute; left: 368px; top: 401px; width: 358px;">
                         <div class="blog-media">
-                            <a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-indochine/" class="transition" style="height: 200px; background: url(&#39;https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-indochine-420x420.jpg&#39;) no-repeat center center"></a>
+                            <a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-indochine/" class="transition" style="height: 200px; background: url('https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-indochine-420x420.jpg') no-repeat center center"></a>
                         </div>
                         <div class="blog-content">
                             <div class="blog-headline">
                                 <h5 class="post-name">
-                                    <a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-indochine/" class="transition">Phong cách nội thất Đông Dương trong nội thất
-                                            </a>
+                                    <a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-indochine/" class="transition">Phong cách nội thất Đông Dương trong nội thất                                </a>
                                 </h5>
                                 <span class="more-info">House Design - <span>23/12/2019</span></span>
                             </div>
@@ -1244,13 +1237,12 @@
                     </div>
                     <div class="blog-entry blog-masonry-entry masonry-item" style="position: absolute; left: 736px; top: 401px; width: 358px;">
                         <div class="blog-media">
-                            <a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-industrial/" class="transition" style="height: 200px; background: url(&#39;https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-industrial-420x322.jpg&#39;) no-repeat center center"></a>
+                            <a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-industrial/" class="transition" style="height: 200px; background: url('https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-industrial-420x322.jpg') no-repeat center center"></a>
                         </div>
                         <div class="blog-content">
                             <div class="blog-headline">
                                 <h5 class="post-name">
-                                    <a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-industrial/" class="transition">Phong cách Industrial trong nội thất
-                                            </a>
+                                    <a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-industrial/" class="transition">Phong cách Industrial trong nội thất                                </a>
                                 </h5>
                                 <span class="more-info">House Design - <span>23/12/2019</span></span>
                             </div>
@@ -1260,7 +1252,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>--%>
 
     <section data-bg="https://housedesign.vn/wp-content/uploads/2021/11/what-we-have-banner.jpeg" class="rocket-lazyload" id="what-we-have" style="">
         <div class="header">
