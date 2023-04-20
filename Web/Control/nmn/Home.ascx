@@ -318,7 +318,8 @@
         </div>
     </section>--%>
 
-    <section class="criteria_home">
+
+    <div class="criteria_home">
         <div class="background" style="background-image: url(https://nordic.vn/wp-content/uploads/2022/08/Untitled-11.png);"></div>
         <div class="container-fluid">
             <h2 class="title"><span></span>tiêu chí thiết kế</h2>
@@ -395,7 +396,8 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+
     <section class="lightbox2 slider cid-qOxVjlTQtx" id="lightbox2-gk">
         <div class="mbr-overlay"></div>
         <div class="container-fluid">
@@ -621,170 +623,168 @@
         </div>
     </section>
 
-    <%--  <section class="collection_home">
-        <div class="container">
-            <div class="background bg_section" style="background-image: url('App_Themes/nntl/img/bgPhongCach.jpg');"></div>
-            <div class="container-fluid">
-                <div class="title_home2 white">
-                    <h2 class="title">New Collection</h2>
-                    <a href="https://nordic.vn/san-pham/" class="link">Xem tất cả</a>
-                </div>
-                <div class="slider">
-                    <div class="owl-carousel owl-loaded owl-drag">
-                        <div class="owl-stage-outer">
-                            <div class="owl-stage" style="transform: translate3d(-1209px, 0px, 0px); transition: all 0s ease 0s; width: 4034px;">
-                                <div class="owl-item cloned" style="width: 403.333px;">
-                                    <div class="item">
-                                        <div class="img">
-                                            <a href="https://nordic.vn/pige/">
-                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://nordic.vn/wp-content/uploads/2022/09/anh-thumb-BST-Pige.png" alt="">
-                                                <span class="status">Hot</span>
-                                            </a>
-                                        </div>
-                                        <div class="info">
-                                            <h3 class="name"><a href="https://nordic.vn/pige/">Pige Collection</a></h3>
-                                            <div class="text">Bộ sưu tập PIGE của NORDIC tập trung khai thác chủ đề “tính nữ trong tình yêu”, mang đến những thiết kế mềm mại và bao bọc, cách điệu mà tối giản.</div>
-                                        </div>
+    <section class="collection_home">
+        <div class="background bg_section" style="background-image: url('App_Themes/nntl/img/bgPhongCach.jpg');"></div>
+        <div class="container-fluid">
+            <div class="title_home2 white">
+                <h2 class="title">New Collection</h2>
+                <a href="https://nordic.vn/san-pham/" class="link">Xem tất cả</a>
+            </div>
+            <div class="slider">
+                <div class="owl-carousel owl-loaded owl-drag">
+                    <div class="owl-stage-outer">
+                        <div class="owl-stage" style="transform: translate3d(-1209px, 0px, 0px); transition: all 0s ease 0s; width: 4034px;">
+                            <div class="owl-item cloned">
+                                <div class="item">
+                                    <div class="img">
+                                        <a href="https://nordic.vn/pige/">
+                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://nordic.vn/wp-content/uploads/2022/09/anh-thumb-BST-Pige.png" alt="">
+                                            <span class="status">Hot</span>
+                                        </a>
+                                    </div>
+                                    <div class="info">
+                                        <h3 class="name"><a href="https://nordic.vn/pige/">Pige Collection</a></h3>
+                                        <div class="text">Bộ sưu tập PIGE của NORDIC tập trung khai thác chủ đề “tính nữ trong tình yêu”, mang đến những thiết kế mềm mại và bao bọc, cách điệu mà tối giản.</div>
                                     </div>
                                 </div>
-                                <div class="owl-item cloned" style="width: 403.333px;">
-                                    <div class="item">
-                                        <div class="img">
-                                            <a href="https://nordic.vn/mand/">
-                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://nordic.vn/wp-content/uploads/2022/09/anh-thumb-BST-Mand-ver2.png" alt="">
-                                                <span class="status">New</span>
-                                            </a>
-                                        </div>
-                                        <div class="info">
-                                            <h3 class="name"><a href="https://nordic.vn/mand/">Mand Collection</a></h3>
-                                            <div class="text">Lấy ý tưởng từ vẻ mạnh mẽ, phóng khoáng của nam giới, Sofa AESIR mang đến một không gian ấn tượng và cá tính. Phù hợp với những người nội tâm mạnh mẽ, luôn chăm chút cẩn thận cho góc riêng trong cuộc sống của mình.</div>
-                                        </div>
+                            </div>
+                            <div class="owl-item cloned">
+                                <div class="item">
+                                    <div class="img">
+                                        <a href="https://nordic.vn/mand/">
+                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://nordic.vn/wp-content/uploads/2022/09/anh-thumb-BST-Mand-ver2.png" alt="">
+                                            <span class="status">New</span>
+                                        </a>
+                                    </div>
+                                    <div class="info">
+                                        <h3 class="name"><a href="https://nordic.vn/mand/">Mand Collection</a></h3>
+                                        <div class="text">Lấy ý tưởng từ vẻ mạnh mẽ, phóng khoáng của nam giới, Sofa AESIR mang đến một không gian ấn tượng và cá tính. Phù hợp với những người nội tâm mạnh mẽ, luôn chăm chút cẩn thận cho góc riêng trong cuộc sống của mình.</div>
                                     </div>
                                 </div>
-                                <div class="owl-item cloned" style="width: 403.333px;">
-                                    <div class="item">
-                                        <div class="img">
-                                            <a href="">
-                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://nordic.vn/wp-content/uploads/2022/11/Untitled-1-1.jpg" alt="">
-                                                <span class="status">New</span>
-                                            </a>
-                                        </div>
-                                        <div class="info">
-                                            <h3 class="name"><a href="">The Nest </a></h3>
-                                            <div class="text">Lấy ý tưởng từ những chiếc tổ, gợi cảm giác của sự gần gũi, sự bao bọc và yêu thương. Đây cũng là ý niệm NORDIC mong muốn mang đến cho một không gian sống chất lượng.</div>
-                                        </div>
+                            </div>
+                            <div class="owl-item cloned">
+                                <div class="item">
+                                    <div class="img">
+                                        <a href="">
+                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://nordic.vn/wp-content/uploads/2022/11/Untitled-1-1.jpg" alt="">
+                                            <span class="status">New</span>
+                                        </a>
+                                    </div>
+                                    <div class="info">
+                                        <h3 class="name"><a href="">The Nest </a></h3>
+                                        <div class="text">Lấy ý tưởng từ những chiếc tổ, gợi cảm giác của sự gần gũi, sự bao bọc và yêu thương. Đây cũng là ý niệm NORDIC mong muốn mang đến cho một không gian sống chất lượng.</div>
                                     </div>
                                 </div>
-                                <div class="owl-item active" style="width: 403.333px;">
-                                    <div class="item">
-                                        <div class="img">
-                                            <a href="https://nordic.vn/bst-2020/">
-                                                <img data-lazyloaded="1" src="https://nordic.vn/wp-content/uploads/2022/11/Untitled-1.jpg" data-src="https://nordic.vn/wp-content/uploads/2022/11/Untitled-1.jpg" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
-                                                <span class="status">New</span>
-                                            </a>
-                                        </div>
-                                        <div class="info">
-                                            <h3 class="name"><a href="https://nordic.vn/bst-2020/">Half Life</a></h3>
-                                            <div class="text">“HALF LIFE” mong muốn mang đến những không gian thực sự đáng sống cho mỗi cá nhân và gia đình thông qua việc biến những món đồ nội thất trở thành “một nửa” đắc lực cho cuộc sống chất lượng.</div>
-                                        </div>
+                            </div>
+                            <div class="owl-item active">
+                                <div class="item">
+                                    <div class="img">
+                                        <a href="https://nordic.vn/bst-2020/">
+                                            <img data-lazyloaded="1" src="https://nordic.vn/wp-content/uploads/2022/11/Untitled-1.jpg" data-src="https://nordic.vn/wp-content/uploads/2022/11/Untitled-1.jpg" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                            <span class="status">New</span>
+                                        </a>
+                                    </div>
+                                    <div class="info">
+                                        <h3 class="name"><a href="https://nordic.vn/bst-2020/">Half Life</a></h3>
+                                        <div class="text">“HALF LIFE” mong muốn mang đến những không gian thực sự đáng sống cho mỗi cá nhân và gia đình thông qua việc biến những món đồ nội thất trở thành “một nửa” đắc lực cho cuộc sống chất lượng.</div>
                                     </div>
                                 </div>
-                                <div class="owl-item active" style="width: 403.333px;">
-                                    <div class="item">
-                                        <div class="img">
-                                            <a href="https://nordic.vn/pige/">
-                                                <img data-lazyloaded="1" src="https://nordic.vn/wp-content/uploads/2022/09/anh-thumb-BST-Pige.png" data-src="https://nordic.vn/wp-content/uploads/2022/09/anh-thumb-BST-Pige.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
-                                                <span class="status">Hot</span>
-                                            </a>
-                                        </div>
-                                        <div class="info">
-                                            <h3 class="name"><a href="https://nordic.vn/pige/">Pige Collection</a></h3>
-                                            <div class="text">Bộ sưu tập PIGE của NORDIC tập trung khai thác chủ đề “tính nữ trong tình yêu”, mang đến những thiết kế mềm mại và bao bọc, cách điệu mà tối giản.</div>
-                                        </div>
+                            </div>
+                            <div class="owl-item active">
+                                <div class="item">
+                                    <div class="img">
+                                        <a href="https://nordic.vn/pige/">
+                                            <img data-lazyloaded="1" src="https://nordic.vn/wp-content/uploads/2022/09/anh-thumb-BST-Pige.png" data-src="https://nordic.vn/wp-content/uploads/2022/09/anh-thumb-BST-Pige.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                            <span class="status">Hot</span>
+                                        </a>
+                                    </div>
+                                    <div class="info">
+                                        <h3 class="name"><a href="https://nordic.vn/pige/">Pige Collection</a></h3>
+                                        <div class="text">Bộ sưu tập PIGE của NORDIC tập trung khai thác chủ đề “tính nữ trong tình yêu”, mang đến những thiết kế mềm mại và bao bọc, cách điệu mà tối giản.</div>
                                     </div>
                                 </div>
-                                <div class="owl-item active" style="width: 403.333px;">
-                                    <div class="item">
-                                        <div class="img">
-                                            <a href="https://nordic.vn/mand/">
-                                                <img data-lazyloaded="1" src="https://nordic.vn/wp-content/uploads/2022/09/anh-thumb-BST-Mand-ver2.png" data-src="https://nordic.vn/wp-content/uploads/2022/09/anh-thumb-BST-Mand-ver2.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
-                                                <span class="status">New</span>
-                                            </a>
-                                        </div>
-                                        <div class="info">
-                                            <h3 class="name"><a href="https://nordic.vn/mand/">Mand Collection</a></h3>
-                                            <div class="text">Lấy ý tưởng từ vẻ mạnh mẽ, phóng khoáng của nam giới, Sofa AESIR mang đến một không gian ấn tượng và cá tính. Phù hợp với những người nội tâm mạnh mẽ, luôn chăm chút cẩn thận cho góc riêng trong cuộc sống của mình.</div>
-                                        </div>
+                            </div>
+                            <div class="owl-item active">
+                                <div class="item">
+                                    <div class="img">
+                                        <a href="https://nordic.vn/mand/">
+                                            <img data-lazyloaded="1" src="https://nordic.vn/wp-content/uploads/2022/09/anh-thumb-BST-Mand-ver2.png" data-src="https://nordic.vn/wp-content/uploads/2022/09/anh-thumb-BST-Mand-ver2.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                            <span class="status">New</span>
+                                        </a>
+                                    </div>
+                                    <div class="info">
+                                        <h3 class="name"><a href="https://nordic.vn/mand/">Mand Collection</a></h3>
+                                        <div class="text">Lấy ý tưởng từ vẻ mạnh mẽ, phóng khoáng của nam giới, Sofa AESIR mang đến một không gian ấn tượng và cá tính. Phù hợp với những người nội tâm mạnh mẽ, luôn chăm chút cẩn thận cho góc riêng trong cuộc sống của mình.</div>
                                     </div>
                                 </div>
-                                <div class="owl-item" style="width: 403.333px;">
-                                    <div class="item">
-                                        <div class="img">
-                                            <a href="">
-                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://nordic.vn/wp-content/uploads/2022/11/Untitled-1-1.jpg" alt="">
-                                                <span class="status">New</span>
-                                            </a>
-                                        </div>
-                                        <div class="info">
-                                            <h3 class="name"><a href="">The Nest </a></h3>
-                                            <div class="text">Lấy ý tưởng từ những chiếc tổ, gợi cảm giác của sự gần gũi, sự bao bọc và yêu thương. Đây cũng là ý niệm NORDIC mong muốn mang đến cho một không gian sống chất lượng.</div>
-                                        </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="item">
+                                    <div class="img">
+                                        <a href="">
+                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://nordic.vn/wp-content/uploads/2022/11/Untitled-1-1.jpg" alt="">
+                                            <span class="status">New</span>
+                                        </a>
+                                    </div>
+                                    <div class="info">
+                                        <h3 class="name"><a href="">The Nest </a></h3>
+                                        <div class="text">Lấy ý tưởng từ những chiếc tổ, gợi cảm giác của sự gần gũi, sự bao bọc và yêu thương. Đây cũng là ý niệm NORDIC mong muốn mang đến cho một không gian sống chất lượng.</div>
                                     </div>
                                 </div>
-                                <div class="owl-item cloned" style="width: 403.333px;">
-                                    <div class="item">
-                                        <div class="img">
-                                            <a href="https://nordic.vn/bst-2020/">
-                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://nordic.vn/wp-content/uploads/2022/11/Untitled-1.jpg" alt="">
-                                                <span class="status">New</span>
-                                            </a>
-                                        </div>
-                                        <div class="info">
-                                            <h3 class="name"><a href="https://nordic.vn/bst-2020/">Half Life</a></h3>
-                                            <div class="text">“HALF LIFE” mong muốn mang đến những không gian thực sự đáng sống cho mỗi cá nhân và gia đình thông qua việc biến những món đồ nội thất trở thành “một nửa” đắc lực cho cuộc sống chất lượng.</div>
-                                        </div>
+                            </div>
+                            <div class="owl-item cloned">
+                                <div class="item">
+                                    <div class="img">
+                                        <a href="https://nordic.vn/bst-2020/">
+                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://nordic.vn/wp-content/uploads/2022/11/Untitled-1.jpg" alt="">
+                                            <span class="status">New</span>
+                                        </a>
+                                    </div>
+                                    <div class="info">
+                                        <h3 class="name"><a href="https://nordic.vn/bst-2020/">Half Life</a></h3>
+                                        <div class="text">“HALF LIFE” mong muốn mang đến những không gian thực sự đáng sống cho mỗi cá nhân và gia đình thông qua việc biến những món đồ nội thất trở thành “một nửa” đắc lực cho cuộc sống chất lượng.</div>
                                     </div>
                                 </div>
-                                <div class="owl-item cloned" style="width: 403.333px;">
-                                    <div class="item">
-                                        <div class="img">
-                                            <a href="https://nordic.vn/pige/">
-                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://nordic.vn/wp-content/uploads/2022/09/anh-thumb-BST-Pige.png" alt="">
-                                                <span class="status">Hot</span>
-                                            </a>
-                                        </div>
-                                        <div class="info">
-                                            <h3 class="name"><a href="https://nordic.vn/pige/">Pige Collection</a></h3>
-                                            <div class="text">Bộ sưu tập PIGE của NORDIC tập trung khai thác chủ đề “tính nữ trong tình yêu”, mang đến những thiết kế mềm mại và bao bọc, cách điệu mà tối giản.</div>
-                                        </div>
+                            </div>
+                            <div class="owl-item cloned">
+                                <div class="item">
+                                    <div class="img">
+                                        <a href="https://nordic.vn/pige/">
+                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://nordic.vn/wp-content/uploads/2022/09/anh-thumb-BST-Pige.png" alt="">
+                                            <span class="status">Hot</span>
+                                        </a>
+                                    </div>
+                                    <div class="info">
+                                        <h3 class="name"><a href="https://nordic.vn/pige/">Pige Collection</a></h3>
+                                        <div class="text">Bộ sưu tập PIGE của NORDIC tập trung khai thác chủ đề “tính nữ trong tình yêu”, mang đến những thiết kế mềm mại và bao bọc, cách điệu mà tối giản.</div>
                                     </div>
                                 </div>
-                                <div class="owl-item cloned" style="width: 403.333px;">
-                                    <div class="item">
-                                        <div class="img">
-                                            <a href="https://nordic.vn/mand/">
-                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://nordic.vn/wp-content/uploads/2022/09/anh-thumb-BST-Mand-ver2.png" alt="">
-                                                <span class="status">New</span>
-                                            </a>
-                                        </div>
-                                        <div class="info">
-                                            <h3 class="name"><a href="https://nordic.vn/mand/">Mand Collection</a></h3>
-                                            <div class="text">Lấy ý tưởng từ vẻ mạnh mẽ, phóng khoáng của nam giới, Sofa AESIR mang đến một không gian ấn tượng và cá tính. Phù hợp với những người nội tâm mạnh mẽ, luôn chăm chút cẩn thận cho góc riêng trong cuộc sống của mình.</div>
-                                        </div>
+                            </div>
+                            <div class="owl-item cloned">
+                                <div class="item">
+                                    <div class="img">
+                                        <a href="https://nordic.vn/mand/">
+                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://nordic.vn/wp-content/uploads/2022/09/anh-thumb-BST-Mand-ver2.png" alt="">
+                                            <span class="status">New</span>
+                                        </a>
+                                    </div>
+                                    <div class="info">
+                                        <h3 class="name"><a href="https://nordic.vn/mand/">Mand Collection</a></h3>
+                                        <div class="text">Lấy ý tưởng từ vẻ mạnh mẽ, phóng khoáng của nam giới, Sofa AESIR mang đến một không gian ấn tượng và cá tính. Phù hợp với những người nội tâm mạnh mẽ, luôn chăm chút cẩn thận cho góc riêng trong cuộc sống của mình.</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="owl-nav">
-                            <button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button>
-                            <button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button>
-                        </div>
-                        <div class="owl-dots disabled"></div>
                     </div>
+                    <div class="owl-nav">
+                        <button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button>
+                        <button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button>
+                    </div>
+                    <div class="owl-dots disabled"></div>
                 </div>
             </div>
         </div>
-    </section>--%>
+    </section>
 
     <section id="reason">
 
@@ -890,9 +890,9 @@
         </div>
     </section>
 
-    <%--<section class="expert_home">
+    <section class="expert_home">
         <div class="container">
-            <div class="background bg_section" style="background-image: url('App_Themes/nntl/img/bgDoiNgu.jpg');"></div>
+            <div class="background bg_section" style="background-image: url(https://nordic.vn/wp-content/uploads/2023/04/Untitled-20.jpg);"></div>
             <div class="container-fluid">
                 <div class="title_home2 white">
                     <h2 class="title">Người nổi tiếng nói về Nordic</h2>
@@ -980,7 +980,7 @@
                 </div>
             </div>
         </div>
-    </section>--%>
+    </section>
 
 
     <%-- <section class="testimonials-slider3 slider cid-rc6ztNtWvz" id="testimonials-slider3-jl">
