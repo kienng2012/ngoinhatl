@@ -1,8 +1,106 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Home.ascx.cs" Inherits="Web.Control.nmn.Home" %>
-<%@ Import Namespace="Core.Utils" %>
-<%--<%@ Register Src="~/Control/nmn/SlideShowHome.ascx" TagName="slideShowHome" TagPrefix="uc2" %>--%>
-<!-- PAGEBODY -->
-<main id="main">
+<!DOCTYPE html>
+<!-- saved from url=(0018)https://nordic.vn/ -->
+<html lang="vi" class="no-js">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" async="" src="./Home_Nodric_files/analytics.js"></script>
+    <script data-no-optimize="1">var litespeed_docref = sessionStorage.getItem("litespeed_docref"); litespeed_docref && (Object.defineProperty(document, "referrer", { get: function () { return litespeed_docref } }), sessionStorage.removeItem("litespeed_docref"));</script>
+    <link data-optimized="2" rel="stylesheet" href="App_Themes/house/css/main.css">
+    <title>Showroom đồ nội thất phong cách bắc âu Scandinavian cao cấp</title>
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="description" content="Showroom đồ nội thất phong cách bắc âu Scandinavian cao cấp chuyên cung cấp các món đồ nội thất phong cách bắc âu Scandinavian">
+    <link rel="canonical" href="https://nordic.vn/">
+    <meta property="og:locale" content="vi_VN">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Trang chủ">
+    <meta property="og:description" content="Showroom đồ nội thất phong cách bắc âu Scandinavian cao cấp chuyên cung cấp các món đồ nội thất phong cách bắc âu Scandinavian">
+    <meta property="og:url" content="https://nordic.vn/">
+    <meta property="og:site_name" content="NORDIC">
+    <meta property="article:modified_time" content="2023-04-13T07:50:58+00:00">
+    <meta name="twitter:card" content="summary_large_image">
+    <script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://nordic.vn/","url":"https://nordic.vn/","name":"Showroom đồ nội thất phong cách bắc âu Scandinavian cao cấp","isPartOf":{"@id":"https://nordic.vn/#website"},"datePublished":"2022-08-15T10:33:30+00:00","dateModified":"2023-04-13T07:50:58+00:00","description":"Showroom đồ nội thất phong cách bắc âu Scandinavian cao cấp chuyên cung cấp các món đồ nội thất phong cách bắc âu Scandinavian","breadcrumb":{"@id":"https://nordic.vn/#breadcrumb"},"inLanguage":"vi","potentialAction":[{"@type":"ReadAction","target":["https://nordic.vn/"]}]},{"@type":"BreadcrumbList","@id":"https://nordic.vn/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://nordic.vn/#website","url":"https://nordic.vn/","name":"NORDIC","description":"Một trang web mới sử dụng WordPress","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://nordic.vn/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"vi"}]}</script>
+    <link rel="dns-prefetch" href="https://static.addtoany.com/">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com/">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com/">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com/">
+    <link rel="dns-prefetch" href="https://www.youtube.com/">
+    <link rel="dns-prefetch" href="https://static.doubleclick.net/">
+    <link rel="dns-prefetch" href="https://jnn-pa.googleapis.com/">
+    <link rel="dns-prefetch" href="https://yt3.ggpht.com/">
+    <script type="text/template" id="tmpl-variation-template">
+        <div class="woocommerce-variation-description">{{{ data.variation.variation_description }}}</div>
+        <div class="woocommerce-variation-price">{{{ data.variation.price_html }}}</div>
+        <div class="woocommerce-variation-availability">{{{ data.variation.availability_html }}}</div>
+    </script>
+    <script type="text/template" id="tmpl-unavailable-variation-template">
+        <p>Rất tiếc, sản phẩm này hiện không tồn tại. Hãy chọn một phương thức kết hợp khác.</p>
+    </script>
+    <script type="text/javascript" src="App_Themes/house/js/jquery.min.js" id="jquery-core-js"></script>
+    <link rel="canonical" href="https://nordic.vn/">
+    <noscript>
+        <style>
+            .woocommerce-product-gallery {
+                opacity: 1 !important;
+            }
+        </style>
+    </noscript>
+    <link rel="icon" href="https://nordic.vn/wp-content/uploads/2022/09/cropped-favicon-512px-32x32.png" sizes="32x32">
+    <link rel="icon" href="https://nordic.vn/wp-content/uploads/2022/09/cropped-favicon-512px-192x192.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="https://nordic.vn/wp-content/uploads/2022/09/cropped-favicon-512px-180x180.png">
+    <meta name="msapplication-TileImage" content="https://nordic.vn/wp-content/uploads/2022/09/cropped-favicon-512px-270x270.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <script src="App_Themes/house/js/js1.js" defer="" data-deferred="1"></script>
+    <script src="data:text/javascript;base64,d2luZG93LmRhdGFMYXllcj13aW5kb3cuZGF0YUxheWVyfHxbXTtmdW5jdGlvbiBndGFnKCl7ZGF0YUxheWVyLnB1c2goYXJndW1lbnRzKX0KZ3RhZygnanMnLG5ldyBEYXRlKCkpO2d0YWcoJ2NvbmZpZycsJ1VBLTIzODU5NDg4NS0xJyk=" defer=""></script>
+    <script src="App_Themes/house/js/js2.js)" defer="" data-deferred="1"></script>
+    <script src="data:text/javascript;base64,d2luZG93LmRhdGFMYXllcj13aW5kb3cuZGF0YUxheWVyfHxbXTtmdW5jdGlvbiBndGFnKCl7ZGF0YUxheWVyLnB1c2goYXJndW1lbnRzKX0KZ3RhZygnanMnLG5ldyBEYXRlKCkpO2d0YWcoJ2NvbmZpZycsJ0ctR1pFTUMzVEQ3Qycp" defer=""></script>
+    <script src="App_Themes/house/js/core.26680508.js" type="module"></script>
+</head>
+<body class="home page-template page-template-home2 page-template-home2-php page page-id-1552 theme-nordic2 woocommerce-js mega-menu-main-left mega-menu-main-right woo-variation-swatches wvs-behavior-blur wvs-theme-nordic2 wvs-show-label wvs-tooltip woo-variation-gallery-pro woo-variation-gallery woo-variation-gallery-theme-nordic2 woo-variation-gallery-theme-child-nordic2">
+    <header id="header">
+        <div class="header_pc">
+            <div class="header_main">
+                <div class="container">
+                    <div class="header_logo"><div class="header_icon"><img alt="header_icon" src="App_Themes/house/img/icon_menu.png"></div><h1 class="logo"><a href="https://nordic.vn/" title="NORDIC"><img src="App_Themes/house/img/logo.png" alt="NORDIC"><span style="display: none;">NORDIC</span></a></h1></div><div class="header_menu">
+                        <ul id="menu-menu-main" class="menu clearfix"><li id="menu-item-1720" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1720 nav-item"><a class="nav-links" href="https://nordic.vn/gioi-thieu/">Giới thiệu</a><ul class="sub-menu"><li id="menu-item-1729" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1729 nav-item"><a class="nav-links" href="https://nordic.vn/#">Tầm nhìn</a></li><li id="menu-item-1730" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1730 nav-item"><a class="nav-links" href="https://nordic.vn/#">Thành tựu</a></li><li id="menu-item-1731" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1731 nav-item"><a class="nav-links" href="https://nordic.vn/#">Tiêu chí Thiết kế</a></li></ul></li><li id="menu-item-1721" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1721 nav-item"><a class="nav-links" href="https://nordic.vn/san-pham/">Sản phẩm</a><ul class="sub-menu"><li id="menu-item-2322" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2322 nav-item"><a class="nav-links" href="https://nordic.vn/sofa/">Sofa</a></li><li id="menu-item-2315" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2315 nav-item"><a class="nav-links" href="https://nordic.vn/ban-tra/">Bàn trà</a></li><li id="menu-item-3747" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3747 nav-item"><a class="nav-links" href="https://nordic.vn/ghe-thu-gian-armchair/">Ghế Armchair</a></li><li id="menu-item-2317" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-2317 nav-item"><a class="nav-links" href="https://nordic.vn/giuong/">Giường</a><ul class="sub-menu"><li id="menu-item-2318" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2318 nav-item"><a class="nav-links" href="https://nordic.vn/hana/">Hana</a></li><li id="menu-item-2319" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2319 nav-item"><a class="nav-links" href="https://nordic.vn/sovn/">Sovn</a></li></ul></li><li id="menu-item-2321" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2321 nav-item"><a class="nav-links" href="https://nordic.vn/ke-trang-tri/">Kệ trang trí</a></li><li id="menu-item-2320" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2320 nav-item"><a class="nav-links" href="https://nordic.vn/ke-tivi/">Kệ tivi</a></li></ul></li><li id="menu-item-1722" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1722 nav-item"><a class="nav-links" href="https://nordic.vn/bo-suu-tap/">Bộ sưu tập</a><ul class="sub-menu"><li id="menu-item-2307" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2307 nav-item"><a class="nav-links" href="https://nordic.vn/bst-2020/">BST Half Life</a></li><li id="menu-item-2304" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-2304 nav-item"><a class="nav-links" href="https://nordic.vn/the-lover/">BST The Lover</a><ul class="sub-menu"><li id="menu-item-2305" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2305 nav-item"><a class="nav-links" href="https://nordic.vn/pige/">BST PIGE</a></li><li id="menu-item-2306" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2306 nav-item"><a class="nav-links" href="https://nordic.vn/mand/">BST MAND</a></li></ul></li><li id="menu-item-3313" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3313 nav-item"><a class="nav-links" href="https://nordic.vn/the-nest/">BST The Nest</a></li><li id="menu-item-2256" class="menu-item menu-item-type-taxonomy menu-item-object-project_cat menu-item-2256 nav-item"><a class="nav-links" href="https://nordic.vn/project_cat/bespoker/">Bespoker</a></li></ul></li><li id="menu-item-1724" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1724 nav-item"><a class="nav-links" href="https://nordic.vn/nordic-24h/">Nordic 24h</a><ul class="sub-menu"><li id="menu-item-1739" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1739 nav-item"><a class="nav-links" href="https://nordic.vn/ban-tin-nordic/">Bản tin Nordic</a></li><li id="menu-item-1740" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1740 nav-item"><a class="nav-links" href="https://nordic.vn/bao-chi-viet-ve-nordic/">Báo chí viết về Nordic</a></li><li id="menu-item-1743" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1743 nav-item"><a class="nav-links" href="https://nordic.vn/kien-thuc-noi-that/">Kiến thức nội thất</a></li></ul></li><li id="menu-item-2614" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2614 nav-item"><a class="nav-links" href="https://nordic.vn/chinh-sach/">Chính sách</a><ul class="sub-menu"><li id="menu-item-2520" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2520 nav-item"><a class="nav-links" href="https://nordic.vn/refund_returns/">Chính sách đổi trả hàng</a></li><li id="menu-item-2521" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2521 nav-item"><a class="nav-links" href="https://nordic.vn/chinh-sach-mua-hang/">Chính sách ưu đãi dành cho khách hàng nhà Nordic</a></li><li id="menu-item-2522" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2522 nav-item"><a class="nav-links" href="https://nordic.vn/chinh-sach-bao-hanh/">Chính sách bảo hành</a></li><li id="menu-item-2523" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2523 nav-item"><a class="nav-links" href="https://nordic.vn/chinh-sach-van-chuyen/">Chính sách vận chuyển</a></li></ul></li><li id="menu-item-2673" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2673 nav-item"><a class="nav-links" href="https://nordic.vn/showroom-1/">Showroom</a></li><li id="menu-item-2248" class="menu-item menu-item-type-taxonomy menu-item-object-project_cat menu-item-2248 nav-item"><a class="nav-links" href="https://nordic.vn/project_cat/trai-nghiem/">Trải nghiệm khách hàng</a></li><li id="menu-item-1727" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1727 nav-item"><a class="nav-links" href="https://nordic.vn/lien-he/">Liên hệ</a></li><li id="menu-item-3508" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-3508 nav-item"><a class="nav-links" href="https://nordic.vn/nordic-signature/">Nordic Signature</a><ul class="sub-menu"><li id="menu-item-3760" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3760 nav-item"><a class="nav-links" href="https://nordic.vn/signature-sofa/">Signature Sofa</a></li><li id="menu-item-3758" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3758 nav-item"><a class="nav-links" href="https://nordic.vn/signature-armchair/">Signature Armchair</a></li><li id="menu-item-3761" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3761 nav-item"><a class="nav-links" href="https://nordic.vn/signature-bed/">Signature Bed</a></li></ul></li></ul><form role="search" method="get" class="woocommerce-search" action="https://nordic.vn/">
+                            <label class="screen-reader-text" for="woocommerce-product-search-field-0">Tìm kiếm:</label>
+                            <input type="search" id="woocommerce-product-search-field-0" class="search-field" placeholder="" value="" name="s">
+                            <button type="submit" value="Tìm kiếm"><i class="iconx icon-search"></i></button>
+                            <input type="hidden" name="post_type" value="product">
+                        </form>
+                    </div>
+                </div>
+            </div><div class="header_search">
+                <form role="search" method="get" class="woocommerce-product-search" action="https://nordic.vn/">
+                    <label class="screen-reader-text" for="woocommerce-product-search-field-0">Tìm kiếm:</label>
+                    <input type="search" id="woocommerce-product-search-field-0" class="search-field" placeholder="Tìm sản phẩm…" value="" name="s">
+                    <button type="submit" value="Tìm kiếm"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    <input type="hidden" name="post_type" value="product">
+                </form>
+            </div>
+        </div><div id="header_mb" class="header_mb">
+            <div class="header_main_mb ">
+                <div class="container">
+                    <div class="row_flex">
+                        <div id="touch_menu" class="touch_menu">
+                            <span class="line"></span>
+                        </div><div class="logo_mb">
+                            <a href="https://nordic.vn/" title="NORDIC"><img src="App_Themes/house/img/logo.png" alt="NORDIC"></a>
+                        </div><div class="icon_search"><i class="fa fa-search" aria-hidden="true"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div><div id="menu_bar_mobile"><ul id="menu-menu-mobile" class="menu_mobile clearfix"><li id="menu-item-2297" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2297 nav-item"><a class="nav-links" href="https://nordic.vn/gioi-thieu/">Giới thiệu</a></li><li id="menu-item-250" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-250 nav-item"><a class="nav-links" href="https://nordic.vn/san-pham/">Sản phẩm</a><i class="fa fa-caret-down"></i><ul class="sub-menu"><li id="menu-item-257" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-257 nav-item"><a class="nav-links" href="https://nordic.vn/sofa/">Sofa</a></li><li id="menu-item-251" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-251 nav-item"><a class="nav-links" href="https://nordic.vn/ban-ghe-an/">Bàn ghế ăn</a></li><li id="menu-item-252" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-252 nav-item"><a class="nav-links" href="https://nordic.vn/ban-tra/">Bàn trà</a></li><li id="menu-item-253" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-253 nav-item"><a class="nav-links" href="https://nordic.vn/ghe-nghi/">Ghế nghỉ</a></li><li id="menu-item-254" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-254 nav-item"><a class="nav-links" href="https://nordic.vn/giuong/">Giường</a></li><li id="menu-item-255" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-255 nav-item"><a class="nav-links" href="https://nordic.vn/ke-tivi/">Kệ tivi</a></li><li id="menu-item-256" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-256 nav-item"><a class="nav-links" href="https://nordic.vn/ke-trang-tri/">Kệ trang trí</a></li><li id="menu-item-258" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-258 nav-item"><a class="nav-links" href="https://nordic.vn/tab-giuong/">Tab giường</a></li><li id="menu-item-259" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-259 nav-item"><a class="nav-links" href="https://nordic.vn/tu-bep/">Tủ bếp</a></li><li id="menu-item-260" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-260 nav-item"><a class="nav-links" href="https://nordic.vn/tu-quan-ao/">Ghế thư giãn Armchair</a></li></ul></li><li id="menu-item-261" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-261 nav-item"><a class="nav-links" href="https://nordic.vn/bo-suu-tap/">Bộ sưu tập</a></li><li id="menu-item-2296" class="menu-item menu-item-type-taxonomy menu-item-object-project_cat menu-item-2296 nav-item"><a class="nav-links" href="https://nordic.vn/project_cat/bespoker/">Bespoker</a></li><li id="menu-item-2299" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2299 nav-item"><a class="nav-links" href="https://nordic.vn/nordic-24h/">Nordic 24h</a><i class="fa fa-caret-down"></i><ul class="sub-menu"><li id="menu-item-2300" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2300 nav-item"><a class="nav-links" href="https://nordic.vn/ban-tin-nordic/">Bản tin Nordic</a></li><li id="menu-item-2301" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2301 nav-item"><a class="nav-links" href="https://nordic.vn/bao-chi-viet-ve-nordic/">Báo chí viết về Nordic</a></li><li id="menu-item-2302" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2302 nav-item"><a class="nav-links" href="https://nordic.vn/kien-thuc-noi-that/">Kiến thức nội thất</a></li></ul></li><li id="menu-item-262" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-262 nav-item"><a>Chính sách hậu mãi</a><i class="fa fa-caret-down"></i><ul class="sub-menu"><li id="menu-item-264" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-264 nav-item"><a class="nav-links" href="https://nordic.vn/chinh-sach-bao-hanh/">Chính sách bảo hành</a></li><li id="menu-item-265" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-265 nav-item"><a class="nav-links" href="https://nordic.vn/chinh-sach-van-chuyen/">Chính sách vận chuyển</a></li><li id="menu-item-263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-263 nav-item"><a class="nav-links" href="https://nordic.vn/bao-duong-dinh-ky/">Bảo dưỡng định kỳ</a></li></ul></li><li id="menu-item-2295" class="menu-item menu-item-type-taxonomy menu-item-object-project_cat menu-item-2295 nav-item"><a class="nav-links" href="https://nordic.vn/project_cat/trai-nghiem/">Trải nghiệm</a></li><li id="menu-item-2303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2303 nav-item"><a class="nav-links" href="https://nordic.vn/lien-he/">Liên hệ</a></li></ul></div><div class="fixed_search">
+            <form role="search" method="get" class="" action="https://nordic.vn/">
+                <label class="screen-reader-text" for="woocommerce-product-search-field-0">Tìm kiếm:</label>
+                <input type="search" id="woocommerce-product-search-field-0" class="search-field" placeholder="Nhập từ khóa tìm kiếm" value="" name="s">
+                <button type="submit" value="Tìm kiếm"><span class="arrow"></span></button>
+                <input type="hidden" name="post_type" value="product">
+            </form><div class="close_bt">X</div>
+        </div><div class="line_dark"></div>
+    </header><main id="main">
         <div class="banner_home">
             <div class="slider_home owl-carousel owl-loaded owl-drag">
                 <div class="owl-stage-outer">
@@ -63,9 +161,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-    <!-- BEST SELLER -->
-<%--    <div class="best_seller">
+        </div><div class="best_seller">
             <h2 class="title"><span>Best Seller.</span></h2><div class="owl-carousel owl-loaded owl-drag">
                 <div class="owl-stage-outer">
                     <div class="owl-stage" style="transform: translate3d(-4872px, 0px, 0px); transition: all 0.25s ease 0s; width: 9744px;">
@@ -357,257 +453,10 @@
                     </div>
                 </div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"></div>
             </div>
-        </div>--%>
-    <!-- END BEST SELLER -->
-    <!-- BEGIN SAN PHAM -->
-    <%--<div class="product_home">
-            <div class="container-fluid">
-                <div class="title_home2">
-                    <h2 class="title">Sản phẩm</h2>
-                    <a href="https://nordic.vn/san-pham/" class="link">Xem tất cả</a>
-                </div><div class="list_product2">
-                    <div class="item_pro2 wvs-pro-product wvs-archive-product-wrapper">
-                        <div class="img">
-                            <a href="https://nordic.vn/shell-lounge-chair/">
-                                <img width="1500" height="1500" src="App_Themes/house/img/11-Shell-lougne-chair-xanh-navy.png" class="attachment-post-thumbnail size-post-thumbnail wvs-archive-product-image wp-post-image" alt="" decoding="async" loading="lazy" data-o_src="https://nordic.vn/wp-content/uploads/2023/03/11-Shell-lougne-chair-xanh-navy.png"><div class="img-2"></div>
-                            </a>
-                        </div><div class="info">
-                            <h3 class="name"><a href="https://nordic.vn/shell-lounge-chair/">Shell Lounge Chair</a></h3><div class="meta_product">
-                                <div class="star-rating" role="img" aria-label="Được xếp hạng 5.00 5 sao"><span style="width:100%">Được xếp hạng <strong class="rating">5.00</strong> 5 sao</span></div>							<a href="https://nordic.vn/shell-lounge-chair/#comments" class="cmt"><span>1</span> đánh giá</a><div class="buy">
-                                    <span>0</span> đã mua
-                                </div>
-                            </div><div class="price"><span class="woocommerce-Price-amount amount"><bdi>61.800.000&nbsp;<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span></div>
-                            <a href="https://nordic.vn/shell-lounge-chair/" data-quantity="1" class="button product_type_variable add_to_cart_button wvs-add-to-cart-button" data-product_id="3356" data-product_sku="" aria-label="Lựa chọn cho “Shell Lounge Chair”" rel="nofollow">Lựa chọn các tùy chọn</a><div class="wvs-archive-variations-wrapper wvs-pro-loaded" data-threshold_min="0" data-threshold_max="100" data-total_children="3" data-product_id="3356" data-product_variations="false">
-                                <ul class="variations">
-                                    <li class="woo-variation-items-wrapper">
-                                        <select style="display:none" id="pa_mau-sac" class=" woo-variation-raw-select" name="attribute_pa_mau-sac" data-attribute_name="attribute_pa_mau-sac" data-show_option_none="yes"><option value="">Chọn một tùy chọn</option><option value="nau" class="attached enabled">Nâu</option><option value="trang" class="attached enabled">Trắng</option><option value="xanh-navy" class="attached enabled">Xanh Navy</option></select><ul role="radiogroup" aria-label="Màu sắc" class="archive-variable-items enabled-catalog-display-limit-mode wvs-style-squared variable-items-wrapper color-variable-items-wrapper" data-attribute_name="attribute_pa_mau-sac" data-attribute_values="[&quot;nau&quot;,&quot;trang&quot;,&quot;xanh-navy&quot;]"><li aria-checked="false" tabindex="0" data-wvstooltip="Nâu" class="variable-item color-variable-item color-variable-item-nau" title="Nâu" data-title="Nâu" data-value="nau" role="radio" data-wvstooltip-out-of-stock=""><div class="variable-item-contents"><span class="variable-item-span variable-item-span-color" style="background-color:#a58c73;"></span></div></li><li aria-checked="false" tabindex="0" data-wvstooltip="Trắng" class="variable-item color-variable-item color-variable-item-trang" title="Trắng" data-title="Trắng" data-value="trang" role="radio" data-wvstooltip-out-of-stock=""><div class="variable-item-contents"><span class="variable-item-span variable-item-span-color" style="background-color:#ffffff;"></span></div></li><li aria-checked="false" tabindex="0" data-wvstooltip="Xanh Navy" class="variable-item color-variable-item color-variable-item-xanh-navy" title="Xanh Navy" data-title="Xanh Navy" data-value="xanh-navy" role="radio" data-wvstooltip-out-of-stock=""><div class="variable-item-contents"><span class="variable-item-span variable-item-span-color" style="background-color:#0a3575;"></span></div></li></ul>
-                                    </li>
-                                </ul><div class="wvs-archive-information"></div>
-                            </div><div class="short_desc"><p><em><strong>Da microfiber và vải Bồ Đào Nha</strong></em></p></div>
-                        </div>
-                    </div><div class="item_pro2 wvs-pro-product wvs-archive-product-wrapper">
-                        <div class="img">
-                            <a href="https://nordic.vn/ban-tra-pige/">
-                                <img width="1500" height="1500" src="App_Themes/house/img/4-Ban-tra-Pige-trang.png" class="attachment-post-thumbnail size-post-thumbnail wvs-archive-product-image wp-post-image" alt="ban-tra-bac-au-" decoding="async" loading="lazy" data-o_src="https://nordic.vn/wp-content/uploads/2022/08/4-Ban-tra-Pige-trang.png"><div class="img-2"></div>
-                            </a>
-                        </div><div class="info">
-                            <h3 class="name"><a href="https://nordic.vn/ban-tra-pige/">Bàn trà Pige (Bản to)</a></h3><div class="meta_product">
-                                <div class="star-rating" role="img" aria-label="Được xếp hạng 5.00 5 sao"><span style="width:100%">Được xếp hạng <strong class="rating">5.00</strong> 5 sao</span></div>							<a href="https://nordic.vn/ban-tra-pige/#comments" class="cmt"><span>1</span> đánh giá</a><div class="buy">
-                                    <span>0</span> đã mua
-                                </div>
-                            </div><div class="price"><span class="woocommerce-Price-amount amount"><bdi>21.400.000&nbsp;<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span></div>
-                            <a href="https://nordic.vn/ban-tra-pige/" data-quantity="1" class="button product_type_variable add_to_cart_button wvs-add-to-cart-button" data-product_id="772" data-product_sku="" aria-label="Lựa chọn cho “Bàn trà Pige (Bản to)”" rel="nofollow">Lựa chọn các tùy chọn</a><div class="wvs-archive-variations-wrapper wvs-pro-loaded" data-threshold_min="0" data-threshold_max="100" data-total_children="2" data-product_id="772" data-product_variations="false">
-                                <ul class="variations">
-                                    <li class="woo-variation-items-wrapper">
-                                        <select style="display:none" id="pa_mau-sac" class=" woo-variation-raw-select" name="attribute_pa_mau-sac" data-attribute_name="attribute_pa_mau-sac" data-show_option_none="yes"><option value="">Chọn một tùy chọn</option><option value="den" class="attached enabled">Đen</option><option value="trang" class="attached enabled">Trắng</option></select><ul role="radiogroup" aria-label="Màu sắc" class="archive-variable-items enabled-catalog-display-limit-mode wvs-style-squared variable-items-wrapper color-variable-items-wrapper" data-attribute_name="attribute_pa_mau-sac" data-attribute_values="[&quot;den&quot;,&quot;trang&quot;]"><li aria-checked="false" tabindex="0" data-wvstooltip="Đen" class="variable-item color-variable-item color-variable-item-den" title="Đen" data-title="Đen" data-value="den" role="radio" data-wvstooltip-out-of-stock=""><div class="variable-item-contents"><span class="variable-item-span variable-item-span-color" style="background-color:#000000;"></span></div></li><li aria-checked="false" tabindex="0" data-wvstooltip="Trắng" class="variable-item color-variable-item color-variable-item-trang" title="Trắng" data-title="Trắng" data-value="trang" role="radio" data-wvstooltip-out-of-stock=""><div class="variable-item-contents"><span class="variable-item-span variable-item-span-color" style="background-color:#ffffff;"></span></div></li></ul>
-                                    </li>
-                                </ul><div class="wvs-archive-information"></div>
-                            </div><div class="short_desc"><p><span style="font-size: 10pt;"><strong>Chân kim loại sơn tĩnh điện, mặt bàn đá&nbsp;</strong></span></p><p>&nbsp;</p></div>
-                        </div>
-                    </div><div class="item_pro2 wvs-pro-product wvs-archive-product-wrapper">
-                        <div class="img">
-                            <a href="https://nordic.vn/sofa-lounge-flot-ban-tieu-chuan/">
-                                <img width="1500" height="1500" src="App_Themes/house/img/8-Sofa-Lounge-Flot-nau-vang.png" class="attachment-post-thumbnail size-post-thumbnail wvs-archive-product-image wp-post-image" alt="ghe-bac-au-1" decoding="async" loading="lazy" data-o_src="https://nordic.vn/wp-content/uploads/2022/08/8-Sofa-Lounge-Flot-nau-vang.png"><div class="img-2"></div>
-                            </a>
-                        </div><div class="info">
-                            <h3 class="name"><a href="https://nordic.vn/sofa-lounge-flot-ban-tieu-chuan/">Flot Lounge Sofa – Standard</a></h3><div class="meta_product">
-                                <div class="star-rating" role="img" aria-label="Được xếp hạng 5.00 5 sao"><span style="width:100%">Được xếp hạng <strong class="rating">5.00</strong> 5 sao</span></div>							<a href="https://nordic.vn/sofa-lounge-flot-ban-tieu-chuan/#comments" class="cmt"><span>1</span> đánh giá</a><div class="buy">
-                                    <span>0</span> đã mua
-                                </div>
-                            </div><div class="price"><span class="woocommerce-Price-amount amount"><bdi>52.200.000&nbsp;<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span></div>
-                            <a href="https://nordic.vn/sofa-lounge-flot-ban-tieu-chuan/" data-quantity="1" class="button product_type_variable add_to_cart_button wvs-add-to-cart-button" data-product_id="768" data-product_sku="" aria-label="Lựa chọn cho “Flot Lounge Sofa - Standard”" rel="nofollow">Lựa chọn các tùy chọn</a><div class="wvs-archive-variations-wrapper wvs-pro-loaded" data-threshold_min="0" data-threshold_max="100" data-total_children="4" data-product_id="768" data-product_variations="false">
-                                <ul class="variations">
-                                    <li class="woo-variation-items-wrapper">
-                                        <select style="display:none" id="pa_mau-sac" class=" woo-variation-raw-select" name="attribute_pa_mau-sac" data-attribute_name="attribute_pa_mau-sac" data-show_option_none="yes"><option value="">Chọn một tùy chọn</option><option value="be" class="attached enabled">Be</option><option value="nau" class="attached enabled">Nâu</option><option value="trang" class="attached enabled">Trắng</option><option value="xanh" class="attached enabled">Xanh</option></select><ul role="radiogroup" aria-label="Màu sắc" class="archive-variable-items enabled-catalog-display-limit-mode wvs-style-squared variable-items-wrapper color-variable-items-wrapper" data-attribute_name="attribute_pa_mau-sac" data-attribute_values="[&quot;trang&quot;,&quot;be&quot;,&quot;nau&quot;,&quot;xanh&quot;]"><li aria-checked="false" tabindex="0" data-wvstooltip="Be" class="variable-item color-variable-item color-variable-item-be" title="Be" data-title="Be" data-value="be" role="radio" data-wvstooltip-out-of-stock=""><div class="variable-item-contents"><span class="variable-item-span variable-item-span-color" style="background-color:#ddccaa;"></span></div></li><li aria-checked="false" tabindex="0" data-wvstooltip="Nâu" class="variable-item color-variable-item color-variable-item-nau" title="Nâu" data-title="Nâu" data-value="nau" role="radio" data-wvstooltip-out-of-stock=""><div class="variable-item-contents"><span class="variable-item-span variable-item-span-color" style="background-color:#a58c73;"></span></div></li><li aria-checked="false" tabindex="0" data-wvstooltip="Trắng" class="variable-item color-variable-item color-variable-item-trang" title="Trắng" data-title="Trắng" data-value="trang" role="radio" data-wvstooltip-out-of-stock=""><div class="variable-item-contents"><span class="variable-item-span variable-item-span-color" style="background-color:#ffffff;"></span></div></li><li aria-checked="false" tabindex="0" data-wvstooltip="Xanh" class="variable-item color-variable-item color-variable-item-xanh" title="Xanh" data-title="Xanh" data-value="xanh" role="radio" data-wvstooltip-out-of-stock=""><div class="variable-item-contents"><span class="variable-item-span variable-item-span-color" style="background-color:#00287a;"></span></div></li></ul>
-                                    </li>
-                                </ul><div class="wvs-archive-information"></div>
-                            </div><div class="short_desc"><p><span style="font-size: 10pt;"><strong>Vải stardard NORDIC – Chi tiết vàng đồng 18K</strong></span></p><p>&nbsp;</p></div>
-                        </div>
-                    </div><div class="item_pro2 wvs-pro-product wvs-archive-product-wrapper">
-                        <div class="img">
-                            <a href="https://nordic.vn/sofa-i-semina-ban-tieu-chuan/">
-                                <img width="1500" height="1500" src="App_Themes/house/img/10-Sofa-Semina.png" class="attachment-post-thumbnail size-post-thumbnail wvs-archive-product-image wp-post-image" alt="" decoding="async" loading="lazy" data-o_src="https://nordic.vn/wp-content/uploads/2022/08/10-Sofa-Semina.png"><div class="img-2"></div>
-                            </a>
-                        </div><div class="info">
-                            <h3 class="name"><a href="https://nordic.vn/sofa-i-semina-ban-tieu-chuan/">Sofa I Semina – Standard</a></h3><div class="meta_product">
-                                <div class="star-rating" role="img" aria-label="Được xếp hạng 5.00 5 sao"><span style="width:100%">Được xếp hạng <strong class="rating">5.00</strong> 5 sao</span></div>							<a href="https://nordic.vn/sofa-i-semina-ban-tieu-chuan/#comments" class="cmt"><span>1</span> đánh giá</a><div class="buy">
-                                    <span>0</span> đã mua
-                                </div>
-                            </div><div class="price"><span class="woocommerce-Price-amount amount"><bdi>41.200.000&nbsp;<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span></div>
-                            <a href="https://nordic.vn/sofa-i-semina-ban-tieu-chuan/" data-quantity="1" class="button product_type_variable add_to_cart_button wvs-add-to-cart-button" data-product_id="472" data-product_sku="" aria-label="Lựa chọn cho “Sofa I Semina - Standard”" rel="nofollow">Lựa chọn các tùy chọn</a><div class="wvs-archive-variations-wrapper wvs-pro-loaded" data-threshold_min="0" data-threshold_max="100" data-total_children="3" data-product_id="472" data-product_variations="false">
-                                <ul class="variations">
-                                    <li class="woo-variation-items-wrapper">
-                                        <select style="display:none" id="pa_mau-sac" class=" woo-variation-raw-select" name="attribute_pa_mau-sac" data-attribute_name="attribute_pa_mau-sac" data-show_option_none="yes"><option value="">Chọn một tùy chọn</option><option value="nau-xam" class="attached enabled">Nâu Xám</option><option value="trang" class="attached enabled">Trắng</option><option value="xam" class="attached enabled">Xám</option></select><ul role="radiogroup" aria-label="Màu sắc" class="archive-variable-items enabled-catalog-display-limit-mode wvs-style-squared variable-items-wrapper color-variable-items-wrapper" data-attribute_name="attribute_pa_mau-sac" data-attribute_values="[&quot;trang&quot;,&quot;xam&quot;,&quot;nau-xam&quot;]"><li aria-checked="false" tabindex="0" data-wvstooltip="Nâu Xám" class="variable-item color-variable-item color-variable-item-nau-xam" title="Nâu Xám" data-title="Nâu Xám" data-value="nau-xam" role="radio" data-wvstooltip-out-of-stock=""><div class="variable-item-contents"><span class="variable-item-span variable-item-span-color" style="background-color:#c1c1c1;"></span></div></li><li aria-checked="false" tabindex="0" data-wvstooltip="Trắng" class="variable-item color-variable-item color-variable-item-trang" title="Trắng" data-title="Trắng" data-value="trang" role="radio" data-wvstooltip-out-of-stock=""><div class="variable-item-contents"><span class="variable-item-span variable-item-span-color" style="background-color:#ffffff;"></span></div></li><li aria-checked="false" tabindex="0" data-wvstooltip="Xám" class="variable-item color-variable-item color-variable-item-xam" title="Xám" data-title="Xám" data-value="xam" role="radio" data-wvstooltip-out-of-stock=""><div class="variable-item-contents"><span class="variable-item-span variable-item-span-color" style="background-color:#c6c6c6;"></span></div></li></ul>
-                                    </li>
-                                </ul><div class="wvs-archive-information"></div>
-                            </div><div class="short_desc"><p><span style="font-size: 10pt;"><strong>Vải stardard NORDIC – Chi tiết vàng đồng 18K</strong></span></p><p>&nbsp;</p></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>--%>
-    <!-- END SAN PHAM -->
-    <!--<div class="banner_center"><div class="background bg_section" style="background-image: url(https://nordic.vn/wp-content/uploads/2023/04/Untitled-10-1.jpg);"></div></div>-->
-    <div class="criteria_home">
-            <div class="background" style="background-image: url(https://nordic.vn/wp-content/uploads/2022/08/Untitled-11.png);"></div><div class="container-fluid">
-                <h2 class="title"><span></span> LÝ DO LỰA CHỌN</h2><div class="list">
-                    <div class="item">
-                        <div class="inner">
-                            <div class="number">
-                                <span class="num">1</span>
-                                <span class="text">Thói <br>quen</span>
-                                <span class="bgitem"><span class="num2">1</span></span>
-                            </div><div class="box"><div class="text">Các thiết kế được Team R&amp;D nghiên cứu một cách tỉ mẩn, kỹ lưỡng dựa trên thói quen sống của người Việt nhằm mang đến trải nghiệm phù hợp nhất.</div></div>
-                        </div>
-                    </div><div class="item">
-                        <div class="inner">
-                            <div class="number">
-                                <span class="num">2</span>
-                                <span class="text">Lối <br> sống</span>
-                                <span class="bgitem"><span class="num2">2</span></span>
-                            </div><div class="box"><div class="text">Trước khi một sản phẩm được hoàn thiện, Team R&amp;D đã có khoảng thời gian tìm hiểu về lối sống và văn hóa bao đời của người Việt. Từ những chi tiết nhỏ như khoang để đồ để không gian gọn gàng hơn, nâng cao chất lượng sống lên tầm cao mới.</div></div>
-                        </div>
-                    </div><div class="item">
-                        <div class="inner">
-                            <div class="number">
-                                <span class="num">3</span>
-                                <span class="text">Sở <br> thích</span>
-                                <span class="bgitem"><span class="num2">3</span></span>
-                            </div><div class="box"><div class="text">Mỗi sản phẩm đều được cá nhân hóa theo sở thích của từng cá nhân, về chất liệu, màu sắc,... phù hợp với mọi nhu cầu của khách hàng và thị hiếu của người Việt.</div></div>
-                        </div>
-                    </div><div class="item">
-                        <div class="inner">
-                            <div class="number">
-                                <span class="num">4</span>
-                                <span class="text">Khí <br> hậu</span>
-                                <span class="bgitem"><span class="num2">4</span></span>
-                            </div><div class="box"><div class="text">Các chất liệu được nghiên cứu và chọn lọc kỹ lưỡng để sản phẩm thích nghi với mọi vùng khí hậu. Chất liệu vải &amp; da được chọn lựa dễ lau chùi, khó bám bẩn, đặc biệt thích nghi tốt với khí hậu nhiệt đới gió mùa ẩm ở Việt Nam.</div></div>
-                        </div>
-                    </div><div class="item">
-                        <div class="inner">
-                            <div class="number">
-                                <span class="num">5</span>
-                                <span class="text">Nhân <br> trắc</span>
-                                <span class="bgitem"><span class="num2">5</span></span>
-                            </div><div class="box"><div class="text">Mọi sản phẩm nội thất của NORDIC được nghiên cứu dựa trên form người của người Việt. Kích thước phù hợp mang đến trải nghiệm thoải mái, an toàn và tiện dụng cho khách hàng.</div></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    <div class="news_home2">
-            <div class="container-fluid">
-                <div class="title_home2">
-                    <h2 class="title">CÁC DỰ ÁN</h2>
-                    <a href="https://nordic.vn/bao-chi-viet-ve-nordic/" class="link">Xem tất cả</a>
-                </div><div class="slider">
-                    <div class="owl-carousel owl-loaded owl-drag">
-                        <div class="owl-stage-outer owl-height" style="height: 483px;">
-                            <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 3727px;">
-                                <div class="owl-item active" style="width: 372.667px;">
-                                    <div class="item">
-                                        <div class="box">
-                                            <div class="img">
-                                                <a href="https://nordic.vn/tap-chi-kien-truc-kts-nguyen-phuong-chi-hanh-trinh-dinh-vi-thuong-hieu-noi-that-viet/"><img data-lazyloaded="1" src="App_Themes/house/img/22A11024-2-768x432-5.jpg" width="768" height="432" data-src="https://nordic.vn/wp-content/uploads/2023/03/22A11024-2-768x432-5.jpg" class="attachment-large size-large wvs-archive-product-image wp-post-image entered litespeed-loaded" alt="" decoding="async" loading="lazy" data-srcset="https://nordic.vn/wp-content/uploads/2023/03/22A11024-2-768x432-5.jpg 768w, https://nordic.vn/wp-content/uploads/2023/03/22A11024-2-768x432-5-300x169.jpg 300w, https://nordic.vn/wp-content/uploads/2023/03/22A11024-2-768x432-5-600x338.jpg 600w" data-sizes="(max-width: 768px) 100vw, 768px" data-ll-status="loaded" sizes="(max-width: 768px) 100vw, 768px" srcset="https://nordic.vn/wp-content/uploads/2023/03/22A11024-2-768x432-5.jpg 768w, https://nordic.vn/wp-content/uploads/2023/03/22A11024-2-768x432-5-300x169.jpg 300w, https://nordic.vn/wp-content/uploads/2023/03/22A11024-2-768x432-5-600x338.jpg 600w"></a>
-                                            </div>
-                                            <div class="info">
-   <div class="top">
-      <div class="date">04/03/2023</div>
-      <div class="meta">
-         <div class="share"><a href="https://facebook.com/share.php?u=https://nordic.vn/tap-chi-kien-truc-kts-nguyen-phuong-chi-hanh-trinh-dinh-vi-thuong-hieu-noi-that-viet/" target="_blank" rel="nofollow" onclick="javascript:window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;" class="facebook " data-toggle="tooltip" title="Share on Facebook"><img data-lazyloaded="1" src="App_Themes/house/img/icon_share.png" alt"icon_share"="" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_share.png" data-ll-status="loaded" class="entered litespeed-loaded"></a></div>
-         <div class="view"><img data-lazyloaded="1" src="App_Themes/house/img/icon_view.png" alt="view" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_view.png" data-ll-status="loaded" class="entered litespeed-loaded">221</div>
-      </div>
-   </div>
-   <h3 class="name"><a href="https://nordic.vn/tap-chi-kien-truc-kts-nguyen-phuong-chi-hanh-trinh-dinh-vi-thuong-hieu-noi-that-viet/">Tạp chí Kiến trúc –  KTS Nguyễn Phương Chi: “Hành trình định vị thương hiệu nội thất Việt”</a></h3>
-   <div class="text">Tại Việt Nam, cho tới nay lĩnh vực thiết kế sản phẩm nội thất còn khá mới mẻ, rất ít các nhà thiết kế thực hiện thiết kế đồ nội thất, chưa nói đến việc...</div>
-   <div class="link"><a href="https://nordic.vn/tap-chi-kien-truc-kts-nguyen-phuong-chi-hanh-trinh-dinh-vi-thuong-hieu-noi-that-viet/">Xem chi tiết <i></i></a></div>
-</div>
-                                        </div>
-                                    </div>
-                                </div><div class="owl-item active" style="width: 372.667px;">
-                                    <div class="item">
-                                        <div class="box">
-                                            <div class="img">
-                                                <a href="https://nordic.vn/bao-thanh-nien-nha-thiet-ke-ve-ghe-hoang-hau/"><img data-lazyloaded="1" src="App_Themes/house/img/293394290_2341139962701973_3401177730407643931_n.jpg" width="683" height="1024" data-src="https://nordic.vn/wp-content/uploads/2022/08/293394290_2341139962701973_3401177730407643931_n.jpg" class="attachment-large size-large wvs-archive-product-image wp-post-image entered litespeed-loaded" alt="nha-thiet-ke-ve-ghe-hoang-hau" decoding="async" loading="lazy" data-ll-status="loaded"></a>
-                                            </div><div class="info"><div class="top"><div class="date">21/09/2022</div><div class="meta"><div class="share"><a href="https://facebook.com/share.php?u=https://nordic.vn/bao-thanh-nien-nha-thiet-ke-ve-ghe-hoang-hau/" target="_blank" rel="nofollow" onclick="javascript:window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;" class="facebook " data-toggle="tooltip" title="Share on Facebook"><img data-lazyloaded="1" src="App_Themes/house/img/icon_share.png" alt"icon_share"="" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_share.png" data-ll-status="loaded" class="entered litespeed-loaded"></a></div><div class="view"><img data-lazyloaded="1" src="App_Themes/house/img/icon_view.png" alt="view" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_view.png" data-ll-status="loaded" class="entered litespeed-loaded">560</div></div></div><h3 class="name"><a href="https://nordic.vn/bao-thanh-nien-nha-thiet-ke-ve-ghe-hoang-hau/">Báo Thanh Niên – Nhà thiết kế vẽ ghế hoàng hậu</a></h3><div class="text">Chiếc ghế nhỏ màu xanh óng, có tay bịt vàng, với gối đệm lưng màu cam được đặt trên một bệ nhỏ tại phòng trưng bày thiết kế của Nordic, một thương hiệu nội thất...</div><div class="link"><a href="https://nordic.vn/bao-thanh-nien-nha-thiet-ke-ve-ghe-hoang-hau/">Xem chi tiết <i></i></a></div></div>
-                                        </div>
-                                    </div>
-                                </div><div class="owl-item active" style="width: 372.667px;">
-                                    <div class="item">
-                                        <div class="box">
-                                            <div class="img">
-                                                <a href="https://nordic.vn/bao-bac-giang-nhung-dac-trung-noi-bat-cua-phong-cach-noi-that-bac-au/"><img data-lazyloaded="1" src="App_Themes/house/img/anh-thumb-BST-Half-Life.png" width="590" height="323" data-src="https://nordic.vn/wp-content/uploads/2022/09/anh-thumb-BST-Half-Life.png" class="attachment-large size-large wvs-archive-product-image wp-post-image entered litespeed-loaded" alt="nha-thiet-ke-ve-ghe-hoang-hau-" decoding="async" loading="lazy" data-srcset="https://nordic.vn/wp-content/uploads/2022/09/anh-thumb-BST-Half-Life.png 590w, https://nordic.vn/wp-content/uploads/2022/09/anh-thumb-BST-Half-Life-300x164.png 300w" data-sizes="(max-width: 590px) 100vw, 590px" data-ll-status="loaded" sizes="(max-width: 590px) 100vw, 590px" srcset="https://nordic.vn/wp-content/uploads/2022/09/anh-thumb-BST-Half-Life.png 590w, https://nordic.vn/wp-content/uploads/2022/09/anh-thumb-BST-Half-Life-300x164.png 300w"></a>
-                                            </div><div class="info"><div class="top"><div class="date">21/09/2022</div><div class="meta"><div class="share"><a href="https://facebook.com/share.php?u=https://nordic.vn/bao-bac-giang-nhung-dac-trung-noi-bat-cua-phong-cach-noi-that-bac-au/" target="_blank" rel="nofollow" onclick="javascript:window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;" class="facebook " data-toggle="tooltip" title="Share on Facebook"><img data-lazyloaded="1" src="App_Themes/house/img/icon_share.png" alt"icon_share"="" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_share.png" data-ll-status="loaded" class="entered litespeed-loaded"></a></div><div class="view"><img data-lazyloaded="1" src="App_Themes/house/img/icon_view.png" alt="view" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_view.png" data-ll-status="loaded" class="entered litespeed-loaded">527</div></div></div><h3 class="name"><a href="https://nordic.vn/bao-bac-giang-nhung-dac-trung-noi-bat-cua-phong-cach-noi-that-bac-au/">Báo Bắc Giang – Những đặc trưng nổi bật của phong cách nội thất Bắc Âu</a></h3><div class="text">Thiết kế nội thất Bắc Âu là một trong những phong cách được rất nhiều người lựa chọn cho căn hộ của mình bởi chúng cân bằng được các yếu tố đơn giản - tiện...</div><div class="link"><a href="https://nordic.vn/bao-bac-giang-nhung-dac-trung-noi-bat-cua-phong-cach-noi-that-bac-au/">Xem chi tiết <i></i></a></div></div>
-                                        </div>
-                                    </div>
-                                </div><div class="owl-item" style="width: 372.667px;">
-                                    <div class="item">
-                                        <div class="box">
-                                            <div class="img">
-                                                <a href="https://nordic.vn/tinphongcach-sema-nordic-thuong-hieu-noi-that-phong-cach-bac-au-thiet-ke-uy-tin-boi-nguoi-viet/"><img data-lazyloaded="1" src="App_Themes/house/img/b1-1024x1024.jpg" width="1024" height="1024" data-src="https://nordic.vn/wp-content/uploads/2022/09/b1-1024x1024.jpg" class="attachment-large size-large wvs-archive-product-image wp-post-image entered litespeed-loaded" alt="nha-thiet-ke-ve-ghe-hoang-hau-1" decoding="async" loading="lazy" data-srcset="https://nordic.vn/wp-content/uploads/2022/09/b1-1024x1024.jpg 1024w, https://nordic.vn/wp-content/uploads/2022/09/b1-300x300.jpg 300w, https://nordic.vn/wp-content/uploads/2022/09/b1-150x150.jpg 150w, https://nordic.vn/wp-content/uploads/2022/09/b1-768x768.jpg 768w, https://nordic.vn/wp-content/uploads/2022/09/b1-600x600.jpg 600w, https://nordic.vn/wp-content/uploads/2022/09/b1-400x400.jpg 400w, https://nordic.vn/wp-content/uploads/2022/09/b1-50x50.jpg 50w, https://nordic.vn/wp-content/uploads/2022/09/b1-100x100.jpg 100w, https://nordic.vn/wp-content/uploads/2022/09/b1.jpg 1242w" data-sizes="(max-width: 1024px) 100vw, 1024px" data-ll-status="loaded" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://nordic.vn/wp-content/uploads/2022/09/b1-1024x1024.jpg 1024w, https://nordic.vn/wp-content/uploads/2022/09/b1-300x300.jpg 300w, https://nordic.vn/wp-content/uploads/2022/09/b1-150x150.jpg 150w, https://nordic.vn/wp-content/uploads/2022/09/b1-768x768.jpg 768w, https://nordic.vn/wp-content/uploads/2022/09/b1-600x600.jpg 600w, https://nordic.vn/wp-content/uploads/2022/09/b1-400x400.jpg 400w, https://nordic.vn/wp-content/uploads/2022/09/b1-50x50.jpg 50w, https://nordic.vn/wp-content/uploads/2022/09/b1-100x100.jpg 100w, https://nordic.vn/wp-content/uploads/2022/09/b1.jpg 1242w"></a>
-                                            </div><div class="info"><div class="top"><div class="date">21/09/2022</div><div class="meta"><div class="share"><a href="https://facebook.com/share.php?u=https://nordic.vn/tinphongcach-sema-nordic-thuong-hieu-noi-that-phong-cach-bac-au-thiet-ke-uy-tin-boi-nguoi-viet/" target="_blank" rel="nofollow" onclick="javascript:window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;" class="facebook " data-toggle="tooltip" title="Share on Facebook"><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt"icon_share"="" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_share.png"></a></div><div class="view"><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="view" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_view.png">577</div></div></div><h3 class="name"><a href="https://nordic.vn/tinphongcach-sema-nordic-thuong-hieu-noi-that-phong-cach-bac-au-thiet-ke-uy-tin-boi-nguoi-viet/">Tinphongcach – “SEMA Nordic – Thương hiệu nội thất phong cách Bắc Âu thiết kế uy tín bởi người Việt”</a></h3><div class="text">Sema&nbsp;NORDIC® ra đời với khao khát phụng sự cho ngôi nhà Việt các sản phẩm nội thất phong cách Bắc Âu chất lượng, bền đẹp, tiện ích và đầy đủ công năng. Trong suốt hơn...</div><div class="link"><a href="https://nordic.vn/tinphongcach-sema-nordic-thuong-hieu-noi-that-phong-cach-bac-au-thiet-ke-uy-tin-boi-nguoi-viet/">Xem chi tiết <i></i></a></div></div>
-                                        </div>
-                                    </div>
-                                </div><div class="owl-item" style="width: 372.667px;">
-                                    <div class="item">
-                                        <div class="box">
-                                            <div class="img">
-                                                <a href="https://nordic.vn/happynest-kts-nguyen-phuong-chi-kien-tao-thuong-hieu-noi-that-made-in-viet-nam-mong-muon-nang-tam-chat-luong-song-cho-nguoi-viet/"><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDI0IiBoZWlnaHQ9IjY4NSIgdmlld0JveD0iMCAwIDEwMjQgNjg1Ij48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg==" width="1024" height="685" data-src="https://nordic.vn/wp-content/uploads/2022/09/5511d96267086b762ff4846e633b8f8e-1-1024x685.jpeg" class="attachment-large size-large wvs-archive-product-image wp-post-image" alt="nha-thiet-ke-ve-ghe-hoang-hau-2" decoding="async" loading="lazy" data-srcset="https://nordic.vn/wp-content/uploads/2022/09/5511d96267086b762ff4846e633b8f8e-1-1024x685.jpeg 1024w, https://nordic.vn/wp-content/uploads/2022/09/5511d96267086b762ff4846e633b8f8e-1-600x401.jpeg 600w, https://nordic.vn/wp-content/uploads/2022/09/5511d96267086b762ff4846e633b8f8e-1-300x201.jpeg 300w, https://nordic.vn/wp-content/uploads/2022/09/5511d96267086b762ff4846e633b8f8e-1-768x514.jpeg 768w, https://nordic.vn/wp-content/uploads/2022/09/5511d96267086b762ff4846e633b8f8e-1-1536x1028.jpeg 1536w, https://nordic.vn/wp-content/uploads/2022/09/5511d96267086b762ff4846e633b8f8e-1.jpeg 1877w" data-sizes="(max-width: 1024px) 100vw, 1024px"></a>
-                                            </div><div class="info"><div class="top"><div class="date">06/09/2022</div><div class="meta"><div class="share"><a href="https://facebook.com/share.php?u=https://nordic.vn/happynest-kts-nguyen-phuong-chi-kien-tao-thuong-hieu-noi-that-made-in-viet-nam-mong-muon-nang-tam-chat-luong-song-cho-nguoi-viet/" target="_blank" rel="nofollow" onclick="javascript:window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;" class="facebook " data-toggle="tooltip" title="Share on Facebook"><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt"icon_share"="" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_share.png"></a></div><div class="view"><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="view" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_view.png">579</div></div></div><h3 class="name"><a href="https://nordic.vn/happynest-kts-nguyen-phuong-chi-kien-tao-thuong-hieu-noi-that-made-in-viet-nam-mong-muon-nang-tam-chat-luong-song-cho-nguoi-viet/">Happynest – “KTS Nguyễn Phương Chi: Kiến tạo thương hiệu nội thất Made in Việt Nam mong muốn nâng tầm chất lượng sống cho người Việt”</a></h3><div class="text">Trải qua 11 năm thăng trầm, từ con số 0 đến việc đặt dấu mốc đầu tiên trong lĩnh vực phát triển thương hiệu thiết kế đồ nội thất Made in Việt Nam, KTS Nguyễn...</div><div class="link"><a href="https://nordic.vn/happynest-kts-nguyen-phuong-chi-kien-tao-thuong-hieu-noi-that-made-in-viet-nam-mong-muon-nang-tam-chat-luong-song-cho-nguoi-viet/">Xem chi tiết <i></i></a></div></div>
-                                        </div>
-                                    </div>
-                                </div><div class="owl-item" style="width: 372.667px;">
-                                    <div class="item">
-                                        <div class="box">
-                                            <div class="img">
-                                                <a href="https://nordic.vn/cafebiz-hanh-trinh-kien-tao-va-dinh-vi-thuong-hieu-thiet-ke-noi-that-bac-au-tai-viet-nam/"><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MDAiIGhlaWdodD0iMzc1IiB2aWV3Qm94PSIwIDAgNjAwIDM3NSI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=" width="600" height="375" data-src="https://nordic.vn/wp-content/uploads/2022/09/photo1659670316015-16596703161181684021151-63795568364591.webp" class="attachment-large size-large wvs-archive-product-image wp-post-image" alt="nha-thiet-ke-ve-ghe-hoang-hau-23" decoding="async" loading="lazy" data-srcset="https://nordic.vn/wp-content/uploads/2022/09/photo1659670316015-16596703161181684021151-63795568364591.webp 600w, https://nordic.vn/wp-content/uploads/2022/09/photo1659670316015-16596703161181684021151-63795568364591-300x188.webp 300w" data-sizes="(max-width: 600px) 100vw, 600px"></a>
-                                            </div><div class="info"><div class="top"><div class="date">01/09/2022</div><div class="meta"><div class="share"><a href="https://facebook.com/share.php?u=https://nordic.vn/cafebiz-hanh-trinh-kien-tao-va-dinh-vi-thuong-hieu-thiet-ke-noi-that-bac-au-tai-viet-nam/" target="_blank" rel="nofollow" onclick="javascript:window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;" class="facebook " data-toggle="tooltip" title="Share on Facebook"><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt"icon_share"="" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_share.png"></a></div><div class="view"><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="view" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_view.png">597</div></div></div><h3 class="name"><a href="https://nordic.vn/cafebiz-hanh-trinh-kien-tao-va-dinh-vi-thuong-hieu-thiet-ke-noi-that-bac-au-tai-viet-nam/">Cafebiz – Hành trình kiến tạo và định vị thương hiệu thiết kế Nội thất Bắc Âu tại Việt Nam</a></h3><div class="text">Khác với các hãng nội thất Việt mọc lên như nấm, 𝗡𝗢𝗥𝗗𝗜𝗖® (thương hiệu con của Sema Group) vẫn được đánh giá cao bởi định hướng "thiết kế &amp; sản xuất đồ nội thất phong...</div><div class="link"><a href="https://nordic.vn/cafebiz-hanh-trinh-kien-tao-va-dinh-vi-thuong-hieu-thiet-ke-noi-that-bac-au-tai-viet-nam/">Xem chi tiết <i></i></a></div></div>
-                                        </div>
-                                    </div>
-                                </div><div class="owl-item" style="width: 372.667px;">
-                                    <div class="item">
-                                        <div class="box">
-                                            <div class="img">
-                                                <a href="https://nordic.vn/kien-viet-ky-niem-4-nam-thanh-lap-nordic-thuong-hieu-do-noi-that-mang-tinh-than-designed-by-vietnam/"><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDI0IiBoZWlnaHQ9IjY4MyIgdmlld0JveD0iMCAwIDEwMjQgNjgzIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg==" width="1024" height="683" data-src="https://nordic.vn/wp-content/uploads/2022/09/kienviet-ky-niem-4-nam-thanh-lap-nordic4-1440x960-1-1024x683.jpg" class="attachment-large size-large wvs-archive-product-image wp-post-image" alt="nha-thiet-ke-ve-ghe-hoang-hau-24" decoding="async" loading="lazy" data-srcset="https://nordic.vn/wp-content/uploads/2022/09/kienviet-ky-niem-4-nam-thanh-lap-nordic4-1440x960-1-1024x683.jpg 1024w, https://nordic.vn/wp-content/uploads/2022/09/kienviet-ky-niem-4-nam-thanh-lap-nordic4-1440x960-1-600x400.jpg 600w, https://nordic.vn/wp-content/uploads/2022/09/kienviet-ky-niem-4-nam-thanh-lap-nordic4-1440x960-1-300x200.jpg 300w, https://nordic.vn/wp-content/uploads/2022/09/kienviet-ky-niem-4-nam-thanh-lap-nordic4-1440x960-1-768x512.jpg 768w, https://nordic.vn/wp-content/uploads/2022/09/kienviet-ky-niem-4-nam-thanh-lap-nordic4-1440x960-1.jpg 1440w" data-sizes="(max-width: 1024px) 100vw, 1024px"></a>
-                                            </div><div class="info"><div class="top"><div class="date">01/09/2022</div><div class="meta"><div class="share"><a href="https://facebook.com/share.php?u=https://nordic.vn/kien-viet-ky-niem-4-nam-thanh-lap-nordic-thuong-hieu-do-noi-that-mang-tinh-than-designed-by-vietnam/" target="_blank" rel="nofollow" onclick="javascript:window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;" class="facebook " data-toggle="tooltip" title="Share on Facebook"><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt"icon_share"="" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_share.png"></a></div><div class="view"><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="view" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_view.png">574</div></div></div><h3 class="name"><a href="https://nordic.vn/kien-viet-ky-niem-4-nam-thanh-lap-nordic-thuong-hieu-do-noi-that-mang-tinh-than-designed-by-vietnam/">Kiến Việt – Kỷ niệm 4 năm thành lập NORDIC – thương hiệu đồ nội thất mang tinh thần “Designed by Vietnam”</a></h3><div class="text">Vừa qua, thương hiệu đồ nội thất Bắc Âu NORDIC đã kỷ niệm 4 năm thành lập. Chính thức ra mắt ngày 08/08/2018, sau những nỗ lực xây dựng và phát triển trong suốt 4...</div><div class="link"><a href="https://nordic.vn/kien-viet-ky-niem-4-nam-thanh-lap-nordic-thuong-hieu-do-noi-that-mang-tinh-than-designed-by-vietnam/">Xem chi tiết <i></i></a></div></div>
-                                        </div>
-                                    </div>
-                                </div><div class="owl-item" style="width: 372.667px;">
-                                    <div class="item">
-                                        <div class="box">
-                                            <div class="img">
-                                                <a href="https://nordic.vn/kien-viet-tien-phong-sang-tao-va-cam-hung-thiet-ke-doc-ban-nordic-cho-ra-mat-bst-moi-mang-hoi-tho-duong-dai-va-y-nghia-nhan-van-sau-sac/"><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDI0IiBoZWlnaHQ9IjY0MCIgdmlld0JveD0iMCAwIDEwMjQgNjQwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg==" width="1024" height="640" data-src="https://nordic.vn/wp-content/uploads/2022/09/kienviet-nordic-cho-ra-mat-bts-moi-4-1440x900-1-1024x640.jpg" class="attachment-large size-large wvs-archive-product-image wp-post-image" alt="" decoding="async" loading="lazy" data-srcset="https://nordic.vn/wp-content/uploads/2022/09/kienviet-nordic-cho-ra-mat-bts-moi-4-1440x900-1-1024x640.jpg 1024w, https://nordic.vn/wp-content/uploads/2022/09/kienviet-nordic-cho-ra-mat-bts-moi-4-1440x900-1-600x375.jpg 600w, https://nordic.vn/wp-content/uploads/2022/09/kienviet-nordic-cho-ra-mat-bts-moi-4-1440x900-1-300x188.jpg 300w, https://nordic.vn/wp-content/uploads/2022/09/kienviet-nordic-cho-ra-mat-bts-moi-4-1440x900-1-768x480.jpg 768w, https://nordic.vn/wp-content/uploads/2022/09/kienviet-nordic-cho-ra-mat-bts-moi-4-1440x900-1.jpg 1440w" data-sizes="(max-width: 1024px) 100vw, 1024px"></a>
-                                            </div><div class="info"><div class="top"><div class="date">01/09/2022</div><div class="meta"><div class="share"><a href="https://facebook.com/share.php?u=https://nordic.vn/kien-viet-tien-phong-sang-tao-va-cam-hung-thiet-ke-doc-ban-nordic-cho-ra-mat-bst-moi-mang-hoi-tho-duong-dai-va-y-nghia-nhan-van-sau-sac/" target="_blank" rel="nofollow" onclick="javascript:window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;" class="facebook " data-toggle="tooltip" title="Share on Facebook"><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt"icon_share"="" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_share.png"></a></div><div class="view"><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="view" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_view.png">534</div></div></div><h3 class="name"><a href="https://nordic.vn/kien-viet-tien-phong-sang-tao-va-cam-hung-thiet-ke-doc-ban-nordic-cho-ra-mat-bst-moi-mang-hoi-tho-duong-dai-va-y-nghia-nhan-van-sau-sac/">Kiến Việt – “Tiên phong sáng tạo và cảm hứng thiết kế độc bản, Nordic cho ra mắt BST mới mang hơi thở đương đại và ý nghĩa nhân văn sâu sắc”</a></h3><div class="text">Đi đầu trong xu hướng đưa những sản phẩm nội thất chất lượng cao Made in Vietnam – Made by Vietnam vào trong tổ ấm của mỗi gia đình Việt,&nbsp;Nordic&nbsp;tiếp tục cho “trình làng” BST...</div><div class="link"><a href="https://nordic.vn/kien-viet-tien-phong-sang-tao-va-cam-hung-thiet-ke-doc-ban-nordic-cho-ra-mat-bst-moi-mang-hoi-tho-duong-dai-va-y-nghia-nhan-van-sau-sac/">Xem chi tiết <i></i></a></div></div>
-                                        </div>
-                                    </div>
-                                </div><div class="owl-item" style="width: 372.667px;">
-                                    <div class="item">
-                                        <div class="box">
-                                            <div class="img">
-                                                <a href="https://nordic.vn/kien-viet-tinh-than-designed-by-vietnam-trong-noi-that-phong-cach-bac-au-tu-sma-nordic/"><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDI0IiBoZWlnaHQ9IjU3NiIgdmlld0JveD0iMCAwIDEwMjQgNTc2Ij48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg==" width="1024" height="576" data-src="https://nordic.vn/wp-content/uploads/2022/09/kienviet-tinh-than-Designed-by-Vietnam-trong-noi-that-phong-cach-bac-au-tu-sma-nordic-1-1440x810-1-1-1024x576.png" class="attachment-large size-large wvs-archive-product-image wp-post-image" alt="" decoding="async" loading="lazy" data-srcset="https://nordic.vn/wp-content/uploads/2022/09/kienviet-tinh-than-Designed-by-Vietnam-trong-noi-that-phong-cach-bac-au-tu-sma-nordic-1-1440x810-1-1-1024x576.png 1024w, https://nordic.vn/wp-content/uploads/2022/09/kienviet-tinh-than-Designed-by-Vietnam-trong-noi-that-phong-cach-bac-au-tu-sma-nordic-1-1440x810-1-1-600x338.png 600w, https://nordic.vn/wp-content/uploads/2022/09/kienviet-tinh-than-Designed-by-Vietnam-trong-noi-that-phong-cach-bac-au-tu-sma-nordic-1-1440x810-1-1-300x169.png 300w, https://nordic.vn/wp-content/uploads/2022/09/kienviet-tinh-than-Designed-by-Vietnam-trong-noi-that-phong-cach-bac-au-tu-sma-nordic-1-1440x810-1-1-768x432.png 768w, https://nordic.vn/wp-content/uploads/2022/09/kienviet-tinh-than-Designed-by-Vietnam-trong-noi-that-phong-cach-bac-au-tu-sma-nordic-1-1440x810-1-1.png 1440w" data-sizes="(max-width: 1024px) 100vw, 1024px"></a>
-                                            </div><div class="info"><div class="top"><div class="date">01/09/2020</div><div class="meta"><div class="share"><a href="https://facebook.com/share.php?u=https://nordic.vn/kien-viet-tinh-than-designed-by-vietnam-trong-noi-that-phong-cach-bac-au-tu-sma-nordic/" target="_blank" rel="nofollow" onclick="javascript:window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;" class="facebook " data-toggle="tooltip" title="Share on Facebook"><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt"icon_share"="" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_share.png"></a></div><div class="view"><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="view" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_view.png">324</div></div></div><h3 class="name"><a href="https://nordic.vn/kien-viet-tinh-than-designed-by-vietnam-trong-noi-that-phong-cach-bac-au-tu-sma-nordic/">Kiến Việt – “Tinh thần “Designed by Vietnam” trong nội thất phong cách Bắc Âu từ SMA Nordic”</a></h3><div class="text">Tại Việt Nam, nội thất Bắc Âu chủ yếu là những sản phẩm nhập khẩu. SMA Nordic là một trong số ít thương hiệu Việt đã đem hơi hướng Scandinavian vào các thiết kế “Designed...</div><div class="link"><a href="https://nordic.vn/kien-viet-tinh-than-designed-by-vietnam-trong-noi-that-phong-cach-bac-au-tu-sma-nordic/">Xem chi tiết <i></i></a></div></div>
-                                        </div>
-                                    </div>
-                                </div><div class="owl-item" style="width: 372.667px;">
-                                    <div class="item">
-                                        <div class="box">
-                                            <div class="img">
-                                                <a href="https://nordic.vn/kien-viet-sma-nordic-gay-an-tuong-voi-bst-2021-vua-duoc-cong-bo/"><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDI0IiBoZWlnaHQ9IjY4MiIgdmlld0JveD0iMCAwIDEwMjQgNjgyIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg==" width="1024" height="682" data-src="https://nordic.vn/wp-content/uploads/2022/09/sma-nordic-gay-an-tuong-voi-bst-2021-vua-duoc-cong-bo-1-1-1024x682.jpg" class="attachment-large size-large wvs-archive-product-image wp-post-image" alt="" decoding="async" loading="lazy" data-srcset="https://nordic.vn/wp-content/uploads/2022/09/sma-nordic-gay-an-tuong-voi-bst-2021-vua-duoc-cong-bo-1-1-1024x682.jpg 1024w, https://nordic.vn/wp-content/uploads/2022/09/sma-nordic-gay-an-tuong-voi-bst-2021-vua-duoc-cong-bo-1-1-600x400.jpg 600w, https://nordic.vn/wp-content/uploads/2022/09/sma-nordic-gay-an-tuong-voi-bst-2021-vua-duoc-cong-bo-1-1-300x200.jpg 300w, https://nordic.vn/wp-content/uploads/2022/09/sma-nordic-gay-an-tuong-voi-bst-2021-vua-duoc-cong-bo-1-1-768x511.jpg 768w, https://nordic.vn/wp-content/uploads/2022/09/sma-nordic-gay-an-tuong-voi-bst-2021-vua-duoc-cong-bo-1-1.jpg 1200w" data-sizes="(max-width: 1024px) 100vw, 1024px"></a>
-                                            </div><div class="info"><div class="top"><div class="date">01/09/2021</div><div class="meta"><div class="share"><a href="https://facebook.com/share.php?u=https://nordic.vn/kien-viet-sma-nordic-gay-an-tuong-voi-bst-2021-vua-duoc-cong-bo/" target="_blank" rel="nofollow" onclick="javascript:window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;" class="facebook " data-toggle="tooltip" title="Share on Facebook"><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt"icon_share"="" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_share.png"></a></div><div class="view"><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="view" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_view.png">290</div></div></div><h3 class="name"><a href="https://nordic.vn/kien-viet-sma-nordic-gay-an-tuong-voi-bst-2021-vua-duoc-cong-bo/">Kiến Việt – “SMA Nordic gây ấn tượng với BST 2021 vừa được công bố”</a></h3><div class="text">Cuộc sống ngày càng phát triển, nhu cầu của con người về tiện nghi và thẩm mỹ lại càng được chú trọng hơn. Một tổ ấm đầy đủ tiện nghi, đẹp, ấm áp, phù hợp...</div><div class="link"><a href="https://nordic.vn/kien-viet-sma-nordic-gay-an-tuong-voi-bst-2021-vua-duoc-cong-bo/">Xem chi tiết <i></i></a></div></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    <!-- CAC PHONG CACH -->
-    <div class="collection_home">
+        </div><div class="collection_home">
             <div class="background bg_section" style="background-image: url(https://nordic.vn/wp-content/uploads/2023/04/Untitled-8.jpg);"></div><div class="container-fluid">
                 <div class="title_home2 white">
-                    <h2 class="title">CÁC PHONG CÁCH</h2>
+                    <h2 class="title">New Collection</h2>
                     <a href="https://nordic.vn/san-pham/" class="link">Xem tất cả</a>
                 </div><div class="slider">
                     <div class="owl-carousel owl-loaded owl-drag">
@@ -709,132 +558,161 @@
                     </div>
                 </div>
             </div>
-        </div>
-    <!-- END CAC PHONG CACH -->
-
-    <!-- QUY TRINH LAM VIEC -->
-    <section id="reason">
-    <div class="reason-header">
-                    <h2 class="mbr-section-title align-center mbr-fonts-style mbr-bold display-2">Lý do lựa chọn Housedesign</h2>
-            </div>
-
-    <div class="container">
-        <div class="reason-content-desktop">
-                                        <img src="https://housedesign.vn/wp-content/uploads/2020/12/Frame-1.png" width="75%"  alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2020/12/Frame-1.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://housedesign.vn/wp-content/uploads/2020/12/Frame-1.png" width="75%"  alt=""></noscript>
+        </div><div class="product_home">
+            <div class="container-fluid">
+                <div class="title_home2">
+                    <h2 class="title">Sản phẩm</h2>
+                    <a href="https://nordic.vn/san-pham/" class="link">Xem tất cả</a>
+                </div><div class="list_product2">
+                    <div class="item_pro2 wvs-pro-product wvs-archive-product-wrapper">
+                        <div class="img">
+                            <a href="https://nordic.vn/shell-lounge-chair/">
+                                <img width="1500" height="1500" src="App_Themes/house/img/11-Shell-lougne-chair-xanh-navy.png" class="attachment-post-thumbnail size-post-thumbnail wvs-archive-product-image wp-post-image" alt="" decoding="async" loading="lazy" data-o_src="https://nordic.vn/wp-content/uploads/2023/03/11-Shell-lougne-chair-xanh-navy.png"><div class="img-2"></div>
+                            </a>
+                        </div><div class="info">
+                            <h3 class="name"><a href="https://nordic.vn/shell-lounge-chair/">Shell Lounge Chair</a></h3><div class="meta_product">
+                                <div class="star-rating" role="img" aria-label="Được xếp hạng 5.00 5 sao"><span style="width:100%">Được xếp hạng <strong class="rating">5.00</strong> 5 sao</span></div>							<a href="https://nordic.vn/shell-lounge-chair/#comments" class="cmt"><span>1</span> đánh giá</a><div class="buy">
+                                    <span>0</span> đã mua
+                                </div>
+                            </div><div class="price"><span class="woocommerce-Price-amount amount"><bdi>61.800.000&nbsp;<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span></div>
+                            <a href="https://nordic.vn/shell-lounge-chair/" data-quantity="1" class="button product_type_variable add_to_cart_button wvs-add-to-cart-button" data-product_id="3356" data-product_sku="" aria-label="Lựa chọn cho “Shell Lounge Chair”" rel="nofollow">Lựa chọn các tùy chọn</a><div class="wvs-archive-variations-wrapper wvs-pro-loaded" data-threshold_min="0" data-threshold_max="100" data-total_children="3" data-product_id="3356" data-product_variations="false">
+                                <ul class="variations">
+                                    <li class="woo-variation-items-wrapper">
+                                        <select style="display:none" id="pa_mau-sac" class=" woo-variation-raw-select" name="attribute_pa_mau-sac" data-attribute_name="attribute_pa_mau-sac" data-show_option_none="yes"><option value="">Chọn một tùy chọn</option><option value="nau" class="attached enabled">Nâu</option><option value="trang" class="attached enabled">Trắng</option><option value="xanh-navy" class="attached enabled">Xanh Navy</option></select><ul role="radiogroup" aria-label="Màu sắc" class="archive-variable-items enabled-catalog-display-limit-mode wvs-style-squared variable-items-wrapper color-variable-items-wrapper" data-attribute_name="attribute_pa_mau-sac" data-attribute_values="[&quot;nau&quot;,&quot;trang&quot;,&quot;xanh-navy&quot;]"><li aria-checked="false" tabindex="0" data-wvstooltip="Nâu" class="variable-item color-variable-item color-variable-item-nau" title="Nâu" data-title="Nâu" data-value="nau" role="radio" data-wvstooltip-out-of-stock=""><div class="variable-item-contents"><span class="variable-item-span variable-item-span-color" style="background-color:#a58c73;"></span></div></li><li aria-checked="false" tabindex="0" data-wvstooltip="Trắng" class="variable-item color-variable-item color-variable-item-trang" title="Trắng" data-title="Trắng" data-value="trang" role="radio" data-wvstooltip-out-of-stock=""><div class="variable-item-contents"><span class="variable-item-span variable-item-span-color" style="background-color:#ffffff;"></span></div></li><li aria-checked="false" tabindex="0" data-wvstooltip="Xanh Navy" class="variable-item color-variable-item color-variable-item-xanh-navy" title="Xanh Navy" data-title="Xanh Navy" data-value="xanh-navy" role="radio" data-wvstooltip-out-of-stock=""><div class="variable-item-contents"><span class="variable-item-span variable-item-span-color" style="background-color:#0a3575;"></span></div></li></ul>
+                                    </li>
+                                </ul><div class="wvs-archive-information"></div>
+                            </div><div class="short_desc"><p><em><strong>Da microfiber và vải Bồ Đào Nha</strong></em></p></div>
+                        </div>
+                    </div><div class="item_pro2 wvs-pro-product wvs-archive-product-wrapper">
+                        <div class="img">
+                            <a href="https://nordic.vn/ban-tra-pige/">
+                                <img width="1500" height="1500" src="App_Themes/house/img/4-Ban-tra-Pige-trang.png" class="attachment-post-thumbnail size-post-thumbnail wvs-archive-product-image wp-post-image" alt="ban-tra-bac-au-" decoding="async" loading="lazy" data-o_src="https://nordic.vn/wp-content/uploads/2022/08/4-Ban-tra-Pige-trang.png"><div class="img-2"></div>
+                            </a>
+                        </div><div class="info">
+                            <h3 class="name"><a href="https://nordic.vn/ban-tra-pige/">Bàn trà Pige (Bản to)</a></h3><div class="meta_product">
+                                <div class="star-rating" role="img" aria-label="Được xếp hạng 5.00 5 sao"><span style="width:100%">Được xếp hạng <strong class="rating">5.00</strong> 5 sao</span></div>							<a href="https://nordic.vn/ban-tra-pige/#comments" class="cmt"><span>1</span> đánh giá</a><div class="buy">
+                                    <span>0</span> đã mua
+                                </div>
+                            </div><div class="price"><span class="woocommerce-Price-amount amount"><bdi>21.400.000&nbsp;<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span></div>
+                            <a href="https://nordic.vn/ban-tra-pige/" data-quantity="1" class="button product_type_variable add_to_cart_button wvs-add-to-cart-button" data-product_id="772" data-product_sku="" aria-label="Lựa chọn cho “Bàn trà Pige (Bản to)”" rel="nofollow">Lựa chọn các tùy chọn</a><div class="wvs-archive-variations-wrapper wvs-pro-loaded" data-threshold_min="0" data-threshold_max="100" data-total_children="2" data-product_id="772" data-product_variations="false">
+                                <ul class="variations">
+                                    <li class="woo-variation-items-wrapper">
+                                        <select style="display:none" id="pa_mau-sac" class=" woo-variation-raw-select" name="attribute_pa_mau-sac" data-attribute_name="attribute_pa_mau-sac" data-show_option_none="yes"><option value="">Chọn một tùy chọn</option><option value="den" class="attached enabled">Đen</option><option value="trang" class="attached enabled">Trắng</option></select><ul role="radiogroup" aria-label="Màu sắc" class="archive-variable-items enabled-catalog-display-limit-mode wvs-style-squared variable-items-wrapper color-variable-items-wrapper" data-attribute_name="attribute_pa_mau-sac" data-attribute_values="[&quot;den&quot;,&quot;trang&quot;]"><li aria-checked="false" tabindex="0" data-wvstooltip="Đen" class="variable-item color-variable-item color-variable-item-den" title="Đen" data-title="Đen" data-value="den" role="radio" data-wvstooltip-out-of-stock=""><div class="variable-item-contents"><span class="variable-item-span variable-item-span-color" style="background-color:#000000;"></span></div></li><li aria-checked="false" tabindex="0" data-wvstooltip="Trắng" class="variable-item color-variable-item color-variable-item-trang" title="Trắng" data-title="Trắng" data-value="trang" role="radio" data-wvstooltip-out-of-stock=""><div class="variable-item-contents"><span class="variable-item-span variable-item-span-color" style="background-color:#ffffff;"></span></div></li></ul>
+                                    </li>
+                                </ul><div class="wvs-archive-information"></div>
+                            </div><div class="short_desc"><p><span style="font-size: 10pt;"><strong>Chân kim loại sơn tĩnh điện, mặt bàn đá&nbsp;</strong></span></p><p>&nbsp;</p></div>
+                        </div>
+                    </div><div class="item_pro2 wvs-pro-product wvs-archive-product-wrapper">
+                        <div class="img">
+                            <a href="https://nordic.vn/sofa-lounge-flot-ban-tieu-chuan/">
+                                <img width="1500" height="1500" src="App_Themes/house/img/8-Sofa-Lounge-Flot-nau-vang.png" class="attachment-post-thumbnail size-post-thumbnail wvs-archive-product-image wp-post-image" alt="ghe-bac-au-1" decoding="async" loading="lazy" data-o_src="https://nordic.vn/wp-content/uploads/2022/08/8-Sofa-Lounge-Flot-nau-vang.png"><div class="img-2"></div>
+                            </a>
+                        </div><div class="info">
+                            <h3 class="name"><a href="https://nordic.vn/sofa-lounge-flot-ban-tieu-chuan/">Flot Lounge Sofa – Standard</a></h3><div class="meta_product">
+                                <div class="star-rating" role="img" aria-label="Được xếp hạng 5.00 5 sao"><span style="width:100%">Được xếp hạng <strong class="rating">5.00</strong> 5 sao</span></div>							<a href="https://nordic.vn/sofa-lounge-flot-ban-tieu-chuan/#comments" class="cmt"><span>1</span> đánh giá</a><div class="buy">
+                                    <span>0</span> đã mua
+                                </div>
+                            </div><div class="price"><span class="woocommerce-Price-amount amount"><bdi>52.200.000&nbsp;<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span></div>
+                            <a href="https://nordic.vn/sofa-lounge-flot-ban-tieu-chuan/" data-quantity="1" class="button product_type_variable add_to_cart_button wvs-add-to-cart-button" data-product_id="768" data-product_sku="" aria-label="Lựa chọn cho “Flot Lounge Sofa - Standard”" rel="nofollow">Lựa chọn các tùy chọn</a><div class="wvs-archive-variations-wrapper wvs-pro-loaded" data-threshold_min="0" data-threshold_max="100" data-total_children="4" data-product_id="768" data-product_variations="false">
+                                <ul class="variations">
+                                    <li class="woo-variation-items-wrapper">
+                                        <select style="display:none" id="pa_mau-sac" class=" woo-variation-raw-select" name="attribute_pa_mau-sac" data-attribute_name="attribute_pa_mau-sac" data-show_option_none="yes"><option value="">Chọn một tùy chọn</option><option value="be" class="attached enabled">Be</option><option value="nau" class="attached enabled">Nâu</option><option value="trang" class="attached enabled">Trắng</option><option value="xanh" class="attached enabled">Xanh</option></select><ul role="radiogroup" aria-label="Màu sắc" class="archive-variable-items enabled-catalog-display-limit-mode wvs-style-squared variable-items-wrapper color-variable-items-wrapper" data-attribute_name="attribute_pa_mau-sac" data-attribute_values="[&quot;trang&quot;,&quot;be&quot;,&quot;nau&quot;,&quot;xanh&quot;]"><li aria-checked="false" tabindex="0" data-wvstooltip="Be" class="variable-item color-variable-item color-variable-item-be" title="Be" data-title="Be" data-value="be" role="radio" data-wvstooltip-out-of-stock=""><div class="variable-item-contents"><span class="variable-item-span variable-item-span-color" style="background-color:#ddccaa;"></span></div></li><li aria-checked="false" tabindex="0" data-wvstooltip="Nâu" class="variable-item color-variable-item color-variable-item-nau" title="Nâu" data-title="Nâu" data-value="nau" role="radio" data-wvstooltip-out-of-stock=""><div class="variable-item-contents"><span class="variable-item-span variable-item-span-color" style="background-color:#a58c73;"></span></div></li><li aria-checked="false" tabindex="0" data-wvstooltip="Trắng" class="variable-item color-variable-item color-variable-item-trang" title="Trắng" data-title="Trắng" data-value="trang" role="radio" data-wvstooltip-out-of-stock=""><div class="variable-item-contents"><span class="variable-item-span variable-item-span-color" style="background-color:#ffffff;"></span></div></li><li aria-checked="false" tabindex="0" data-wvstooltip="Xanh" class="variable-item color-variable-item color-variable-item-xanh" title="Xanh" data-title="Xanh" data-value="xanh" role="radio" data-wvstooltip-out-of-stock=""><div class="variable-item-contents"><span class="variable-item-span variable-item-span-color" style="background-color:#00287a;"></span></div></li></ul>
+                                    </li>
+                                </ul><div class="wvs-archive-information"></div>
+                            </div><div class="short_desc"><p><span style="font-size: 10pt;"><strong>Vải stardard NORDIC – Chi tiết vàng đồng 18K</strong></span></p><p>&nbsp;</p></div>
+                        </div>
+                    </div><div class="item_pro2 wvs-pro-product wvs-archive-product-wrapper">
+                        <div class="img">
+                            <a href="https://nordic.vn/sofa-i-semina-ban-tieu-chuan/">
+                                <img width="1500" height="1500" src="App_Themes/house/img/10-Sofa-Semina.png" class="attachment-post-thumbnail size-post-thumbnail wvs-archive-product-image wp-post-image" alt="" decoding="async" loading="lazy" data-o_src="https://nordic.vn/wp-content/uploads/2022/08/10-Sofa-Semina.png"><div class="img-2"></div>
+                            </a>
+                        </div><div class="info">
+                            <h3 class="name"><a href="https://nordic.vn/sofa-i-semina-ban-tieu-chuan/">Sofa I Semina – Standard</a></h3><div class="meta_product">
+                                <div class="star-rating" role="img" aria-label="Được xếp hạng 5.00 5 sao"><span style="width:100%">Được xếp hạng <strong class="rating">5.00</strong> 5 sao</span></div>							<a href="https://nordic.vn/sofa-i-semina-ban-tieu-chuan/#comments" class="cmt"><span>1</span> đánh giá</a><div class="buy">
+                                    <span>0</span> đã mua
+                                </div>
+                            </div><div class="price"><span class="woocommerce-Price-amount amount"><bdi>41.200.000&nbsp;<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span></div>
+                            <a href="https://nordic.vn/sofa-i-semina-ban-tieu-chuan/" data-quantity="1" class="button product_type_variable add_to_cart_button wvs-add-to-cart-button" data-product_id="472" data-product_sku="" aria-label="Lựa chọn cho “Sofa I Semina - Standard”" rel="nofollow">Lựa chọn các tùy chọn</a><div class="wvs-archive-variations-wrapper wvs-pro-loaded" data-threshold_min="0" data-threshold_max="100" data-total_children="3" data-product_id="472" data-product_variations="false">
+                                <ul class="variations">
+                                    <li class="woo-variation-items-wrapper">
+                                        <select style="display:none" id="pa_mau-sac" class=" woo-variation-raw-select" name="attribute_pa_mau-sac" data-attribute_name="attribute_pa_mau-sac" data-show_option_none="yes"><option value="">Chọn một tùy chọn</option><option value="nau-xam" class="attached enabled">Nâu Xám</option><option value="trang" class="attached enabled">Trắng</option><option value="xam" class="attached enabled">Xám</option></select><ul role="radiogroup" aria-label="Màu sắc" class="archive-variable-items enabled-catalog-display-limit-mode wvs-style-squared variable-items-wrapper color-variable-items-wrapper" data-attribute_name="attribute_pa_mau-sac" data-attribute_values="[&quot;trang&quot;,&quot;xam&quot;,&quot;nau-xam&quot;]"><li aria-checked="false" tabindex="0" data-wvstooltip="Nâu Xám" class="variable-item color-variable-item color-variable-item-nau-xam" title="Nâu Xám" data-title="Nâu Xám" data-value="nau-xam" role="radio" data-wvstooltip-out-of-stock=""><div class="variable-item-contents"><span class="variable-item-span variable-item-span-color" style="background-color:#c1c1c1;"></span></div></li><li aria-checked="false" tabindex="0" data-wvstooltip="Trắng" class="variable-item color-variable-item color-variable-item-trang" title="Trắng" data-title="Trắng" data-value="trang" role="radio" data-wvstooltip-out-of-stock=""><div class="variable-item-contents"><span class="variable-item-span variable-item-span-color" style="background-color:#ffffff;"></span></div></li><li aria-checked="false" tabindex="0" data-wvstooltip="Xám" class="variable-item color-variable-item color-variable-item-xam" title="Xám" data-title="Xám" data-value="xam" role="radio" data-wvstooltip-out-of-stock=""><div class="variable-item-contents"><span class="variable-item-span variable-item-span-color" style="background-color:#c6c6c6;"></span></div></li></ul>
+                                    </li>
+                                </ul><div class="wvs-archive-information"></div>
+                            </div><div class="short_desc"><p><span style="font-size: 10pt;"><strong>Vải stardard NORDIC – Chi tiết vàng đồng 18K</strong></span></p><p>&nbsp;</p></div>
+                        </div>
                     </div>
-        <div class="reason-content-mobile">
-            <div class="reason-mobile-slide">
-                <div class="owl-carousel owl-theme reason-carousel owl-loaded owl-drag" id="reason-carousel">
-                                    <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-3248px, 0px, 0px); transition: all 0.25s ease 0s; width: 5104px;"><div class="owl-item cloned" style="width: 444px; margin-right: 20px;"><div class="item">
-                                <div class="reason-item">
-                                    <div class="item-box">
-                                        <p class="number">03</p>
-                                        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2065%2050'%3E%3C/svg%3E" width="65" height="50" data-lazy-src="https://housedesign.vn/images/xuong-san-xuat-rieng.png"><noscript><img src="https://housedesign.vn/images/xuong-san-xuat-rieng.png" width="65" height="50"></noscript>
-                                        <p class="description">
-                                            Xưởng sản xuất riêng                                        </p>
-                                    </div>
-                                </div>
-                            </div></div><div class="owl-item cloned" style="width: 444px; margin-right: 20px;"><div class="item">
-                                <div class="reason-item">
-                                    <div class="item-box">
-                                        <p class="number">04</p>
-                                        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2065%2050'%3E%3C/svg%3E" width="65" height="50" data-lazy-src="https://housedesign.vn/images/chi-phi-hop-ly.png"><noscript><img src="https://housedesign.vn/images/chi-phi-hop-ly.png" width="65" height="50"></noscript>
-                                        <p class="description">
-                                            Chi phí hợp lý                                        </p>
-                                    </div>
-                                </div>
-                            </div></div><div class="owl-item cloned" style="width: 444px; margin-right: 20px;"><div class="item">
-                                <div class="reason-item">
-                                    <div class="item-box">
-                                        <p class="number">05</p>
-                                        <img src="https://housedesign.vn/images/dung-tien-do.png" width="65" height="50" data-lazy-src="https://housedesign.vn/images/dung-tien-do.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://housedesign.vn/images/dung-tien-do.png" width="65" height="50"></noscript>
-                                        <p class="description">
-                                            Đúng tiến độ                                        </p>
-                                    </div>
-                                </div>
-                            </div></div><div class="owl-item" style="width: 444px; margin-right: 20px;"><div class="item">
-                                <div class="reason-item">
-                                    <div class="item-box">
-                                        <p class="number">01</p>
-                                        <img src="https://housedesign.vn/images/dich-vu-khach-hang-tan-tam.png" width="65" height="50" data-lazy-src="https://housedesign.vn/images/dich-vu-khach-hang-tan-tam.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://housedesign.vn/images/dich-vu-khach-hang-tan-tam.png" width="65" height="50"></noscript>
-                                        <p class="description">
-                                            Dịch vụ khách hàng tận tâm                                        </p>
-                                    </div>
-                                </div>
-                            </div></div><div class="owl-item" style="width: 444px; margin-right: 20px;"><div class="item">
-                                <div class="reason-item">
-                                    <div class="item-box">
-                                        <p class="number">02</p>
-                                        <img src="https://housedesign.vn/images/thiet-ke-sang-tao.png" width="65" height="50" data-lazy-src="https://housedesign.vn/images/thiet-ke-sang-tao.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://housedesign.vn/images/thiet-ke-sang-tao.png" width="65" height="50"></noscript>
-                                        <p class="description">
-                                            Thiết kế sáng tạo, thi công chất lượng                                        </p>
-                                    </div>
-                                </div>
-                            </div></div><div class="owl-item" style="width: 444px; margin-right: 20px;"><div class="item">
-                                <div class="reason-item">
-                                    <div class="item-box">
-                                        <p class="number">03</p>
-                                        <img src="https://housedesign.vn/images/xuong-san-xuat-rieng.png" width="65" height="50" data-lazy-src="https://housedesign.vn/images/xuong-san-xuat-rieng.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://housedesign.vn/images/xuong-san-xuat-rieng.png" width="65" height="50"></noscript>
-                                        <p class="description">
-                                            Xưởng sản xuất riêng                                        </p>
-                                    </div>
-                                </div>
-                            </div></div><div class="owl-item" style="width: 444px; margin-right: 20px;"><div class="item">
-                                <div class="reason-item">
-                                    <div class="item-box">
-                                        <p class="number">04</p>
-                                        <img src="https://housedesign.vn/images/chi-phi-hop-ly.png" width="65" height="50" data-lazy-src="https://housedesign.vn/images/chi-phi-hop-ly.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://housedesign.vn/images/chi-phi-hop-ly.png" width="65" height="50"></noscript>
-                                        <p class="description">
-                                            Chi phí hợp lý                                        </p>
-                                    </div>
-                                </div>
-                            </div></div><div class="owl-item active" style="width: 444px; margin-right: 20px;"><div class="item">
-                                <div class="reason-item">
-                                    <div class="item-box">
-                                        <p class="number">05</p>
-                                        <img src="https://housedesign.vn/images/dung-tien-do.png" width="65" height="50" data-lazy-src="https://housedesign.vn/images/dung-tien-do.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://housedesign.vn/images/dung-tien-do.png" width="65" height="50"></noscript>
-                                        <p class="description">
-                                            Đúng tiến độ                                        </p>
-                                    </div>
-                                </div>
-                            </div></div><div class="owl-item cloned" style="width: 444px; margin-right: 20px;"><div class="item">
-                                <div class="reason-item">
-                                    <div class="item-box">
-                                        <p class="number">01</p>
-                                        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2065%2050'%3E%3C/svg%3E" width="65" height="50" data-lazy-src="https://housedesign.vn/images/dich-vu-khach-hang-tan-tam.png"><noscript><img src="https://housedesign.vn/images/dich-vu-khach-hang-tan-tam.png" width="65" height="50"></noscript>
-                                        <p class="description">
-                                            Dịch vụ khách hàng tận tâm                                        </p>
-                                    </div>
-                                </div>
-                            </div></div><div class="owl-item cloned" style="width: 444px; margin-right: 20px;"><div class="item">
-                                <div class="reason-item">
-                                    <div class="item-box">
-                                        <p class="number">02</p>
-                                        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2065%2050'%3E%3C/svg%3E" width="65" height="50" data-lazy-src="https://housedesign.vn/images/thiet-ke-sang-tao.png"><noscript><img src="https://housedesign.vn/images/thiet-ke-sang-tao.png" width="65" height="50"></noscript>
-                                        <p class="description">
-                                            Thiết kế sáng tạo, thi công chất lượng                                        </p>
-                                    </div>
-                                </div>
-                            </div></div><div class="owl-item cloned" style="width: 444px; margin-right: 20px;"><div class="item">
-                                <div class="reason-item">
-                                    <div class="item-box">
-                                        <p class="number">03</p>
-                                        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2065%2050'%3E%3C/svg%3E" width="65" height="50" data-lazy-src="https://housedesign.vn/images/xuong-san-xuat-rieng.png"><noscript><img src="https://housedesign.vn/images/xuong-san-xuat-rieng.png" width="65" height="50"></noscript>
-                                        <p class="description">
-                                            Xưởng sản xuất riêng                                        </p>
-                                    </div>
-                                </div>
-                            </div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots"><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot active"><span></span></button></div></div>
+                </div>
             </div>
-        </div>
-    </div>
-</section>
-    <!-- END QUY TRINH LAM VIEC -->
-
-    <!-- DOI NGU NHAN SU -->
-    <div class="expert_home">
+        </div><div class="banner_center"><div class="background bg_section" style="background-image: url(https://nordic.vn/wp-content/uploads/2023/04/Untitled-10-1.jpg);"></div></div><div class="criteria_home">
+            <div class="background" style="background-image: url(https://nordic.vn/wp-content/uploads/2022/08/Untitled-11.png);"></div><div class="container-fluid">
+                <h2 class="title"><span></span> tiêu chí thiết kế</h2><div class="list">
+                    <div class="item">
+                        <div class="inner">
+                            <div class="number">
+                                <span class="num">1</span>
+                                <span class="text">Thói <br>quen</span>
+                                <span class="bgitem"><span class="num2">1</span></span>
+                            </div><div class="box"><div class="text">Các thiết kế được Team R&amp;D nghiên cứu một cách tỉ mẩn, kỹ lưỡng dựa trên thói quen sống của người Việt nhằm mang đến trải nghiệm phù hợp nhất.</div></div>
+                        </div>
+                    </div><div class="item">
+                        <div class="inner">
+                            <div class="number">
+                                <span class="num">2</span>
+                                <span class="text">Lối <br> sống</span>
+                                <span class="bgitem"><span class="num2">2</span></span>
+                            </div><div class="box"><div class="text">Trước khi một sản phẩm được hoàn thiện, Team R&amp;D đã có khoảng thời gian tìm hiểu về lối sống và văn hóa bao đời của người Việt. Từ những chi tiết nhỏ như khoang để đồ để không gian gọn gàng hơn, nâng cao chất lượng sống lên tầm cao mới.</div></div>
+                        </div>
+                    </div><div class="item">
+                        <div class="inner">
+                            <div class="number">
+                                <span class="num">3</span>
+                                <span class="text">Sở <br> thích</span>
+                                <span class="bgitem"><span class="num2">3</span></span>
+                            </div><div class="box"><div class="text">Mỗi sản phẩm đều được cá nhân hóa theo sở thích của từng cá nhân, về chất liệu, màu sắc,... phù hợp với mọi nhu cầu của khách hàng và thị hiếu của người Việt.</div></div>
+                        </div>
+                    </div><div class="item">
+                        <div class="inner">
+                            <div class="number">
+                                <span class="num">4</span>
+                                <span class="text">Khí <br> hậu</span>
+                                <span class="bgitem"><span class="num2">4</span></span>
+                            </div><div class="box"><div class="text">Các chất liệu được nghiên cứu và chọn lọc kỹ lưỡng để sản phẩm thích nghi với mọi vùng khí hậu. Chất liệu vải &amp; da được chọn lựa dễ lau chùi, khó bám bẩn, đặc biệt thích nghi tốt với khí hậu nhiệt đới gió mùa ẩm ở Việt Nam.</div></div>
+                        </div>
+                    </div><div class="item">
+                        <div class="inner">
+                            <div class="number">
+                                <span class="num">5</span>
+                                <span class="text">Nhân <br> trắc</span>
+                                <span class="bgitem"><span class="num2">5</span></span>
+                            </div><div class="box"><div class="text">Mọi sản phẩm nội thất của NORDIC được nghiên cứu dựa trên form người của người Việt. Kích thước phù hợp mang đến trải nghiệm thoải mái, an toàn và tiện dụng cho khách hàng.</div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><div class="style_home">
+            <div class="container">
+                <div class="inner">
+                    <div class="inner_left">
+                        <div class="title">
+                            <div class="title_main"><h2>Phong cách<span class="sub">sống</span></h2></div><div class="img">
+                                <img data-lazyloaded="1" src="App_Themes/house/img/Untitled-19.png" data-src="https://nordic.vn/wp-content/uploads/2022/08/Untitled-19.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                            </div>
+                        </div><div class="text">Để đứng vững trong thị trường, NORDIC nhận thức được giá trị thực của một thương hiệu nội thất cao cấp phải đến từ tầm nhìn cốt lõi trong mục đích sản xuất cũng như những chuẩn mực riêng biệt trong thiết kế của đội ngũ sáng tạo. Chính vì thế, những tiêu chí thiết kế được sinh ra như những kim chỉ nam, hướng chất lượng sản phẩm của NORDIC đến sự hữu dụng, phù hợp với đối tượng phục vụ.</div>
+                        <a href="https://nordic.vn/nordic-24h/" class="link">Xem thêm</a>
+                    </div><div class="inner_right">
+                        <div class="img img1">
+                            <img data-lazyloaded="1" src="App_Themes/house/img/Untitled-19.png" data-src="https://nordic.vn/wp-content/uploads/2022/08/Untitled-19.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                        </div><div class="img">
+                            <img data-lazyloaded="1" src="App_Themes/house/img/Untitled-17.png" data-src="https://nordic.vn/wp-content/uploads/2022/08/Untitled-17.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                        </div><div class="img">
+                            <img data-lazyloaded="1" src="App_Themes/house/img/Untitled-16.png" data-src="https://nordic.vn/wp-content/uploads/2022/08/Untitled-16.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><div class="expert_home">
             <div class="background bg_section" style="background-image: url(https://nordic.vn/wp-content/uploads/2023/04/Untitled-20.jpg);"></div><div class="container-fluid">
-                <div class="title_home2 white"><h2 class="title">Người nổi tiếng nói về chúng tôi</h2></div><div class="owl-carousel owl-loaded owl-drag">
+                <div class="title_home2 white"><h2 class="title">Người nổi tiếng nói về Nordic</h2></div><div class="owl-carousel owl-loaded owl-drag">
                     <div class="owl-stage-outer owl-height" style="height: 440px;">
                         <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 1398px;">
                             <div class="owl-item active" style="width: 279.5px;">
@@ -882,33 +760,7 @@
                     </div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"></div>
                 </div>
             </div>
-        </div>
-    <!-- END DOI NGU NHAN SU -->
-     <!-- PHONG CACH SONG -->
-   <%-- <div class="style_home">
-            <div class="container">
-                <div class="inner">
-                    <div class="inner_left">
-                        <div class="title">
-                            <div class="title_main"><h2>Phong cách<span class="sub">sống</span></h2></div><div class="img">
-                                <img data-lazyloaded="1" src="App_Themes/house/img/Untitled-19.png" data-src="https://nordic.vn/wp-content/uploads/2022/08/Untitled-19.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
-                            </div>
-                        </div><div class="text">Để đứng vững trong thị trường, NORDIC nhận thức được giá trị thực của một thương hiệu nội thất cao cấp phải đến từ tầm nhìn cốt lõi trong mục đích sản xuất cũng như những chuẩn mực riêng biệt trong thiết kế của đội ngũ sáng tạo. Chính vì thế, những tiêu chí thiết kế được sinh ra như những kim chỉ nam, hướng chất lượng sản phẩm của NORDIC đến sự hữu dụng, phù hợp với đối tượng phục vụ.</div>
-                        <a href="https://nordic.vn/nordic-24h/" class="link">Xem thêm</a>
-                    </div><div class="inner_right">
-                        <div class="img img1">
-                            <img data-lazyloaded="1" src="App_Themes/house/img/Untitled-19.png" data-src="https://nordic.vn/wp-content/uploads/2022/08/Untitled-19.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
-                        </div><div class="img">
-                            <img data-lazyloaded="1" src="App_Themes/house/img/Untitled-17.png" data-src="https://nordic.vn/wp-content/uploads/2022/08/Untitled-17.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
-                        </div><div class="img">
-                            <img data-lazyloaded="1" src="App_Themes/house/img/Untitled-16.png" data-src="https://nordic.vn/wp-content/uploads/2022/08/Untitled-16.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>--%>
-    <!-- END PHONG CACH SONG -->
-    <div class="partner_home">
+        </div><div class="partner_home">
             <div class="container-fluid">
                 <div class="title_home2 white"><h2 class="title">Đối tác</h2></div><div class="block_slider">
                     <div class="owl-carousel owl-loaded owl-drag">
@@ -1046,9 +898,102 @@
                     </div>
                 </div>
             </div>
-        </div>
-    
-    <div class="contact_home">
+        </div><div class="news_home2">
+            <div class="container-fluid">
+                <div class="title_home2">
+                    <h2 class="title">Báo chí viết về Nordic</h2>
+                    <a href="https://nordic.vn/bao-chi-viet-ve-nordic/" class="link">Xem tất cả</a>
+                </div><div class="slider">
+                    <div class="owl-carousel owl-loaded owl-drag">
+                        <div class="owl-stage-outer owl-height" style="height: 483px;">
+                            <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 3727px;">
+                                <div class="owl-item active" style="width: 372.667px;">
+                                    <div class="item">
+                                        <div class="box">
+                                            <div class="img">
+                                                <a href="https://nordic.vn/tap-chi-kien-truc-kts-nguyen-phuong-chi-hanh-trinh-dinh-vi-thuong-hieu-noi-that-viet/"><img data-lazyloaded="1" src="App_Themes/house/img/22A11024-2-768x432-5.jpg" width="768" height="432" data-src="https://nordic.vn/wp-content/uploads/2023/03/22A11024-2-768x432-5.jpg" class="attachment-large size-large wvs-archive-product-image wp-post-image entered litespeed-loaded" alt="" decoding="async" loading="lazy" data-srcset="https://nordic.vn/wp-content/uploads/2023/03/22A11024-2-768x432-5.jpg 768w, https://nordic.vn/wp-content/uploads/2023/03/22A11024-2-768x432-5-300x169.jpg 300w, https://nordic.vn/wp-content/uploads/2023/03/22A11024-2-768x432-5-600x338.jpg 600w" data-sizes="(max-width: 768px) 100vw, 768px" data-ll-status="loaded" sizes="(max-width: 768px) 100vw, 768px" srcset="https://nordic.vn/wp-content/uploads/2023/03/22A11024-2-768x432-5.jpg 768w, https://nordic.vn/wp-content/uploads/2023/03/22A11024-2-768x432-5-300x169.jpg 300w, https://nordic.vn/wp-content/uploads/2023/03/22A11024-2-768x432-5-600x338.jpg 600w"></a>
+                                            </div><div class="info"><div class="top"><div class="date">04/03/2023</div><div class="meta"><div class="share"><a href="https://facebook.com/share.php?u=https://nordic.vn/tap-chi-kien-truc-kts-nguyen-phuong-chi-hanh-trinh-dinh-vi-thuong-hieu-noi-that-viet/" target="_blank" rel="nofollow" onclick="javascript:window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;" class="facebook " data-toggle="tooltip" title="Share on Facebook"><img data-lazyloaded="1" src="App_Themes/house/img/icon_share.png" alt"icon_share"="" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_share.png" data-ll-status="loaded" class="entered litespeed-loaded"></a></div><div class="view"><img data-lazyloaded="1" src="App_Themes/house/img/icon_view.png" alt="view" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_view.png" data-ll-status="loaded" class="entered litespeed-loaded">221</div></div></div><h3 class="name"><a href="https://nordic.vn/tap-chi-kien-truc-kts-nguyen-phuong-chi-hanh-trinh-dinh-vi-thuong-hieu-noi-that-viet/">Tạp chí Kiến trúc –  KTS Nguyễn Phương Chi: “Hành trình định vị thương hiệu nội thất Việt”</a></h3><div class="text">Tại Việt Nam, cho tới nay lĩnh vực thiết kế sản phẩm nội thất còn khá mới mẻ, rất ít các nhà thiết kế thực hiện thiết kế đồ nội thất, chưa nói đến việc...</div><div class="link"><a href="https://nordic.vn/tap-chi-kien-truc-kts-nguyen-phuong-chi-hanh-trinh-dinh-vi-thuong-hieu-noi-that-viet/">Xem chi tiết <i></i></a></div></div>
+                                        </div>
+                                    </div>
+                                </div><div class="owl-item active" style="width: 372.667px;">
+                                    <div class="item">
+                                        <div class="box">
+                                            <div class="img">
+                                                <a href="https://nordic.vn/bao-thanh-nien-nha-thiet-ke-ve-ghe-hoang-hau/"><img data-lazyloaded="1" src="App_Themes/house/img/293394290_2341139962701973_3401177730407643931_n.jpg" width="683" height="1024" data-src="https://nordic.vn/wp-content/uploads/2022/08/293394290_2341139962701973_3401177730407643931_n.jpg" class="attachment-large size-large wvs-archive-product-image wp-post-image entered litespeed-loaded" alt="nha-thiet-ke-ve-ghe-hoang-hau" decoding="async" loading="lazy" data-ll-status="loaded"></a>
+                                            </div><div class="info"><div class="top"><div class="date">21/09/2022</div><div class="meta"><div class="share"><a href="https://facebook.com/share.php?u=https://nordic.vn/bao-thanh-nien-nha-thiet-ke-ve-ghe-hoang-hau/" target="_blank" rel="nofollow" onclick="javascript:window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;" class="facebook " data-toggle="tooltip" title="Share on Facebook"><img data-lazyloaded="1" src="App_Themes/house/img/icon_share.png" alt"icon_share"="" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_share.png" data-ll-status="loaded" class="entered litespeed-loaded"></a></div><div class="view"><img data-lazyloaded="1" src="App_Themes/house/img/icon_view.png" alt="view" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_view.png" data-ll-status="loaded" class="entered litespeed-loaded">560</div></div></div><h3 class="name"><a href="https://nordic.vn/bao-thanh-nien-nha-thiet-ke-ve-ghe-hoang-hau/">Báo Thanh Niên – Nhà thiết kế vẽ ghế hoàng hậu</a></h3><div class="text">Chiếc ghế nhỏ màu xanh óng, có tay bịt vàng, với gối đệm lưng màu cam được đặt trên một bệ nhỏ tại phòng trưng bày thiết kế của Nordic, một thương hiệu nội thất...</div><div class="link"><a href="https://nordic.vn/bao-thanh-nien-nha-thiet-ke-ve-ghe-hoang-hau/">Xem chi tiết <i></i></a></div></div>
+                                        </div>
+                                    </div>
+                                </div><div class="owl-item active" style="width: 372.667px;">
+                                    <div class="item">
+                                        <div class="box">
+                                            <div class="img">
+                                                <a href="https://nordic.vn/bao-bac-giang-nhung-dac-trung-noi-bat-cua-phong-cach-noi-that-bac-au/"><img data-lazyloaded="1" src="App_Themes/house/img/anh-thumb-BST-Half-Life.png" width="590" height="323" data-src="https://nordic.vn/wp-content/uploads/2022/09/anh-thumb-BST-Half-Life.png" class="attachment-large size-large wvs-archive-product-image wp-post-image entered litespeed-loaded" alt="nha-thiet-ke-ve-ghe-hoang-hau-" decoding="async" loading="lazy" data-srcset="https://nordic.vn/wp-content/uploads/2022/09/anh-thumb-BST-Half-Life.png 590w, https://nordic.vn/wp-content/uploads/2022/09/anh-thumb-BST-Half-Life-300x164.png 300w" data-sizes="(max-width: 590px) 100vw, 590px" data-ll-status="loaded" sizes="(max-width: 590px) 100vw, 590px" srcset="https://nordic.vn/wp-content/uploads/2022/09/anh-thumb-BST-Half-Life.png 590w, https://nordic.vn/wp-content/uploads/2022/09/anh-thumb-BST-Half-Life-300x164.png 300w"></a>
+                                            </div><div class="info"><div class="top"><div class="date">21/09/2022</div><div class="meta"><div class="share"><a href="https://facebook.com/share.php?u=https://nordic.vn/bao-bac-giang-nhung-dac-trung-noi-bat-cua-phong-cach-noi-that-bac-au/" target="_blank" rel="nofollow" onclick="javascript:window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;" class="facebook " data-toggle="tooltip" title="Share on Facebook"><img data-lazyloaded="1" src="App_Themes/house/img/icon_share.png" alt"icon_share"="" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_share.png" data-ll-status="loaded" class="entered litespeed-loaded"></a></div><div class="view"><img data-lazyloaded="1" src="App_Themes/house/img/icon_view.png" alt="view" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_view.png" data-ll-status="loaded" class="entered litespeed-loaded">527</div></div></div><h3 class="name"><a href="https://nordic.vn/bao-bac-giang-nhung-dac-trung-noi-bat-cua-phong-cach-noi-that-bac-au/">Báo Bắc Giang – Những đặc trưng nổi bật của phong cách nội thất Bắc Âu</a></h3><div class="text">Thiết kế nội thất Bắc Âu là một trong những phong cách được rất nhiều người lựa chọn cho căn hộ của mình bởi chúng cân bằng được các yếu tố đơn giản - tiện...</div><div class="link"><a href="https://nordic.vn/bao-bac-giang-nhung-dac-trung-noi-bat-cua-phong-cach-noi-that-bac-au/">Xem chi tiết <i></i></a></div></div>
+                                        </div>
+                                    </div>
+                                </div><div class="owl-item" style="width: 372.667px;">
+                                    <div class="item">
+                                        <div class="box">
+                                            <div class="img">
+                                                <a href="https://nordic.vn/tinphongcach-sema-nordic-thuong-hieu-noi-that-phong-cach-bac-au-thiet-ke-uy-tin-boi-nguoi-viet/"><img data-lazyloaded="1" src="App_Themes/house/img/b1-1024x1024.jpg" width="1024" height="1024" data-src="https://nordic.vn/wp-content/uploads/2022/09/b1-1024x1024.jpg" class="attachment-large size-large wvs-archive-product-image wp-post-image entered litespeed-loaded" alt="nha-thiet-ke-ve-ghe-hoang-hau-1" decoding="async" loading="lazy" data-srcset="https://nordic.vn/wp-content/uploads/2022/09/b1-1024x1024.jpg 1024w, https://nordic.vn/wp-content/uploads/2022/09/b1-300x300.jpg 300w, https://nordic.vn/wp-content/uploads/2022/09/b1-150x150.jpg 150w, https://nordic.vn/wp-content/uploads/2022/09/b1-768x768.jpg 768w, https://nordic.vn/wp-content/uploads/2022/09/b1-600x600.jpg 600w, https://nordic.vn/wp-content/uploads/2022/09/b1-400x400.jpg 400w, https://nordic.vn/wp-content/uploads/2022/09/b1-50x50.jpg 50w, https://nordic.vn/wp-content/uploads/2022/09/b1-100x100.jpg 100w, https://nordic.vn/wp-content/uploads/2022/09/b1.jpg 1242w" data-sizes="(max-width: 1024px) 100vw, 1024px" data-ll-status="loaded" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://nordic.vn/wp-content/uploads/2022/09/b1-1024x1024.jpg 1024w, https://nordic.vn/wp-content/uploads/2022/09/b1-300x300.jpg 300w, https://nordic.vn/wp-content/uploads/2022/09/b1-150x150.jpg 150w, https://nordic.vn/wp-content/uploads/2022/09/b1-768x768.jpg 768w, https://nordic.vn/wp-content/uploads/2022/09/b1-600x600.jpg 600w, https://nordic.vn/wp-content/uploads/2022/09/b1-400x400.jpg 400w, https://nordic.vn/wp-content/uploads/2022/09/b1-50x50.jpg 50w, https://nordic.vn/wp-content/uploads/2022/09/b1-100x100.jpg 100w, https://nordic.vn/wp-content/uploads/2022/09/b1.jpg 1242w"></a>
+                                            </div><div class="info"><div class="top"><div class="date">21/09/2022</div><div class="meta"><div class="share"><a href="https://facebook.com/share.php?u=https://nordic.vn/tinphongcach-sema-nordic-thuong-hieu-noi-that-phong-cach-bac-au-thiet-ke-uy-tin-boi-nguoi-viet/" target="_blank" rel="nofollow" onclick="javascript:window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;" class="facebook " data-toggle="tooltip" title="Share on Facebook"><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt"icon_share"="" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_share.png"></a></div><div class="view"><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="view" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_view.png">577</div></div></div><h3 class="name"><a href="https://nordic.vn/tinphongcach-sema-nordic-thuong-hieu-noi-that-phong-cach-bac-au-thiet-ke-uy-tin-boi-nguoi-viet/">Tinphongcach – “SEMA Nordic – Thương hiệu nội thất phong cách Bắc Âu thiết kế uy tín bởi người Việt”</a></h3><div class="text">Sema&nbsp;NORDIC® ra đời với khao khát phụng sự cho ngôi nhà Việt các sản phẩm nội thất phong cách Bắc Âu chất lượng, bền đẹp, tiện ích và đầy đủ công năng. Trong suốt hơn...</div><div class="link"><a href="https://nordic.vn/tinphongcach-sema-nordic-thuong-hieu-noi-that-phong-cach-bac-au-thiet-ke-uy-tin-boi-nguoi-viet/">Xem chi tiết <i></i></a></div></div>
+                                        </div>
+                                    </div>
+                                </div><div class="owl-item" style="width: 372.667px;">
+                                    <div class="item">
+                                        <div class="box">
+                                            <div class="img">
+                                                <a href="https://nordic.vn/happynest-kts-nguyen-phuong-chi-kien-tao-thuong-hieu-noi-that-made-in-viet-nam-mong-muon-nang-tam-chat-luong-song-cho-nguoi-viet/"><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDI0IiBoZWlnaHQ9IjY4NSIgdmlld0JveD0iMCAwIDEwMjQgNjg1Ij48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg==" width="1024" height="685" data-src="https://nordic.vn/wp-content/uploads/2022/09/5511d96267086b762ff4846e633b8f8e-1-1024x685.jpeg" class="attachment-large size-large wvs-archive-product-image wp-post-image" alt="nha-thiet-ke-ve-ghe-hoang-hau-2" decoding="async" loading="lazy" data-srcset="https://nordic.vn/wp-content/uploads/2022/09/5511d96267086b762ff4846e633b8f8e-1-1024x685.jpeg 1024w, https://nordic.vn/wp-content/uploads/2022/09/5511d96267086b762ff4846e633b8f8e-1-600x401.jpeg 600w, https://nordic.vn/wp-content/uploads/2022/09/5511d96267086b762ff4846e633b8f8e-1-300x201.jpeg 300w, https://nordic.vn/wp-content/uploads/2022/09/5511d96267086b762ff4846e633b8f8e-1-768x514.jpeg 768w, https://nordic.vn/wp-content/uploads/2022/09/5511d96267086b762ff4846e633b8f8e-1-1536x1028.jpeg 1536w, https://nordic.vn/wp-content/uploads/2022/09/5511d96267086b762ff4846e633b8f8e-1.jpeg 1877w" data-sizes="(max-width: 1024px) 100vw, 1024px"></a>
+                                            </div><div class="info"><div class="top"><div class="date">06/09/2022</div><div class="meta"><div class="share"><a href="https://facebook.com/share.php?u=https://nordic.vn/happynest-kts-nguyen-phuong-chi-kien-tao-thuong-hieu-noi-that-made-in-viet-nam-mong-muon-nang-tam-chat-luong-song-cho-nguoi-viet/" target="_blank" rel="nofollow" onclick="javascript:window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;" class="facebook " data-toggle="tooltip" title="Share on Facebook"><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt"icon_share"="" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_share.png"></a></div><div class="view"><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="view" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_view.png">579</div></div></div><h3 class="name"><a href="https://nordic.vn/happynest-kts-nguyen-phuong-chi-kien-tao-thuong-hieu-noi-that-made-in-viet-nam-mong-muon-nang-tam-chat-luong-song-cho-nguoi-viet/">Happynest – “KTS Nguyễn Phương Chi: Kiến tạo thương hiệu nội thất Made in Việt Nam mong muốn nâng tầm chất lượng sống cho người Việt”</a></h3><div class="text">Trải qua 11 năm thăng trầm, từ con số 0 đến việc đặt dấu mốc đầu tiên trong lĩnh vực phát triển thương hiệu thiết kế đồ nội thất Made in Việt Nam, KTS Nguyễn...</div><div class="link"><a href="https://nordic.vn/happynest-kts-nguyen-phuong-chi-kien-tao-thuong-hieu-noi-that-made-in-viet-nam-mong-muon-nang-tam-chat-luong-song-cho-nguoi-viet/">Xem chi tiết <i></i></a></div></div>
+                                        </div>
+                                    </div>
+                                </div><div class="owl-item" style="width: 372.667px;">
+                                    <div class="item">
+                                        <div class="box">
+                                            <div class="img">
+                                                <a href="https://nordic.vn/cafebiz-hanh-trinh-kien-tao-va-dinh-vi-thuong-hieu-thiet-ke-noi-that-bac-au-tai-viet-nam/"><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MDAiIGhlaWdodD0iMzc1IiB2aWV3Qm94PSIwIDAgNjAwIDM3NSI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=" width="600" height="375" data-src="https://nordic.vn/wp-content/uploads/2022/09/photo1659670316015-16596703161181684021151-63795568364591.webp" class="attachment-large size-large wvs-archive-product-image wp-post-image" alt="nha-thiet-ke-ve-ghe-hoang-hau-23" decoding="async" loading="lazy" data-srcset="https://nordic.vn/wp-content/uploads/2022/09/photo1659670316015-16596703161181684021151-63795568364591.webp 600w, https://nordic.vn/wp-content/uploads/2022/09/photo1659670316015-16596703161181684021151-63795568364591-300x188.webp 300w" data-sizes="(max-width: 600px) 100vw, 600px"></a>
+                                            </div><div class="info"><div class="top"><div class="date">01/09/2022</div><div class="meta"><div class="share"><a href="https://facebook.com/share.php?u=https://nordic.vn/cafebiz-hanh-trinh-kien-tao-va-dinh-vi-thuong-hieu-thiet-ke-noi-that-bac-au-tai-viet-nam/" target="_blank" rel="nofollow" onclick="javascript:window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;" class="facebook " data-toggle="tooltip" title="Share on Facebook"><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt"icon_share"="" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_share.png"></a></div><div class="view"><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="view" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_view.png">597</div></div></div><h3 class="name"><a href="https://nordic.vn/cafebiz-hanh-trinh-kien-tao-va-dinh-vi-thuong-hieu-thiet-ke-noi-that-bac-au-tai-viet-nam/">Cafebiz – Hành trình kiến tạo và định vị thương hiệu thiết kế Nội thất Bắc Âu tại Việt Nam</a></h3><div class="text">Khác với các hãng nội thất Việt mọc lên như nấm, 𝗡𝗢𝗥𝗗𝗜𝗖® (thương hiệu con của Sema Group) vẫn được đánh giá cao bởi định hướng "thiết kế &amp; sản xuất đồ nội thất phong...</div><div class="link"><a href="https://nordic.vn/cafebiz-hanh-trinh-kien-tao-va-dinh-vi-thuong-hieu-thiet-ke-noi-that-bac-au-tai-viet-nam/">Xem chi tiết <i></i></a></div></div>
+                                        </div>
+                                    </div>
+                                </div><div class="owl-item" style="width: 372.667px;">
+                                    <div class="item">
+                                        <div class="box">
+                                            <div class="img">
+                                                <a href="https://nordic.vn/kien-viet-ky-niem-4-nam-thanh-lap-nordic-thuong-hieu-do-noi-that-mang-tinh-than-designed-by-vietnam/"><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDI0IiBoZWlnaHQ9IjY4MyIgdmlld0JveD0iMCAwIDEwMjQgNjgzIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg==" width="1024" height="683" data-src="https://nordic.vn/wp-content/uploads/2022/09/kienviet-ky-niem-4-nam-thanh-lap-nordic4-1440x960-1-1024x683.jpg" class="attachment-large size-large wvs-archive-product-image wp-post-image" alt="nha-thiet-ke-ve-ghe-hoang-hau-24" decoding="async" loading="lazy" data-srcset="https://nordic.vn/wp-content/uploads/2022/09/kienviet-ky-niem-4-nam-thanh-lap-nordic4-1440x960-1-1024x683.jpg 1024w, https://nordic.vn/wp-content/uploads/2022/09/kienviet-ky-niem-4-nam-thanh-lap-nordic4-1440x960-1-600x400.jpg 600w, https://nordic.vn/wp-content/uploads/2022/09/kienviet-ky-niem-4-nam-thanh-lap-nordic4-1440x960-1-300x200.jpg 300w, https://nordic.vn/wp-content/uploads/2022/09/kienviet-ky-niem-4-nam-thanh-lap-nordic4-1440x960-1-768x512.jpg 768w, https://nordic.vn/wp-content/uploads/2022/09/kienviet-ky-niem-4-nam-thanh-lap-nordic4-1440x960-1.jpg 1440w" data-sizes="(max-width: 1024px) 100vw, 1024px"></a>
+                                            </div><div class="info"><div class="top"><div class="date">01/09/2022</div><div class="meta"><div class="share"><a href="https://facebook.com/share.php?u=https://nordic.vn/kien-viet-ky-niem-4-nam-thanh-lap-nordic-thuong-hieu-do-noi-that-mang-tinh-than-designed-by-vietnam/" target="_blank" rel="nofollow" onclick="javascript:window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;" class="facebook " data-toggle="tooltip" title="Share on Facebook"><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt"icon_share"="" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_share.png"></a></div><div class="view"><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="view" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_view.png">574</div></div></div><h3 class="name"><a href="https://nordic.vn/kien-viet-ky-niem-4-nam-thanh-lap-nordic-thuong-hieu-do-noi-that-mang-tinh-than-designed-by-vietnam/">Kiến Việt – Kỷ niệm 4 năm thành lập NORDIC – thương hiệu đồ nội thất mang tinh thần “Designed by Vietnam”</a></h3><div class="text">Vừa qua, thương hiệu đồ nội thất Bắc Âu NORDIC đã kỷ niệm 4 năm thành lập. Chính thức ra mắt ngày 08/08/2018, sau những nỗ lực xây dựng và phát triển trong suốt 4...</div><div class="link"><a href="https://nordic.vn/kien-viet-ky-niem-4-nam-thanh-lap-nordic-thuong-hieu-do-noi-that-mang-tinh-than-designed-by-vietnam/">Xem chi tiết <i></i></a></div></div>
+                                        </div>
+                                    </div>
+                                </div><div class="owl-item" style="width: 372.667px;">
+                                    <div class="item">
+                                        <div class="box">
+                                            <div class="img">
+                                                <a href="https://nordic.vn/kien-viet-tien-phong-sang-tao-va-cam-hung-thiet-ke-doc-ban-nordic-cho-ra-mat-bst-moi-mang-hoi-tho-duong-dai-va-y-nghia-nhan-van-sau-sac/"><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDI0IiBoZWlnaHQ9IjY0MCIgdmlld0JveD0iMCAwIDEwMjQgNjQwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg==" width="1024" height="640" data-src="https://nordic.vn/wp-content/uploads/2022/09/kienviet-nordic-cho-ra-mat-bts-moi-4-1440x900-1-1024x640.jpg" class="attachment-large size-large wvs-archive-product-image wp-post-image" alt="" decoding="async" loading="lazy" data-srcset="https://nordic.vn/wp-content/uploads/2022/09/kienviet-nordic-cho-ra-mat-bts-moi-4-1440x900-1-1024x640.jpg 1024w, https://nordic.vn/wp-content/uploads/2022/09/kienviet-nordic-cho-ra-mat-bts-moi-4-1440x900-1-600x375.jpg 600w, https://nordic.vn/wp-content/uploads/2022/09/kienviet-nordic-cho-ra-mat-bts-moi-4-1440x900-1-300x188.jpg 300w, https://nordic.vn/wp-content/uploads/2022/09/kienviet-nordic-cho-ra-mat-bts-moi-4-1440x900-1-768x480.jpg 768w, https://nordic.vn/wp-content/uploads/2022/09/kienviet-nordic-cho-ra-mat-bts-moi-4-1440x900-1.jpg 1440w" data-sizes="(max-width: 1024px) 100vw, 1024px"></a>
+                                            </div><div class="info"><div class="top"><div class="date">01/09/2022</div><div class="meta"><div class="share"><a href="https://facebook.com/share.php?u=https://nordic.vn/kien-viet-tien-phong-sang-tao-va-cam-hung-thiet-ke-doc-ban-nordic-cho-ra-mat-bst-moi-mang-hoi-tho-duong-dai-va-y-nghia-nhan-van-sau-sac/" target="_blank" rel="nofollow" onclick="javascript:window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;" class="facebook " data-toggle="tooltip" title="Share on Facebook"><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt"icon_share"="" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_share.png"></a></div><div class="view"><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="view" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_view.png">534</div></div></div><h3 class="name"><a href="https://nordic.vn/kien-viet-tien-phong-sang-tao-va-cam-hung-thiet-ke-doc-ban-nordic-cho-ra-mat-bst-moi-mang-hoi-tho-duong-dai-va-y-nghia-nhan-van-sau-sac/">Kiến Việt – “Tiên phong sáng tạo và cảm hứng thiết kế độc bản, Nordic cho ra mắt BST mới mang hơi thở đương đại và ý nghĩa nhân văn sâu sắc”</a></h3><div class="text">Đi đầu trong xu hướng đưa những sản phẩm nội thất chất lượng cao Made in Vietnam – Made by Vietnam vào trong tổ ấm của mỗi gia đình Việt,&nbsp;Nordic&nbsp;tiếp tục cho “trình làng” BST...</div><div class="link"><a href="https://nordic.vn/kien-viet-tien-phong-sang-tao-va-cam-hung-thiet-ke-doc-ban-nordic-cho-ra-mat-bst-moi-mang-hoi-tho-duong-dai-va-y-nghia-nhan-van-sau-sac/">Xem chi tiết <i></i></a></div></div>
+                                        </div>
+                                    </div>
+                                </div><div class="owl-item" style="width: 372.667px;">
+                                    <div class="item">
+                                        <div class="box">
+                                            <div class="img">
+                                                <a href="https://nordic.vn/kien-viet-tinh-than-designed-by-vietnam-trong-noi-that-phong-cach-bac-au-tu-sma-nordic/"><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDI0IiBoZWlnaHQ9IjU3NiIgdmlld0JveD0iMCAwIDEwMjQgNTc2Ij48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg==" width="1024" height="576" data-src="https://nordic.vn/wp-content/uploads/2022/09/kienviet-tinh-than-Designed-by-Vietnam-trong-noi-that-phong-cach-bac-au-tu-sma-nordic-1-1440x810-1-1-1024x576.png" class="attachment-large size-large wvs-archive-product-image wp-post-image" alt="" decoding="async" loading="lazy" data-srcset="https://nordic.vn/wp-content/uploads/2022/09/kienviet-tinh-than-Designed-by-Vietnam-trong-noi-that-phong-cach-bac-au-tu-sma-nordic-1-1440x810-1-1-1024x576.png 1024w, https://nordic.vn/wp-content/uploads/2022/09/kienviet-tinh-than-Designed-by-Vietnam-trong-noi-that-phong-cach-bac-au-tu-sma-nordic-1-1440x810-1-1-600x338.png 600w, https://nordic.vn/wp-content/uploads/2022/09/kienviet-tinh-than-Designed-by-Vietnam-trong-noi-that-phong-cach-bac-au-tu-sma-nordic-1-1440x810-1-1-300x169.png 300w, https://nordic.vn/wp-content/uploads/2022/09/kienviet-tinh-than-Designed-by-Vietnam-trong-noi-that-phong-cach-bac-au-tu-sma-nordic-1-1440x810-1-1-768x432.png 768w, https://nordic.vn/wp-content/uploads/2022/09/kienviet-tinh-than-Designed-by-Vietnam-trong-noi-that-phong-cach-bac-au-tu-sma-nordic-1-1440x810-1-1.png 1440w" data-sizes="(max-width: 1024px) 100vw, 1024px"></a>
+                                            </div><div class="info"><div class="top"><div class="date">01/09/2020</div><div class="meta"><div class="share"><a href="https://facebook.com/share.php?u=https://nordic.vn/kien-viet-tinh-than-designed-by-vietnam-trong-noi-that-phong-cach-bac-au-tu-sma-nordic/" target="_blank" rel="nofollow" onclick="javascript:window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;" class="facebook " data-toggle="tooltip" title="Share on Facebook"><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt"icon_share"="" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_share.png"></a></div><div class="view"><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="view" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_view.png">324</div></div></div><h3 class="name"><a href="https://nordic.vn/kien-viet-tinh-than-designed-by-vietnam-trong-noi-that-phong-cach-bac-au-tu-sma-nordic/">Kiến Việt – “Tinh thần “Designed by Vietnam” trong nội thất phong cách Bắc Âu từ SMA Nordic”</a></h3><div class="text">Tại Việt Nam, nội thất Bắc Âu chủ yếu là những sản phẩm nhập khẩu. SMA Nordic là một trong số ít thương hiệu Việt đã đem hơi hướng Scandinavian vào các thiết kế “Designed...</div><div class="link"><a href="https://nordic.vn/kien-viet-tinh-than-designed-by-vietnam-trong-noi-that-phong-cach-bac-au-tu-sma-nordic/">Xem chi tiết <i></i></a></div></div>
+                                        </div>
+                                    </div>
+                                </div><div class="owl-item" style="width: 372.667px;">
+                                    <div class="item">
+                                        <div class="box">
+                                            <div class="img">
+                                                <a href="https://nordic.vn/kien-viet-sma-nordic-gay-an-tuong-voi-bst-2021-vua-duoc-cong-bo/"><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDI0IiBoZWlnaHQ9IjY4MiIgdmlld0JveD0iMCAwIDEwMjQgNjgyIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg==" width="1024" height="682" data-src="https://nordic.vn/wp-content/uploads/2022/09/sma-nordic-gay-an-tuong-voi-bst-2021-vua-duoc-cong-bo-1-1-1024x682.jpg" class="attachment-large size-large wvs-archive-product-image wp-post-image" alt="" decoding="async" loading="lazy" data-srcset="https://nordic.vn/wp-content/uploads/2022/09/sma-nordic-gay-an-tuong-voi-bst-2021-vua-duoc-cong-bo-1-1-1024x682.jpg 1024w, https://nordic.vn/wp-content/uploads/2022/09/sma-nordic-gay-an-tuong-voi-bst-2021-vua-duoc-cong-bo-1-1-600x400.jpg 600w, https://nordic.vn/wp-content/uploads/2022/09/sma-nordic-gay-an-tuong-voi-bst-2021-vua-duoc-cong-bo-1-1-300x200.jpg 300w, https://nordic.vn/wp-content/uploads/2022/09/sma-nordic-gay-an-tuong-voi-bst-2021-vua-duoc-cong-bo-1-1-768x511.jpg 768w, https://nordic.vn/wp-content/uploads/2022/09/sma-nordic-gay-an-tuong-voi-bst-2021-vua-duoc-cong-bo-1-1.jpg 1200w" data-sizes="(max-width: 1024px) 100vw, 1024px"></a>
+                                            </div><div class="info"><div class="top"><div class="date">01/09/2021</div><div class="meta"><div class="share"><a href="https://facebook.com/share.php?u=https://nordic.vn/kien-viet-sma-nordic-gay-an-tuong-voi-bst-2021-vua-duoc-cong-bo/" target="_blank" rel="nofollow" onclick="javascript:window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;" class="facebook " data-toggle="tooltip" title="Share on Facebook"><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt"icon_share"="" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_share.png"></a></div><div class="view"><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="view" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_view.png">290</div></div></div><h3 class="name"><a href="https://nordic.vn/kien-viet-sma-nordic-gay-an-tuong-voi-bst-2021-vua-duoc-cong-bo/">Kiến Việt – “SMA Nordic gây ấn tượng với BST 2021 vừa được công bố”</a></h3><div class="text">Cuộc sống ngày càng phát triển, nhu cầu của con người về tiện nghi và thẩm mỹ lại càng được chú trọng hơn. Một tổ ấm đầy đủ tiện nghi, đẹp, ấm áp, phù hợp...</div><div class="link"><a href="https://nordic.vn/kien-viet-sma-nordic-gay-an-tuong-voi-bst-2021-vua-duoc-cong-bo/">Xem chi tiết <i></i></a></div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"></div>
+                    </div>
+                </div>
+            </div>
+        </div><div class="contact_home">
             <div class="container-fluid">
                 <div class="inner">
                     <div class="maps">
@@ -1083,4 +1028,174 @@
             </div>
         </div>
     </main>
-<!-- PAGEBODY -->
+    <!-- Show popup -->
+    <!--<div id="popup" style="display: none;">
+        <div class="popup_flex">
+            <div class="col_left"><div class="img"><img src="App_Themes/house/img/popup-boc-tham-tang-do-decor.png" alt=""></div></div><div class="col_right">
+                <div class="box">
+                    <div class="title">
+                        <span class="main">Rinh Sofa </span>
+                        <span class="tit">Thêm trọn chữ Nhà</span>
+                        <span class="sub">Đăng ký sớm nhận quà sớm</span>
+                    </div><div class="form">
+                        <div class="wpcf7 js" id="wpcf7-f2283-o2" lang="vi" dir="ltr">
+                            <div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p><ul></ul></div><form action="https://nordic.vn/#wpcf7-f2283-o2" method="post" class="wpcf7-form init" aria-label="Form liên hệ" novalidate="novalidate" data-status="init">
+                                <div style="display: none;">
+                                    <input type="hidden" name="_wpcf7" value="2283">
+                                    <input type="hidden" name="_wpcf7_version" value="5.7.5.1">
+                                    <input type="hidden" name="_wpcf7_locale" value="vi">
+                                    <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f2283-o2">
+                                    <input type="hidden" name="_wpcf7_container_post" value="0">
+                                    <input type="hidden" name="_wpcf7_posted_data_hash" value="">
+                                </div><div class="form-group">
+                                    <span class="wpcf7-form-control-wrap" data-name="text-241"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required input" aria-required="true" aria-invalid="false" placeholder="Họ và tên" value="" type="text" name="text-241"></span>
+                                </div><div class="form-group">
+                                    <span class="wpcf7-form-control-wrap" data-name="number-149"><input class="wpcf7-form-control wpcf7-number wpcf7-validates-as-required wpcf7-validates-as-number input" aria-required="true" aria-invalid="false" placeholder="Số điện thoại" value="" type="number" name="number-149"></span>
+                                </div><div class="form-button">
+                                    <input class="wpcf7-form-control has-spinner wpcf7-submit input" type="submit" value="Đăng ký ngay"><span class="wpcf7-spinner"></span>
+                                </div><div class="wpcf7-response-output" aria-hidden="true"></div>
+                            </form>
+                        </div>
+                    </div><div class="note">Lưu ý: Điền số điện thoại chính xác để được tư vấn bởi chuyên viên cao cấp</div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <footer id="footer" style="display: none;">
+        <div class="footer_main">
+            <div class="container">
+                <div class="f-widget row clearfix">
+                    <div id="black-studio-tinymce-2" class="widget widget_black_studio_tinymce  col-md-3"><div class="footer-title"><span>Hệ thống chi nhánh</span></div><div class="textwidget"><p><a href="https://www.facebook.com/kenli.vn/" target="_blank" rel="nofollow noopener"><strong>Showroom Hà Nội:</strong></a></p><p>Trụ sở &amp; Showroom: LK10-12-14 Louis II, KĐT Louis City, Đại Mỗ, Nam Từ Liêm, Hà Nội</p><p>&nbsp;</p><p>&nbsp;</p></div></div><div id="black-studio-tinymce-3" class="widget widget_black_studio_tinymce  col-md-3"><div class="footer-title"><span>Liên hệ</span></div><div class="textwidget"><p>Hotline CSKH / Zalo: (+84) 965009969</p><p>Email: info@nordic.vn</p><p>Website: www.nordic.vn</p><p><span style="font-size: 12pt;">"Giá trị vượt thời gian"</span></p></div></div><div id="black-studio-tinymce-4" class="widget widget_black_studio_tinymce  col-md-3">
+                        <div class="footer-title"><span>Đăng ký nhận file 3D</span></div><div class="textwidget">
+                            <p></p><div class="wpcf7 js" id="wpcf7-f87-o3" lang="vi" dir="ltr">
+                                <div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p><ul></ul></div><form action="https://nordic.vn/#wpcf7-f87-o3" method="post" class="wpcf7-form init" aria-label="Form liên hệ" novalidate="novalidate" data-status="init">
+                                    <div style="display: none;">
+                                        <input type="hidden" name="_wpcf7" value="87">
+                                        <input type="hidden" name="_wpcf7_version" value="5.7.5.1">
+                                        <input type="hidden" name="_wpcf7_locale" value="vi">
+                                        <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f87-o3">
+                                        <input type="hidden" name="_wpcf7_container_post" value="0">
+                                        <input type="hidden" name="_wpcf7_posted_data_hash" value="">
+                                    </div><div class="form-group">
+                                        <span class="wpcf7-form-control-wrap" data-name="text-495"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required input" aria-required="true" aria-invalid="false" placeholder="Họ và tên" value="" type="text" name="text-495"></span>
+                                    </div><div class="form-group">
+                                        <span class="wpcf7-form-control-wrap" data-name="tel-988"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel input" aria-required="true" aria-invalid="false" placeholder="Số điện thoại" value="" type="tel" name="tel-988"></span>
+                                    </div><div class="form-group">
+                                        <span class="wpcf7-form-control-wrap" data-name="email-206"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email input" aria-required="true" aria-invalid="false" placeholder="Địa chỉ email" value="" type="email" name="email-206"></span>
+                                    </div><div class="form-group">
+                                        <span class="wpcf7-form-control-wrap" data-name="text-295"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required input" aria-required="true" aria-invalid="false" placeholder="Tỉnh/TP" value="" type="text" name="text-295"></span>
+                                    </div><div class="form-button">
+                                        <input class="wpcf7-form-control has-spinner wpcf7-submit button" type="submit" value="Đăng ký"><span class="wpcf7-spinner"></span>
+                                    </div><div class="wpcf7-response-output" aria-hidden="true"></div>
+                                </form>
+                            </div><p></p>
+                        </div>
+                    </div><div id="black-studio-tinymce-5" class="widget widget_black_studio_tinymce  col-md-3"><div class="footer-title"><span>Nhãn hiệu NORDIC</span></div><div class="textwidget"><p style="text-align: center;"><a href="http://online.gov.vn/CustomWebsiteDisplay.aspx?DocId=38569" target="_blank" rel="nofollow noopener"><img class="size-full wp-image-4992 aligncenter ls-is-cached lazyloaded" title="Kenli - Nội thất cao cấp nhập khẩu Italy 53" src="App_Themes/house/img/1.png" alt="dang ki bo cong thuong" width="150" height="57" data-src="https://noithatkenli.vn/wp-content/uploads/2019/06/1.png"></a></p><p style="text-align: center;"><a class="dmca-badge" title="DMCA.com Protection Status" href="https://www.dmca.com/Protection/Status.aspx?ID=952d18ac-708b-473b-b8c3-c277b29a36dc" target="_blank" rel="nofollow noopener"><img class="aligncenter ls-is-cached lazyloaded" title="Kenli - Nội thất cao cấp nhập khẩu Italy 54" src="App_Themes/house/img/_dmca_premi_badge_4.png" alt="DMCA.com Protection Status" data-src="https://images.dmca.com/Badges/_dmca_premi_badge_4.png?ID=952d18ac-708b-473b-b8c3-c277b29a36dc"></a></p></div></div>
+                </div>
+            </div>
+        </div><div class="copyright"><div class="container"><div id="black-studio-tinymce-6" class="widget widget_black_studio_tinymce  "><div class="textwidget"><p>NORDIC - GIÁ TRỊ VƯỢT THỜI GIAN</p></div></div></div></div>
+    </footer><footer id="footer2" style="background-color: #1e1e1e;display: block;">
+        <div class="container-fluid">
+            <div class="inner">
+                <div class="footer_top">
+                    <div id="custom_html-28" class="widget_text widget widget_custom_html  ">
+                        <div class="textwidget custom-html-widget">
+                            <div class="hotline_footer">
+                                <div class="capt">HOTLINE</div>
+                                <a href="tel:+(84) 965009969" class="hotline"><i class="fa fa-phone"></i>+(84) 965009969</a><div class="time">Thời gian làm việc: 08:30 - 18:00 (T2 - Chủ Nhật)</div>
+                            </div>
+                        </div>
+                    </div><div id="custom_html-29" class="widget_text widget widget_custom_html  ">
+                        <div class="textwidget custom-html-widget">
+                            <div class="social_footer">
+                                <div class="capt">Theo dõi Nordic trên mạng xã hội</div><div class="list">
+                                    <a rel="nofollow" href="https://www.facebook.com/nordic.vn"><img data-lazyloaded="1" src="App_Themes/house/img/icon-social-38px-fb-OK.png" data-src="https://nordic.vn/wp-content/uploads/2022/09/icon-social-38px-fb-OK.png" data-ll-status="loaded" class="entered litespeed-loaded"></a>
+                                    <a rel="nofollow" href="https://www.instagram.com/nordic_furnituredesign/"><img data-lazyloaded="1" src="App_Themes/house/img/icon-social-38px-install-OK.png" data-src="https://nordic.vn/wp-content/uploads/2022/09/icon-social-38px-install-OK.png" data-ll-status="loaded" class="entered litespeed-loaded"></a>
+                                    <a rel="nofollow" href="https://www.youtube.com/channel/UCibvoYN6mM9UlQADwxKtfFw"><img data-lazyloaded="1" src="App_Themes/house/img/icon-social-38px-youtube-OK.png" data-src="https://nordic.vn/wp-content/uploads/2022/09/icon-social-38px-youtube-OK.png" data-ll-status="loaded" class="entered litespeed-loaded"></a>
+                                    <a rel="nofollow" href="https://www.pinterest.com/nordic2018/"><img data-lazyloaded="1" src="App_Themes/house/img/icon-social-38px-pinterest-OK.png" data-src="https://nordic.vn/wp-content/uploads/2022/09/icon-social-38px-pinterest-OK.png" data-ll-status="loaded" class="entered litespeed-loaded"></a>
+                                    <a rel="nofollow" href="http://zalo.me/+(84)%20965009969"><img data-lazyloaded="1" src="App_Themes/house/img/icon-social-38px-Zalo-OK.png" data-src="https://nordic.vn/wp-content/uploads/2022/09/icon-social-38px-Zalo-OK.png" data-ll-status="loaded" class="entered litespeed-loaded"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="footer_main2"><div id="custom_html-30" class="widget_text widget widget_custom_html  "><div class="textwidget custom-html-widget"><div class="info_footer"><div class="image"><img data-lazyloaded="1" src="App_Themes/house/img/bct.png" data-src="https://nordic.vn/wp-content/uploads/2022/08/bct.png" data-ll-status="loaded" class="entered litespeed-loaded"></div><div class="name">Showroom Hà Nội</div><div class="local">Trụ sở &amp; Showroom : LK10-12-14 Louis II, KĐT Louis City, Đại Mỗ, Nam Từ Liêm, Hà Nội</div><div class="support"><div class="it"><img data-lazyloaded="1" src="App_Themes/house/img/icon_lh11.png" data-src="https://nordic.vn/wp-content/uploads/2022/08/icon_lh11.png" data-ll-status="loaded" class="entered litespeed-loaded">+(84) 965009969</div><div class="it"><img data-lazyloaded="1" src="App_Themes/house/img/icon_lh21.png" data-src="https://nordic.vn/wp-content/uploads/2022/08/icon_lh21.png" data-ll-status="loaded" class="entered litespeed-loaded">info@nordic.vn</div><div class="it"><img data-lazyloaded="1" src="App_Themes/house/img/icon_lh31.png" data-src="https://nordic.vn/wp-content/uploads/2022/08/icon_lh31.png" data-ll-status="loaded" class="entered litespeed-loaded">www.nordic.vn</div></div></div></div></div><div id="media_image-2" class="widget widget_media_image  "><a href="https://www.facebook.com/nordic.vn"><img data-lazyloaded="1" src="App_Themes/house/img/facebook.png" width="600" height="315" data-src="https://nordic.vn/wp-content/uploads/2022/09/facebook.png" class="image wp-image-2311 attachment-full size-full wvs-archive-product-image entered litespeed-loaded" alt="" decoding="async" style="max-width: 100%; height: auto;" data-srcset="https://nordic.vn/wp-content/uploads/2022/09/facebook.png 600w, https://nordic.vn/wp-content/uploads/2022/09/facebook-300x158.png 300w" data-sizes="(max-width: 600px) 100vw, 600px" data-ll-status="loaded" sizes="(max-width: 600px) 100vw, 600px" srcset="https://nordic.vn/wp-content/uploads/2022/09/facebook.png 600w, https://nordic.vn/wp-content/uploads/2022/09/facebook-300x158.png 300w"></a></div></div>
+            </div>
+        </div>
+    </footer><div id="menu_mainnav">
+        <div class="group_nav">
+            <div class="title_nav">Danh mục sản phẩm</div><div class="wrap_menu"><ul id="menu-menu-main-1" class="menu clearfix"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1720 nav-item"><a class="nav-links" href="https://nordic.vn/gioi-thieu/">Giới thiệu</a><i class="fa fa-angle-down"></i><ul class="sub-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1729 nav-item"><a class="nav-links" href="https://nordic.vn/#">Tầm nhìn</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1730 nav-item"><a class="nav-links" href="https://nordic.vn/#">Thành tựu</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1731 nav-item"><a class="nav-links" href="https://nordic.vn/#">Tiêu chí Thiết kế</a></li></ul></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1721 nav-item"><a class="nav-links" href="https://nordic.vn/san-pham/">Sản phẩm</a><i class="fa fa-angle-down"></i><ul class="sub-menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2322 nav-item"><a class="nav-links" href="https://nordic.vn/sofa/">Sofa</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2315 nav-item"><a class="nav-links" href="https://nordic.vn/ban-tra/">Bàn trà</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3747 nav-item"><a class="nav-links" href="https://nordic.vn/ghe-thu-gian-armchair/">Ghế Armchair</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-2317 nav-item"><a class="nav-links" href="https://nordic.vn/giuong/">Giường</a><ul class="sub-menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2318 nav-item"><a class="nav-links" href="https://nordic.vn/hana/">Hana</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2319 nav-item"><a class="nav-links" href="https://nordic.vn/sovn/">Sovn</a></li></ul></li><li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2321 nav-item"><a class="nav-links" href="https://nordic.vn/ke-trang-tri/">Kệ trang trí</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2320 nav-item"><a class="nav-links" href="https://nordic.vn/ke-tivi/">Kệ tivi</a></li></ul></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1722 nav-item"><a class="nav-links" href="https://nordic.vn/bo-suu-tap/">Bộ sưu tập</a><i class="fa fa-angle-down"></i><ul class="sub-menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2307 nav-item"><a class="nav-links" href="https://nordic.vn/bst-2020/">BST Half Life</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-2304 nav-item"><a class="nav-links" href="https://nordic.vn/the-lover/">BST The Lover</a><ul class="sub-menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2305 nav-item"><a class="nav-links" href="https://nordic.vn/pige/">BST PIGE</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2306 nav-item"><a class="nav-links" href="https://nordic.vn/mand/">BST MAND</a></li></ul></li><li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3313 nav-item"><a class="nav-links" href="https://nordic.vn/the-nest/">BST The Nest</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-project_cat menu-item-2256 nav-item"><a class="nav-links" href="https://nordic.vn/project_cat/bespoker/">Bespoker</a></li></ul></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1724 nav-item"><a class="nav-links" href="https://nordic.vn/nordic-24h/">Nordic 24h</a><i class="fa fa-angle-down"></i><ul class="sub-menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1739 nav-item"><a class="nav-links" href="https://nordic.vn/ban-tin-nordic/">Bản tin Nordic</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1740 nav-item"><a class="nav-links" href="https://nordic.vn/bao-chi-viet-ve-nordic/">Báo chí viết về Nordic</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1743 nav-item"><a class="nav-links" href="https://nordic.vn/kien-thuc-noi-that/">Kiến thức nội thất</a></li></ul></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2614 nav-item"><a class="nav-links" href="https://nordic.vn/chinh-sach/">Chính sách</a><i class="fa fa-angle-down"></i><ul class="sub-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2520 nav-item"><a class="nav-links" href="https://nordic.vn/refund_returns/">Chính sách đổi trả hàng</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2521 nav-item"><a class="nav-links" href="https://nordic.vn/chinh-sach-mua-hang/">Chính sách ưu đãi dành cho khách hàng nhà Nordic</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2522 nav-item"><a class="nav-links" href="https://nordic.vn/chinh-sach-bao-hanh/">Chính sách bảo hành</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2523 nav-item"><a class="nav-links" href="https://nordic.vn/chinh-sach-van-chuyen/">Chính sách vận chuyển</a></li></ul></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2673 nav-item"><a class="nav-links" href="https://nordic.vn/showroom-1/">Showroom</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-project_cat menu-item-2248 nav-item"><a class="nav-links" href="https://nordic.vn/project_cat/trai-nghiem/">Trải nghiệm khách hàng</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1727 nav-item"><a class="nav-links" href="https://nordic.vn/lien-he/">Liên hệ</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-3508 nav-item"><a class="nav-links" href="https://nordic.vn/nordic-signature/">Nordic Signature</a><i class="fa fa-angle-down"></i><ul class="sub-menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3760 nav-item"><a class="nav-links" href="https://nordic.vn/signature-sofa/">Signature Sofa</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3758 nav-item"><a class="nav-links" href="https://nordic.vn/signature-armchair/">Signature Armchair</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3761 nav-item"><a class="nav-links" href="https://nordic.vn/signature-bed/">Signature Bed</a></li></ul></li></ul></div><div class="footer_wrap">
+                <div class="hotline">
+                    <a href="tel:(+84) 965009969"><img data-lazyloaded="1" src="App_Themes/house/img/icon_lh11.png" alt="icon_lh11" data-src="https://nordic.vn/wp-content/uploads/2022/08/icon_lh11.png" data-ll-status="loaded" class="entered litespeed-loaded">(+84) 965009969</a>
+                </div>
+            </div>
+        </div>
+    </div><div class="linedark"></div><div class="support_fixed">
+        <ul class="clearfix">
+            <li>
+                <a href="http://zalo.me/" target="_blank" rel="nofollow" class="not_tran">
+                    <img data-lazyloaded="1" src="App_Themes/house/img/ic_zaloo.png" alt="zalo" data-src="https://nordic.vn/wp-content/themes/nordic2/images/ic_zaloo.png" data-ll-status="loaded" class="entered litespeed-loaded">
+                </a>
+            </li>
+            <li>
+                <a href="tel:(+84) 965009969" rel="nofollow" class="not_tran">
+                    <img data-lazyloaded="1" src="App_Themes/house/img/ic_hotlinee.png" alt="ic_hotlinee" data-src="https://nordic.vn/wp-content/themes/nordic2/images/ic_hotlinee.png" data-ll-status="loaded" class="entered litespeed-loaded">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.messenger.com/" rel="nofollow" class="not_tran">
+                    <img data-lazyloaded="1" src="App_Themes/house/img/mess-icon.png" alt="mess-icon" data-src="https://nordic.vn/wp-content/themes/nordic2/images/mess-icon.png" data-ll-status="loaded" class="entered litespeed-loaded">
+                </a>
+            </li>
+        </ul>
+    </div><div id="back-top" style="display: block;"><a href="https://nordic.vn/#top"><i class="fa fa-angle-up" aria-hidden="true"></i></a></div>
+    <script data-optimized="1" type="text/javascript" src="App_Themes/house/js/f3e0f.js"></script>
+    <script type="text/html" id="tmpl-woo-variation-gallery-slider-template">
+        <# hasVideo=( data.video_link ) ? 'wvg-gallery-video-slider' : '' #>
+            <# thumbnailSrc=( data.video_link ) ? data.video_thumbnail_src : data.gallery_thumbnail_src #>
+                <!--<# videoHeight = ( data.video_height ) ? data.video_height : '100%' #>
+                <# videoWidth = ( data.video_width ) ? data.video_width : 'auto' #>-->
+                <# videoHeight=( data.video_height ) ? data.video_height : 1 #>
+                    <# videoWidth=( data.video_width ) ? data.video_width : 1 #>
+                        <# videoRatio=( data.video_ratio ) ? data.video_ratio : 100 #>
+                            <div class="wvg-gallery-image {{hasVideo}}">
+
+                                <# if( data.video_link && data.video_embed_type= = ='iframe' ){ #>
+                                    <div class="wvg-single-gallery-iframe-container" style="padding-bottom: {{ videoRatio }}%">
+                                        <iframe data-lazyloaded="1" src="about:blank" loading="lazy" data-src="{{ data.video_embed_url }}" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                                    </div>
+                                    <# } #>
+
+                                        <# if( data.video_link && data.video_embed_type= = ='video' ){ #>
+                                            <div class="wvg-single-gallery-video-container" style="padding-bottom: {{ videoRatio }}%">
+                                                <video preload="auto" controls controlsList="nodownload" src="{{ data.video_link }}"></video>
+                                            </div>
+                                            <# } #>
+
+                                                <# if( !data.video_link && data.srcset ){ #>
+                                                    <div class="wvg-single-gallery-image-container">
+                                                        <img loading="lazy" width="{{data.src_w}}" height="{{data.src_h}}" src="{{data.src}}" alt="{{data.alt}}" title="{{data.title}}" data-caption="{{data.caption}}" data-src="{{data.full_src}}" data-large_image="{{data.full_src}}" data-large_image_width="{{data.full_src_w}}" data-large_image_height="{{data.full_src_h}}" srcset="{{data.srcset}}" sizes="{{data.sizes}}" {{data.extra_params}} />
+                                                    </div>
+                                                    <# } #>
+
+                                                        <# if( !data.video_link && !data.srcset ){ #>
+                                                            <div class="wvg-single-gallery-image-container">
+                                                                <img loading="lazy" width="{{data.src_w}}" height="{{data.src_h}}" src="{{data.src}}" alt="{{data.alt}}" title="{{data.title}}" data-caption="{{data.caption}}" data-src="{{data.full_src}}" data-large_image="{{data.full_src}}" data-large_image_width="{{data.full_src_w}}" data-large_image_height="{{data.full_src_h}}" sizes="{{data.sizes}}" {{data.extra_params}} />
+                                                            </div>
+                                                            <# } #>
+
+                            </div>
+    </script>
+    <script type="text/html" id="tmpl-woo-variation-gallery-thumbnail-template">
+        <# hasVideo=( data.video_link ) ? 'wvg-gallery-video-thumbnail' : '' #>
+            <div class="wvg-gallery-thumbnail-image {{hasVideo}}">
+                <div>
+                    <img width="{{data.gallery_thumbnail_src_w}}" height="{{data.gallery_thumbnail_src_h}}" src="{{data.gallery_thumbnail_src}}" alt="{{data.alt}}" title="{{data.title}}" />
+                </div>
+            </div>
+    </script>
+    <script data-no-optimize="1">!function (t, e) { "object" == typeof exports && "undefined" != typeof module ? module.exports = e() : "function" == typeof define && define.amd ? define(e) : (t = "undefined" != typeof globalThis ? globalThis : t || self).LazyLoad = e() }(this, function () { "use strict"; function e() { return (e = Object.assign || function (t) { for (var e = 1; e < arguments.length; e++) { var n, a = arguments[e]; for (n in a) Object.prototype.hasOwnProperty.call(a, n) && (t[n] = a[n]) } return t }).apply(this, arguments) } function i(t) { return e({}, it, t) } function o(t, e) { var n, a = "LazyLoad::Initialized", i = new t(e); try { n = new CustomEvent(a, { detail: { instance: i } }) } catch (t) { (n = document.createEvent("CustomEvent")).initCustomEvent(a, !1, !1, { instance: i }) } window.dispatchEvent(n) } function l(t, e) { return t.getAttribute(gt + e) } function c(t) { return l(t, bt) } function s(t, e) { return function (t, e, n) { e = gt + e; null !== n ? t.setAttribute(e, n) : t.removeAttribute(e) }(t, bt, e) } function r(t) { return s(t, null), 0 } function u(t) { return null === c(t) } function d(t) { return c(t) === vt } function f(t, e, n, a) { t && (void 0 === a ? void 0 === n ? t(e) : t(e, n) : t(e, n, a)) } function _(t, e) { nt ? t.classList.add(e) : t.className += (t.className ? " " : "") + e } function v(t, e) { nt ? t.classList.remove(e) : t.className = t.className.replace(new RegExp("(^|\\s+)" + e + "(\\s+|$)"), " ").replace(/^\s+/, "").replace(/\s+$/, "") } function g(t) { return t.llTempImage } function b(t, e) { !e || (e = e._observer) && e.unobserve(t) } function p(t, e) { t && (t.loadingCount += e) } function h(t, e) { t && (t.toLoadCount = e) } function n(t) { for (var e, n = [], a = 0; e = t.children[a]; a += 1)"SOURCE" === e.tagName && n.push(e); return n } function m(t, e) { (t = t.parentNode) && "PICTURE" === t.tagName && n(t).forEach(e) } function a(t, e) { n(t).forEach(e) } function E(t) { return !!t[st] } function I(t) { return t[st] } function y(t) { return delete t[st] } function A(e, t) { var n; E(e) || (n = {}, t.forEach(function (t) { n[t] = e.getAttribute(t) }), e[st] = n) } function k(a, t) { var i; E(a) && (i = I(a), t.forEach(function (t) { var e, n; e = a, (t = i[n = t]) ? e.setAttribute(n, t) : e.removeAttribute(n) })) } function L(t, e, n) { _(t, e.class_loading), s(t, ut), n && (p(n, 1), f(e.callback_loading, t, n)) } function w(t, e, n) { n && t.setAttribute(e, n) } function x(t, e) { w(t, ct, l(t, e.data_sizes)), w(t, rt, l(t, e.data_srcset)), w(t, ot, l(t, e.data_src)) } function O(t, e, n) { var a = l(t, e.data_bg_multi), i = l(t, e.data_bg_multi_hidpi); (a = at && i ? i : a) && (t.style.backgroundImage = a, n = n, _(t = t, (e = e).class_applied), s(t, ft), n && (e.unobserve_completed && b(t, e), f(e.callback_applied, t, n))) } function N(t, e) { !e || 0 < e.loadingCount || 0 < e.toLoadCount || f(t.callback_finish, e) } function C(t, e, n) { t.addEventListener(e, n), t.llEvLisnrs[e] = n } function M(t) { return !!t.llEvLisnrs } function z(t) { if (M(t)) { var e, n, a = t.llEvLisnrs; for (e in a) { var i = a[e]; n = e, i = i, t.removeEventListener(n, i) } delete t.llEvLisnrs } } function R(t, e, n) { var a; delete t.llTempImage, p(n, -1), (a = n) && --a.toLoadCount, v(t, e.class_loading), e.unobserve_completed && b(t, n) } function T(o, r, c) { var l = g(o) || o; M(l) || function (t, e, n) { M(t) || (t.llEvLisnrs = {}); var a = "VIDEO" === t.tagName ? "loadeddata" : "load"; C(t, a, e), C(t, "error", n) }(l, function (t) { var e, n, a, i; n = r, a = c, i = d(e = o), R(e, n, a), _(e, n.class_loaded), s(e, dt), f(n.callback_loaded, e, a), i || N(n, a), z(l) }, function (t) { var e, n, a, i; n = r, a = c, i = d(e = o), R(e, n, a), _(e, n.class_error), s(e, _t), f(n.callback_error, e, a), i || N(n, a), z(l) }) } function G(t, e, n) { var a, i, o, r, c; t.llTempImage = document.createElement("IMG"), T(t, e, n), E(c = t) || (c[st] = { backgroundImage: c.style.backgroundImage }), o = n, r = l(a = t, (i = e).data_bg), c = l(a, i.data_bg_hidpi), (r = at && c ? c : r) && (a.style.backgroundImage = 'url("'.concat(r, '")'), g(a).setAttribute(ot, r), L(a, i, o)), O(t, e, n) } function D(t, e, n) { var a; T(t, e, n), a = e, e = n, (t = It[(n = t).tagName]) && (t(n, a), L(n, a, e)) } function V(t, e, n) { var a; a = t, (-1 < yt.indexOf(a.tagName) ? D : G)(t, e, n) } function F(t, e, n) { var a; t.setAttribute("loading", "lazy"), T(t, e, n), a = e, (e = It[(n = t).tagName]) && e(n, a), s(t, vt) } function j(t) { t.removeAttribute(ot), t.removeAttribute(rt), t.removeAttribute(ct) } function P(t) { m(t, function (t) { k(t, Et) }), k(t, Et) } function S(t) { var e; (e = At[t.tagName]) ? e(t) : E(e = t) && (t = I(e), e.style.backgroundImage = t.backgroundImage) } function U(t, e) { var n; S(t), n = e, u(e = t) || d(e) || (v(e, n.class_entered), v(e, n.class_exited), v(e, n.class_applied), v(e, n.class_loading), v(e, n.class_loaded), v(e, n.class_error)), r(t), y(t) } function $(t, e, n, a) { var i; n.cancel_on_exit && (c(t) !== ut || "IMG" === t.tagName && (z(t), m(i = t, function (t) { j(t) }), j(i), P(t), v(t, n.class_loading), p(a, -1), r(t), f(n.callback_cancel, t, e, a))) } function q(t, e, n, a) { var i, o, r = (o = t, 0 <= pt.indexOf(c(o))); s(t, "entered"), _(t, n.class_entered), v(t, n.class_exited), i = t, o = a, n.unobserve_entered && b(i, o), f(n.callback_enter, t, e, a), r || V(t, n, a) } function H(t) { return t.use_native && "loading" in HTMLImageElement.prototype } function B(t, i, o) { t.forEach(function (t) { return (a = t).isIntersecting || 0 < a.intersectionRatio ? q(t.target, t, i, o) : (e = t.target, n = t, a = i, t = o, void (u(e) || (_(e, a.class_exited), $(e, n, a, t), f(a.callback_exit, e, n, t)))); var e, n, a }) } function J(e, n) { var t; et && !H(e) && (n._observer = new IntersectionObserver(function (t) { B(t, e, n) }, { root: (t = e).container === document ? null : t.container, rootMargin: t.thresholds || t.threshold + "px" })) } function K(t) { return Array.prototype.slice.call(t) } function Q(t) { return t.container.querySelectorAll(t.elements_selector) } function W(t) { return c(t) === _t } function X(t, e) { return e = t || Q(e), K(e).filter(u) } function Y(e, t) { var n; (n = Q(e), K(n).filter(W)).forEach(function (t) { v(t, e.class_error), r(t) }), t.update() } function t(t, e) { var n, a, t = i(t); this._settings = t, this.loadingCount = 0, J(t, this), n = t, a = this, Z && window.addEventListener("online", function () { Y(n, a) }), this.update(e) } var Z = "undefined" != typeof window, tt = Z && !("onscroll" in window) || "undefined" != typeof navigator && /(gle|ing|ro)bot|crawl|spider/i.test(navigator.userAgent), et = Z && "IntersectionObserver" in window, nt = Z && "classList" in document.createElement("p"), at = Z && 1 < window.devicePixelRatio, it = { elements_selector: ".lazy", container: tt || Z ? document : null, threshold: 300, thresholds: null, data_src: "src", data_srcset: "srcset", data_sizes: "sizes", data_bg: "bg", data_bg_hidpi: "bg-hidpi", data_bg_multi: "bg-multi", data_bg_multi_hidpi: "bg-multi-hidpi", data_poster: "poster", class_applied: "applied", class_loading: "litespeed-loading", class_loaded: "litespeed-loaded", class_error: "error", class_entered: "entered", class_exited: "exited", unobserve_completed: !0, unobserve_entered: !1, cancel_on_exit: !0, callback_enter: null, callback_exit: null, callback_applied: null, callback_loading: null, callback_loaded: null, callback_error: null, callback_finish: null, callback_cancel: null, use_native: !1 }, ot = "src", rt = "srcset", ct = "sizes", lt = "poster", st = "llOriginalAttrs", ut = "loading", dt = "loaded", ft = "applied", _t = "error", vt = "native", gt = "data-", bt = "ll-status", pt = [ut, dt, ft, _t], ht = [ot], mt = [ot, lt], Et = [ot, rt, ct], It = { IMG: function (t, e) { m(t, function (t) { A(t, Et), x(t, e) }), A(t, Et), x(t, e) }, IFRAME: function (t, e) { A(t, ht), w(t, ot, l(t, e.data_src)) }, VIDEO: function (t, e) { a(t, function (t) { A(t, ht), w(t, ot, l(t, e.data_src)) }), A(t, mt), w(t, lt, l(t, e.data_poster)), w(t, ot, l(t, e.data_src)), t.load() } }, yt = ["IMG", "IFRAME", "VIDEO"], At = { IMG: P, IFRAME: function (t) { k(t, ht) }, VIDEO: function (t) { a(t, function (t) { k(t, ht) }), k(t, mt), t.load() } }, kt = ["IMG", "IFRAME", "VIDEO"]; return t.prototype = { update: function (t) { var e, n, a, i = this._settings, o = X(t, i); { if (h(this, o.length), !tt && et) return H(i) ? (e = i, n = this, o.forEach(function (t) { -1 !== kt.indexOf(t.tagName) && F(t, e, n) }), void h(n, 0)) : (t = this._observer, i = o, t.disconnect(), a = t, void i.forEach(function (t) { a.observe(t) })); this.loadAll(o) } }, destroy: function () { this._observer && this._observer.disconnect(), Q(this._settings).forEach(function (t) { y(t) }), delete this._observer, delete this._settings, delete this.loadingCount, delete this.toLoadCount }, loadAll: function (t) { var e = this, n = this._settings; X(t, n).forEach(function (t) { b(t, e), V(t, n, e) }) }, restoreAll: function () { var e = this._settings; Q(e).forEach(function (t) { U(t, e) }) } }, t.load = function (t, e) { e = i(e); V(t, e) }, t.resetStatus = function (t) { r(t) }, Z && function (t, e) { if (e) if (e.length) for (var n, a = 0; n = e[a]; a += 1)o(t, n); else o(t, e) }(t, window.lazyLoadOptions), t }); !function (e, t) { "use strict"; function a() { t.body.classList.add("litespeed_lazyloaded") } function n() { console.log("[LiteSpeed] Start Lazy Load Images"), d = new LazyLoad({ elements_selector: "[data-lazyloaded]", callback_finish: a }), o = function () { d.update() }, e.MutationObserver && new MutationObserver(o).observe(t.documentElement, { childList: !0, subtree: !0, attributes: !0 }) } var d, o; e.addEventListener ? e.addEventListener("load", n, !1) : e.attachEvent("onload", n) }(window, document);</script>
+    <script data-optimized="1" src="App_Themes/house/js/d1ac49371ef87d32a0f004cdad4a2f5e.js" defer=""></script>
+
+    <div style="position: static;"><div style="height: 1px; width: 1px; position: absolute; z-index: 100000; top: 0px; visibility: hidden;"><iframe id="a2a_sm_ifr" title="AddToAny Utility Frame" transparency="true" allowtransparency="true" frameborder="0" src="./Home_Nodric_files/sm.24.html" style="height: 1px; width: 1px; border: 0px; left: 0px; top: 0px; position: absolute; z-index: 100000; display: none;"></iframe></div></div>
+</body>
+</html>

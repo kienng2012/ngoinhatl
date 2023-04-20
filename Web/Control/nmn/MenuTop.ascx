@@ -1,125 +1,148 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="MenuTop.ascx.cs" Inherits="Web.Control.nmn.MenuTop" %>
 
 <!-- HEADER -->
-<%--<header id="header" class="overlay-top sticky-dark">--%>
-<header id="header" class="non-overlay sticky-dark">
-    <div class="header-inner clearfix">
-
-        <!-- DEFAULT HEADER CONTENT -->
-        <div class="default-header-content">
-            <div id="logo" class="left-float">
-                <a id="default-logo" class="logotype" href="https://housedesign.vn/">
-                    <img width="180" height="98" src="App_Themes/nntl/img/light-1-1-e1510918301906.png" alt="Logo" data-lazy-src="https://housedesign.vn/wp-content/uploads/2017/11/light-1-1-e1510918301906.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="180" height="98" src="https://housedesign.vn/wp-content/uploads/2017/11/light-1-1-e1510918301906.png" alt="Logo"></noscript>
-                </a><a id="fixed-logo" class="logotype" href="https://housedesign.vn/">
-                    <img width="320" height="175" src="App_Themes/nntl/img/232Model.png" alt="Logo" data-lazy-src="https://housedesign.vn/wp-content/uploads/2017/11/232Model.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="320" height="175" src="https://housedesign.vn/wp-content/uploads/2017/11/232Model.png" alt="Logo"></noscript>
-                </a>
-            </div>
-
-            <div class="menu right-float clearfix">
-
-                <nav id="traditional-nav" class="clearfix">
-                    <ul id="primary" class="">
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="https://housedesign.vn/" data-bigletter="T">Trang chủ</a></li>
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
-                            <a href="https://housedesign.vn/gioi-thieu/" data-bigletter="G">Giới thiệu</a>
-                            <ul class="sub-menu">
-                                <li class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category"><a href="https://housedesign.vn/du-an/can-ho/">Chung cư</a></li>
-                                <li class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category"><a href="https://housedesign.vn/du-an/van-phong/">Văn phòng</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
-                            <a href="https://housedesign.vn/du-an/" data-bigletter="D">Dự án</a>
-                            <ul class="sub-menu">
-                                <li class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category"><a href="https://housedesign.vn/du-an/can-ho/">Chung cư</a></li>
-                                <li class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category"><a href="https://housedesign.vn/du-an/van-phong/">Văn phòng</a></li>
-                                <li class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category"><a href="https://housedesign.vn/du-an/biet-thu/">Biệt thự</a></li>
-                                <li class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category"><a href="https://housedesign.vn/du-an/nha-pho/">Nhà phố</a></li>
-                                <li class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category"><a href="https://housedesign.vn/du-an/cafe-nha-hang-khach-san/">Nhà hàng</a></li>
-                                <li class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category"><a href="https://housedesign.vn/du-an/showroom-shop/">Shop</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
-                            <a href="https://housedesign.vn/thiet-ke-noi-that/" data-bigletter="P">PHONG CÁCH THIẾT KẾ</a>
-                            <ul class="sub-menu">
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/thiet-ke-noi-that-chung-cu/">Hiện đại</a></li>
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/thiet-ke-noi-that-van-phong/">Scandinavian</a></li>
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/thiet-ke-noi-that-nha-pho/">Indochine</a></li>
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/thiet-ke-noi-that-biet-thu/">Wabisabi</a></li>
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/thiet-ke-noi-that-shop/">Tân cổ điển</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/lien-he/" data-bigletter="L">Liên hệ</a></li>
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://amase.vn/" data-bigletter="D">Tuyển dụng</a></li>
-
-
-                    </ul>
-                </nav>
-
-                <a href="https://housedesign.vn/#" class="open-nav ">
-                    <span class="hamburger"></span>
-                </a>
-                <nav id="main-nav" class="text-light">
-                    <div class="nav-logo">
-                        <img width="180" height="98" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20180%2098&#39;%3E%3C/svg%3E" alt="Logo Menu" data-lazy-src="https://housedesign.vn/wp-content/uploads/2017/11/light-1-1-e1510918301906.png"><noscript><img width="180" height="98" src="https://housedesign.vn/wp-content/uploads/2017/11/light-1-1-e1510918301906.png" alt="Logo Menu"></noscript>
-                    </div>
-                    <div class="nav-inner">
-                        <ul id="primary" class="">
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="https://housedesign.vn/" data-bigletter="T">Trang chủ</a></li>
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
-                                <a href="https://housedesign.vn/du-an/" data-bigletter="D">Dự án</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category"><a href="https://housedesign.vn/du-an/can-ho/">Căn hộ</a></li>
-                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category"><a href="https://housedesign.vn/du-an/nha-pho/">Nhà phố</a></li>
-                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category"><a href="https://housedesign.vn/du-an/biet-thu/">Biệt thự</a></li>
-                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category"><a href="https://housedesign.vn/du-an/cafe-nha-hang-khach-san/">Cafe – Nhà hàng – Khách sạn</a></li>
-                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category"><a href="https://housedesign.vn/du-an/showroom-shop/">Showroom-shop</a></li>
-                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category"><a href="https://housedesign.vn/du-an/van-phong/">Văn phòng</a></li>
-                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category"><a href="https://housedesign.vn/du-an/kien-truc/">Kiến trúc</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/du-an-thi-cong/">Hình ảnh thi công</a></li>
-                                </ul>
-                            </li>
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
-                                <a href="https://housedesign.vn/thiet-ke-noi-that/" data-bigletter="T">THIẾT KẾ NỘI THẤT</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/thiet-ke-noi-that-chung-cu/">Thiết kế nội thất chung cư</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/thiet-ke-noi-that-van-phong/">Thiết kế nội thất văn phòng</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/thiet-ke-noi-that-nha-pho/">Thiết kế nội thất nhà phố</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/thiet-ke-noi-that-biet-thu/">Thiết kế nội thất biệt thự</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/thiet-ke-noi-that-shop/">Thiết kế nội thất shop</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/thiet-ke-noi-that-khach-san/">Thiết kế nội thất khách sạn</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/thiet-ke-noi-that-showroom/">Thiết kế nội thất showroom</a></li>
-                                </ul>
-                            </li>
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
-                                <a href="https://housedesign.vn/phong-cach-thiet-ke/" data-bigletter="P">PHONG CÁCH THIẾT KẾ</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-hien-dai/">Nội thất hiện đại</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-industrial/">Industrial</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-scandinavian/">Scandinavian</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-duong-dai/">Đương đại</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-minimalist/">Minimalist</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-indochine//">Indochine</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-urban/">Urban</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-tan-co-dien/">Tân cổ điển</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-mix-match/">Mix and match</a></li>
-                                </ul>
-                            </li>
-                            <li class="blogmenu menu-item menu-item-type-post_type menu-item-object-page"><a href="https://housedesign.vn/blog/" data-bigletter="B">Blog</a></li>
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://amase.vn/" data-bigletter="D">Decor Shop</a></li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://housedesign.vn/gioi-thieu/" data-bigletter="G">Giới thiệu</a></li>
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://housedesign.vn/lien-he/" data-bigletter="L">Liên hệ</a></li>
+<header id="header">
+    <div class="header_pc">
+        <div class="header_main">
+            <div class="container">
+                <div class="header_logo">
+                    <div class="header_icon">
+                        <img alt="header_icon" src="App_Themes/house/img/icon_menu.png"></div>
+                    <h1 class="logo"><a href="https://nordic.vn/" title="NORDIC">
+                        <img src="App_Themes/house/img/logo.png" alt="NORDIC"><span style="display: none;">NORDIC</span></a></h1>
+                </div>
+                <div class="header_menu">
+                    <ul id="menu-menu-main" class="menu clearfix">
+                        <li id="menu-item-1720" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1720 nav-item"><a class="nav-links" href="https://nordic.vn/gioi-thieu/">Giới thiệu</a><ul class="sub-menu">
+                            <li id="menu-item-1729" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1729 nav-item"><a class="nav-links" href="https://nordic.vn/#">Tầm nhìn</a></li>
+                            <li id="menu-item-1730" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1730 nav-item"><a class="nav-links" href="https://nordic.vn/#">Thành tựu</a></li>
+                            <li id="menu-item-1731" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1731 nav-item"><a class="nav-links" href="https://nordic.vn/#">Tiêu chí Thiết kế</a></li>
                         </ul>
-                    </div>
-                    <div class="nav-bg"></div>
-                </nav>
-
-
-
+                        </li>
+                        <li id="menu-item-1721" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1721 nav-item"><a class="nav-links" href="https://nordic.vn/san-pham/">Sản phẩm</a><ul class="sub-menu">
+                            <li id="menu-item-2322" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2322 nav-item"><a class="nav-links" href="https://nordic.vn/sofa/">Sofa</a></li>
+                            <li id="menu-item-2315" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2315 nav-item"><a class="nav-links" href="https://nordic.vn/ban-tra/">Bàn trà</a></li>
+                            <li id="menu-item-3747" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3747 nav-item"><a class="nav-links" href="https://nordic.vn/ghe-thu-gian-armchair/">Ghế Armchair</a></li>
+                            <li id="menu-item-2317" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-2317 nav-item"><a class="nav-links" href="https://nordic.vn/giuong/">Giường</a><ul class="sub-menu">
+                                <li id="menu-item-2318" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2318 nav-item"><a class="nav-links" href="https://nordic.vn/hana/">Hana</a></li>
+                                <li id="menu-item-2319" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2319 nav-item"><a class="nav-links" href="https://nordic.vn/sovn/">Sovn</a></li>
+                            </ul>
+                            </li>
+                            <li id="menu-item-2321" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2321 nav-item"><a class="nav-links" href="https://nordic.vn/ke-trang-tri/">Kệ trang trí</a></li>
+                            <li id="menu-item-2320" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2320 nav-item"><a class="nav-links" href="https://nordic.vn/ke-tivi/">Kệ tivi</a></li>
+                        </ul>
+                        </li>
+                        <li id="menu-item-1722" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1722 nav-item"><a class="nav-links" href="https://nordic.vn/bo-suu-tap/">Bộ sưu tập</a><ul class="sub-menu">
+                            <li id="menu-item-2307" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2307 nav-item"><a class="nav-links" href="https://nordic.vn/bst-2020/">BST Half Life</a></li>
+                            <li id="menu-item-2304" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-2304 nav-item"><a class="nav-links" href="https://nordic.vn/the-lover/">BST The Lover</a><ul class="sub-menu">
+                                <li id="menu-item-2305" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2305 nav-item"><a class="nav-links" href="https://nordic.vn/pige/">BST PIGE</a></li>
+                                <li id="menu-item-2306" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2306 nav-item"><a class="nav-links" href="https://nordic.vn/mand/">BST MAND</a></li>
+                            </ul>
+                            </li>
+                            <li id="menu-item-3313" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3313 nav-item"><a class="nav-links" href="https://nordic.vn/the-nest/">BST The Nest</a></li>
+                            <li id="menu-item-2256" class="menu-item menu-item-type-taxonomy menu-item-object-project_cat menu-item-2256 nav-item"><a class="nav-links" href="https://nordic.vn/project_cat/bespoker/">Bespoker</a></li>
+                        </ul>
+                        </li>
+                        <li id="menu-item-1724" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1724 nav-item"><a class="nav-links" href="https://nordic.vn/nordic-24h/">Nordic 24h</a><ul class="sub-menu">
+                            <li id="menu-item-1739" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1739 nav-item"><a class="nav-links" href="https://nordic.vn/ban-tin-nordic/">Bản tin Nordic</a></li>
+                            <li id="menu-item-1740" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1740 nav-item"><a class="nav-links" href="https://nordic.vn/bao-chi-viet-ve-nordic/">Báo chí viết về Nordic</a></li>
+                            <li id="menu-item-1743" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1743 nav-item"><a class="nav-links" href="https://nordic.vn/kien-thuc-noi-that/">Kiến thức nội thất</a></li>
+                        </ul>
+                        </li>
+                        <li id="menu-item-2614" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2614 nav-item"><a class="nav-links" href="https://nordic.vn/chinh-sach/">Chính sách</a><ul class="sub-menu">
+                            <li id="menu-item-2520" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2520 nav-item"><a class="nav-links" href="https://nordic.vn/refund_returns/">Chính sách đổi trả hàng</a></li>
+                            <li id="menu-item-2521" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2521 nav-item"><a class="nav-links" href="https://nordic.vn/chinh-sach-mua-hang/">Chính sách ưu đãi dành cho khách hàng nhà Nordic</a></li>
+                            <li id="menu-item-2522" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2522 nav-item"><a class="nav-links" href="https://nordic.vn/chinh-sach-bao-hanh/">Chính sách bảo hành</a></li>
+                            <li id="menu-item-2523" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2523 nav-item"><a class="nav-links" href="https://nordic.vn/chinh-sach-van-chuyen/">Chính sách vận chuyển</a></li>
+                        </ul>
+                        </li>
+                        <li id="menu-item-2673" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2673 nav-item"><a class="nav-links" href="https://nordic.vn/showroom-1/">Showroom</a></li>
+                        <li id="menu-item-2248" class="menu-item menu-item-type-taxonomy menu-item-object-project_cat menu-item-2248 nav-item"><a class="nav-links" href="https://nordic.vn/project_cat/trai-nghiem/">Trải nghiệm khách hàng</a></li>
+                        <li id="menu-item-1727" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1727 nav-item"><a class="nav-links" href="https://nordic.vn/lien-he/">Liên hệ</a></li>
+                        <li id="menu-item-3508" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-3508 nav-item"><a class="nav-links" href="https://nordic.vn/nordic-signature/">Nordic Signature</a><ul class="sub-menu">
+                            <li id="menu-item-3760" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3760 nav-item"><a class="nav-links" href="https://nordic.vn/signature-sofa/">Signature Sofa</a></li>
+                            <li id="menu-item-3758" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3758 nav-item"><a class="nav-links" href="https://nordic.vn/signature-armchair/">Signature Armchair</a></li>
+                            <li id="menu-item-3761" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3761 nav-item"><a class="nav-links" href="https://nordic.vn/signature-bed/">Signature Bed</a></li>
+                        </ul>
+                        </li>
+                    </ul>
+                    <form role="search" method="get" class="woocommerce-search" action="https://nordic.vn/">
+                        <label class="screen-reader-text" for="woocommerce-product-search-field-0">Tìm kiếm:</label>
+                        <input type="search" id="woocommerce-product-search-field-0" class="search-field" placeholder="" value="" name="s">
+                        <button type="submit" value="Tìm kiếm"><i class="iconx icon-search"></i></button>
+                        <input type="hidden" name="post_type" value="product">
+                    </form>
+                </div>
             </div>
         </div>
-        <!-- DEFAULT HEADER CONTENT -->
-
+        <div class="header_search">
+            <form role="search" method="get" class="woocommerce-product-search" action="https://nordic.vn/">
+                <label class="screen-reader-text" for="woocommerce-product-search-field-0">Tìm kiếm:</label>
+                <input type="search" id="woocommerce-product-search-field-0" class="search-field" placeholder="Tìm sản phẩm…" value="" name="s">
+                <button type="submit" value="Tìm kiếm"><i class="fa fa-search" aria-hidden="true"></i></button>
+                <input type="hidden" name="post_type" value="product">
+            </form>
+        </div>
     </div>
-    <!-- END .header-inner -->
+    <div id="header_mb" class="header_mb">
+        <div class="header_main_mb ">
+            <div class="container">
+                <div class="row_flex">
+                    <div id="touch_menu" class="touch_menu">
+                        <span class="line"></span>
+                    </div>
+                    <div class="logo_mb">
+                        <a href="https://nordic.vn/" title="NORDIC">
+                            <img src="App_Themes/house/img/logo.png" alt="NORDIC"></a>
+                    </div>
+                    <div class="icon_search"><i class="fa fa-search" aria-hidden="true"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="menu_bar_mobile">
+        <ul id="menu-menu-mobile" class="menu_mobile clearfix">
+            <li id="menu-item-2297" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2297 nav-item"><a class="nav-links" href="https://nordic.vn/gioi-thieu/">Giới thiệu</a></li>
+            <li id="menu-item-250" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-250 nav-item"><a class="nav-links" href="https://nordic.vn/san-pham/">Sản phẩm</a><i class="fa fa-caret-down"></i><ul class="sub-menu">
+                <li id="menu-item-257" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-257 nav-item"><a class="nav-links" href="https://nordic.vn/sofa/">Sofa</a></li>
+                <li id="menu-item-251" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-251 nav-item"><a class="nav-links" href="https://nordic.vn/ban-ghe-an/">Bàn ghế ăn</a></li>
+                <li id="menu-item-252" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-252 nav-item"><a class="nav-links" href="https://nordic.vn/ban-tra/">Bàn trà</a></li>
+                <li id="menu-item-253" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-253 nav-item"><a class="nav-links" href="https://nordic.vn/ghe-nghi/">Ghế nghỉ</a></li>
+                <li id="menu-item-254" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-254 nav-item"><a class="nav-links" href="https://nordic.vn/giuong/">Giường</a></li>
+                <li id="menu-item-255" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-255 nav-item"><a class="nav-links" href="https://nordic.vn/ke-tivi/">Kệ tivi</a></li>
+                <li id="menu-item-256" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-256 nav-item"><a class="nav-links" href="https://nordic.vn/ke-trang-tri/">Kệ trang trí</a></li>
+                <li id="menu-item-258" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-258 nav-item"><a class="nav-links" href="https://nordic.vn/tab-giuong/">Tab giường</a></li>
+                <li id="menu-item-259" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-259 nav-item"><a class="nav-links" href="https://nordic.vn/tu-bep/">Tủ bếp</a></li>
+                <li id="menu-item-260" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-260 nav-item"><a class="nav-links" href="https://nordic.vn/tu-quan-ao/">Ghế thư giãn Armchair</a></li>
+            </ul>
+            </li>
+            <li id="menu-item-261" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-261 nav-item"><a class="nav-links" href="https://nordic.vn/bo-suu-tap/">Bộ sưu tập</a></li>
+            <li id="menu-item-2296" class="menu-item menu-item-type-taxonomy menu-item-object-project_cat menu-item-2296 nav-item"><a class="nav-links" href="https://nordic.vn/project_cat/bespoker/">Bespoker</a></li>
+            <li id="menu-item-2299" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2299 nav-item"><a class="nav-links" href="https://nordic.vn/nordic-24h/">Nordic 24h</a><i class="fa fa-caret-down"></i><ul class="sub-menu">
+                <li id="menu-item-2300" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2300 nav-item"><a class="nav-links" href="https://nordic.vn/ban-tin-nordic/">Bản tin Nordic</a></li>
+                <li id="menu-item-2301" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2301 nav-item"><a class="nav-links" href="https://nordic.vn/bao-chi-viet-ve-nordic/">Báo chí viết về Nordic</a></li>
+                <li id="menu-item-2302" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2302 nav-item"><a class="nav-links" href="https://nordic.vn/kien-thuc-noi-that/">Kiến thức nội thất</a></li>
+            </ul>
+            </li>
+            <li id="menu-item-262" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-262 nav-item"><a>Chính sách hậu mãi</a><i class="fa fa-caret-down"></i><ul class="sub-menu">
+                <li id="menu-item-264" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-264 nav-item"><a class="nav-links" href="https://nordic.vn/chinh-sach-bao-hanh/">Chính sách bảo hành</a></li>
+                <li id="menu-item-265" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-265 nav-item"><a class="nav-links" href="https://nordic.vn/chinh-sach-van-chuyen/">Chính sách vận chuyển</a></li>
+                <li id="menu-item-263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-263 nav-item"><a class="nav-links" href="https://nordic.vn/bao-duong-dinh-ky/">Bảo dưỡng định kỳ</a></li>
+            </ul>
+            </li>
+            <li id="menu-item-2295" class="menu-item menu-item-type-taxonomy menu-item-object-project_cat menu-item-2295 nav-item"><a class="nav-links" href="https://nordic.vn/project_cat/trai-nghiem/">Trải nghiệm</a></li>
+            <li id="menu-item-2303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2303 nav-item"><a class="nav-links" href="https://nordic.vn/lien-he/">Liên hệ</a></li>
+        </ul>
+    </div>
+    <div class="fixed_search">
+        <form role="search" method="get" class="" action="https://nordic.vn/">
+            <label class="screen-reader-text" for="woocommerce-product-search-field-0">Tìm kiếm:</label>
+            <input type="search" id="woocommerce-product-search-field-0" class="search-field" placeholder="Nhập từ khóa tìm kiếm" value="" name="s">
+            <button type="submit" value="Tìm kiếm"><span class="arrow"></span></button>
+            <input type="hidden" name="post_type" value="product">
+        </form>
+        <div class="close_bt">X</div>
+    </div>
+    <div class="line_dark"></div>
 </header>
 <!-- END header -->
