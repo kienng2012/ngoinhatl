@@ -36,7 +36,7 @@ namespace Web
             Reservation,
             ReservationForm,
             ArticleProduct,
-
+            Projects,
 
             //SubjectDetails,
             //BangVang,

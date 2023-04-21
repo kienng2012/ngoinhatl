@@ -2,8 +2,8 @@
 <%@ Import Namespace="Core.Utils" %>
 <%--<%@ Register Src="~/Control/nmn/SlideShowHome.ascx" TagName="slideShowHome" TagPrefix="uc2" %>--%>
 <!-- PAGEBODY -->
-<main id="main">
-        <div class="banner_home">
+<%--<main id="main">--%>
+    <div class="banner_home">
             <div class="slider_home owl-carousel owl-loaded owl-drag">
                 <div class="owl-stage-outer">
                     <div class="owl-stage" style="transform: translate3d(-3654px, 0px, 0px); transition: all 0s ease 0s; width: 7308px;">
@@ -69,7 +69,8 @@
                     </div>
                 </div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots"><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot active"><span></span></button></div>
             </div>
-        </div><div class="about_home" style="background-color: #f2efe9;">
+        </div>
+    <div class="about_home" style="background-color: #f2efe9;">
             <div class="container">
                 <div class="flex">
                     <div class="inner_left center">
@@ -1112,5 +1113,5 @@
                 </div>
             </div>
         </div>
-    </main>
+    <%--</main>--%>
 <!-- PAGEBODY -->

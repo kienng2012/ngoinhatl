@@ -20,7 +20,7 @@
                                 <li id="menu-item-1730" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1730 nav-item"><a class="nav-links" href="https://nordic.vn/#">Đội ngũ</a></li>
                             </ul>
                         </li>
-                        <li id="menu-item-1721" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1721 nav-item"><a class="nav-links" href="https://nordic.vn/san-pham/">Dự án</a>
+                        <li id="menu-item-1721" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1721 nav-item"><a class="nav-links" href="Index.aspx?page=Projects">Dự án</a>
                             <ul class="sub-menu">
                                 <li id="menu-item-2322" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2322 nav-item"><a class="nav-links" href="https://nordic.vn/sofa/">Chung cư</a></li>
                                 <li id="menu-item-2315" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2315 nav-item"><a class="nav-links" href="https://nordic.vn/ban-tra/">Văn phòng</a></li>
@@ -110,7 +110,7 @@
         </ul>
     </div>
     <div class="fixed_search">
-        <form role="search" method="get" class="" action="https://nordic.vn/">
+        <form role="search" method="get" class="" action="#">
             <label class="screen-reader-text" for="woocommerce-product-search-field-0">Tìm kiếm:</label>
             <input type="search" id="woocommerce-product-search-field-0" class="search-field" placeholder="Nhập từ khóa tìm kiếm" value="" name="s">
             <button type="submit" value="Tìm kiếm"><span class="arrow"></span></button>

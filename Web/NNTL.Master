@@ -77,7 +77,10 @@
     <uc1:menuTop ID="MenuTop1" runat="server" />
     <!--END HEADER -->
     <!-- CONTENT PLACE HOLDER MAIN -->
-    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+    <main id="main">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+    </main>
+
     <!-- END CONTENT PLACE HOLDER -->
     <!-- Show popup -->
     <!--<div id="popup" style="display: none;">
