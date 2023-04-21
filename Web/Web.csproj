@@ -217,10 +217,14 @@
     <Content Include="App_Themes\house\img\mess-icon.png" />
     <Content Include="App_Themes\house\img\nhm-1-scaled-1.jpg" />
     <Content Include="App_Themes\house\img\popup-boc-tham-tang-do-decor.png" />
+    <Content Include="App_Themes\house\img\searchicon.png" />
     <Content Include="App_Themes\house\img\semina-2-1.jpg" />
     <Content Include="App_Themes\house\img\SEMINA-FB-VUONG-KHUY-DONG-scaled.jpg" />
     <Content Include="App_Themes\house\img\SEMINA-FB-VUONG-SIDE-sang-hon-1-scaled.jpg" />
     <Content Include="App_Themes\house\img\semina-van-anh.jpg" />
+    <Content Include="App_Themes\house\img\slide1.jpg" />
+    <Content Include="App_Themes\house\img\slide2.jpg" />
+    <Content Include="App_Themes\house\img\slide3.jpg" />
     <Content Include="App_Themes\house\img\Thiet-ke-chua-co-ten-7-1.png" />
     <Content Include="App_Themes\house\img\Untitled-1-1.jpg" />
     <Content Include="App_Themes\house\img\Untitled-1.jpg" />
@@ -1804,6 +1808,8 @@
     <Content Include="App_Themes\nntl\css\css" />
     <Content Include="App_Themes\nntl\css\css%281%29" />
     <Content Include="App_Themes\nntl\css\css2" />
+    <Content Include="App_Themes\house\fonts\MTD-Portrait-Script-Bounce.ttf" />
+    <Content Include="App_Themes\house\fonts\NVN-Motherland-Signature.ttf" />
     <None Include="database\db_webgiaoduc2.bak" />
     <None Include="fckeditor\editor\css\behaviors\vssver2.scc" />
     <None Include="fckeditor\editor\css\images\vssver2.scc" />

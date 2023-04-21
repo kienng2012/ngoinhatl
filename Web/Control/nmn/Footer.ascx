@@ -16,7 +16,7 @@
                 <div id="black-studio-tinymce-3" class="widget widget_black_studio_tinymce  col-md-3">
                     <div class="footer-title"><span>Liên hệ</span></div>
                     <div class="textwidget">
-                        <p>Hotline CSKH / Zalo: (+84) 965009969</p>
+                        <p>Hotline CSKH / Zalo: (+84) 965240366</p>
                         <p>Email: info@nordic.vn</p>
                         <p>Website: www.nordic.vn</p>
                         <p><span style="font-size: 12pt;">"Giá trị vượt thời gian"</span></p>
@@ -68,10 +68,14 @@
                 <div id="black-studio-tinymce-5" class="widget widget_black_studio_tinymce  col-md-3">
                     <div class="footer-title"><span>Nhãn hiệu NORDIC</span></div>
                     <div class="textwidget">
-                        <p style="text-align: center;"><a href="http://online.gov.vn/CustomWebsiteDisplay.aspx?DocId=38569" target="_blank" rel="nofollow noopener">
-                            <img class="size-full wp-image-4992 aligncenter ls-is-cached lazyloaded" title="Kenli - Nội thất cao cấp nhập khẩu Italy 53" src="App_Themes/house/img/1.png" alt="dang ki bo cong thuong" width="150" height="57" data-src="https://noithatkenli.vn/wp-content/uploads/2019/06/1.png"></a></p>
-                        <p style="text-align: center;"><a class="dmca-badge" title="DMCA.com Protection Status" href="https://www.dmca.com/Protection/Status.aspx?ID=952d18ac-708b-473b-b8c3-c277b29a36dc" target="_blank" rel="nofollow noopener">
-                            <img class="aligncenter ls-is-cached lazyloaded" title="Kenli - Nội thất cao cấp nhập khẩu Italy 54" src="App_Themes/house/img/_dmca_premi_badge_4.png" alt="DMCA.com Protection Status" data-src="https://images.dmca.com/Badges/_dmca_premi_badge_4.png?ID=952d18ac-708b-473b-b8c3-c277b29a36dc"></a></p>
+                        <p style="text-align: center;">
+                            <a href="http://online.gov.vn/CustomWebsiteDisplay.aspx?DocId=38569" target="_blank" rel="nofollow noopener">
+                                <img class="size-full wp-image-4992 aligncenter ls-is-cached lazyloaded" title="Kenli - Nội thất cao cấp nhập khẩu Italy 53" src="App_Themes/house/img/1.png" alt="dang ki bo cong thuong" width="150" height="57" data-src="https://noithatkenli.vn/wp-content/uploads/2019/06/1.png"></a>
+                        </p>
+                        <p style="text-align: center;">
+                            <a class="dmca-badge" title="DMCA.com Protection Status" href="https://www.dmca.com/Protection/Status.aspx?ID=952d18ac-708b-473b-b8c3-c277b29a36dc" target="_blank" rel="nofollow noopener">
+                                <img class="aligncenter ls-is-cached lazyloaded" title="Kenli - Nội thất cao cấp nhập khẩu Italy 54" src="App_Themes/house/img/_dmca_premi_badge_4.png" alt="DMCA.com Protection Status" data-src="https://images.dmca.com/Badges/_dmca_premi_badge_4.png?ID=952d18ac-708b-473b-b8c3-c277b29a36dc"></a>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -95,7 +99,7 @@
                     <div class="textwidget custom-html-widget">
                         <div class="hotline_footer">
                             <div class="capt">HOTLINE</div>
-                            <a href="tel:+(84) 965009969" class="hotline"><i class="fa fa-phone"></i>+(84) 965009969</a><div class="time">Thời gian làm việc: 08:30 - 18:00 (T2 - Chủ Nhật)</div>
+                            <a href="tel:+(84) 965240366" class="hotline"><i class="fa fa-phone"></i>+(84) 965240366</a><div class="time">Thời gian làm việc: 08:30 - 18:00 (T2 - Chủ Nhật)</div>
                         </div>
                     </div>
                 </div>
@@ -112,7 +116,7 @@
                                     <img data-lazyloaded="1" src="App_Themes/house/img/icon-social-38px-youtube-OK.png" data-src="https://nordic.vn/wp-content/uploads/2022/09/icon-social-38px-youtube-OK.png" data-ll-status="loaded" class="entered litespeed-loaded"></a>
                                 <a rel="nofollow" href="https://www.pinterest.com/nordic2018/">
                                     <img data-lazyloaded="1" src="App_Themes/house/img/icon-social-38px-pinterest-OK.png" data-src="https://nordic.vn/wp-content/uploads/2022/09/icon-social-38px-pinterest-OK.png" data-ll-status="loaded" class="entered litespeed-loaded"></a>
-                                <a rel="nofollow" href="http://zalo.me/+(84)%20965009969">
+                                <a rel="nofollow" href="http://zalo.me/+(84)%20965240366">
                                     <img data-lazyloaded="1" src="App_Themes/house/img/icon-social-38px-Zalo-OK.png" data-src="https://nordic.vn/wp-content/uploads/2022/09/icon-social-38px-Zalo-OK.png" data-ll-status="loaded" class="entered litespeed-loaded"></a>
                             </div>
                         </div>
@@ -124,22 +128,28 @@
                     <div class="textwidget custom-html-widget">
                         <div class="info_footer">
                             <div class="image">
-                                <img data-lazyloaded="1" src="App_Themes/house/img/bct.png" data-src="https://nordic.vn/wp-content/uploads/2022/08/bct.png" data-ll-status="loaded" class="entered litespeed-loaded"></div>
-                            <div class="name">Showroom Hà Nội</div>
-                            <div class="local">Trụ sở &amp; Showroom : LK10-12-14 Louis II, KĐT Louis City, Đại Mỗ, Nam Từ Liêm, Hà Nội</div>
+                                <img data-lazyloaded="1" src="App_Themes/house/img/bct.png" data-src="App_Themes/house/img/bct.png" data-ll-status="loaded" class="entered litespeed-loaded">
+                            </div>
+                            <%--<div class="name">Showroom Hà Nội</div>--%>
+                            <div class="local">Trụ sở &amp; Showroom : Số 14, ngõ 816/32 đường Kim Giang, Xã Thanh Liệt, Huyện Thanh Trì, Hà Nội</div>
                             <div class="support">
                                 <div class="it">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/icon_lh11.png" data-src="https://nordic.vn/wp-content/uploads/2022/08/icon_lh11.png" data-ll-status="loaded" class="entered litespeed-loaded">+(84) 965009969</div>
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/icon_lh11.png" data-src="App_Themes/house/img/icon_lh11.png" data-ll-status="loaded" class="entered litespeed-loaded">+(84) 965240366
+                                </div>
                                 <div class="it">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/icon_lh21.png" data-src="https://nordic.vn/wp-content/uploads/2022/08/icon_lh21.png" data-ll-status="loaded" class="entered litespeed-loaded">info@nordic.vn</div>
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/icon_lh21.png" data-src="App_Themes/house/img/icon_lh21.png" data-ll-status="loaded" class="entered litespeed-loaded">info@ngoinhatuonglai.vn
+                                </div>
                                 <div class="it">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/icon_lh31.png" data-src="https://nordic.vn/wp-content/uploads/2022/08/icon_lh31.png" data-ll-status="loaded" class="entered litespeed-loaded">www.nordic.vn</div>
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/icon_lh31.png" data-src="App_Themes/house/img/icon_lh31.png" data-ll-status="loaded" class="entered litespeed-loaded">www.ngoinhatuonglai.vn
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div id="media_image-2" class="widget widget_media_image  "><a href="https://www.facebook.com/nordic.vn">
-                    <img data-lazyloaded="1" src="App_Themes/house/img/facebook.png" width="600" height="315" data-src="https://nordic.vn/wp-content/uploads/2022/09/facebook.png" class="image wp-image-2311 attachment-full size-full wvs-archive-product-image entered litespeed-loaded" alt="" decoding="async" style="max-width: 100%; height: auto;" data-srcset="https://nordic.vn/wp-content/uploads/2022/09/facebook.png 600w, https://nordic.vn/wp-content/uploads/2022/09/facebook-300x158.png 300w" data-sizes="(max-width: 600px) 100vw, 600px" data-ll-status="loaded" sizes="(max-width: 600px) 100vw, 600px" srcset="https://nordic.vn/wp-content/uploads/2022/09/facebook.png 600w, https://nordic.vn/wp-content/uploads/2022/09/facebook-300x158.png 300w"></a></div>
+                <div id="media_image-2" class="widget widget_media_image  ">
+                    <a href="https://www.facebook.com/nordic.vn">
+                        <img data-lazyloaded="1" src="App_Themes/house/img/facebook.png" width="600" height="315" data-src="App_Themes/house/img/facebook.png" class="image wp-image-2311 attachment-full size-full wvs-archive-product-image entered litespeed-loaded" alt="" decoding="async" style="max-width: 100%; height: auto;" data-srcset="https://nordic.vn/wp-content/uploads/2022/09/facebook.png 600w, https://nordic.vn/wp-content/uploads/2022/09/facebook-300x158.png 300w" data-sizes="(max-width: 600px) 100vw, 600px" data-ll-status="loaded" sizes="(max-width: 600px) 100vw, 600px" srcset="https://nordic.vn/wp-content/uploads/2022/09/facebook.png 600w, https://nordic.vn/wp-content/uploads/2022/09/facebook-300x158.png 300w"></a>
+                </div>
             </div>
         </div>
     </div>

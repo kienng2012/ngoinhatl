@@ -7,43 +7,65 @@
             <div class="slider_home owl-carousel owl-loaded owl-drag">
                 <div class="owl-stage-outer">
                     <div class="owl-stage" style="transform: translate3d(-3654px, 0px, 0px); transition: all 0s ease 0s; width: 7308px;">
-                        <div class="owl-item cloned" style="width: 1218px;">
+                        <div class="owl-item" style="width: 1218px;">
                             <div class="item img">
-                                <video autoplay="" muted="" loop="">
+                                <%--<video autoplay="" muted="" loop="">
                                     <source src="https://nordic.vn/wp-content/uploads/2023/01/Video-The-Nest-T11-2022-bo-ke-25s_bo-logo.mp4" type="video/mp4">
-                                </video><div class="carousel-status"><div class="container"><div class="flex"><i class="fa fa-angle-left"></i><div class="carousel-current-slide">01</div><div class="slash">|</div><div class="carousel-total-slides">02</div><i class="fa fa-angle-right"></i></div></div></div>
-                            </div>
-                        </div><div class="owl-item cloned" style="width: 1218px;">
-                            <div class="item img">
-                                <video autoplay="" muted="" loop="">
-                                    <source src="https://nordic.vn/wp-content/uploads/2022/09/Main-video-WEB-20s.mp4" type="video/mp4">
-                                </video><div class="carousel-status"><div class="container"><div class="flex"><i class="fa fa-angle-left"></i><div class="carousel-current-slide">02</div><div class="slash">|</div><div class="carousel-total-slides">02</div><i class="fa fa-angle-right"></i></div></div></div>
+                                </video>--%>
+                                 <img width="2048" height="1365" src="App_Themes/house/img/slide1.jpg" alt="" data-lazy-src="App_Themes/house/img/slide1.jpg" data-ll-status="loaded" class="entered lazyloaded">
+                                <%--<div class="carousel-status">
+                                    <div class="container">
+                                        <div class="flex"><i class="fa fa-angle-left"></i><div class="carousel-current-slide">01</div><div class="slash">|</div><div class="carousel-total-slides">02</div><i class="fa fa-angle-right"></i></div></div></div>--%>
                             </div>
                         </div><div class="owl-item" style="width: 1218px;">
                             <div class="item img">
-                                <video autoplay="" muted="" loop="">
-                                    <source src="https://nordic.vn/wp-content/uploads/2023/01/Video-The-Nest-T11-2022-bo-ke-25s_bo-logo.mp4" type="video/mp4">
-                                </video><div class="carousel-status"><div class="container"><div class="flex"><i class="fa fa-angle-left"></i><div class="carousel-current-slide">01</div><div class="slash">|</div><div class="carousel-total-slides">02</div><i class="fa fa-angle-right"></i></div></div></div>
-                            </div>
-                        </div><div class="owl-item active" style="width: 1218px;">
+                                                                <%--
+	                                <video autoplay="" muted="" loop="">
+		                                <source src="https://nordic.vn/wp-content/uploads/2022/09/Main-video-WEB-20s.mp4" type="video/mp4">
+		                                </video>--%> 
+                                <img width="2048" height="1365" src="App_Themes/house/img/slide2.jpg" alt="" data-lazy-src="App_Themes/house/img/slide2.jpg" data-ll-status="loaded" class="entered lazyloaded">
+                                  <%--<div class="carousel-status">
+                                    <div class="container">
+                                      <div class="flex">
+                                        <i class="fa fa-angle-left"></i>
+                                        <div class="carousel-current-slide">02</div>
+                                        <div class="slash">|</div>
+                                        <div class="carousel-total-slides">02</div>
+                                        <i class="fa fa-angle-right"></i>
+                                      </div>
+                                    </div>
+                                  </div>--%>
+                                </div>
+                        </div><div class="owl-item" style="width: 1218px;">
                             <div class="item img">
-                                <video autoplay="" muted="" loop="">
-                                    <source src="https://nordic.vn/wp-content/uploads/2022/09/Main-video-WEB-20s.mp4" type="video/mp4">
-                                </video><div class="carousel-status"><div class="container"><div class="flex"><i class="fa fa-angle-left"></i><div class="carousel-current-slide">02</div><div class="slash">|</div><div class="carousel-total-slides">02</div><i class="fa fa-angle-right"></i></div></div></div>
+                                
+                                 <img width="2048" height="1365" src="App_Themes/house/img/slide3.jpg" alt="" data-lazy-src="App_Themes/house/img/slide3.jpg" data-ll-status="loaded" class="entered lazyloaded">
+                                <%--<div class="carousel-status">
+                                    <div class="container">
+                                        <div class="flex"><i class="fa fa-angle-left"></i><div class="carousel-current-slide">01</div><div class="slash">|</div><div class="carousel-total-slides">02</div><i class="fa fa-angle-right"></i></div></div></div>--%>
                             </div>
-                        </div><div class="owl-item cloned" style="width: 1218px;">
-                            <div class="item img">
-                                <video autoplay="" muted="" loop="">
-                                    <source src="https://nordic.vn/wp-content/uploads/2023/01/Video-The-Nest-T11-2022-bo-ke-25s_bo-logo.mp4" type="video/mp4">
-                                </video><div class="carousel-status"><div class="container"><div class="flex"><i class="fa fa-angle-left"></i><div class="carousel-current-slide">01</div><div class="slash">|</div><div class="carousel-total-slides">02</div><i class="fa fa-angle-right"></i></div></div></div>
-                            </div>
-                        </div><div class="owl-item cloned" style="width: 1218px;">
+                        </div>
+                        <%--<div class="owl-item active" style="width: 1218px;">
                             <div class="item img">
                                 <video autoplay="" muted="" loop="">
                                     <source src="https://nordic.vn/wp-content/uploads/2022/09/Main-video-WEB-20s.mp4" type="video/mp4">
                                 </video><div class="carousel-status"><div class="container"><div class="flex"><i class="fa fa-angle-left"></i><div class="carousel-current-slide">02</div><div class="slash">|</div><div class="carousel-total-slides">02</div><i class="fa fa-angle-right"></i></div></div></div>
                             </div>
                         </div>
+                        <div class="owl-item cloned" style="width: 1218px;">
+                            <div class="item img">
+                                <video autoplay="" muted="" loop="">
+                                    <source src="https://nordic.vn/wp-content/uploads/2023/01/Video-The-Nest-T11-2022-bo-ke-25s_bo-logo.mp4" type="video/mp4">
+                                </video><div class="carousel-status"><div class="container"><div class="flex"><i class="fa fa-angle-left"></i><div class="carousel-current-slide">01</div><div class="slash">|</div><div class="carousel-total-slides">02</div><i class="fa fa-angle-right"></i></div></div></div>
+                            </div>
+                        </div>
+                        <div class="owl-item cloned" style="width: 1218px;">
+                            <div class="item img">
+                                <video autoplay="" muted="" loop="">
+                                    <source src="https://nordic.vn/wp-content/uploads/2022/09/Main-video-WEB-20s.mp4" type="video/mp4">
+                                </video><div class="carousel-status"><div class="container"><div class="flex"><i class="fa fa-angle-left"></i><div class="carousel-current-slide">02</div><div class="slash">|</div><div class="carousel-total-slides">02</div><i class="fa fa-angle-right"></i></div></div></div>
+                            </div>
+                        </div>--%>
                     </div>
                 </div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots"><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot active"><span></span></button></div>
             </div>
@@ -98,7 +120,7 @@
                                             </div><div class="desc"><p><span style="font-size: 10pt;"><strong>Vải stardard NORDIC – Chi tiết vàng đồng 18K</strong></span></p><p>&nbsp;</p><p>&nbsp;</p></div><div class="link">
                                                 <a href="https://nordic.vn/sofa-i-flot-ban-tieu-chuan/">Xem chi tiết <i class="fa fa-chevron-circle-right"></i></a>
                                             </div>
-                                            <a href="tel:(+84) 965009969" class="hotline"><i class="fa fa-phone"></i> Đặt hàng ngay</a>
+                                            <a href="tel:(+84) 965240366" class="hotline"><i class="fa fa-phone"></i> Đặt hàng ngay</a>
                                         </div>
                                     </div>
                                 </div>
@@ -136,7 +158,7 @@
                                             </div><div class="desc"><p><span style="font-size: 10pt;"><strong>Vải stardard NORDIC – Chi tiết vàng đồng 18K</strong></span></p><p>&nbsp;</p></div><div class="link">
                                                 <a href="https://nordic.vn/sofa-i-semina-ban-tieu-chuan/">Xem chi tiết <i class="fa fa-chevron-circle-right"></i></a>
                                             </div>
-                                            <a href="tel:(+84) 965009969" class="hotline"><i class="fa fa-phone"></i> Đặt hàng ngay</a>
+                                            <a href="tel:(+84) 965240366" class="hotline"><i class="fa fa-phone"></i> Đặt hàng ngay</a>
                                         </div>
                                     </div>
                                 </div>
@@ -172,7 +194,7 @@
                                             </div><div class="desc"><p><span style="font-size: 10pt;"><strong>Vải stardard NORDIC</strong></span></p><p>&nbsp;</p></div><div class="link">
                                                 <a href="https://nordic.vn/armchair-darling-ban-tieu-chuan/">Xem chi tiết <i class="fa fa-chevron-circle-right"></i></a>
                                             </div>
-                                            <a href="tel:(+84) 965009969" class="hotline"><i class="fa fa-phone"></i> Đặt hàng ngay</a>
+                                            <a href="tel:(+84) 965240366" class="hotline"><i class="fa fa-phone"></i> Đặt hàng ngay</a>
                                         </div>
                                     </div>
                                 </div>
@@ -206,7 +228,7 @@
                                             </div><div class="desc"><p><span style="font-size: 10pt;"><strong>Vải stardard NORDIC – Chi tiết vàng đồng 18K</strong></span></p><p>&nbsp;</p></div><div class="link">
                                                 <a href="https://nordic.vn/sofa-lounge-flot-ban-tieu-chuan/">Xem chi tiết <i class="fa fa-chevron-circle-right"></i></a>
                                             </div>
-                                            <a href="tel:(+84) 965009969" class="hotline"><i class="fa fa-phone"></i> Đặt hàng ngay</a>
+                                            <a href="tel:(+84) 965240366" class="hotline"><i class="fa fa-phone"></i> Đặt hàng ngay</a>
                                         </div>
                                     </div>
                                 </div>
@@ -240,7 +262,7 @@
                                             </div><div class="desc"><p><span style="font-size: 10pt;"><strong>Vải stardard NORDIC – Chi tiết vàng đồng 18K</strong></span></p><p>&nbsp;</p><p>&nbsp;</p></div><div class="link">
                                                 <a href="https://nordic.vn/sofa-i-flot-ban-tieu-chuan/">Xem chi tiết <i class="fa fa-chevron-circle-right"></i></a>
                                             </div>
-                                            <a href="tel:(+84) 965009969" class="hotline"><i class="fa fa-phone"></i> Đặt hàng ngay</a>
+                                            <a href="tel:(+84) 965240366" class="hotline"><i class="fa fa-phone"></i> Đặt hàng ngay</a>
                                         </div>
                                     </div>
                                 </div>
@@ -278,7 +300,7 @@
                                             </div><div class="desc"><p><span style="font-size: 10pt;"><strong>Vải stardard NORDIC – Chi tiết vàng đồng 18K</strong></span></p><p>&nbsp;</p></div><div class="link">
                                                 <a href="https://nordic.vn/sofa-i-semina-ban-tieu-chuan/">Xem chi tiết <i class="fa fa-chevron-circle-right"></i></a>
                                             </div>
-                                            <a href="tel:(+84) 965009969" class="hotline"><i class="fa fa-phone"></i> Đặt hàng ngay</a>
+                                            <a href="tel:(+84) 965240366" class="hotline"><i class="fa fa-phone"></i> Đặt hàng ngay</a>
                                         </div>
                                     </div>
                                 </div>
@@ -314,7 +336,7 @@
                                             </div><div class="desc"><p><span style="font-size: 10pt;"><strong>Vải stardard NORDIC</strong></span></p><p>&nbsp;</p></div><div class="link">
                                                 <a href="https://nordic.vn/armchair-darling-ban-tieu-chuan/">Xem chi tiết <i class="fa fa-chevron-circle-right"></i></a>
                                             </div>
-                                            <a href="tel:(+84) 965009969" class="hotline"><i class="fa fa-phone"></i> Đặt hàng ngay</a>
+                                            <a href="tel:(+84) 965240366" class="hotline"><i class="fa fa-phone"></i> Đặt hàng ngay</a>
                                         </div>
                                     </div>
                                 </div>
@@ -348,7 +370,7 @@
                                             </div><div class="desc"><p><span style="font-size: 10pt;"><strong>Vải stardard NORDIC – Chi tiết vàng đồng 18K</strong></span></p><p>&nbsp;</p></div><div class="link">
                                                 <a href="https://nordic.vn/sofa-lounge-flot-ban-tieu-chuan/">Xem chi tiết <i class="fa fa-chevron-circle-right"></i></a>
                                             </div>
-                                            <a href="tel:(+84) 965009969" class="hotline"><i class="fa fa-phone"></i> Đặt hàng ngay</a>
+                                            <a href="tel:(+84) 965240366" class="hotline"><i class="fa fa-phone"></i> Đặt hàng ngay</a>
                                         </div>
                                     </div>
                                 </div>
@@ -514,7 +536,11 @@
    <div class="top">
       <div class="date">04/03/2023</div>
       <div class="meta">
-         <div class="share"><a href="https://facebook.com/share.php?u=https://nordic.vn/tap-chi-kien-truc-kts-nguyen-phuong-chi-hanh-trinh-dinh-vi-thuong-hieu-noi-that-viet/" target="_blank" rel="nofollow" onclick="javascript:window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;" class="facebook " data-toggle="tooltip" title="Share on Facebook"><img data-lazyloaded="1" src="App_Themes/house/img/icon_share.png" alt"icon_share"="" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_share.png" data-ll-status="loaded" class="entered litespeed-loaded"></a></div>
+         <div class="share">
+  <a href="https://facebook.com/share.php?u=https://nordic.vn/tap-chi-kien-truc-kts-nguyen-phuong-chi-hanh-trinh-dinh-vi-thuong-hieu-noi-that-viet/" target="_blank" rel="nofollow" onclick="javascript:window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;" class="facebook " data-toggle="tooltip" title="Share on Facebook">
+    <img data-lazyloaded="1" src="App_Themes/house/img/icon_share.png" alt"icon_share"="" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_share.png" data-ll-status="loaded" class="entered litespeed-loaded">
+  </a>
+</div>
          <div class="view"><img data-lazyloaded="1" src="App_Themes/house/img/icon_view.png" alt="view" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_view.png" data-ll-status="loaded" class="entered litespeed-loaded">221</div>
       </div>
    </div>
@@ -834,7 +860,7 @@
     <!-- DOI NGU NHAN SU -->
     <div class="expert_home">
             <div class="background bg_section" style="background-image: url(https://nordic.vn/wp-content/uploads/2023/04/Untitled-20.jpg);"></div><div class="container-fluid">
-                <div class="title_home2 white"><h2 class="title">Người nổi tiếng nói về chúng tôi</h2></div><div class="owl-carousel owl-loaded owl-drag">
+                <div class="title_home2 white"><h2 class="title">Đội ngũ nhân sự</h2></div><div class="owl-carousel owl-loaded owl-drag">
                     <div class="owl-stage-outer owl-height" style="height: 440px;">
                         <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 1398px;">
                             <div class="owl-item active" style="width: 279.5px;">
@@ -1051,9 +1077,11 @@
     <div class="contact_home">
             <div class="container-fluid">
                 <div class="inner">
-                    <div class="maps">
-                        <iframe data-lazyloaded="1" src="App_Themes/house/img/embed.html" data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d477025.01140348776!2d105.03252617422083!3d20.922057694872876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab2e2881d2b7%3A0x827a4e784e5a3430!2zTuG7mWkgdGjhuqV0IELhuq9jIMOCdSAtIE5PUkRJQw!5e0!3m2!1svi!2s!4v1660706734086!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" data-ll-status="loaded" class="entered litespeed-loaded"></iframe>
-                    </div><div class="form">
+                     <div class="maps">
+                        <%--<iframe data-lazyloaded="1" src="App_Themes/house/img/embed.html" data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d477025.01140348776!2d105.03252617422083!3d20.922057694872876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab2e2881d2b7%3A0x827a4e784e5a3430!2zTuG7mWkgdGjhuqV0IELhuq9jIMOCdSAtIE5PUkRJQw!5e0!3m2!1svi!2s!4v1660706734086!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" data-ll-status="loaded" class="entered litespeed-loaded"></iframe>--%>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.7373199253925!2d105.81335937587882!3d20.963061490030565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ad1d40403a31%3A0xa24dec434c68bced!2zMTQgTmfDtSA4MTYgxJDGsOG7nW5nIEtpbSBHaWFuZywgVGhhbmggTGnhu4d0LCBUaGFuaCBUcsOsLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1682053104686!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="form">
                         <div class="wpcf7 js" id="wpcf7-f5-o1" lang="vi" dir="ltr">
                             <div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p><ul></ul></div><form action="https://nordic.vn/#wpcf7-f5-o1" method="post" class="wpcf7-form init" aria-label="Form liên hệ" novalidate="novalidate" data-status="init">
                                 <div style="display: none;">
@@ -1079,6 +1107,8 @@
                             </form>
                         </div>
                     </div>
+                   
+                    
                 </div>
             </div>
         </div>
