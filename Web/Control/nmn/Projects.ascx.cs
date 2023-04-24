@@ -1,5 +1,6 @@
 ﻿using Core.Category;
 using Core.CategorySub;
+using Core.Utils;
 using System;
 using System.Data;
 using System.Web.UI.WebControls;
@@ -9,39 +10,65 @@ namespace Web.Control.nmn
 {
     public partial class Projects : System.Web.UI.UserControl
     {
+        protected int _cateID;
+        protected string _cateName;
+        protected int _pageNumber;
+        const int pageSize = 10;
+        protected string _baseUrlPaging = "Tin-tuc";
         protected void Page_Load(object sender, EventArgs e)
         {
-            //LoadDataByCategory();
+            if (!IsPostBack)
+            {
+                LoadDataByCate();
+            }
         }
-        ////Ham load du lieu theo category 
-        //private void LoadDataByCategory()
-        //{
+        protected void LoadDataByCate()
+        {
+            _cateName = "Tin tức";
+            if (Request.QueryString["cateID"] != null)
+            {
+                _cateID = Convert.ToInt32(Request.QueryString["cateID"]);
+            }
+            else { _cateID = 1; }
+            if (_cateID == 1)
+            {
+                //lblCategory.Text = "TIN TỨC & BÀI VIẾT";
+                //ltrSubLink.Text = "<a class=\"text-black\" href=\"Tin-tuc.htm\">Những bài viết nổi bật</a>";
+                //ltrImgProduct.Text = "";
+                _baseUrlPaging = "Tin-tuc";
 
-        //    rptCate.DataSource = CategoryDB.GetAll();
+            }
+            else if (_cateID == 2)
+            {
+                //lblCategory.Text = "SẢN PHẨM";
+                //ltrSubLink.Text = "<a class=\"text-black\" href=\"San-pham.htm\">Giới thiệu về sản phẩm</a>";
+                //ltrImgProduct.Text = "<div class=\"row\"><img src=\"../../App_Themes/nmn/img/NMN25600Pro2.png\" width=\"90%\" alt=\"\" style=\"margin:auto;margin-bottom: 30px; margin-top: 0px; max-width:500px\" /></div>";
+                _baseUrlPaging = "San-pham";
+            }
+            if (Request.QueryString["pageNumber"] != null)
+            {
+                _pageNumber = Convert.ToInt32(Request.QueryString["pageNumber"]);
+            }
+            else { _pageNumber = 1; }
 
-        //    rptCate.DataBind();
-        //}
+            CategorySubInfo info = new CategorySubInfo();
+            info.C_ID = _cateID;
+            DataTable dt = CategorySubDB.CategorySub_GetAll_ByCate_Pager(_pageNumber, pageSize, info);
+            if (dt.Rows.Count > 0)
+            {
+                _cateName = dt.Rows[0]["C_Name"].ToString();
+            }
+            int totalRecord = info.Output;
+            //lblCateName.Text = _cateName;
+            //pagerCateSub.ItemCount = info.Output;
+            //pagerCateSub.ItemsPerPage = 8;
+            rptListCate.DataSource = dt;
+            rptListCate.DataBind();
 
-        //protected void rptCate_ItemDataBound(object sender, RepeaterItemEventArgs e)
-        //{
-        //    RepeaterItem ri = e.Item;
-        //    if ((ri.ItemType == ListItemType.Item) || (ri.ItemType == ListItemType.AlternatingItem))
-        //    {
-        //        DataRowView drv = (DataRowView)ri.DataItem;
-        //        if (drv != null)
-        //        {
-
-        //            Repeater rptChilden = e.Item.FindControl("rptChild") as Repeater;
-        //            String MenuID = Convert.ToString(drv["C_ID"].ToString());
-
-        //            //Lay ra thong tinn 
-        //            rptChilden.DataSource = CategorySubDB.CategorySubDB_GetByCategory(Convert.ToInt32(MenuID));
-        //            rptChilden.DataBind();
-        //        }
-
-
-        //    }
-        //}
-
+            //Xu ly phan trang bang cach tao the : 
+            //https://stackoverflow.com/questions/35891828/how-to-dynamically-create-an-html-table
+            //lblPaging.Text = RewriteUrl.generateTagPaging(_baseUrlPaging, _pageNumber, pageSize, totalRecord);
+        }
     }
+
 }
