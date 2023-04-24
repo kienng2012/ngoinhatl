@@ -610,6 +610,7 @@
     <Content Include="Control\nmn\ArticleProduct.ascx" />
     <Content Include="Control\nmn\GioiThieuSP1.ascx" />
     <Content Include="Control\nmn\Footer.ascx" />
+    <Content Include="Control\nmn\ProjectDetail.ascx" />
     <Content Include="Control\nmn\Projects.ascx" />
     <Content Include="Control\nmn\Home.ascx" />
     <Content Include="Control\nmn\NewsDetails.ascx" />
@@ -958,6 +959,13 @@
     </Compile>
     <Compile Include="Control\nmn\Footer.ascx.designer.cs">
       <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\nmn\ProjectDetail.ascx.cs">
+      <DependentUpon>ProjectDetail.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\nmn\ProjectDetail.ascx.designer.cs">
+      <DependentUpon>ProjectDetail.ascx</DependentUpon>
     </Compile>
     <Compile Include="Control\nmn\Projects.ascx.cs">
       <DependentUpon>Projects.ascx</DependentUpon>

@@ -20,7 +20,7 @@
 </div>
 <!-- PROJECT -->
 <div class="all_box">
-    <div class="filter_product">
+    <%--<div class="filter_product">
         <div class="title">
             <div class="box">
                 <span class="icon">
@@ -83,8 +83,8 @@
                 </ul>
             </div>
         </div>
-    </div>
-    <div class="woocommerce-notices-wrapper"></div>
+    </div>--%>
+    <%--<div class="woocommerce-notices-wrapper"></div>
     <form class="woocommerce-ordering" method="get">
         <select name="orderby" class="orderby" aria-label="Đơn hàng của cửa hàng">
             <option value="menu_order" selected="selected">Thứ tự mặc định</option>
@@ -95,29 +95,51 @@
             <option value="price-desc">Thứ tự theo giá: cao xuống thấp</option>
         </select>
         <input type="hidden" name="paged" value="1">
-    </form>
-    <div class="products columns-3 list_product">
-        <div class="item_pro">
-            <div class="">
-                <img src="https://nordic.vn/wp-content/uploads/2023/03/19-Hug-Side-Board.png" /></div>
-            <div class="info">
-                <h3 class="capt">Hug Sidebed</h3>
-                <div class="short_desc">
-                    <p><em><strong>Gỗ sồi Mỹ</strong></em></p>
-                </div>
-                <div class="bottom">
-                    <div class="price">
-                        <span class="woocommerce-Price-amount amount">
-                            <bdi>18.700.000&nbsp;<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span>
+    </form>--%>
+    <div class="spacer spacer-small"></div>
+    <div class="wrapper align-center">
+        <ul id="portfolio-filter-standard" class="filter clearfix" data-related-grid="grid-du-an">
+            <li><a class="active" data-option-value="*">All</a></li>
+            <li><a data-option-value=".biet-thu" href="https://housedesign.vn/du-an/biet-thu/" title="Biệt Thự">Biệt Thự</a></li>
+            <li><a data-option-value=".cafe-nha-hang-khach-san" href="https://housedesign.vn/du-an/cafe-nha-hang-khach-san/" title="Cafe Nhà Hàng Khách Sạn">Cafe Nhà Hàng Khách Sạn</a></li>
+            <li><a data-option-value=".can-ho" href="https://housedesign.vn/du-an/can-ho/" title="Căn Hộ">Căn Hộ</a></li>
+            <li><a data-option-value=".du-an-trang-chu" href="https://housedesign.vn/du-an/du-an-trang-chu/" title="dự án nổi bật">dự án nổi bật</a></li>
+            <li><a data-option-value=".kien-truc" href="https://housedesign.vn/du-an/kien-truc/" title="Kiến Trúc">Kiến Trúc</a></li>
+            <li><a data-option-value=".nha-pho" href="https://housedesign.vn/du-an/nha-pho/" title="Nhà Phố">Nhà Phố</a></li>
+            <li><a data-option-value=".showroom-shop" href="https://housedesign.vn/du-an/showroom-shop/" title="Showroom Shop">Showroom Shop</a></li>
+            <li><a data-option-value=".van-phong" href="https://housedesign.vn/du-an/van-phong/" title="Văn phòng">Văn phòng</a></li>
+            <li><a data-option-value=".du-an-thi-cong" href="/du-an-thi-cong" title="dự án thi công">dự án thi công</a></li>
+        </ul>
+    </div>
+    <div class="spacer spacer-small"></div>
+    <div class="products columns-2 list_product">
+        <asp:Repeater ID="rptListCate" runat="server">
+            <ItemTemplate>
+                <div class="item_pro">
+                    <div class="img" style="background-image: url(<%#Eval("CS_ImageURL") %>"></div>
+                    <div class="info">
+                        <h3 class="capt"><%#Eval("CS_Name")%></h3>
+                        <div class="short_desc">
+                            <p><em><strong><%#Eval("CS_Description") %></strong></em></p>
+                        </div>
+                        <div class="bottom">
+                            <%--<div class="price">
+                                <span class="woocommerce-Price-amount amount">
+                                    <bdi>18.700.000&nbsp;<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span>
+                            </div>--%>
+                            <span class="link">Xem chi tiết</span>
+                        </div>
                     </div>
-                    <span class="link">Xem chi tiết</span>
+                    <a href="/Bai-viet-<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm" class="link_full"></a>
                 </div>
-            </div>
-            <a href="https://nordic.vn/hug-sidebed/" class="link_full"></a>
-        </div>
+
+            </ItemTemplate>
+        </asp:Repeater>
         <div class="item_pro">
-            <div class="">
-                <img src="https://nordic.vn/wp-content/uploads/2023/03/19-Hug-Side-Board.png" /></div>
+            <%-- <div class="">
+                <img src="https://housedesign.vn/wp-content/uploads/2022/12/27-800x533.jpg" />
+            </div>--%>
+            <div class="img" style="background-image: url(https://housedesign.vn/wp-content/uploads/2022/12/27-800x533.jpg);"></div>
             <div class="info">
                 <h3 class="capt">Hug SideBoard</h3>
                 <div class="short_desc">
@@ -133,201 +155,263 @@
             </div>
             <a href="https://nordic.vn/hug-sideboard/" class="link_full"></a>
         </div>
-        <div class="item_pro">
-            <div class="">
-                <img src="https://nordic.vn/wp-content/uploads/2023/03/16-Hug-Tivi-Cabinet-1.png)" /></div>
-            <div class="info">
-                <h3 class="capt">Hug Tivi Cabinet</h3>
-                <div class="short_desc">
-                    <p><em><strong>Gỗ sồi Mỹ</strong></em></p>
-                </div>
-                <div class="bottom">
-                    <div class="price">
-                        <span class="woocommerce-Price-amount amount">
-                            <bdi>39.000.000&nbsp;<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span>
-                    </div>
-                    <span class="link">Xem chi tiết</span>
-                </div>
-            </div>
-            <a href="https://nordic.vn/hug-tivi-cabinet/" class="link_full"></a>
-        </div>
-        <div class="item_pro">
-            <div class="">
-                <img src="https://nordic.vn/wp-content/uploads/2023/03/15-Liso-bed-xanh-navy-1.png)" /></div>
-            <div class="info">
-                <h3 class="capt">Liso Signature Bed</h3>
-                <div class="short_desc">
-                    <p><em><strong>Vải VIP Aldeco &amp; Da thuộc Bò Ý cao cấp</strong></em></p>
-                </div>
-                <div class="bottom">
-                    <div class="price">
-                        <span class="woocommerce-Price-amount amount">
-                            <bdi>145.000.000&nbsp;<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span>
-                    </div>
-                    <span class="link">Xem chi tiết</span>
-                </div>
-            </div>
-            <a href="https://nordic.vn/liso-signature-bed/" class="link_full"></a>
-        </div>
-        <div class="item_pro">
-            <div class="">
-                <img src="https://nordic.vn/wp-content/uploads/2023/01/42-Sofa-Aesir-2-cho-khong-tay.png)" /></div>
-            <div class="info">
-                <h3 class="capt">Sofa AESIR 2 chỗ không tay – Signature Sofa</h3>
-                <div class="short_desc">
-                    <p><span style="font-size: 10pt;"><em><strong>Vải VIP Aldeco &amp; Da thuộc Bò Ý cao cấp</strong></em></span></p>
-                </div>
-                <div class="bottom">
-                    <div class="price">
-                        <span class="woocommerce-Price-amount amount">
-                            <bdi>85.000.000&nbsp;<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span>
-                    </div>
-                    <span class="link">Xem chi tiết</span>
-                </div>
-            </div>
-            <a href="https://nordic.vn/sofa-aesir-2-cho-khong-tay-signature-sofa/" class="link_full"></a>
-        </div>
-
     </div>
     <div class="wp-pagenavi" role="navigation">
         <span class="pages">Trang 1 trên 6</span><span aria-current="page" class="current">1</span><a class="page larger" title="Page 2" href="https://nordic.vn/san-pham/page/2/">2</a><a class="page larger" title="Page 3" href="https://nordic.vn/san-pham/page/3/">3</a><a class="page larger" title="Page 4" href="https://nordic.vn/san-pham/page/4/">4</a><a class="page larger" title="Page 5" href="https://nordic.vn/san-pham/page/5/">5</a><span class="extend">...</span><a class="nextpostslink" rel="next" aria-label="Trang sau" href="https://nordic.vn/san-pham/page/2/">»</a><a class="last" aria-label="Last Page" href="https://nordic.vn/san-pham/page/6/">Trang cuối »</a>
     </div>
 </div>
 <!-- END PROJECT -->
+<%--<div id="page-body">
+    <section id="section-du-an" class="">
+        <div class="section-inner">
 
-<div class="news_home2">
-    <div class="container-fluid">
-        <div class="title_home2">
-            <h2 class="title">CÁC DỰ ÁN</h2>
-            <a href="https://nordic.vn/bao-chi-viet-ve-nordic/" class="link">Xem tất cả</a>
-        </div>
-        <div class="slider">
-            <div class="owl-carousel owl-loaded owl-drag">
-                <div class="owl-stage-outer owl-height" style="height: 483px;">
-                    <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 3727px;">
-                        <asp:Repeater ID="rptListCate" runat="server">
-                            <ItemTemplate>
-                                <div class="owl-item active" style="width: 372.667px;">
-                                    <div class="item">
-                                        <div class="box">
-                                            <div class="img">
-                                                <a href="/Bai-viet-<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm">
-                                                    <img data-lazyloaded="1" src="<%#Eval("CS_ImageURL") %>" width="768" height="432" data-src="<%#Eval("CS_ImageURL") %>"
-                                                        class="attachment-large size-large wvs-archive-product-image wp-post-image entered litespeed-loaded" alt="" decoding="async" loading="lazy">
-                                                </a>
-                                            </div>
-                                            <div class="info">
-                                                <div class="top">
-                                                    <div class="date">04/03/2023</div>
-                                                    <div class="meta">
-                                                        <div class="share">
-                                                            <a href="https://facebook.com/share.php?u=https://nordic.vn/tap-chi-kien-truc-kts-nguyen-phuong-chi-hanh-trinh-dinh-vi-thuong-hieu-noi-that-viet/" target="_blank" rel="nofollow" onclick="javascript:window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;" class="facebook " data-toggle="tooltip" title="Share on Facebook">
-                                                                <img data-lazyloaded="1" src="App_Themes/house/img/icon_share.png" alt="" icon_share data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_share.png" data-ll-status="loaded" class="entered litespeed-loaded" />
-                                                            </a>
-                                                        </div>
-                                                        <div class="view">
-                                                            <img data-lazyloaded="1" src="App_Themes/house/img/icon_view.png" alt="view" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_view.png" data-ll-status="loaded" class="entered litespeed-loaded">221
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <h3 class="name">
-                                                    <a href="https://nordic.vn/tap-chi-kien-truc-kts-nguyen-phuong-chi-hanh-trinh-dinh-vi-thuong-hieu-noi-that-viet/"><%#Eval("CS_Name")%></a>
-                                                </h3>
-                                                <div class="text"><%#Eval("CS_Description") %></div>
-                                                <div class="link">
-                                                    <a href="https://nordic.vn/tap-chi-kien-truc-kts-nguyen-phuong-chi-hanh-trinh-dinh-vi-thuong-hieu-noi-that-viet/">Xem chi tiết <i></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </ItemTemplate>
-                        </asp:Repeater>
-                        <div class="owl-item active" style="width: 372.667px;">
-                            <div class="item">
-                                <div class="box">
-                                    <div class="img">
-                                        <a href="https://nordic.vn/tap-chi-kien-truc-kts-nguyen-phuong-chi-hanh-trinh-dinh-vi-thuong-hieu-noi-that-viet/">
-                                            <img data-lazyloaded="1" src="App_Themes/house/img/22A11024-2-768x432-5.jpg" width="768" height="432" data-src="https://nordic.vn/wp-content/uploads/2023/03/22A11024-2-768x432-5.jpg" class="attachment-large size-large wvs-archive-product-image wp-post-image entered litespeed-loaded" alt="" decoding="async" loading="lazy" data-srcset="https://nordic.vn/wp-content/uploads/2023/03/22A11024-2-768x432-5.jpg 768w, https://nordic.vn/wp-content/uploads/2023/03/22A11024-2-768x432-5-300x169.jpg 300w, https://nordic.vn/wp-content/uploads/2023/03/22A11024-2-768x432-5-600x338.jpg 600w" data-sizes="(max-width: 768px) 100vw, 768px" data-ll-status="loaded" sizes="(max-width: 768px) 100vw, 768px" srcset="https://nordic.vn/wp-content/uploads/2023/03/22A11024-2-768x432-5.jpg 768w, https://nordic.vn/wp-content/uploads/2023/03/22A11024-2-768x432-5-300x169.jpg 300w, https://nordic.vn/wp-content/uploads/2023/03/22A11024-2-768x432-5-600x338.jpg 600w">
-                                        </a>
-                                    </div>
-                                    <div class="info">
-                                        <div class="top">
-                                            <div class="date">04/03/2023</div>
-                                            <div class="meta">
-                                                <div class="share">
-                                                    <a href="https://facebook.com/share.php?u=https://nordic.vn/tap-chi-kien-truc-kts-nguyen-phuong-chi-hanh-trinh-dinh-vi-thuong-hieu-noi-that-viet/" target="_blank" rel="nofollow" onclick="javascript:window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;" class="facebook " data-toggle="tooltip" title="Share on Facebook">
-                                                        <img data-lazyloaded="1" src="App_Themes/house/img/icon_share.png" alt="" icon_share data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_share.png" data-ll-status="loaded" class="entered litespeed-loaded" />
-                                                    </a>
-                                                </div>
-                                                <div class="view">
-                                                    <img data-lazyloaded="1" src="App_Themes/house/img/icon_view.png" alt="view" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_view.png" data-ll-status="loaded" class="entered litespeed-loaded">221
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <h3 class="name">
-                                            <a href="https://nordic.vn/tap-chi-kien-truc-kts-nguyen-phuong-chi-hanh-trinh-dinh-vi-thuong-hieu-noi-that-viet/">Tạp chí Kiến trúc – KTS Nguyễn Phương Chi: “Hành trình định vị thương hiệu nội thất Việt”</a>
-                                        </h3>
-                                        <div class="text">Tại Việt Nam, cho tới nay lĩnh vực thiết kế sản phẩm nội thất còn khá mới mẻ, rất ít các nhà thiết kế thực hiện thiết kế đồ nội thất, chưa nói đến việc...</div>
-                                        <div class="link">
-                                            <a href="https://nordic.vn/tap-chi-kien-truc-kts-nguyen-phuong-chi-hanh-trinh-dinh-vi-thuong-hieu-noi-that-viet/">Xem chi tiết <i></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
+
+
+            <div class="wrapper align-center">
+                <ul id="portfolio-filter-standard" class="filter clearfix" data-related-grid="grid-du-an">
+                    <li><a class="active" data-option-value="*">All</a></li>
+                    <li><a data-option-value=".biet-thu" href="https://housedesign.vn/du-an/biet-thu/" title="Biệt Thự">Biệt Thự</a></li>
+                    <li><a data-option-value=".cafe-nha-hang-khach-san" href="https://housedesign.vn/du-an/cafe-nha-hang-khach-san/" title="Cafe Nhà Hàng Khách Sạn">Cafe Nhà Hàng Khách Sạn</a></li>
+                    <li><a data-option-value=".can-ho" href="https://housedesign.vn/du-an/can-ho/" title="Căn Hộ">Căn Hộ</a></li>
+                    <li><a data-option-value=".du-an-trang-chu" href="https://housedesign.vn/du-an/du-an-trang-chu/" title="dự án nổi bật">dự án nổi bật</a></li>
+                    <li><a data-option-value=".kien-truc" href="https://housedesign.vn/du-an/kien-truc/" title="Kiến Trúc">Kiến Trúc</a></li>
+                    <li><a data-option-value=".nha-pho" href="https://housedesign.vn/du-an/nha-pho/" title="Nhà Phố">Nhà Phố</a></li>
+                    <li><a data-option-value=".showroom-shop" href="https://housedesign.vn/du-an/showroom-shop/" title="Showroom Shop">Showroom Shop</a></li>
+                    <li><a data-option-value=".van-phong" href="https://housedesign.vn/du-an/van-phong/" title="Văn phòng">Văn phòng</a></li>
+                    <li><a data-option-value=".du-an-thi-cong" href="/du-an-thi-cong" title="dự án thi công">dự án thi công</a></li>
+                </ul>
+            </div>
+            <div class="spacer spacer-small"></div>
+            <div id="grid-du-an" class="masonry portfolio-entries clearfix masonry-spaced " data-maxitemwidth="600" style="position: relative; height: 32882.9px;">
+
+
+                <div class="portfolio-masonry-entry masonry-item cafe-nha-hang-khach-san kien-truc " style="position: absolute; left: 0px; top: 0px; width: 572px;">
+                    <div class="entry-thumb portfolio-thumb">
+
+                        <div class="imgoverlay overlay-light overlay-transparent overlay-simple name-hidden">
+                            <img width="800" height="800" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-800x800.jpg" class="attachment-thumb-big size-thumb-big wp-post-image entered lazyloaded" alt="" data-lazy-srcset="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-800x800.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-300x300.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-1024x1024.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-150x150.jpg 150w, https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-768x768.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-1536x1536.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-420x420.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-1100x1100.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4.jpg 1600w" data-lazy-sizes="(max-width: 800px) 100vw, 800px" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-800x800.jpg" data-ll-status="loaded" sizes="(max-width: 800px) 100vw, 800px" srcset=""><noscript><img width="800" height="800" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-800x800.jpg" class="attachment-thumb-big size-thumb-big wp-post-image" alt="" srcset="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-800x800.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-300x300.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-1024x1024.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-150x150.jpg 150w, https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-768x768.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-1536x1536.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-420x420.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-1100x1100.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4.jpg 1600w" sizes="(max-width: 800px) 100vw, 800px" /></noscript>
+                            <div class="overlaycaption">
+                                <h5 class="overlay-name title-minimal"><strong>Coffee phong cách Wabisabi Việt</strong></h5>
                             </div>
-                        </div>
-
-
-                        <div class="owl-item" style="width: 372.667px;">
-                            <div class="item">
-                                <div class="box">
-                                    <div class="img">
-                                        <a href="https://nordic.vn/tinphongcach-sema-nordic-thuong-hieu-noi-that-phong-cach-bac-au-thiet-ke-uy-tin-boi-nguoi-viet/">
-                                            <img data-lazyloaded="1" src="App_Themes/house/img/b1-1024x1024.jpg" width="1024" height="1024" data-src="https://nordic.vn/wp-content/uploads/2022/09/b1-1024x1024.jpg" class="attachment-large size-large wvs-archive-product-image wp-post-image entered litespeed-loaded" alt="nha-thiet-ke-ve-ghe-hoang-hau-1" decoding="async" loading="lazy" data-srcset="https://nordic.vn/wp-content/uploads/2022/09/b1-1024x1024.jpg 1024w, https://nordic.vn/wp-content/uploads/2022/09/b1-300x300.jpg 300w, https://nordic.vn/wp-content/uploads/2022/09/b1-150x150.jpg 150w, https://nordic.vn/wp-content/uploads/2022/09/b1-768x768.jpg 768w, https://nordic.vn/wp-content/uploads/2022/09/b1-600x600.jpg 600w, https://nordic.vn/wp-content/uploads/2022/09/b1-400x400.jpg 400w, https://nordic.vn/wp-content/uploads/2022/09/b1-50x50.jpg 50w, https://nordic.vn/wp-content/uploads/2022/09/b1-100x100.jpg 100w, https://nordic.vn/wp-content/uploads/2022/09/b1.jpg 1242w" data-sizes="(max-width: 1024px) 100vw, 1024px" data-ll-status="loaded" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://nordic.vn/wp-content/uploads/2022/09/b1-1024x1024.jpg 1024w, https://nordic.vn/wp-content/uploads/2022/09/b1-300x300.jpg 300w, https://nordic.vn/wp-content/uploads/2022/09/b1-150x150.jpg 150w, https://nordic.vn/wp-content/uploads/2022/09/b1-768x768.jpg 768w, https://nordic.vn/wp-content/uploads/2022/09/b1-600x600.jpg 600w, https://nordic.vn/wp-content/uploads/2022/09/b1-400x400.jpg 400w, https://nordic.vn/wp-content/uploads/2022/09/b1-50x50.jpg 50w, https://nordic.vn/wp-content/uploads/2022/09/b1-100x100.jpg 100w, https://nordic.vn/wp-content/uploads/2022/09/b1.jpg 1242w">
-                                        </a>
-                                    </div>
-                                    <div class="info">
-                                        <div class="top">
-                                            <div class="date">21/09/2022</div>
-                                            <div class="meta">
-                                                <div class="share">
-                                                    <a href="https://facebook.com/share.php?u=https://nordic.vn/tinphongcach-sema-nordic-thuong-hieu-noi-that-phong-cach-bac-au-thiet-ke-uy-tin-boi-nguoi-viet/" target="_blank" rel="nofollow" onclick="javascript:window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;" class="facebook " data-toggle="tooltip" title="Share on Facebook">
-                                                        <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="" icon_share="" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_share.png">
-                                                    </a>
-                                                </div>
-                                                <div class="view">
-                                                    <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="view" data-src="https://nordic.vn/wp-content/themes/nordic2/images/icon_view.png">577
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <h3 class="name">
-                                            <a href="https://nordic.vn/tinphongcach-sema-nordic-thuong-hieu-noi-that-phong-cach-bac-au-thiet-ke-uy-tin-boi-nguoi-viet/">Tinphongcach – “SEMA Nordic – Thương hiệu nội thất phong cách Bắc Âu thiết kế uy tín bởi người Việt”</a>
-                                        </h3>
-                                        <div class="text">Sema&nbsp;NORDIC® ra đời với khao khát phụng sự cho ngôi nhà Việt các sản phẩm nội thất phong cách Bắc Âu chất lượng, bền đẹp, tiện ích và đầy đủ công năng. Trong suốt hơn...</div>
-                                        <div class="link">
-                                            <a href="https://nordic.vn/tinphongcach-sema-nordic-thuong-hieu-noi-that-phong-cach-bac-au-thiet-ke-uy-tin-boi-nguoi-viet/">Xem chi tiết <i></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <a href="https://housedesign.vn/du-an/coffee-phong-cach-wabisabi-viet/" class="transition"></a>
                         </div>
 
                     </div>
                 </div>
-                <div class="owl-nav">
-                    <button type="button" role="presentation" class="owl-prev disabled">
-                        <span aria-label="Previous">‹</span>
-                    </button>
-                    <button type="button" role="presentation" class="owl-next">
-                        <span aria-label="Next">›</span>
-                    </button>
+                <!-- END .portfolio-masonry-entry -->
+
+
+                <div class="portfolio-masonry-entry masonry-item can-ho can-ho-1-phong-ngu " style="position: absolute; left: 582px; top: 0px; width: 572px;">
+                    <div class="entry-thumb portfolio-thumb">
+
+                        <div class="imgoverlay overlay-light overlay-transparent overlay-simple name-hidden">
+                            <img width="800" height="533" src="https://housedesign.vn/wp-content/uploads/2022/12/27-800x533.jpg" class="attachment-thumb-big size-thumb-big wp-post-image entered lazyloaded" alt="" data-lazy-srcset="https://housedesign.vn/wp-content/uploads/2022/12/27-800x533.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/12/27-300x200.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/12/27-1024x683.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/12/27-768x512.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/12/27-1536x1024.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/12/27-2048x1365.jpg 2048w, https://housedesign.vn/wp-content/uploads/2022/12/27-420x280.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/12/27-1100x733.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/12/27-1690x1127.jpg 1690w" data-lazy-sizes="(max-width: 800px) 100vw, 800px" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/27-800x533.jpg" data-ll-status="loaded" sizes="(max-width: 800px) 100vw, 800px" srcset=""><noscript><img width="800" height="533" src="https://housedesign.vn/wp-content/uploads/2022/12/27-800x533.jpg" class="attachment-thumb-big size-thumb-big wp-post-image" alt="" srcset="https://housedesign.vn/wp-content/uploads/2022/12/27-800x533.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/12/27-300x200.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/12/27-1024x683.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/12/27-768x512.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/12/27-1536x1024.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/12/27-2048x1365.jpg 2048w, https://housedesign.vn/wp-content/uploads/2022/12/27-420x280.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/12/27-1100x733.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/12/27-1690x1127.jpg 1690w" sizes="(max-width: 800px) 100vw, 800px" /></noscript>
+                            <div class="overlaycaption">
+                                <h5 class="overlay-name title-minimal"><strong>Pearl Plaza-Căn hộ mộng mơ</strong></h5>
+                            </div>
+                            <a href="https://housedesign.vn/du-an/pearl-plaza-can-ho-mong-mo/" class="transition"></a>
+                        </div>
+
+                    </div>
                 </div>
-                <div class="owl-dots disabled"></div>
+                <!-- END .portfolio-masonry-entry -->
+
+
+                <div class="portfolio-masonry-entry masonry-item can-ho can-ho-3-phong-ngu du-an-trang-chu " style="position: absolute; left: 582px; top: 391.087px; width: 572px;">
+                    <div class="entry-thumb portfolio-thumb">
+
+                        <div class="imgoverlay overlay-light overlay-transparent overlay-simple name-hidden">
+                            <img width="800" height="533" src="https://housedesign.vn/wp-content/uploads/2022/10/housedesign-sadora-19-800x533.jpg" class="attachment-thumb-big size-thumb-big wp-post-image entered lazyloaded" alt="" data-lazy-srcset="https://housedesign.vn/wp-content/uploads/2022/10/housedesign-sadora-19-800x533.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-sadora-19-300x200.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-sadora-19-1024x683.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-sadora-19-768x512.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-sadora-19-1536x1024.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-sadora-19-2048x1365.jpg 2048w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-sadora-19-420x280.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-sadora-19-1100x733.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-sadora-19-1690x1127.jpg 1690w" data-lazy-sizes="(max-width: 800px) 100vw, 800px" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/10/housedesign-sadora-19-800x533.jpg" data-ll-status="loaded" sizes="(max-width: 800px) 100vw, 800px" srcset=""><noscript><img width="800" height="533" src="https://housedesign.vn/wp-content/uploads/2022/10/housedesign-sadora-19-800x533.jpg" class="attachment-thumb-big size-thumb-big wp-post-image" alt="" srcset="https://housedesign.vn/wp-content/uploads/2022/10/housedesign-sadora-19-800x533.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-sadora-19-300x200.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-sadora-19-1024x683.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-sadora-19-768x512.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-sadora-19-1536x1024.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-sadora-19-2048x1365.jpg 2048w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-sadora-19-420x280.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-sadora-19-1100x733.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-sadora-19-1690x1127.jpg 1690w" sizes="(max-width: 800px) 100vw, 800px" /></noscript>
+                            <div class="overlaycaption">
+                                <h5 class="overlay-name title-minimal"><strong>Thi công thực tế- Duplex Sadora Quận 2</strong></h5>
+                            </div>
+                            <a href="https://housedesign.vn/du-an/thi-cong-thuc-te-duplex-sadora-quan-2/" class="transition"></a>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- END .portfolio-masonry-entry -->
+
+
+                <div class="portfolio-masonry-entry masonry-item can-ho can-ho-3-phong-ngu " style="position: absolute; left: 0px; top: 582px; width: 572px;">
+                    <div class="entry-thumb portfolio-thumb">
+
+                        <div class="imgoverlay overlay-light overlay-transparent overlay-simple name-hidden">
+                            <img width="800" height="533" src="https://housedesign.vn/wp-content/uploads/2022/10/Housedesign-Hinode-tower-A-13-800x533.jpg" class="attachment-thumb-big size-thumb-big wp-post-image entered lazyloaded" alt="" data-lazy-srcset="https://housedesign.vn/wp-content/uploads/2022/10/Housedesign-Hinode-tower-A-13-800x533.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/10/Housedesign-Hinode-tower-A-13-300x200.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/10/Housedesign-Hinode-tower-A-13-1024x683.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/10/Housedesign-Hinode-tower-A-13-768x512.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/10/Housedesign-Hinode-tower-A-13-1536x1024.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/10/Housedesign-Hinode-tower-A-13-420x280.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/10/Housedesign-Hinode-tower-A-13-1100x733.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/10/Housedesign-Hinode-tower-A-13-1690x1126.jpg 1690w, https://housedesign.vn/wp-content/uploads/2022/10/Housedesign-Hinode-tower-A-13.jpg 2048w" data-lazy-sizes="(max-width: 800px) 100vw, 800px" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/10/Housedesign-Hinode-tower-A-13-800x533.jpg" srcset="https://housedesign.vn/wp-content/uploads/2022/10/Housedesign-Hinode-tower-A-13-800x533.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/10/Housedesign-Hinode-tower-A-13-300x200.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/10/Housedesign-Hinode-tower-A-13-1024x683.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/10/Housedesign-Hinode-tower-A-13-768x512.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/10/Housedesign-Hinode-tower-A-13-1536x1024.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/10/Housedesign-Hinode-tower-A-13-420x280.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/10/Housedesign-Hinode-tower-A-13-1100x733.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/10/Housedesign-Hinode-tower-A-13-1690x1126.jpg 1690w, https://housedesign.vn/wp-content/uploads/2022/10/Housedesign-Hinode-tower-A-13.jpg 2048w" data-ll-status="loaded" sizes="(max-width: 800px) 100vw, 800px"><noscript><img width="800" height="533" src="https://housedesign.vn/wp-content/uploads/2022/10/Housedesign-Hinode-tower-A-13-800x533.jpg" class="attachment-thumb-big size-thumb-big wp-post-image" alt="" srcset="https://housedesign.vn/wp-content/uploads/2022/10/Housedesign-Hinode-tower-A-13-800x533.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/10/Housedesign-Hinode-tower-A-13-300x200.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/10/Housedesign-Hinode-tower-A-13-1024x683.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/10/Housedesign-Hinode-tower-A-13-768x512.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/10/Housedesign-Hinode-tower-A-13-1536x1024.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/10/Housedesign-Hinode-tower-A-13-420x280.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/10/Housedesign-Hinode-tower-A-13-1100x733.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/10/Housedesign-Hinode-tower-A-13-1690x1126.jpg 1690w, https://housedesign.vn/wp-content/uploads/2022/10/Housedesign-Hinode-tower-A-13.jpg 2048w" sizes="(max-width: 800px) 100vw, 800px" /></noscript>
+                            <div class="overlaycaption">
+                                <h5 class="overlay-name title-minimal"><strong>Thi công thực tế căn hộ Hinode tower</strong></h5>
+                            </div>
+                            <a href="https://housedesign.vn/du-an/thi-cong-thuc-te-can-ho-hinode-tower/" class="transition"></a>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- END .portfolio-masonry-entry -->
+
+
+                <div class="portfolio-masonry-entry masonry-item biet-thu " style="position: absolute; left: 582px; top: 782.174px; width: 572px;">
+                    <div class="entry-thumb portfolio-thumb">
+
+                        <div class="imgoverlay overlay-light overlay-transparent overlay-simple name-hidden">
+                            <img width="800" height="775" src="https://housedesign.vn/wp-content/uploads/2022/10/housedesign-vinhome-p-ngu-1-800x775.jpg" class="attachment-thumb-big size-thumb-big wp-post-image entered lazyloaded" alt="" data-lazy-srcset="https://housedesign.vn/wp-content/uploads/2022/10/housedesign-vinhome-p-ngu-1-800x775.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-vinhome-p-ngu-1-300x291.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-vinhome-p-ngu-1-1024x992.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-vinhome-p-ngu-1-768x744.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-vinhome-p-ngu-1-1536x1487.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-vinhome-p-ngu-1-420x407.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-vinhome-p-ngu-1-1100x1065.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-vinhome-p-ngu-1-1690x1636.jpg 1690w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-vinhome-p-ngu-1.jpg 1800w" data-lazy-sizes="(max-width: 800px) 100vw, 800px" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/10/housedesign-vinhome-p-ngu-1-800x775.jpg" srcset="https://housedesign.vn/wp-content/uploads/2022/10/housedesign-vinhome-p-ngu-1-800x775.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-vinhome-p-ngu-1-300x291.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-vinhome-p-ngu-1-1024x992.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-vinhome-p-ngu-1-768x744.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-vinhome-p-ngu-1-1536x1487.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-vinhome-p-ngu-1-420x407.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-vinhome-p-ngu-1-1100x1065.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-vinhome-p-ngu-1-1690x1636.jpg 1690w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-vinhome-p-ngu-1.jpg 1800w" data-ll-status="loaded" sizes="(max-width: 800px) 100vw, 800px"><noscript><img width="800" height="775" src="https://housedesign.vn/wp-content/uploads/2022/10/housedesign-vinhome-p-ngu-1-800x775.jpg" class="attachment-thumb-big size-thumb-big wp-post-image" alt="" srcset="https://housedesign.vn/wp-content/uploads/2022/10/housedesign-vinhome-p-ngu-1-800x775.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-vinhome-p-ngu-1-300x291.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-vinhome-p-ngu-1-1024x992.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-vinhome-p-ngu-1-768x744.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-vinhome-p-ngu-1-1536x1487.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-vinhome-p-ngu-1-420x407.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-vinhome-p-ngu-1-1100x1065.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-vinhome-p-ngu-1-1690x1636.jpg 1690w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-vinhome-p-ngu-1.jpg 1800w" sizes="(max-width: 800px) 100vw, 800px" /></noscript>
+                            <div class="overlaycaption">
+                                <h5 class="overlay-name title-minimal"><strong>Thi công thự tế Villa Vinhome Quận 9</strong></h5>
+                            </div>
+                            <a href="https://housedesign.vn/du-an/thi-cong-thu-te-villa-vinhome-quan-9/" class="transition"></a>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- END .portfolio-masonry-entry -->
+
+
+                <div class="portfolio-masonry-entry masonry-item can-ho can-ho-2-phong-ngu " style="position: absolute; left: 0px; top: 973.513px; width: 572px;">
+                    <div class="entry-thumb portfolio-thumb">
+
+                        <div class="imgoverlay overlay-light overlay-transparent overlay-simple name-hidden">
+                            <img width="800" height="533" src="https://housedesign.vn/wp-content/uploads/2022/10/housedesign-midtow-akhachbep-1-800x533.jpg" class="attachment-thumb-big size-thumb-big wp-post-image entered lazyloaded" alt="" data-lazy-srcset="https://housedesign.vn/wp-content/uploads/2022/10/housedesign-midtow-akhachbep-1-800x533.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-midtow-akhachbep-1-300x200.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-midtow-akhachbep-1-1024x683.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-midtow-akhachbep-1-768x512.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-midtow-akhachbep-1-1536x1024.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-midtow-akhachbep-1-2048x1365.jpg 2048w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-midtow-akhachbep-1-420x280.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-midtow-akhachbep-1-1100x733.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-midtow-akhachbep-1-1690x1127.jpg 1690w" data-lazy-sizes="(max-width: 800px) 100vw, 800px" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/10/housedesign-midtow-akhachbep-1-800x533.jpg" srcset="https://housedesign.vn/wp-content/uploads/2022/10/housedesign-midtow-akhachbep-1-800x533.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-midtow-akhachbep-1-300x200.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-midtow-akhachbep-1-1024x683.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-midtow-akhachbep-1-768x512.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-midtow-akhachbep-1-1536x1024.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-midtow-akhachbep-1-2048x1365.jpg 2048w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-midtow-akhachbep-1-420x280.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-midtow-akhachbep-1-1100x733.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-midtow-akhachbep-1-1690x1127.jpg 1690w" data-ll-status="loaded" sizes="(max-width: 800px) 100vw, 800px"><noscript><img width="800" height="533" src="https://housedesign.vn/wp-content/uploads/2022/10/housedesign-midtow-akhachbep-1-800x533.jpg" class="attachment-thumb-big size-thumb-big wp-post-image" alt="" srcset="https://housedesign.vn/wp-content/uploads/2022/10/housedesign-midtow-akhachbep-1-800x533.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-midtow-akhachbep-1-300x200.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-midtow-akhachbep-1-1024x683.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-midtow-akhachbep-1-768x512.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-midtow-akhachbep-1-1536x1024.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-midtow-akhachbep-1-2048x1365.jpg 2048w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-midtow-akhachbep-1-420x280.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-midtow-akhachbep-1-1100x733.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-midtow-akhachbep-1-1690x1127.jpg 1690w" sizes="(max-width: 800px) 100vw, 800px" /></noscript>
+                            <div class="overlaycaption">
+                                <h5 class="overlay-name title-minimal"><strong>Thi công thực tế căn hộ Midtown</strong></h5>
+                            </div>
+                            <a href="https://housedesign.vn/du-an/thi-cong-thuc-te-can-ho-midtow/" class="transition"></a>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- END .portfolio-masonry-entry -->
+
+
+                <div class="portfolio-masonry-entry masonry-item can-ho can-ho-3-phong-ngu " style="position: absolute; left: 582px; top: 1346.3px; width: 572px;">
+                    <div class="entry-thumb portfolio-thumb">
+
+                        <div class="imgoverlay overlay-light overlay-transparent overlay-simple name-hidden">
+                            <img width="800" height="450" class="attachment-thumb-big size-thumb-big wp-post-image entered lazyloaded" alt="" data-lazy-srcset="https://housedesign.vn/wp-content/uploads/2022/10/ecogreen-housedesign-khach-bep-5-800x450.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/10/ecogreen-housedesign-khach-bep-5-300x169.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/10/ecogreen-housedesign-khach-bep-5-1024x576.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/10/ecogreen-housedesign-khach-bep-5-768x432.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/10/ecogreen-housedesign-khach-bep-5-1536x864.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/10/ecogreen-housedesign-khach-bep-5-420x236.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/10/ecogreen-housedesign-khach-bep-5-1100x619.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/10/ecogreen-housedesign-khach-bep-5-1690x951.jpg 1690w, https://housedesign.vn/wp-content/uploads/2022/10/ecogreen-housedesign-khach-bep-5.jpg 1920w" data-lazy-sizes="(max-width: 800px) 100vw, 800px" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/10/ecogreen-housedesign-khach-bep-5-800x450.jpg" src="https://housedesign.vn/wp-content/uploads/2022/10/ecogreen-housedesign-khach-bep-5-800x450.jpg" data-ll-status="loaded" sizes="(max-width: 800px) 100vw, 800px" srcset="https://housedesign.vn/wp-content/uploads/2022/10/ecogreen-housedesign-khach-bep-5-800x450.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/10/ecogreen-housedesign-khach-bep-5-300x169.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/10/ecogreen-housedesign-khach-bep-5-1024x576.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/10/ecogreen-housedesign-khach-bep-5-768x432.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/10/ecogreen-housedesign-khach-bep-5-1536x864.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/10/ecogreen-housedesign-khach-bep-5-420x236.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/10/ecogreen-housedesign-khach-bep-5-1100x619.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/10/ecogreen-housedesign-khach-bep-5-1690x951.jpg 1690w, https://housedesign.vn/wp-content/uploads/2022/10/ecogreen-housedesign-khach-bep-5.jpg 1920w"><noscript><img width="800" height="450" src="https://housedesign.vn/wp-content/uploads/2022/10/ecogreen-housedesign-khach-bep-5-800x450.jpg" class="attachment-thumb-big size-thumb-big wp-post-image" alt="" srcset="https://housedesign.vn/wp-content/uploads/2022/10/ecogreen-housedesign-khach-bep-5-800x450.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/10/ecogreen-housedesign-khach-bep-5-300x169.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/10/ecogreen-housedesign-khach-bep-5-1024x576.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/10/ecogreen-housedesign-khach-bep-5-768x432.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/10/ecogreen-housedesign-khach-bep-5-1536x864.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/10/ecogreen-housedesign-khach-bep-5-420x236.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/10/ecogreen-housedesign-khach-bep-5-1100x619.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/10/ecogreen-housedesign-khach-bep-5-1690x951.jpg 1690w, https://housedesign.vn/wp-content/uploads/2022/10/ecogreen-housedesign-khach-bep-5.jpg 1920w" sizes="(max-width: 800px) 100vw, 800px" /></noscript>
+                            <div class="overlaycaption">
+                                <h5 class="overlay-name title-minimal"><strong>Ecogreen-Căn hộ duplex</strong></h5>
+                            </div>
+                            <a href="https://housedesign.vn/du-an/ecogreen-can-ho-duplex/" class="transition"></a>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- END .portfolio-masonry-entry -->
+
+
+                <div class="portfolio-masonry-entry masonry-item can-ho can-ho-2-phong-ngu " style="position: absolute; left: 0px; top: 1365.03px; width: 572px;">
+                    <div class="entry-thumb portfolio-thumb">
+
+                        <div class="imgoverlay overlay-light overlay-transparent overlay-simple name-hidden">
+                            <img width="800" height="832" class="attachment-thumb-big size-thumb-big wp-post-image entered lazyloaded" alt="" data-lazy-srcset="https://housedesign.vn/wp-content/uploads/2022/10/housedesign-phong-khach-5-800x832.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-phong-khach-5-288x300.jpg 288w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-phong-khach-5-984x1024.jpg 984w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-phong-khach-5-768x799.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-phong-khach-5-420x437.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-phong-khach-5-1100x1145.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-phong-khach-5.jpg 1257w" data-lazy-sizes="(max-width: 800px) 100vw, 800px" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/10/housedesign-phong-khach-5-800x832.jpg" src="https://housedesign.vn/wp-content/uploads/2022/10/housedesign-phong-khach-5-800x832.jpg" data-ll-status="loaded" sizes="(max-width: 800px) 100vw, 800px" srcset="https://housedesign.vn/wp-content/uploads/2022/10/housedesign-phong-khach-5-800x832.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-phong-khach-5-288x300.jpg 288w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-phong-khach-5-984x1024.jpg 984w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-phong-khach-5-768x799.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-phong-khach-5-420x437.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-phong-khach-5-1100x1145.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-phong-khach-5.jpg 1257w"><noscript><img width="800" height="832" src="https://housedesign.vn/wp-content/uploads/2022/10/housedesign-phong-khach-5-800x832.jpg" class="attachment-thumb-big size-thumb-big wp-post-image" alt="" srcset="https://housedesign.vn/wp-content/uploads/2022/10/housedesign-phong-khach-5-800x832.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-phong-khach-5-288x300.jpg 288w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-phong-khach-5-984x1024.jpg 984w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-phong-khach-5-768x799.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-phong-khach-5-420x437.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-phong-khach-5-1100x1145.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/10/housedesign-phong-khach-5.jpg 1257w" sizes="(max-width: 800px) 100vw, 800px" /></noscript>
+                            <div class="overlaycaption">
+                                <h5 class="overlay-name title-minimal"><strong>Estella Heights- Chill nhẹ nhàng</strong></h5>
+                            </div>
+                            <a href="https://housedesign.vn/du-an/estella-heights-chill-nhe-nhang/" class="transition"></a>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- END .portfolio-masonry-entry -->
+
+
+                <div class="portfolio-masonry-entry masonry-item cafe-nha-hang-khach-san " style="position: absolute; left: 582px; top: 1678.05px; width: 572px;">
+                    <div class="entry-thumb portfolio-thumb">
+
+                        <div class="imgoverlay overlay-light overlay-transparent overlay-simple name-hidden">
+                            <img width="800" height="500" class="attachment-thumb-big size-thumb-big wp-post-image entered lazyloaded" alt="" data-lazy-srcset="https://housedesign.vn/wp-content/uploads/2022/09/housedesign-chay-ngu-sac-11-800x500.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-chay-ngu-sac-11-300x188.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-chay-ngu-sac-11-1024x640.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-chay-ngu-sac-11-768x480.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-chay-ngu-sac-11-1536x960.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-chay-ngu-sac-11-420x263.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-chay-ngu-sac-11-1100x688.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-chay-ngu-sac-11-1690x1056.jpg 1690w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-chay-ngu-sac-11.jpg 2000w" data-lazy-sizes="(max-width: 800px) 100vw, 800px" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/09/housedesign-chay-ngu-sac-11-800x500.jpg" src="https://housedesign.vn/wp-content/uploads/2022/09/housedesign-chay-ngu-sac-11-800x500.jpg" data-ll-status="loaded" sizes="(max-width: 800px) 100vw, 800px" srcset="https://housedesign.vn/wp-content/uploads/2022/09/housedesign-chay-ngu-sac-11-800x500.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-chay-ngu-sac-11-300x188.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-chay-ngu-sac-11-1024x640.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-chay-ngu-sac-11-768x480.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-chay-ngu-sac-11-1536x960.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-chay-ngu-sac-11-420x263.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-chay-ngu-sac-11-1100x688.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-chay-ngu-sac-11-1690x1056.jpg 1690w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-chay-ngu-sac-11.jpg 2000w"><noscript><img width="800" height="500" src="https://housedesign.vn/wp-content/uploads/2022/09/housedesign-chay-ngu-sac-11-800x500.jpg" class="attachment-thumb-big size-thumb-big wp-post-image" alt="" srcset="https://housedesign.vn/wp-content/uploads/2022/09/housedesign-chay-ngu-sac-11-800x500.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-chay-ngu-sac-11-300x188.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-chay-ngu-sac-11-1024x640.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-chay-ngu-sac-11-768x480.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-chay-ngu-sac-11-1536x960.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-chay-ngu-sac-11-420x263.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-chay-ngu-sac-11-1100x688.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-chay-ngu-sac-11-1690x1056.jpg 1690w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-chay-ngu-sac-11.jpg 2000w" sizes="(max-width: 800px) 100vw, 800px" /></noscript>
+                            <div class="overlaycaption">
+                                <h5 class="overlay-name title-minimal"><strong>Nhà Hàng Chay Ngũ Sắc</strong></h5>
+                            </div>
+                            <a href="https://housedesign.vn/du-an/nha-hang-chay-ngu-sac/" class="transition"></a>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- END .portfolio-masonry-entry -->
+
+
+                <div class="portfolio-masonry-entry masonry-item cafe-nha-hang-khach-san " style="position: absolute; left: 0px; top: 1970.26px; width: 572px;">
+                    <div class="entry-thumb portfolio-thumb">
+
+                        <div class="imgoverlay overlay-light overlay-transparent overlay-simple name-hidden">
+                            <img width="800" height="533" class="attachment-thumb-big size-thumb-big wp-post-image entered lazyloaded" alt="" data-lazy-srcset="https://housedesign.vn/wp-content/uploads/2022/09/A0609572-800x533.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/09/A0609572-300x200.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/09/A0609572-1024x683.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/09/A0609572-768x512.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/09/A0609572-1536x1024.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/09/A0609572-420x280.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/09/A0609572-1100x733.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/09/A0609572-1690x1126.jpg 1690w, https://housedesign.vn/wp-content/uploads/2022/09/A0609572.jpg 2048w" data-lazy-sizes="(max-width: 800px) 100vw, 800px" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/09/A0609572-800x533.jpg" src="https://housedesign.vn/wp-content/uploads/2022/09/A0609572-800x533.jpg" data-ll-status="loaded" sizes="(max-width: 800px) 100vw, 800px" srcset="https://housedesign.vn/wp-content/uploads/2022/09/A0609572-800x533.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/09/A0609572-300x200.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/09/A0609572-1024x683.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/09/A0609572-768x512.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/09/A0609572-1536x1024.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/09/A0609572-420x280.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/09/A0609572-1100x733.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/09/A0609572-1690x1126.jpg 1690w, https://housedesign.vn/wp-content/uploads/2022/09/A0609572.jpg 2048w"><noscript><img width="800" height="533" src="https://housedesign.vn/wp-content/uploads/2022/09/A0609572-800x533.jpg" class="attachment-thumb-big size-thumb-big wp-post-image" alt="" srcset="https://housedesign.vn/wp-content/uploads/2022/09/A0609572-800x533.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/09/A0609572-300x200.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/09/A0609572-1024x683.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/09/A0609572-768x512.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/09/A0609572-1536x1024.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/09/A0609572-420x280.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/09/A0609572-1100x733.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/09/A0609572-1690x1126.jpg 1690w, https://housedesign.vn/wp-content/uploads/2022/09/A0609572.jpg 2048w" sizes="(max-width: 800px) 100vw, 800px" /></noscript>
+                            <div class="overlaycaption">
+                                <h5 class="overlay-name title-minimal"><strong>Ghesai cat coffe- 05 Nguyễn Hoàng Tôn, Tây Hồ, Hà Nội</strong></h5>
+                            </div>
+                            <a href="https://housedesign.vn/du-an/ghesai-cat-coffe-05-nguyen-hoang-ton-tay-ho-ha-noi/" class="transition"></a>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- END .portfolio-masonry-entry -->
+
+
+                <div class="portfolio-masonry-entry masonry-item can-ho can-ho-3-phong-ngu " style="position: absolute; left: 582px; top: 2045.55px; width: 572px;">
+                    <div class="entry-thumb portfolio-thumb">
+
+                        <div class="imgoverlay overlay-light overlay-transparent overlay-simple name-hidden">
+                            <img width="800" height="533" class="attachment-thumb-big size-thumb-big wp-post-image entered lazyloaded" alt="" data-lazy-srcset="https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-16-800x533.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-16-300x200.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-16-1024x683.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-16-768x512.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-16-1536x1024.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-16-420x280.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-16-1100x733.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-16-1690x1126.jpg 1690w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-16.jpg 2048w" data-lazy-sizes="(max-width: 800px) 100vw, 800px" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-16-800x533.jpg" src="https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-16-800x533.jpg" data-ll-status="loaded" sizes="(max-width: 800px) 100vw, 800px" srcset="https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-16-800x533.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-16-300x200.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-16-1024x683.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-16-768x512.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-16-1536x1024.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-16-420x280.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-16-1100x733.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-16-1690x1126.jpg 1690w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-16.jpg 2048w"><noscript><img width="800" height="533" src="https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-16-800x533.jpg" class="attachment-thumb-big size-thumb-big wp-post-image" alt="" srcset="https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-16-800x533.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-16-300x200.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-16-1024x683.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-16-768x512.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-16-1536x1024.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-16-420x280.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-16-1100x733.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-16-1690x1126.jpg 1690w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-16.jpg 2048w" sizes="(max-width: 800px) 100vw, 800px" /></noscript>
+                            <div class="overlaycaption">
+                                <h5 class="overlay-name title-minimal"><strong>Thi công thực tế- Chung cư H2 Hải Phòng</strong></h5>
+                            </div>
+                            <a href="https://housedesign.vn/du-an/cong-trinh-thuc-te-chung-cu-hai-phong/" class="transition"></a>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- END .portfolio-masonry-entry -->
+
+
+                <div class="portfolio-masonry-entry masonry-item can-ho can-ho-3-phong-ngu " style="position: absolute; left: 0px; top: 2361.78px; width: 572px;">
+                    <div class="entry-thumb portfolio-thumb">
+
+                        <div class="imgoverlay overlay-light overlay-transparent overlay-simple name-hidden">
+                            <img width="800" height="615" class="attachment-thumb-big size-thumb-big wp-post-image entered lazyloaded" alt="" data-lazy-srcset="https://housedesign.vn/wp-content/uploads/2022/09/p-khach-4-800x615.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/09/p-khach-4-300x231.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/09/p-khach-4-1024x787.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/09/p-khach-4-768x590.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/09/p-khach-4-1536x1181.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/09/p-khach-4-420x323.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/09/p-khach-4-1100x846.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/09/p-khach-4.jpg 1600w" data-lazy-sizes="(max-width: 800px) 100vw, 800px" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/09/p-khach-4-800x615.jpg" src="https://housedesign.vn/wp-content/uploads/2022/09/p-khach-4-800x615.jpg" data-ll-status="loaded" sizes="(max-width: 800px) 100vw, 800px" srcset="https://housedesign.vn/wp-content/uploads/2022/09/p-khach-4-800x615.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/09/p-khach-4-300x231.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/09/p-khach-4-1024x787.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/09/p-khach-4-768x590.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/09/p-khach-4-1536x1181.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/09/p-khach-4-420x323.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/09/p-khach-4-1100x846.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/09/p-khach-4.jpg 1600w"><noscript><img width="800" height="615" src="https://housedesign.vn/wp-content/uploads/2022/09/p-khach-4-800x615.jpg" class="attachment-thumb-big size-thumb-big wp-post-image" alt="" srcset="https://housedesign.vn/wp-content/uploads/2022/09/p-khach-4-800x615.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/09/p-khach-4-300x231.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/09/p-khach-4-1024x787.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/09/p-khach-4-768x590.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/09/p-khach-4-1536x1181.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/09/p-khach-4-420x323.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/09/p-khach-4-1100x846.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/09/p-khach-4.jpg 1600w" sizes="(max-width: 800px) 100vw, 800px" /></noscript>
+                            <div class="overlaycaption">
+                                <h5 class="overlay-name title-minimal"><strong>Vinhome Central Park- Cải tạo</strong></h5>
+                            </div>
+                            <a href="https://housedesign.vn/du-an/vinhome-central-park-cai-tao/" class="transition"></a>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- END .portfolio-masonry-entry -->
+
+
+                <div class="portfolio-masonry-entry masonry-item can-ho can-ho-3-phong-ngu " style="position: absolute; left: 582px; top: 2437.06px; width: 572px;">
+                    <div class="entry-thumb portfolio-thumb">
+
+                        <div class="imgoverlay overlay-light overlay-transparent overlay-simple name-hidden">
+                            <img width="800" height="667" class="attachment-thumb-big size-thumb-big wp-post-image entered lazyloaded" alt="" data-lazy-srcset="https://housedesign.vn/wp-content/uploads/2022/09/housedesign-the-Marq-w-1-800x667.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-the-Marq-w-1-300x250.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-the-Marq-w-1-1024x854.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-the-Marq-w-1-768x640.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-the-Marq-w-1-1536x1280.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-the-Marq-w-1-420x350.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-the-Marq-w-1-1100x917.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-the-Marq-w-1-1690x1409.jpg 1690w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-the-Marq-w-1.jpg 2000w" data-lazy-sizes="(max-width: 800px) 100vw, 800px" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/09/housedesign-the-Marq-w-1-800x667.jpg" src="https://housedesign.vn/wp-content/uploads/2022/09/housedesign-the-Marq-w-1-800x667.jpg" data-ll-status="loaded" sizes="(max-width: 800px) 100vw, 800px" srcset="https://housedesign.vn/wp-content/uploads/2022/09/housedesign-the-Marq-w-1-800x667.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-the-Marq-w-1-300x250.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-the-Marq-w-1-1024x854.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-the-Marq-w-1-768x640.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-the-Marq-w-1-1536x1280.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-the-Marq-w-1-420x350.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-the-Marq-w-1-1100x917.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-the-Marq-w-1-1690x1409.jpg 1690w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-the-Marq-w-1.jpg 2000w"><noscript><img width="800" height="667" src="https://housedesign.vn/wp-content/uploads/2022/09/housedesign-the-Marq-w-1-800x667.jpg" class="attachment-thumb-big size-thumb-big wp-post-image" alt="" srcset="https://housedesign.vn/wp-content/uploads/2022/09/housedesign-the-Marq-w-1-800x667.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-the-Marq-w-1-300x250.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-the-Marq-w-1-1024x854.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-the-Marq-w-1-768x640.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-the-Marq-w-1-1536x1280.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-the-Marq-w-1-420x350.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-the-Marq-w-1-1100x917.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-the-Marq-w-1-1690x1409.jpg 1690w, https://housedesign.vn/wp-content/uploads/2022/09/housedesign-the-Marq-w-1.jpg 2000w" sizes="(max-width: 800px) 100vw, 800px" /></noscript>
+                            <div class="overlaycaption">
+                                <h5 class="overlay-name title-minimal"><strong>The MarQ- Đẳng cấp thời thượng</strong></h5>
+                            </div>
+                            <a href="https://housedesign.vn/du-an/the-marq-dang-cap-thoi-thuong/" class="transition"></a>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- END .portfolio-masonry-entry -->
+
+
+                <div class="portfolio-masonry-entry masonry-item can-ho can-ho-3-phong-ngu " style="position: absolute; left: 0px; top: 2811.38px; width: 572px;">
+                    <div class="entry-thumb portfolio-thumb">
+
+                        <div class="imgoverlay overlay-light overlay-transparent overlay-simple name-hidden">
+                            <img width="800" height="534" class="attachment-thumb-big size-thumb-big wp-post-image entered lazyloaded" alt="" data-lazy-srcset="https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-800x534.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-300x200.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-1024x683.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-768x512.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-1536x1025.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-420x280.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-1100x734.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-1690x1127.jpg 1690w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9.jpg 2000w" data-lazy-sizes="(max-width: 800px) 100vw, 800px" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-800x534.jpg" src="https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-800x534.jpg" data-ll-status="loaded" sizes="(max-width: 800px) 100vw, 800px" srcset="https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-800x534.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-300x200.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-1024x683.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-768x512.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-1536x1025.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-420x280.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-1100x734.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-1690x1127.jpg 1690w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9.jpg 2000w"><noscript><img width="800" height="534" src="https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-800x534.jpg" class="attachment-thumb-big size-thumb-big wp-post-image" alt="" srcset="https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-800x534.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-300x200.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-1024x683.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-768x512.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-1536x1025.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-420x280.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-1100x734.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-1690x1127.jpg 1690w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9.jpg 2000w" sizes="(max-width: 800px) 100vw, 800px" /></noscript>
+                            <div class="overlaycaption">
+                                <h5 class="overlay-name title-minimal"><strong>Căn hộ The View- Tối giản hiện đại</strong></h5>
+                            </div>
+                            <a href="https://housedesign.vn/du-an/can-ho-the-view-toi-gian-hien-dai/" class="transition"></a>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- END .portfolio-masonry-entry -->
             </div>
+
         </div>
-    </div>
-</div>
+    </section>
+</div>--%>
+
+
 <!-- PAGEBODY -->

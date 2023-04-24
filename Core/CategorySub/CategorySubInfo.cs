@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Core.CategorySub
 {
@@ -92,6 +93,14 @@ namespace Core.CategorySub
             get { return _C_Name; }
             set { _C_Name = value; }
         }
+
+
+
+        private string _CS_ArticleImgs;
+        public string CS_ArticleImgs { get => _CS_ArticleImgs; set => _CS_ArticleImgs = value; }
+
+        private string[] _lstArticleImgs;
+        public string[] lstArticleImgs { get => _lstArticleImgs; set => _lstArticleImgs = value; }
 
     }
 }

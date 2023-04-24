@@ -2,6 +2,7 @@
 using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
+using System.Security.Cryptography;
 
 namespace Core.CategorySub
 {
@@ -93,6 +94,7 @@ namespace Core.CategorySub
             dbCmd.Parameters.Add("@CS_Cmd", _categorySubInfo.CS_Cmd);
             dbCmd.Parameters.Add("@CS_TypeDisplay", _categorySubInfo.CS_TypeDisplay);
             dbCmd.Parameters.Add("@CS_CreateDate", _categorySubInfo.CS_CreateDate);
+            dbCmd.Parameters.Add("@CS_ArticleImgs", _categorySubInfo.CS_ArticleImgs);
             dbCmd.Parameters.Add("@U_UserName", _categorySubInfo.U_UserName);
             dbCmd.Parameters.Add("@RETURN_VALUE", SqlDbType.Int).Direction = ParameterDirection.ReturnValue;
             try
@@ -121,6 +123,7 @@ namespace Core.CategorySub
             dbCmd.Parameters.Add("@CS_Cmd", _categorySubInfo.CS_Cmd);
             dbCmd.Parameters.Add("@CS_TypeDisplay", _categorySubInfo.CS_TypeDisplay);
             dbCmd.Parameters.Add("@CS_CreateDate", _categorySubInfo.CS_CreateDate);
+            dbCmd.Parameters.Add("@CS_ArticleImgs", _categorySubInfo.CS_ArticleImgs);
             dbCmd.Parameters.Add("@U_UserName", _categorySubInfo.U_UserName);
             try
             {
@@ -160,6 +163,8 @@ namespace Core.CategorySub
                     retVal.CS_CreateDate = Convert.ToDateTime(dr["CS_CreateDate"]);
                     retVal.U_UserName = Convert.ToString(dr["U_UserName"]);
                     retVal.C_Name = Convert.ToString(dr["C_Name"]);
+                    retVal.CS_ArticleImgs = Convert.ToString(dr["CS_ArticleImgs"]);
+                    
 
 
                 }

@@ -13,7 +13,7 @@
 
 <!DOCTYPE html>
 <html lang="vi" class="no-js">
-<head>
+<head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <script type="text/javascript" async="" src="./Home_Nodric_files/analytics.js"></script>
     <script data-no-optimize="1">var litespeed_docref = sessionStorage.getItem("litespeed_docref"); litespeed_docref && (Object.defineProperty(document, "referrer", { get: function () { return litespeed_docref } }), sessionStorage.removeItem("litespeed_docref"));</script>

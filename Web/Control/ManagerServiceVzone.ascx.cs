@@ -231,13 +231,14 @@ namespace Web.Control
                     objInfo.U_UserName = Session["Username"].ToString();
 
 
-
+                    StringBuilder sbArticleImgs = new StringBuilder();
                     if (fileUpload.HasFile)
                     {
                         if ((fileUpload.PostedFile != null) && (fileUpload.PostedFile.ContentLength > 0))
                         {
                             var count = 0;
                             String path = "/Upload/Article/";
+
                             foreach (HttpPostedFile uploadedFile in fileUpload.PostedFiles)
                             {
                                 //string fn = System.IO.Path.GetFileName(uploadedFile.FileName);
@@ -248,6 +249,7 @@ namespace Web.Control
                                     uploadedFile.SaveAs(MapPath(SaveLocation));
                                     count++;
                                     objInfo.CS_ImageURL = SaveLocation;
+                                    sbArticleImgs.Append(SaveLocation).Append(";");
                                 }
                                 catch (Exception ex)
                                 {
@@ -286,7 +288,7 @@ namespace Web.Control
                         return;
                     }
 
-
+                    objInfo.CS_ArticleImgs = sbArticleImgs.Length > 0 ? sbArticleImgs.ToString() : null;
                     int status = CategorySubDB.Insert(objInfo);
                     if (status > 1)
                     {
@@ -307,6 +309,7 @@ namespace Web.Control
             else
             {
                 CategorySubInfo objInfo = CategorySubDB.GetInfo(Convert.ToInt32(hdService.Value));
+                StringBuilder sbArticleImgs = new StringBuilder();
                 objInfo.CS_Name = txtName.Text;
                 //objInfo.CS_Content = Convert.ToString(fckContent.Value);
                 //TODO: Kienng : custom style display content html require :<div class=\"container-fluid pt-5\">
@@ -362,12 +365,14 @@ namespace Web.Control
                         {
                             //string fn = System.IO.Path.GetFileName(uploadedFile.FileName);
                             string SaveLocation = path + uploadedFile.FileName;
+
                             //string SaveLocation = Server.MapPath(urlFile);
                             try
                             {
                                 uploadedFile.SaveAs(MapPath(SaveLocation));
                                 count++;
                                 objInfo.CS_ImageURL = SaveLocation;
+                                sbArticleImgs.Append(SaveLocation).Append(";");
                             }
                             catch (Exception ex)
                             {
@@ -383,6 +388,10 @@ namespace Web.Control
                     {
                         lblStatus.Text = "Please select a file to upload.";
                     }
+                }
+                if (sbArticleImgs.Length > 0)
+                {
+                    objInfo.CS_ArticleImgs = sbArticleImgs.ToString();
                 }
                 bool status = CategorySubDB.Update(objInfo);
                 {
