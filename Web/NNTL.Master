@@ -19,6 +19,9 @@
     <script data-no-optimize="1">var litespeed_docref = sessionStorage.getItem("litespeed_docref"); litespeed_docref && (Object.defineProperty(document, "referrer", { get: function () { return litespeed_docref } }), sessionStorage.removeItem("litespeed_docref"));</script>
     <link data-optimized="2" rel="stylesheet" href="App_Themes/house/css/main.css">
     <link data-optimized="2" rel="stylesheet" href="App_Themes/house/css/custom.css">
+    <link data-optimized="2" rel="stylesheet" href="App_Themes/house/css/style.css">
+
+    <link data-optimized="2" rel="stylesheet" href="App_Themes/house/css/grids-responsive-min.css">
     <title>Showroom đồ nội thất phong cách bắc âu Scandinavian cao cấp</title>
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="description" content="Showroom đồ nội thất phong cách bắc âu Scandinavian cao cấp chuyên cung cấp các món đồ nội thất phong cách bắc âu Scandinavian">
@@ -49,6 +52,11 @@
         <p>Rất tiếc, sản phẩm này hiện không tồn tại. Hãy chọn một phương thức kết hợp khác.</p>
     </script>
     <script type="text/javascript" src="App_Themes/house/js/jquery.min.js" id="jquery-core-js"></script>
+    <script type="text/javascript" src="App_Themes/house/js/script.js"></script>
+    <script type="text/javascript" src="App_Themes/house/js/imagesloaded.min.js"></script>
+    <script type="text/javascript" src="App_Themes/house/js/isotope.pkgd.min.js"></script>
+
+
     <link rel="canonical" href="https://nordic.vn/">
     <noscript>
         <style>
@@ -182,7 +190,7 @@
                             </li>
                         </ul>
                     </li>
-                   
+
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2673 nav-item">
                         <a class="nav-links" href="https://nordic.vn/showroom-1/">Liên hệ</a>
                     </li>

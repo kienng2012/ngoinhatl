@@ -53,7 +53,7 @@
                         <asp:Repeater ID="rpImages" runat="server">
                             <ItemTemplate>
                                 <div class="item_pro">
-                                   <%-- <div class="img" style="background-image: url(<%#Eval("IMG_URL_ITEM") %>"></div>--%>
+                                    <%-- <div class="img" style="background-image: url(<%#Eval("IMG_URL_ITEM") %>"></div>--%>
                                     <%-- <li><img src="<%#Eval("IMG_URL_ITEM") %>" alt="" /></li>--%>
 
                                     <img src="<%#Eval("IMG_URL_ITEM") %>" alt="" class="img-details" />
@@ -130,4 +130,272 @@
     </div>
 </div>
 <!-- Menu End -->
+
+<div class="container-fluid pt-5">
+    <div class="container">
+        <div class="container-grid">
+            <div class="grid-img">
+                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-2-1100x1375.jpg" style="width: 100%">
+            </div>
+            <div class="grid-img">
+                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-3-1100x688.jpg" style="width: 100%">
+            </div>
+            <div class="grid-img">
+                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-1100x1100.jpg" style="width: 100%">
+            </div>
+            <div class="grid-img">
+                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-8-1100x688.jpg" style="width: 100%">
+            </div>
+            <div class="grid-img">
+                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-2-1100x1375.jpg" style="width: 100%">
+            </div>
+            <div class="grid-img">
+                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-3-1100x688.jpg" style="width: 100%">
+            </div>
+            <div class="grid-img">
+                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-1100x1100.jpg" style="width: 100%">
+            </div>
+            <div class="grid-img">
+                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-8-1100x688.jpg" style="width: 100%">
+            </div>
+            <div class="grid-img">
+                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-2-1100x1375.jpg" style="width: 100%">
+            </div>
+            <div class="grid-img">
+                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-3-1100x688.jpg" style="width: 100%">
+            </div>
+            <div class="grid-img">
+                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-1100x1100.jpg" style="width: 100%">
+            </div>
+            <div class="grid-img">
+                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-8-1100x688.jpg" style="width: 100%">
+            </div>
+            <%--<img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-2-1100x1375.jpg" style="width: 100%">
+            <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-3-1100x688.jpg" style="width: 100%">
+            <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-1100x1100.jpg" style="width: 100%">
+            <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-8-1100x688.jpg" style="width: 100%">--%>
+</div>
+<%--<div class="grid-img">
+               <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-3-1100x688.jpg" style="width: 100%">
+                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-1100x1100.jpg" style="width: 100%">
+                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-8-1100x688.jpg" style="width: 100%">
+                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-2-1100x1375.jpg" style="width: 100%">
+                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-3-1100x688.jpg" style="width: 100%">
+                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-1100x1100.jpg" style="width: 100%">
+                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-8-1100x688.jpg" style="width: 100%">
+                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-2-1100x1375.jpg" style="width: 100%">
+                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-3-1100x688.jpg" style="width: 100%">
+                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-1100x1100.jpg" style="width: 100%">
+                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-8-1100x688.jpg" style="width: 100%">
+                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-2-1100x1375.jpg" style="width: 100%">
+                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-3-1100x688.jpg" style="width: 100%">
+                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-1100x1100.jpg" style="width: 100%">
+                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-8-1100x688.jpg" style="width: 100%">
+            </div>--%>
+        </div>
+    </div>
+
+<div id="page-body" class="">
+    <!-- SECTION PORTFOLIO -->
+    <section id="portfolio-single" class="notoppadding">
+        <div class="section-inner">
+            <div class="wrapper">
+                <ul class="breadcrumb-custom">
+                    <li><a href="https://housedesign.vn/">Trang chủ</a> </li>
+                    <li><a href="https://housedesign.vn/du-an/">Dự án</a></li>
+                    <li>Coffee phong cách Wabisabi Việt                        </li>
+                </ul>
+
+                <div class="spacer spacer-small"></div>
+                <h4 class="title-ultraminimal align-center" data-bigletter="Coffee phong cách Wabisabi Việt">Coffee phong cách Wabisabi Việt</h4>
+                <div class="spacer spacer-small"></div>
+                <p>Quán Coffee trong 1 con xóm nhỏ gần gũi và bình dị ở quận Bình Thạnh, với phong cách wabisabi Việt thân thiện hướng đến cảm xúc của người sử dụng và là nơi để thưởng thức cà phê thơm ngon.</p>
+                <div class="spacer spacer-small"></div>
+            </div>
+            <div id="gallery-grid-sc" class="masonry clearfix" data-maxitemwidth="300" style="position: relative; height: 1771.97px;">
+                <div class="masonry-item" style="position: absolute; left: 0px; top: 0px; width: 245px;">
+                    <a href="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-2-1100x1375.jpg" data-fancybox="gallery_sc" class="openfancybox">
+                        <img width="420" height="525" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-2-420x525.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-2-420x525.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="420" height="525" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-2-420x525.jpg" alt="" /></noscript>
+                    </a>
+                </div>
+                <div class="masonry-item" style="position: absolute; left: 255px; top: 0px; width: 245px;">
+                    <a href="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-3-1100x688.jpg" data-fancybox="gallery_sc" class="openfancybox">
+                        <img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-3-420x263.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-3-420x263.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-3-420x263.jpg" alt="" /></noscript>
+                    </a>
+                </div>
+                <div class="masonry-item" style="position: absolute; left: 510px; top: 0px; width: 245px;">
+                    <a href="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-1100x1100.jpg" data-fancybox="gallery_sc" class="openfancybox">
+                        <img width="420" height="420" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-420x420.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-420x420.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="420" height="420" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-420x420.jpg" alt="" /></noscript>
+                    </a>
+                </div>
+                <div class="masonry-item" style="position: absolute; left: 765px; top: 0px; width: 245px;">
+                    <a href="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-5-1100x1100.jpg" data-fancybox="gallery_sc" class="openfancybox">
+                        <img width="420" height="420" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-5-420x420.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-5-420x420.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="420" height="420" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-5-420x420.jpg" alt="" /></noscript>
+                    </a>
+                </div>
+                <div class="masonry-item" style="position: absolute; left: 255px; top: 165.656px; width: 245px;">
+                    <a href="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-6-1100x1100.jpg" data-fancybox="gallery_sc" class="openfancybox">
+                        <img width="420" height="420" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-6-420x420.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-6-420x420.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="420" height="420" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-6-420x420.jpg" alt="" /></noscript>
+                    </a>
+                </div>
+                <div class="masonry-item" style="position: absolute; left: 510px; top: 255px; width: 245px;">
+                    <a href="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-7-1100x688.jpg" data-fancybox="gallery_sc" class="openfancybox">
+                        <img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-7-420x263.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-7-420x263.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-7-420x263.jpg" alt="" /></noscript>
+                    </a>
+                </div>
+                <div class="masonry-item" style="position: absolute; left: 765px; top: 255px; width: 245px;">
+                    <a href="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-8-1100x688.jpg" data-fancybox="gallery_sc" class="openfancybox">
+                        <img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-8-420x263.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-8-420x263.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-8-420x263.jpg" alt="" /></noscript>
+                    </a>
+                </div>
+                <div class="masonry-item" style="position: absolute; left: 0px; top: 314.75px; width: 245px;">
+                    <a href="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-9-1100x688.jpg" data-fancybox="gallery_sc" class="openfancybox">
+                        <img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-9-420x263.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-9-420x263.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-9-420x263.jpg" alt="" /></noscript>
+                    </a>
+                </div>
+                <div class="masonry-item" style="position: absolute; left: 255px; top: 420.656px; width: 245px;">
+                    <a href="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-10-1100x688.jpg" data-fancybox="gallery_sc" class="openfancybox">
+                        <img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-10-420x263.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-10-420x263.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-10-420x263.jpg" alt="" /></noscript>
+                    </a>
+                </div>
+                <div class="masonry-item" style="position: absolute; left: 510px; top: 420.656px; width: 245px;">
+                    <a href="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-11-1100x688.jpg" data-fancybox="gallery_sc" class="openfancybox">
+                        <img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-11-420x263.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-11-420x263.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-11-420x263.jpg" alt="" /></noscript>
+                    </a>
+                </div>
+                <div class="masonry-item" style="position: absolute; left: 765px; top: 420.656px; width: 245px;">
+                    <a href="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-12-1100x688.jpg" data-fancybox="gallery_sc" class="openfancybox">
+                        <img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-12-420x263.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-12-420x263.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-12-420x263.jpg" alt="" /></noscript>
+                    </a>
+                </div>
+                <div class="masonry-item" style="position: absolute; left: 0px; top: 480.406px; width: 245px;">
+                    <a href="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-13-1100x688.jpg" data-fancybox="gallery_sc" class="openfancybox">
+                        <img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-13-420x263.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-13-420x263.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-13-420x263.jpg" alt="" /></noscript>
+                    </a>
+                </div>
+                <div class="masonry-item" style="position: absolute; left: 255px; top: 586.312px; width: 245px;">
+                    <a href="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-14-1100x688.jpg" data-fancybox="gallery_sc" class="openfancybox">
+                        <img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-14-420x263.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-14-420x263.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-14-420x263.jpg" alt="" /></noscript>
+                    </a>
+                </div>
+                <div class="masonry-item" style="position: absolute; left: 510px; top: 586.312px; width: 245px;">
+                    <a href="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-15-1100x1100.jpg" data-fancybox="gallery_sc" class="openfancybox">
+                        <img width="420" height="420" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-15-420x420.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-15-420x420.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="420" height="420" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-15-420x420.jpg" alt="" /></noscript>
+                    </a>
+                </div>
+                <div class="masonry-item" style="position: absolute; left: 765px; top: 586.312px; width: 245px;">
+                    <a href="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-16-1100x688.jpg" data-fancybox="gallery_sc" class="openfancybox">
+                        <img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-16-420x263.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-16-420x263.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-16-420x263.jpg" alt="" /></noscript>
+                    </a>
+                </div>
+                <div class="masonry-item" style="position: absolute; left: 0px; top: 646.062px; width: 245px;">
+                    <a href="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-17-1100x688.jpg" data-fancybox="gallery_sc" class="openfancybox">
+                        <img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-17-420x263.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-17-420x263.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-17-420x263.jpg" alt="" /></noscript>
+                    </a>
+                </div>
+                <div class="masonry-item" style="position: absolute; left: 255px; top: 751.968px; width: 245px;">
+                    <a href="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-18-1100x688.jpg" data-fancybox="gallery_sc" class="openfancybox">
+                        <img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-18-420x263.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-18-420x263.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-18-420x263.jpg" alt="" /></noscript>
+                    </a>
+                </div>
+                <div class="masonry-item" style="position: absolute; left: 765px; top: 751.968px; width: 245px;">
+                    <a href="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-19-1100x688.jpg" data-fancybox="gallery_sc" class="openfancybox">
+                        <img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-19-420x263.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-19-420x263.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-19-420x263.jpg" alt="" /></noscript>
+                    </a>
+                </div>
+                <div class="masonry-item" style="position: absolute; left: 0px; top: 811.718px; width: 245px;">
+                    <a href="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-20-1100x1100.jpg" data-fancybox="gallery_sc" class="openfancybox">
+                        <img width="420" height="420" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-20-420x420.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-20-420x420.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="420" height="420" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-20-420x420.jpg" alt="" /></noscript>
+                    </a>
+                </div>
+                <div class="masonry-item" style="position: absolute; left: 510px; top: 841.312px; width: 245px;">
+                    <a href="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-21-1100x1100.jpg" data-fancybox="gallery_sc" class="openfancybox">
+                        <img width="420" height="420" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-21-420x420.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-21-420x420.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="420" height="420" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-21-420x420.jpg" alt="" /></noscript>
+                    </a>
+                </div>
+                <div class="masonry-item" style="position: absolute; left: 255px; top: 917.624px; width: 245px;">
+                    <a href="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-22-1100x1100.jpg" data-fancybox="gallery_sc" class="openfancybox">
+                        <img width="420" height="420" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-22-420x420.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-22-420x420.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="420" height="420" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-22-420x420.jpg" alt="" /></noscript>
+                    </a>
+                </div>
+                <div class="masonry-item" style="position: absolute; left: 765px; top: 917.624px; width: 245px;">
+                    <a href="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-23-1100x1100.jpg" data-fancybox="gallery_sc" class="openfancybox">
+                        <img width="420" height="420" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-23-420x420.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-23-420x420.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="420" height="420" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-23-420x420.jpg" alt="" /></noscript>
+                    </a>
+                </div>
+                <div class="masonry-item" style="position: absolute; left: 0px; top: 1066.72px; width: 245px;">
+                    <a href="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-24-1100x688.jpg" data-fancybox="gallery_sc" class="openfancybox">
+                        <img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-24-420x263.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-24-420x263.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-24-420x263.jpg" alt="" /></noscript>
+                    </a>
+                </div>
+                <div class="masonry-item" style="position: absolute; left: 510px; top: 1096.31px; width: 245px;">
+                    <a href="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-25-1100x688.jpg" data-fancybox="gallery_sc" class="openfancybox">
+                        <img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-25-420x263.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-25-420x263.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-25-420x263.jpg" alt="" /></noscript>
+                    </a>
+                </div>
+                <div class="masonry-item" style="position: absolute; left: 255px; top: 1172.62px; width: 245px;">
+                    <a href="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-26-1100x1100.jpg" data-fancybox="gallery_sc" class="openfancybox">
+                        <img width="420" height="420" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-26-420x420.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-26-420x420.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="420" height="420" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-26-420x420.jpg" alt="" /></noscript>
+                    </a>
+                </div>
+                <div class="masonry-item" style="position: absolute; left: 765px; top: 1172.62px; width: 245px;">
+                    <a href="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-27-1100x688.jpg" data-fancybox="gallery_sc" class="openfancybox">
+                        <img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-27-420x263.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-27-420x263.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-27-420x263.jpg" alt="" /></noscript>
+                    </a>
+                </div>
+                <div class="masonry-item" style="position: absolute; left: 0px; top: 1232.37px; width: 245px;">
+                    <a href="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-28-1100x688.jpg" data-fancybox="gallery_sc" class="openfancybox">
+                        <img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-28-420x263.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-28-420x263.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-28-420x263.jpg" alt="" /></noscript>
+                    </a>
+                </div>
+                <div class="masonry-item" style="position: absolute; left: 510px; top: 1261.97px; width: 245px;">
+                    <a href="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-29-1100x1100.jpg" data-fancybox="gallery_sc" class="openfancybox">
+                        <img width="420" height="420" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-29-420x420.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-29-420x420.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="420" height="420" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-29-420x420.jpg" alt="" /></noscript>
+                    </a>
+                </div>
+                <div class="masonry-item" style="position: absolute; left: 765px; top: 1338.28px; width: 245px;">
+                    <a href="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-30-1100x688.jpg" data-fancybox="gallery_sc" class="openfancybox">
+                        <img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-30-420x263.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-30-420x263.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-30-420x263.jpg" alt="" /></noscript>
+                    </a>
+                </div>
+                <div class="masonry-item" style="position: absolute; left: 0px; top: 1398.03px; width: 245px;">
+                    <a href="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-31-1100x688.jpg" data-fancybox="gallery_sc" class="openfancybox">
+                        <img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-31-420x263.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-31-420x263.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-31-420x263.jpg" alt="" /></noscript>
+                    </a>
+                </div>
+                <div class="masonry-item" style="position: absolute; left: 255px; top: 1427.62px; width: 245px;">
+                    <a href="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-32-1100x1100.jpg" data-fancybox="gallery_sc" class="openfancybox">
+                        <img width="420" height="420" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-32-420x420.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-32-420x420.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="420" height="420" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-32-420x420.jpg" alt="" /></noscript>
+                    </a>
+                </div>
+                <div class="masonry-item" style="position: absolute; left: 765px; top: 1503.94px; width: 245px;">
+                    <a href="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-33-1100x1100.jpg" data-fancybox="gallery_sc" class="openfancybox">
+                        <img width="420" height="420" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-33-420x420.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-33-420x420.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="420" height="420" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-33-420x420.jpg" alt="" /></noscript>
+                    </a>
+                </div>
+                <div class="masonry-item" style="position: absolute; left: 510px; top: 1516.97px; width: 245px;">
+                    <a href="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-34-1100x1100.jpg" data-fancybox="gallery_sc" class="openfancybox">
+                        <img width="420" height="420" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-34-420x420.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-34-420x420.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="420" height="420" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-34-420x420.jpg" alt="" /></noscript>
+                    </a>
+                </div>
+                <div class="masonry-item" style="position: absolute; left: 0px; top: 1563.69px; width: 245px;">
+                    <a href="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-35-1100x688.jpg" data-fancybox="gallery_sc" class="openfancybox">
+                        <img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-35-420x263.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-35-420x263.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="420" height="263" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-35-420x263.jpg" alt="" /></noscript>
+                    </a>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="spacer spacer-small"></div>
+            </div>
+
+            <div class="wrapper mt-5">
+
+                <hr class="my-5">
+
+                <!-- V -->
+            </div>
+        </div>
+    </section>
+    <!-- SECTION PORTFOLIO -->
+</div>
 
