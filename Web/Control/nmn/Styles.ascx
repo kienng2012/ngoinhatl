@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Projects.ascx.cs" Inherits="Web.Control.nmn.Projects" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Styles.ascx.cs" Inherits="Web.Control.nmn.Styles" %>
 <%@ Import Namespace="Core.Utils" %>
 <%--<%@ Register Src="~/Control/nmn/SlideShowHome.ascx" TagName="slideShowHome" TagPrefix="uc2" %>--%>
 <!-- PAGEBODY -->
@@ -6,7 +6,7 @@
 <!-- BANNER -->
 <div class="banner_pages banner_catpro section_bg" style="background-image: url(https://nordic.vn/wp-content/uploads/2021/07/z2588419486156_2f9d042b2b06ed6ffd0265a207f8b602-1.jpg);">
     <div class="inner">
-        <h1 class="title_catpro">Dự án</h1>
+        <h1 class="title_catpro">Sản phẩm</h1>
     </div>
 </div>
 <!-- END BANNER -->
@@ -130,7 +130,7 @@
                             <span class="link">Xem chi tiết</span>
                         </div>
                     </div>
-                    <a href="/Du-an-<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm" class="link_full"></a>
+                    <a href="/Bai-viet-<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm" class="link_full"></a>
                 </div>
 
             </ItemTemplate>

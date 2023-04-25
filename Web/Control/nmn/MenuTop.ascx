@@ -31,7 +31,7 @@
                             </ul>
                         </li>
 
-                        <li id="menu-item-1722" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1722 nav-item"><a class="nav-links" href="https://nordic.vn/bo-suu-tap/">Phong cách thiết kế</a>
+                        <li id="menu-item-1722" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1722 nav-item"><a class="nav-links" href="Index.aspx?page=Styles">Phong cách thiết kế</a>
                             <ul class="sub-menu">
                                 <li id="menu-item-2307" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2307 nav-item"><a class="nav-links" href="https://nordic.vn/bst-2020/">Hiện đại</a></li>
                                 <li id="menu-item-2304" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-2304 nav-item"><a class="nav-links" href="https://nordic.vn/the-lover/">Scandinavian</a></li>

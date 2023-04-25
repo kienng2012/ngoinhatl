@@ -48,7 +48,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="products columns-2 list_product">
+                    <div class="products-details columns-4 list_product">
 
                         <asp:Repeater ID="rpImages" runat="server">
                             <ItemTemplate>
@@ -56,7 +56,7 @@
                                    <%-- <div class="img" style="background-image: url(<%#Eval("IMG_URL_ITEM") %>"></div>--%>
                                     <%-- <li><img src="<%#Eval("IMG_URL_ITEM") %>" alt="" /></li>--%>
 
-                                    <img src="<%#Eval("IMG_URL_ITEM") %>" alt="" />
+                                    <img src="<%#Eval("IMG_URL_ITEM") %>" alt="" class="img-details" />
                                 </div>
                             </ItemTemplate>
                         </asp:Repeater>

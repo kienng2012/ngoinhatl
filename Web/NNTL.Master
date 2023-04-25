@@ -182,39 +182,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1724 nav-item">
-                        <a class="nav-links" href="https://nordic.vn/nordic-24h/">Nordic 24h</a>
-                        <i class="fa fa-angle-down"></i>
-                        <ul class="sub-menu">
-                            <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1739 nav-item">
-                                <a class="nav-links" href="https://nordic.vn/ban-tin-nordic/">Bản tin Nordic</a>
-                            </li>
-                            <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1740 nav-item">
-                                <a class="nav-links" href="https://nordic.vn/bao-chi-viet-ve-nordic/">Báo chí viết về Nordic</a>
-                            </li>
-                            <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1743 nav-item">
-                                <a class="nav-links" href="https://nordic.vn/kien-thuc-noi-that/">Kiến thức nội thất</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2614 nav-item">
-                        <a class="nav-links" href="https://nordic.vn/chinh-sach/">Chính sách</a>
-                        <i class="fa fa-angle-down"></i>
-                        <ul class="sub-menu">
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2520 nav-item">
-                                <a class="nav-links" href="https://nordic.vn/refund_returns/">Chính sách đổi trả hàng</a>
-                            </li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2521 nav-item">
-                                <a class="nav-links" href="https://nordic.vn/chinh-sach-mua-hang/">Chính sách ưu đãi dành cho khách hàng nhà Nordic</a>
-                            </li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2522 nav-item">
-                                <a class="nav-links" href="https://nordic.vn/chinh-sach-bao-hanh/">Chính sách bảo hành</a>
-                            </li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2523 nav-item">
-                                <a class="nav-links" href="https://nordic.vn/chinh-sach-van-chuyen/">Chính sách vận chuyển</a>
-                            </li>
-                        </ul>
-                    </li>
+                   
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2673 nav-item">
                         <a class="nav-links" href="https://nordic.vn/showroom-1/">Liên hệ</a>
                     </li>

@@ -38,6 +38,8 @@ namespace Web
             ArticleProduct,
             Projects,
             ProjectDetail,
+            Styles,
+            StyleDetail,
 
             //SubjectDetails,
             //BangVang,
