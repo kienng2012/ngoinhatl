@@ -610,6 +610,8 @@
     <Content Include="Control\MenuVzone.ascx" />
     <Content Include="Control\nmn\ArticleList.ascx" />
     <Content Include="Control\nmn\ArticleProduct.ascx" />
+    <Content Include="Control\nmn\StyleTop.ascx" />
+    <Content Include="Control\nmn\ProjectTop.ascx" />
     <Content Include="Control\nmn\GioiThieuSP1.ascx" />
     <Content Include="Control\nmn\Footer.ascx" />
     <Content Include="Control\nmn\StyleDetail.ascx" />
@@ -949,6 +951,20 @@
     </Compile>
     <Compile Include="Control\nmn\ArticleProduct.ascx.designer.cs">
       <DependentUpon>ArticleProduct.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\nmn\StyleTop.ascx.cs">
+      <DependentUpon>StyleTop.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\nmn\StyleTop.ascx.designer.cs">
+      <DependentUpon>StyleTop.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\nmn\ProjectTop.ascx.cs">
+      <DependentUpon>ProjectTop.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\nmn\ProjectTop.ascx.designer.cs">
+      <DependentUpon>ProjectTop.ascx</DependentUpon>
     </Compile>
     <Compile Include="Control\nmn\GioiThieuSP1.ascx.cs">
       <DependentUpon>GioiThieuSP1.ascx</DependentUpon>

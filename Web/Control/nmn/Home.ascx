@@ -1,6 +1,9 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Home.ascx.cs" Inherits="Web.Control.nmn.Home" %>
 <%@ Import Namespace="Core.Utils" %>
 <%--<%@ Register Src="~/Control/nmn/SlideShowHome.ascx" TagName="slideShowHome" TagPrefix="uc2" %>--%>
+<%@ Register Src="~/Control/nmn/ProjectTop.ascx" TagName="projectTop" TagPrefix="uc1" %>
+<%@ Register Src="~/Control/nmn/StyleTop.ascx" TagName="styleTop" TagPrefix="uc2" %>
+
 <!-- PAGEBODY -->
 <%--<main id="main">--%>
     <div class="banner_home">
@@ -518,7 +521,8 @@
                 </div>
             </div>
         </div>
-    <div class="news_home2">
+<!-- DU AN TOP -->
+   <%-- <div class="news_home2">
             <div class="container-fluid">
                 <div class="title_home2">
                     <h2 class="title">CÁC DỰ ÁN</h2>
@@ -629,9 +633,12 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>--%>
+<uc1:projectTop ID="ProjectTop1" runat="server" />
+<!-- END DU AN TOP
     <!-- CAC PHONG CACH -->
-    <div class="collection_home">
+<uc2:styleTop ID="StyleTop1" runat="server" />
+   <%-- <div class="collection_home">
             <div class="background bg_section" style="background-image: url(https://nordic.vn/wp-content/uploads/2023/04/Untitled-8.jpg);"></div><div class="container-fluid">
                 <div class="title_home2 white">
                     <h2 class="title">CÁC PHONG CÁCH</h2>
@@ -736,7 +743,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>--%>
     <!-- END CAC PHONG CACH -->
 
     <!-- QUY TRINH LAM VIEC -->

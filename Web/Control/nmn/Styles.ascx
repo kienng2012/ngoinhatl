@@ -130,7 +130,7 @@
                             <span class="link">Xem chi tiết</span>
                         </div>
                     </div>
-                    <a href="/Bai-viet-<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm" class="link_full"></a>
+                    <a href="/Phong-cach-<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm" class="link_full"></a>
                 </div>
 
             </ItemTemplate>

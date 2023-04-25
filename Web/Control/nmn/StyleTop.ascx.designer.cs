@@ -11,25 +11,16 @@ namespace Web.Control.nmn
 {
 
 
-    public partial class Home
+    public partial class StyleTop
     {
 
         /// <summary>
-        /// ProjectTop1 control.
+        /// rptStyleTop control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::Web.Control.nmn.ProjectTop ProjectTop1;
-
-        /// <summary>
-        /// StyleTop1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::Web.Control.nmn.StyleTop StyleTop1;
+        protected global::System.Web.UI.WebControls.Repeater rptStyleTop;
     }
 }

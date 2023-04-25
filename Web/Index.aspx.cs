@@ -38,7 +38,9 @@ namespace Web
             ArticleProduct,
             Projects,
             ProjectDetail,
+            ProjectTop,
             Styles,
+            StyleTop,
             StyleDetail,
 
             //SubjectDetails,
