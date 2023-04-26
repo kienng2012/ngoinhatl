@@ -168,7 +168,9 @@
     <Content Include="App_Themes\house\css\main.css" />
     <Content Include="App_Themes\house\css\css.css" />
     <Content Include="App_Themes\house\css\custom.css" />
+    <Content Include="App_Themes\house\css\mqueries.css" />
     <Content Include="App_Themes\house\css\style.css" />
+    <Content Include="App_Themes\house\css\style2.css" />
     <Content Include="App_Themes\house\css\www-player.css" />
     <Content Include="App_Themes\house\Home_Nodric.html" />
     <Content Include="App_Themes\house\img\1.png" />
@@ -610,6 +612,7 @@
     <Content Include="Control\MenuVzone.ascx" />
     <Content Include="Control\nmn\ArticleList.ascx" />
     <Content Include="Control\nmn\ArticleProduct.ascx" />
+    <Content Include="Control\nmn\ProjectDetail2.ascx" />
     <Content Include="Control\nmn\StyleTop.ascx" />
     <Content Include="Control\nmn\ProjectTop.ascx" />
     <Content Include="Control\nmn\GioiThieuSP1.ascx" />
@@ -951,6 +954,13 @@
     </Compile>
     <Compile Include="Control\nmn\ArticleProduct.ascx.designer.cs">
       <DependentUpon>ArticleProduct.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\nmn\ProjectDetail2.ascx.cs">
+      <DependentUpon>ProjectDetail2.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\nmn\ProjectDetail2.ascx.designer.cs">
+      <DependentUpon>ProjectDetail2.ascx</DependentUpon>
     </Compile>
     <Compile Include="Control\nmn\StyleTop.ascx.cs">
       <DependentUpon>StyleTop.ascx</DependentUpon>
