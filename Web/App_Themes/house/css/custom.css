@@ -1335,17 +1335,6 @@ img, object, video {
     max-width: 100%;
 }
 
-    #gallery-grid-sc .masonry-item a img {
-        -webkit-transition: all 0.8s ease;
-        -moz-transition: all 0.8s ease;
-        -o-transition: all 0.8s ease;
-        -ms-transition: all 0.8s ease;
-        transition: all 0.8s ease;
-        transform: scale(1);
-        -ms-transform: scale(1);
-        -webkit-transform: scale(1);
-    }
-
 .masonry .masonry-item:after {
     display: block;
     content: "";
@@ -1444,7 +1433,9 @@ img, object, video {
         object-fit: cover;
     }
 
-/** New Grid w3chool Ref https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_grid_responsive */
+/** New Grid w3chool Ref https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_grid_responsive 
+    https://blog.logrocket.com/responsive-image-gallery-css-flexbox/
+*/
 * {
     box-sizing: border-box;
 }
@@ -1501,6 +1492,224 @@ body {
 
 
 /** END New Grid w3chool*/
+@media only screen and (max-width: 640px) {
+    .bordered #page-content, .bordered.big-border #page-content {
+        padding: 10px;
+    }
+
+    #page-content {
+        min-width: 260px;
+    }
+}
+
+@media (max-width: 991px) {
+    .bordered #page-content, .bordered.big-border #page-content {
+        padding: 0 !important;
+    }
+}
+
+.bordered #page-content {
+    padding: 40px;
+}
+
+.bordered #page-content {
+    padding: 40px;
+}
 
 
+@media only screen and (max-width: 860px) {
+    #page-content {
+        min-width: 480px;
+    }
+}
 
+@media only screen and (max-width: 1120px) {
+    #page-content {
+        min-width: 730px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    #page-content {
+        min-width: 900px;
+    }
+}
+
+#page-content {
+    overflow: hidden;
+    margin: 0;
+    min-width: 1080px;
+}
+
+#portfolio-single {
+    overflow: hidden;
+}
+
+#page-body .section-inner {
+    padding-top: 60px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1120px) {
+    .section-inner {
+        padding-top: 100px;
+    }
+}
+
+.section-inner {
+    padding-top: 120px;
+}
+
+@media only screen and (max-width: 860px) {
+    .wrapper {
+        width: 480px !important;
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+    .wrapper {
+        width: 730px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .wrapper {
+        width: 900px;
+    }
+}
+
+.wrapper {
+    width: 1080px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+#page-body .section-inner > * {
+    font-family: "Montserrat",sans-serif;
+}
+
+#gallery-grid-sc {
+    overflow: hidden;
+}
+
+.masonry {
+    width: 113%;
+}
+
+    .masonry .masonry-item {
+        margin: 5px;
+    }
+
+@media screen and (max-width: 480px) {
+    .masonry .masonry-item {
+        width: 100% !important;
+    }
+}
+
+.masonry .masonry-item {
+    width: 24.98%;
+    margin-right: 0;
+    margin-bottom: 0;
+    float: left;
+}
+
+#gallery-grid-sc .masonry-item a {
+    padding: 3px 3px;
+}
+
+#gallery-grid-sc .masonry-item a {
+    overflow: hidden;
+    display: block;
+    max-width: 100%;
+}
+
+.masonry .masonry-item:after {
+    display: block;
+    content: "";
+    visibility: hidden;
+    height: 0;
+}
+
+
+ul {
+    list-style: none;
+}
+
+/* Responsive image gallery rules begin*/
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+    .image-gallery > li {
+        flex: 1 1 auto; /* or flex: auto; */
+        height: 300px;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .image-gallery::after {
+        content: "";
+        flex-grow: 999;
+    }
+
+    .image-gallery li img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        vertical-align: middle;
+        border-radius: 5px;
+    }
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(57, 57, 57, 0.502);
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    transition: all 0.2s 0.1s ease-in-out;
+    color: #fff;
+    border-radius: 5px;
+    /* center overlay content */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* hover */
+.image-gallery li:hover .overlay {
+    transform: scale(1);
+}
+
+.container {
+    padding: 40px 5%;
+}
+
+.heading-text {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+    .heading-text span {
+        font-weight: 100;
+    }
+
+
+img {
+    width: auto;
+    max-width: 100%;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+
+img, object, video {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+}
