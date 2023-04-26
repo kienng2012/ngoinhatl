@@ -1,0 +1,417 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="House.Master.cs" Inherits="Web.House" %>
+
+<%@ Register Src="Control/nmn/MenuTop.ascx" TagName="menuTop" TagPrefix="uc1" %>
+<%@ Register Src="Control/nmn/Footer.ascx" TagName="footer" TagPrefix="uc9" %>
+
+
+<!DOCTYPE html>
+<html lang="vi" class="no-js">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- scaling not possible (for smartphones, ipad, etc.) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta property="og:title" content="Pearl Plaza-Căn hộ mộng mơ - Housedesign">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://housedesign.vn/du-an/pearl-plaza-can-ho-mong-mo/">
+    <meta property="og:image" content="https://housedesign.vn/wp-content/uploads/2022/12/27-300x200.jpg">
+    <meta property="og:description" content="Căn hộ Pearl Plaza
+Phong…
+">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+    <!-- This site is optimized with the Yoast SEO Premium plugin v17.7 (Yoast SEO v17.9) - https://yoast.com/wordpress/plugins/seo/ -->
+    <title>Pearl Plaza-Căn hộ mộng mơ - Housedesign</title>
+    <link rel="canonical" href="https://housedesign.vn/du-an/pearl-plaza-can-ho-mong-mo/">
+    <meta property="og:locale" content="vi_VN">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Pearl Plaza-Căn hộ mộng mơ">
+    <meta property="og:description" content="Căn hộ Pearl Plaza Phong cách: Country mix Scandinavian Thiết kế: 27.000.000đ Thi công: 1.400.000.000đ Căn hộ lấy cảm hứng từ chất liệu ấm áp và ánh sáng tự nhiên sử dụng tối đa để tạo ra tinh thần nghỉ ngơi thư giãn. Thiết kế thông suốt từ phòng khách tới phòng ngủ nên góc […]">
+    <meta property="og:url" content="https://housedesign.vn/du-an/pearl-plaza-can-ho-mong-mo/">
+    <meta property="og:site_name" content="Housedesign">
+    <meta property="article:publisher" content="https://www.facebook.com/housedesign.vn">
+    <meta property="article:modified_time" content="2022-12-01T09:01:02+00:00">
+    <meta property="og:image" content="https://housedesign.vn/wp-content/uploads/2022/12/27-1024x683.jpg">
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="683">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:label1" content="Ước tính thời gian đọc">
+    <meta name="twitter:data1" content="2 phút">
+    <script type="text/javascript" async="" src="App_Themes/house/js/analytics.js"></script>
+    <script type="text/javascript" async="" src="App_Themes/house/js/js.js"></script>
+    <script async="" src="App_Themes/house/js/fbevents.js"></script>
+    <script async="" src="App_Themes/house/js/gtm.js"></script>
+    <script async="" src="App_Themes/house/js/js.js"></script>
+    <!--n2css-->
+    <script type="text/javascript" src="App_Themes/house/js/jquery.min.js" id="jquery-core-js"></script>
+    <script type="text/javascript" src="App_Themes/house/js/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+    <script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://housedesign.vn/#organization","name":"Housedesign Ltd Co","url":"https://housedesign.vn/","sameAs":["https://www.facebook.com/housedesign.vn","https://www.instagram.com/housedesignvn/","https://www.youtube.com/channel/UCyGx9ZFZgeDpIyOWm--rTrg","https://www.pinterest.com/housedesignvn/"],"logo":{"@type":"ImageObject","@id":"https://housedesign.vn/#logo","inLanguage":"vi","url":"https://housedesign.vn/wp-content/uploads/2019/12/housedesign-logo.png","contentUrl":"https://housedesign.vn/wp-content/uploads/2019/12/housedesign-logo.png","width":320,"height":175,"caption":"Housedesign Ltd Co"},"image":{"@id":"https://housedesign.vn/#logo"}},{"@type":"WebSite","@id":"https://housedesign.vn/#website","url":"https://housedesign.vn/","name":"Housedesign","description":"Kh\u1eb3ng \u0110\u1ecbnh Phong C\u00e1ch S\u1ed1ng","publisher":{"@id":"https://housedesign.vn/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://housedesign.vn/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"vi"},{"@type":"ImageObject","@id":"https://housedesign.vn/du-an/pearl-plaza-can-ho-mong-mo/#primaryimage","inLanguage":"vi","url":"https://housedesign.vn/wp-content/uploads/2022/12/27.jpg","contentUrl":"https://housedesign.vn/wp-content/uploads/2022/12/27.jpg","width":3500,"height":2333},{"@type":"WebPage","@id":"https://housedesign.vn/du-an/pearl-plaza-can-ho-mong-mo/#webpage","url":"https://housedesign.vn/du-an/pearl-plaza-can-ho-mong-mo/","name":"Pearl Plaza-C\u0103n h\u1ed9 m\u1ed9ng m\u01a1 - Housedesign","isPartOf":{"@id":"https://housedesign.vn/#website"},"primaryImageOfPage":{"@id":"https://housedesign.vn/du-an/pearl-plaza-can-ho-mong-mo/#primaryimage"},"datePublished":"2022-12-01T08:48:24+00:00","dateModified":"2022-12-01T09:01:02+00:00","breadcrumb":{"@id":"https://housedesign.vn/du-an/pearl-plaza-can-ho-mong-mo/#breadcrumb"},"inLanguage":"vi","potentialAction":[{"@type":"ReadAction","target":["https://housedesign.vn/du-an/pearl-plaza-can-ho-mong-mo/"]}]},{"@type":"BreadcrumbList","@id":"https://housedesign.vn/du-an/pearl-plaza-can-ho-mong-mo/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Trang ch\u1ee7","item":"https://housedesign.vn/"},{"@type":"ListItem","position":2,"name":"Pearl Plaza-C\u0103n h\u1ed9 m\u1ed9ng m\u01a1"}]}]}</script>
+    <!-- / Yoast SEO Premium plugin. -->
+
+
+    <link rel="dns-prefetch" href="https://use.fontawesome.com/">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com/">
+    <link rel="dns-prefetch" href="https://unpkg.com/">
+    <link rel="dns-prefetch" href="https://s.w.org/">
+    <link rel="alternate" type="application/rss+xml" title="Dòng thông tin Housedesign »" href="https://housedesign.vn/feed/">
+    <link rel="alternate" type="application/rss+xml" title="Dòng phản hồi Housedesign »" href="https://housedesign.vn/comments/feed/">
+    <link rel="alternate" type="application/rss+xml" title="Housedesign » Pearl Plaza-Căn hộ mộng mơ Dòng phản hồi" href="https://housedesign.vn/du-an/pearl-plaza-can-ho-mong-mo/feed/">
+    <script type="text/javascript">
+        window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/housedesign.vn\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.8" } };
+        !function (e, a, t) { var n, r, o, i = a.createElement("canvas"), p = i.getContext && i.getContext("2d"); function s(e, t) { var a = String.fromCharCode; p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0); e = i.toDataURL(); return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL() } function c(e) { var t = a.createElement("script"); t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t) } for (o = Array("flag", "emoji"), t.supports = { everything: !0, everythingExceptFlag: !0 }, r = 0; r < o.length; r++)t.supports[o[r]] = function (e) { if (!p || !p.fillText) return !1; switch (p.textBaseline = "top", p.font = "600 32px Arial", e) { case "flag": return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]); case "emoji": return !s([55357, 56424, 8205, 55356, 57212], [55357, 56424, 8203, 55356, 57212]) }return !1 }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]); t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function () { t.DOMReady = !0 }, t.supports.everything || (n = function () { t.readyCallback() }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () { "complete" === a.readyState && t.readyCallback() })), (n = t.source || {}).concatemoji ? c(n.concatemoji) : n.wpemoji && n.twemoji && (c(n.twemoji), c(n.wpemoji))) }(window, document, window._wpemojiSettings);
+    </script>
+    <script src="App_Themes/house/js/wp-emoji-release.min.js" type="text/javascript" defer=""></script>
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel="stylesheet" href="App_Themes/house/css/owl.carousel.min.css" type="text/css" media="all">
+    <link data-minify="1" rel="stylesheet" href="App_Themes/house/css/all.css" type="text/css" media="all">
+    <link rel="stylesheet" href="App_Themes/house/css/css2.css" type="text/css" media="all">
+    <link data-minify="1" rel="stylesheet" href="App_Themes/house/css/pure-min.css" type="text/css" media="all">
+    <link data-minify="1" rel="stylesheet" href="App_Themes/house/css/grids-responsive-min.css" type="text/css" media="all">
+    <link data-minify="1" rel="stylesheet" href="App_Themes/house/css/style.css" type="text/css" media="all">
+    <link rel="stylesheet" href="App_Themes/house/css/jquery.fancybox.min.css" type="text/css" media="all">
+    <link data-minify="1" rel="stylesheet" href="App_Themes/house/css/pe-icon-7-stroke.css" type="text/css" media="all">
+    <link data-minify="1" rel="stylesheet" href="App_Themes/house/css/isotope.css" type="text/css" media="all">
+    <link data-minify="1" rel="stylesheet" href="App_Themes/house/css/mqueries.css" type="text/css" media="all">
+    <link data-minify="1" rel="stylesheet" href="App_Themes/house/css/custom-style.css" type="text/css" media="all">
+    <link rel="stylesheet" href="App_Themes/house/css/css" type="text/css.css" media="all">
+
+    <link rel="https://api.w.org/" href="https://housedesign.vn/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://housedesign.vn/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://housedesign.vn/wp-includes/wlwmanifest.xml">
+    <meta name="generator" content="WordPress 5.7.8">
+    <link rel="shortlink" href="https://housedesign.vn/?p=18159">
+    <link rel="alternate" type="application/json+oembed" href="https://housedesign.vn/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhousedesign.vn%2Fdu-an%2Fpearl-plaza-can-ho-mong-mo%2F">
+    <link rel="alternate" type="text/xml+oembed" href="https://housedesign.vn/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhousedesign.vn%2Fdu-an%2Fpearl-plaza-can-ho-mong-mo%2F&amp;format=xml">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-147266528-2');
+    </script>
+    <meta name="google-site-verification" content="cMlPeEKgMKGwLEgZmxzatWAk3oIPOsSZx9ypDPULd60">
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-T3KNWN9');</script>
+    <!-- End Google Tag Manager -->
+
+    <style>
+        #fb-messenger-fake-button {
+            margin: 0 12px;
+            padding: 0;
+            position: fixed;
+            z-index: 2147483644;
+            bottom: 24px;
+            top: auto;
+            height: 60px;
+            width: 60px;
+            border-radius: 29px;
+            box-shadow: rgba(0,0,0,.15) 0 4px 12px 0;
+            background: none;
+            display: block;
+            right: 12px;
+            transition: opacity 0.3s
+        }
+    </style>
+
+    <style>
+        .zalo-chat-widget {
+            display: block;
+            position: fixed;
+            right: 23px;
+            bottom: 100px;
+            z-index: 2147483644;
+            width: 60px;
+            height: 60px;
+            transition: opacity .3s
+        }
+
+            .zalo-chat-widget a {
+                cursor: pointer
+            }
+    </style>
+    <style type="text/css">
+        #wpadminbar {
+            z-index: 9999999;
+        }
+    </style>
+    <link rel="shortcut icon" href="https://housedesign.vn/wp-content/uploads/2020/01/favicon-house-design-.png">
+
+    <!-- Meta Pixel Code -->
+    <script type="text/javascript">
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            }; if (!f._fbq) f._fbq = n;
+            n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
+        }(window,
+            document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+    </script>
+    <!-- End Meta Pixel Code -->
+    <script type="text/javascript">
+        fbq('init', '703898813296637', {}, {
+            "agent": "wordpress-5.7.8-3.0.8"
+        });
+    </script>
+    <script type="text/javascript">
+        fbq('track', 'PageView', []);
+    </script>
+    <!-- Meta Pixel Code -->
+    <noscript>
+        <img height="1" width="1" style="display: none" alt="fbpx"
+            src="https://www.facebook.com/tr?id=703898813296637&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Meta Pixel Code -->
+    <link rel="icon" href="https://housedesign.vn/wp-content/uploads/cropped-hd-favicon-32x32.png" sizes="32x32">
+    <link rel="icon" href="https://housedesign.vn/wp-content/uploads/cropped-hd-favicon-192x192.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="https://housedesign.vn/wp-content/uploads/cropped-hd-favicon-180x180.png">
+    <meta name="msapplication-TileImage" content="https://housedesign.vn/wp-content/uploads/cropped-hd-favicon-270x270.png">
+    <style type="text/css" id="wp-custom-css">
+        @media screen and (max-width: 783px) {
+            div.heateor_sss_bottom_sharing {
+                display: none !important;
+            }
+        }
+
+        /* .bordered header{
+            top: 40px !important;
+        } */
+        .bordered .sticky-header {
+            top: -100px !important;
+        }
+
+        #portfolio-single {
+            overflow: hidden;
+        }
+
+        .masonry .masonry-item:after {
+            display: block;
+            content: "";
+            visibility: hidden;
+            height: 0;
+        }
+
+        #gallery-grid-sc {
+            /* 	height: auto !important;
+            width: 100% !important; */
+            overflow: hidden;
+            /* 		display: grid;
+            grid-template-columns: 25% 25% 25% 25%; */
+        }
+        /* #gallery-grid-sc.masonry .masonry-item{
+            position: relative !important;
+            width: 100% !important;
+            padding: 5px;
+            transform: unset !important;
+        } */
+        #blog-leavecomment {
+            width: 1080px;
+            margin: 0 auto;
+            max-width: 100%;
+        }
+
+        #section-du-an {
+            overflow: hidden;
+        }
+
+        #page-body {
+            overflow: hidden;
+            width: 90%;
+            margin: auto;
+        }
+
+        /* Custom page liên hệ */
+        #title-wrap .main-title {
+            font-size: 60px;
+            color: #fff;
+        }
+
+        @media (max-width: 768px) {
+            #title-wrap .main-title {
+                font-size: 36px;
+            }
+
+            #custom-wrap-title #custom-page-title h1.title {
+                width: 100%;
+            }
+        }
+
+        .section-inner.custom {
+            padding-bottom: 100px;
+        }
+
+            .section-inner.custom .wrapper {
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+
+        .elementor-11951 .elementor-element.elementor-element-cb4fde0 {
+            top: 40% !important;
+        }
+
+        .blog-entry .blog-media {
+            min-height: 200px;
+        }
+
+            .blog-entry .blog-media img {
+                height: 100%;
+                object-fit: cover;
+            }
+    </style>
+    <noscript>
+        <style id="rocket-lazyload-nojs-css">
+            .rll-youtube-player, [data-lazy-src] {
+                display: none !important;
+            }
+        </style>
+    </noscript>
+</head>
+
+<body data-rsssl="1" class="portfolio-template-default single single-portfolio postid-18159 bordered borderid-18159 border-dark disable-preloader non-logged-in elementor-default elementor-kit-16221 loading loading-end">
+    <%--<!-- HEADER -->
+    <uc1:menuTop ID="MenuTop1" runat="server" />
+    <!--END HEADER -->
+    <!-- CONTENT PLACE HOLDER MAIN -->
+    <main id="main">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+    </main>
+
+    <uc9:footer ID="Footer1" runat="server" />--%>
+
+
+
+    <!-- BORDERS -->
+    <div id="bodyborder-left"></div>
+    <div id="bodyborder-right"></div>
+    <div id="bodyborder-top"></div>
+    <div id="bodyborder-bottom"></div>
+    <!-- BORDERS -->
+    <!-- PAGE CONTENT -->
+    <div id="page-content" class="fixed-header">
+        <!-- HEADER -->
+        <uc1:menuTop ID="MenuTop1" runat="server" />
+        <!--END HEADER -->
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+
+
+        <!-- FOOTER -->
+        <uc9:footer ID="Footer1" runat="server" />
+        <!-- END FOOTER -->
+    </div>
+
+
+    <script>
+        // Facebook SDK for JavaScript inject code
+        function injectFbSdkAsync(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        };
+
+        jQuery(function () {
+            const $fbMessengerFakeButton = jQuery('#fb-messenger-fake-button');
+            $fbMessengerFakeButton.on('click', function () {
+                // Fades out the fake button a bit, to indicate "loading"
+                $fbMessengerFakeButton.css({ opacity: 0.4 });
+                // Inject the Facebook SDK in async manner:
+                injectFbSdkAsync(document, 'script', 'facebook-jssdk');
+
+                // Callback on Facebook SDK init, that fires up the Messanger plugin
+                window.fbAsyncInit = function () {
+                    FB.init({ xfbml: true, version: 'v8.0' });
+
+                    // Callback when Facebook SDK finish up with rendering
+                    FB.Event.subscribe('xfbml.render', function () {
+                        // Immediately toggle opening the Facebook Messanger,
+                        // as if the user clicked the real Messanger button.
+                        FB.CustomerChat.show(true);
+
+                        // Hide the fake button, so that only the real one remains!
+                        $fbMessengerFakeButton.css({ display: 'none' });
+                    });
+                };
+            });
+        });
+    </script>
+
+    <div class="zalo-chat-widget" style="display: none;">
+        <a href="https://zalo.me/0973990339" title="Liên hệ qua Zalo">
+            <img width="900" height="891" style="width: 60px; height: 60px" alt="" data-lazy-src="/images/zalo-chat-widget.png" class="entered lazyloaded" src="App_Themes/house/img/zalo-chat-widget.png" data-ll-status="loaded"><noscript><img width="900" height="891" style="width: 60px; height: 60px" src="/images/zalo-chat-widget.png" alt="" /></noscript>
+        </a>
+    </div>
+    <!-- Meta Pixel Event Code -->
+    <script type="text/javascript">
+        document.addEventListener('wpcf7mailsent', function (event) {
+            if ("fb_pxl_code" in event.detail.apiResponse) {
+                eval(event.detail.apiResponse.fb_pxl_code);
+            }
+        }, false);
+    </script>
+    <!-- End Meta Pixel Event Code -->
+    <div id="fb-pxl-ajax-code"></div>
+    <script type="text/javascript" src="App_Themes/house/js/isotope.pkgd.min.js" id="isotope-js"></script>
+    <script type="text/javascript" src="App_Themes/house/js/imagesloaded.min.js" id="imagesloaded-js"></script>
+    <script data-minify="1" type="text/javascript" src="App_Themes/house/js/pond-header.js" id="pond-header-js"></script>
+    <script type="text/javascript" src="App_Themes/house/js/owl.carousel.min.js" id="owlcarousel-js"></script>
+    <script data-minify="1" type="text/javascript" src="App_Themes/house/js/jquery.easing.1.3.js" id="easing-js"></script>
+    <script data-minify="1" type="text/javascript" src="App_Themes/house/js/jquery.easing.compatibility.js" id="easing-compatibility-js"></script>
+    <script type="text/javascript" src="App_Themes/house/js/jquery.visible.min.js" id="visible-js"></script>
+    <script type="text/javascript" src="App_Themes/house/js/jquery.fancybox.min.js" id="fancybox-js"></script>
+    <script type="text/javascript" src="App_Themes/house/js/jquery.backgroundparallax.min.js" id="parallax-js"></script>
+    <script type="text/javascript" id="script-js-extra">
+        /* <![CDATA[ */
+        var srvars = { "ajaxurl": "https:\/\/housedesign.vn\/wp-admin\/admin-ajax.php" };
+        /* ]]> */
+    </script>
+    <script data-minify="1" type="text/javascript" src="App_Themes/house/js/script.js" id="script-js"></script>
+    <script>
+        window.lazyLoadOptions = { elements_selector: "img[data-lazy-src],.rocket-lazyload", data_src: "lazy-src", data_srcset: "lazy-srcset", data_sizes: "lazy-sizes", class_loading: "lazyloading", class_loaded: "lazyloaded", threshold: 300, callback_loaded: function (element) { if (element.tagName === "IFRAME" && element.dataset.rocketLazyload == "fitvidscompatible") { if (element.classList.contains("lazyloaded")) { if (typeof window.jQuery != "undefined") { if (jQuery.fn.fitVids) { jQuery(element).parent().fitVids() } } } } } }; window.addEventListener('LazyLoad::Initialized', function (e) {
+            var lazyLoadInstance = e.detail.instance; if (window.MutationObserver) {
+                var observer = new MutationObserver(function (mutations) {
+                    var image_count = 0; var iframe_count = 0; var rocketlazy_count = 0; mutations.forEach(function (mutation) {
+                        for (var i = 0; i < mutation.addedNodes.length; i++) {
+                            if (typeof mutation.addedNodes[i].getElementsByTagName !== 'function') { continue }
+                            if (typeof mutation.addedNodes[i].getElementsByClassName !== 'function') { continue }
+                            images = mutation.addedNodes[i].getElementsByTagName('img'); is_image = mutation.addedNodes[i].tagName == "IMG"; iframes = mutation.addedNodes[i].getElementsByTagName('iframe'); is_iframe = mutation.addedNodes[i].tagName == "IFRAME"; rocket_lazy = mutation.addedNodes[i].getElementsByClassName('rocket-lazyload'); image_count += images.length; iframe_count += iframes.length; rocketlazy_count += rocket_lazy.length; if (is_image) { image_count += 1 }
+                            if (is_iframe) { iframe_count += 1 }
+                        }
+                    }); if (image_count > 0 || iframe_count > 0 || rocketlazy_count > 0) { lazyLoadInstance.update() }
+                }); var b = document.getElementsByTagName("body")[0]; var config = { childList: !0, subtree: !0 }; observer.observe(b, config)
+            }
+        }, !1)</script>
+    <script data-no-minify="1" async="" src="App_Themes/house/js/lazyload.min.js"></script>
+
+
+
+    <script type="text/javascript" id="">!function (b, e, f, g, a, c, d) { b.fbq || (a = b.fbq = function () { a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments) }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e.createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(c, d)) }(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js"); fbq("init", "1345617472207425"); fbq("track", "PageView");</script>
+    <noscript>
+        <img height="1" width="1" style="display: none" src="https://www.facebook.com/tr?id=1345617472207425&amp;ev=PageView&amp;noscript=1">
+    </noscript>
+</body>
+</html>
