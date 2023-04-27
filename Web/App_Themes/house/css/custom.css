@@ -1,0 +1,149 @@
+/** Footer Nodric*/
+#footer2 {
+    color: #fff;
+}
+
+    #footer2 .inner {
+        padding: 0 45px;
+    }
+
+.footer_top {
+    padding: 50px 0 40px;
+    border-bottom: 1px solid #d3d3d38c;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (max-width: 1536px) {
+    .social_footer .capt, .hotline_footer .capt {
+        font-size: 18px;
+    }
+}
+
+.hotline_footer .capt {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#footer2 a {
+    color: #fff;
+}
+
+.hotline_footer .hotline {
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    line-height: 1.5;
+}
+
+    .hotline_footer .hotline i {
+        width: 40px;
+        height: 40px;
+        color: #151515;
+        background: #c7af73;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        margin-right: 10px;
+    }
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.social_footer {
+    text-align: center;
+}
+
+@media (max-width: 1536px) {
+    .social_footer .capt, .hotline_footer .capt {
+        font-size: 18px;
+    }
+}
+
+.social_footer .capt {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.social_footer .list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .social_footer .list a {
+        margin: 10px 15px 5px;
+    }
+
+.footer_main2 {
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -15px;
+}
+
+    .footer_main2 .widget {
+        max-width: 50%;
+        padding: 0 15px;
+    }
+
+.info_footer .image {
+    margin-bottom: 30px;
+}
+
+@media (max-width: 1536px) {
+    .info_footer .image img {
+        max-height: 100px;
+    }
+}
+
+.info_footer .image img {
+    max-height: 120px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.info_footer .support {
+    margin-top: 15px;
+}
+
+    .info_footer .support .it {
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+        .info_footer .support .it img {
+            height: 24px;
+            width: 24px;
+            object-fit: none;
+            margin-right: 12px;
+        }
+
+.footer_main2 .widget {
+    max-width: 50%;
+    padding: 0 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/** End Footer Nodric*/

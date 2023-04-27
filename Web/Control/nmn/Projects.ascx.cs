@@ -29,7 +29,9 @@ namespace Web.Control.nmn
             {
                 _cateID = Convert.ToInt32(Request.QueryString["cateID"]);
             }
-            else { _cateID = 1; }
+            else { _cateID = 1;
+            //TODO:Kienng : Find all by parentID
+            }
             if (_cateID == 1)
             {
                 //lblCategory.Text = "TIN TỨC & BÀI VIẾT";

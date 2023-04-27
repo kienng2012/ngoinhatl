@@ -86,7 +86,8 @@ Phong…
     <link data-minify="1" rel="stylesheet" href="App_Themes/house/css/isotope.css" type="text/css" media="all">
     <link data-minify="1" rel="stylesheet" href="App_Themes/house/css/mqueries.css" type="text/css" media="all">
     <link data-minify="1" rel="stylesheet" href="App_Themes/house/css/custom-style.css" type="text/css" media="all">
-    <link rel="stylesheet" href="App_Themes/house/css/css" type="text/css.css" media="all">
+    <link rel="stylesheet" href="App_Themes/house/css/css.css" type="text/css" media="all">
+    <link rel="stylesheet" href="App_Themes/house/css/custom.css" type="text/css" media="all">
 
     <link rel="https://api.w.org/" href="https://housedesign.vn/wp-json/">
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://housedesign.vn/xmlrpc.php?rsd">
@@ -362,7 +363,10 @@ Phong…
 
     <div class="zalo-chat-widget" style="display: none;">
         <a href="https://zalo.me/0973990339" title="Liên hệ qua Zalo">
-            <img width="900" height="891" style="width: 60px; height: 60px" alt="" data-lazy-src="/images/zalo-chat-widget.png" class="entered lazyloaded" src="App_Themes/house/img/zalo-chat-widget.png" data-ll-status="loaded"><noscript><img width="900" height="891" style="width: 60px; height: 60px" src="/images/zalo-chat-widget.png" alt="" /></noscript>
+            <img width="900" height="891" style="width: 60px; height: 60px"
+                alt="" data-lazy-src="/images/zalo-chat-widget.png" class="entered lazyloaded" src="App_Themes/house/img/zalo-chat-widget.png" data-ll-status="loaded"><noscript><img width="900" height="891" style="width: 60px; height: 60px"
+                    src="/images/zalo-chat-widget.png" alt="" />
+                </noscript>
         </a>
     </div>
     <!-- Meta Pixel Event Code -->

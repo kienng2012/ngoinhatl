@@ -28,16 +28,13 @@
     <!-- SECTION PORTFOLIO -->
     <section id="portfolio-single" class="notoppadding">
         <div class="section-inner">
-
             <div class="wrapper">
-
                 <ul class="breadcrumb-custom">
                     <li><a href="https://housedesign.vn/">Trang chủ</a> </li>
                     <li><a href="https://housedesign.vn/du-an/">Dự án</a></li>
                     <li>Pearl Plaza-Căn hộ mộng mơ
                             </li>
                 </ul>
-
                 <div class="spacer spacer-medium"></div>
                 <h4 class="title-ultraminimal align-center" data-bigletter="Pearl Plaza-Căn hộ mộng mơ">Pearl Plaza-Căn hộ mộng mơ</h4>
                 <div class="spacer spacer-medium"></div>
@@ -52,7 +49,8 @@
             <div id="gallery-grid-sc" class="masonry clearfix" data-maxitemwidth="420" style="position: relative; height: 6952px;">
                 <div class="masonry-item" style="position: absolute; left: 0px; top: 0px; width: 330px;">
                     <a href="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-phuduc-khach-bep-1-1100x733.jpg" data-fancybox="gallery_sc" class="openfancybox">
-                        <img width="420" height="280" src="App_Themes/house/img/housedesign-phuduc-khach-bep-1-420x280.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-phuduc-khach-bep-1-420x280.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="420" height="280" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-phuduc-khach-bep-1-420x280.jpg" alt="" /></noscript>
+                        <img width="420" height="280" src="App_Themes/house/img/housedesign-phuduc-khach-bep-1-420x280.jpg" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-phuduc-khach-bep-1-420x280.jpg" srcset="" data-ll-status="loaded" class="entered lazyloaded">
+                        <%--<noscript><img width="420" height="280" src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-phuduc-khach-bep-1-420x280.jpg" alt="" /></noscript>--%>
                     </a>
                 </div>
                 <div class="masonry-item" style="position: absolute; left: 340px; top: 0px; width: 330px;">

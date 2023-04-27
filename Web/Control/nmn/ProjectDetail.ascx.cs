@@ -37,11 +37,11 @@ namespace Web.Control.nmn
 
                 CategorySubInfo info = CategorySubDB.GetInfo(_serviceID);
                 lblTitle.Text = info.CS_Name;
-                imgService.ImageUrl = info.CS_ImageURL;
+                //imgService.ImageUrl = info.CS_ImageURL;
                 lblContent.Text = info.CS_Content;
                 //lblCateName.Text = info.C_Name;
 
-                lblDate.Text = info.CS_CreateDate.ToString("dd/MM/yyyy");
+                //lblDate.Text = info.CS_CreateDate.ToString("dd/MM/yyyy");
                 _cateName = info.C_Name;
                 _intCateID = info.C_ID;
 
