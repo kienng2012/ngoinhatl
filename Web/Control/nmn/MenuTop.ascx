@@ -32,7 +32,7 @@
         <div class="default-header-content">
             <div id="logo" class="left-float">
                 <a id="default-logo" class="logotype" href="https://housedesign.vn/">
-                    <img width="180" height="98" src="light-1-1-e1510918301906.png" alt="Logo" data-lazy-src="https://housedesign.vn/wp-content/uploads/2017/11/light-1-1-e1510918301906.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="180" height="98" src="https://housedesign.vn/wp-content/uploads/2017/11/light-1-1-e1510918301906.png" alt="Logo"></noscript>
+                    <img width="180" height="98" src="../../App_Themes/house/img/logo.png" alt="Logo" data-lazy-src="../../App_Themes/house/img/logo.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="180" height="98" src="../../App_Themes/house/img/logo.png" alt="Logo"></noscript>
                 </a><a id="fixed-logo" class="logotype" href="https://housedesign.vn/">
                     <img width="320" height="175" src="App_Themes/house/img/232Model.png" alt="Logo" data-lazy-src="https://housedesign.vn/wp-content/uploads/2017/11/232Model.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="320" height="175" src="https://housedesign.vn/wp-content/uploads/2017/11/232Model.png" alt="Logo"></noscript>
                 </a>

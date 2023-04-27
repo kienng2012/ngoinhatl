@@ -189,6 +189,7 @@
     <Content Include="App_Themes\house\img\housedesign-phuduc-khach-bep-8-420x630.jpg" />
     <Content Include="App_Themes\house\img\housedesign-phuduc-khach-bep-9-420x630.jpg" />
     <Content Include="App_Themes\house\img\light-1-1-e1510918301906.png" />
+    <Content Include="App_Themes\house\img\logo.png" />
     <Content Include="App_Themes\house\img\zalo-chat-widget.png" />
     <Content Include="App_Themes\house\js\analytics.js" />
     <Content Include="App_Themes\house\js\fbevents.js" />
