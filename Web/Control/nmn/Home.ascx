@@ -1083,7 +1083,7 @@
         </div>
     
     <div class="contact_home">
-            <div class="container-fluid">
+            <div>
                 <div class="inner">
                      <div class="maps">
                         <%--<iframe data-lazyloaded="1" src="App_Themes/house/img/embed.html" data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d477025.01140348776!2d105.03252617422083!3d20.922057694872876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab2e2881d2b7%3A0x827a4e784e5a3430!2zTuG7mWkgdGjhuqV0IELhuq9jIMOCdSAtIE5PUkRJQw!5e0!3m2!1svi!2s!4v1660706734086!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" data-ll-status="loaded" class="entered litespeed-loaded"></iframe>--%>

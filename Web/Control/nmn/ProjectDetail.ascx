@@ -56,7 +56,11 @@
                                     <%-- <div class="img" style="background-image: url(<%#Eval("IMG_URL_ITEM") %>"></div>--%>
                                     <%-- <li><img src="<%#Eval("IMG_URL_ITEM") %>" alt="" /></li>--%>
 
-                                    <img src="<%#Eval("IMG_URL_ITEM") %>" alt="" class="img-details" />
+                                    <a href="<%#Eval("IMG_URL_ITEM") %>" data-fancybox="gallery_sc" class="openfancybox">
+                                        <div class="img" style="background-image: url(<%#Eval("IMG_URL_ITEM") %>"></div>
+                                    </a>
+
+                                    <%--  <img src="<%#Eval("IMG_URL_ITEM") %>" alt="" class="img-details" />--%>
                                 </div>
                             </ItemTemplate>
                         </asp:Repeater>
@@ -131,72 +135,7 @@
 </div>
 <!-- Menu End -->
 
-<div class="container-fluid pt-5">
-    <div class="container">
-        <div class="container-grid">
-            <div class="grid-img">
-                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-2-1100x1375.jpg" style="width: 100%">
-            </div>
-            <div class="grid-img">
-                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-3-1100x688.jpg" style="width: 100%">
-            </div>
-            <div class="grid-img">
-                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-1100x1100.jpg" style="width: 100%">
-            </div>
-            <div class="grid-img">
-                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-8-1100x688.jpg" style="width: 100%">
-            </div>
-            <div class="grid-img">
-                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-2-1100x1375.jpg" style="width: 100%">
-            </div>
-            <div class="grid-img">
-                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-3-1100x688.jpg" style="width: 100%">
-            </div>
-            <div class="grid-img">
-                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-1100x1100.jpg" style="width: 100%">
-            </div>
-            <div class="grid-img">
-                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-8-1100x688.jpg" style="width: 100%">
-            </div>
-            <div class="grid-img">
-                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-2-1100x1375.jpg" style="width: 100%">
-            </div>
-            <div class="grid-img">
-                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-3-1100x688.jpg" style="width: 100%">
-            </div>
-            <div class="grid-img">
-                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-1100x1100.jpg" style="width: 100%">
-            </div>
-            <div class="grid-img">
-                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-8-1100x688.jpg" style="width: 100%">
-            </div>
-            <%--<img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-2-1100x1375.jpg" style="width: 100%">
-            <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-3-1100x688.jpg" style="width: 100%">
-            <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-1100x1100.jpg" style="width: 100%">
-            <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-8-1100x688.jpg" style="width: 100%">--%>
-</div>
-<%--<div class="grid-img">
-               <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-3-1100x688.jpg" style="width: 100%">
-                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-1100x1100.jpg" style="width: 100%">
-                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-8-1100x688.jpg" style="width: 100%">
-                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-2-1100x1375.jpg" style="width: 100%">
-                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-3-1100x688.jpg" style="width: 100%">
-                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-1100x1100.jpg" style="width: 100%">
-                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-8-1100x688.jpg" style="width: 100%">
-                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-2-1100x1375.jpg" style="width: 100%">
-                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-3-1100x688.jpg" style="width: 100%">
-                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-1100x1100.jpg" style="width: 100%">
-                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-8-1100x688.jpg" style="width: 100%">
-                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-2-1100x1375.jpg" style="width: 100%">
-                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-3-1100x688.jpg" style="width: 100%">
-                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-4-1100x1100.jpg" style="width: 100%">
-                <img src="https://housedesign.vn/wp-content/uploads/2022/12/housedesign-coffee-Binh-Thanh-8-1100x688.jpg" style="width: 100%">
-            </div>--%>
-        </div>
-    </div>
-
-<div id="page-body" class="">
-    <!-- SECTION PORTFOLIO -->
+<%--<div id="page-body" class="">
     <section id="portfolio-single" class="notoppadding">
         <div class="section-inner">
             <div class="wrapper">
@@ -392,10 +331,8 @@
 
                 <hr class="my-5">
 
-                <!-- V -->
             </div>
         </div>
     </section>
-    <!-- SECTION PORTFOLIO -->
-</div>
+</div>--%>
 

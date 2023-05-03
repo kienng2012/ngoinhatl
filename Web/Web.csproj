@@ -165,6 +165,7 @@
     <Content Include="App_Themes\Giaoduc\js\slideGallery.js" />
     <Content Include="App_Themes\Giaoduc\view_cate.html" />
     <Content Include="App_Themes\house\css\grids-responsive-min.css" />
+    <Content Include="App_Themes\house\css\jquery.fancybox.min.css" />
     <Content Include="App_Themes\house\css\main.css" />
     <Content Include="App_Themes\house\css\css.css" />
     <Content Include="App_Themes\house\css\custom.css" />
@@ -1863,6 +1864,7 @@
     <Content Include="App_Themes\house\js\script.js" />
     <Content Include="App_Themes\house\js\imagesloaded.min.js" />
     <Content Include="App_Themes\house\js\isotope.pkgd.min.js" />
+    <Content Include="App_Themes\house\js\jquery.fancybox.min.js" />
     <None Include="database\db_webgiaoduc2.bak" />
     <None Include="fckeditor\editor\css\behaviors\vssver2.scc" />
     <None Include="fckeditor\editor\css\images\vssver2.scc" />

@@ -13,8 +13,8 @@ namespace Web.Control.nmn
         protected int _cateID;
         protected string _cateName;
         protected int _pageNumber;
-        const int pageSize = 10;
-        protected string _baseUrlPaging = "Tin-tuc";
+        const int pageSize = 6;
+        protected string _baseUrlPaging = "du-an";
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
@@ -30,21 +30,7 @@ namespace Web.Control.nmn
                 _cateID = Convert.ToInt32(Request.QueryString["cateID"]);
             }
             else { _cateID = 1; }
-            if (_cateID == 1)
-            {
-                //lblCategory.Text = "TIN TỨC & BÀI VIẾT";
-                //ltrSubLink.Text = "<a class=\"text-black\" href=\"Tin-tuc.htm\">Những bài viết nổi bật</a>";
-                //ltrImgProduct.Text = "";
-                _baseUrlPaging = "Tin-tuc";
 
-            }
-            else if (_cateID == 2)
-            {
-                //lblCategory.Text = "SẢN PHẨM";
-                //ltrSubLink.Text = "<a class=\"text-black\" href=\"San-pham.htm\">Giới thiệu về sản phẩm</a>";
-                //ltrImgProduct.Text = "<div class=\"row\"><img src=\"../../App_Themes/nmn/img/NMN25600Pro2.png\" width=\"90%\" alt=\"\" style=\"margin:auto;margin-bottom: 30px; margin-top: 0px; max-width:500px\" /></div>";
-                _baseUrlPaging = "San-pham";
-            }
             if (Request.QueryString["pageNumber"] != null)
             {
                 _pageNumber = Convert.ToInt32(Request.QueryString["pageNumber"]);
@@ -67,7 +53,7 @@ namespace Web.Control.nmn
 
             //Xu ly phan trang bang cach tao the : 
             //https://stackoverflow.com/questions/35891828/how-to-dynamically-create-an-html-table
-            //lblPaging.Text = RewriteUrl.generateTagPaging(_baseUrlPaging, _pageNumber, pageSize, totalRecord);
+            lblPaging.Text = RewriteUrl.generateTagPagingNodric(_baseUrlPaging, _pageNumber, pageSize, totalRecord); //generateTagPaging
         }
     }
 

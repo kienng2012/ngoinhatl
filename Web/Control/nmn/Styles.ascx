@@ -112,7 +112,7 @@
         </ul>
     </div>
     <div class="spacer spacer-small"></div>
-    <div class="products columns-2 list_product">
+    <div class="products columns-4 list_product">
         <asp:Repeater ID="rptListCate" runat="server">
             <ItemTemplate>
                 <div class="item_pro">

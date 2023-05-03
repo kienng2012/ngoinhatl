@@ -116,7 +116,7 @@
                                     <img data-lazyloaded="1" src="App_Themes/house/img/icon-social-38px-youtube-OK.png" data-src="https://nordic.vn/wp-content/uploads/2022/09/icon-social-38px-youtube-OK.png" data-ll-status="loaded" class="entered litespeed-loaded"></a>
                                 <a rel="nofollow" href="https://www.pinterest.com/nordic2018/">
                                     <img data-lazyloaded="1" src="App_Themes/house/img/icon-social-38px-pinterest-OK.png" data-src="https://nordic.vn/wp-content/uploads/2022/09/icon-social-38px-pinterest-OK.png" data-ll-status="loaded" class="entered litespeed-loaded"></a>
-                                <a rel="nofollow" href="http://zalo.me/+(84)%20965240366">
+                                <a rel="nofollow" href="http://zalo.me/+(84)965240366">
                                     <img data-lazyloaded="1" src="App_Themes/house/img/icon-social-38px-Zalo-OK.png" data-src="https://nordic.vn/wp-content/uploads/2022/09/icon-social-38px-Zalo-OK.png" data-ll-status="loaded" class="entered litespeed-loaded"></a>
                             </div>
                         </div>

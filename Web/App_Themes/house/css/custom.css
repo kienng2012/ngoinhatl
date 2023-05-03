@@ -298,9 +298,9 @@ wrapper:after, .wrapper-small:after {
     padding: 0 10px 10px 10px;
 }
 
-ul li:first-child, ol li:first-child {
+/*ul li:first-child, ol li:first-child {
     margin-top: 0;
-}
+}*/
 
 .filter li {
     padding: 0 20px 10px 0;
@@ -308,22 +308,22 @@ ul li:first-child, ol li:first-child {
     display: inline-block;
 }
 
-ul li, ol li {
+    /*ul li, ol li {
     margin-top: 10px;
-}
+}*/
 
-.filter li a {
-    display: block;
-    position: relative;
-    font-family: "Montserrat",sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: .2em;
-    color: #0d0d0d;
-    line-height: 20px;
-    padding-left: 0.1em;
-}
+    .filter li a {
+        display: block;
+        position: relative;
+        font-family: "Montserrat",sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: .2em;
+        color: #0d0d0d;
+        line-height: 20px;
+        padding-left: 0.1em;
+    }
 
 a {
     text-decoration: none;
@@ -674,10 +674,6 @@ align-center .filter li {
     padding: 0 10px 10px 10px;
 }
 
-ul li:first-child, ol li:first-child {
-    margin-top: 0;
-}
-
 .filter li {
     padding: 0 20px 10px 0;
     margin: 0;
@@ -767,14 +763,14 @@ filter li a {
 
 
 .item_pro .img {
-    -webkit-transition: all 8s ease;
+    /*  -webkit-transition: all 8s ease;
     -moz-transition: all 8s ease;
     -o-transition: all 8s ease;
     -ms-transition: all 8s ease;
     transition: all 8s ease;
     transform: scale(1.1);
     -ms-transform: scale(1.1);
-    -webkit-transform: scale(1.1)
+    -webkit-transform: scale(1.1)*/
 }
 
     .item_pro .img:hover {
@@ -818,10 +814,10 @@ filter li a {
     filter: alpha(opacity=75);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"
 }*/
-.products {
+/*.products {
     padding: 10px;
     margin: 0 20px;
-}
+}*/
 
 .products-details {
     padding: 0px;
@@ -900,18 +896,18 @@ ul.breadcrumb-custom li {
     font-size: 18px;
 }
 
-ul li:first-child, ol li:first-child {
+    /*ul li:first-child, ol li:first-child {
     margin-top: 0;
-}
+}*/
 
-ul li, ol li {
+    /*ul li, ol li {
     margin-top: 10px;
-}
+}*/
 
-ul.breadcrumb-custom li a {
-    color: #555;
-    text-decoration: none;
-}
+    ul.breadcrumb-custom li a {
+        color: #555;
+        text-decoration: none;
+    }
 
 /*a {
     text-decoration: none;
@@ -1502,5 +1498,81 @@ body {
 
 /** END New Grid w3chool*/
 
+/** custom to housedesign*/
+#bodyborder-left {
+    left: 0 !important;
+}
 
+#bodyborder-right {
+    right: 0 !important;
+}
 
+#bodyborder-top {
+    top: 0 !important;
+}
+
+#bodyborder-bottom {
+    bottom: 0 !important;
+}
+
+.bordered #page-content {
+    padding: 40px;
+}
+
+.bordered #bodyborder-top, .bordered #bodyborder-bottom, .bordered #bodyborder-left, .bordered #bodyborder-right {
+    background: #f0f0f0 !important;
+}
+
+#page-content {
+    overflow: hidden;
+    margin: 0;
+    min-width: 1080px;
+}
+
+/** Custom du an*/
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /*background: rgba(57, 57, 57, 0.502);*/
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    transition: all 0.2s 0.1s ease-in-out;
+    color: #fff;
+    /* center overlay content */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*margin: 0 20px;*/
+    margin: auto;
+    text-align: center;
+}
+
+/* hover */
+.item_pro:hover .overlay {
+    transform: scale(1);
+    background: rgba(57, 57, 57, 0.502);
+    /*  -webkit-transition: all 8s ease;
+    -moz-transition: all 8s ease;
+    -o-transition: all 8s ease;
+    -ms-transition: all 8s ease;
+    transition: all 8s ease;
+    transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1)*/
+}
+
+.item_pro .item-pro-title {
+    display: block;
+    position: relative;
+    font-family: "Montserrat",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: #fff;
+    line-height: 20px;
+    width: calc(100% - 40px);
+    /* padding-left: 0.1em;*/
+}
