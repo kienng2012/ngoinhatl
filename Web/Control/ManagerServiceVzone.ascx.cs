@@ -62,9 +62,6 @@ namespace Web.Control
             ckboxDisplay.Checked = false;
             cbxCategory.SelectedIndex = 0;
             txtCMD.Text = "";
-
-
-
         }
 
         protected void linkbtnEdit_Click(object sender, EventArgs e)
@@ -94,8 +91,6 @@ namespace Web.Control
                     {
                         ckboxDisplay.Checked = false;
                     }
-
-
                 }
                 mtvMain.ActiveViewIndex = 1;
             }
@@ -111,14 +106,11 @@ namespace Web.Control
             if (lbtn.CommandArgument.Equals("0"))
             {
                 hdService.Value = lbtn.CommandArgument;
-
                 this.resetData();
-
                 mtvMain.ActiveViewIndex = 1;
             }
             else
             {
-
                 return;
             }
         }
@@ -126,7 +118,6 @@ namespace Web.Control
 
         protected void LoadCategoryName(ASPxComboBox combobox)
         {
-
             //Xóa tất cả dữ liệu ở combobox
             combobox.Items.Clear();
             DataTable dt2 = CategoryDB.Category_GetDistinctName();
@@ -201,7 +192,6 @@ namespace Web.Control
                 }
                 else
                 {
-
                     CategorySubInfo objInfo = null;
                     objInfo = new CategorySubInfo();
                     objInfo.CS_Name = txtName.Text;
@@ -311,7 +301,7 @@ namespace Web.Control
                 CategorySubInfo objInfo = CategorySubDB.GetInfo(Convert.ToInt32(hdService.Value));
                 StringBuilder sbArticleImgs = new StringBuilder();
                 objInfo.CS_Name = txtName.Text;
-                //objInfo.CS_Content = Convert.ToString(fckContent.Value);
+                objInfo.CS_Content = Convert.ToString(fckContent.Value);
                 //TODO: Kienng : custom style display content html require :<div class=\"container-fluid pt-5\">
                 //if (fckContent.Value != null && !fckContent.Value.Trim().StartsWith("<div class=\"container-fluid pt-5\">"))
                 //{
@@ -326,7 +316,7 @@ namespace Web.Control
                 //    objInfo.CS_Content = Convert.ToString(fckContent.Value);
                 //}
                 // Lay 100 ki tu của Content làm Descriptioon
-                string _Description = Convert.ToString(txtDescription1.Value);
+                //string _Description = Convert.ToString(txtDescription1.Value);
                 //objInfo.CS_Description = ProcessSubString(_Description, 185);
                 //objInfo.CS_Cmd = txtCMD.Text;
                 objInfo.CS_Description = ProcessSubString(HttpUtility.HtmlEncode(txtDescription1.Text), 185);

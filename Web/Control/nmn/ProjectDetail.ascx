@@ -13,8 +13,8 @@
 <section id="page-title" class="full-height" style="background-image: url(<%= Page.ResolveClientUrl("~/App_Themes/house/img/bg_duan.jpg")%>); background-color: rgb(239, 239, 239); background-size: cover; background-position: center center; background-repeat: no-repeat; min-height: 255px;">
     <div class="section-inner align-center">
         <div class="main-title">
-            <h1 style="font-size: 28px; margin-top: 5px;"><strong>Thi công thực tế căn hộ Hinode tower</strong></h1>
-            <div class="port-meta"><span>Indochine</span><span>150 m<sup>2</sup></span><span>3 PN</span></div>
+            <h1 style="font-size: 28px; margin-top: 5px;"><strong><asp:Literal ID="lblTitlePage" runat="server"></asp:Literal></strong></h1>
+            <div class="port-meta"><span><asp:Literal ID="lblDescriptionPage" runat="server"></asp:Literal></span></div>
         </div>
     </div>
 </section>
@@ -29,66 +29,26 @@
         </span>
         <i class="fa fa-angle-right slash" aria-hidden="true"></i>
         <span class="archive post-product-archive current-item">
-            <a property="item" typeof="WebPage" title="Go to ABARO." href="/du-an.htm" class="home"><span property="name">Dự án</span></a>
-
+            <a property="item" typeof="WebPage" title="Go to ARBARO." href="/du-an.htm" class="home"><span property="name">Dự án</span></a>
         </span>
-        <i class="fa fa-angle-right slash" aria-hidden="true"></i>
+        <%--<i class="fa fa-angle-right slash" aria-hidden="true"></i>
         <span class="archive post-product-archive current-item">
             <span property="name">Dự án</span>
-
-        </span>
+        </span>--%>
     </div>
 </div>
-<!--END NAV BREADCUMBS-->
-<%--<div class="spacer spacer-medium"></div>--%>
-<!-- CONTENT -->
-<%--<div id="page-body" class="">
-    <div class="container">
-        <div class="row">
-            <div class="">
-                <div class="">
-                    <div class="col-sm-7-center">
-                        <h4><i class=""></i>
-                        </h4>
-                        <div class="col-sm-5-center">
-
-                            <div class="scaleAuto">
-                                <asp:Image ID="imgService" runat="server" />
-                            </div>
-                        </div>
-                        <div class="col-sm-7-center">
-                            <p class="m-0"><%#Eval("CS_Description") %></p>
-                        </div>
-                        <div class="col-sm-7-center">
-                            <div class="scaleAuto">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-
-                        <div class="alignRight"><a href="javascript:history.go(-1)" class="btn btn-primary font-weight-bold py-2 px-4 mt-2 center-align">Quay lại</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="borderDotOrange"></div>
-    </div>
-</div>--%>
 
 <div id="page-body" class="">
     <section id="portfolio-single" class="notoppadding">
         <div class="section-inner">
             <div class="wrapper">
                
-                <h4 class="title-ultraminimal align-center visible" data-bigletter="<%#Eval("CS_NAME") %>"><%#Eval("CS_NAME") %><asp:Label ID="lblTitle" runat="server" Text="" /></h4>
-                <div class="spacer spacer-small"></div>
+                <h4 class="title-ultraminimal align-center visible"><asp:Label ID="lblTitle" runat="server" Text="" /></h4>
+                <%--<div class="spacer spacer-small"></div>--%>
                 <p>
                     <asp:Literal ID="lblContent" runat="server"></asp:Literal>
                 </p>
-                <div class="spacer spacer-small"></div>
+                <%--<div class="spacer spacer-small"></div>--%>
             </div>
             <div class="img-products-details">
                 <asp:Image ID="imgService" runat="server" />
@@ -109,12 +69,10 @@
             </div>
 
             <div class="wrapper mt-5">
-
                 <hr class="my-5">
 
                 <!-- V -->
             </div>
-
 
             <div class="cta-container">
                 <div class="container">
@@ -136,8 +94,6 @@
                     </div>
                 </div>
             </div>
-
-
             <%--<div class="wrapper">
                 <ul class="single-pagination fixed-pagination">
                     <li class="next "><a href="https://housedesign.vn/du-an/thi-cong-thu-te-villa-vinhome-quan-9/" title="Thi công thự tế Villa Vinhome Quận 9" class="transition" data-name="Thi công thự tế Villa Vinhome Quận 9">

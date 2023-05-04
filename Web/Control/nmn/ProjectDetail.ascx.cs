@@ -33,13 +33,12 @@ namespace Web.Control.nmn
                     _serviceID = Convert.ToInt32(Request.QueryString["serviceID"]);
                 if (Page.RouteData.Values["serviceID"] != null)
                     _serviceID = Convert.ToInt32(Page.RouteData.Values["serviceID"]);
-                //string strCateName = CategoryDB.Category_GetCateName_ByID(_cateID);
-
                 CategorySubInfo info = CategorySubDB.GetInfo(_serviceID);
                 lblTitle.Text = info.CS_Name;
+                lblTitlePage.Text = info.CS_Name;
+                lblDescriptionPage.Text = info.CS_Description;
                 imgService.ImageUrl = info.CS_ImageURL;
                 lblContent.Text = info.CS_Content;
-                //lblCateName.Text = info.C_Name;
 
                 //lblDate.Text = info.CS_CreateDate.ToString("dd/MM/yyyy");
                 _cateName = info.C_Name;
@@ -61,7 +60,7 @@ namespace Web.Control.nmn
 
                 Page.Title = info.CS_Name;//Set dynamic title page . tag <head runat="server">
                 //Load cac bai viet lien quan
-                this.LoadDataByCateWithoutCurrentID(_intCateID, info.CS_ID);
+                this.LoadDataByCateWithoutCurrentID(info.C_ID, info.CS_ID);
             }
         }
         protected void LoadDataByCateWithoutCurrentID(int _cateID, int exceptArticleId)

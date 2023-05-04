@@ -96,6 +96,9 @@
         <!-- CONTENT PLACE HOLDER MAIN -->
         <main id="main">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+            <!-- FOOTER -->
+
+            <!-- END FOOTER -->
         </main>
 
         <!-- END CONTENT PLACE HOLDER -->
@@ -132,9 +135,7 @@
             </div>
         </div>
     </div>-->
-        <!-- FOOTER -->
-        <uc9:footer ID="Footer1" runat="server" />
-        <!-- END FOOTER -->
+
         <div id="menu_mainnav">
             <div class="group_nav">
                 <div class="title_nav">Danh mục</div>
@@ -334,5 +335,8 @@ sizes = "{{data.sizes}}" {
             </div>
         </div>
     </div>
+
+    <!--FOOTER -->
+    <uc9:footer ID="Footer1" runat="server" />
 </body>
 </html>

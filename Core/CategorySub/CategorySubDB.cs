@@ -176,6 +176,26 @@ namespace Core.CategorySub
             }
             return retVal;
         }
+
+        public static DataTable CategorySubDB_GetByID(int _CS_ID)
+        {
+            DataTable retVal = null;
+            SqlConnection dbConn = new SqlConnection(ConfigurationManager.ConnectionStrings["SQLGamePortalHTS"].ToString());
+            SqlCommand dbCmd = new SqlCommand("CategorySub_GetInfo", dbConn);
+            dbCmd.CommandType = CommandType.StoredProcedure;
+            dbCmd.Parameters.AddWithValue("@CS_ID", _CS_ID);
+            try
+            {
+                retVal = new DataTable();
+                SqlDataAdapter da = new SqlDataAdapter(dbCmd);
+                da.Fill(retVal);
+            }
+            finally
+            {
+                dbConn.Close();
+            }
+            return retVal;
+        }
         //return: 1-tồn tại   2-chưa tồn tại
         public static int CheckExistsName_CategorySub(string CS_Name)
         {
