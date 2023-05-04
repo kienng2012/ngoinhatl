@@ -24,7 +24,8 @@ article, aside, details, .overlaycaption, figure, footer, header, hgroup, menu, 
 }
 
 section {
-    background-color: #eee;
+    /*background-color: #eee;*/
+    background-color: #fff;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -222,13 +223,9 @@ element.style {
 
 /* PROJECT HOUSEDESIGN*/
 
-div#page-body {
-    padding-bottom: 20px;
-}
-
 #page-body {
     overflow: hidden;
-    width: 90%;
+    width: 95%!important;
     margin: auto;
 }
 
@@ -238,11 +235,6 @@ div#page-body {
 
 article, aside, details, .overlaycaption, figure, footer, header, hgroup, menu, nav, section, dialog {
     display: block;
-}
-
-#page-body .section-inner {
-    padding-top: 60px;
-    width: 100%;
 }
 
 
@@ -1279,10 +1271,6 @@ img, object, video {
     overflow: hidden;
 }
 
-#page-body .section-inner {
-    padding-top: 60px;
-    width: 100%;
-}
 
 @media only screen and (max-width: 1120px) {
     .notoppadding .section-inner {
@@ -1385,11 +1373,6 @@ img, object, video {
     overflow: hidden;
 }
 
-#page-body {
-    overflow: hidden;
-    width: 90%;
-    margin: auto;
-}
 
 /* Custom page liên hệ */
 #title-wrap .main-title {
@@ -1492,6 +1475,7 @@ body {
     .bordered #page-content, .bordered.big-border #page-content {
         padding: 10px;
     }
+}
 
 /** custom to housedesign*/
 #bodyborder-left {
@@ -1510,12 +1494,17 @@ body {
     bottom: 0 !important;
 }
 
+
 .bordered #page-content {
     padding: 40px;
 }
 
 .bordered #bodyborder-top, .bordered #bodyborder-bottom, .bordered #bodyborder-left, .bordered #bodyborder-right {
     background: #f0f0f0 !important;
+}
+
+.loading-end.bordered #bodyborder-right, .disable-preloader.bordered #bodyborder-right {
+    right: 0 !important;
 }
 
 #page-content {
@@ -1570,4 +1559,11 @@ body {
     line-height: 20px;
     width: calc(100% - 40px);
     /* padding-left: 0.1em;*/
+}
+
+.img-products-details
+{
+    display:block;
+    margin:auto;
+    margin-bottom:10px;
 }

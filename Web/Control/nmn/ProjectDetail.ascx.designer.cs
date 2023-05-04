@@ -24,13 +24,13 @@ namespace Web.Control.nmn
         protected global::System.Web.UI.WebControls.Label lblTitle;
 
         /// <summary>
-        /// lblDate control.
+        /// lblContent control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblDate;
+        protected global::System.Web.UI.WebControls.Literal lblContent;
 
         /// <summary>
         /// imgService control.
@@ -40,15 +40,6 @@ namespace Web.Control.nmn
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Image imgService;
-
-        /// <summary>
-        /// lblContent control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal lblContent;
 
         /// <summary>
         /// rpImages control.

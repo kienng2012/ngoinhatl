@@ -2,86 +2,54 @@
 <%@ Import Namespace="Core.Utils" %>
 
 <%@ Register Src="~/Control/nmn/ArticleTop.ascx" TagName="articleTop" TagPrefix="uc1" %>
-<%--<%@ Register Src="MenuLeft.ascx" TagName="MenuLeft" TagPrefix="uc1" %>--%>
-<!-- Menu Left -->
-<%--<uc1:MenuLeft ID="MenuLeft1" runat="server" />--%>
-<!-- End Menu Left -->
-
-<!-- Page Header Start -->
-<%--<div class="container-fluid page-header mb-5 position-relative overlay-bottom">
-    <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5" style="min-height: 400px">
-        <h1 class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase">NEWS & ARTICLE</h1>
-        <div class="d-inline-flex mb-lg-5">
-            <p class="m-0 text-white"><a class="text-white" href="">Trang chủ</a></p>
-            <p class="m-0 text-white px-2">/</p>
-            <p class="m-0 text-white">Chi tiết bài viết</p>
-        </div>
+<%--<div class="banner_pages banner_catpro section_bg" style="background-image: url(<%= Page.ResolveClientUrl("~/App_Themes/house/img/bg_duan.jpg")%>);">
+    <div class="inner">
+        <h1 class="title_catpro">Dự án chi tiết</h1>
     </div>
 </div>--%>
-<!-- Page Header End -->
 
-<div class="container-fluid pt-5">
-    <div class="container">
+<!-- BANNER -->
 
-        <div class="row">
-            <div class="">
-                <div class="">
-                    <div class="col-sm-7-center">
-                        <h4><i class=""></i>
-                            <asp:Label ID="lblTitle" runat="server" Text="" /></h4>
-                        <asp:Label ID="lblDate" runat="server" Text="" />
-                        <div class="col-sm-5-center">
-
-                            <div class="scaleAuto">
-                                <asp:Image ID="imgService" runat="server" />
-                            </div>
-                        </div>
-                        <div class="col-sm-7-center">
-                            <p class="m-0"><%#Eval("CS_Description") %></p>
-                        </div>
-                        <div class="col-sm-7-center">
-                            <div class="scaleAuto">
-                                <asp:Literal ID="lblContent" runat="server"></asp:Literal>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="products-details columns-4 list_product">
-
-                        <asp:Repeater ID="rpImages" runat="server">
-                            <ItemTemplate>
-                                <div class="item_pro">
-
-                                    <a href="<%#Eval("IMG_URL_ITEM") %>" data-fancybox="gallery_sc" class="openfancybox">
-                                        <div class="img" style="background-image: url(<%#Eval("IMG_URL_ITEM") %>"></div>
-                                    </a>
-
-                                </div>
-                            </ItemTemplate>
-                        </asp:Repeater>
-                    </div>
-                    <div class="row">
-
-                        <div class="alignRight"><a href="javascript:history.go(-1)" class="btn btn-primary font-weight-bold py-2 px-4 mt-2 center-align">Quay lại</a></div>
-                    </div>
-                </div>
-            </div>
+<section id="page-title" class="full-height" style="background-image: url(<%= Page.ResolveClientUrl("~/App_Themes/house/img/bg_duan.jpg")%>); background-color: rgb(239, 239, 239); background-size: cover; background-position: center center; background-repeat: no-repeat; min-height: 255px;">
+    <div class="section-inner align-center">
+        <div class="main-title">
+            <h1 style="font-size: 28px; margin-top: 5px;"><strong>Thi công thực tế căn hộ Hinode tower</strong></h1>
+            <div class="port-meta"><span>Indochine</span><span>150 m<sup>2</sup></span><span>3 PN</span></div>
         </div>
     </div>
+</section>
+<!-- END BANNER -->
+
+<!-- NAV BREADCUMBS-->
+<div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
     <div class="container">
-        <div class="borderDotOrange"></div>
+        <span property="itemListElement" typeof="ListItem">
+            <a property="item" typeof="WebPage" title="Go to ABARO." href="http://ngoinhatuonglai.vn" class="home"><span property="name">Trang chủ</span></a>
+            <meta property="position" content="1">
+        </span>
+        <i class="fa fa-angle-right slash" aria-hidden="true"></i>
+        <span class="archive post-product-archive current-item">
+            <a property="item" typeof="WebPage" title="Go to ABARO." href="/du-an.htm" class="home"><span property="name">Dự án</span></a>
+
+        </span>
+        <i class="fa fa-angle-right slash" aria-hidden="true"></i>
+        <span class="archive post-product-archive current-item">
+            <span property="name">Dự án</span>
+
+        </span>
     </div>
 </div>
-
-<%--<div class="container-fluid pt-5">
+<!--END NAV BREADCUMBS-->
+<%--<div class="spacer spacer-medium"></div>--%>
+<!-- CONTENT -->
+<%--<div id="page-body" class="">
     <div class="container">
-
         <div class="row">
             <div class="">
                 <div class="">
                     <div class="col-sm-7-center">
                         <h4><i class=""></i>
-                            <asp:Label ID="lblTitle" runat="server" Text="" /></h4>
-                        <asp:Label ID="lblDate" runat="server" Text="" />
+                        </h4>
                         <div class="col-sm-5-center">
 
                             <div class="scaleAuto">
@@ -93,23 +61,10 @@
                         </div>
                         <div class="col-sm-7-center">
                             <div class="scaleAuto">
-                                <asp:Literal ID="lblContent" runat="server"></asp:Literal>
                             </div>
                         </div>
                     </div>
-                    <div class="container">
-                        <h2 class="heading-text">Responsive <span>image gallery</span></h2>
-                        <ul class="image-gallery">
 
-                            <asp:Repeater ID="rpImages" runat="server">
-                                <ItemTemplate>
-                                    <li>
-                                        <img src="<%#Eval("IMG_URL_ITEM") %>" alt="" class="img-details" />
-                                    </li>
-                                </ItemTemplate>
-                            </asp:Repeater>
-                        </ul>
-                    </div>
                     <div class="row">
 
                         <div class="alignRight"><a href="javascript:history.go(-1)" class="btn btn-primary font-weight-bold py-2 px-4 mt-2 center-align">Quay lại</a></div>
@@ -123,10 +78,79 @@
     </div>
 </div>--%>
 
-<!-- Service End -->
-<!-- Menu Start -->
-<%--<uc1:articleTop ID="ArticleTop" runat="server" />--%>
-<!-- Menu Start -->
+<div id="page-body" class="">
+    <section id="portfolio-single" class="notoppadding">
+        <div class="section-inner">
+            <div class="wrapper">
+               
+                <h4 class="title-ultraminimal align-center visible" data-bigletter="<%#Eval("CS_NAME") %>"><%#Eval("CS_NAME") %><asp:Label ID="lblTitle" runat="server" Text="" /></h4>
+                <div class="spacer spacer-small"></div>
+                <p>
+                    <asp:Literal ID="lblContent" runat="server"></asp:Literal>
+                </p>
+                <div class="spacer spacer-small"></div>
+            </div>
+            <div class="img-products-details">
+                <asp:Image ID="imgService" runat="server" />
+            </div>
+
+            <div class="products-details columns-4 list_product">
+                <asp:Repeater ID="rpImages" runat="server">
+                    <ItemTemplate>
+                        <div class="item_pro">
+                            <a href="<%#Eval("IMG_URL_ITEM") %>" data-fancybox="gallery_sc" class="openfancybox">
+                                <div class="img" style="background-image: url(<%#Eval("IMG_URL_ITEM") %>"></div>
+                            </a>
+                        </div>
+                    </ItemTemplate>
+                </asp:Repeater>
+            </div>
+            <div class="wrapper">
+            </div>
+
+            <div class="wrapper mt-5">
+
+                <hr class="my-5">
+
+                <!-- V -->
+            </div>
+
+
+            <div class="cta-container">
+                <div class="container">
+                    <div class="pure-g">
+                        <div class="pure-u-1 pure-u-lg-7-12">
+                            <div class="cta-wrap">
+                                <div class="cta-content">
+                                    <p class="title">ARBARO - Thiết kế thi công nội thất hiện đại</p>
+                                    <p class="sub-title">Liên hệ ngay với chúng tôi để thực hiện dự án của bạn</p>
+                                    <a href="https://ngoinhatuonglai/lien-he.htm/">Liên hệ</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pure-u-1 pure-u-lg-5-12">
+                            <div class="cta-img">
+                                <img src="../../App_Themes/house/img/banner-lien-he.png" width="482" height="211" alt="" data-lazy-src="../../App_Themes/house/img/banner-lien-he.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="/images/banner-lien-he.png" width="482" height="211" alt=""></noscript>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <%--<div class="wrapper">
+                <ul class="single-pagination fixed-pagination">
+                    <li class="next "><a href="https://housedesign.vn/du-an/thi-cong-thu-te-villa-vinhome-quan-9/" title="Thi công thự tế Villa Vinhome Quận 9" class="transition" data-name="Thi công thự tế Villa Vinhome Quận 9">
+                        <i class="pagination-icon"></i>Next Project <i class="pagination-icon"></i></a></li>
+                    <li class="prev "><a href="https://housedesign.vn/du-an/thi-cong-thuc-te-duplex-sadora-quan-2/" title="Thi công thực tế- Duplex Sadora Quận 2" class="transition" data-name="Thi công thực tế- Duplex Sadora Quận 2">
+                        <i class="pagination-icon"></i>Previous Project <i class="pagination-icon"></i></a></li>
+                </ul>
+            </div>--%>
+        </div>
+    </section>
+</div>
+<!-- END CONTENT -->
+
 <%--<div class="container-fluid pt-5">
     <div class="container">
         <div class="section-title-detail">
@@ -168,122 +192,3 @@
     </div>
 </div>--%>
 <!-- Menu End -->
-
-<%--<div id="page-body" class="">
-    <section id="portfolio-single" class="notoppadding">
-        <div class="section-inner">
-            <div class="wrapper">
-                <ul class="breadcrumb-custom">
-                    <li><a href="https://housedesign.vn/">Trang chủ</a> </li>
-                    <li><a href="https://housedesign.vn/du-an/">Dự án</a></li>
-                    <li>Coffee phong cách Wabisabi Việt                        </li>
-                </ul>
-
-                        <div class="spacer spacer-small"></div>
-                        <h4 class="title-ultraminimal align-center visible" data-bigletter="Villa Sân Vườn Độc Đáo">Villa Sân Vườn Độc Đáo</h4>
-                        <div class="spacer spacer-small"></div>
-                        <p>Căn Biệt thự là chốt nghỉ ngơi và cũng là nơi làm việc tại nhà cho chủ nhân của nó. Được thiết kế thông thoáng hòa mình với sân vườn cây xanh, chất liệu mộc mạc nhưng trong nền phong cách hiện đại để tăng tiện nghi cho căn nhà. Từ không gian bên ngoài đến bên trong chất liệu luôn đồng nhất với phong cách toàn ngôi nhà, điều đó sẽ làm tăng thêm xúc cảm cho người ở và khách thăm quan đến đây.</p>
-                        <div class="spacer spacer-small"></div>
-                    </div>
-                    <div id="gallery-grid-sc" class="masonry clearfix" data-maxitemwidth="300" style="position: relative; height: 1497.64px;">
-                        <div class="masonry-item">
-                            <a href="https://housedesign.vn/wp-content/uploads/2022/03/ngoai-that-2-1100x619.jpg" data-fancybox="gallery_sc" class="openfancybox">
-                                <img src="https://housedesign.vn/wp-content/uploads/2022/03/ngoai-that-2-420x236.jpg" alt="" />
-                            </a>
-                        </div>
-                        <div class="masonry-item">
-                            <a href="https://housedesign.vn/wp-content/uploads/2022/03/ngoai-that-3-e1658424744399-1100x828.jpg" data-fancybox="gallery_sc" class="openfancybox">
-                                <img src="https://housedesign.vn/wp-content/uploads/2022/03/ngoai-that-3-e1658424744399-420x316.jpg" alt="" />
-                            </a>
-                        </div>
-                        <div class="masonry-item">
-                            <a href="https://housedesign.vn/wp-content/uploads/2022/03/ngoai-that-5-1100x1375.jpg" data-fancybox="gallery_sc" class="openfancybox">
-                                <img src="https://housedesign.vn/wp-content/uploads/2022/03/ngoai-that-5-420x525.jpg" alt="" />
-                            </a>
-                        </div>
-                        <div class="masonry-item">
-                            <a href="https://housedesign.vn/wp-content/uploads/2022/03/ngoai-that-6-1100x1375.jpg" data-fancybox="gallery_sc" class="openfancybox">
-                                <img src="https://housedesign.vn/wp-content/uploads/2022/03/ngoai-that-6-420x525.jpg" alt="" />
-                            </a>
-                        </div>
-                        <div class="masonry-item">
-                            <a href="https://housedesign.vn/wp-content/uploads/2022/03/ngoai-that-7-1100x1375.jpg" data-fancybox="gallery_sc" class="openfancybox">
-                                <img src="https://housedesign.vn/wp-content/uploads/2022/03/ngoai-that-7-420x525.jpg" alt="" />
-                            </a>
-                        </div>
-                        <div class="masonry-item">
-                            <a href="https://housedesign.vn/wp-content/uploads/2022/03/ngoai-that-1-1100x917.jpg" data-fancybox="gallery_sc" class="openfancybox">
-                                <img src="https://housedesign.vn/wp-content/uploads/2022/03/ngoai-that-1-420x350.jpg" alt="" />
-                            </a>
-                        </div>
-                        <div class="masonry-item">
-                            <a href="https://housedesign.vn/wp-content/uploads/2022/03/ngoai-that-4-1100x733.jpg" data-fancybox="gallery_sc" class="openfancybox">
-                                <img src="https://housedesign.vn/wp-content/uploads/2022/03/ngoai-that-4-420x280.jpg" alt="" />
-                            </a>
-                        </div>
-                        <div class="masonry-item">
-                            <a href="https://housedesign.vn/wp-content/uploads/2022/03/khach-bep-1-1100x733.jpg" data-fancybox="gallery_sc" class="openfancybox">
-                                <img src="https://housedesign.vn/wp-content/uploads/2022/03/khach-bep-1-420x280.jpg" alt="" />
-                            </a>
-                        </div>
-                        <div class="masonry-item">
-                            <a href="https://housedesign.vn/wp-content/uploads/2022/03/khach-bep-7-1100x758.jpg" data-fancybox="gallery_sc" class="openfancybox">
-                                <img src="https://housedesign.vn/wp-content/uploads/2022/03/khach-bep-7-420x289.jpg" alt="" />
-                            </a>
-                        </div>
-                        <div class="masonry-item">
-                            <a href="https://housedesign.vn/wp-content/uploads/2022/03/khach-bep-2-1100x733.jpg" data-fancybox="gallery_sc" class="openfancybox">
-                                <img src="https://housedesign.vn/wp-content/uploads/2022/03/khach-bep-2-420x280.jpg" alt="" />
-                            </a>
-                        </div>
-                        <div class="masonry-item">
-                            <a href="https://housedesign.vn/wp-content/uploads/2022/03/khach-bep-3-1100x733.jpg" data-fancybox="gallery_sc" class="openfancybox">
-                                <img src="https://housedesign.vn/wp-content/uploads/2022/03/khach-bep-3-420x280.jpg" alt="" />
-                            </a>
-                        </div>
-                        <div class="masonry-item">
-                            <a href="https://housedesign.vn/wp-content/uploads/2022/03/khach-bep-4-1100x733.jpg" data-fancybox="gallery_sc" class="openfancybox">
-                                <img src="https://housedesign.vn/wp-content/uploads/2022/03/khach-bep-4-420x280.jpg" alt="" />
-                            </a>
-                        </div>
-
-
-                    </div>
-                    <div class="wrapper">
-                    </div>
-
-                    <div class="wrapper mt-5">
-
-                        <hr class="my-5">
-
-                        <!-- V -->
-                    </div>
-
-
-                    <div class="cta-container">
-                        <div class="container">
-                            <div class="pure-g">
-                                <div class="pure-u-1 pure-u-lg-7-12">
-                                    <div class="cta-wrap">
-                                        <div class="cta-content">
-                                            <p class="title">HOUSEDESIGN - Thiết kế thi công nội thất hiện đại</p>
-                                            <p class="sub-title">Liên hệ ngay với chúng tôi để thực hiện dự án của bạn</p>
-                                            <a href="https://housedesign.vn/lien-he/">Liên hệ</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="pure-u-1 pure-u-lg-5-12">
-                                    <div class="cta-img">
-                                        <img src="/images/banner-lien-he.png" width="482" height="211" alt="" data-lazy-src="/images/banner-lien-he.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="/images/banner-lien-he.png" width="482" height="211" alt=""></noscript>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-            </div>
-        </div>
-    </section>
-</div>--%>
-

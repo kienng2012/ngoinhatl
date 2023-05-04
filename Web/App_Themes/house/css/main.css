@@ -24089,7 +24089,8 @@ a.addtoany_share img {
 }
 
 .fa-angle-right:before {
-    content: "\f105"
+    /*content: "\f105"*/
+    content: "/"
 }
 
 .fa-angle-up:before {
