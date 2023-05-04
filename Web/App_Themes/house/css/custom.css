@@ -1331,17 +1331,6 @@ img, object, video {
     max-width: 100%;
 }
 
-    #gallery-grid-sc .masonry-item a img {
-        -webkit-transition: all 0.8s ease;
-        -moz-transition: all 0.8s ease;
-        -o-transition: all 0.8s ease;
-        -ms-transition: all 0.8s ease;
-        transition: all 0.8s ease;
-        transform: scale(1);
-        -ms-transform: scale(1);
-        -webkit-transform: scale(1);
-    }
-
 .masonry .masonry-item:after {
     display: block;
     content: "";
@@ -1440,7 +1429,9 @@ img, object, video {
         object-fit: cover;
     }
 
-/** New Grid w3chool Ref https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_grid_responsive */
+/** New Grid w3chool Ref https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_grid_responsive 
+    https://blog.logrocket.com/responsive-image-gallery-css-flexbox/
+*/
 * {
     box-sizing: border-box;
 }
@@ -1497,6 +1488,10 @@ body {
 
 
 /** END New Grid w3chool*/
+@media only screen and (max-width: 640px) {
+    .bordered #page-content, .bordered.big-border #page-content {
+        padding: 10px;
+    }
 
 /** custom to housedesign*/
 #bodyborder-left {

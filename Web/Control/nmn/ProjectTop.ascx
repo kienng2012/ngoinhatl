@@ -31,9 +31,9 @@
                                                                 <img data-lazyloaded="1" src="App_Themes/house/img/icon_share.png" alt="" icon_share="" data-src="App_Themes/house/img/icon_share.png" data-ll-status="loaded" class="entered litespeed-loaded">
                                                             </a>
                                                         </div>
-                                                        <div class="view">
+                                                        <%--<div class="view">
                                                             <img data-lazyloaded="1" src="App_Themes/house/img/icon_view.png" alt="view" data-src="App_Themes/house/img/icon_view.png" data-ll-status="loaded" class="entered litespeed-loaded">221
-                                                        </div>
+                                                        </div>--%>
                                                     </div>
                                                 </div>
                                                 <h3 class="name"><a href="/Du-an-<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm"><%#Eval("CS_Name")%></a></h3>

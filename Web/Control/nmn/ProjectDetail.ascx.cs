@@ -73,8 +73,8 @@ namespace Web.Control.nmn
             {
                 _cateName = dt.Rows[0]["C_Name"].ToString();
             }
-            rptListCate.DataSource = dt;
-            rptListCate.DataBind();
+            //rptListCate.DataSource = dt;
+            //rptListCate.DataBind();
             //int totalRecord = info.Output;
             //lblPaging.Text = RewriteUrl.generateTagPaging(_baseUrlPaging, _pageNumber, pageSize, totalRecord);
         }
