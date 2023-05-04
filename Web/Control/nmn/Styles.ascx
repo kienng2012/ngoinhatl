@@ -20,82 +20,6 @@
 </div>
 <!-- PROJECT -->
 <div class="all_box">
-    <%--<div class="filter_product">
-        <div class="title">
-            <div class="box">
-                <span class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="52" height="32" viewBox="0 0 52 32" class="this_on">
-                        <path fill="currentColor" d="M49.23 5.9H24.37c-.5-3.44-3.45-5.9-7.14-5.9S10.6 2.46 10.1 5.9H2.46C1.72 5.9 1 6.66 1 7.4s.73 1.47 1.47 1.47h7.63c.5 3.45 3.45 5.91 7.14 5.91s6.65-2.46 7.14-5.9h24.86c.74 0 1.48-.75 1.48-1.49s-.74-1.47-1.48-1.47zm-32 5.91c-1.97 0-3.44-1.23-4.18-2.95-.25-.5-.25-.98-.25-1.48s0-.98.25-1.47c.73-1.73 2.21-2.96 4.18-2.96s3.45 1.23 4.19 2.96c.24.49.24.98.24 1.47s0 .99-.24 1.48c-.74 1.72-2.22 2.95-4.19 2.95zM49.23 23.14h-5.17c-.49-3.45-3.44-5.91-7.14-5.91s-6.64 2.46-7.13 5.9H2.46c-.73 0-1.47.75-1.47 1.49s.73 1.47 1.47 1.47H29.8c.49 3.45 3.44 5.91 7.13 5.91s6.65-2.46 7.14-5.9h5.17c.74 0 1.48-.75 1.48-1.49s-.74-1.47-1.48-1.47zm-12.3 5.9c-1.98 0-3.45-1.22-4.2-2.95-.24-.49-.24-.98-.24-1.48s0-.98.25-1.47c.49-1.73 2.21-2.96 4.18-2.96s3.45 1.23 4.19 2.96c.24.49.24.98.24 1.47s0 .99-.24 1.48c-.74 1.72-2.22 2.96-4.19 2.96z"></path></svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" class="this_off">
-                        <path fill="currentColor" d="M1.16 17.709a1.068 1.068 0 0 1 1.284-1.704l14.198 10.699a1.068 1.068 0 0 1-1.284 1.704L1.16 17.709z"></path><path fill="currentColor" d="M16.642 28.407a1.066 1.066 0 1 1-1.284-1.704l14.198-10.699a1.066 1.066 0 1 1 1.284 1.704L16.642 28.407zM1.16 5.264A1.068 1.068 0 0 1 2.444 3.56l14.198 10.699a1.068 1.068 0 0 1-1.284 1.704L1.16 5.264z"></path><path fill="currentColor" d="M16.642 15.963a1.066 1.066 0 1 1-1.284-1.704L29.556 3.56a1.066 1.066 0 1 1 1.284 1.704L16.642 15.963z"></path></svg>
-                </span>
-                <span>Bộ lọc</span>
-            </div>
-        </div>
-        <div class="box_filter">
-            <div id="devvn_wcfa_layered_nav-4" class="widget devvn_wcfa woocommerce devvn_wcfa_widget_layered_nav woocommerce-widget-layered-nav ">
-                <div class="filter-title">Chủng loại</div>
-                <ul class="wafc-widget-layered-nav-list woocommerce-widget-layered-nav-list wcfa_3_columns">
-                    <li class="wcfa_3_columns_item display_type_default wcfa_widget_layered_nav__item wc-layered-nav-term "><a rel="nofollow" href="https://nordic.vn/san-pham/?filter_chung-loai=ban-ghe-an">Bàn ghế ăn</a> <span class="count">(2)</span></li>
-                    <li class="wcfa_3_columns_item display_type_default wcfa_widget_layered_nav__item wc-layered-nav-term "><a rel="nofollow" href="https://nordic.vn/san-pham/?filter_chung-loai=ban-tra">Bàn trà</a> <span class="count">(7)</span></li>
-                    <li class="wcfa_3_columns_item display_type_default wcfa_widget_layered_nav__item wc-layered-nav-term "><a rel="nofollow" href="https://nordic.vn/san-pham/?filter_chung-loai=ghe-amrchair">Ghế Amrchair</a> <span class="count">(3)</span></li>
-                    <li class="wcfa_3_columns_item display_type_default wcfa_widget_layered_nav__item wc-layered-nav-term "><a rel="nofollow" href="https://nordic.vn/san-pham/?filter_chung-loai=ghe-nghi">Ghế nghỉ</a> <span class="count">(2)</span></li>
-                    <li class="wcfa_3_columns_item display_type_default wcfa_widget_layered_nav__item wc-layered-nav-term "><a rel="nofollow" href="https://nordic.vn/san-pham/?filter_chung-loai=giuong">Giường</a> <span class="count">(4)</span></li>
-                    <li class="wcfa_3_columns_item display_type_default wcfa_widget_layered_nav__item wc-layered-nav-term "><a rel="nofollow" href="https://nordic.vn/san-pham/?filter_chung-loai=ke-tivi">Kệ tivi</a> <span class="count">(3)</span></li>
-                    <li class="wcfa_3_columns_item display_type_default wcfa_widget_layered_nav__item wc-layered-nav-term "><a rel="nofollow" href="https://nordic.vn/san-pham/?filter_chung-loai=modul">Modul</a> <span class="count">(8)</span></li>
-                    <li class="wcfa_3_columns_item display_type_default wcfa_widget_layered_nav__item wc-layered-nav-term "><a rel="nofollow" href="https://nordic.vn/san-pham/?filter_chung-loai=signature-sofa">Signature Sofa</a> <span class="count">(1)</span></li>
-                    <li class="wcfa_3_columns_item display_type_default wcfa_widget_layered_nav__item wc-layered-nav-term "><a rel="nofollow" href="https://nordic.vn/san-pham/?filter_chung-loai=sofa">Sofa</a> <span class="count">(3)</span></li>
-                    <li class="wcfa_3_columns_item display_type_default wcfa_widget_layered_nav__item wc-layered-nav-term "><a rel="nofollow" href="https://nordic.vn/san-pham/?filter_chung-loai=sofa-don">Sofa đơn</a> <span class="count">(4)</span></li>
-                    <li class="wcfa_3_columns_item display_type_default wcfa_widget_layered_nav__item wc-layered-nav-term "><a rel="nofollow" href="https://nordic.vn/san-pham/?filter_chung-loai=sofa-i">Sofa I</a> <span class="count">(3)</span></li>
-                    <li class="wcfa_3_columns_item display_type_default wcfa_widget_layered_nav__item wc-layered-nav-term "><a rel="nofollow" href="https://nordic.vn/san-pham/?filter_chung-loai=sofa-l">Sofa L</a> <span class="count">(1)</span></li>
-                    <li class="wcfa_3_columns_item display_type_default wcfa_widget_layered_nav__item wc-layered-nav-term "><a rel="nofollow" href="https://nordic.vn/san-pham/?filter_chung-loai=tu-bep">Tủ bếp</a> <span class="count">(3)</span></li>
-                </ul>
-            </div>
-            <div id="devvn_wcfa_layered_nav-3" class="widget devvn_wcfa woocommerce devvn_wcfa_widget_layered_nav woocommerce-widget-layered-nav filter-color">
-                <div class="filter-title">Màu sắc</div>
-                <ul class="wafc-widget-layered-nav-list woocommerce-widget-layered-nav-list wcfa_6_columns">
-                    <li class="wcfa_6_columns_item display_type_color wcfa_widget_layered_nav__item wc-layered-nav-term "><a rel="nofollow" href="https://nordic.vn/san-pham/?filter_mau-sac=be"><span class="wcfa_color_item" style="background-color: #ddccaa"></span></a></li>
-                    <li class="wcfa_6_columns_item display_type_color wcfa_widget_layered_nav__item wc-layered-nav-term "><a rel="nofollow" href="https://nordic.vn/san-pham/?filter_mau-sac=den"><span class="wcfa_color_item" style="background-color: #000000"></span></a></li>
-                    <li class="wcfa_6_columns_item display_type_color wcfa_widget_layered_nav__item wc-layered-nav-term "><a rel="nofollow" href="https://nordic.vn/san-pham/?filter_mau-sac=den-xam"><span class="wcfa_color_item" style="background-color: #919191"></span></a></li>
-                    <li class="wcfa_6_columns_item display_type_color wcfa_widget_layered_nav__item wc-layered-nav-term "><a rel="nofollow" href="https://nordic.vn/san-pham/?filter_mau-sac=nau"><span class="wcfa_color_item" style="background-color: #a58c73"></span></a></li>
-                    <li class="wcfa_6_columns_item display_type_color wcfa_widget_layered_nav__item wc-layered-nav-term "><a rel="nofollow" href="https://nordic.vn/san-pham/?filter_mau-sac=nau-dam">Nâu đậm</a></li>
-                    <li class="wcfa_6_columns_item display_type_color wcfa_widget_layered_nav__item wc-layered-nav-term "><a rel="nofollow" href="https://nordic.vn/san-pham/?filter_mau-sac=nau-trang"><span class="wcfa_color_item" style="background-color: #ddddcc"></span></a></li>
-                    <li class="wcfa_6_columns_item display_type_color wcfa_widget_layered_nav__item wc-layered-nav-term "><a rel="nofollow" href="https://nordic.vn/san-pham/?filter_mau-sac=nau-vang"><span class="wcfa_color_item" style="background-color: #ddb16e"></span></a></li>
-                    <li class="wcfa_6_columns_item display_type_color wcfa_widget_layered_nav__item wc-layered-nav-term "><a rel="nofollow" href="https://nordic.vn/san-pham/?filter_mau-sac=nau-xam"><span class="wcfa_color_item" style="background-color: #b7b7b7"></span></a></li>
-                    <li class="wcfa_6_columns_item display_type_color wcfa_widget_layered_nav__item wc-layered-nav-term "><a rel="nofollow" href="https://nordic.vn/san-pham/?filter_mau-sac=tim">Tím</a></li>
-                    <li class="wcfa_6_columns_item display_type_color wcfa_widget_layered_nav__item wc-layered-nav-term "><a rel="nofollow" href="https://nordic.vn/san-pham/?filter_mau-sac=trang"><span class="wcfa_color_item" style="background-color: #ffffff"></span></a></li>
-                    <li class="wcfa_6_columns_item display_type_color wcfa_widget_layered_nav__item wc-layered-nav-term "><a rel="nofollow" href="https://nordic.vn/san-pham/?filter_mau-sac=trang-xam"><span class="wcfa_color_item" style="background-color: #dddddd"></span></a></li>
-                    <li class="wcfa_6_columns_item display_type_color wcfa_widget_layered_nav__item wc-layered-nav-term "><a rel="nofollow" href="https://nordic.vn/san-pham/?filter_mau-sac=vang-dam">Vàng đậm</a></li>
-                    <li class="wcfa_6_columns_item display_type_color wcfa_widget_layered_nav__item wc-layered-nav-term "><a rel="nofollow" href="https://nordic.vn/san-pham/?filter_mau-sac=vang-nhat">Vàng nhạt</a></li>
-                    <li class="wcfa_6_columns_item display_type_color wcfa_widget_layered_nav__item wc-layered-nav-term "><a rel="nofollow" href="https://nordic.vn/san-pham/?filter_mau-sac=xam"><span class="wcfa_color_item" style="background-color: #e2e2e2"></span></a></li>
-                    <li class="wcfa_6_columns_item display_type_color wcfa_widget_layered_nav__item wc-layered-nav-term "><a rel="nofollow" href="https://nordic.vn/san-pham/?filter_mau-sac=xam-nhat">Xám nhạt</a></li>
-                    <li class="wcfa_6_columns_item display_type_color wcfa_widget_layered_nav__item wc-layered-nav-term "><a rel="nofollow" href="https://nordic.vn/san-pham/?filter_mau-sac=xanh"><span class="wcfa_color_item" style="background-color: #00287a"></span></a></li>
-                    <li class="wcfa_6_columns_item display_type_color wcfa_widget_layered_nav__item wc-layered-nav-term "><a rel="nofollow" href="https://nordic.vn/san-pham/?filter_mau-sac=xanh-la">Xanh lá</a></li>
-                    <li class="wcfa_6_columns_item display_type_color wcfa_widget_layered_nav__item wc-layered-nav-term "><a rel="nofollow" href="https://nordic.vn/san-pham/?filter_mau-sac=xanh-navy">Xanh Navy</a></li>
-                    <li class="wcfa_6_columns_item display_type_color wcfa_widget_layered_nav__item wc-layered-nav-term "><a rel="nofollow" href="https://nordic.vn/san-pham/?filter_mau-sac=xanh-vang">Xanh Vàng</a></li>
-                </ul>
-            </div>
-            <div id="devvn_wcfa_layered_nav-10" class="widget devvn_wcfa woocommerce devvn_wcfa_widget_layered_nav woocommerce-widget-layered-nav ">
-                <div class="filter-title">Lọc theo</div>
-                <ul class="wafc-widget-layered-nav-list woocommerce-widget-layered-nav-list wcfa_1_columns">
-                    <li class="wcfa_1_columns_item display_type_default wcfa_widget_layered_nav__item wc-layered-nav-term "><a rel="nofollow" href="https://nordic.vn/san-pham/?filter_chat-lieu=da-thuoc-bo-y">Da thuộc Bò ý</a> <span class="count">(10)</span></li>
-                    <li class="wcfa_1_columns_item display_type_default wcfa_widget_layered_nav__item wc-layered-nav-term "><a rel="nofollow" href="https://nordic.vn/san-pham/?filter_chat-lieu=vai-bo-dao-nha-vip">Vải Bồ Đào Nha VIP</a> <span class="count">(10)</span></li>
-                </ul>
-            </div>
-        </div>
-    </div>--%>
-    <%--<div class="woocommerce-notices-wrapper"></div>
-    <form class="woocommerce-ordering" method="get">
-        <select name="orderby" class="orderby" aria-label="Đơn hàng của cửa hàng">
-            <option value="menu_order" selected="selected">Thứ tự mặc định</option>
-            <option value="popularity">Thứ tự theo mức độ phổ biến</option>
-            <option value="rating">Thứ tự theo điểm đánh giá</option>
-            <option value="date">Mới nhất</option>
-            <option value="price">Thứ tự theo giá: thấp đến cao</option>
-            <option value="price-desc">Thứ tự theo giá: cao xuống thấp</option>
-        </select>
-        <input type="hidden" name="paged" value="1">
-    </form>--%>
     <div class="spacer spacer-small"></div>
     <div class="wrapper align-center">
         <ul id="portfolio-filter-standard" class="filter clearfix" data-related-grid="grid-du-an">
@@ -112,54 +36,294 @@
         </ul>
     </div>
     <div class="spacer spacer-small"></div>
-    <div class="products columns-4 list_product">
+    <div class="products columns-3 list_product">
         <asp:Repeater ID="rptListCate" runat="server">
             <ItemTemplate>
                 <div class="item_pro">
                     <div class="img" style="background-image: url(<%#Eval("CS_ImageURL") %>"></div>
-                    <div class="info">
-                        <h3 class="capt"><%#Eval("CS_Name")%></h3>
-                        <div class="short_desc">
-                            <p><em><strong><%#Eval("CS_Description") %></strong></em></p>
-                        </div>
-                        <div class="bottom">
-                            <%--<div class="price">
-                                <span class="woocommerce-Price-amount amount">
-                                    <bdi>18.700.000&nbsp;<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span>
-                            </div>--%>
-                            <span class="link">Xem chi tiết</span>
-                        </div>
+                    <%--<div class="img"><img src="<%#Eval("CS_ImageURL") %>" alt=""/></div>--%>
+                    <div class="info-style">
+                        <%--<h4 class="capt"><%#Eval("CS_Name")%></h4>--%>
+                        <div class="round-capt"><span class="capt"><%#Eval("CS_Name")%></span></div>
                     </div>
                     <a href="/Phong-cach-<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm" class="link_full"></a>
                 </div>
 
             </ItemTemplate>
         </asp:Repeater>
-        <div class="item_pro">
-            <%-- <div class="">
-                <img src="https://housedesign.vn/wp-content/uploads/2022/12/27-800x533.jpg" />
-            </div>--%>
-            <div class="img" style="background-image: url(https://housedesign.vn/wp-content/uploads/2022/12/27-800x533.jpg);"></div>
-            <div class="info">
-                <h3 class="capt">Hug SideBoard</h3>
-                <div class="short_desc">
-                    <p><em><strong>Gỗ sồi Mỹ</strong></em></p>
-                </div>
-                <div class="bottom">
-                    <div class="price">
-                        <span class="woocommerce-Price-amount amount">
-                            <bdi>46.300.000&nbsp;<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span>
-                    </div>
-                    <span class="link">Xem chi tiết</span>
-                </div>
-            </div>
-            <a href="https://nordic.vn/hug-sideboard/" class="link_full"></a>
-        </div>
+
     </div>
     <div class="wp-pagenavi" role="navigation">
         <span class="pages">Trang 1 trên 6</span><span aria-current="page" class="current">1</span><a class="page larger" title="Page 2" href="https://nordic.vn/san-pham/page/2/">2</a><a class="page larger" title="Page 3" href="https://nordic.vn/san-pham/page/3/">3</a><a class="page larger" title="Page 4" href="https://nordic.vn/san-pham/page/4/">4</a><a class="page larger" title="Page 5" href="https://nordic.vn/san-pham/page/5/">5</a><span class="extend">...</span><a class="nextpostslink" rel="next" aria-label="Trang sau" href="https://nordic.vn/san-pham/page/2/">»</a><a class="last" aria-label="Last Page" href="https://nordic.vn/san-pham/page/6/">Trang cuối »</a>
     </div>
 </div>
+
+<div class="all_box">
+    <div class="head_title center head_title_cat">
+        <div class="box_title single_cat_title">
+            <h1 class="title">Nordic 24h</h1>
+            <div class="divider"></div>
+            <div class="category-info">
+                <p>Cập nhật nhanh chóng, chính xác &amp; đầy đủ các tin tức về Nội thất, tin tức báo chí &amp; tin tức thị trường.</p>
+            </div>
+        </div>
+    </div>
+    <div class="list_news columns-3">
+        <div class="item_news">
+            <div class="img">
+                <a href="https://nordic.vn/3769-2/" style="background-image: url(https://nordic.vn/wp-content/uploads/2023/04/FA1F6099-B6A1-4DF9-A9E5-4CC6AC2EEA05-1024x683.jpeg);"></a>
+            </div>
+            <div class="info">
+                <h3 class="capt"><a href="https://nordic.vn/3769-2/">NỘI THẤT BẮC ÂU TUYỂN DỤNG VỊ TRÍ: CONTENT MARKETING</a></h3>
+                <div class="date">12 - 04 - 2023</div>
+                <div class="desc">[𝗡𝗢𝗥𝗗𝗜𝗖® ] NỘI THẤT BẮC ÂU TUYỂN DỤNG VỊ TRÍ: CONTENT MARKETING Số lượng: 02 QUYỀN LỢI: • Lương cứng: Thoả thuận • BHXH, BHYT, lương tháng 13, nghỉ phép...</div>
+            </div>
+        </div>
+        <div class="item_news">
+            <div class="img">
+                <a href="https://nordic.vn/tuyen-dung-vi-tri-thiet-ke-noi-that/" style="background-image: url(https://nordic.vn/wp-content/uploads/2023/04/B1DC00E8-BA36-4CD3-A8F5-AF0BA2142E73-1024x767.jpeg);"></a>
+            </div>
+            <div class="info">
+                <h3 class="capt"><a href="https://nordic.vn/tuyen-dung-vi-tri-thiet-ke-noi-that/">Tuyển dụng vị trí thiết kế nội thất</a></h3>
+                <div class="date">12 - 04 - 2023</div>
+                <div class="desc">[BẢN TIN TUYỂN DỤNG] 𝗡𝗢𝗥𝗗𝗜𝗖® - NỘI THẤT BẮC ÂU CẦN BỔ SUNG THÀNH VIÊN VỀ 𝐓𝐄𝐀𝐌 𝐑&amp;𝐃 —------------------------ 𝐈. Giới thiệu công ty: Nội thất Bắc Âu 𝗡𝗢𝗥𝗗𝗜𝗖® chuyên...</div>
+            </div>
+        </div>
+        <div class="item_news">
+            <div class="img">
+                <a href="https://nordic.vn/tap-chi-kien-truc-kts-nguyen-phuong-chi-hanh-trinh-dinh-vi-thuong-hieu-noi-that-viet/" style="background-image: url(https://nordic.vn/wp-content/uploads/2023/03/22A11024-2-768x432-5.jpg);"></a>
+            </div>
+            <div class="info">
+                <h3 class="capt"><a href="https://nordic.vn/tap-chi-kien-truc-kts-nguyen-phuong-chi-hanh-trinh-dinh-vi-thuong-hieu-noi-that-viet/">Tạp chí Kiến trúc –  KTS Nguyễn Phương Chi: “Hành trình định vị thương hiệu nội thất Việt”</a></h3>
+                <div class="date">04 - 03 - 2023</div>
+                <div class="desc">Tại Việt Nam, cho tới nay lĩnh vực thiết kế sản phẩm nội thất còn khá mới mẻ, rất ít các nhà thiết kế thực hiện thiết kế đồ nội...</div>
+            </div>
+        </div>
+        <div class="item_news">
+            <div class="img">
+                <a href="https://nordic.vn/tong-hop-khong-gian-am-ap-don-xuan-2023-cua-khach-hang-nordic/" style="background-image: url(https://nordic.vn/wp-content/uploads/2023/01/1.png);"></a>
+            </div>
+            <div class="info">
+                <h3 class="capt"><a href="https://nordic.vn/tong-hop-khong-gian-am-ap-don-xuan-2023-cua-khach-hang-nordic/">Tổng hợp không gian ấm áp đón Xuân 2023 của khách hàng Nordic</a></h3>
+                <div class="date">31 - 01 - 2023</div>
+                <div class="desc">Không gian ấm áp đón Xuân 2023 của khách hàng Nordic với những món đồ nội thất cao cấp phù hợp, tô điểm sắc màu cho ngày Tết đến, làm...</div>
+            </div>
+        </div>
+        <div class="item_news">
+            <div class="img">
+                <a href="https://nordic.vn/thuong-hieu-noi-that-cao-cap-viet-nordic-dong-hanh-cung-diep-lam-anh-cai-tao-to-am-moi-cho-me-va-2-con/" style="background-image: url(https://nordic.vn/wp-content/uploads/2023/01/600ef4407605ad5bf414-1024x536.jpg);"></a>
+            </div>
+            <div class="info">
+                <h3 class="capt"><a href="https://nordic.vn/thuong-hieu-noi-that-cao-cap-viet-nordic-dong-hanh-cung-diep-lam-anh-cai-tao-to-am-moi-cho-me-va-2-con/">Thương hiệu nội thất cao cấp Việt Nordic đồng hành cùng Diệp Lâm Anh cải tạo tổ ấm mới cho mẹ và 2 con</a></h3>
+                <div class="date">10 - 01 - 2023</div>
+                <div class="desc">Mới đây, trong chương trình Là Nhà tập 5, Diệp Lâm Anh đã chi khoảng 2 tỷ đồng để tu sửa và hoàn thiện tổ ấm mới. Căn nhà mới...</div>
+            </div>
+        </div>
+        <div class="item_news">
+            <div class="img">
+                <a href="https://nordic.vn/5-mau-ghe-lam-thay-doi-nganh-noi-that-the-ky-20/" style="background-image: url(https://nordic.vn/wp-content/uploads/2022/11/5-mau-ghe-lam-thay-doi-nganh-noi-that-the-ky-20-5-1024x1024.png);"></a>
+            </div>
+            <div class="info">
+                <h3 class="capt"><a href="https://nordic.vn/5-mau-ghe-lam-thay-doi-nganh-noi-that-the-ky-20/">5 mẫu ghế làm thay đổi ngành nội thất thế kỷ 20</a></h3>
+                <div class="date">15 - 11 - 2022</div>
+                <div class="desc">Một chiếc ghế tuyệt tác chứa đựng trong nó nhiều yếu tố từ kỹ thuật, vật liệu, tính thực tế và cả trí tưởng tượng, sáng tạo. Một chiếc ghế...</div>
+            </div>
+        </div>
+    </div>
+    <div class="wp-pagenavi" role="navigation">
+        <span class="pages">Trang 1 trên 25</span><span aria-current="page" class="current">1</span><a class="page larger" title="Page 2" href="https://nordic.vn/nordic-24h/page/2/">2</a><a class="page larger" title="Page 3" href="https://nordic.vn/nordic-24h/page/3/">3</a><a class="page larger" title="Page 4" href="https://nordic.vn/nordic-24h/page/4/">4</a><a class="page larger" title="Page 5" href="https://nordic.vn/nordic-24h/page/5/">5</a><span class="extend">...</span><a class="larger page" title="Page 10" href="https://nordic.vn/nordic-24h/page/10/">10</a><a class="larger page" title="Page 20" href="https://nordic.vn/nordic-24h/page/20/">20</a><span class="extend">...</span><a class="nextpostslink" rel="next" aria-label="Trang sau" href="https://nordic.vn/nordic-24h/page/2/">»</a><a class="last" aria-label="Last Page" href="https://nordic.vn/nordic-24h/page/25/">Trang cuối »</a>
+    </div>
+</div>
+
+<%--<div id="page-body" class="">
+
+
+
+    <!-- SECTION -->
+    <section id="section-noi-that-luxury" class="notoppadding">
+        <div class="section-inner clearfix">
+
+            <div class="archive-title align-center">
+                <!-- <h1>Phong cách thiết kế</h1> -->
+                <!-- <div class="separator"><span></span></div> -->
+            </div>
+            <div id="phong-cach-thiet-ke-grid" class="phong-cach-blog masonry blog-entries masonry-spaced clearfix" data-maxitemwidth="370" style="position: relative; height: 1077px;">
+                <div class="blog-entry blog-masonry-entry masonry-item">
+
+                    <div class="blog-media">
+                        <a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-luxury/" class="transition">
+                            <img width="420" height="315" src="https://housedesign.vn/wp-content/uploads/2020/08/phong-cach-thiet-ke-noi-that-luxury-420x315.jpg" class="attachment-thumb-medium size-thumb-medium wp-post-image entered lazyloaded" alt="phong cách thiết kế nội thất luxury" data-lazy-srcset="https://housedesign.vn/wp-content/uploads/2020/08/phong-cach-thiet-ke-noi-that-luxury-420x315.jpg 420w, https://housedesign.vn/wp-content/uploads/2020/08/phong-cach-thiet-ke-noi-that-luxury-300x225.jpg 300w, https://housedesign.vn/wp-content/uploads/2020/08/phong-cach-thiet-ke-noi-that-luxury-768x576.jpg 768w, https://housedesign.vn/wp-content/uploads/2020/08/phong-cach-thiet-ke-noi-that-luxury-1024x768.jpg 1024w, https://housedesign.vn/wp-content/uploads/2020/08/phong-cach-thiet-ke-noi-that-luxury-800x600.jpg 800w, https://housedesign.vn/wp-content/uploads/2020/08/phong-cach-thiet-ke-noi-that-luxury-1100x825.jpg 1100w, https://housedesign.vn/wp-content/uploads/2020/08/phong-cach-thiet-ke-noi-that-luxury.jpg 1150w" data-lazy-sizes="(max-width: 420px) 100vw, 420px" data-lazy-src="https://housedesign.vn/wp-content/uploads/2020/08/phong-cach-thiet-ke-noi-that-luxury-420x315.jpg" srcset="https://housedesign.vn/wp-content/uploads/2020/08/phong-cach-thiet-ke-noi-that-luxury-420x315.jpg 420w, https://housedesign.vn/wp-content/uploads/2020/08/phong-cach-thiet-ke-noi-that-luxury-300x225.jpg 300w, https://housedesign.vn/wp-content/uploads/2020/08/phong-cach-thiet-ke-noi-that-luxury-768x576.jpg 768w, https://housedesign.vn/wp-content/uploads/2020/08/phong-cach-thiet-ke-noi-that-luxury-1024x768.jpg 1024w, https://housedesign.vn/wp-content/uploads/2020/08/phong-cach-thiet-ke-noi-that-luxury-800x600.jpg 800w, https://housedesign.vn/wp-content/uploads/2020/08/phong-cach-thiet-ke-noi-that-luxury-1100x825.jpg 1100w, https://housedesign.vn/wp-content/uploads/2020/08/phong-cach-thiet-ke-noi-that-luxury.jpg 1150w" data-ll-status="loaded" sizes="(max-width: 420px) 100vw, 420px"><noscript><img width="420" height="315" src="https://housedesign.vn/wp-content/uploads/2020/08/phong-cach-thiet-ke-noi-that-luxury-420x315.jpg" class="attachment-thumb-medium size-thumb-medium wp-post-image" alt="phong cách thiết kế nội thất luxury" srcset="https://housedesign.vn/wp-content/uploads/2020/08/phong-cach-thiet-ke-noi-that-luxury-420x315.jpg 420w, https://housedesign.vn/wp-content/uploads/2020/08/phong-cach-thiet-ke-noi-that-luxury-300x225.jpg 300w, https://housedesign.vn/wp-content/uploads/2020/08/phong-cach-thiet-ke-noi-that-luxury-768x576.jpg 768w, https://housedesign.vn/wp-content/uploads/2020/08/phong-cach-thiet-ke-noi-that-luxury-1024x768.jpg 1024w, https://housedesign.vn/wp-content/uploads/2020/08/phong-cach-thiet-ke-noi-that-luxury-800x600.jpg 800w, https://housedesign.vn/wp-content/uploads/2020/08/phong-cach-thiet-ke-noi-that-luxury-1100x825.jpg 1100w, https://housedesign.vn/wp-content/uploads/2020/08/phong-cach-thiet-ke-noi-that-luxury.jpg 1150w" sizes="(max-width: 420px) 100vw, 420px" /></noscript>
+                        </a>
+                    </div>
+
+                    <div class="blog-content">
+                        <div class="blog-headline">
+                            <p class="post-tag">
+                            </p>
+                            <!--<span class="time">Th2 25, 2020</span>-->
+                            <h5 class="post-name"><a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-luxury/" class="transition">Phong cách luxury là gì? Tìm hiểu phong cách thiết kế nội thất Luxury</a></h5>
+                            <span class="more-info">House Design - <span>25/02/2020</span></span>
+                        </div>
+                        <!-- <a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-luxury/" class="read-more transition">Đọc thêm</a> -->
+                    </div>
+
+                </div>
+
+
+                <div class="blog-entry blog-masonry-entry masonry-item">
+
+                    <div class="blog-media">
+                        <a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-dia-trung-hai/" class="transition">
+                            <img width="420" height="257" src="https://housedesign.vn/wp-content/uploads/2020/02/phong-cach-thiet-ke-noi-that-dia-trung-hai-1-420x257.jpg" class="attachment-thumb-medium size-thumb-medium wp-post-image entered lazyloaded" alt="phong cách thiết kế nội thất địa trung hải là gì" data-lazy-srcset="https://housedesign.vn/wp-content/uploads/2020/02/phong-cach-thiet-ke-noi-that-dia-trung-hai-1-420x257.jpg 420w, https://housedesign.vn/wp-content/uploads/2020/02/phong-cach-thiet-ke-noi-that-dia-trung-hai-1-300x183.jpg 300w, https://housedesign.vn/wp-content/uploads/2020/02/phong-cach-thiet-ke-noi-that-dia-trung-hai-1-768x470.jpg 768w, https://housedesign.vn/wp-content/uploads/2020/02/phong-cach-thiet-ke-noi-that-dia-trung-hai-1.jpg 1024w, https://housedesign.vn/wp-content/uploads/2020/02/phong-cach-thiet-ke-noi-that-dia-trung-hai-1-800x489.jpg 800w" data-lazy-sizes="(max-width: 420px) 100vw, 420px" data-lazy-src="https://housedesign.vn/wp-content/uploads/2020/02/phong-cach-thiet-ke-noi-that-dia-trung-hai-1-420x257.jpg" srcset="https://housedesign.vn/wp-content/uploads/2020/02/phong-cach-thiet-ke-noi-that-dia-trung-hai-1-420x257.jpg 420w, https://housedesign.vn/wp-content/uploads/2020/02/phong-cach-thiet-ke-noi-that-dia-trung-hai-1-300x183.jpg 300w, https://housedesign.vn/wp-content/uploads/2020/02/phong-cach-thiet-ke-noi-that-dia-trung-hai-1-768x470.jpg 768w, https://housedesign.vn/wp-content/uploads/2020/02/phong-cach-thiet-ke-noi-that-dia-trung-hai-1.jpg 1024w, https://housedesign.vn/wp-content/uploads/2020/02/phong-cach-thiet-ke-noi-that-dia-trung-hai-1-800x489.jpg 800w" data-ll-status="loaded" sizes="(max-width: 420px) 100vw, 420px"><noscript><img width="420" height="257" src="https://housedesign.vn/wp-content/uploads/2020/02/phong-cach-thiet-ke-noi-that-dia-trung-hai-1-420x257.jpg" class="attachment-thumb-medium size-thumb-medium wp-post-image" alt="phong cách thiết kế nội thất địa trung hải là gì" srcset="https://housedesign.vn/wp-content/uploads/2020/02/phong-cach-thiet-ke-noi-that-dia-trung-hai-1-420x257.jpg 420w, https://housedesign.vn/wp-content/uploads/2020/02/phong-cach-thiet-ke-noi-that-dia-trung-hai-1-300x183.jpg 300w, https://housedesign.vn/wp-content/uploads/2020/02/phong-cach-thiet-ke-noi-that-dia-trung-hai-1-768x470.jpg 768w, https://housedesign.vn/wp-content/uploads/2020/02/phong-cach-thiet-ke-noi-that-dia-trung-hai-1.jpg 1024w, https://housedesign.vn/wp-content/uploads/2020/02/phong-cach-thiet-ke-noi-that-dia-trung-hai-1-800x489.jpg 800w" sizes="(max-width: 420px) 100vw, 420px" /></noscript>
+                        </a>
+                    </div>
+
+                    <div class="blog-content">
+                        <div class="blog-headline">
+                            <p class="post-tag">
+                            </p>
+                            <!--<span class="time">Th2 25, 2020</span>-->
+                            <h5 class="post-name"><a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-dia-trung-hai/" class="transition">Phong cách nội thất Địa Trung Hải: những đặc trưng cuốn hút của phong cách</a></h5>
+                            <span class="more-info">House Design - <span>25/02/2020</span></span>
+                        </div>
+                        <!-- <a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-dia-trung-hai/" class="read-more transition">Đọc thêm</a> -->
+                    </div>
+
+                </div>
+
+
+                <div class="blog-entry blog-masonry-entry masonry-item">
+
+                    <div class="blog-media">
+                        <a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-mix-match/" class="transition">
+                            <img width="420" height="280" src="https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-mix-match-420x280.jpg" class="attachment-thumb-medium size-thumb-medium wp-post-image entered lazyloaded" alt="phong cách thiết kế nội thất mix match - Housedesign" data-lazy-srcset="https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-mix-match-420x280.jpg 420w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-mix-match-300x200.jpg 300w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-mix-match-768x512.jpg 768w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-mix-match-1024x682.jpg 1024w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-mix-match-800x533.jpg 800w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-mix-match-1100x733.jpg 1100w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-mix-match.jpg 1280w" data-lazy-sizes="(max-width: 420px) 100vw, 420px" data-lazy-src="https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-mix-match-420x280.jpg" srcset="https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-mix-match-420x280.jpg 420w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-mix-match-300x200.jpg 300w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-mix-match-768x512.jpg 768w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-mix-match-1024x682.jpg 1024w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-mix-match-800x533.jpg 800w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-mix-match-1100x733.jpg 1100w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-mix-match.jpg 1280w" data-ll-status="loaded" sizes="(max-width: 420px) 100vw, 420px"><noscript><img width="420" height="280" src="https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-mix-match-420x280.jpg" class="attachment-thumb-medium size-thumb-medium wp-post-image" alt="phong cách thiết kế nội thất mix match - Housedesign" srcset="https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-mix-match-420x280.jpg 420w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-mix-match-300x200.jpg 300w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-mix-match-768x512.jpg 768w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-mix-match-1024x682.jpg 1024w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-mix-match-800x533.jpg 800w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-mix-match-1100x733.jpg 1100w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-mix-match.jpg 1280w" sizes="(max-width: 420px) 100vw, 420px" /></noscript>
+                        </a>
+                    </div>
+
+                    <div class="blog-content">
+                        <div class="blog-headline">
+                            <p class="post-tag">
+                            </p>
+                            <!--<span class="time">Th12 23, 2019</span>-->
+                            <h5 class="post-name"><a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-mix-match/" class="transition">Làm mới nhà ở của bạn bằng phong cách mix &amp; match độc đáo</a></h5>
+                            <span class="more-info">House Design - <span>23/12/2019</span></span>
+                        </div>
+                        <!-- <a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-mix-match/" class="read-more transition">Đọc thêm</a> -->
+                    </div>
+
+                </div>
+
+
+                <div class="blog-entry blog-masonry-entry masonry-item">
+
+                    <div class="blog-media">
+                        <a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-indochine/" class="transition">
+                            <img width="420" height="420" src="https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-indochine-420x420.jpg" class="attachment-thumb-medium size-thumb-medium wp-post-image entered lazyloaded" alt="phong cách thiết kế nội thất indochine - Housedesign" data-lazy-srcset="https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-indochine-420x420.jpg 420w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-indochine-150x150.jpg 150w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-indochine-300x300.jpg 300w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-indochine-768x768.jpg 768w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-indochine-800x800.jpg 800w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-indochine.jpg 960w" data-lazy-sizes="(max-width: 420px) 100vw, 420px" data-lazy-src="https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-indochine-420x420.jpg" srcset="https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-indochine-420x420.jpg 420w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-indochine-150x150.jpg 150w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-indochine-300x300.jpg 300w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-indochine-768x768.jpg 768w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-indochine-800x800.jpg 800w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-indochine.jpg 960w" data-ll-status="loaded" sizes="(max-width: 420px) 100vw, 420px"><noscript><img width="420" height="420" src="https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-indochine-420x420.jpg" class="attachment-thumb-medium size-thumb-medium wp-post-image" alt="phong cách thiết kế nội thất indochine - Housedesign" srcset="https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-indochine-420x420.jpg 420w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-indochine-150x150.jpg 150w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-indochine-300x300.jpg 300w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-indochine-768x768.jpg 768w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-indochine-800x800.jpg 800w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-thiet-ke-noi-that-indochine.jpg 960w" sizes="(max-width: 420px) 100vw, 420px" /></noscript>
+                        </a>
+                    </div>
+
+                    <div class="blog-content">
+                        <div class="blog-headline">
+                            <p class="post-tag">
+                            </p>
+                            <!--<span class="time">Th12 23, 2019</span>-->
+                            <h5 class="post-name"><a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-indochine/" class="transition">Phong cách nội thất Indochine (Đông Dương): sự giao thoa bản sắc</a></h5>
+                            <span class="more-info">House Design - <span>23/12/2019</span></span>
+                        </div>
+                        <!-- <a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-indochine/" class="read-more transition">Đọc thêm</a> -->
+                    </div>
+
+                </div>
+
+
+                <div class="blog-entry blog-masonry-entry masonry-item">
+
+                    <div class="blog-media">
+                        <a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-minimalist/" class="transition">
+                            <img width="420" height="280" src="https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-420x280.jpg" class="attachment-thumb-medium size-thumb-medium wp-post-image entered lazyloaded" alt="" data-lazy-srcset="https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-420x280.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-300x200.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-1024x683.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-768x512.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-1536x1025.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-800x534.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-1100x734.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-1690x1127.jpg 1690w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9.jpg 2000w" data-lazy-sizes="(max-width: 420px) 100vw, 420px" data-lazy-src="https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-420x280.jpg" srcset="https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-420x280.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-300x200.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-1024x683.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-768x512.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-1536x1025.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-800x534.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-1100x734.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-1690x1127.jpg 1690w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9.jpg 2000w" data-ll-status="loaded" sizes="(max-width: 420px) 100vw, 420px"><noscript><img width="420" height="280" src="https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-420x280.jpg" class="attachment-thumb-medium size-thumb-medium wp-post-image" alt="" srcset="https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-420x280.jpg 420w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-300x200.jpg 300w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-1024x683.jpg 1024w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-768x512.jpg 768w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-1536x1025.jpg 1536w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-800x534.jpg 800w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-1100x734.jpg 1100w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9-1690x1127.jpg 1690w, https://housedesign.vn/wp-content/uploads/2022/09/khach-bep-9.jpg 2000w" sizes="(max-width: 420px) 100vw, 420px" /></noscript>
+                        </a>
+                    </div>
+
+                    <div class="blog-content">
+                        <div class="blog-headline">
+                            <p class="post-tag">
+                            </p>
+                            <!--<span class="time">Th12 23, 2019</span>-->
+                            <h5 class="post-name"><a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-minimalist/" class="transition">Phong cách nội thất tối giản (Minimalism): Xu hướng hot nhất 2019</a></h5>
+                            <span class="more-info">House Design - <span>23/12/2019</span></span>
+                        </div>
+                        <!-- <a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-minimalist/" class="read-more transition">Đọc thêm</a> -->
+                    </div>
+
+                </div>
+
+
+                <div class="blog-entry blog-masonry-entry masonry-item">
+
+                    <div class="blog-media">
+                        <a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-urban/" class="transition">
+                            <img width="420" height="315" src="https://housedesign.vn/wp-content/uploads/2019/12/noi-that-urban-420x315.jpg" class="attachment-thumb-medium size-thumb-medium wp-post-image entered lazyloaded" alt="nội thất urban là gì" data-lazy-srcset="https://housedesign.vn/wp-content/uploads/2019/12/noi-that-urban-420x315.jpg 420w, https://housedesign.vn/wp-content/uploads/2019/12/noi-that-urban-300x225.jpg 300w, https://housedesign.vn/wp-content/uploads/2019/12/noi-that-urban-768x576.jpg 768w, https://housedesign.vn/wp-content/uploads/2019/12/noi-that-urban-1024x768.jpg 1024w, https://housedesign.vn/wp-content/uploads/2019/12/noi-that-urban-800x600.jpg 800w, https://housedesign.vn/wp-content/uploads/2019/12/noi-that-urban-1100x825.jpg 1100w, https://housedesign.vn/wp-content/uploads/2019/12/noi-that-urban.jpg 1600w" data-lazy-sizes="(max-width: 420px) 100vw, 420px" data-lazy-src="https://housedesign.vn/wp-content/uploads/2019/12/noi-that-urban-420x315.jpg" srcset="https://housedesign.vn/wp-content/uploads/2019/12/noi-that-urban-420x315.jpg 420w, https://housedesign.vn/wp-content/uploads/2019/12/noi-that-urban-300x225.jpg 300w, https://housedesign.vn/wp-content/uploads/2019/12/noi-that-urban-768x576.jpg 768w, https://housedesign.vn/wp-content/uploads/2019/12/noi-that-urban-1024x768.jpg 1024w, https://housedesign.vn/wp-content/uploads/2019/12/noi-that-urban-800x600.jpg 800w, https://housedesign.vn/wp-content/uploads/2019/12/noi-that-urban-1100x825.jpg 1100w, https://housedesign.vn/wp-content/uploads/2019/12/noi-that-urban.jpg 1600w" data-ll-status="loaded" sizes="(max-width: 420px) 100vw, 420px"><noscript><img width="420" height="315" src="https://housedesign.vn/wp-content/uploads/2019/12/noi-that-urban-420x315.jpg" class="attachment-thumb-medium size-thumb-medium wp-post-image" alt="nội thất urban là gì" srcset="https://housedesign.vn/wp-content/uploads/2019/12/noi-that-urban-420x315.jpg 420w, https://housedesign.vn/wp-content/uploads/2019/12/noi-that-urban-300x225.jpg 300w, https://housedesign.vn/wp-content/uploads/2019/12/noi-that-urban-768x576.jpg 768w, https://housedesign.vn/wp-content/uploads/2019/12/noi-that-urban-1024x768.jpg 1024w, https://housedesign.vn/wp-content/uploads/2019/12/noi-that-urban-800x600.jpg 800w, https://housedesign.vn/wp-content/uploads/2019/12/noi-that-urban-1100x825.jpg 1100w, https://housedesign.vn/wp-content/uploads/2019/12/noi-that-urban.jpg 1600w" sizes="(max-width: 420px) 100vw, 420px" /></noscript>
+                        </a>
+                    </div>
+
+                    <div class="blog-content">
+                        <div class="blog-headline">
+                            <p class="post-tag">
+                            </p>
+                            <!--<span class="time">Th12 23, 2019</span>-->
+                            <h5 class="post-name"><a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-urban/" class="transition">Phong cách thiết kế nội thất Urban có gì mà độc đáo đến vậy?</a></h5>
+                            <span class="more-info">House Design - <span>23/12/2019</span></span>
+                        </div>
+                        <!-- <a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-urban/" class="read-more transition">Đọc thêm</a> -->
+                    </div>
+
+                </div>
+
+
+                <div class="blog-entry blog-masonry-entry masonry-item">
+
+                    <div class="blog-media">
+                        <a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-scandinavian/" class="transition">
+                            <img width="420" height="280" src="https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-scandinavian-420x280.jpg" class="attachment-thumb-medium size-thumb-medium wp-post-image entered lazyloaded" alt="" data-lazy-srcset="https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-scandinavian-420x280.jpg 420w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-scandinavian-300x200.jpg 300w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-scandinavian-768x512.jpg 768w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-scandinavian-800x534.jpg 800w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-scandinavian.jpg 1000w" data-lazy-sizes="(max-width: 420px) 100vw, 420px" data-lazy-src="https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-scandinavian-420x280.jpg" srcset="https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-scandinavian-420x280.jpg 420w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-scandinavian-300x200.jpg 300w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-scandinavian-768x512.jpg 768w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-scandinavian-800x534.jpg 800w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-scandinavian.jpg 1000w" data-ll-status="loaded" sizes="(max-width: 420px) 100vw, 420px"><noscript><img width="420" height="280" src="https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-scandinavian-420x280.jpg" class="attachment-thumb-medium size-thumb-medium wp-post-image" alt="" srcset="https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-scandinavian-420x280.jpg 420w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-scandinavian-300x200.jpg 300w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-scandinavian-768x512.jpg 768w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-scandinavian-800x534.jpg 800w, https://housedesign.vn/wp-content/uploads/2019/12/phong-cach-scandinavian.jpg 1000w" sizes="(max-width: 420px) 100vw, 420px" /></noscript>
+                        </a>
+                    </div>
+
+                    <div class="blog-content">
+                        <div class="blog-headline">
+                            <p class="post-tag">
+                            </p>
+                            <!--<span class="time">Th12 23, 2019</span>-->
+                            <h5 class="post-name"><a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-scandinavian/" class="transition">Phong cách scandinavian trong thiết kế nội thất: Đơn giản nhưng đầy tinh tế</a></h5>
+                            <span class="more-info">House Design - <span>23/12/2019</span></span>
+                        </div>
+                        <!-- <a href="https://housedesign.vn/phong-cach-thiet-ke/noi-that-scandinavian/" class="read-more transition">Đọc thêm</a> -->
+                    </div>
+
+                </div>
+
+
+
+            </div>
+            <!-- END #blog-entries -->
+
+
+            <div class="wrapper">
+                <ul id="blog-pagination" class="entries-pagination">
+                    <li class="next inactive"><a href="https://housedesign.vn/phong-cach-thiet-ke/" title="Newer Post <i class=&quot;pagination-icon&quot;></i>" class="transistion">Newer Post <i class="pagination-icon"></i></a></li>
+                    <li class="prev "><a href="https://housedesign.vn/phong-cach-thiet-ke/page/2/" title="Older Post <i class=&quot;pagination-icon&quot;></i>" class="transistion">Older Post <i class="pagination-icon"></i></a></li>
+                </ul>
+                <!-- END #entries-pagination -->
+            </div>
+
+
+        </div>
+    </section>
+    <!-- SECTION -->
+
+
+
+
+</div>--%>
 <!-- END PROJECT -->
 <%--<div id="page-body">
     <section id="section-du-an" class="">

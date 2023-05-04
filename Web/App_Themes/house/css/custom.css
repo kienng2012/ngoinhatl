@@ -225,7 +225,7 @@ element.style {
 
 #page-body {
     overflow: hidden;
-    width: 95%!important;
+    width: 95% !important;
     margin: auto;
 }
 
@@ -788,6 +788,7 @@ filter li a {
 }*/
 .item_pro {
     overflow: hidden;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.15);
 }
 
     .item_pro :hover {
@@ -1561,9 +1562,55 @@ body {
     /* padding-left: 0.1em;*/
 }
 
-.img-products-details
-{
-    display:block;
-    margin:auto;
-    margin-bottom:10px;
+.img-products-details {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+/** Custom style page*/
+@media (max-width: 768px) {
+    .item_pro .info-style {
+        left: 6px;
+        bottom: 5px;
+        width: calc(100% - 12px);
+    }
+}
+
+.item_pro .info-style {
+    position: absolute;
+    bottom: 0;
+    /*left: 3%;*/
+    width: 100%;
+    z-index: 2;
+    height: 60px;
+    color: #fff;
+    text-align: center;
+    background: rgba(57, 57, 57, 0.502);
+}
+
+.info-style .round-capt {
+    /*position: absolute;*/
+    width: calc(100% - 40px);
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    display: block;
+}
+
+.round-capt .capt {
+    display: block;
+    font-family: "Montserrat",sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    line-height: 20px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
 }
