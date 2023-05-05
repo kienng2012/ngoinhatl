@@ -292,18 +292,23 @@
                 <div id="custom_html-29" class="widget_text widget widget_custom_html  ">
                     <div class="textwidget custom-html-widget">
                         <div class="social_footer">
-                            <div class="capt">Theo dõi Nordic trên mạng xã hội</div>
+                            <div class="capt">Theo dõi ARBARO trên mạng xã hội</div>
                             <div class="list">
                                 <a rel="nofollow" href="#">
-                                    <img data-lazyloaded="1" src="../../App_Themes/nntl/img/icon-social-38px-fb-OK.png" data-src="../../App_Themes/nntl/img/icon-social-38px-fb-OK.png" data-ll-status="loaded" class="entered litespeed-loaded"></a>
+                                    <img data-lazyloaded="1" src="<%= Page.ResolveClientUrl("~/App_Themes/house/img/icon-social-38px-fb-OK.png") %>" data-ll-status="loaded" class="entered litespeed-loaded">
+                                </a>
                                 <a rel="nofollow" href="#">
-                                    <img data-lazyloaded="1" src="../../App_Themes/nntl/img/icon-social-38px-install-OK.png" data-src="../../App_Themes/nntl/img/icon-social-38px-install-OK.png" data-ll-status="loaded" class="entered litespeed-loaded"></a>
+                                    <img data-lazyloaded="1" src="<%= Page.ResolveClientUrl("~/App_Themes/house/img/icon-social-38px-install-OK.png") %>" data-ll-status="loaded" class="entered litespeed-loaded">
+                                </a>
                                 <a rel="nofollow" href="#">
-                                    <img data-lazyloaded="1" src="../../App_Themes/nntl/img/icon-social-38px-youtube-OK.png" data-src="../../App_Themes/nntl/img/icon-social-38px-youtube-OK.png" data-ll-status="loaded" class="entered litespeed-loaded"></a>
+                                    <img data-lazyloaded="1" src="<%= Page.ResolveClientUrl("~/App_Themes/house/img/icon-social-38px-youtube-OK.png") %>" data-ll-status="loaded" class="entered litespeed-loaded">
+                                </a>
                                 <a rel="nofollow" href="#">
-                                    <img data-lazyloaded="1" src="../../App_Themes/nntl/img/icon-social-38px-pinterest-OK.png" data-src="../../App_Themes/nntl/img/icon-social-38px-pinterest-OK.png" data-ll-status="loaded" class="entered litespeed-loaded"></a>
+                                    <img data-lazyloaded="1" src="<%= Page.ResolveClientUrl("~/App_Themes/house/img/icon-social-38px-pinterest-OK.png") %>" data-ll-status="loaded" class="entered litespeed-loaded">
+                                </a>
                                 <a rel="nofollow" href="http://zalo.me/+(84)965240366">
-                                    <img data-lazyloaded="1" src="../../App_Themes/nntl/img/icon-social-38px-Zalo-OK.png" data-src="../../App_Themes/nntl/img/icon-social-38px-Zalo-OK.png" data-ll-status="loaded" class="entered litespeed-loaded"></a>
+                                    <img data-lazyloaded="1" src="<%= Page.ResolveClientUrl("~/App_Themes/house/img/icon-social-38px-Zalo-OK.png") %>" data-ll-status="loaded" class="entered litespeed-loaded">
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -314,19 +319,19 @@
                     <div class="textwidget custom-html-widget">
                         <div class="info_footer">
                             <div class="image">
-                                <img data-lazyloaded="1" src="../../App_Themes/nntl/img/bct.png" data-src="../../App_Themes/nntl/img/bct.png" data-ll-status="loaded" class="entered litespeed-loaded">
+                                <img data-lazyloaded="1" src="<%= Page.ResolveClientUrl("~/App_Themes/house/img/bct.png") %>" data-ll-status="loaded" class="entered litespeed-loaded">
                             </div>
-                      
+
                             <div class="local">Trụ sở &amp; Showroom : Số 14, ngõ 816/32 đường Kim Giang, Xã Thanh Liệt, Huyện Thanh Trì, Hà Nội</div>
                             <div class="support">
                                 <div class="it">
-                                    <img data-lazyloaded="1" src="../../App_Themes/nntl/img/icon_lh11.png" data-src="../../App_Themes/nntl/img/icon_lh11.png" data-ll-status="loaded" class="entered litespeed-loaded">+(84) 965240366
+                                    <img data-lazyloaded="1" src="<%= Page.ResolveClientUrl("~/App_Themes/house/img/icon_lh11.png") %>" data-ll-status="loaded" class="entered litespeed-loaded">+(84) 965240366
                                 </div>
                                 <div class="it">
-                                    <img data-lazyloaded="1" src="../../App_Themes/nntl/img/icon_lh21.png" data-src="../../App_Themes/nntl/img/icon_lh21.png" data-ll-status="loaded" class="entered litespeed-loaded">info@ngoinhatuonglai.vn
+                                    <img data-lazyloaded="1" src="<%= Page.ResolveClientUrl("~/App_Themes/house/img/icon_lh21.png") %>" data-ll-status="loaded" class="entered litespeed-loaded">info@ngoinhatuonglai.vn
                                 </div>
                                 <div class="it">
-                                    <img data-lazyloaded="1" src="../../App_Themes/nntl/img/icon_lh31.png" data-src="../../App_Themes/nntl/img/icon_lh31.png" data-ll-status="loaded" class="entered litespeed-loaded">www.ngoinhatuonglai.vn
+                                    <img data-lazyloaded="1" src="<%= Page.ResolveClientUrl("~/App_Themes/house/img/icon_lh31.png") %>" data-ll-status="loaded" class="entered litespeed-loaded">www.ngoinhatuonglai.vn
                                 </div>
                             </div>
                         </div>
@@ -334,7 +339,7 @@
                 </div>
                 <div id="media_image-2" class="widget widget_media_image  ">
                     <a href="#">
-                        <img data-lazyloaded="1" src="../../App_Themes/nntl/img/facebookpng" width="600" height="315" data-src="../../App_Themes/nntl/img/facebook.png" class="image wp-image-2311 attachment-full size-full wvs-archive-product-image entered litespeed-loaded" alt="" decoding="async" style="max-width: 100%; height: auto;" data-srcset="../../App_Themes/nntl/img/facebook.png 600w, ../../App_Themes/nntl/img/facebook-300x158.png 300w" data-sizes="(max-width: 600px) 100vw, 600px" data-ll-status="loaded" sizes="(max-width: 600px) 100vw, 600px" srcset="../../App_Themes/nntl/img/facebook.png 600w, ../../App_Themes/nntl/img/facebook-300x158.png 300w"></a>
+                        <img data-lazyloaded="1" src="<%= Page.ResolveClientUrl("~/App_Themes/house/img/facebook.png") %>" width="600" height="315" class="image wp-image-2311 attachment-full size-full wvs-archive-product-image entered litespeed-loaded" alt="" decoding="async" style="max-width: 100%; height: auto;"></a>
                 </div>
             </div>
         </div>

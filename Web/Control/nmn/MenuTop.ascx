@@ -71,7 +71,7 @@
                     </div>
                     <div class="logo_mb">
                         <a href="http://ngoinhatuonglai.vn/" title="ARBARO">
-                            <img src="App_Themes/house/img/logo.png" alt="ARBARO"></a>
+                            <img src="<%= Page.ResolveClientUrl("~/App_Themes/house/img/logo.png") %>" alt="ARBARO"></a>
                     </div>
                     <div class="icon_search"><i class="fa fa-search" aria-hidden="true"></i></div>
                 </div>
@@ -112,7 +112,7 @@
     <div class="fixed_search">
         <form role="search" method="get" class="" action="#">
             <label class="screen-reader-text" for="woocommerce-product-search-field-0">Tìm kiếm:</label>
-            <input type="search" id="woocommerce-product-search-field-0" class="search-field" placeholder="Nhập từ khóa tìm kiếm" value="" name="s">
+            <input type="search" class="search-field" placeholder="Nhập từ khóa tìm kiếm" value="" name="s">
             <button type="submit" value="Tìm kiếm"><span class="arrow"></span></button>
             <input type="hidden" name="post_type" value="product">
         </form>

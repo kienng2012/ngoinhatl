@@ -1590,7 +1590,8 @@ body {
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    z-index: 1
+    z-index: 1;
+    width: calc(100% - 40px);
 }
 
 .item_pro:focus .img, .item_pro:hover .img {
@@ -1750,3 +1751,10 @@ body {
     }
 }
 */
+@media only screen and (max-width: 640px) {
+    .bordered #page-title.full-height, .bordered.big-border #page-title.full-height {
+        min-height: -webkit-calc(100vh - 20px);
+        min-height: -moz-calc(100vh - 20px);
+        min-height: calc(100vh - 20px);
+    }
+}
