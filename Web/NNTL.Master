@@ -24,7 +24,7 @@
     <link data-optimized="2" rel="stylesheet" href="<%= Page.ResolveClientUrl("~/App_Themes/house/css/mqueries.css")%>">
 
     <link data-optimized="2" rel="stylesheet" href="<%= Page.ResolveClientUrl("~/App_Themes/house/css/grids-responsive-min.css")%>">
-    <title>Showroom đồ nội thất phong cách bắc âu Scandinavian cao cấp</title>
+    <title>Nội thất cao cấp</title>
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="description" content="Showroom đồ nội thất phong cách bắc âu Scandinavian cao cấp chuyên cung cấp các món đồ nội thất phong cách bắc âu Scandinavian">
     <link rel="canonical" href="https://nordic.vn/">
@@ -77,10 +77,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-    <script src="App_Themes/house/js/js1.js" defer="" data-deferred="1"></script>
-    <script src="data:text/javascript;base64,d2luZG93LmRhdGFMYXllcj13aW5kb3cuZGF0YUxheWVyfHxbXTtmdW5jdGlvbiBndGFnKCl7ZGF0YUxheWVyLnB1c2goYXJndW1lbnRzKX0KZ3RhZygnanMnLG5ldyBEYXRlKCkpO2d0YWcoJ2NvbmZpZycsJ1VBLTIzODU5NDg4NS0xJyk=" defer=""></script>
-    <script src="App_Themes/house/js/js2.js)" defer="" data-deferred="1"></script>
-    <script src="data:text/javascript;base64,d2luZG93LmRhdGFMYXllcj13aW5kb3cuZGF0YUxheWVyfHxbXTtmdW5jdGlvbiBndGFnKCl7ZGF0YUxheWVyLnB1c2goYXJndW1lbnRzKX0KZ3RhZygnanMnLG5ldyBEYXRlKCkpO2d0YWcoJ2NvbmZpZycsJ0ctR1pFTUMzVEQ3Qycp" defer=""></script>
+   <%-- <script src="App_Themes/house/js/js1.js" defer="" data-deferred="1"></script>--%>
+   <%-- <script src="data:text/javascript;base64,d2luZG93LmRhdGFMYXllcj13aW5kb3cuZGF0YUxheWVyfHxbXTtmdW5jdGlvbiBndGFnKCl7ZGF0YUxheWVyLnB1c2goYXJndW1lbnRzKX0KZ3RhZygnanMnLG5ldyBEYXRlKCkpO2d0YWcoJ2NvbmZpZycsJ1VBLTIzODU5NDg4NS0xJyk=" defer=""></script>--%>
+   <%-- <script src="App_Themes/house/js/js2.js" defer="" data-deferred="1"></script>--%>
+ <%--   <script src="data:text/javascript;base64,d2luZG93LmRhdGFMYXllcj13aW5kb3cuZGF0YUxheWVyfHxbXTtmdW5jdGlvbiBndGFnKCl7ZGF0YUxheWVyLnB1c2goYXJndW1lbnRzKX0KZ3RhZygnanMnLG5ldyBEYXRlKCkpO2d0YWcoJ2NvbmZpZycsJ0ctR1pFTUMzVEQ3Qycp" defer=""></script>--%>
     <%-- <script src="App_Themes/house/js/core.26680508.js" type="module"></script>--%>
 </head>
 

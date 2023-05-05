@@ -19,7 +19,7 @@
                                     <div class="item">
                                         <div class="box">
                                             <div class="img">
-                                                <a href="/Du-an-<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm">
+                                                <a href="/du-an/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm">
                                                     <img data-lazyloaded="1" src="<%#Eval("CS_ImageURL") %>" width="768" height="432" data-src="<%#Eval("CS_ImageURL") %>" class="attachment-large size-large wvs-archive-product-image wp-post-image entered litespeed-loaded" alt="" decoding="async" loading="lazy" data-srcset="<%#Eval("CS_ImageURL") %> 768w, <%#Eval("CS_ImageURL") %> 300w, <%#Eval("CS_ImageURL") %> 600w" data-sizes="(max-width: 768px) 100vw, 768px" data-ll-status="loaded" sizes="(max-width: 768px) 100vw, 768px" srcset="<%#Eval("CS_ImageURL") %> 768w, <%#Eval("CS_ImageURL") %> 300w, <%#Eval("CS_ImageURL") %> 600w"></a>
                                             </div>
                                             <div class="info">

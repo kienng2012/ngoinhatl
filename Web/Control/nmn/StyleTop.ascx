@@ -4,7 +4,7 @@
 <!-- Menu Start -->
 
 <div class="collection_home">
-    <div class="background bg_section" style="background-image: url(https://nordic.vn/wp-content/uploads/2023/04/Untitled-8.jpg);"></div>
+    <div class="background bg_section" style="background-image: url(<%= Page.ResolveClientUrl("~/App_Themes/house/img/style-top-bn.jpg")%>);"></div>
     <div class="container-fluid">
         <div class="title_home2 white">
             <h2 class="title">CÁC PHONG CÁCH</h2>
@@ -33,7 +33,7 @@
                                 <div class="owl-item active" style="width: 382.667px;">
                                     <div class="item">
                                         <div class="img">
-                                            <a href="/Phong-cach-<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm">
+                                            <a href="/phong-cach/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm">
                                                 <img data-lazyloaded="1" src="<%#Eval("CS_ImageURL") %>" data-src="<%#Eval("CS_ImageURL") %>" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
                                                 <span class="status">HOT</span>
                                             </a>
