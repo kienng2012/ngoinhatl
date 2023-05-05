@@ -34901,8 +34901,13 @@ div.wpcf7 .ajax-loader {
         }
 
 .wpcf7-form-control-wrap {
+    color: #fff !important;
     position: initial
 }
+
+    .wpcf7-form-control-wrap:focus {
+        color: #fff !important;
+    }
 
 .wpcf7 .wpcf7-not-valid-tip {
     position: relative;
@@ -38026,6 +38031,7 @@ span.devvn_perc_rating {
 .list_product {
     grid-column-gap: 10px;
     grid-row-gap: 10px; /*padding:10px;margin: 0 20px;*/
+    padding: 10px
 }
 
 .item_pro {
@@ -38050,7 +38056,7 @@ span.devvn_perc_rating {
         z-index: 2
     }
 
-       /*  .item_pro:after {
+        /*  .item_pro:after {
         content: "";
         background-image: linear-gradient(to top,rgba(250,250,250,.5) 0%,rgba(250,250,250,.3) 30%,rgba(0,0,0,.01) 50%,rgba(250,250,250,0) 100%);
         position: absolute;
@@ -40482,16 +40488,17 @@ body.page-template-gioi-thieu {
     }
 
     .columns-4, .columns-5, .columns-6 {
-        grid-template-columns: repeat(2,1fr);
+        /*grid-template-columns: repeat(2,1fr);*/
+        grid-template-columns: repeat(1,1fr) !important;
         grid-column-gap: 10px;
         grid-row-gap: 15px
     }
 
     .columns-3, .columns-2 {
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1,1fr) !important;
         grid-column-gap: 10px;
         grid-row-gap: 15px;
-        margin: 10px
+        /* margin: 10px*/
     }
 
     #back-top {

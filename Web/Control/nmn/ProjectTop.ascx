@@ -27,7 +27,7 @@
                                                     <div class="date">04/03/2023</div>
                                                     <div class="meta">
                                                         <div class="share">
-                                                            <a href="https://facebook.com/share.php?u=https://ngoinhatuonglai.vn/Du-an-<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm" target="_blank" rel="nofollow" onclick="javascript:window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;" class="facebook " data-toggle="tooltip" title="Share on Facebook">
+                                                            <a href="https://facebook.com/share.php?u=https://ngoinhatuonglai.vn/du-an/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm" target="_blank" rel="nofollow" onclick="javascript:window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;" class="facebook " data-toggle="tooltip" title="Share on Facebook">
                                                                 <img data-lazyloaded="1" src="App_Themes/house/img/icon_share.png" alt="" icon_share="" data-src="App_Themes/house/img/icon_share.png" data-ll-status="loaded" class="entered litespeed-loaded">
                                                             </a>
                                                         </div>
@@ -36,9 +36,9 @@
                                                         </div>--%>
                                                     </div>
                                                 </div>
-                                                <h3 class="name"><a href="/Du-an-<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm"><%#Eval("CS_Name")%></a></h3>
+                                                <h3 class="name"><a href="/du-an/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm"><%#Eval("CS_Name")%></a></h3>
                                                 <div class="text"><%#Eval("CS_Description") %></div>
-                                                <div class="link"><a href="/Du-an-<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm">Xem chi tiết <i></i></a></div>
+                                                <div class="link"><a href="/du-an/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm">Xem chi tiết <i></i></a></div>
                                             </div>
                                         </div>
                                     </div>

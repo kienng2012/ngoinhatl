@@ -24,7 +24,7 @@ namespace Web.Control.nmn
         {
             if (Request.QueryString["serviceID"] == null && (Page.RouteData.Values["serviceID"] == null))
             {
-                Response.Redirect("/Trangchu.htm");
+                Response.Redirect("/trang-chu.htm");
             }
             else
             {

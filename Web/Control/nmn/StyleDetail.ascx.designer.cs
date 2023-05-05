@@ -15,6 +15,33 @@ namespace Web.Control.nmn
     {
 
         /// <summary>
+        /// imgService control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image imgService;
+
+        /// <summary>
+        /// lblTitlePage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal lblTitlePage;
+
+        /// <summary>
+        /// rptDetail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Repeater rptDetail;
+
+        /// <summary>
         /// rptProjects control.
         /// </summary>
         /// <remarks>

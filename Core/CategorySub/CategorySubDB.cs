@@ -164,11 +164,27 @@ namespace Core.CategorySub
                     retVal.U_UserName = Convert.ToString(dr["U_UserName"]);
                     retVal.C_Name = Convert.ToString(dr["C_Name"]);
                     retVal.CS_ArticleImgs = Convert.ToString(dr["CS_ArticleImgs"]);
-                    
-
-
                 }
                 if (dr != null) dr.Close();
+            }
+            finally
+            {
+                dbConn.Close();
+            }
+            return retVal;
+        }
+        public static DataTable CategorySubDB_GetById(int _CS_ID)
+        {
+            DataTable retVal = null;
+            SqlConnection dbConn = new SqlConnection(ConfigurationManager.ConnectionStrings["SQLGamePortalHTS"].ToString());
+            SqlCommand dbCmd = new SqlCommand("CategorySub_GetInfo", dbConn);
+            dbCmd.CommandType = CommandType.StoredProcedure;
+            dbCmd.Parameters.AddWithValue("@CS_ID", _CS_ID);
+            try
+            {
+                retVal = new DataTable();
+                SqlDataAdapter da = new SqlDataAdapter(dbCmd);
+                da.Fill(retVal);
             }
             finally
             {

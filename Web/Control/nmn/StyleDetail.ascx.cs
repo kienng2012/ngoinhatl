@@ -11,7 +11,7 @@ namespace Web.Control.nmn
     {
         protected int _intCateID;
         protected int _serviceID;
-        protected string _cateName;
+        protected string _titleArticle;
         protected string _cateSubName;
         const int pageSize = 6;
         protected void Page_Load(object sender, EventArgs e)
@@ -24,26 +24,35 @@ namespace Web.Control.nmn
         {
             if (Request.QueryString["serviceID"] == null && (Page.RouteData.Values["serviceID"] == null))
             {
-                Response.Redirect("/Trangchu.htm");
+                Response.Redirect("/trang-chu.htm");
             }
             else
             {
-                ////Lay thong tin id + ten danh muc
-                //if (Request.QueryString["serviceID"] != null)
-                //    _serviceID = Convert.ToInt32(Request.QueryString["serviceID"]);
-                //if (Page.RouteData.Values["serviceID"] != null)
-                //    _serviceID = Convert.ToInt32(Page.RouteData.Values["serviceID"]);
-                ////string strCateName = CategoryDB.Category_GetCateName_ByID(_cateID);
+                //Lay thong tin id + ten danh muc
+                if (Request.QueryString["serviceID"] != null)
+                    _serviceID = Convert.ToInt32(Request.QueryString["serviceID"]);
+                if (Page.RouteData.Values["serviceID"] != null)
+                    _serviceID = Convert.ToInt32(Page.RouteData.Values["serviceID"]);
+                //string strCateName = CategoryDB.Category_GetCateName_ByID(_cateID);
 
                 //CategorySubInfo info = CategorySubDB.GetInfo(_serviceID);
-                //lblTitle.Text = info.CS_Name;
-                //imgService.ImageUrl = info.CS_ImageURL;
-                //lblContent.Text = info.CS_Content;
-                ////lblCateName.Text = info.C_Name;
+                DataTable dt = CategorySubDB.CategorySubDB_GetById(_serviceID);
+                if (dt.Rows.Count > 0)
+                {
+                    rptDetail.DataSource = dt;
+                    rptDetail.DataBind();
+                    _titleArticle = dt.Rows[0]["CS_Name"].ToString();
+                    Page.Title = _titleArticle;//Set dynamic title page . tag <head runat="server">
+                    lblTitlePage.Text = _titleArticle;
+                    imgService.ImageUrl = dt.Rows[0]["CS_ImageURL"].ToString();
+                    //lblContent.Text = info.CS_Content;
+                    //lblCateName.Text = info.C_Name;
+                    //_cateName = info.C_Name;
+                    //_intCateID = info.C_ID;
+                }
 
                 //lblDate.Text = info.CS_CreateDate.ToString("dd/MM/yyyy");
-                //_cateName = info.C_Name;
-                //_intCateID = info.C_ID;
+
 
                 //if (info.CS_ArticleImgs != null)
                 //{
@@ -59,7 +68,7 @@ namespace Web.Control.nmn
 
                 //rpImages.DataBind();
 
-                //Page.Title = info.CS_Name;//Set dynamic title page . tag <head runat="server">
+
                 //Load cac bai viet lien quan
                 //this.LoadDataByCateWithoutCurrentID(_intCateID, info.CS_ID);
                 this.LoadDataByProjectWithoutCurrentID(2, 1);
@@ -73,7 +82,7 @@ namespace Web.Control.nmn
             DataTable dt = CategorySubDB.CategorySubsByCateWithoutCurrentID(1, pageSize, info, exceptArticleId);
             if (dt.Rows.Count > 0)
             {
-                _cateName = dt.Rows[0]["C_Name"].ToString();
+                _titleArticle = dt.Rows[0]["C_Name"].ToString();
             }
             rptProjects.DataSource = dt;
             rptProjects.DataBind();
@@ -87,13 +96,13 @@ namespace Web.Control.nmn
             DataTable dt = CategorySubDB.CategorySubsByCateWithoutCurrentID(1, pageSize, info, exceptArticleId);
             if (dt.Rows.Count > 0)
             {
-                _cateName = dt.Rows[0]["C_Name"].ToString();
+                _titleArticle = dt.Rows[0]["C_Name"].ToString();
             }
             rptListCate.DataSource = dt;
             rptListCate.DataBind();
             //int totalRecord = info.Output;
             //lblPaging.Text = RewriteUrl.generateTagPaging(_baseUrlPaging, _pageNumber, pageSize, totalRecord);
         }
-       
+
     }
 }
