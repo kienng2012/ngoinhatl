@@ -44,7 +44,7 @@ namespace Web.Control.nmn
 
             }
             String templateEmail = string.Format(_tempReservation, rName.Text, rName.Text, rEmail.Text, rPhone.Text, rContent.Text);
-            OutlookEmail.Send(destinationTo, destCCEmail, "[nmnchinhang.vn] Khách hàng liên hệ/đặt lịch", templateEmail, true, null);
+            OutlookEmail.Send(destinationTo, destCCEmail, "[ngoinhatuonglai.vn] Khách hàng liên hệ/đặt lịch", templateEmail, true, null);
         }
 
     }

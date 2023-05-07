@@ -43,6 +43,7 @@ namespace Web
             Styles,
             StyleTop,
             StyleDetail,
+            About,
 
             //SubjectDetails,
             //BangVang,

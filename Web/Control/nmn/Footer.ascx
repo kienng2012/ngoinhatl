@@ -106,7 +106,7 @@
                 <div id="custom_html-29" class="widget_text widget widget_custom_html  ">
                     <div class="textwidget custom-html-widget">
                         <div class="social_footer">
-                            <div class="capt">Theo dõi Nordic trên mạng xã hội</div>
+                            <div class="capt">Theo dõi ARBARO trên mạng xã hội</div>
                             <div class="list">
                                 <a rel="nofollow" href="https://www.facebook.com/nordic.vn">
                                     <img data-lazyloaded="1" src="App_Themes/house/img/icon-social-38px-fb-OK.png" data-src="https://nordic.vn/wp-content/uploads/2022/09/icon-social-38px-fb-OK.png" data-ll-status="loaded" class="entered litespeed-loaded"></a>
@@ -375,7 +375,7 @@
                 <div id="custom_html-29" class="widget_text widget widget_custom_html  ">
                     <div class="textwidget custom-html-widget">
                         <div class="social_footer">
-                            <div class="capt">Theo dõi Nordic trên mạng xã hội</div>
+                            <div class="capt">Theo dõi ARBARO trên mạng xã hội</div>
                             <div class="list">
                                 <a rel="nofollow" href="https://www.facebook.com/nordic.vn">
                                     <img data-lazyloaded="1" src="../../App_Themes/nntl/img/icon-social-38px-fb-OK.png" data-src="../../App_Themes/nntl/img/icon-social-38px-fb-OK.png" data-ll-status="loaded" class="entered litespeed-loaded"></a>
