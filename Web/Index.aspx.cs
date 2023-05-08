@@ -44,6 +44,8 @@ namespace Web
             StyleTop,
             StyleDetail,
             About,
+            Recruitment,
+            RecruitmentDetail,
 
             //SubjectDetails,
             //BangVang,

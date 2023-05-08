@@ -768,7 +768,7 @@ filter li a {
     box-shadow: 0 0 10px 0 rgba(0,0,0,.15);
 }
 
-    .item_pro :hover {
+/*.item_pro :hover {
         -webkit-transition: all 8s ease;
         -moz-transition: all 8s ease;
         -o-transition: all 8s ease;
@@ -777,7 +777,7 @@ filter li a {
         transform: scale(1.1);
         -ms-transform: scale(1.1);
         -webkit-transform: scale(1.1);
-    }
+    }*/
 
 /*.item_pro:hover:after {
     opacity: .75;
@@ -1758,3 +1758,913 @@ body {
         min-height: calc(100vh - 20px);
     }
 }
+/*** ABOUT US */
+.page-about {
+    font-size: 16px;
+}
+
+.page-about, body {
+    font-family: Montserrat,sans-serif;
+}
+
+.page-about {
+    overflow-x: hidden;
+    line-height: normal !important;
+}
+
+@media (max-width: 1200px) {
+    .page-about .mission .mission-content {
+        margin: 10vw auto 5vw;
+    }
+
+    .page-about .detail-mission {
+        padding: 0;
+    }
+
+        .page-about .detail-mission .detail {
+            flex-direction: column;
+            margin-top: 10vw;
+        }
+
+            .page-about .detail-mission .detail .detail-img {
+                margin-bottom: 5vw;
+            }
+
+                .page-about .detail-mission .detail .detail-img img {
+                    width: 100%;
+                }
+
+            .page-about .detail-mission .detail .detail-content {
+                padding: 0 15px;
+            }
+
+                .page-about .detail-mission .detail .detail-content .sub-title {
+                    margin-bottom: 5vw;
+                }
+
+        .page-about .detail-mission .detail-2 {
+            flex-direction: column-reverse;
+        }
+
+        .page-about .detail-mission .detail {
+            flex-direction: column;
+            margin-top: 10vw;
+        }
+
+            .page-about .detail-mission .detail .detail-content-2 {
+                padding-top: 5vw;
+            }
+
+            .page-about .detail-mission .detail .detail-content {
+                padding: 0 15px;
+            }
+
+                .page-about .detail-mission .detail .detail-content .sub-title {
+                    margin-bottom: 5vw;
+                }
+
+            .page-about .detail-mission .detail .detail-img {
+                margin-bottom: 5vw;
+            }
+
+                .page-about .detail-mission .detail .detail-img img {
+                    width: 100%;
+                }
+
+
+    .page-about .culture {
+        padding-bottom: 10vw;
+    }
+
+        .page-about .culture .container {
+            padding: 0;
+        }
+
+        .page-about .culture .title {
+            text-align: center;
+            margin-bottom: 5vw;
+        }
+
+        .page-about .culture .culture-banner {
+            padding: 0;
+        }
+
+            .page-about .culture .culture-banner .group-culture-circle .culture-circle {
+                margin: 5vw auto;
+                box-shadow: 5px 0 10px hsla(0,0%,45.5%,.25);
+            }
+
+                .page-about .culture .culture-banner .group-culture-circle .culture-circle .culture-circle-content {
+                    text-align: center;
+                    margin: 0;
+                }
+
+                    .page-about .culture .culture-banner .group-culture-circle .culture-circle .culture-circle-content img {
+                        margin: 0 auto 2vw;
+                    }
+
+    .page-about .banner-2 .group-content {
+        width: 90%;
+    }
+
+    .page-about .team .team-title {
+        text-align: center;
+        background: #dbdbdb;
+        position: relative;
+    }
+
+        .page-about .team .team-title:before {
+            content: "";
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 100%;
+            width: 0;
+            height: 0;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            border-top: 70px solid #dbdbdb;
+        }
+
+    .page-about .team .team-info {
+        padding-top: 10vw;
+        flex-direction: column;
+    }
+
+        .page-about .team .team-info .team-info-content {
+            padding: 5vw 0;
+        }
+
+        .page-about .team .team-info .team-info-social .social {
+            padding-bottom: 15px;
+        }
+
+            .page-about .team .team-info .team-info-social .social span {
+                padding-left: 10px;
+            }
+
+    .page-about .team .team-member .team-member-inner {
+        padding: 10vw 0;
+    }
+
+        .page-about .team .team-member .team-member-inner .team-member-info {
+            margin: 0 auto 5vw;
+        }
+
+    .page-about .final {
+        margin: 5vw 0;
+    }
+
+        .page-about .final .detail {
+            flex-direction: column;
+            margin-bottom: 5vw;
+        }
+
+            .page-about .final .detail .detail-content {
+                margin-bottom: 5vw;
+            }
+
+        .page-about .final .detail-2 {
+            flex-direction: column-reverse;
+        }
+
+        .page-about .final .detail {
+            flex-direction: column;
+            margin-bottom: 5vw;
+        }
+
+            .page-about .final .detail .detail-content {
+                margin-bottom: 5vw;
+            }
+
+        .page-about .final .detail {
+            flex-direction: column;
+            margin-bottom: 5vw;
+        }
+
+            .page-about .final .detail .detail-content {
+                margin-bottom: 5vw;
+            }
+
+    .page-about .culture .culture-banner .group-culture-circle .culture-circle .culture-circle-content div {
+        padding: 0 5vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .page-about .detail-mission .detail .detail-content .title, .page-about .mission .mission-content .title, .title {
+        font-size: 12.5vw;
+    }
+
+    .page-about .mission .mission-content .desc, .page-about .mission .mission-content .title {
+        margin-bottom: 5vw;
+    }
+
+    .page-about .mission .mission-content .desc, .page-about .mission .mission-content .title {
+        margin-bottom: 5vw;
+    }
+
+    .desc, .page-about .team .team-member .team-member-content .title, .position {
+        font-size: 5vw;
+    }
+
+    .page-about .detail-mission {
+        margin-top: 0;
+    }
+
+        .page-about .detail-mission .detail {
+            margin-top: 20vw;
+            margin-bottom: 0;
+        }
+
+            .page-about .detail-mission .detail .detail-img {
+                width: 100%;
+                margin-right: 0;
+            }
+
+            .page-about .detail-mission .detail .detail-content {
+                width: 100%;
+            }
+
+                .page-about .detail-mission .detail .detail-content .title, .page-about .mission .mission-content .title, .title {
+                    font-size: 12.5vw;
+                }
+
+                .page-about .detail-mission .detail .detail-content .title {
+                    margin-top: 10vw;
+                    margin-bottom: 10vw;
+                }
+
+    .page-about .detail .detail-content .sub-title, .page-about .final .detail .detail-content .title, .page-about .team .team-info .team-info-content .title, .page-about .team .team-title {
+        font-size: 10vw;
+    }
+
+    .desc, .page-about .team .team-member .team-member-content .title, .position {
+        font-size: 5vw;
+    }
+
+    .page-about .detail-mission .detail-2 {
+        margin-top: 5vw;
+    }
+
+    .page-about .detail-mission .detail {
+        margin-top: 20vw;
+        margin-bottom: 0;
+    }
+
+        .page-about .detail-mission .detail .detail-content {
+            width: 100%;
+        }
+
+    .page-about .detail .detail-content .sub-title, .page-about .final .detail .detail-content .title, .page-about .team .team-info .team-info-content .title, .page-about .team .team-title {
+        font-size: 10vw;
+    }
+
+    .page-about .detail-mission .detail .detail-img {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .page-about .culture {
+        padding-bottom: 10vw;
+    }
+
+        .page-about .culture .container {
+            padding: 0;
+        }
+
+        .page-about .culture .title {
+            text-align: center;
+            margin-bottom: 5vw;
+        }
+
+        .page-about .culture .culture-banner .group-culture-circle .culture-circle {
+            width: 90vw;
+            height: 90vw;
+        }
+
+    .page-about .banner-2 {
+        background: url(../img/banner2.jpg) no-repeat 50%;
+        background-size: cover;
+        min-height: 95vw;
+        position: relative;
+    }
+
+        .page-about .banner-2 .group-content {
+            width: 100%;
+        }
+
+            .page-about .banner-2 .group-content .title {
+                font-size: 8vw;
+            }
+
+            .page-about .banner-2 .group-content .title {
+                padding: 0 5vw;
+            }
+
+    .page-about .detail .detail-content .sub-title, .page-about .final .detail .detail-content .title, .page-about .team .team-info .team-info-content .title, .page-about .team .team-title {
+        font-size: 10vw;
+    }
+
+    .page-about .team .team-title {
+        padding: 5vw 0;
+    }
+
+    .page-about .team .team-info {
+        padding-top: 25vw;
+    }
+
+        .page-about .team .team-info img {
+            width: 100%;
+        }
+
+        .page-about .team .team-info .team-info-content {
+            padding: 5vw 0;
+        }
+
+            ) .page-about .detail .detail-content .sub-title, .page-about .final .detail .detail-content .title, .page-about .team .team-info .team-info-content .title, .page-about .team .team-title {
+                font-size: 10vw;
+            }
+
+            .page-about .team .team-info .team-info-content .title {
+                padding-bottom: 2vw;
+            }
+
+            .page-about .team .team-info .team-info-content .position {
+                font-size: 7vw;
+            }
+
+    .desc, .page-about .team .team-member .team-member-content .title, .position {
+        font-size: 5vw;
+    }
+
+    .page-about .team .team-info .team-info-social .social {
+        padding-bottom: 15px;
+    }
+
+        .page-about .team .team-info .team-info-social .social img {
+            width: auto;
+        }
+
+    .page-about .team .team-info img {
+        width: 100%;
+    }
+
+    .page-about .team .team-info .team-info-social .social span {
+        padding-left: 5vw;
+    }
+
+    .page-about .team .team-member .team-member-inner {
+        padding: 10vw 0;
+    }
+
+        .page-about .team .team-member .team-member-inner .team-member-info {
+            margin: 0 0 5vw;
+            max-width: 100%;
+            height: 65vw;
+            max-height: 65vw;
+            background: #fff;
+        }
+
+            .page-about .team .team-member .team-member-inner .team-member-info img {
+                width: 100%;
+            }
+
+            .page-about .team .team-member .team-member-inner .team-member-info .team-member-content {
+                background: none;
+                padding: 5vw 3vw 10vw;
+            }
+
+    ) .desc, .page-about .team .team-member .team-member-content .title, .position {
+        font-size: 5vw;
+    }
+
+    .page-about .team .team-member .team-member-content .position {
+        font-size: 4vw;
+    }
+
+    .page-about .detail .detail-content .sub-title, .page-about .final .detail .detail-content .title, .page-about .team .team-info .team-info-content .title, .page-about .team .team-title {
+        font-size: 10vw;
+    }
+
+    .page-about .final .detail .detail-content .title {
+        margin-bottom: 5vw;
+    }
+
+    .page-about .final .detail .detail-content .desc {
+        font-size: 6vw;
+    }
+
+    .page-about .final .detail .detail-img img {
+        width: 100%;
+    }
+}
+
+.page-about .mission .mission-content {
+    text-align: center;
+    margin: 50px auto 75px;
+}
+
+@media (max-width: 767px) {
+    .page-about .detail-mission .detail .detail-content .title, .page-about .mission .mission-content .title, .title {
+        font-size: 12.5vw;
+    }
+}
+
+
+.page-about .desc, .page-about .position, .page-about .title {
+    color: #454545;
+}
+
+.title {
+    font-size: 32px;
+}
+
+.title {
+    font-family: MontserratBold,sans-serif;
+}
+
+
+.page-about .desc {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.page-about .desc, .page-about .position, .page-about .title {
+    color: #454545;
+}
+
+
+.desc, .page-about .team .team-member .team-member-content .title, .position {
+    font-size: 24px;
+}
+
+.desc {
+    font-family: "Montserrat",sans-serif;
+}
+
+
+
+
+.page-about .detail-mission {
+    margin-top: 115px;
+}
+
+
+
+
+    .page-about .detail-mission .detail {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 105px;
+    }
+
+
+
+
+        .page-about .detail-mission .detail .detail-img {
+            width: 40%;
+            margin-right: 5%;
+        }
+
+
+
+.page-about img {
+    max-width: none !important;
+}
+
+
+
+
+.page-about .detail-mission .detail .detail-content {
+    padding-left: 15px;
+    width: 55%;
+}
+
+
+    .page-about .detail-mission .detail .detail-content .title {
+        font-size: 50px;
+    }
+
+
+    .page-about .detail-mission .detail .detail-content .sub-title {
+        margin-bottom: 40px;
+    }
+
+
+.page-about .detail .detail-content .sub-title, .page-about .team .team-info .team-info-content .title {
+    font-size: 30px;
+}
+
+.sub-title {
+    font-family: MontserratSemiBold,sans-serif;
+}
+
+.page-about .detail .desc {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.page-about .desc {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.page-about .desc, .page-about .position, .page-about .title {
+    color: #454545;
+}
+
+
+.desc, .page-about .team .team-member .team-member-content .title, .position {
+    font-size: 24px;
+}
+
+
+
+.page-about .detail-mission .detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 105px;
+}
+
+
+
+
+    .page-about .detail-mission .detail .detail-content-2 {
+        padding-left: 0;
+        padding-right: 6%;
+        padding-top: 40px;
+    }
+
+    .page-about .detail-mission .detail .detail-content {
+        padding-left: 15px;
+        width: 55%;
+    }
+
+
+        .page-about .detail-mission .detail .detail-content .sub-title {
+            margin-bottom: 40px;
+        }
+
+.page-about .detail .detail-content .sub-title, .page-about .team .team-info .team-info-content .title {
+    font-size: 30px;
+}
+
+.sub-title {
+    font-family: MontserratSemiBold,sans-serif;
+}
+
+
+.page-about .detail-mission .detail .detail-img {
+    width: 40%;
+    margin-right: 5%;
+}
+
+
+
+.page-about img {
+    max-width: none !important;
+}
+
+
+
+.page-about .culture {
+    padding-bottom: 100px;
+}
+
+
+
+
+
+
+    .page-about .culture .title {
+        text-align: center;
+    }
+
+    .page-about .culture .culture-banner {
+        background: url(/images/map.jpg) no-repeat 50%;
+        background-size: cover;
+        padding: 100px 0;
+    }
+
+        .page-about .culture .culture-banner .group-culture-circle {
+            display: flex;
+            justify-content: space-between;
+        }
+
+
+
+            .page-about .culture .culture-banner .group-culture-circle .culture-circle {
+                width: 325px;
+                height: 325px;
+                background: #fff;
+                border-radius: 999px;
+                box-shadow: 12px 12px 12px hsla(0,0%,45.5%,.25);
+            }
+
+
+                .page-about .culture .culture-banner .group-culture-circle .culture-circle .culture-circle-content {
+                    text-align: center;
+                    padding-top: 60px;
+                }
+
+
+                    .page-about .culture .culture-banner .group-culture-circle .culture-circle .culture-circle-content img {
+                        margin-bottom: 15px;
+                    }
+
+.page-about .banner-2 {
+    background: url(../img/banner2.jpg) no-repeat 50%;
+    background-size: cover;
+    min-height: 565px;
+    position: relative;
+}
+
+
+
+
+    .page-about .banner-2 .group-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+
+
+        .page-about .banner-2 .group-content .title {
+            color: #fff;
+            font-size: 32px;
+            line-height: 1.5;
+        }
+
+
+
+
+.page-about .team .team-title {
+    text-align: center;
+    background: #dbdbdb;
+    position: relative;
+}
+
+
+    .page-about .team .team-title:before {
+        content: "";
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 100%;
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 70px solid #dbdbdb;
+    }
+
+
+
+.page-about .team .team-info {
+    padding-top: 130px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+    .page-about .team .team-info .team-info-content {
+        padding-left: 60px;
+    }
+
+
+
+        .page-about .detail .detail-content .sub-title, .page-about .team .team-info .team-info-content .title {
+            font-size: 30px;
+        }
+
+
+.page-about .desc, .page-about .position, .page-about .title {
+    color: #454545;
+}
+
+
+.desc, .page-about .team .team-member .team-member-content .title, .position {
+    font-size: 24px;
+}
+
+.position {
+    font-family: MontserratMedium,sans-serif;
+}
+
+.page-about .team .team-info .team-info-content ul {
+    list-style: none;
+    padding: 15px 0 10px;
+    margin-left: 0;
+}
+
+    .page-about .team .team-info .team-info-content ul li {
+        line-height: 1.4;
+    }
+
+
+
+.page-about .team .team-info .team-info-social .social {
+    padding-bottom: 15px;
+    display: table;
+}
+
+
+    .page-about .team .team-info .team-info-social .social img {
+        max-width: 25px !important;
+    }
+
+
+
+
+    .page-about .team .team-info .team-info-social .social span {
+        padding-left: 10px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+.team-info .team-info-social span {
+    font-size: 14px;
+}
+
+.team-info .team-info-social span {
+    font-family: MontserratItalic,sans-serif;
+}
+
+.page-about .team .team-member {
+    background: #f2f2f2;
+}
+
+
+
+    .page-about .team .team-member .team-member-inner {
+        padding: 90px 0;
+        display: flex;
+    }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+
+.page-about .team .team-member .team-member-inner .team-member-info {
+    box-shadow: 12px 12px 12px hsla(0,0%,47.1%,.25);
+    max-width: 328px;
+    margin-bottom: 50px;
+}
+
+
+
+    .page-about .team .team-member .team-member-inner .team-member-info .team-member-content {
+        background: #fff;
+        padding: 15px 30px 30px;
+    }
+
+
+.desc, .page-about .team .team-member .team-member-content .title, .position {
+    font-size: 24px;
+}
+
+
+.page-about .team .team-member .team-member-content .position {
+    font-size: 18px;
+}
+
+
+.page-about .final {
+    margin: 50px 0;
+}
+
+
+    .page-about .final .detail {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+
+
+        .page-about .final .detail .detail-content .title {
+            margin-bottom: 31px;
+        }
+
+
+.page-about .detail .desc {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
+.page-about .final .detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+
+    .page-about .final .detail .detail-content .title {
+        margin-bottom: 31px;
+    }
+
+
+.page-about .detail .desc {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.page-about .final .detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+
+.page-about .detail .desc {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/*@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container, .container-lg, .container-md, .container-sm {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container, .container-md, .container-sm {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 576px) {
+    .container, .container-sm {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}*/
+/*** END ABOUT US */
+.img-products-details {
+    text-align: center;
+}
+
+    .img-products-details img {
+        width: auto;
+        max-width: 100%;
+        border: 0;
+    }

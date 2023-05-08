@@ -13,7 +13,7 @@ namespace Web.Control.nmn
         protected int _cateID;
         protected string _cateName;
         protected int _pageNumber;
-        const int pageSize = 6;
+        const int pageSize = 12;
         protected string _baseUrlPaging = "phong-cach";
         protected void Page_Load(object sender, EventArgs e)
         {

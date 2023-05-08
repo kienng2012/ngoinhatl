@@ -16,8 +16,8 @@
                     <ul id="menu-menu-main" class="menu clearfix">
                         <li id="menu-item-1720" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1720 nav-item"><a class="nav-links" href="/gioi-thieu.htm">Giới thiệu</a>
                             <ul class="sub-menu">
-                                <li id="menu-item-1729" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1729 nav-item"><a class="nav-links" href="/tong-quan.htm">Tổng quan</a></li>
-                                <li id="menu-item-1730" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1730 nav-item"><a class="nav-links" href="/doi-ngu.htm">Đội ngũ</a></li>
+                                <li id="menu-item-1729" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1729 nav-item"><a class="nav-links" href="/gioi-thieu.htm#General_ARBARO">Tổng quan</a></li>
+                                <li id="menu-item-1730" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1730 nav-item"><a class="nav-links" href="/gioi-thieu.htm#Team_ARBARO">Đội ngũ</a></li>
                             </ul>
                         </li>
                         <li id="menu-item-1721" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1721 nav-item"><a class="nav-links" href="/du-an.htm">Dự án</a>
@@ -82,8 +82,8 @@
         <ul id="menu-menu-mobile" class="menu_mobile clearfix">
             <li id="menu-item-2297" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-250 nav-item"><a class="nav-links" href="/gioi-thieu.htm">Giới thiệu</a><i class="fa fa-caret-down"></i>
                 <ul class="sub-menu">
-                    <li id="menu-item-257" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-257 nav-item"><a class="nav-links" href="/tong-quan.htm">Tổng quan</a></li>
-                    <li id="menu-item-259" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-251 nav-item"><a class="nav-links" href="/doi-ngu.htm">Đội ngũ</a></li>
+                    <li id="menu-item-257" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-257 nav-item"><a class="nav-links" href="/gioi-thieu.htm#General_ARBARO">Tổng quan</a></li>
+                    <li id="menu-item-259" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-251 nav-item"><a class="nav-links" href="/gioi-thieu.htm#Team_ARBARO">Đội ngũ</a></li>
                 </ul>
             </li>
             <li id="menu-item-250" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-250 nav-item"><a class="nav-links" href="/du-an.htm">Dự án</a><i class="fa fa-caret-down"></i>

@@ -8,13 +8,13 @@ using System.Web.UI.WebControls;
 
 namespace Web.Control.nmn
 {
-    public partial class Projects : System.Web.UI.UserControl
+    public partial class Recruitment : System.Web.UI.UserControl
     {
         protected int _cateID;
         protected string _cateName;
         protected int _pageNumber;
-        const int pageSize = 12;
-        protected string _baseUrlPaging = "du-an";
+        const int pageSize = 9;
+        protected string _baseUrlPaging = "tuyen-dung";
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
@@ -24,12 +24,12 @@ namespace Web.Control.nmn
         }
         protected void LoadDataByCate()
         {
-            _cateName = "Tin tức";
+            _cateName = "Tuyển dụng";
             if (Request.QueryString["cateID"] != null)
             {
                 _cateID = Convert.ToInt32(Request.QueryString["cateID"]);
             }
-            else { _cateID = 1; }
+            else { _cateID = 14; }
 
             if (Request.QueryString["pageNumber"] != null)
             {

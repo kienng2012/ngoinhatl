@@ -15,7 +15,7 @@
 <html lang="vi" class="no-js">
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <script type="text/javascript" async="" src="./Home_Nodric_files/analytics.js"></script>
+    <%-- <script type="text/javascript" async="" src="./Home_Nodric_files/analytics.js"></script>--%>
     <script data-no-optimize="1">var litespeed_docref = sessionStorage.getItem("litespeed_docref"); litespeed_docref && (Object.defineProperty(document, "referrer", { get: function () { return litespeed_docref } }), sessionStorage.removeItem("litespeed_docref"));</script>
     <link data-optimized="2" rel="stylesheet" href="<%= Page.ResolveClientUrl("~/App_Themes/house/css/main.css")%>">
     <link data-optimized="2" rel="stylesheet" href="<%= Page.ResolveClientUrl("~/App_Themes/house/css/custom.css")%>">
@@ -55,7 +55,7 @@
     </script>
     <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/App_Themes/house/js/jquery.min.js")%>" id="jquery-core-js"></script>
     <%-- <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/App_Themes/house/js/script.js") %>"></script>--%>
-    <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/App_Themes/house/js/imagesloaded.min.js") %>"></script>
+    <%-- <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/App_Themes/house/js/imagesloaded.min.js") %>"></script>--%>
     <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/App_Themes/house/js/isotope.pkgd.min.js") %>"></script>
     <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/App_Themes/house/js/jquery.fancybox.min.js") %>" id="fancybox-js"></script>
 
@@ -77,10 +77,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-   <%-- <script src="App_Themes/house/js/js1.js" defer="" data-deferred="1"></script>--%>
-   <%-- <script src="data:text/javascript;base64,d2luZG93LmRhdGFMYXllcj13aW5kb3cuZGF0YUxheWVyfHxbXTtmdW5jdGlvbiBndGFnKCl7ZGF0YUxheWVyLnB1c2goYXJndW1lbnRzKX0KZ3RhZygnanMnLG5ldyBEYXRlKCkpO2d0YWcoJ2NvbmZpZycsJ1VBLTIzODU5NDg4NS0xJyk=" defer=""></script>--%>
-   <%-- <script src="App_Themes/house/js/js2.js" defer="" data-deferred="1"></script>--%>
- <%--   <script src="data:text/javascript;base64,d2luZG93LmRhdGFMYXllcj13aW5kb3cuZGF0YUxheWVyfHxbXTtmdW5jdGlvbiBndGFnKCl7ZGF0YUxheWVyLnB1c2goYXJndW1lbnRzKX0KZ3RhZygnanMnLG5ldyBEYXRlKCkpO2d0YWcoJ2NvbmZpZycsJ0ctR1pFTUMzVEQ3Qycp" defer=""></script>--%>
+    <%-- <script src="App_Themes/house/js/js1.js" defer="" data-deferred="1"></script>--%>
+    <%-- <script src="data:text/javascript;base64,d2luZG93LmRhdGFMYXllcj13aW5kb3cuZGF0YUxheWVyfHxbXTtmdW5jdGlvbiBndGFnKCl7ZGF0YUxheWVyLnB1c2goYXJndW1lbnRzKX0KZ3RhZygnanMnLG5ldyBEYXRlKCkpO2d0YWcoJ2NvbmZpZycsJ1VBLTIzODU5NDg4NS0xJyk=" defer=""></script>--%>
+    <%-- <script src="App_Themes/house/js/js2.js" defer="" data-deferred="1"></script>--%>
+    <%--   <script src="data:text/javascript;base64,d2luZG93LmRhdGFMYXllcj13aW5kb3cuZGF0YUxheWVyfHxbXTtmdW5jdGlvbiBndGFnKCl7ZGF0YUxheWVyLnB1c2goYXJndW1lbnRzKX0KZ3RhZygnanMnLG5ldyBEYXRlKCkpO2d0YWcoJ2NvbmZpZycsJ0ctR1pFTUMzVEQ3Qycp" defer=""></script>--%>
     <%-- <script src="App_Themes/house/js/core.26680508.js" type="module"></script>--%>
 </head>
 

@@ -73,7 +73,7 @@
         <div class="inner">
             <div class="maps">
                 <%--<iframe data-lazyloaded="1" src="App_Themes/house/img/embed.html" data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d477025.01140348776!2d105.03252617422083!3d20.922057694872876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab2e2881d2b7%3A0x827a4e784e5a3430!2zTuG7mWkgdGjhuqV0IELhuq9jIMOCdSAtIE5PUkRJQw!5e0!3m2!1svi!2s!4v1660706734086!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" data-ll-status="loaded" class="entered litespeed-loaded"></iframe>--%>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.7373199253925!2d105.81335937587882!3d20.963061490030565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ad1d40403a31%3A0xa24dec434c68bced!2zMTQgTmfDtSA4MTYgxJDGsOG7nW5nIEtpbSBHaWFuZywgVGhhbmggTGnhu4d0LCBUaGFuaCBUcsOsLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1682053104686!5m2!1svi!2s" width="600" height="450" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14902.42519165194!2d105.8196628!3d20.96832!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ad1add547871%3A0xc14e7e10ed1e4a5c!2zQ8O0bmcgdHkgVE5ISCBraeG6v24gdHLDumMgdsOgIG7hu5lpIHRo4bqldCB0aMO0bmcgbWluaCBBUkJBUk8!5e0!3m2!1svi!2s!4v1683541240210!5m2!1svi!2s" width="600" height="450" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="form">
                 <div class="wpcf7 js" id="wpcf7-f5-o1" lang="vi" dir="ltr">
@@ -81,8 +81,8 @@
                         <p role="status" aria-live="polite" aria-atomic="true"></p>
                         <ul></ul>
                     </div>
-                  <%--  <form runat="server" class="" aria-label="Form liên hệ">--%>
-                         <form class="mb-5" runat="server">
+                    <%--  <form runat="server" class="" aria-label="Form liên hệ">--%>
+                    <form class="mb-5" runat="server">
                         <div class="form-title">
                             Liên hệ với chúng tôi
                         </div>
