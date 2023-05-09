@@ -2,6 +2,8 @@
 <%@ Import Namespace="Core.Utils" %>
 
 <%@ Register Src="~/Control/nmn/ArticleTop.ascx" TagName="articleTop" TagPrefix="uc1" %>
+<link rel="stylesheet" href="<%= Page.ResolveClientUrl("~/App_Themes/house/css/jquery.fancybox.min.css")%>" type="text/css" media="all">
+<script type="text/javascript" src="<%= Page.ResolveClientUrl("~/App_Themes/house/js/jquery.fancybox.min.js") %>" id="fancybox-js"></script>
 <%--<div class="banner_pages banner_catpro section_bg" style="background-image: url(<%= Page.ResolveClientUrl("~/App_Themes/house/img/bg_duan.jpg")%>);">
     <div class="inner">
         <h1 class="title_catpro">Dự án chi tiết</h1>
@@ -13,8 +15,10 @@
 <section id="page-title" class="full-height" style="background-image: url(<%= Page.ResolveClientUrl("~/App_Themes/house/img/bg_duan.jpg")%>); background-color: rgb(239, 239, 239); background-size: cover; background-position: center center; background-repeat: no-repeat; min-height: 255px;">
     <div class="section-inner align-center">
         <div class="main-title">
-            <h1 style="font-size: 28px; margin-top: 5px;"><strong><asp:Literal ID="lblTitlePage" runat="server"></asp:Literal></strong></h1>
-            <div class="port-meta"><span><asp:Literal ID="lblDescriptionPage" runat="server"></asp:Literal></span></div>
+            <h1 style="font-size: 28px; margin-top: 5px;"><strong>
+                <asp:Literal ID="lblTitlePage" runat="server"></asp:Literal></strong></h1>
+            <div class="port-meta"><span>
+                <asp:Literal ID="lblDescriptionPage" runat="server"></asp:Literal></span></div>
         </div>
     </div>
 </section>
@@ -42,8 +46,9 @@
     <section id="portfolio-single" class="notoppadding">
         <div class="section-inner">
             <div class="wrapper">
-               
-                <h4 class="title-ultraminimal align-center visible"><asp:Label ID="lblTitle" runat="server" Text="" /></h4>
+
+                <h4 class="title-ultraminimal align-center visible">
+                    <asp:Label ID="lblTitle" runat="server" Text="" /></h4>
                 <%--<div class="spacer spacer-small"></div>--%>
                 <p>
                     <asp:Literal ID="lblContent" runat="server"></asp:Literal>
@@ -51,7 +56,7 @@
                 <%--<div class="spacer spacer-small"></div>--%>
             </div>
             <div class="img-products-details">
-                <asp:Image ID="imgService" runat="server" />
+                <asp:Image ID="imgService" runat="server" CssClass="imgDetailFull" />
             </div>
 
             <div class="products-details columns-4 list_product">
