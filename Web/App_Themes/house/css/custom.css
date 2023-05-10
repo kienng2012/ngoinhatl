@@ -2673,3 +2673,6 @@ body {
     width: 100%;
     margin: auto;
 }
+fa-angle-up:before {
+    content: "\f106";
+}

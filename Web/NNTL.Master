@@ -22,6 +22,7 @@
     <link data-optimized="2" rel="stylesheet" href="<%= Page.ResolveClientUrl("~/App_Themes/house/css/style.css")%>">
  <%--   <link rel="stylesheet" href="<%= Page.ResolveClientUrl("~/App_Themes/house/css/jquery.fancybox.min.css")%>" type="text/css" media="all">--%>
     <link data-optimized="2" rel="stylesheet" href="<%= Page.ResolveClientUrl("~/App_Themes/house/css/mqueries.css")%>">
+    <link data-optimized="2" rel="stylesheet" href="<%= Page.ResolveClientUrl("~/App_Themes/house/css/font-awesome.css")%>">
 
   <%--  <link data-optimized="2" rel="stylesheet" href="<%= Page.ResolveClientUrl("~/App_Themes/house/css/grids-responsive-min.css")%>">--%>
     <title>Nội thất cao cấp</title>

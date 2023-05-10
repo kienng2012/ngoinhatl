@@ -348,15 +348,14 @@
 
 
 <!-- FOOTER -->
-<footer class="">
+<%--<footer class="">
     <div class="footer-inner wrapper">
         <a id="backtotop" href="#">To Top</a>
-        <%--<div class="copyright right-float">
+       <div class="copyright right-float">
             Ngôn Ngữ: <a href="https://housedesign.vn/" title="House Design">TIẾNG VIỆT</a> Copyright by <a href="https://housedesign.vn/" title="House Design">House Design</a>.
-        </div>--%>
+        </div>
     </div>
-
-</footer>
+</footer>--%>
 <!-- FOOTER -->
 
 

@@ -164,6 +164,7 @@
     <Content Include="App_Themes\Giaoduc\js\mootools-core-1.3-full-compat-yc.js" />
     <Content Include="App_Themes\Giaoduc\js\slideGallery.js" />
     <Content Include="App_Themes\Giaoduc\view_cate.html" />
+    <Content Include="App_Themes\house\css\font-awesome.css" />
     <Content Include="App_Themes\house\css\grids-responsive-min.css" />
     <Content Include="App_Themes\house\css\jquery.fancybox.min.css" />
     <Content Include="App_Themes\house\css\main.css" />
@@ -268,6 +269,7 @@
     <Content Include="App_Themes\house\js\overlay.js" />
     <Content Include="App_Themes\house\js\remote.js" />
     <Content Include="App_Themes\house\js\search_impl.js" />
+    <Content Include="App_Themes\house\video\Arbaro.mp4" />
     <Content Include="App_Themes\nmn\about.html" />
     <Content Include="App_Themes\nmn\coffee-shop-html-template.jpg" />
     <Content Include="App_Themes\nmn\contact.html" />
