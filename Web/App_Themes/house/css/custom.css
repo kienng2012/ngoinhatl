@@ -11,7 +11,7 @@
 #reason {
     background-color: #fff;
     position: relative;
-    padding: 80px 0;
+    padding: 60px 0;
 }
 
 article, aside, details, .overlaycaption, figure, footer, header, hgroup, menu, nav, section, dialog {
@@ -1473,22 +1473,12 @@ body {
 }
 
 
-.bordered #page-content {
-    padding: 40px;
-}
-
 .bordered #bodyborder-top, .bordered #bodyborder-bottom, .bordered #bodyborder-left, .bordered #bodyborder-right {
     background: #f0f0f0 !important;
 }
 
 .loading-end.bordered #bodyborder-right, .disable-preloader.bordered #bodyborder-right {
     right: 0 !important;
-}
-
-#page-content {
-    overflow: hidden;
-    margin: 0;
-    min-width: 1080px;
 }
 
 /** Custom du an*/
@@ -1952,6 +1942,17 @@ body {
 }
 
 @media (max-width: 767px) {
+    .footer3 .inner {
+        margin: 10px !important;
+    }
+
+    .support_fixed {
+        position: fixed;
+        bottom: 90px !important;
+        right: 5px !important;
+        z-index: 90;
+    }
+
     .page-about .detail-mission .detail .detail-content .title, .page-about .mission .mission-content .title, .title {
         font-size: 12.5vw;
     }
@@ -2204,13 +2205,9 @@ body {
 }
 
 
-
-
 .page-about .detail-mission {
     margin-top: 115px;
 }
-
-
 
 
     .page-about .detail-mission .detail {
@@ -2220,21 +2217,14 @@ body {
         margin-bottom: 105px;
     }
 
-
-
-
         .page-about .detail-mission .detail .detail-img {
             width: 40%;
             margin-right: 5%;
         }
 
-
-
 .page-about img {
     max-width: none !important;
 }
-
-
 
 
 .page-about .detail-mission .detail .detail-content {
@@ -2280,17 +2270,12 @@ body {
     font-size: 24px;
 }
 
-
-
 .page-about .detail-mission .detail {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 105px;
 }
-
-
-
 
     .page-about .detail-mission .detail .detail-content-2 {
         padding-left: 0;
@@ -2333,10 +2318,6 @@ body {
 .page-about .culture {
     padding-bottom: 100px;
 }
-
-
-
-
 
 
     .page-about .culture .title {
@@ -2664,7 +2645,7 @@ body {
 }
 
     .img-products-details img {
-       /* width: auto;*/
+        /* width: auto;*/
         max-width: 100%;
         border: 0;
     }
@@ -2673,6 +2654,11 @@ body {
     width: 100%;
     margin: auto;
 }
+
 fa-angle-up:before {
     content: "\f106";
+}
+
+.footer3 .inner {
+    margin: 10px 30px;
 }

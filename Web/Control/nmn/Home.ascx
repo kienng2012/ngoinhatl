@@ -65,7 +65,8 @@
     </div>
 </div>
 <div class="about_home" style="background-color: #f2efe9;">
-    <div class="container">
+    <div class="container-fluid">
+        <!-- class="container"-->
         <div class="flex">
             <div class="inner_left center">
                 <h2 class="title">
@@ -79,7 +80,7 @@
                 <div class="video">
                     <%--<iframe data-lazyloaded="1" width="560" height="315" src="https://www.youtube.com/embed/l6QwtZsFuew?autoplay=1&amp;mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen name="youtube embed" data-ll-status="loaded" class="entered litespeed-loaded"></iframe>--%>
                     <video width="320" height="240" autoplay muted controls loop>
-                      <source src="../../App_Themes/house/video/Arbaro.mp4" type="video/mp4">
+                        <source src="../../App_Themes/house/video/Arbaro.mp4" type="video/mp4">
                     </video>
                 </div>
             </div>
@@ -87,22 +88,28 @@
     </div>
 </div>
 
+
+<!--  DU AN TOP -->
+<uc1:projectTop ID="ProjectTop1" runat="server" />
+<!-- END DU AN TOP -->
+<!-- LY DO LUA CHON -->
 <div class="criteria_home">
     <div class="background" style="background-image: url(https://nordic.vn/wp-content/uploads/2022/08/Untitled-11.png);"></div>
     <div class="container-fluid">
+        <!--class="container-fluid"-->
         <h2 class="title"><span></span>LÝ DO LỰA CHỌN</h2>
         <div class="list">
             <div class="item">
                 <div class="inner">
                     <div class="number">
                         <span class="num">1</span>
-                        <span class="text">Thói
+                        <span class="text">Tư vấn
                             <br>
-                            quen</span>
+                            tận tâm</span>
                         <span class="bgitem"><span class="num2">1</span></span>
                     </div>
                     <div class="box">
-                        <div class="text">Các thiết kế được Team R&amp;D nghiên cứu một cách tỉ mẩn, kỹ lưỡng dựa trên thói quen sống của người Việt nhằm mang đến trải nghiệm phù hợp nhất.</div>
+                        <div class="text">Với đội ngũ kiến trúc sư kinh nghiệm, nhiệt huyết sẵn sàng giải đáp mọi thắc mắc của khách hàng về công năng thẩm mỹ, hay phong thủy cũng như đưa ra những ý kiến tư vấn tận tâm, bất kể ngày đêm, hỗ trợ 24/7</div>
                     </div>
                 </div>
             </div>
@@ -110,13 +117,13 @@
                 <div class="inner">
                     <div class="number">
                         <span class="num">2</span>
-                        <span class="text">Lối
+                        <span class="text">Thiết kế
                             <br>
-                            sống</span>
+                            Giá trị</span>
                         <span class="bgitem"><span class="num2">2</span></span>
                     </div>
                     <div class="box">
-                        <div class="text">Trước khi một sản phẩm được hoàn thiện, Team R&amp;D đã có khoảng thời gian tìm hiểu về lối sống và văn hóa bao đời của người Việt. Từ những chi tiết nhỏ như khoang để đồ để không gian gọn gàng hơn, nâng cao chất lượng sống lên tầm cao mới.</div>
+                        <div class="text">Với phương châm bản thiết kế không chỉ đơn giản là đẹp về mặt hình ảnh mà còn mang lại giá trị thực sự cho khách hàng, đem lại trải nghiệm tốt nhất về không gian, thỏa mãn sở thích, thói quen, lối sống của gia chủ, đem đến một không gian nội thất trong mơ đích thực.</div>
                     </div>
                 </div>
             </div>
@@ -124,13 +131,13 @@
                 <div class="inner">
                     <div class="number">
                         <span class="num">3</span>
-                        <span class="text">Sở
+                        <span class="text">Tối ưu
                             <br>
-                            thích</span>
+                            chi phí</span>
                         <span class="bgitem"><span class="num2">3</span></span>
                     </div>
                     <div class="box">
-                        <div class="text">Mỗi sản phẩm đều được cá nhân hóa theo sở thích của từng cá nhân, về chất liệu, màu sắc,... phù hợp với mọi nhu cầu của khách hàng và thị hiếu của người Việt.</div>
+                        <div class="text">Một không gian nội thất đẹp không nhất thiết phải toàn vật liệu đắt tiền, mà nó phải hài hòa với sở thích, gu thẩm mỹ của gia chủ, biết chọn những vật liệu cao cấp nên làm điểm nhấn chứ không nên lạm dụng, yếu tố đó sẽ tạo nên một không gian đẹp, có chiều sâu mà vẫn tiết kiệm chi phí cho gia chủ.</div>
                     </div>
                 </div>
             </div>
@@ -138,13 +145,13 @@
                 <div class="inner">
                     <div class="number">
                         <span class="num">4</span>
-                        <span class="text">Khí
+                        <span class="text">Thi công
                             <br>
-                            hậu</span>
+                            Thần tốc</span>
                         <span class="bgitem"><span class="num2">4</span></span>
                     </div>
                     <div class="box">
-                        <div class="text">Các chất liệu được nghiên cứu và chọn lọc kỹ lưỡng để sản phẩm thích nghi với mọi vùng khí hậu. Chất liệu vải &amp; da được chọn lựa dễ lau chùi, khó bám bẩn, đặc biệt thích nghi tốt với khí hậu nhiệt đới gió mùa ẩm ở Việt Nam.</div>
+                        <div class="text">Sở hữu cho mình xưởng sản xuất 1000m2 với máy móc công nghệ CNC hiện đại, và đội ngũ thợ lành nghề chuyên nghiệp, chúng tôi cam kết chất lượng sản phẩm khi thi công với độ chính xác từng mm, thỏa mãn những khách hàng khó tính nhất. Đặc biệt với tiêu chí thời gian thi công đảm bảo nhanh nhất thị trường chỉ từ 7 ngày từ lúc kí hợp đồng thi công</div>
                     </div>
                 </div>
             </div>
@@ -152,22 +159,20 @@
                 <div class="inner">
                     <div class="number">
                         <span class="num">5</span>
-                        <span class="text">Nhân
+                        <span class="text">Hỗ trợ
                             <br>
-                            trắc</span>
+                            trọn đời</span>
                         <span class="bgitem"><span class="num2">5</span></span>
                     </div>
                     <div class="box">
-                        <div class="text">Mọi sản phẩm nội thất của ARBARO được nghiên cứu dựa trên form người của người Việt. Kích thước phù hợp mang đến trải nghiệm thoải mái, an toàn và tiện dụng cho khách hàng.</div>
+                        <div class="text">Đối với chúng tôi, mỗi khách hàng như một người bạn tri kỉ. Arbaro sẽ luôn đồng hành cùng bạn trong quá trình kiến tạo và hoàn thiện không gian sống cho ngôi nhà của bạn trong hiện tại và tương lai.</div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!--  DU AN TOP -->
-<uc1:projectTop ID="ProjectTop1" runat="server" />
-<!-- END DU AN TOP -->
+<!-- END LY DO LUA CHON -- >
 <!-- CAC PHONG CACH -->
 <uc2:styleTop ID="StyleTop1" runat="server" />
 <!-- END CAC PHONG CACH -->
@@ -175,10 +180,10 @@
 <!-- QUY TRINH LAM VIEC -->
 <section id="reason">
     <div class="reason-header">
-        <h2 class="mbr-section-title align-center mbr-fonts-style mbr-bold display-2">Lý do lựa chọn Housedesign</h2>
+        <h2 class="mbr-section-title align-center mbr-fonts-style mbr-bold display-2">Quy trình làm việc</h2>
     </div>
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="reason-content-desktop">
             <img src="https://housedesign.vn/wp-content/uploads/2020/12/Frame-1.png" width="75%" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2020/12/Frame-1.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://housedesign.vn/wp-content/uploads/2020/12/Frame-1.png" width="75%" alt=""></noscript>
         </div>
@@ -354,6 +359,7 @@
 <div class="expert_home">
     <div class="background bg_section" style="background-image: url(https://nordic.vn/wp-content/uploads/2023/04/Untitled-20.jpg);"></div>
     <div class="container-fluid">
+        <!-- class="container-fluid" -->
         <div class="title_home2 white">
             <h2 class="title">Đội ngũ nhân sự</h2>
         </div>
@@ -444,6 +450,7 @@
 
 <div class="partner_home">
     <div class="container-fluid">
+        <!--  class="container-fluid" -->
         <div class="title_home2 white">
             <h2 class="title">Đối tác</h2>
         </div>
@@ -610,58 +617,6 @@
     </div>
 </div>
 
-<%--<div class="contact_home">
-    <div>
-        <div class="inner">
-            <div class="maps">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.7373199253925!2d105.81335937587882!3d20.963061490030565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ad1d40403a31%3A0xa24dec434c68bced!2zMTQgTmfDtSA4MTYgxJDGsOG7nW5nIEtpbSBHaWFuZywgVGhhbmggTGnhu4d0LCBUaGFuaCBUcsOsLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1682053104686!5m2!1svi!2s" width="600" height="450" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="form">
-                <div class="wpcf7 js" id="wpcf7-f5-o1" lang="vi" dir="ltr">
-                    <div class="screen-reader-response">
-                        <p role="status" aria-live="polite" aria-atomic="true"></p>
-                        <ul></ul>
-                    </div>
-                    <form action="https://nordic.vn/#wpcf7-f5-o1" method="post" class="wpcf7-form init" aria-label="Form liên hệ" novalidate="novalidate" data-status="init">
-                        <div style="display: none;">
-                            <input type="hidden" name="_wpcf7" value="5">
-                            <input type="hidden" name="_wpcf7_version" value="5.7.5.1">
-                            <input type="hidden" name="_wpcf7_locale" value="vi">
-                            <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f5-o1">
-                            <input type="hidden" name="_wpcf7_container_post" value="0">
-                            <input type="hidden" name="_wpcf7_posted_data_hash" value="">
-                        </div>
-                        <div class="form-title">
-                            Liên hệ với chúng tôi
-                        </div>
-                        <div class="form-group">
-                            <span class="wpcf7-form-control-wrap" data-name="text-948">
-                                <input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required input" aria-required="true" aria-invalid="false" placeholder="Họ và tên" value="" type="text" name="text-948"></span>
-                        </div>
-                        <div class="form-group">
-                            <span class="wpcf7-form-control-wrap" data-name="email-460">
-                                <input size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email input" aria-required="true" aria-invalid="false" placeholder="Email" value="" type="email" name="email-460"></span>
-                        </div>
-                        <div class="form-group">
-                            <span class="wpcf7-form-control-wrap" data-name="number-647">
-                                <input class="wpcf7-form-control wpcf7-number wpcf7-validates-as-required wpcf7-validates-as-number input" aria-required="true" aria-invalid="false" placeholder="Số điện thoại" value="" type="number" name="number-647"></span>
-                        </div>
-                        <div class="form-group">
-                            <span class="wpcf7-form-control-wrap" data-name="textarea-413">
-                                <textarea cols="40" rows="4" class="wpcf7-form-control wpcf7-textarea input" aria-invalid="false" placeholder="Lời nhắn" name="textarea-413"></textarea></span>
-                        </div>
-                        <div class="form-button">
-                            <input class="wpcf7-form-control has-spinner wpcf7-submit input" type="submit" value="Đăng ký ngay"><span class="wpcf7-spinner"></span>
-                        </div>
-                        <div class="wpcf7-response-output" aria-hidden="true"></div>
-                    </form>
-                </div>
-            </div>
-
-
-        </div>
-    </div>
-</div>--%>
 <!--FORM LIEN HE -->
 <uc3:reservationForm ID="ReservationForm1" runat="server" />
 <!--END FORM LIEN HE -->

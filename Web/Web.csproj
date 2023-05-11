@@ -269,7 +269,6 @@
     <Content Include="App_Themes\house\js\overlay.js" />
     <Content Include="App_Themes\house\js\remote.js" />
     <Content Include="App_Themes\house\js\search_impl.js" />
-    <Content Include="App_Themes\house\video\Arbaro.mp4" />
     <Content Include="App_Themes\nmn\about.html" />
     <Content Include="App_Themes\nmn\coffee-shop-html-template.jpg" />
     <Content Include="App_Themes\nmn\contact.html" />
@@ -1918,6 +1917,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="App_Themes\house\video\" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />

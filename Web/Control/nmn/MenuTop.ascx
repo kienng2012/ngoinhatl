@@ -40,7 +40,9 @@
                                 <li id="menu-item-2215" class="menu-item menu-item-type-taxonomy menu-item-object-project_cat menu-item-2256 nav-item"><a class="nav-links" href="/phong-cach/tan-co-dien.htm">Tân cổ điển</a></li>
                             </ul>
                         </li>
-
+                        <li id="menu-item-2674" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2673 nav-item"><a class="nav-links" href="/arbaro24h.htm">Arbaro 24h</a></li>
+                        <li id="menu-item-2675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2673 nav-item"><a class="nav-links" href="/chinh-sach.htm">Chính sách</a></li>
+                        <li id="menu-item-2676" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2673 nav-item"><a class="nav-links" href="/trai-nghiem.htm">Trải nghiệm khách hàng</a></li>
                         <li id="menu-item-2673" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2673 nav-item"><a class="nav-links" href="/lien-he.htm">Liên hệ</a></li>
                         <li id="menu-item-2248" class="menu-item menu-item-type-taxonomy menu-item-object-project_cat menu-item-2248 nav-item"><a class="nav-links" href="/tuyen-dung.htm">Tuyển dụng</a></li>
                     </ul>
@@ -105,6 +107,9 @@
                     <li id="menu-item-265" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-254 nav-item"><a class="nav-links" href="/phong-cach/tan-co-dien.htm">Tân cổ điển</a></li>
                 </ul>
             </li>
+            <li id="menu-item-2332" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2303 nav-item"><a class="nav-links" href="/arbaro24h.htm">Arbaro 24h</a></li>
+            <li id="menu-item-2334" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2303 nav-item"><a class="nav-links" href="/chinh-sach.htm">Chính sách</a></li>
+            <li id="menu-item-2333" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2303 nav-item"><a class="nav-links" href="/trai-nghiem.htm">Trải nghiệm khách hàng</a></li>
             <li id="menu-item-2303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2303 nav-item"><a class="nav-links" href="/lien-he.htm">Liên hệ</a></li>
             <li id="menu-item-2295" class="menu-item menu-item-type-taxonomy menu-item-object-project_cat menu-item-2295 nav-item"><a class="nav-links" href="/tuyen-dung.htm">Tuyển dụng</a></li>
         </ul>

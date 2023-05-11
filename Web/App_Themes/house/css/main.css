@@ -27389,7 +27389,7 @@ p {
 .lead {
     margin-bottom: 20px;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.4
 }
 
@@ -33495,7 +33495,7 @@ body.fancybox-iosfix {
         height: 30px;
         font: 20px/30px Arial,"Helvetica Neue",Helvetica,sans-serif;
         color: #888;
-        font-weight: 300;
+        font-weight: 400;
         text-align: center;
         border-radius: 50%;
         border-width: 0;
@@ -33855,7 +33855,7 @@ li.fancybox-thumbs-loading {
     font-display: swap;
     font-family: 'Roboto';
     src: url(/wp-content/themes/nordic2/fonts/Roboto-Light.woff2);
-    font-weight: 300;
+    font-weight: 400;
     font-display: block;
     font-style: normal
 }
@@ -33975,7 +33975,7 @@ body {
 
 #back-top {
     position: fixed;
-    bottom: 40px;
+    bottom: 60px;
     right: 45px;
     z-index: 90
 }
@@ -34074,7 +34074,7 @@ a {
 }
 
 .container-fluid {
-    padding: 0 50px
+    /*padding: 0 50px*/
 }
 
 .row10 {
@@ -34844,7 +34844,7 @@ div.wpcf7 .ajax-loader {
     font-size: 12px;
     color: #666;
     margin-top: 0;
-    font-weight: 300
+    font-weight: 400
 }
 
 .form-group {
@@ -35094,7 +35094,7 @@ body.home .owl-carousel .owl-dots .owl-dot span {
 
 .support_fixed {
     position: fixed;
-    bottom: 140px;
+    bottom: 120px;
     right: 45px;
     z-index: 90
 }
@@ -36429,7 +36429,7 @@ body.logged-in #menu_mainnav {
                 display: block;
                 line-height: 42px;
                 color: #fff;
-                font-weight: 300
+                font-weight: 400
             }
 
         .header_menu .menu li.current-menu-item > a, .header_menu .menu li:hover > a {
@@ -36486,7 +36486,7 @@ body.logged-in #menu_mainnav {
             padding: 0 38px 0 10px;
             border: 0;
             background: 0 0;
-            font-weight: 300;
+            font-weight: 400;
             color: #fff;
         }
 
@@ -36744,7 +36744,7 @@ body.home::-webkit-scrollbar {
         text-align: center;
         color: #fff;
         font-size: 16px;
-        font-weight: 300;
+        font-weight: 400;
         position: relative;
         z-index: 2
     }
@@ -37783,7 +37783,7 @@ body.home::-webkit-scrollbar {
         text-align: center;
         color: #fff;
         font-size: 18px;
-        font-weight: 300;
+        font-weight: 400;
         position: relative;
         z-index: 2
     }
@@ -38838,7 +38838,7 @@ body.page-template-gioi-thieu {
 
         .slider_home .item .carousel-status .slash {
             font-size: 22px;
-            font-weight: 300;
+            font-weight: 400;
             margin: 0 6px;
             height: 22px;
             line-height: 1
@@ -38851,12 +38851,12 @@ body.page-template-gioi-thieu {
 }
 
 .about_home {
-    padding: 60px 0
+    padding: 50px 0
 }
 
     .about_home .inner_left {
         width: 50%;
-        padding: 20px 50px 20px 30px
+        padding: 10px 30px 10px 15px
     }
 
         .about_home .inner_left .title {
@@ -39215,7 +39215,7 @@ body.page-template-gioi-thieu {
     }
 
 .collection_home {
-    padding: 65px 0 75px;
+    padding: 50px 0 50px;
     position: relative;
     color: #fff;
     background-color: #151515
@@ -39318,7 +39318,7 @@ body.page-template-gioi-thieu {
 }
 
 .collection_home .slider {
-    margin: -15px 30px;
+    margin: -15px 5px;
 }
 
 .collection_home .item {
@@ -39443,7 +39443,7 @@ body.page-template-gioi-thieu {
     }
 
 .criteria_home {
-    padding: 100px 0;
+    padding: 50px 0;
     position: relative
 }
 
@@ -39555,7 +39555,7 @@ body.page-template-gioi-thieu {
                 align-items: center;
                 justify-content: center;
                 text-align: center;
-                font-size: 28px;
+                font-size: 24px;
                 text-transform: uppercase;
                 font-weight: 600;
                 line-height: 1.1;
@@ -39693,7 +39693,7 @@ body.page-template-gioi-thieu {
         }
 
 .expert_home {
-    padding: 60px 0 75px;
+    padding: 50px 0 50px;
     background-color: #151515;
     position: relative
 }
@@ -39937,16 +39937,15 @@ body.page-template-gioi-thieu {
     }
 
         .news_home2 .owl-carousel .owl-nav button.owl-prev {
-            left: -50px
+            /*left: -50px*/
         }
 
         .news_home2 .owl-carousel .owl-nav button.owl-next {
-            right: -50px
+            /*right: -50px*/
         }
 
 .contact_home {
-    /*padding: 50px 0*/
-    padding-top: 40px;
+    padding: 20px
 }
 
     .contact_home .inner {
@@ -40520,7 +40519,9 @@ body.page-template-gioi-thieu {
     }
 
     #back-top {
-        bottom: 40px
+        bottom: 20px;
+        position: fixed;
+        right: 5px;
     }
 
     .content-post {
@@ -41602,7 +41603,7 @@ body.page-template-gioi-thieu {
     font-display: swap;
     font-family: 'Poppins';
     font-style: italic;
-    font-weight: 300;
+    font-weight: 400;
     font-display: swap;
     src: url(https://fonts.gstatic.com/s/poppins/v20/pxiDyp8kv8JHgFVrJJLm21llEA.ttf) format('truetype')
 }
@@ -41683,7 +41684,7 @@ body.page-template-gioi-thieu {
     font-display: swap;
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     font-display: swap;
     src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8V1s.ttf) format('truetype')
 }

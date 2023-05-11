@@ -86,10 +86,10 @@
 
 <body class="home page-template page-template-home2 page-template-home2-php bordered">
     <!--BORDER -->
-    <div id="bodyborder-left"></div>
+   <%-- <div id="bodyborder-left"></div>
     <div id="bodyborder-right"></div>
     <div id="bodyborder-top"></div>
-    <div id="bodyborder-bottom"></div>
+    <div id="bodyborder-bottom"></div>--%>
     <div id="page-content" class="fixed-header">
         <!-- HEADER -->
         <uc1:menuTop ID="MenuTop1" runat="server" />
@@ -213,8 +213,8 @@
                 </div>
                 <div class="footer_wrap">
                     <div class="hotline">
-                        <a href="tel:(+84) 965240366">
-                            <img data-lazyloaded="1" src="<%= Page.ResolveClientUrl("~/App_Themes/house/img/icon_lh11.png") %>" alt="icon_lh11" data-src="<%= Page.ResolveClientUrl("~/App_Themes/house/img/icon_lh11.png") %>" data-ll-status="loaded" class="entered litespeed-loaded">(+84) 965240366 </a>
+                        <a href="tel:(+84) 826688000">
+                            <img data-lazyloaded="1" src="<%= Page.ResolveClientUrl("~/App_Themes/house/img/icon_lh11.png") %>" alt="icon_lh11" data-src="<%= Page.ResolveClientUrl("~/App_Themes/house/img/icon_lh11.png") %>" data-ll-status="loaded" class="entered litespeed-loaded">(+84) 826688000 </a>
                     </div>
                 </div>
             </div>
@@ -223,17 +223,17 @@
         <div class="support_fixed">
             <ul class="clearfix">
                 <li>
-                    <a href="http://zalo.me/+(84)965240366" target="_blank" rel="nofollow" class="not_tran">
+                    <a href="http://zalo.me/+(84)826688000" target="_blank" rel="nofollow" class="not_tran">
                         <img data-lazyloaded="1" src="<%= Page.ResolveClientUrl("~/App_Themes/house/img/ic_zaloo.png") %>" alt="zalo" data-ll-status="loaded" class="entered litespeed-loaded">
                     </a>
                 </li>
                 <li>
-                    <a href="tel:(+84) 965240366" rel="nofollow" class="not_tran">
+                    <a href="tel:(+84) 826688000" rel="nofollow" class="not_tran">
                         <img data-lazyloaded="1" src="<%= Page.ResolveClientUrl("~/App_Themes/house/img/ic_hotlinee.png") %>" alt="ic_hotlinee" data-ll-status="loaded" class="entered litespeed-loaded">
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.messenger.com/" rel="nofollow" class="not_tran">
+                    <a href="https://m.me/NoiThat.ThongMinh.Arbaro/" rel="nofollow" class="not_tran">
                         <img data-lazyloaded="1" src="<%= Page.ResolveClientUrl("~/App_Themes/house/img/mess-icon.png") %>" alt="mess-icon" data-ll-status="loaded" class="entered litespeed-loaded">
                     </a>
                 </li>

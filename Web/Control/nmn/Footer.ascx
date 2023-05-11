@@ -16,7 +16,7 @@
                 <div id="black-studio-tinymce-3" class="widget widget_black_studio_tinymce  col-md-3">
                     <div class="footer-title"><span>Liên hệ</span></div>
                     <div class="textwidget">
-                        <p>Hotline CSKH / Zalo: (+84) 965240366</p>
+                        <p>Hotline CSKH / Zalo: (+84) 826688000</p>
                         <p>Email: info@nordic.vn</p>
                         <p>Website: www.nordic.vn</p>
                         <p><span style="font-size: 12pt;">"Giá trị vượt thời gian"</span></p>
@@ -99,7 +99,7 @@
                     <div class="textwidget custom-html-widget">
                         <div class="hotline_footer">
                             <div class="capt">HOTLINE</div>
-                            <a href="tel:+(84) 965240366" class="hotline"><i class="fa fa-phone"></i>+(84) 965240366</a><div class="time">Thời gian làm việc: 08:30 - 18:00 (T2 - Chủ Nhật)</div>
+                            <a href="tel:+(84) 826688000" class="hotline"><i class="fa fa-phone"></i>+(84) 826688000</a><div class="time">Thời gian làm việc: 08:30 - 18:00 (T2 - Chủ Nhật)</div>
                         </div>
                     </div>
                 </div>
@@ -116,7 +116,7 @@
                                     <img data-lazyloaded="1" src="App_Themes/house/img/icon-social-38px-youtube-OK.png" data-src="https://nordic.vn/wp-content/uploads/2022/09/icon-social-38px-youtube-OK.png" data-ll-status="loaded" class="entered litespeed-loaded"></a>
                                 <a rel="nofollow" href="https://www.pinterest.com/nordic2018/">
                                     <img data-lazyloaded="1" src="App_Themes/house/img/icon-social-38px-pinterest-OK.png" data-src="https://nordic.vn/wp-content/uploads/2022/09/icon-social-38px-pinterest-OK.png" data-ll-status="loaded" class="entered litespeed-loaded"></a>
-                                <a rel="nofollow" href="http://zalo.me/+(84)965240366">
+                                <a rel="nofollow" href="http://zalo.me/+(84)826688000">
                                     <img data-lazyloaded="1" src="App_Themes/house/img/icon-social-38px-Zalo-OK.png" data-src="https://nordic.vn/wp-content/uploads/2022/09/icon-social-38px-Zalo-OK.png" data-ll-status="loaded" class="entered litespeed-loaded"></a>
                             </div>
                         </div>
@@ -133,10 +133,10 @@
                             <div class="local">Trụ sở &amp; Showroom : Số 14, ngõ 816/32 đường Kim Giang, Xã Thanh Liệt, Huyện Thanh Trì, Hà Nội</div>
                             <div class="support">
                                 <div class="it">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/icon_lh11.png" data-src="App_Themes/house/img/icon_lh11.png" data-ll-status="loaded" class="entered litespeed-loaded">+(84) 965240366
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/icon_lh11.png" data-src="App_Themes/house/img/icon_lh11.png" data-ll-status="loaded" class="entered litespeed-loaded">+(84) 826688000
                                 </div>
                                 <div class="it">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/icon_lh21.png" data-src="App_Themes/house/img/icon_lh21.png" data-ll-status="loaded" class="entered litespeed-loaded">info@ngoinhatuonglai.vn
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/icon_lh21.png" data-src="App_Themes/house/img/icon_lh21.png" data-ll-status="loaded" class="entered litespeed-loaded">arbarohome@gmail.com
                                 </div>
                                 <div class="it">
                                     <img data-lazyloaded="1" src="App_Themes/house/img/icon_lh31.png" data-src="App_Themes/house/img/icon_lh31.png" data-ll-status="loaded" class="entered litespeed-loaded">www.ngoinhatuonglai.vn
@@ -248,13 +248,13 @@
 </section>--%>
 
 <section class="footer3 cid-qNA6O02OA1" id="footer3-9e" style="background-color: #1e1e1e; display: block;">
-    <div class="container">
+    <div>
         <%--<div class="mbr-row mbr-justify-content-center align-center" style="border-bottom: 1px solid #d3d3d38c; margin-bottom: 20px">
             <div class="card mbr-col-sm-12 mbr-col-md-8 mbr-col-lg-8 last-child">
                 <div class="mbr-row">
                     <h2 class="mbr-title align-left mbr-fonts-style display-2 mb-2">Hotline</h2>
                     <img width="28" height="35" alt="" title="" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%2028%2035&#39;%3E%3C/svg%3E" data-lazy-src="../../App_Themes/nntl/img/supporter.png"><noscript><img width="28" height="35" alt="" title="" src="../../App_Themes/nntl/img/supporter.png"></noscript>
-                    <h2 class="mbr-title align-left mbr-fonts-style display-2 mb-2">+84965240366</h2>
+                    <h2 class="mbr-title align-left mbr-fonts-style display-2 mb-2">+84826688000</h2>
                     <p class="mbr-text">Thời gian làm việc: 08:30 - 18:00 (T2 - Chủ Nhật)</p>
                 </div>
             </div>
@@ -285,7 +285,7 @@
                     <div class="textwidget custom-html-widget">
                         <div class="hotline_footer">
                             <div class="capt">HOTLINE</div>
-                            <a href="tel:+(84) 965240366" class="hotline"><i class="fa fa-phone"></i>+(84) 965240366</a><div class="time-footer" style="margin-bottom: 20px">Thời gian làm việc: 08:30 - 18:00 (T2 - Chủ Nhật)</div>
+                            <a href="tel:+(84) 826688000" class="hotline"><i class="fa fa-phone"></i>+(84) 826688000</a><div class="time-footer" style="margin-bottom: 20px">Thời gian làm việc: 08:30 - 18:00 (T2 - Chủ Nhật)</div>
                         </div>
                     </div>
                 </div>
@@ -294,7 +294,7 @@
                         <div class="social_footer">
                             <div class="capt">Theo dõi ARBARO trên mạng xã hội</div>
                             <div class="list">
-                                <a rel="nofollow" href="#">
+                                <a rel="nofollow" href="https://www.facebook.com/NoiThat.ThongMinh.Arbaro">
                                     <img data-lazyloaded="1" src="<%= Page.ResolveClientUrl("~/App_Themes/house/img/icon-social-38px-fb-OK.png") %>" data-ll-status="loaded" class="entered litespeed-loaded">
                                 </a>
                                 <a rel="nofollow" href="#">
@@ -306,7 +306,7 @@
                                 <a rel="nofollow" href="#">
                                     <img data-lazyloaded="1" src="<%= Page.ResolveClientUrl("~/App_Themes/house/img/icon-social-38px-pinterest-OK.png") %>" data-ll-status="loaded" class="entered litespeed-loaded">
                                 </a>
-                                <a rel="nofollow" href="http://zalo.me/+(84)965240366">
+                                <a rel="nofollow" href="http://zalo.me/+(84)826688000">
                                     <img data-lazyloaded="1" src="<%= Page.ResolveClientUrl("~/App_Themes/house/img/icon-social-38px-Zalo-OK.png") %>" data-ll-status="loaded" class="entered litespeed-loaded">
                                 </a>
                             </div>
@@ -322,13 +322,13 @@
                                 <img data-lazyloaded="1" src="<%= Page.ResolveClientUrl("~/App_Themes/house/img/bct.png") %>" data-ll-status="loaded" class="entered litespeed-loaded">
                             </div>
 
-                            <div class="local">Trụ sở &amp; Showroom : Số 14, ngõ 816/32 đường Kim Giang, Xã Thanh Liệt, Huyện Thanh Trì, Hà Nội</div>
+                            <div class="local">Trụ sở VP: Số 15 đường Thanh Liệt, Thanh Trì, Hà Nội</div>
                             <div class="support">
                                 <div class="it">
-                                    <img data-lazyloaded="1" src="<%= Page.ResolveClientUrl("~/App_Themes/house/img/icon_lh11.png") %>" data-ll-status="loaded" class="entered litespeed-loaded">+(84) 965240366
+                                    <img data-lazyloaded="1" src="<%= Page.ResolveClientUrl("~/App_Themes/house/img/icon_lh11.png") %>" data-ll-status="loaded" class="entered litespeed-loaded">+(84) 826688000
                                 </div>
                                 <div class="it">
-                                    <img data-lazyloaded="1" src="<%= Page.ResolveClientUrl("~/App_Themes/house/img/icon_lh21.png") %>" data-ll-status="loaded" class="entered litespeed-loaded">info@ngoinhatuonglai.vn
+                                    <img data-lazyloaded="1" src="<%= Page.ResolveClientUrl("~/App_Themes/house/img/icon_lh21.png") %>" data-ll-status="loaded" class="entered litespeed-loaded">arbarohome@gmail.com
                                 </div>
                                 <div class="it">
                                     <img data-lazyloaded="1" src="<%= Page.ResolveClientUrl("~/App_Themes/house/img/icon_lh31.png") %>" data-ll-status="loaded" class="entered litespeed-loaded">www.ngoinhatuonglai.vn
