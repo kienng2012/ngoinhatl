@@ -183,7 +183,7 @@
         <h2 class="mbr-section-title align-center mbr-fonts-style mbr-bold display-2">Quy trình làm việc</h2>
     </div>
 
-    <div class="container-fluid">
+    <div class="container">
         <div class="reason-content-desktop">
             <img src="https://housedesign.vn/wp-content/uploads/2020/12/Frame-1.png" width="75%" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2020/12/Frame-1.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://housedesign.vn/wp-content/uploads/2020/12/Frame-1.png" width="75%" alt=""></noscript>
         </div>
@@ -361,7 +361,7 @@
     <div class="container-fluid">
         <!-- class="container-fluid" -->
         <div class="title_home2 white">
-            <h2 class="title">Đội ngũ nhân sự</h2>
+            <h2 class="title white">Đội ngũ nhân sự</h2>
         </div>
         <div class="owl-carousel owl-loaded owl-drag">
             <div class="owl-stage-outer owl-height" style="height: 440px;">
@@ -452,7 +452,7 @@
     <div class="container-fluid">
         <!--  class="container-fluid" -->
         <div class="title_home2 white">
-            <h2 class="title">Đối tác</h2>
+            <h2 class="title white">Đối tác</h2>
         </div>
         <div class="block_slider">
             <div class="owl-carousel owl-loaded owl-drag">

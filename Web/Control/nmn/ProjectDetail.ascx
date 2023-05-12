@@ -1,7 +1,8 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ProjectDetail.ascx.cs" Inherits="Web.Control.nmn.ProjectDetail" %>
 <%@ Import Namespace="Core.Utils" %>
 
-<%@ Register Src="~/Control/nmn/ArticleTop.ascx" TagName="articleTop" TagPrefix="uc1" %>
+<%@ Register Src="~/Control/nmn/BannerContact.ascx" TagName="bannerContact" TagPrefix="uc1" %>
+
 <link rel="stylesheet" href="<%= Page.ResolveClientUrl("~/App_Themes/house/css/jquery.fancybox.min.css")%>" type="text/css" media="all">
 <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/App_Themes/house/js/jquery.fancybox.min.js") %>" id="fancybox-js"></script>
 <%--<div class="banner_pages banner_catpro section_bg" style="background-image: url(<%= Page.ResolveClientUrl("~/App_Themes/house/img/bg_duan.jpg")%>);">
@@ -78,8 +79,8 @@
 
                 <!-- V -->
             </div>
-
-            <div class="cta-container">
+           
+           <%-- <div class="cta-container">
                 <div class="container">
                     <div class="pure-g">
                         <div class="pure-u-1 pure-u-lg-7-12">
@@ -98,7 +99,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>--%>
             <%--<div class="wrapper">
                 <ul class="single-pagination fixed-pagination">
                     <li class="next "><a href="https://housedesign.vn/du-an/thi-cong-thu-te-villa-vinhome-quan-9/" title="Thi công thự tế Villa Vinhome Quận 9" class="transition" data-name="Thi công thự tế Villa Vinhome Quận 9">
@@ -111,7 +112,9 @@
     </section>
 </div>
 <!-- END CONTENT -->
-
+<!-- BANNER CONTACT -->
+ <uc1:bannerContact ID="BannerContact" runat="server" />
+<!-- END BANNER CONTACT -->
 <%--<div class="container-fluid pt-5">
     <div class="container">
         <div class="section-title-detail">

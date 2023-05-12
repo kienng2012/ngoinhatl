@@ -91,7 +91,7 @@
         </div>
     </div>
 </footer>
-<footer id="footer2" style="background-color: #1e1e1e; display: block;">
+<footer id="footer2" style="background-color: #141e20; display: block;">
     <div class="container-fluid">
         <div class="inner">
             <div class="footer_top">
@@ -247,7 +247,7 @@
     </div>
 </section>--%>
 
-<section class="footer3 cid-qNA6O02OA1" id="footer3-9e" style="background-color: #1e1e1e; display: block;">
+<section class="footer3 cid-qNA6O02OA1" id="footer3-9e" style="background-color: #141e20; display: block;">
     <div>
         <%--<div class="mbr-row mbr-justify-content-center align-center" style="border-bottom: 1px solid #d3d3d38c; margin-bottom: 20px">
             <div class="card mbr-col-sm-12 mbr-col-md-8 mbr-col-lg-8 last-child">
@@ -359,7 +359,7 @@
 <!-- FOOTER -->
 
 
-<%--<footer id="footer2" style="background-color: #1e1e1e; display: block;">
+<%--<footer id="footer2" style="background-color: #141e20; display: block;">
     <div class="container-fluid">
         <div class="inner">
             <div class="footer_top">

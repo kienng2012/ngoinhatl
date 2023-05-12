@@ -4,30 +4,16 @@
 <!-- Menu Start -->
 
 <div class="collection_home">
-    <div class="background bg_section" style="background-image: url(<%= Page.ResolveClientUrl("~/App_Themes/house/img/style-top-bn.jpg")%>);"></div>
+    <%--<div class="background bg_section" style="background-image: url(<%= Page.ResolveClientUrl("~/App_Themes/house/img/style-top-bn.jpg")%>);"></div>--%>
     <div class="container-fluid">
         <div class="title_home2 white">
-            <h2 class="title">CÁC PHONG CÁCH</h2>
+            <h2 class="title white">PHONG CÁCH</h2>
             <a href="/phong-cach.htm" class="link">Xem tất cả</a>
         </div>
         <div class="slider">
             <div class="owl-carousel owl-loaded owl-drag">
                 <div class="owl-stage-outer">
                     <div class="owl-stage" style="transform: translate3d(-1148px, 0px, 0px); transition: all 0s ease 0s; width: 3827px;">
-                        <%-- <div class="owl-item cloned" style="width: 382.667px;">
-                            <div class="item">
-                                <div class="img">
-                                    <a href="https://nordic.vn/pige/">
-                                        <img data-lazyloaded="1" src="App_Themes/house/img/anh-thumb-BST-Pige.png" data-src="https://nordic.vn/wp-content/uploads/2022/09/anh-thumb-BST-Pige.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
-                                        <span class="status">Hot</span>
-                                    </a>
-                                </div>
-                                <div class="info">
-                                    <h3 class="name"><a href="https://nordic.vn/pige/">Pige Collection</a></h3>
-                                    <div class="text">Bộ sưu tập PIGE của NORDIC tập trung khai thác chủ đề “tính nữ trong tình yêu”, mang đến những thiết kế mềm mại và bao bọc, cách điệu mà tối giản.</div>
-                                </div>
-                            </div>
-                        </div>--%>
                         <asp:Repeater ID="rptStyleTop" runat="server">
                             <ItemTemplate>
                                 <div class="owl-item active" style="width: 382.667px;">
@@ -46,20 +32,6 @@
                                 </div>
                             </ItemTemplate>
                         </asp:Repeater>
-                        <%-- <div class="owl-item active" style="width: 382.667px;">
-                            <div class="item">
-                                <div class="img">
-                                    <a href="https://nordic.vn/mand/">
-                                        <img data-lazyloaded="1" src="App_Themes/house/img/anh-thumb-BST-Mand-ver2.png" data-src="https://nordic.vn/wp-content/uploads/2022/09/anh-thumb-BST-Mand-ver2.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
-                                        <span class="status">New</span>
-                                    </a>
-                                </div>
-                                <div class="info">
-                                    <h3 class="name"><a href="https://nordic.vn/mand/">Mand Collection</a></h3>
-                                    <div class="text">Lấy ý tưởng từ vẻ mạnh mẽ, phóng khoáng của nam giới, Sofa AESIR mang đến một không gian ấn tượng và cá tính. Phù hợp với những người nội tâm mạnh mẽ, luôn chăm chút cẩn thận cho góc riêng trong cuộc sống của mình.</div>
-                                </div>
-                            </div>
-                        </div>--%>
                     </div>
                 </div>
                 <div class="owl-nav">

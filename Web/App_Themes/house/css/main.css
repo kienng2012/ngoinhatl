@@ -3566,7 +3566,7 @@ figure {
     }
 
 .components-custom-select-control__menu {
-    border: 1px solid #1e1e1e;
+    border: 1px solid #141e20;
     background-color: #fff;
     border-radius: 2px;
     outline: none;
@@ -3608,7 +3608,7 @@ figure {
 .components-snackbar {
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
     font-size: 13px;
-    background-color: #1e1e1e;
+    background-color: #141e20;
     border-radius: 2px;
     box-shadow: 0 2px 4px rgba(0,0,0,.3);
     color: #fff;
@@ -4812,7 +4812,7 @@ input.components-combobox-control__input[type=text]:focus {
     text-decoration: inherit;
     text-transform: inherit;
     align-items: center;
-    background-color: #1e1e1e;
+    background-color: #141e20;
     color: #fff;
     display: inline-flex;
     font-weight: 700;
@@ -4827,7 +4827,7 @@ input.components-combobox-control__input[type=text]:focus {
 }
 
     .wc-block-components-button:not(.is-link):active, .wc-block-components-button:not(.is-link):disabled, .wc-block-components-button:not(.is-link):focus, .wc-block-components-button:not(.is-link):hover {
-        background-color: #1e1e1e;
+        background-color: #141e20;
         color: #fff
     }
 
@@ -5483,7 +5483,7 @@ img.wc-block-components-product-image[alt=""] {
 
     .wc-block-components-chip, .wc-block-components-chip:active, .wc-block-components-chip:focus, .wc-block-components-chip:hover {
         background: #e0e0e0;
-        color: #1e1e1e
+        color: #141e20
     }
 
         .wc-block-components-chip.wc-block-components-chip--radius-small {
@@ -5655,7 +5655,7 @@ img.wc-block-components-product-image[alt=""] {
 }
 
 .has-dark-controls .wc-block-components-combobox .wc-block-components-combobox-control .components-form-token-field__suggestions-list, .has-dark-controls .wc-block-components-form .wc-block-components-combobox .wc-block-components-combobox-control .components-form-token-field__suggestions-list {
-    background-color: #1e1e1e;
+    background-color: #141e20;
     color: #fff
 }
 
@@ -7264,7 +7264,7 @@ html[dir=rtl] .wc-block-components-pagination-page--arrow span {
         margin: 0;
         background: none transparent;
         box-shadow: none;
-        color: #1e1e1e
+        color: #141e20
     }
 
         .wc-block-components-quantity-selector .wc-block-components-quantity-selector__button:focus:focus, .wc-block-components-quantity-selector .wc-block-components-quantity-selector__button:hover:focus {
@@ -9110,8 +9110,8 @@ h2.wc-block-mini-cart__title {
 
     .wc-block-mini-cart__footer .wc-block-mini-cart__footer-actions .wc-block-mini-cart__footer-cart.wc-block-components-button {
         background-color: transparent;
-        border: 1px solid #1e1e1e;
-        color: #1e1e1e;
+        border: 1px solid #141e20;
+        color: #141e20;
         display: none;
         flex-grow: 1;
         font-weight: 600
@@ -9124,7 +9124,7 @@ h2.wc-block-mini-cart__title {
 }
 
 .wc-block-mini-cart__footer .wc-block-mini-cart__footer-actions .wc-block-mini-cart__footer-checkout {
-    border: 1px solid #1e1e1e;
+    border: 1px solid #141e20;
     flex-grow: 1;
     font-weight: 600
 }
@@ -9306,7 +9306,7 @@ h2.wc-block-mini-cart__title {
     }
 
         .components-placeholder.wc-block-checkout__no-payment-methods-placeholder .components-placeholder__fieldset .components-button {
-            background-color: #1e1e1e;
+            background-color: #141e20;
             color: #fff
         }
 
@@ -9707,7 +9707,7 @@ h2.wc-block-mini-cart__title {
     }
 
         .components-placeholder.wc-block-checkout__no-shipping-placeholder .components-placeholder__fieldset .components-button {
-            background-color: #1e1e1e;
+            background-color: #141e20;
             color: #fff
         }
 
@@ -10384,7 +10384,7 @@ h2.wc-block-mini-cart__title {
 
 .wc-block-featured-product {
     position: relative;
-    background-color: #1e1e1e;
+    background-color: #141e20;
     background-size: cover;
     background-position: 50%;
     width: 100%;
@@ -10575,7 +10575,7 @@ h2.wc-block-mini-cart__title {
     }
 
 .wp-block-woocommerce-featured-category {
-    background-color: #1e1e1e;
+    background-color: #141e20;
     border-color: transparent;
     color: #fff;
     overflow: hidden
@@ -33131,7 +33131,7 @@ body.fancybox-iosfix {
 }
 
 .fancybox-bg {
-    background: #1e1e1e;
+    background: #141e20;
     opacity: 0;
     transition-duration: inherit;
     transition-property: opacity;
@@ -33976,7 +33976,7 @@ body {
 #back-top {
     position: fixed;
     bottom: 60px;
-    right: 45px;
+    right: 5px;
     z-index: 90
 }
 
@@ -35095,7 +35095,7 @@ body.home .owl-carousel .owl-dots .owl-dot span {
 .support_fixed {
     position: fixed;
     bottom: 120px;
-    right: 45px;
+    right: 5px;
     z-index: 90
 }
 
@@ -35797,7 +35797,7 @@ a.devvn_buy_now_style {
 #header {
     width: 100%;
     z-index: 99999;
-    background: #1e1e1ea6;
+    background: #141e20a6;
     position: fixed;
     top: 0;
     left: 0;
@@ -35810,7 +35810,7 @@ body.logged-in #header {
 
 body.home #header {
     position: unset;
-    background: #1e1e1e
+    background: #141e20
 }
 
 body.home.fp-viewing-firstSection #header {
@@ -36276,12 +36276,12 @@ body.logged-in #menu_mainnav {
         line-height: 32px;
         color: #fff;
         padding: 15px;
-        background-color: #1e1e1ea6
+        background-color: #141e20a6
     }
 
     .group_nav .footer_wrap {
         padding: 15px;
-        background-color: #1e1e1ea6
+        background-color: #141e20a6
     }
 
         .group_nav .footer_wrap .hotline a {
@@ -36300,7 +36300,7 @@ body.logged-in #menu_mainnav {
                 height: 36px;
                 line-height: 36px;
                 text-align: center;
-                background: #1e1e1e;
+                background: #141e20;
                 margin-right: 10px;
                 border-radius: 50%;
                 letter-spacing: 1px;
@@ -36450,7 +36450,7 @@ body.logged-in #menu_mainnav {
         }
 
             .header_menu .menu > li > ul li {
-                background: #1e1e1eb3;
+                background: #141e20b3;
                 border-bottom: 1px solid #62605e
             }
 
@@ -39258,14 +39258,19 @@ body.page-template-gioi-thieu {
         font-size: 25px
     }
 
-    .title_home2:after {
+    .title_home2 .title:after {
         content: "";
         width: 75px;
         height: 1px;
         background: #151515;
         position: absolute;
         left: 45px;
-        bottom: 0
+        bottom: 0;
+        top: 35px
+    }
+
+    .title_home2 .white:after {
+        background: #fff !important;
     }
 
     .title_home2.title_page:after {
@@ -39345,7 +39350,7 @@ body.page-template-gioi-thieu {
         position: absolute;
         right: 22px;
         bottom: 22px;
-        background: #1e1e1e;
+        background: #141e20;
         border-radius: 5px;
         height: 25px;
         line-height: 25px;
@@ -39361,7 +39366,7 @@ body.page-template-gioi-thieu {
 
         .collection_home .item .info .name {
             text-transform: uppercase;
-            font-size: 25px;
+            font-size: 18px;
             margin-bottom: 15px;
             line-height: 1
         }
@@ -39780,7 +39785,7 @@ body.page-template-gioi-thieu {
                     }
 
 .partner_home {
-    background-color: #1e1e1e;
+    background-color: #141e20;
     padding: 50px 0
 }
 
@@ -39822,7 +39827,7 @@ body.page-template-gioi-thieu {
 }
 
     .news_home2 .slider {
-        margin: -15px 30px
+        margin: -15px 5px
     }
 
         .news_home2 .slider .item {
@@ -39892,14 +39897,24 @@ body.page-template-gioi-thieu {
                     }
 
                 .news_home2 .slider .item .info .name {
-                    font-size: 18px;
+                    /*font-size: 18px;
                     font-weight: 500;
                     overflow: hidden;
                     display: -webkit-box;
                     -webkit-box-orient: vertical;
                     -webkit-line-clamp: 3;
                     height: 80px;
-                    margin-bottom: 0
+                    margin-bottom: 0*/
+                    display: block;
+                    position: relative;
+                    font-family: "Montserrat",sans-serif;
+                    font-size: 14px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    letter-spacing: .1em;
+                    color: #0d0d0d;
+                    line-height: 20px;
+                    padding-left: 0.1em;
                 }
 
                 .news_home2 .slider .item .info .text {
@@ -40143,7 +40158,7 @@ body.page-template-gioi-thieu {
             }
 
     .news_home2 .slider {
-        margin: -15px 0
+        margin: -15px 5px
     }
 
         .news_home2 .slider .item {
@@ -40263,8 +40278,14 @@ body.page-template-gioi-thieu {
         margin-bottom: 30px
     }
 
-        .title_home2:after {
-            left: 30px
+        .title_home2 .title:after {
+            left: 30px;
+            top: 35px;
+            width: 80px;
+        }
+
+        .title_home2 .white:after {
+            background: #fff !important;
         }
 
         .title_home2 .title {
@@ -40341,7 +40362,7 @@ body.page-template-gioi-thieu {
     }
 
     .news_home2 .slider {
-        margin: 0
+        margin: 15px 5px;
     }
 
         .news_home2 .slider .item .info .name {
@@ -40419,7 +40440,7 @@ body.page-template-gioi-thieu {
     }
 
     #header_mb {
-        background: #1e1e1ef2;
+        background: #141e20f2;
         width: 100%;
         border-bottom: 1px solid #c7af73;
         position: fixed;
@@ -41345,9 +41366,14 @@ body.page-template-gioi-thieu {
             padding-right: 95px
         }
 
-        .title_home2:after {
-            left: 0;
-            width: 40px
+            .title_home2 .title:after {
+                left: 0;
+                width: 80px;
+                top: 38px;
+            }
+
+        .title_home2 .white:after {
+            background: #fff !important;
         }
 
         .title_home2 .link {
@@ -41363,7 +41389,7 @@ body.page-template-gioi-thieu {
     }
 
         .collection_home .item .info .name {
-            font-size: 18px;
+            font-size: 16px !important;
             margin-bottom: 10px
         }
 
@@ -41530,7 +41556,7 @@ body.page-template-gioi-thieu {
                 }
 
                     .news_home2 .slider .item .info .name {
-                        font-size: 16px;
+                        font-size: 14px !important;
                         height: auto;
                         margin-bottom: 10px
                     }

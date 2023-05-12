@@ -187,6 +187,7 @@
     <Content Include="App_Themes\house\img\anh-thumb-BST-Half-Life.png" />
     <Content Include="App_Themes\house\img\anh-thumb-BST-Mand-ver2.png" />
     <Content Include="App_Themes\house\img\anh-thumb-BST-Pige.png" />
+    <Content Include="App_Themes\house\img\arbaro-contact.gif" />
     <Content Include="App_Themes\house\img\b1-1024x1024.jpg" />
     <Content Include="App_Themes\house\img\banner-lien-he.png" />
     <Content Include="App_Themes\house\img\banner2.jpg" />
@@ -540,6 +541,7 @@
     <Content Include="Control\nmn\ArticleList.ascx" />
     <Content Include="Control\nmn\ArticleProduct.ascx" />
     <Content Include="Control\nmn\ProjectDetail2.ascx" />
+    <Content Include="Control\nmn\BannerContact.ascx" />
     <Content Include="Control\nmn\Recruitment.ascx" />
     <Content Include="Control\nmn\RecruitmentDetail.ascx" />
     <Content Include="Control\nmn\StyleTop.ascx" />
@@ -908,6 +910,13 @@
     </Compile>
     <Compile Include="Control\nmn\ProjectDetail2.ascx.designer.cs">
       <DependentUpon>ProjectDetail2.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\nmn\BannerContact.ascx.cs">
+      <DependentUpon>BannerContact.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\nmn\BannerContact.ascx.designer.cs">
+      <DependentUpon>BannerContact.ascx</DependentUpon>
     </Compile>
     <Compile Include="Control\nmn\Recruitment.ascx.cs">
       <DependentUpon>Recruitment.ascx</DependentUpon>

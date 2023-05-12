@@ -1,5 +1,6 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="StyleDetail.ascx.cs" Inherits="Web.Control.nmn.StyleDetail" %>
 <%@ Import Namespace="Core.Utils" %>
+<%@ Register Src="~/Control/nmn/BannerContact.ascx" TagName="bannerContact" TagPrefix="uc1" %>
 
 <section id="page-title" class="full-height"
     style="background-color: rgb(239, 239, 239); background-size: cover; background-position: center center; background-repeat: no-repeat; min-height: 255px;">
@@ -133,5 +134,8 @@
         </div>
     </div>
 </div>
+<!-- BANNER CONTACT -->
+ <uc1:bannerContact ID="BannerContact" runat="server" />
+<!-- END BANNER CONTACT -->
 
 

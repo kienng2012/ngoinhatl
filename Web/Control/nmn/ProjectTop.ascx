@@ -4,10 +4,22 @@
 <!-- Menu Start -->
 
 <div class="news_home2">
+    <div class="background bg_section" style="background-image: url(<%= Page.ResolveClientUrl("~/App_Themes/house/img/style-top-bn.jpg")%>);"></div>
     <div class="container-fluid">
         <div class="title_home2">
-            <h2 class="title">CÁC DỰ ÁN</h2>
+            <h2 class="title">DỰ ÁN</h2>
             <a href="/Du-an.htm" class="link">Xem tất cả</a>
+        </div>
+        <div class="wrapper align-center" style="margin-bottom: 10px;">
+            <ul id="portfolio-filter-standard" class="filter clearfix" data-related-grid="grid-du-an">
+                <%--<li><a class="active" data-option-value="*" href="/du-an.htm">All</a></li>--%>
+                <li><a data-option-value=".biet-thu" href="/du-an/chung-cu.htm" title="Chung cư">Chung cư</a></li>
+                <li><a data-option-value=".cafe-nha-hang-khach-san" href="/du-an/van-phong.htm" title="Văn phòng">Văn phòng</a></li>
+                <li><a data-option-value=".can-ho" href="/du-an/biet-thu.htm" title="Biệt thự">Biệt thự</a></li>
+                <li><a data-option-value=".du-an-trang-chu" href="/du-an/nha-pho.htm" title="Nhà phố">Nhà phố</a></li>
+                <li><a data-option-value=".kien-truc" href="/du-an/nha-hang.htm" title="Nhà hàng">Nhà hàng</a></li>
+                <li><a data-option-value=".nha-pho" href="/du-an/shop.htm" title="Shop">Shop</a></li>
+            </ul>
         </div>
         <div class="slider">
             <div class="owl-carousel owl-loaded owl-drag">
@@ -24,7 +36,7 @@
                                             </div>
                                             <div class="info">
                                                 <div class="top">
-                                                    <div class="date">04/03/2023</div>
+                                                    <div class="date"><%#Eval("CS_CreateDate", "{0:dd/MM/yyyy}") %></div>
                                                     <div class="meta">
                                                         <div class="share">
                                                             <a href="https://facebook.com/share.php?u=https://ngoinhatuonglai.vn/du-an/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm" target="_blank" rel="nofollow" onclick="javascript:window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;" class="facebook " data-toggle="tooltip" title="Share on Facebook">
@@ -83,4 +95,7 @@
         </div>
     </div>
 </div>
+
+
+
 <!-- Menu End -->

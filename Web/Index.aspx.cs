@@ -46,7 +46,7 @@ namespace Web
             About,
             Recruitment,
             RecruitmentDetail,
-
+            BannerContact,
             //SubjectDetails,
             //BangVang,
             //BangVangCT,
