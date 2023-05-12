@@ -1,6 +1,6 @@
 ﻿namespace Core.Category
 {
-    public class CategoryInfo
+    public class ProjectCategory
     {
         private int _c_ID;
         public int C_ID
@@ -22,9 +22,6 @@
             get { return _c_Description; }
             set { _c_Description = value; }
         }
-        private string _C_BaseURL;
-        public string C_BaseURL { get => _C_BaseURL; set => _C_BaseURL = value; }
-
 
 
         private int _output;
@@ -34,8 +31,7 @@
             get { return _output; }
             set { _output = value; }
         }
-        private string _C_ImageURL;
-        public string C_ImageURL { get => _C_ImageURL; set => _C_ImageURL = value; }
+
     }
 
 }

@@ -48,7 +48,8 @@ namespace Core.Category
             dbCmd.CommandType = CommandType.StoredProcedure;
             dbCmd.Parameters.Add("@C_Name", _categoryInfo.C_Name);
             dbCmd.Parameters.Add("@C_Description", _categoryInfo.C_Description);
-
+            dbCmd.Parameters.Add("@C_BaseURL", _categoryInfo.C_BaseURL);
+            dbCmd.Parameters.Add("@C_ImageURL", _categoryInfo.C_ImageURL);
             dbCmd.Parameters.Add("@RETURN_VALUE", SqlDbType.Int).Direction = ParameterDirection.ReturnValue;
             try
             {
@@ -69,6 +70,8 @@ namespace Core.Category
             dbCmd.CommandType = CommandType.StoredProcedure;
             dbCmd.Parameters.Add("@C_ID", _categoryInfo.C_ID);
             dbCmd.Parameters.Add("@C_Name", _categoryInfo.C_Name);
+            dbCmd.Parameters.Add("@C_BaseURL", _categoryInfo.C_BaseURL);
+            dbCmd.Parameters.Add("@C_ImageURL", _categoryInfo.C_ImageURL);
             dbCmd.Parameters.Add("@C_Description", _categoryInfo.C_Description);
 
             try
@@ -100,6 +103,8 @@ namespace Core.Category
                     retVal = new CategoryInfo();
                     retVal.C_ID = Convert.ToInt32(dr["C_ID"]);
                     retVal.C_Name = Convert.ToString(dr["C_Name"]);
+                    retVal.C_BaseURL = Convert.ToString(dr["C_BaseURL"]);
+                    retVal.C_ImageURL = Convert.ToString(dr["C_ImageURL"]);
                     retVal.C_Description = Convert.ToString(dr["C_Description"]);
 
                 }

@@ -1,5 +1,5 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ManagerServiceVzone.ascx.cs"
-    Inherits="Web.Control.ManagerServiceVzone"  %>
+    Inherits="Web.Control.ManagerServiceVzone" %>
 <%@ Register Assembly="FredCK.FCKeditorV2" Namespace="FredCK.FCKeditorV2" TagPrefix="FCKeditorV2" %>
 <%@ Register Assembly="DevExpress.Web.v10.2" Namespace="DevExpress.Web.ASPxCallbackPanel"
     TagPrefix="dx" %>
@@ -12,13 +12,12 @@
 <%@ Register Assembly="DevExpress.Web.v10.2" Namespace="DevExpress.Web.ASPxPanel"
     TagPrefix="dx" %>
 <style type="text/css">
-    .icon_small_minigame img
-    {
+    .icon_small_minigame img {
         width: 50px;
         height: 48px;
     }
-    .style1
-    {
+
+    .style1 {
         width: 156px;
     }
 </style>
@@ -42,7 +41,8 @@
     </div>
     <div class="bg-main">
         <div class="titleFunc">
-            Quản lý Bài viết</div>
+            Quản lý Bài viết
+        </div>
     </div>
 </div>
 <div class="main-content_2">
@@ -57,7 +57,7 @@
                 </div>
                 <dx:ASPxGridView ID="grvCateGame" runat="server" AutoGenerateColumns="False" Width="100%"
                     KeyFieldName="CS_ID" ClientIDMode="AutoID" OnRowDeleting="grvCateGame_RowDeleting"
-                    CssFilePath="~/App_Themes/Office2010Blue/{0}/styles.css" 
+                    CssFilePath="~/App_Themes/Office2010Blue/{0}/styles.css"
                     CssPostfix="Office2010Blue">
                     <Columns>
                         <dx:GridViewDataTextColumn Caption="STT" VisibleIndex="0">
@@ -107,7 +107,7 @@
                         </dx:GridViewCommandColumn>
                     </Columns>
                     <SettingsBehavior ConfirmDelete="True" />
-                    <Styles CssFilePath="~/App_Themes/Office2010Blue/{0}/styles.css" 
+                    <Styles CssFilePath="~/App_Themes/Office2010Blue/{0}/styles.css"
                         CssPostfix="Office2010Blue">
                         <Header ImageSpacing="5px" SortingImageSpacing="5px">
                         </Header>
@@ -144,12 +144,11 @@
             <asp:View ID="viewUpdate" runat="server">
                 <table border="0" cellpadding="5" cellspacing="5" width="90%">
                     <tr>
-                        <td class="style1">
-                            Tên Bài viết :
+                        <td class="style1">Tên Bài viết :
                         </td>
                         <td class="text_minigame">
-                            <dx:ASPxTextBox ID="txtName" runat="server" Width="900px" 
-                                CssFilePath="~/App_Themes/Aqua/{0}/styles.css" CssPostfix="Aqua" 
+                            <dx:ASPxTextBox ID="txtName" runat="server" Width="900px"
+                                CssFilePath="~/App_Themes/Aqua/{0}/styles.css" CssPostfix="Aqua"
                                 SpriteCssFilePath="~/App_Themes/Aqua/{0}/sprite.css">
                                 <ValidationSettings>
                                     <ErrorFrameStyle ImageSpacing="4px">
@@ -161,8 +160,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="style1">
-                            Cú pháp:
+                        <td class="style1">Cú pháp:
                         </td>
                         <td>
                             <dx:ASPxTextBox ID="txtCMD" runat="server" ClientIDMode="AutoID" CssFilePath="~/App_Themes/Aqua/{0}/styles.css"
@@ -180,19 +178,18 @@
                         </td>
                     </tr>
                     <tr>
-                        <td valign="top" class="style1">
-                            Chọn danh mục
+                        <td valign="top" class="style1">Chọn danh mục
                         </td>
                         <td>
                             <dx:ASPxComboBox ID="cbxCategory" runat="server" ClientIDMode="AutoID" ValueType="System.String"
-                                Width="250px" CssFilePath="~/App_Themes/Aqua/{0}/styles.css" 
-                                CssPostfix="Aqua" LoadingPanelImagePosition="Top" ShowShadow="False" 
+                                Width="250px" CssFilePath="~/App_Themes/Aqua/{0}/styles.css"
+                                CssPostfix="Aqua" LoadingPanelImagePosition="Top" ShowShadow="False"
                                 SpriteCssFilePath="~/App_Themes/Aqua/{0}/sprite.css">
                                 <LoadingPanelImage Url="~/App_Themes/Aqua/Editors/Loading.gif">
                                 </LoadingPanelImage>
                                 <DropDownButton>
                                     <Image>
-                                        <SpriteProperties HottrackedCssClass="dxEditors_edtDropDownHover_Aqua" 
+                                        <SpriteProperties HottrackedCssClass="dxEditors_edtDropDownHover_Aqua"
                                             PressedCssClass="dxEditors_edtDropDownPressed_Aqua" />
                                     </Image>
                                 </DropDownButton>
@@ -205,8 +202,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td valign="top" class="style1">
-                            Chọn hình ảnh
+                        <td valign="top" class="style1">Chọn hình ảnh
                             <br />
                             <span style="color: #6699FF; font-size: 8pt; font-style: italic">(Chấp nhận các kiểu
                                 file: jpeg, gif, png<br />
@@ -218,8 +214,8 @@
                                 </dx:ASPxImage>
                             </div>
                             <br />
-                            <asp:FileUpload ID="fileUpload" AllowMultiple="true"  runat="server" Width="350px"  />
-                            
+                            <asp:FileUpload ID="fileUpload" AllowMultiple="true" runat="server" Width="350px" />
+
                         </td>
                     </tr>
 
@@ -233,12 +229,12 @@
                         </td>
                     </tr>
                     <tr>--%>
-                        <td class="style1">
-                            Mô tả:
+                    <tr>
+                        <td class="style1">Mô tả:
                         </td>
                         <td class="text_minigame">
-                            <dx:ASPxMemo ID="txtDescription1" runat="server" Height="71px" Width="900px" 
-                                CssFilePath="~/App_Themes/Aqua/{0}/styles.css" CssPostfix="Aqua" 
+                            <dx:ASPxMemo ID="txtDescription1" runat="server" Height="71px" Width="900px"
+                                CssFilePath="~/App_Themes/Aqua/{0}/styles.css" CssPostfix="Aqua"
                                 SpriteCssFilePath="~/App_Themes/Aqua/{0}/sprite.css">
                                 <ValidationSettings>
                                     <ErrorFrameStyle ImageSpacing="4px">
@@ -249,27 +245,25 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="style1">
-                            Content:
+                        <td class="style1">Content:
                         </td>
                         <td class="text_minigame">
-                            <FCKeditorV2:FCKeditor ID="fckContent" runat="server" EnableViewState="False" 
+                            <FCKeditorV2:FCKeditor ID="fckContent" runat="server" EnableViewState="False"
                                 Height="350px">
                             </FCKeditorV2:FCKeditor>
                         </td>
                     </tr>
                     <tr>
-                        <td class="style1">
-                            Hiển thị ở trang chủ:
+                        <td class="style1">Hiển thị ở trang chủ:
                         </td>
                         <td>
-                            <dx:ASPxCheckBox ID="ckboxDisplay" runat="server" 
-                                CssFilePath="~/App_Themes/Aqua/{0}/styles.css" CssPostfix="Aqua" 
+                            <dx:ASPxCheckBox ID="ckboxDisplay" runat="server"
+                                CssFilePath="~/App_Themes/Aqua/{0}/styles.css" CssPostfix="Aqua"
                                 SpriteCssFilePath="~/App_Themes/Aqua/{0}/sprite.css" TextSpacing="2px">
                             </dx:ASPxCheckBox>
                         </td>
                     </tr>
-                
+
                     <tr>
                         <td align="right" class="style1">
                             <dx:ASPxButton ID="btnAdd" runat="server" Text="Cập nhật" OnClick="btnAdd_Click"
@@ -277,16 +271,15 @@
                             </dx:ASPxButton>
                         </td>
                         <td align="left">
-                        <dx:ASPxButton ID="btnCancel" runat="server" Text="Từ chối" 
-                            OnClick="btnCancel_Click" CssFilePath="~/App_Themes/Aqua/{0}/styles.css" 
-                            CssPostfix="Aqua" SpriteCssFilePath="~/App_Themes/Aqua/{0}/sprite.css" 
+                            <dx:ASPxButton ID="btnCancel" runat="server" Text="Từ chối"
+                                OnClick="btnCancel_Click" CssFilePath="~/App_Themes/Aqua/{0}/styles.css"
+                                CssPostfix="Aqua" SpriteCssFilePath="~/App_Themes/Aqua/{0}/sprite.css"
                                 CausesValidation="False">
-                        </dx:ASPxButton>
+                            </dx:ASPxButton>
                         </td>
                     </tr>
                     <tr>
-                        <td class="style1">
-                            &nbsp;
+                        <td class="style1">&nbsp;
                         </td>
                         <td>
                             <dx:ASPxLabel ID="lblStatus" runat="server" Text="" Font-Bold="true">

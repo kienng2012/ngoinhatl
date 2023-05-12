@@ -11,7 +11,7 @@
     <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5" style="min-height: 400px">
         <h1 class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase"><asp:Label ID="lblCategory" runat="server" /></h1>
         <div class="d-inline-flex mb-lg-5">
-            <p class="m-0 text-white"><a class="text-white" href="http://nmnchinhhang.vn">Trang chủ</a></p>
+            <p class="m-0 text-white"><a class="text-white" href="http://ngoinhatuonglai.vn">Trang chủ</a></p>
             <p class="m-0 text-white px-2">/</p>
             <p class="m-0 text-white"><asp:Literal id="ltrSubLink" runat=server /></p>
         </div>
@@ -24,7 +24,7 @@
             <h1 class="text-primary text-uppercase" style="letter-spacing: 5px;">
                 <asp:Label ID="lblCategory" runat="server" /></h1>
             <div class="d-inline-flex mb-lg-1">
-                <%-- <p class="m-0 text-black"><a class="text-black" href="http://nmnchinhhang.vn">Trang chủ</a></p>
+                <%-- <p class="m-0 text-black"><a class="text-black" href="http://ngoinhatuonglai.vn">Trang chủ</a></p>
             <p class="m-0 text-black px-2">></p>--%>
                 <p class="m-0 text-black">
                     <asp:Literal ID="ltrSubLink" runat="server" />

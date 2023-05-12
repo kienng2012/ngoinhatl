@@ -7,7 +7,7 @@
         <%--<div class="reservation position-relative overlay-top overlay-bottom">--%>
         <div>
             <div class="row align-items-center">
-                <a href="http://nmnchinhhang.vn/Lien-he.htm">
+                <a href="http://ngoinhatuonglai.vn/Lien-he.htm">
                     <%--<video controls autoplay muted loop style="width: 100%; margin: auto;" >--%>
                     <video autoplay muted loop playsinline style="width: 100%; margin: auto;">
                         <%--<video autoplay style="width: 100%; margin: auto;" >--%>

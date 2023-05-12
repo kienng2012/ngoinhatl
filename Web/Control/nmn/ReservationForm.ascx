@@ -15,7 +15,7 @@
                         <ul class="list-inline text-white m-0">
                             <li class="py-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>Địa chỉ: Số 186 đường Khương Đình, Phường Hạ Đình, Quận Thanh Xuân, Hà Nội</li>
                             <li class="py-2"><i class="fa fa-phone-alt text-primary mr-3"></i>Điện thoại: 0904612367</li>
-                            <li class="py-2"><i class="fa fa-envelope text-primary mr-3"></i>Email: info@nmnchinhhang.vn</li>
+                            <li class="py-2"><i class="fa fa-envelope text-primary mr-3"></i>Email: info@ngoinhatuonglai.vn</li>
                         </ul>
                     </div>
                 </div>

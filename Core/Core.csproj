@@ -85,6 +85,7 @@
     <Compile Include="CategorySub\CategorySubDB.cs" />
     <Compile Include="CategorySub\CategorySubInfo.cs" />
     <Compile Include="Category\CategoryDB.cs" />
+    <Compile Include="Category\ProjectCategory.cs" />
     <Compile Include="Category\CategoryInfo.cs" />
     <Compile Include="Gold\GoldDB.cs" />
     <Compile Include="Gold\GoldInfo.cs" />

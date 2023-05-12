@@ -196,14 +196,6 @@ namespace Web.Control
                     objInfo = new CategorySubInfo();
                     objInfo.CS_Name = txtName.Text;
                     objInfo.CS_Content = Convert.ToString(fckContent.Value);
-                    //TODO: Kienng : custom style display content html require :<div class=\"container-fluid pt-5\">
-                    //StringBuilder sbContent = new StringBuilder();
-                    //sbContent.Append("<div class=\"container-fluid pt-5\">");
-                    //sbContent.Append(Convert.ToString(fckContent.Value));
-                    //sbContent.Append("</div>");
-                    //objInfo.CS_Content = sbContent.ToString();
-                    // Lay 100 ki tu của Content làm Descriptioon
-
                     objInfo.CS_Description = ProcessSubString(HttpUtility.HtmlEncode(txtDescription1.Text), 185);
                     //objInfo.CS_Cmd = txtCMD.Text;
                     objInfo.CS_Cmd = HttpUtility.HtmlEncode(txtCMD.Text);
@@ -215,11 +207,9 @@ namespace Web.Control
                     {
                         objInfo.CS_TypeDisplay = 0;
                     }
-
                     objInfo.C_ID = Convert.ToInt32(cbxCategory.SelectedItem.Value);
                     objInfo.CS_CreateDate = DateTime.Now;
                     objInfo.U_UserName = Session["Username"].ToString();
-
 
                     StringBuilder sbArticleImgs = new StringBuilder();
                     if (fileUpload.HasFile)
@@ -231,8 +221,8 @@ namespace Web.Control
 
                             foreach (HttpPostedFile uploadedFile in fileUpload.PostedFiles)
                             {
-                                //string fn = System.IO.Path.GetFileName(uploadedFile.FileName);
-                                string SaveLocation = path + uploadedFile.FileName;
+                                string prefixNameFile = DateTime.Now.ToString("yyyyMMddHHmmss") + "_";
+                                string SaveLocation = path + prefixNameFile + uploadedFile.FileName;
                                 //string SaveLocation = Server.MapPath(urlFile);
                                 try
                                 {
@@ -354,7 +344,8 @@ namespace Web.Control
                         foreach (HttpPostedFile uploadedFile in fileUpload.PostedFiles)
                         {
                             //string fn = System.IO.Path.GetFileName(uploadedFile.FileName);
-                            string SaveLocation = path + uploadedFile.FileName;
+                            string prefixNameFile = DateTime.Now.ToString("yyyyMMddHHmmss") + "_";
+                            string SaveLocation = path + prefixNameFile + uploadedFile.FileName;
 
                             //string SaveLocation = Server.MapPath(urlFile);
                             try

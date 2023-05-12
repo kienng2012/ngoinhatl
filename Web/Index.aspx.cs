@@ -47,6 +47,7 @@ namespace Web
             Recruitment,
             RecruitmentDetail,
             BannerContact,
+            ProjectCategory,
             //SubjectDetails,
             //BangVang,
             //BangVangCT,
