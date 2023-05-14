@@ -6,7 +6,6 @@ using System.Data;
 using System.Web.Services.Description;
 using System.Web.UI.WebControls;
 
-
 namespace Web.Control.nmn
 {
     public partial class ProjectCategory : System.Web.UI.UserControl
@@ -25,7 +24,7 @@ namespace Web.Control.nmn
         }
         protected void LoadDataByCate()
         {
-            _cateName = "Tin tức";
+            _cateName = "Dự án";
             if (Request.QueryString["cateID"] != null)
             {
                 _cateID = Convert.ToInt32(Request.QueryString["cateID"]);
@@ -47,20 +46,14 @@ namespace Web.Control.nmn
             imgBannerCate.ImageUrl = "/App_Themes/house/img/bg_duan.jpg";// Default banner category project
             if (objCate != null)
             {
-                lblCateName.Text = objCate.C_Name;
-                lblCateDescription.Text = objCate.C_Description;
+                if (objCate.C_Name != null && !String.IsNullOrEmpty(objCate.C_Name)) lblCateName.Text = objCate.C_Name;
+                if (objCate.C_Description != null && !String.IsNullOrEmpty(objCate.C_Description)) lblCateDescription.Text = objCate.C_Description;
                 if (objCate.C_ImageURL != null && !String.IsNullOrEmpty(objCate.C_ImageURL)) imgBannerCate.ImageUrl = objCate.C_ImageURL;
+                if (objCate.C_BaseURL != null && !String.IsNullOrEmpty(objCate.C_BaseURL)) _baseUrlPaging = objCate.C_BaseURL;
             }
-
             DataTable dt = CategorySubDB.CategorySub_GetAll_ByCate_Pager(_pageNumber, pageSize, info);
-            //if (dt.Rows.Count > 0)
-            //{
-            //    _cateName = dt.Rows[0]["C_Name"].ToString();
-            //}
+
             int totalRecord = info.Output;
-            //lblCateName.Text = _cateName;
-            //pagerCateSub.ItemCount = info.Output;
-            //pagerCateSub.ItemsPerPage = 8;
             rptListCate.DataSource = dt;
             rptListCate.DataBind();
 

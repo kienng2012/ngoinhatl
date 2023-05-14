@@ -36,6 +36,12 @@
         }
         private string _C_ImageURL;
         public string C_ImageURL { get => _C_ImageURL; set => _C_ImageURL = value; }
+
+        private int _C_ParentID;
+        public int C_ParentID { get => _C_ParentID; set => _C_ParentID = value; }
+
+
+
     }
 
 }

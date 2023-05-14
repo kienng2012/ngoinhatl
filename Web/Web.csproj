@@ -545,6 +545,7 @@
     <Content Include="Control\nmn\ProjectCategory.ascx" />
     <Content Include="Control\nmn\Recruitment.ascx" />
     <Content Include="Control\nmn\RecruitmentDetail.ascx" />
+    <Content Include="Control\nmn\StyleCategory.ascx" />
     <Content Include="Control\nmn\StyleTop.ascx" />
     <Content Include="Control\nmn\ProjectTop.ascx" />
     <Content Include="Control\nmn\GioiThieuSP1.ascx" />
@@ -939,6 +940,13 @@
     </Compile>
     <Compile Include="Control\nmn\RecruitmentDetail.ascx.designer.cs">
       <DependentUpon>RecruitmentDetail.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\nmn\StyleCategory.ascx.cs">
+      <DependentUpon>StyleCategory.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\nmn\StyleCategory.ascx.designer.cs">
+      <DependentUpon>StyleCategory.ascx</DependentUpon>
     </Compile>
     <Compile Include="Control\nmn\StyleTop.ascx.cs">
       <DependentUpon>StyleTop.ascx</DependentUpon>

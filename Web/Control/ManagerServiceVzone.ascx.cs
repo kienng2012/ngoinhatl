@@ -17,6 +17,7 @@ namespace Web.Control
     {
         private string SESSION_CATE_GAME = "SESSION_CATE_GAME";
         private string _UserName = "";
+        private static String path = "/Upload/Article/";
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -53,7 +54,7 @@ namespace Web.Control
         public void resetData()
         {
             txtName.IsValid = true;
-            txtCMD.IsValid = true;
+            //txtCMD.IsValid = true;
             txtName.Text = "";
             txtDescription1.Value = "";
             lblStatus.Text = "";
@@ -61,7 +62,7 @@ namespace Web.Control
             fckContent.Value = "";
             ckboxDisplay.Checked = false;
             cbxCategory.SelectedIndex = 0;
-            txtCMD.Text = "";
+            //txtCMD.Text = "";
         }
 
         protected void linkbtnEdit_Click(object sender, EventArgs e)
@@ -78,9 +79,10 @@ namespace Web.Control
 
                     txtName.Text = info.CS_Name;
                     txtDescription1.Text = HttpUtility.HtmlDecode(info.CS_Description);
-                    txtCMD.Text = HttpUtility.HtmlDecode(info.CS_Cmd);
+                    //txtCMD.Text = HttpUtility.HtmlDecode(info.CS_Cmd);
                     fckContent.Value = info.CS_Content;
                     imageServiceView.ImageUrl = info.CS_ImageURL;
+                    imageAvatar.ImageUrl = info.CS_ImageURL;
                     CategoryInfo objCate = CategoryDB.GetInfo(info.C_ID);
                     cbxCategory.SelectedItem = cbxCategory.Items.FindByText(objCate.C_Name);
                     if (info.CS_TypeDisplay == 1)
@@ -115,7 +117,6 @@ namespace Web.Control
             }
         }
 
-
         protected void LoadCategoryName(ASPxComboBox combobox)
         {
             //Xóa tất cả dữ liệu ở combobox
@@ -132,13 +133,19 @@ namespace Web.Control
             combobox.DataBind();
         }
 
-
-
         public string ProcessSubString(string strName, int length)
         {
             if (strName.Length > length)
             {
                 strName = strName.Substring(0, length - 3) + "...";
+            }
+            return strName;
+        }
+        public string GetLastCharacterByLen(string strName, int length)
+        {
+            if (strName.Length > length)
+            {
+                strName = strName.Substring(strName.Length - length);
             }
             return strName;
         }
@@ -184,9 +191,9 @@ namespace Web.Control
         {
             if (hdService.Value.Equals("0"))
             {
-                if (CategorySubDB.CheckExistsName_CategorySub(txtName.Text) == 1)
+                if (CategorySubDB.CheckExistsNameInCate_CategorySub(txtName.Text, Convert.ToInt32(cbxCategory.SelectedItem.Value)) == 1)
                 {
-                    lblStatus.Text = "Tên dịch vụ đã tồn tại!";
+                    lblStatus.Text = "Tên bài viết đã tồn tại!";
                     lblStatus.ForeColor = Color.Red;
                     return;
                 }
@@ -198,7 +205,7 @@ namespace Web.Control
                     objInfo.CS_Content = Convert.ToString(fckContent.Value);
                     objInfo.CS_Description = ProcessSubString(HttpUtility.HtmlEncode(txtDescription1.Text), 185);
                     //objInfo.CS_Cmd = txtCMD.Text;
-                    objInfo.CS_Cmd = HttpUtility.HtmlEncode(txtCMD.Text);
+                    //objInfo.CS_Cmd = HttpUtility.HtmlEncode(txtCMD.Text);
                     if (ckboxDisplay.Checked)
                     {
                         objInfo.CS_TypeDisplay = 1;
@@ -208,28 +215,66 @@ namespace Web.Control
                         objInfo.CS_TypeDisplay = 0;
                     }
                     objInfo.C_ID = Convert.ToInt32(cbxCategory.SelectedItem.Value);
+                    CategoryInfo categoryInfo = CategoryDB.GetInfo(objInfo.C_ID);
+                    if (categoryInfo != null)
+                    {
+                        objInfo.C_ParentID = categoryInfo.C_ParentID;
+                    }
                     objInfo.CS_CreateDate = DateTime.Now;
                     objInfo.U_UserName = Session["Username"].ToString();
+                    //Anh Avatar cua bai viet
+                    if (fileAvatar.HasFile)
+                    {
+                        if ((fileAvatar.PostedFile != null) && (fileAvatar.PostedFile.ContentLength > 0))
+                        {
+                            //String path = "/Upload/Article/";
 
+                            foreach (HttpPostedFile uploadedFile in fileAvatar.PostedFiles)
+                            {
+                                string prefixNameFile = DateTime.Now.ToString("yyyyMMddHHmmssfff") + "_";
+                                string SaveLocation = path + prefixNameFile + this.GetLastCharacterByLen(uploadedFile.FileName, 15);
+                                try
+                                {
+                                    uploadedFile.SaveAs(MapPath(SaveLocation));
+                                    objInfo.CS_ImageURL = SaveLocation;//First img is avatar
+                                }
+                                catch (Exception ex)
+                                {
+                                    lblStatus.Text = "Error: " + ex.Message;
+                                }
+                            }
+                        }
+                        else
+                        {
+                            lblStatus.Text = "Please select a file avatar to upload.";
+                        }
+                    }
+                    else
+                    {
+                        lblStatus.Text = "Bạn chưa chọn ảnh avatar!";
+                        lblStatus.ForeColor = Color.Red;
+                        return;
+                    }
+
+                    //Danh sach Anh cua bai viet
                     StringBuilder sbArticleImgs = new StringBuilder();
                     if (fileUpload.HasFile)
                     {
                         if ((fileUpload.PostedFile != null) && (fileUpload.PostedFile.ContentLength > 0))
                         {
                             var count = 0;
-                            String path = "/Upload/Article/";
+                            //String path = "/Upload/Article/";
 
                             foreach (HttpPostedFile uploadedFile in fileUpload.PostedFiles)
                             {
-                                string prefixNameFile = DateTime.Now.ToString("yyyyMMddHHmmss") + "_";
-                                string SaveLocation = path + prefixNameFile + uploadedFile.FileName;
+                                string prefixNameFile = DateTime.Now.ToString("yyyyMMddHHmmssfff") + "_";
+                                string SaveLocation = path + prefixNameFile + this.GetLastCharacterByLen(uploadedFile.FileName, 15);
                                 //string SaveLocation = Server.MapPath(urlFile);
                                 try
                                 {
                                     uploadedFile.SaveAs(MapPath(SaveLocation));
+                                    sbArticleImgs.Append(SaveLocation).Append(";"); //Second img is image detail 
                                     count++;
-                                    objInfo.CS_ImageURL = SaveLocation;
-                                    sbArticleImgs.Append(SaveLocation).Append(";");
                                 }
                                 catch (Exception ex)
                                 {
@@ -262,9 +307,8 @@ namespace Web.Control
                     }
                     else
                     {
-                        lblStatus.Text = "Bạn chưa chọn ảnh mô tả!";
+                        lblStatus.Text = "Bạn chưa chọn danh sách ảnh của bài viết!";
                         lblStatus.ForeColor = Color.Red;
-
                         return;
                     }
 
@@ -275,7 +319,6 @@ namespace Web.Control
                         lblMessage.Text = "Thêm mới thành công";
                         lblMessage.ForeColor = Color.Blue;
                         this.PageInt();
-
                     }
                     else
                     {
@@ -283,35 +326,16 @@ namespace Web.Control
                         lblStatus.ForeColor = Color.Red;
 
                     }
-
                 }
             }
             else
             {
                 CategorySubInfo objInfo = CategorySubDB.GetInfo(Convert.ToInt32(hdService.Value));
-                StringBuilder sbArticleImgs = new StringBuilder();
                 objInfo.CS_Name = txtName.Text;
                 objInfo.CS_Content = Convert.ToString(fckContent.Value);
-                //TODO: Kienng : custom style display content html require :<div class=\"container-fluid pt-5\">
-                //if (fckContent.Value != null && !fckContent.Value.Trim().StartsWith("<div class=\"container-fluid pt-5\">"))
-                //{
-                //    StringBuilder sbContent = new StringBuilder();
-                //    sbContent.Append("<div class=\"container-fluid pt-5\">");
-                //    sbContent.Append(Convert.ToString(fckContent.Value));
-                //    sbContent.Append("</div>");
-                //    objInfo.CS_Content = sbContent.ToString();
-                //}
-                //else
-                //{
-                //    objInfo.CS_Content = Convert.ToString(fckContent.Value);
-                //}
-                // Lay 100 ki tu của Content làm Descriptioon
-                //string _Description = Convert.ToString(txtDescription1.Value);
-                //objInfo.CS_Description = ProcessSubString(_Description, 185);
-                //objInfo.CS_Cmd = txtCMD.Text;
                 objInfo.CS_Description = ProcessSubString(HttpUtility.HtmlEncode(txtDescription1.Text), 185);
                 //objInfo.CS_Cmd = txtCMD.Text;
-                objInfo.CS_Cmd = HttpUtility.HtmlEncode(txtCMD.Text);
+                //objInfo.CS_Cmd = HttpUtility.HtmlEncode(txtCMD.Text);
                 if (ckboxDisplay.Checked)
                 {
                     objInfo.CS_TypeDisplay = 1;
@@ -322,38 +346,60 @@ namespace Web.Control
                 }
 
                 objInfo.C_ID = Convert.ToInt32(cbxCategory.SelectedItem.Value);
+                CategoryInfo categoryInfo = CategoryDB.GetInfo(objInfo.C_ID);
+                if (categoryInfo != null)
+                {
+                    objInfo.C_ParentID = categoryInfo.C_ParentID;
+                }
                 objInfo.CS_CreateDate = DateTime.Now;
                 objInfo.U_UserName = Session["Username"].ToString();
+                //Anh Avatar cua bai viet
+                if (fileAvatar.HasFile)
+                {
+                    if ((fileAvatar.PostedFile != null) && (fileAvatar.PostedFile.ContentLength > 0))
+                    {
+                        String path = "/Upload/Article/";
+                        foreach (HttpPostedFile uploadedFile in fileAvatar.PostedFiles)
+                        {
+                            string prefixNameFile = DateTime.Now.ToString("yyyyMMddHHmmssfff") + "_";
+                            string SaveLocation = path + prefixNameFile + this.GetLastCharacterByLen(uploadedFile.FileName, 15);
+                            try
+                            {
+                                uploadedFile.SaveAs(MapPath(SaveLocation));
+                                objInfo.CS_ImageURL = SaveLocation;//First img is avatar
+                            }
+                            catch (Exception ex)
+                            {
+                                lblStatus.Text = "Error: " + ex.Message;
+                            }
+                        }
+                    }
+                    else
+                    {
+                        lblStatus.Text = "Please select a file avatar to upload.";
+                    }
+                }
+
+
+                //Danh sach Anh cua bai viet
+                StringBuilder sbArticleImgs = new StringBuilder();
                 if (fileUpload.HasFile)
                 {
-                    //if (CheckValidFile(fileUpload) == false && CheckFileSize(fileUpload) == false)
-                    //{
-                    //    lblStatus.Text = "Kích thước tập tin quá lớn hoặc tập tin không đúng định dạng!";
-                    //    return;
-                    //}
-                    //else
-                    //{
-                    //    String path = "/Skin/Images/Category/" + fileUpload.FileName;
-                    //    fileUpload.SaveAs(MapPath(path));
-                    //    objInfo.CS_ImageURL = path;
-                    //}
                     if ((fileUpload.PostedFile != null) && (fileUpload.PostedFile.ContentLength > 0))
                     {
                         var count = 0;
                         String path = "/Upload/Article/";
+
                         foreach (HttpPostedFile uploadedFile in fileUpload.PostedFiles)
                         {
-                            //string fn = System.IO.Path.GetFileName(uploadedFile.FileName);
-                            string prefixNameFile = DateTime.Now.ToString("yyyyMMddHHmmss") + "_";
-                            string SaveLocation = path + prefixNameFile + uploadedFile.FileName;
-
+                            string prefixNameFile = DateTime.Now.ToString("yyyyMMddHHmmssfff") + "_";
+                            string SaveLocation = path + prefixNameFile + this.GetLastCharacterByLen(uploadedFile.FileName, 15);
                             //string SaveLocation = Server.MapPath(urlFile);
                             try
                             {
                                 uploadedFile.SaveAs(MapPath(SaveLocation));
+                                sbArticleImgs.Append(SaveLocation).Append(";"); //Second img is image detail 
                                 count++;
-                                objInfo.CS_ImageURL = SaveLocation;
-                                sbArticleImgs.Append(SaveLocation).Append(";");
                             }
                             catch (Exception ex)
                             {
@@ -365,15 +411,16 @@ namespace Web.Control
                             lblStatus.Text = count + " files has been uploaded.";
                         }
                     }
-                    else
+                    //objInfo.CS_ArticleImgs = sbArticleImgs.Length > 0 ? sbArticleImgs.ToString() : null;
+                    if (sbArticleImgs.Length > 0)
                     {
-                        lblStatus.Text = "Please select a file to upload.";
+                        objInfo.CS_ArticleImgs = sbArticleImgs.ToString();
                     }
+
                 }
-                if (sbArticleImgs.Length > 0)
-                {
-                    objInfo.CS_ArticleImgs = sbArticleImgs.ToString();
-                }
+
+
+
                 bool status = CategorySubDB.Update(objInfo);
                 {
                     if (status == true)
@@ -381,7 +428,6 @@ namespace Web.Control
                         lblMessage.Text = "Cập nhật thành công";
                         lblMessage.ForeColor = Color.Blue;
                         this.PageInt();
-
                     }
                     else
                     {

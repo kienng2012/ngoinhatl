@@ -60,7 +60,7 @@ namespace Web.Control.nmn
 
                 Page.Title = info.CS_Name;//Set dynamic title page . tag <head runat="server">
                 //Load cac bai viet lien quan
-                this.LoadDataByCateWithoutCurrentID(info.C_ID, info.CS_ID);
+                //this.LoadDataByCateWithoutCurrentID(info.C_ID, info.CS_ID);
             }
         }
         protected void LoadDataByCateWithoutCurrentID(int _cateID, int exceptArticleId)

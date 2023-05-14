@@ -28,38 +28,38 @@
 <!-- PROJECT -->
 <!-- PROJECT -->
 <%--<div id="page-body" class="">--%>
-    <div class="all_box">
-        <div class="spacer spacer-small"></div>
-<%--        <div class="wrapper align-center">
-            <ul id="portfolio-filter-standard" class="filter clearfix" data-related-grid="grid-du-an">
-                <li><a class="active" data-option-value="*" href="/du-an.htm">All</a></li>
-                <li><a data-option-value=".biet-thu" href="/du-an/chung-cu.htm" title="Chung cư">Chung cư</a></li>
-                <li><a data-option-value=".cafe-nha-hang-khach-san" href="/du-an/van-phong.htm" title="Văn phòng">Văn phòng</a></li>
-                <li><a data-option-value=".can-ho" href="/du-an/biet-thu.htm" title="Biệt thự">Biệt thự</a></li>
-                <li><a data-option-value=".du-an-trang-chu" href="/du-an/nha-pho.htm" title="Nhà phố">Nhà phố</a></li>
-                <li><a data-option-value=".kien-truc" href="/du-an/nha-hang.htm" title="Nhà hàng">Nhà hàng</a></li>
-                <li><a data-option-value=".nha-pho" href="/du-an/shop.htm" title="Shop">Shop</a></li>
-            </ul>
-        </div>
-        <div class="spacer spacer-small"></div>--%>
-        <div class="products columns-3 list_product">
-            <asp:Repeater ID="rptListCate" runat="server">
-                <ItemTemplate>
-                    <div class="item_pro">
-                        <div class="img" style="background-image: url(<%#Eval("CS_ImageURL") %>"></div>
-                        <%--<div class="img"><img src="<%#Eval("CS_ImageURL") %>" alt=""/></div>--%>
-                        <div class="info-style">
-                            <div class="round-capt"><span class="capt"><%#Eval("CS_Name")%></span></div>
-                        </div>
-                        <%--  <div class="overlay"><span class="item-pro-title"><%#Eval("CS_Name")%></span></div>--%>
-                        <a href="/phong-cach/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm" class="link_full"></a>
-                    </div>
-
-                </ItemTemplate>
-            </asp:Repeater>
-        </div>
-        <asp:Literal ID="lblPaging" runat="server" />
+<div class="all_box">
+    <div class="spacer spacer-small"></div>
+    <div class="wrapper align-center">
+        <ul id="portfolio-filter-standard" class="filter clearfix" data-related-grid="grid-du-an">
+            <li><a class="active" data-option-value="*" href="/phong-cach.htm">All</a></li>
+            <li><a data-option-value=".biet-thu" href="/phong-cach/hien-dai.htm" title="Hiện đại">Hiện đại</a></li>
+            <li><a data-option-value=".cafe-nha-hang-khach-san" href="phong-cach/scandinavian.htm" title="Scandinavian">Scandinavian</a></li>
+            <li><a data-option-value=".can-ho" href="/phong-cach/indochine.htm" title="Indochine">Indochine</a></li>
+            <li><a data-option-value=".du-an-trang-chu" href="/phong-cach/wabisabi.htm" title="Wabisabi">Wabisabi</a></li>
+            <li><a data-option-value=".du-an-trang-chu" href="/phong-cach/wabisabi.htm" title="Wabisabi">Wabisabi</a></li>
+            <li><a data-option-value=".kien-truc" href="/phong-cach/tan-co-dien.htm" title="Tân cổ điển">Tân cổ điển</a></li>
+        </ul>
     </div>
+    <div class="spacer spacer-small"></div>
+    <div class="products columns-3 list_product">
+        <asp:Repeater ID="rptListCate" runat="server">
+            <ItemTemplate>
+                <div class="item_pro">
+                    <div class="img" style="background-image: url(<%#Eval("CS_ImageURL") %>"></div>
+                    <%--<div class="img"><img src="<%#Eval("CS_ImageURL") %>" alt=""/></div>--%>
+                    <div class="info-style">
+                        <div class="round-capt"><span class="capt"><%#Eval("CS_Name")%></span></div>
+                    </div>
+                    <%--  <div class="overlay"><span class="item-pro-title"><%#Eval("CS_Name")%></span></div>--%>
+                    <a href="/phong-cach/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm" class="link_full"></a>
+                </div>
+
+            </ItemTemplate>
+        </asp:Repeater>
+    </div>
+    <asp:Literal ID="lblPaging" runat="server" />
+</div>
 <%--</div>--%>
 
 <!-- PAGEBODY -->

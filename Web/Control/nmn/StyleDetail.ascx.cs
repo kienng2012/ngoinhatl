@@ -9,6 +9,7 @@ namespace Web.Control.nmn
 {
     public partial class StyleDetail : System.Web.UI.UserControl
     {
+        protected int _cateProjectID = 1;
         protected int _intCateID;
         protected int _serviceID;
         protected string _titleArticle;
@@ -48,7 +49,7 @@ namespace Web.Control.nmn
                     //lblContent.Text = info.CS_Content;
                     //lblCateName.Text = info.C_Name;
                     //_cateName = info.C_Name;
-                    //_intCateID = info.C_ID;
+                    _intCateID = Convert.ToInt32(dt.Rows[0]["C_ID"]);
                 }
 
                 //lblDate.Text = info.CS_CreateDate.ToString("dd/MM/yyyy");
@@ -71,8 +72,8 @@ namespace Web.Control.nmn
 
                 //Load cac bai viet lien quan
                 //this.LoadDataByCateWithoutCurrentID(_intCateID, info.CS_ID);
-                this.LoadDataByProjectWithoutCurrentID(2, 1);
-                this.LoadDataByCateWithoutCurrentID(1, 1);
+                this.LoadDataByProjectWithoutCurrentID(_cateProjectID, _serviceID);
+                this.LoadDataByCateWithoutCurrentID(_intCateID, _serviceID);
             }
         }
         protected void LoadDataByProjectWithoutCurrentID(int _cateID, int exceptArticleId)

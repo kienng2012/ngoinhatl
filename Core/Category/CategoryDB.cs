@@ -102,6 +102,7 @@ namespace Core.Category
                 {
                     retVal = new CategoryInfo();
                     retVal.C_ID = Convert.ToInt32(dr["C_ID"]);
+                    retVal.C_ParentID = Convert.ToInt32(dr["C_ParentID"]);
                     retVal.C_Name = Convert.ToString(dr["C_Name"]);
                     retVal.C_BaseURL = Convert.ToString(dr["C_BaseURL"]);
                     retVal.C_ImageURL = Convert.ToString(dr["C_ImageURL"]);

@@ -87,15 +87,6 @@ namespace Web.Control
         protected global::DevExpress.Web.ASPxEditors.ASPxTextBox txtName;
 
         /// <summary>
-        /// txtCMD control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox txtCMD;
-
-        /// <summary>
         /// cbxCategory control.
         /// </summary>
         /// <remarks>
@@ -103,6 +94,24 @@ namespace Web.Control
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxEditors.ASPxComboBox cbxCategory;
+
+        /// <summary>
+        /// imageAvatar control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxEditors.ASPxImage imageAvatar;
+
+        /// <summary>
+        /// fileAvatar control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.FileUpload fileAvatar;
 
         /// <summary>
         /// imageServiceView control.

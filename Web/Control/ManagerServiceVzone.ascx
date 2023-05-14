@@ -68,6 +68,10 @@
                             <CellStyle HorizontalAlign="Center">
                             </CellStyle>
                         </dx:GridViewDataTextColumn>
+                        <dx:GridViewDataTextColumn Caption="ID" FieldName="CS_ID" VisibleIndex="1" Width="60px">
+                            <HeaderStyle HorizontalAlign="Center" />
+                            <CellStyle HorizontalAlign="Center"></CellStyle>
+                        </dx:GridViewDataTextColumn>
                         <dx:GridViewDataTextColumn Caption="Tên Bài viết" FieldName="CS_Name" VisibleIndex="1">
                             <HeaderStyle HorizontalAlign="Center" />
                             <CellStyle HorizontalAlign="Center">
@@ -79,16 +83,16 @@
                             <CellStyle HorizontalAlign="Center">
                             </CellStyle>
                         </dx:GridViewDataTextColumn>
-                        <dx:GridViewDataTextColumn Caption="Cú pháp" FieldName="CS_Cmd" VisibleIndex="2">
+                        <%--  <dx:GridViewDataTextColumn Caption="Cú pháp" FieldName="CS_Cmd" VisibleIndex="2">
                             <HeaderStyle HorizontalAlign="Center" />
                             <CellStyle HorizontalAlign="Center">
                             </CellStyle>
-                        </dx:GridViewDataTextColumn>
+                        </dx:GridViewDataTextColumn>--%>
                         <dx:GridViewDataTextColumn Caption="Thao Tác" VisibleIndex="5" ShowInCustomizationForm="True">
                             <DataItemTemplate>
                                 <%-- <a href="javascript:void(0)" onclick="OnUpdate(this,<%# Container.KeyValue %>)">Sửa</a><br />
                         <a href="javascript:void(0)" onclick="OnInsert(this,'0')">Thêm mới</a>--%>
-                                <asp:LinkButton ID="linkbtnAdd" runat="server" CommandArgument="0" OnClick="linkbtnAdd_Click">Thêm mới</asp:LinkButton>
+                                <%--  <asp:LinkButton ID="linkbtnAdd" runat="server" CommandArgument="0" OnClick="linkbtnAdd_Click">Thêm mới</asp:LinkButton>--%>
                                 <asp:LinkButton ID="linkbtnEdit" runat="server" CommandArgument='<%# Eval("CS_ID") %>'
                                     OnClick="linkbtnEdit_Click">Sửa</asp:LinkButton>
                             </DataItemTemplate>
@@ -159,7 +163,7 @@
                             </dx:ASPxTextBox>
                         </td>
                     </tr>
-                    <tr>
+                    <%--<tr>
                         <td class="style1">Cú pháp:
                         </td>
                         <td>
@@ -176,7 +180,7 @@
                                 </ValidationSettings>
                             </dx:ASPxTextBox>
                         </td>
-                    </tr>
+                    </tr>--%>
                     <tr>
                         <td valign="top" class="style1">Chọn danh mục
                         </td>
@@ -202,7 +206,24 @@
                         </td>
                     </tr>
                     <tr>
-                        <td valign="top" class="style1">Chọn hình ảnh
+                        <td valign="top" class="style1">Chọn avatar
+                            <br />
+                            <span style="color: #6699FF; font-size: 8pt; font-style: italic">(Chấp nhận các kiểu
+                                file: jpeg, gif, png<br />
+                                Dung lượng file tối đa: 1MB)</span>
+                        </td>
+                        <td>
+                            <div style="width: 75px; height: 75px; border: 1px solid #F39128;">
+                                <dx:ASPxImage ID="imageAvatar" runat="server" Height="75px" Width="75px">
+                                </dx:ASPxImage>
+                            </div>
+                            <br />
+                            <asp:FileUpload ID="fileAvatar"  runat="server" Width="350px" />
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" class="style1">Chọn hình ảnh bài viết
                             <br />
                             <span style="color: #6699FF; font-size: 8pt; font-style: italic">(Chấp nhận các kiểu
                                 file: jpeg, gif, png<br />

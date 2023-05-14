@@ -90,6 +90,7 @@ namespace Core.CategorySub
             dbCmd.Parameters.Add("@CS_Description", _categorySubInfo.CS_Description);
             dbCmd.Parameters.Add("@CS_ImageURL", _categorySubInfo.CS_ImageURL);
             dbCmd.Parameters.Add("@C_ID", _categorySubInfo.C_ID);
+            dbCmd.Parameters.Add("@C_ParentID", _categorySubInfo.C_ParentID);
             dbCmd.Parameters.Add("@CS_Content", _categorySubInfo.CS_Content);
             dbCmd.Parameters.Add("@CS_Cmd", _categorySubInfo.CS_Cmd);
             dbCmd.Parameters.Add("@CS_TypeDisplay", _categorySubInfo.CS_TypeDisplay);
@@ -119,6 +120,7 @@ namespace Core.CategorySub
             dbCmd.Parameters.Add("@CS_Description", _categorySubInfo.CS_Description);
             dbCmd.Parameters.Add("@CS_ImageURL", _categorySubInfo.CS_ImageURL);
             dbCmd.Parameters.Add("@C_ID", _categorySubInfo.C_ID);
+            dbCmd.Parameters.Add("@C_ParentID", _categorySubInfo.C_ParentID);
             dbCmd.Parameters.Add("@CS_Content", _categorySubInfo.CS_Content);
             dbCmd.Parameters.Add("@CS_Cmd", _categorySubInfo.CS_Cmd);
             dbCmd.Parameters.Add("@CS_TypeDisplay", _categorySubInfo.CS_TypeDisplay);
@@ -157,6 +159,8 @@ namespace Core.CategorySub
                     retVal.CS_Description = Convert.ToString(dr["CS_Description"]);
                     retVal.CS_ImageURL = Convert.ToString(dr["CS_ImageURL"]);
                     retVal.C_ID = Convert.ToInt32(dr["C_ID"]);
+
+                    if (dr["C_ParentID"] != DBNull.Value) { retVal.C_ParentID = Convert.ToInt32(dr["C_ParentID"]); }
                     retVal.CS_Content = Convert.ToString(dr["CS_Content"]);
                     retVal.CS_Cmd = Convert.ToString(dr["CS_Cmd"]);
                     retVal.CS_TypeDisplay = Convert.ToInt32(dr["CS_TypeDisplay"]);
@@ -232,6 +236,27 @@ namespace Core.CategorySub
                 dbConn.Close();
             }
         }
+        //return: 1-tồn tại   2-chưa tồn tại
+        public static int CheckExistsNameInCate_CategorySub(string CS_Name, int cateID)
+        {
+            SqlConnection dbConn = new SqlConnection(ConfigurationManager.ConnectionStrings["SQLGamePortalHTS"].ToString());
+            SqlCommand dbCmd = new SqlCommand("CheckExistsNameAndCate_CategorySub", dbConn);
+            dbCmd.CommandType = CommandType.StoredProcedure;
+            dbCmd.Parameters.AddWithValue("@CS_Name", CS_Name);
+            dbCmd.Parameters.AddWithValue("@C_ID", cateID);
+            dbCmd.Parameters.Add(new SqlParameter("@output", SqlDbType.Int, 4, ParameterDirection.Output, false, 0, 0, "", DataRowVersion.Proposed, 0));
+            try
+            {
+                dbConn.Open();
+                dbCmd.ExecuteNonQuery();
+                return (int)dbCmd.Parameters["@output"].Value;
+            }
+            finally
+            {
+
+                dbConn.Close();
+            }
+        }
 
         //Lay thong tin du lieu theo cate
         public static DataTable CategorySub_GetAll_ByCate_Pager(int page, int pageSize, CategorySubInfo info)
@@ -240,6 +265,7 @@ namespace Core.CategorySub
 
             SqlConnection dbconn = new SqlConnection(ConfigurationManager.ConnectionStrings["SQLGamePortalHTS"].ToString());
             SqlCommand dbcmd = new SqlCommand("CategorySub_GetAll_ByCate_Pager", dbconn);
+            dbcmd.Parameters.AddWithValue("@C_ParentID", info.C_ParentID);
             dbcmd.Parameters.AddWithValue("@C_ID", info.C_ID);
             dbcmd.Parameters.AddWithValue("@page", page);
             dbcmd.Parameters.AddWithValue("@pageSize", pageSize);

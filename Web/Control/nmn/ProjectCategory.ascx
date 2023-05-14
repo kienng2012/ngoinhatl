@@ -44,7 +44,6 @@
 <!-- PROJECT -->
 <%--<div id="page-body" class="">--%>
 <div class="all_box">
-
     <div class="section-inner">
         <div class="archive-title align-center">
             <h1>

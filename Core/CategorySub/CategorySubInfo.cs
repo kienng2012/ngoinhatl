@@ -102,5 +102,8 @@ namespace Core.CategorySub
         private string[] _lstArticleImgs;
         public string[] lstArticleImgs { get => _lstArticleImgs; set => _lstArticleImgs = value; }
 
+        private int _C_ParentID;
+        public int C_ParentID { get => _C_ParentID; set => _C_ParentID = value; }
+
     }
 }

@@ -17,7 +17,8 @@
                 <li><a data-option-value=".cafe-nha-hang-khach-san" href="/du-an/van-phong.htm" title="Văn phòng">Văn phòng</a></li>
                 <li><a data-option-value=".can-ho" href="/du-an/biet-thu.htm" title="Biệt thự">Biệt thự</a></li>
                 <li><a data-option-value=".du-an-trang-chu" href="/du-an/nha-pho.htm" title="Nhà phố">Nhà phố</a></li>
-                <li><a data-option-value=".kien-truc" href="/du-an/nha-hang.htm" title="Nhà hàng">Nhà hàng</a></li>
+                <li><a data-option-value=".nha-hang" href="/du-an/nha-hang.htm">Nhà hàng</a></li>
+                <li><a data-option-value=".nha-hang" href="/du-an/nha-hang.htm">Nhà hàng</a></li>
                 <li><a data-option-value=".nha-pho" href="/du-an/shop.htm" title="Shop">Shop</a></li>
             </ul>
         </div>

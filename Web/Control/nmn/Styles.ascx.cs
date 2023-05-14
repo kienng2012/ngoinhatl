@@ -24,12 +24,12 @@ namespace Web.Control.nmn
         }
         protected void LoadDataByCate()
         {
-            _cateName = "Tin tức";
+            _cateName = "Phong cách thiết kế";
             if (Request.QueryString["cateID"] != null)
             {
                 _cateID = Convert.ToInt32(Request.QueryString["cateID"]);
             }
-            else { _cateID = 1; }
+            else { _cateID = 8; }
 
             if (Request.QueryString["pageNumber"] != null)
             {
@@ -39,6 +39,7 @@ namespace Web.Control.nmn
 
             CategorySubInfo info = new CategorySubInfo();
             info.C_ID = _cateID;
+            info.C_ParentID = _cateID; //Query theo parentID
             DataTable dt = CategorySubDB.CategorySub_GetAll_ByCate_Pager(_pageNumber, pageSize, info);
             if (dt.Rows.Count > 0)
             {
