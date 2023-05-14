@@ -49,6 +49,8 @@ namespace Web
             Recruitment,
             RecruitmentDetail,
             BannerContact,
+            Arbaro24h,
+            Arbaro24hDetail,
 
             //SubjectDetails,
             //BangVang,

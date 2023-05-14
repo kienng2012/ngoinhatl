@@ -286,10 +286,11 @@ namespace Web.Control
                                 lblStatus.Text = count + " files has been uploaded.";
                             }
                         }
-                        else
-                        {
-                            lblStatus.Text = "Please select a file to upload.";
-                        }
+                        objInfo.CS_ArticleImgs = sbArticleImgs.Length > 0 ? sbArticleImgs.ToString() : null;
+                        //else
+                        //{
+                        //    lblStatus.Text = "Please select a file to upload.";
+                        //}
 
                         //if (CheckValidFile(fileUpload) == false && CheckFileSize(fileUpload) == false)
                         //{
@@ -305,14 +306,16 @@ namespace Web.Control
                         //}
 
                     }
-                    else
-                    {
-                        lblStatus.Text = "Bạn chưa chọn danh sách ảnh của bài viết!";
-                        lblStatus.ForeColor = Color.Red;
-                        return;
-                    }
+                    /*
+                     else
+                     {
+                         lblStatus.Text = "Bạn chưa chọn danh sách ảnh của bài viết!";
+                         lblStatus.ForeColor = Color.Red;
+                         return;
+                     }
+                    */
 
-                    objInfo.CS_ArticleImgs = sbArticleImgs.Length > 0 ? sbArticleImgs.ToString() : null;
+
                     int status = CategorySubDB.Insert(objInfo);
                     if (status > 1)
                     {

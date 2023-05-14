@@ -18,8 +18,10 @@
         <div class="main-title">
             <h1 style="font-size: 28px; margin-top: 5px;"><strong>
                 <asp:Literal ID="lblTitlePage" runat="server"></asp:Literal></strong></h1>
-            <div class="port-meta"><span>
-                <asp:Literal ID="lblDescriptionPage" runat="server"></asp:Literal></span></div>
+            <div class="port-meta">
+                <span>
+                    <asp:Literal ID="lblDescriptionPage" runat="server"></asp:Literal></span>
+            </div>
         </div>
     </div>
 </section>
@@ -28,7 +30,7 @@
 <!-- NAV BREADCUMBS-->
 <div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
     <div class="container">
-        <span property="itemListElement" typeof="ListItem">
+        <span property="itemListElement" typeof="ListItem" class="breadcrumbs-page">
             <a property="item" typeof="WebPage" title="Go to ABARO." href="http://ngoinhatuonglai.vn" class="home"><span property="name">Trang chủ</span></a>
             <meta property="position" content="1">
         </span>
@@ -79,8 +81,8 @@
 
                 <!-- V -->
             </div>
-           
-           <%-- <div class="cta-container">
+
+            <%-- <div class="cta-container">
                 <div class="container">
                     <div class="pure-g">
                         <div class="pure-u-1 pure-u-lg-7-12">
@@ -113,7 +115,7 @@
 </div>
 <!-- END CONTENT -->
 <!-- BANNER CONTACT -->
- <uc1:bannerContact ID="BannerContact" runat="server" />
+<uc1:bannerContact ID="BannerContact" runat="server" />
 <!-- END BANNER CONTACT -->
 <%--<div class="container-fluid pt-5">
     <div class="container">
