@@ -179,157 +179,149 @@
 
 <!-- QUY TRINH LAM VIEC -->
 <section id="reason">
+
     <div class="reason-header">
-        <h2 class="mbr-section-title align-center mbr-fonts-style mbr-bold display-2">Quy trình làm việc</h2>
+        <h2 class="mbr-section-title align-center mbr-fonts-style mbr-bold display-2">Quy trình làm việc ARBARO</h2>
     </div>
 
     <div class="container">
         <div class="reason-content-desktop">
-            <img src="https://housedesign.vn/wp-content/uploads/2020/12/Frame-1.png" width="75%" alt="" data-lazy-src="https://housedesign.vn/wp-content/uploads/2020/12/Frame-1.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://housedesign.vn/wp-content/uploads/2020/12/Frame-1.png" width="75%" alt=""></noscript>
+            <div style="padding-left:30px; padding-right:30px">
+                <img src="../../App_Themes/house/img/QuyTrinhArbaro.png" width="700" height="220" alt="" data-lazy-src="../../App_Themes/house/img/QuyTrinhArbaro.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="../../App_Themes/house/img/QuyTrinhArbaro.png" width="700" height="220" alt=""></noscript>
+            </div>
         </div>
         <div class="reason-content-mobile">
             <div class="reason-mobile-slide">
                 <div class="owl-carousel owl-theme reason-carousel owl-loaded owl-drag" id="reason-carousel">
                     <div class="owl-stage-outer">
-                        <div class="owl-stage" style="transform: translate3d(-3248px, 0px, 0px); transition: all 0.25s ease 0s; width: 5104px;">
-                            <div class="owl-item cloned" style="width: 444px; margin-right: 20px;">
-                                <div class="item">
-                                    <div class="reason-item">
-                                        <div class="item-box">
-                                            <p class="number">03</p>
-                                            <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2065%2050'%3E%3C/svg%3E" width="65" height="50" data-lazy-src="https://housedesign.vn/images/xuong-san-xuat-rieng.png"><noscript><img src="https://housedesign.vn/images/xuong-san-xuat-rieng.png" width="65" height="50"></noscript>
-                                            <p class="description">
-                                                Xưởng sản xuất riêng                                       
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="owl-item cloned" style="width: 444px; margin-right: 20px;">
-                                <div class="item">
-                                    <div class="reason-item">
-                                        <div class="item-box">
-                                            <p class="number">04</p>
-                                            <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2065%2050'%3E%3C/svg%3E" width="65" height="50" data-lazy-src="https://housedesign.vn/images/chi-phi-hop-ly.png"><noscript><img src="https://housedesign.vn/images/chi-phi-hop-ly.png" width="65" height="50"></noscript>
-                                            <p class="description">
-                                                Chi phí hợp lý                                       
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="owl-item cloned" style="width: 444px; margin-right: 20px;">
-                                <div class="item">
-                                    <div class="reason-item">
-                                        <div class="item-box">
-                                            <p class="number">05</p>
-                                            <img src="https://housedesign.vn/images/dung-tien-do.png" width="65" height="50" data-lazy-src="https://housedesign.vn/images/dung-tien-do.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://housedesign.vn/images/dung-tien-do.png" width="65" height="50"></noscript>
-                                            <p class="description">
-                                                Đúng tiến độ                                       
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="owl-item" style="width: 444px; margin-right: 20px;">
+                        <div class="owl-stage" style="transform: translate3d(-2660px, 0px, 0px); transition: all 0.25s ease 0s; width: 4180px;">
+                            <div class="owl-item active" style="width: 360px; margin-right: 20px;">
                                 <div class="item">
                                     <div class="reason-item">
                                         <div class="item-box">
                                             <p class="number">01</p>
                                             <img src="https://housedesign.vn/images/dich-vu-khach-hang-tan-tam.png" width="65" height="50" data-lazy-src="https://housedesign.vn/images/dich-vu-khach-hang-tan-tam.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://housedesign.vn/images/dich-vu-khach-hang-tan-tam.png" width="65" height="50"></noscript>
                                             <p class="description">
-                                                Dịch vụ khách hàng tận tâm                                       
+                                                Khảo sát và tư vấn tại công trình                                       
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="owl-item" style="width: 444px; margin-right: 20px;">
+                            <div class="owl-item" style="width: 360px; margin-right: 20px;">
                                 <div class="item">
                                     <div class="reason-item">
                                         <div class="item-box">
                                             <p class="number">02</p>
                                             <img src="https://housedesign.vn/images/thiet-ke-sang-tao.png" width="65" height="50" data-lazy-src="https://housedesign.vn/images/thiet-ke-sang-tao.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://housedesign.vn/images/thiet-ke-sang-tao.png" width="65" height="50"></noscript>
                                             <p class="description">
-                                                Thiết kế sáng tạo, thi công chất lượng                                       
+                                                Lên phương án thiết kế chỉ từ 3 ngày                                       
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="owl-item" style="width: 444px; margin-right: 20px;">
+                            <div class="owl-item" style="width: 360px; margin-right: 20px;">
                                 <div class="item">
                                     <div class="reason-item">
                                         <div class="item-box">
                                             <p class="number">03</p>
                                             <img src="https://housedesign.vn/images/xuong-san-xuat-rieng.png" width="65" height="50" data-lazy-src="https://housedesign.vn/images/xuong-san-xuat-rieng.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://housedesign.vn/images/xuong-san-xuat-rieng.png" width="65" height="50"></noscript>
                                             <p class="description">
-                                                Xưởng sản xuất riêng                                       
+                                                Lên dự toán và tối ưu chi phí                                       
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="owl-item" style="width: 444px; margin-right: 20px;">
+                            <div class="owl-item cloned" style="width: 360px; margin-right: 20px;">
                                 <div class="item">
                                     <div class="reason-item">
                                         <div class="item-box">
                                             <p class="number">04</p>
-                                            <img src="https://housedesign.vn/images/chi-phi-hop-ly.png" width="65" height="50" data-lazy-src="https://housedesign.vn/images/chi-phi-hop-ly.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://housedesign.vn/images/chi-phi-hop-ly.png" width="65" height="50"></noscript>
+                                            <img src="https://housedesign.vn/images/chi-phi-hop-ly.png" width="65" height="50" data-lazy-src="https://housedesign.vn/images/chi-phi-hop-ly.png"><noscript><img src="https://housedesign.vn/images/chi-phi-hop-ly.png" width="65" height="50"></noscript>
                                             <p class="description">
-                                                Chi phí hợp lý                                       
+                                                Thi công chỉ từ 7 ngày                                       
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="owl-item active" style="width: 444px; margin-right: 20px;">
+                            <div class="owl-item cloned" style="width: 360px; margin-right: 20px;">
                                 <div class="item">
                                     <div class="reason-item">
                                         <div class="item-box">
                                             <p class="number">05</p>
                                             <img src="https://housedesign.vn/images/dung-tien-do.png" width="65" height="50" data-lazy-src="https://housedesign.vn/images/dung-tien-do.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://housedesign.vn/images/dung-tien-do.png" width="65" height="50"></noscript>
                                             <p class="description">
-                                                Đúng tiến độ                                       
+                                                Bảo hành 1 đổi 1 và bảo trì trọn đời                                        
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="owl-item cloned" style="width: 444px; margin-right: 20px;">
+
+
+                            <div class="owl-item" style="width: 360px; margin-right: 20px;">
                                 <div class="item">
                                     <div class="reason-item">
                                         <div class="item-box">
                                             <p class="number">01</p>
-                                            <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2065%2050'%3E%3C/svg%3E" width="65" height="50" data-lazy-src="https://housedesign.vn/images/dich-vu-khach-hang-tan-tam.png"><noscript><img src="https://housedesign.vn/images/dich-vu-khach-hang-tan-tam.png" width="65" height="50"></noscript>
+                                            <img src="https://housedesign.vn/images/dich-vu-khach-hang-tan-tam.png" width="65" height="50" data-lazy-src="https://housedesign.vn/images/dich-vu-khach-hang-tan-tam.png"><noscript><img src="https://housedesign.vn/images/dich-vu-khach-hang-tan-tam.png" width="65" height="50"></noscript>
                                             <p class="description">
-                                                Dịch vụ khách hàng tận tâm                                       
+                                                Khảo sát và tư vấn tại công trình                                       
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="owl-item cloned" style="width: 444px; margin-right: 20px;">
+                            <div class="owl-item" style="width: 360px; margin-right: 20px;">
                                 <div class="item">
                                     <div class="reason-item">
                                         <div class="item-box">
                                             <p class="number">02</p>
-                                            <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2065%2050'%3E%3C/svg%3E" width="65" height="50" data-lazy-src="https://housedesign.vn/images/thiet-ke-sang-tao.png"><noscript><img src="https://housedesign.vn/images/thiet-ke-sang-tao.png" width="65" height="50"></noscript>
+                                            <img src="https://housedesign.vn/images/thiet-ke-sang-tao.png" width="65" height="50" data-lazy-src="https://housedesign.vn/images/thiet-ke-sang-tao.png"><noscript><img src="https://housedesign.vn/images/thiet-ke-sang-tao.png" width="65" height="50"></noscript>
                                             <p class="description">
-                                                Thiết kế sáng tạo, thi công chất lượng                                       
+                                                Lên phương án thiết kế chỉ từ 3 ngày                                      
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="owl-item cloned" style="width: 444px; margin-right: 20px;">
+                            <div class="owl-item" style="width: 360px; margin-right: 20px;">
                                 <div class="item">
                                     <div class="reason-item">
                                         <div class="item-box">
                                             <p class="number">03</p>
-                                            <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2065%2050'%3E%3C/svg%3E" width="65" height="50" data-lazy-src="https://housedesign.vn/images/xuong-san-xuat-rieng.png"><noscript><img src="https://housedesign.vn/images/xuong-san-xuat-rieng.png" width="65" height="50"></noscript>
+                                            <img src="https://housedesign.vn/images/xuong-san-xuat-rieng.png" width="65" height="50" data-lazy-src="https://housedesign.vn/images/xuong-san-xuat-rieng.png"><noscript><img src="https://housedesign.vn/images/xuong-san-xuat-rieng.png" width="65" height="50"></noscript>
                                             <p class="description">
-                                                Xưởng sản xuất riêng                                       
+                                                Lên dự toán và tối ưu chi phí                                       
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item" style="width: 360px; margin-right: 20px;">
+                                <div class="item">
+                                    <div class="reason-item">
+                                        <div class="item-box">
+                                            <p class="number">04</p>
+                                            <img src="https://housedesign.vn/images/chi-phi-hop-ly.png" width="65" height="50" data-lazy-src="https://housedesign.vn/images/chi-phi-hop-ly.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://housedesign.vn/images/chi-phi-hop-ly.png" width="65" height="50"></noscript>
+                                            <p class="description">
+                                                Thi công chỉ từ 7 ngày                                       
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item" style="width: 360px; margin-right: 20px;">
+                                <div class="item">
+                                    <div class="reason-item">
+                                        <div class="item-box">
+                                            <p class="number">05</p>
+                                            <img src="https://housedesign.vn/images/dung-tien-do.png" width="65" height="50" data-lazy-src="https://housedesign.vn/images/dung-tien-do.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://housedesign.vn/images/dung-tien-do.png" width="65" height="50"></noscript>
+                                            <p class="description">
+                                                Bảo hành 1 đổi 1 và bảo trì trọn đời                                       
                                             </p>
                                         </div>
                                     </div>
@@ -337,7 +329,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="owl-nav disabled">
+                    <div class="owl-nav">
                         <button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button>
                         <button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button>
                     </div>

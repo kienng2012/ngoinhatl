@@ -20,32 +20,34 @@
     <link data-optimized="2" rel="stylesheet" href="<%= Page.ResolveClientUrl("~/App_Themes/house/css/main.css")%>">
     <link data-optimized="2" rel="stylesheet" href="<%= Page.ResolveClientUrl("~/App_Themes/house/css/custom.css")%>">
     <link data-optimized="2" rel="stylesheet" href="<%= Page.ResolveClientUrl("~/App_Themes/house/css/style.css")%>">
- <%--   <link rel="stylesheet" href="<%= Page.ResolveClientUrl("~/App_Themes/house/css/jquery.fancybox.min.css")%>" type="text/css" media="all">--%>
+    <%--   <link rel="stylesheet" href="<%= Page.ResolveClientUrl("~/App_Themes/house/css/jquery.fancybox.min.css")%>" type="text/css" media="all">--%>
     <link data-optimized="2" rel="stylesheet" href="<%= Page.ResolveClientUrl("~/App_Themes/house/css/mqueries.css")%>">
-    <link data-optimized="2" rel="stylesheet" href="<%= Page.ResolveClientUrl("~/App_Themes/house/css/font-awesome.css")%>">
+    <%-- <link data-optimized="2" rel="stylesheet" href="<%= Page.ResolveClientUrl("~/App_Themes/house/css/font-awesome.css")%>">--%>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 
-  <%--  <link data-optimized="2" rel="stylesheet" href="<%= Page.ResolveClientUrl("~/App_Themes/house/css/grids-responsive-min.css")%>">--%>
+
+    <%--  <link data-optimized="2" rel="stylesheet" href="<%= Page.ResolveClientUrl("~/App_Themes/house/css/grids-responsive-min.css")%>">--%>
     <title>Nội thất cao cấp</title>
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-    <meta name="description" content="Showroom đồ nội thất phong cách bắc âu Scandinavian cao cấp chuyên cung cấp các món đồ nội thất phong cách bắc âu Scandinavian">
-    <link rel="canonical" href="https://nordic.vn/">
+    <meta name="description" content="ARBARO Thiết kế không gian - Kiến tạo phong cách sống">
+    <link rel="canonical" href="http://ngoinhatuonglai.vn/">
     <meta property="og:locale" content="vi_VN">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Trang chủ">
-    <meta property="og:description" content="Showroom đồ nội thất phong cách bắc âu Scandinavian cao cấp chuyên cung cấp các món đồ nội thất phong cách bắc âu Scandinavian">
-    <meta property="og:url" content="https://nordic.vn/">
-    <meta property="og:site_name" content="NORDIC">
+    <meta property="og:description" content="ARBARO Thiết kế không gian - Kiến tạo phong cách sống">
+    <meta property="og:url" content="http://ngoinhatuonglai.vn/">
+    <meta property="og:site_name" content="ARBARO">
     <meta property="article:modified_time" content="2023-04-13T07:50:58+00:00">
     <meta name="twitter:card" content="summary_large_image">
     <%--<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://nordic.vn/","url":"https://nordic.vn/","name":"Showroom đồ nội thất phong cách bắc âu Scandinavian cao cấp","isPartOf":{"@id":"https://nordic.vn/#website"},"datePublished":"2022-08-15T10:33:30+00:00","dateModified":"2023-04-13T07:50:58+00:00","description":"Showroom đồ nội thất phong cách bắc âu Scandinavian cao cấp chuyên cung cấp các món đồ nội thất phong cách bắc âu Scandinavian","breadcrumb":{"@id":"https://nordic.vn/#breadcrumb"},"inLanguage":"vi","potentialAction":[{"@type":"ReadAction","target":["https://nordic.vn/"]}]},{"@type":"BreadcrumbList","@id":"https://nordic.vn/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://nordic.vn/#website","url":"https://nordic.vn/","name":"NORDIC","description":"Một trang web mới sử dụng WordPress","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://nordic.vn/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"vi"}]}</script>--%>
-    <link rel="dns-prefetch" href="https://static.addtoany.com/">
+    <%--<link rel="dns-prefetch" href="https://static.addtoany.com/">
     <link rel="dns-prefetch" href="https://fonts.googleapis.com/">
     <link rel="dns-prefetch" href="https://www.google-analytics.com/">
     <link rel="dns-prefetch" href="https://fonts.gstatic.com/">
     <link rel="dns-prefetch" href="https://www.youtube.com/">
     <link rel="dns-prefetch" href="https://static.doubleclick.net/">
     <link rel="dns-prefetch" href="https://jnn-pa.googleapis.com/">
-    <link rel="dns-prefetch" href="https://yt3.ggpht.com/">
+    <link rel="dns-prefetch" href="https://yt3.ggpht.com/">--%>
     <%--<script type="text/template" id="tmpl-variation-template">
         <div class="woocommerce-variation-description">{{{ data.variation.variation_description }}}</div>
         <div class="woocommerce-variation-price">{{{ data.variation.price_html }}}</div>
@@ -55,12 +57,14 @@
         <p>Rất tiếc, sản phẩm này hiện không tồn tại. Hãy chọn một phương thức kết hợp khác.</p>
     </script>--%>
     <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/App_Themes/house/js/jquery.min.js")%>" id="jquery-core-js"></script>
+    <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/App_Themes/house/js/owl.carousel.js")%>"></script>
+    <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/App_Themes/house/js/owl.carousel.min.js")%>"></script>
     <%-- <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/App_Themes/house/js/script.js") %>"></script>--%>
     <%-- <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/App_Themes/house/js/imagesloaded.min.js") %>"></script>--%>
-   <%-- <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/App_Themes/house/js/isotope.pkgd.min.js") %>"></script>--%>
+    <%-- <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/App_Themes/house/js/isotope.pkgd.min.js") %>"></script>--%>
     <%--<script type="text/javascript" src="<%= Page.ResolveClientUrl("~/App_Themes/house/js/jquery.fancybox.min.js") %>" id="fancybox-js"></script>--%>
 
-   
+
     <link rel="canonical" href="http://ngoinhatuonglai.vn/">
     <noscript>
         <style>
@@ -69,10 +73,10 @@
             }
         </style>
     </noscript>
-    <link rel="icon" href="https://nordic.vn/wp-content/uploads/2022/09/cropped-favicon-512px-32x32.png" sizes="32x32">
-    <link rel="icon" href="https://nordic.vn/wp-content/uploads/2022/09/cropped-favicon-512px-192x192.png" sizes="192x192">
-    <link rel="apple-touch-icon" href="https://nordic.vn/wp-content/uploads/2022/09/cropped-favicon-512px-180x180.png">
-    <meta name="msapplication-TileImage" content="https://nordic.vn/wp-content/uploads/2022/09/cropped-favicon-512px-270x270.png">
+    <link rel="icon" href="App_Themes/house/img/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" href="App_Themes/house/img/favicon/android-icon-192x192.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="App_Themes/house/img/favicon/apple-icon-180x180.png">
+    <meta name="msapplication-TileImage" content="App_Themes/house/img/logo.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
     <link rel="preconnect" href="https://fonts.googleapis.com/">
@@ -86,7 +90,7 @@
 
 <body class="home page-template page-template-home2 page-template-home2-php bordered">
     <!--BORDER -->
-   <%-- <div id="bodyborder-left"></div>
+    <%-- <div id="bodyborder-left"></div>
     <div id="bodyborder-right"></div>
     <div id="bodyborder-top"></div>
     <div id="bodyborder-bottom"></div>--%>
@@ -142,17 +146,8 @@
                 <div class="title_nav">Danh mục</div>
                 <div class="wrap_menu">
                     <ul id="menu-menu-main-1" class="menu clearfix">
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1720 nav-item">
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2673 nav-item">
                             <a class="nav-links" href="/gioi-thieu.htm">Giới thiệu</a>
-                            <i class="fa fa-angle-down"></i>
-                            <ul class="sub-menu">
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1729 nav-item">
-                                    <a class="nav-links" href="/tong-quan.htm">Tổng quan</a>
-                                </li>
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1730 nav-item">
-                                    <a class="nav-links" href="/doi-ngu.htm">Đội ngũ</a>
-                                </li>
-                            </ul>
                         </li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1721 nav-item">
                             <a class="nav-links" href="/du-an.htm">Dự án</a>
@@ -201,7 +196,29 @@
                                 </li>
                             </ul>
                         </li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2673 nav-item">
+                            <a class="nav-links" href="/arbaro24h.htm">ARBARO 24H</a>
+                        </li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1722 nav-item">
+                            <a class="nav-links" href="/chinh-sach.htm">Chính sách</a>
+                            <i class="fa fa-angle-down"></i>
+                            <ul class="sub-menu">
+                                <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2307 nav-item">
+                                    <a class="nav-links" href="/chinh-sach-bao-hanh.htm">Chính sách bảo hành</a>
+                                </li>
 
+                                <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3313 nav-item">
+                                    <a class="nav-links" href="/chinh-sach-uu-dai.htm">Chính sách ưu đãi</a>
+                                </li>
+                                <li class="menu-item menu-item-type-taxonomy menu-item-object-project_cat menu-item-2256 nav-item">
+                                    <a class="nav-links" href="/chinh-sach-van-chuyen.htm">Chính sách vận chuyển</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2673 nav-item">
+                            <a class="nav-links" href="/trai-nghiem.htm">Trải nghiệm khách hàng</a>
+                        </li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2673 nav-item">
                             <a class="nav-links" href="/lien-he.htm">Liên hệ</a>
                         </li>

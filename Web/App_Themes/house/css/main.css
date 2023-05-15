@@ -36427,7 +36427,7 @@ body.logged-in #menu_mainnav {
 
             .header_menu .menu > li > a {
                 display: block;
-                line-height: 42px;
+                line-height: 30px;
                 color: #fff;
                 font-weight: 400
             }
