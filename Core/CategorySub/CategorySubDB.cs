@@ -300,6 +300,7 @@ namespace Core.CategorySub
             SqlCommand dbcmd = new SqlCommand("CategorySubsByCateWithoutCurrentID", dbconn);
             dbcmd.Parameters.AddWithValue("@CS_ID", currentID);
             dbcmd.Parameters.AddWithValue("@C_ID", info.C_ID);
+            dbcmd.Parameters.AddWithValue("@C_ParentID", info.C_ParentID);
             dbcmd.Parameters.AddWithValue("@page", page);
             dbcmd.Parameters.AddWithValue("@pageSize", pageSize);
             dbcmd.Parameters.Add(new SqlParameter("@OutputCount", SqlDbType.Int, 4, ParameterDirection.Output, false, 0, 0, "", DataRowVersion.Proposed, info.Output));

@@ -18,7 +18,7 @@
 
 <!-- NAV BREADCUMBS-->
 <div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
-    <span property="itemListElement" typeof="ListItem">
+    <span property="itemListElement" typeof="ListItem" class="breadcrumbs-page">
         <a property="item" typeof="WebPage" title="Go to ABARO." href="http://ngoinhatuonglai.vn" class="home"><span property="name">Trang chủ</span></a>
         <meta property="position" content="1">
     </span>
@@ -90,14 +90,15 @@
                                 <asp:Repeater ID="rptProjects" runat="server">
                                     <ItemTemplate>
                                         <li>
-                                            <a href="/Du-an-<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm">
-                                                <img src="<%#Eval("CS_ImageURL") %>" width="768" height="432" alt="" data-lazy-src="<%#Eval("CS_ImageURL") %>" data-ll-status="loaded" class="entered lazyloaded">
-                                                <noscript>
+                                            <a href="/du-an/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm">
+                                                <div class="img-related">
+                                                    <img src="<%#Eval("CS_ImageURL") %>" width="768" height="432" alt="" data-lazy-src="<%#Eval("CS_ImageURL") %>" data-ll-status="loaded" class="entered lazyloaded">
+                                                    <%--<noscript>
                                                     <img
                                                         src="<%#Eval("CS_ImageURL") %>"
                                                         width="768" height="432" alt="" />
-                                                </noscript>
-
+                                                </noscript>--%>
+                                                </div>
                                             </a>
                                             <a class="project-name" href="/du-an/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm"><%#Eval("CS_Name")%></a>
                                         </li>
@@ -115,13 +116,17 @@
                                 <asp:Repeater ID="rptListCate" runat="server">
                                     <ItemTemplate>
                                         <li>
-                                            <a href="/Phong-cach-<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm">
-                                                <img src="<%#Eval("CS_ImageURL") %>" width="768" height="576" alt="<%#Eval("CS_Name")%>" data-lazy-src="<%#Eval("CS_ImageURL") %>" data-ll-status="loaded" class="entered lazyloaded"><noscript>
+                                            <a href="/phong-cach/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm">
+                                                <div class="img-related">
+                                                    <img src="<%#Eval("CS_ImageURL") %>" width="768" height="576" alt="<%#Eval("CS_Name")%>" data-lazy-src="<%#Eval("CS_ImageURL") %>" data-ll-status="loaded" class="entered lazyloaded">
+                                                    <%--<noscript>
                                                     <img
                                                         src="<%#Eval("CS_ImageURL") %>"
                                                         width="768" height="576" alt="<%#Eval("CS_Name")%>" />
-                                                </noscript>
+                                                </noscript>--%>
+                                                </div>
                                             </a>
+
                                             <a class="project-name" href="/phong-cach/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm"><%#Eval("CS_Name")%></a>
                                         </li>
                                     </ItemTemplate>

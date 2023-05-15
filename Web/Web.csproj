@@ -538,6 +538,11 @@
     <Content Include="Control\MenuFooterVzone.ascx" />
     <Content Include="Control\MenuRight.ascx" />
     <Content Include="Control\MenuVzone.ascx" />
+    <Content Include="Control\nmn\PolicyGuarantee.ascx" />
+    <Content Include="Control\nmn\PolicyDelivery.ascx" />
+    <Content Include="Control\nmn\PolicySale.ascx" />
+    <Content Include="Control\nmn\Policy.ascx" />
+    <Content Include="Control\nmn\AboutArbaro.ascx" />
     <Content Include="Control\nmn\ArticleList.ascx" />
     <Content Include="Control\nmn\ArticleProduct.ascx" />
     <Content Include="Control\nmn\ProjectDetail2.ascx" />
@@ -559,6 +564,7 @@
     <Content Include="Control\nmn\Home.ascx" />
     <Content Include="Control\nmn\NewsDetails.ascx" />
     <Content Include="Control\nmn\ReservationForm.ascx" />
+    <Content Include="Control\nmn\TestimonialDetail.ascx" />
     <Content Include="Control\nmn\Testimonial.ascx" />
     <Content Include="Control\nmn\Reservation.ascx" />
     <Content Include="Control\nmn\ArticleTop.ascx" />
@@ -894,6 +900,41 @@
     <Compile Include="Control\MenuVzone.ascx.designer.cs">
       <DependentUpon>MenuVzone.ascx</DependentUpon>
     </Compile>
+    <Compile Include="Control\nmn\PolicyGuarantee.ascx.cs">
+      <DependentUpon>PolicyGuarantee.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\nmn\PolicyGuarantee.ascx.designer.cs">
+      <DependentUpon>PolicyGuarantee.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\nmn\PolicyDelivery.ascx.cs">
+      <DependentUpon>PolicyDelivery.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\nmn\PolicyDelivery.ascx.designer.cs">
+      <DependentUpon>PolicyDelivery.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\nmn\PolicySale.ascx.cs">
+      <DependentUpon>PolicySale.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\nmn\PolicySale.ascx.designer.cs">
+      <DependentUpon>PolicySale.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\nmn\Policy.ascx.cs">
+      <DependentUpon>Policy.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\nmn\Policy.ascx.designer.cs">
+      <DependentUpon>Policy.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\nmn\AboutArbaro.ascx.cs">
+      <DependentUpon>AboutArbaro.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\nmn\AboutArbaro.ascx.designer.cs">
+      <DependentUpon>AboutArbaro.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Control\nmn\ArticleList.ascx.cs">
       <DependentUpon>ArticleList.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1040,6 +1081,13 @@
     </Compile>
     <Compile Include="Control\nmn\ReservationForm.ascx.designer.cs">
       <DependentUpon>ReservationForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\nmn\TestimonialDetail.ascx.cs">
+      <DependentUpon>TestimonialDetail.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\nmn\TestimonialDetail.ascx.designer.cs">
+      <DependentUpon>TestimonialDetail.ascx</DependentUpon>
     </Compile>
     <Compile Include="Control\nmn\Testimonial.ascx.cs">
       <DependentUpon>Testimonial.ascx</DependentUpon>

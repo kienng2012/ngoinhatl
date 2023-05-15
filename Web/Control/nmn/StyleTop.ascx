@@ -2,7 +2,6 @@
 <%@ Register Assembly="DevExpress.Web.v10.2" Namespace="DevExpress.Web.ASPxPager" TagPrefix="dx" %>
 <%@ Import Namespace="Core.Utils" %>
 <!-- Menu Start -->
-
 <div class="collection_home">
     <%--<div class="background bg_section" style="background-image: url(<%= Page.ResolveClientUrl("~/App_Themes/house/img/style-top-bn.jpg")%>);"></div>--%>
     <div class="container-fluid">

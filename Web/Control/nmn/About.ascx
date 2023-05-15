@@ -21,7 +21,7 @@ ARBARO là một gia đình</span>
             </div>
             <p class="desc">
                 Chúng tôi không chỉ là đồng nghiệp<br>
-                Housedesign là một gia đình           
+                ARBARO là một gia đình           
             </p>
         </div>
     </div>--%>
@@ -33,13 +33,13 @@ ARBARO là một gia đình</span>
                         Sứ mệnh               
                     </div>
                     <p class="desc">
-                        Được thành lập từ năm 2015, Housedesign hoạt động với sứ mệnh tạo ra các công trình
+                        Được thành lập từ năm 2015, ARBARO hoạt động với sứ mệnh tạo ra các công trình
                     <br>
                         khác biệt và sáng tạo thể hiện được phong cách riêng của gia chủ với sự chuyên
                     <br>
                         nghiệp trong việc Mix &amp; Match các phong cách nội thất. Ứng dụng kiến trúc trong thiết
                     <br>
-                        kế nội thất, các thiết kế của Housedesign được đánh giá cao ở tính đơn giản thanh lịch
+                        kế nội thất, các thiết kế của ARBARO được đánh giá cao ở tính đơn giản thanh lịch
                     <br>
                         nhưng vẫn sang trọng tinh tế đảm bảo công năng sử dụng.                                   
                     </p>
@@ -55,13 +55,13 @@ ARBARO là một gia đình</span>
                     </div>
                     <div class="detail-content">
                         <div class="title">
-                            Housedesign                   
+                            ARBARO                   
                         </div>
                         <div class="sub-title">
                             Khẳng định phong cách sống                   
                         </div>
                         <p class="desc">
-                            Housedesign hy vọng mỗi thiết kế chúng tôi làm ra đều phản ánh được phong cách riêng của từng gia chủ. Mỗi không gian trong căn hộ đều có thể truyền cảm hứng và sự trải nghiệm mới mẻ đến quý khách hàng.
+                            ARBARO hy vọng mỗi thiết kế chúng tôi làm ra đều phản ánh được phong cách riêng của từng gia chủ. Mỗi không gian trong căn hộ đều có thể truyền cảm hứng và sự trải nghiệm mới mẻ đến quý khách hàng.
                         <br>
                             <br>
                             Housdeisgn mong muốn có thể thông qua những thiết kế để biến ngôi nhà mơ ước trong tâm trí khách hàng thành hiện thực, giúp quý khách hàng nâng tầm không gian sống hiện đại, sang trọng và vô cùng tinh tế. Vì Nhà là tổng hành dinh của cuộc đời mỗi người và "không có nơi đâu bằng nhà của mình".                   
@@ -74,10 +74,10 @@ ARBARO là một gia đình</span>
                             Mang đến những trải nghiệm tuyệt vời                   
                         </div>
                         <p class="desc">
-                            Mục tiêu Housedesign hướng đến không chỉ tạo ra các sản phẩn thiết kế thi công chất lượng, mà còn là một trải nghiệm trọn vẹn ý nghĩa nhất.
+                            Mục tiêu ARBARO hướng đến không chỉ tạo ra các sản phẩn thiết kế thi công chất lượng, mà còn là một trải nghiệm trọn vẹn ý nghĩa nhất.
                         <br>
                             <br>
-                            Nụ cười, sự hài lòng của khách hàng là mục tiêu của chúng tôi. Không phải phát triển nhanh và rộng, mà đối với Housedesign, được khách hàng cũ giới thiệu và đưa phản hồi tích cực là điều chúng tôi tự hào và cố gắng mỗi ngày.                                           
+                            Nụ cười, sự hài lòng của khách hàng là mục tiêu của chúng tôi. Không phải phát triển nhanh và rộng, mà đối với ARBARO, được khách hàng cũ giới thiệu và đưa phản hồi tích cực là điều chúng tôi tự hào và cố gắng mỗi ngày.                                           
                         </p>
                     </div>
                     <div class="detail-img">
@@ -91,7 +91,7 @@ ARBARO là một gia đình</span>
             <div class="culture">
                 <div class="container">
                     <div class="title">
-                        Văn hóa Housedesign               
+                        Văn hóa ARBARO               
                     </div>
                     <div class="culture-banner">
                         <div class="group-culture-circle">
@@ -174,7 +174,7 @@ ARBARO là một gia đình</span>
                 <div class="group-content">
                     <div class="title">
                         Trung thực - Uy tín<br>
-                        là tiêu chí hàng đầu mà Housedesign<br>
+                        là tiêu chí hàng đầu mà ARBARO<br>
                         đã, đang và sẽ luôn hướng đến               
                     </div>
                 </div>
@@ -207,7 +207,7 @@ ARBARO là một gia đình</span>
 
 
 
-                                <li>2015: Thành lập công ty TNHH Housedesign                            </li>
+                                <li>2015: Thành lập công ty TNHH ARBARO                            </li>
 
                             </ul>
                             <div class="team-info-social">

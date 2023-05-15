@@ -11,16 +11,7 @@ namespace Web.Control.nmn
 {
 
 
-    public partial class Testimonial
+    public partial class AboutArbaro
     {
-
-        /// <summary>
-        /// BannerContact control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::Web.Control.nmn.BannerContact BannerContact;
     }
 }

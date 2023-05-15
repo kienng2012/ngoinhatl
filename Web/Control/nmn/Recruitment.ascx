@@ -22,15 +22,15 @@
 <!-- END NAV BREADCUMBS -->
 <%--<div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
     <div class="container">
-        <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to NORDIC." href="https://nordic.vn" class="home"><span property="name">Trang chủ</span></a><meta property="position" content="1"></span> <i class="fa fa-angle-right slash" aria-hidden="true"></i><span class="archive post-product-archive current-item">Sản phẩm</span>
+        <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to ARBARO." href="https://nordic.vn" class="home"><span property="name">Trang chủ</span></a><meta property="position" content="1"></span> <i class="fa fa-angle-right slash" aria-hidden="true"></i><span class="archive post-product-archive current-item">Sản phẩm</span>
     </div>
 </div>--%>
 <!-- PROJECT -->
 <!-- PROJECT -->
 <%--<div id="page-body" class="">--%>
-    <div class="all_box">
-        <div class="spacer spacer-small"></div>
-<%--        <div class="wrapper align-center">
+<div class="all_box">
+    <div class="spacer spacer-small"></div>
+    <%--        <div class="wrapper align-center">
             <ul id="portfolio-filter-standard" class="filter clearfix" data-related-grid="grid-du-an">
                 <li><a class="active" data-option-value="*" href="/du-an.htm">All</a></li>
                 <li><a data-option-value=".biet-thu" href="/du-an/chung-cu.htm" title="Chung cư">Chung cư</a></li>
@@ -42,24 +42,25 @@
             </ul>
         </div>
         <div class="spacer spacer-small"></div>--%>
-        <div class="products columns-3 list_product">
-            <asp:Repeater ID="rptListCate" runat="server">
-                <ItemTemplate>
-                    <div class="item_pro">
-                        <div class="img" style="background-image: url(<%#Eval("CS_ImageURL") %>"></div>
-                        <%--<div class="img"><img src="<%#Eval("CS_ImageURL") %>" alt=""/></div>--%>
-                        <div class="info-style">
-                            <div class="round-capt"><span class="capt"><%#Eval("CS_Name")%></span></div>
-                        </div>
-                        <%--  <div class="overlay"><span class="item-pro-title"><%#Eval("CS_Name")%></span></div>--%>
-                        <a href="/tuyen-dung/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm" class="link_full"></a>
+    <div class="products columns-4 list_product">
+        <asp:Repeater ID="rptListCate" runat="server">
+            <ItemTemplate>
+                <div class="item_pro">
+                    <div class="img" style="background-image: url(<%#Eval("CS_ImageURL") %>"></div>
+                    <%--<div class="img"><img src="<%#Eval("CS_ImageURL") %>" alt=""/></div>--%>
+                    <div class="info-style">
+                        <div class="round-capt"><span class="capt"><%#Eval("CS_Name")%></span></div>
                     </div>
+                    <%--  <div class="overlay"><span class="item-pro-title"><%#Eval("CS_Name")%></span></div>--%>
+                    <a href="/tuyen-dung/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm" class="link_full"></a>
+                </div>
 
-                </ItemTemplate>
-            </asp:Repeater>
-        </div>
-        <asp:Literal ID="lblPaging" runat="server" />
+            </ItemTemplate>
+        </asp:Repeater>
     </div>
+    <asp:Literal ID="lblPaging" runat="server" />
+    <div class="spacer spacer-small"></div>
+</div>
 <%--</div>--%>
 
 <!-- PAGEBODY -->

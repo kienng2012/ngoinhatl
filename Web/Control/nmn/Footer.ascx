@@ -66,7 +66,7 @@
                     </div>
                 </div>
                 <div id="black-studio-tinymce-5" class="widget widget_black_studio_tinymce  col-md-3">
-                    <div class="footer-title"><span>Nhãn hiệu NORDIC</span></div>
+                    <div class="footer-title"><span>Nhãn hiệu ARBARO</span></div>
                     <div class="textwidget">
                         <p style="text-align: center;">
                             <a href="http://online.gov.vn/CustomWebsiteDisplay.aspx?DocId=38569" target="_blank" rel="nofollow noopener">

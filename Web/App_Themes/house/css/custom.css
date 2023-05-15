@@ -233,7 +233,7 @@ element.style {
     padding: 0 10px 15px 10px !important;
 }
 
-/* PROJECT HOUSEDESIGN*/
+/* PROJECT ARBARO*/
 
 #page-body {
     overflow: hidden;
@@ -632,7 +632,7 @@ h5.overlay-name.title-minimal {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 }
 
-/* END PROJECT HOUSEDESIGN*/
+/* END PROJECT ARBARO*/
 page-body .section-inner > * {
     font-family: "Montserrat",sans-serif;
 }
@@ -1021,6 +1021,8 @@ div ul:first-child, li ul:first-child {
                 -webkit-transform: rotate(0) scale(1);
                 transform: rotate(0) scale(1);
                 width: 100%;
+                max-height: 12rem;
+                height: auto
             }
 
 .int_blog_insta_post .project-name {
@@ -1467,7 +1469,7 @@ body {
     }
 }
 
-/** custom to housedesign*/
+/** custom to ARBARO*/
 #bodyborder-left {
     left: 0 !important;
 }
@@ -2697,4 +2699,9 @@ fa-angle-up:before {
 
 .breadcrumbs-page {
     padding-left: 45px;
+}
+
+.img-related {
+    display: block;
+    overflow: hidden;
 }

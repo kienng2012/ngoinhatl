@@ -18,7 +18,7 @@ namespace Web.Control.nmn
         }
         protected void LoadDataByCate(int page)
         {
-            _cateName = "Tin tức";
+            _cateName = "Dự án";
             if (Request.QueryString["cateID"] != null)
             {
                 _cateID = Convert.ToInt32(Request.QueryString["cateID"]);
@@ -26,12 +26,13 @@ namespace Web.Control.nmn
             else { _cateID = 1; }
 
             CategorySubInfo info = new CategorySubInfo();
+            info.C_ParentID = _cateID;//Lay theo parentID
             info.C_ID = _cateID;
-            DataTable dt = CategorySubDB.CategorySub_GetAll_ByCate_Pager(page, 20, info);
-            if (dt.Rows.Count > 0)
-            {
-                _cateName = dt.Rows[0]["C_Name"].ToString();
-            }
+            DataTable dt = CategorySubDB.CategorySub_GetAll_ByCate_Pager(page, 12, info);
+            //if (dt.Rows.Count > 0)
+            //{
+            //    _cateName = dt.Rows[0]["C_Name"].ToString();
+            //}
             //lblCateName.Text = _cateName;
             //pagerCateSub.ItemCount = info.Output;
             //pagerCateSub.ItemsPerPage = 8;

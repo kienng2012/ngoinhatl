@@ -80,7 +80,8 @@ namespace Web.Control.nmn
         {
             CategorySubInfo info = new CategorySubInfo();
             info.C_ID = _cateID;
-            DataTable dt = CategorySubDB.CategorySubsByCateWithoutCurrentID(1, pageSize, info, exceptArticleId);
+            info.C_ParentID = _cateID;//Load theo danh muc chinh
+            DataTable dt = CategorySubDB.CategorySubsByCateWithoutCurrentID(1, 4, info, exceptArticleId);
             if (dt.Rows.Count > 0)
             {
                 _titleArticle = dt.Rows[0]["C_Name"].ToString();
@@ -94,7 +95,7 @@ namespace Web.Control.nmn
         {
             CategorySubInfo info = new CategorySubInfo();
             info.C_ID = _cateID;
-            DataTable dt = CategorySubDB.CategorySubsByCateWithoutCurrentID(1, pageSize, info, exceptArticleId);
+            DataTable dt = CategorySubDB.CategorySubsByCateWithoutCurrentID(1, 4, info, exceptArticleId);
             if (dt.Rows.Count > 0)
             {
                 _titleArticle = dt.Rows[0]["C_Name"].ToString();

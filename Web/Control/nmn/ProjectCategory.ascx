@@ -18,6 +18,19 @@
         </div>
     </div>--%>
 </section>
+<div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
+    <div class="container">
+        <span property="itemListElement" typeof="ListItem" class="breadcrumbs-page">
+            <a property="item" typeof="WebPage" title="Go to ABARO." href="http://ngoinhatuonglai.vn" class="home"><span property="name">Trang chủ</span></a>
+            <meta property="position" content="1">
+        </span>
+        <i class="fa fa-angle-right slash" aria-hidden="true"></i>
+        <span class="archive post-product-archive current-item">
+            <a property="item" typeof="WebPage" title="Go to ARBARO." href="/du-an.htm" class="home"><span property="name">Dự án</span></a>
+        </span>
+        
+    </div>
+</div>
 <!-- END BANNER -->
 
 <!-- NAV BREADCUMBS-->
@@ -38,7 +51,7 @@
 
 <%--<div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
     <div class="container">
-        <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to NORDIC." href="http://ngoinhatuonglai.vn" class="home"><span property="name">Trang chủ</span></a><meta property="position" content="1"></span> <i class="fa fa-angle-right slash" aria-hidden="true"></i><span class="archive post-product-archive current-item">Sản phẩm</span>
+        <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to ARBARO." href="http://ngoinhatuonglai.vn" class="home"><span property="name">Trang chủ</span></a><meta property="position" content="1"></span> <i class="fa fa-angle-right slash" aria-hidden="true"></i><span class="archive post-product-archive current-item">Sản phẩm</span>
     </div>
 </div>--%>
 <!-- PROJECT -->
@@ -67,6 +80,7 @@
         </asp:Repeater>
     </div>
     <asp:Literal ID="lblPaging" runat="server" />
+    <div class="spacer spacer-small"></div>
     <%--<div class="wp-pagenavi" role="navigation">
         <span class="pages">Trang 1 trên 6</span><span aria-current="page" class="current">1</span><a class="page larger" title="Page 2" href="https://nordic.vn/san-pham/page/2/">2</a><a class="page larger" title="Page 3" href="https://nordic.vn/san-pham/page/3/">3</a><a class="page larger" title="Page 4" href="https://nordic.vn/san-pham/page/4/">4</a><a class="page larger" title="Page 5" href="https://nordic.vn/san-pham/page/5/">5</a><span class="extend">...</span><a class="nextpostslink" rel="next" aria-label="Trang sau" href="https://nordic.vn/san-pham/page/2/">»</a><a class="last" aria-label="Last Page" href="https://nordic.vn/san-pham/page/6/">Trang cuối »</a>
     </div>--%>

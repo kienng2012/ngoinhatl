@@ -376,7 +376,7 @@
                                         <div class="regency">Trưởng khoa MTCN ĐHKTHN</div>
                                     </div>
                                 </div>
-                                <div class="content">Thiết kế &amp; Sản xuất đồ nội thất là một mảnh đất rộng lớn nhưng đang rất hoang hóa ở Việt Nam. SEMA ARBARO là một trong số ít đơn vị đi đầu trong lĩnh vực này. Tôi thực sự đánh giá cao cách làm việc của  NORDIC. Các ý tưởng thiết kế được tái hiện rất xuất sắc.</div>
+                                <div class="content">Thiết kế &amp; Sản xuất đồ nội thất là một mảnh đất rộng lớn nhưng đang rất hoang hóa ở Việt Nam. SEMA ARBARO là một trong số ít đơn vị đi đầu trong lĩnh vực này. Tôi thực sự đánh giá cao cách làm việc của  ARBARO. Các ý tưởng thiết kế được tái hiện rất xuất sắc.</div>
                             </div>
                         </div>
                     </div>
@@ -432,7 +432,7 @@
                                         <div class="regency">VTV3</div>
                                     </div>
                                 </div>
-                                <div class="content">Biết đến Queen Chair sau lần đọc Heritage rồi trở thành khách hàng của  NORDIC, Xuân Quỳnh thật sự bị ấn tượng bởi cách mà ARBARO  làm việc. Các sản phẩm được thiết kế tỉ mỉ trong từng đường nét, sự có tâm trong tư vấn khiến Quỳnh cảm thấy hài lòng.</div>
+                                <div class="content">Biết đến Queen Chair sau lần đọc Heritage rồi trở thành khách hàng của  ARBARO, Xuân Quỳnh thật sự bị ấn tượng bởi cách mà ARBARO  làm việc. Các sản phẩm được thiết kế tỉ mỉ trong từng đường nét, sự có tâm trong tư vấn khiến Quỳnh cảm thấy hài lòng.</div>
                             </div>
                         </div>
                     </div>

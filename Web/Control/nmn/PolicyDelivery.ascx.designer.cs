@@ -11,16 +11,16 @@ namespace Web.Control.nmn
 {
 
 
-    public partial class Testimonial
+    public partial class PolicyDelivery
     {
 
         /// <summary>
-        /// BannerContact control.
+        /// ReservationForm1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::Web.Control.nmn.BannerContact BannerContact;
+        protected global::Web.Control.nmn.ReservationForm ReservationForm1;
     }
 }

@@ -14,7 +14,7 @@
 
 <!-- NAV BREADCUMBS-->
 <div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
-    <span property="itemListElement" typeof="ListItem">
+    <span property="itemListElement" typeof="ListItem" class="breadcrumbs-page">
         <a property="item" typeof="WebPage" title="Go to ABARO." href="http://ngoinhatuonglai.vn" class="home"><span property="name">Trang chủ</span></a>
         <meta property="position" content="1">
     </span>

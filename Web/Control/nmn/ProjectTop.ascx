@@ -79,7 +79,7 @@
                                             </div>
                                         </div>
                                         <h3 class="name"><a href="https://nordic.vn/bao-thanh-nien-nha-thiet-ke-ve-ghe-hoang-hau/">Báo Thanh Niên – Nhà thiết kế vẽ ghế hoàng hậu</a></h3>
-                                        <div class="text">Chiếc ghế nhỏ màu xanh óng, có tay bịt vàng, với gối đệm lưng màu cam được đặt trên một bệ nhỏ tại phòng trưng bày thiết kế của Nordic, một thương hiệu nội thất...</div>
+                                        <div class="text">Chiếc ghế nhỏ màu xanh óng, có tay bịt vàng, với gối đệm lưng màu cam được đặt trên một bệ nhỏ tại phòng trưng bày thiết kế của ARBARO, một thương hiệu nội thất...</div>
                                         <div class="link"><a href="https://nordic.vn/bao-thanh-nien-nha-thiet-ke-ve-ghe-hoang-hau/">Xem chi tiết <i></i></a></div>
                                     </div>
                                 </div>
@@ -96,7 +96,4 @@
         </div>
     </div>
 </div>
-
-
-
 <!-- Menu End -->

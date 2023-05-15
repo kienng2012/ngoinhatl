@@ -14,12 +14,13 @@
                 </div>
                 <div class="header_menu">
                     <ul id="menu-menu-main" class="menu clearfix">
-                        <li id="menu-item-1720" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1720 nav-item"><a class="nav-links" href="/gioi-thieu.htm">Giới thiệu</a>
+                        <%--<li id="menu-item-1720" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1720 nav-item"><a class="nav-links" href="/gioi-thieu.htm">Giới thiệu</a>
                             <ul class="sub-menu">
                                 <li id="menu-item-1729" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1729 nav-item"><a class="nav-links" href="/gioi-thieu.htm#General_ARBARO">Tổng quan</a></li>
                                 <li id="menu-item-1730" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1730 nav-item"><a class="nav-links" href="/gioi-thieu.htm#Team_ARBARO">Đội ngũ</a></li>
                             </ul>
-                        </li>
+                        </li>--%>
+                        <li id="menu-item-2611" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2673 nav-item"><a class="nav-links" href="/gioi-thieu.htm">Giới thiệu</a></li>
                         <li id="menu-item-1721" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1721 nav-item"><a class="nav-links" href="/du-an.htm">Dự án</a>
                             <ul class="sub-menu">
                                 <li id="menu-item-2322" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2322 nav-item"><a class="nav-links" href="/du-an/chung-cu.htm">Chung cư</a></li>
@@ -41,14 +42,20 @@
                             </ul>
                         </li>
                         <li id="menu-item-2674" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2673 nav-item"><a class="nav-links" href="/arbaro24h.htm">Arbaro 24h</a></li>
-                        <li id="menu-item-2675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2673 nav-item"><a class="nav-links" href="/chinh-sach.htm">Chính sách</a></li>
+                        <li id="menu-item-1700" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1722 nav-item"><a class="nav-links" href="/chinh-sach.htm">Chính sách</a>
+                            <ul class="sub-menu">
+                                <li id="menu-item-1701" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2307 nav-item"><a class="nav-links" href="/chinh-sach-bao-hanh.htm">Chính sách bảo hành</a></li>
+                                <li id="menu-item-1702" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-2304 nav-item"><a class="nav-links" href="/chinh-sach-uu-dai.htm">Chính sách ưu đãi</a></li>
+                                <li id="menu-item-1703" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3313 nav-item"><a class="nav-links" href="/chinh-sach-van-chuyen.htm">Chính sách vận chuyển</a></li>
+                            </ul>
+                        </li>
                         <li id="menu-item-2676" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2673 nav-item"><a class="nav-links" href="/trai-nghiem.htm">Trải nghiệm khách hàng</a></li>
                         <li id="menu-item-2673" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2673 nav-item"><a class="nav-links" href="/lien-he.htm">Liên hệ</a></li>
                         <li id="menu-item-2248" class="menu-item menu-item-type-taxonomy menu-item-object-project_cat menu-item-2248 nav-item"><a class="nav-links" href="/tuyen-dung.htm">Tuyển dụng</a></li>
                     </ul>
                     <form role="search" method="get" class="woocommerce-search" action="http://ngoinhatuonglai.vn/">
                         <label class="screen-reader-text" for="woocommerce-product-search-field-0">Tìm kiếm:</label>
-                        <input type="search" id="woocommerce-product-search-field-0" class="search-field" placeholder="" value="" name="s">
+                        <input type="search" id="woocommerce-product-search-field-01" class="search-field" placeholder="" value="" name="s">
                         <button type="submit" value="Tìm kiếm"><i class="iconx icon-search"></i></button>
                         <input type="hidden" name="post_type" value="product">
                     </form>
@@ -57,7 +64,7 @@
         </div>
         <div class="header_search">
             <form role="search" method="get" class="woocommerce-product-search" action="http://ngoinhatuonglai.vn/">
-                <label class="screen-reader-text" for="woocommerce-product-search-field-0">Tìm kiếm:</label>
+                <label class="screen-reader-text" for="woocommerce-product-search-field-2">Tìm kiếm:</label>
                 <input type="search" id="woocommerce-product-search-field-0" class="search-field" placeholder="Tìm sản phẩm…" value="" name="s">
                 <button type="submit" value="Tìm kiếm"><i class="fa fa-search" aria-hidden="true"></i></button>
                 <input type="hidden" name="post_type" value="product">
@@ -82,12 +89,13 @@
     </div>
     <div id="menu_bar_mobile">
         <ul id="menu-menu-mobile" class="menu_mobile clearfix">
-            <li id="menu-item-2297" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-250 nav-item"><a class="nav-links" href="/gioi-thieu.htm">Giới thiệu</a><i class="fa fa-caret-down"></i>
+            <%--<li id="menu-item-2297" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-250 nav-item"><a class="nav-links" href="/gioi-thieu.htm">Giới thiệu</a><i class="fa fa-caret-down"></i>
                 <ul class="sub-menu">
                     <li id="menu-item-257" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-257 nav-item"><a class="nav-links" href="/gioi-thieu.htm#General_ARBARO">Tổng quan</a></li>
                     <li id="menu-item-259" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-251 nav-item"><a class="nav-links" href="/gioi-thieu.htm#Team_ARBARO">Đội ngũ</a></li>
                 </ul>
-            </li>
+            </li>--%>
+               <li id="menu-item-2333" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2303 nav-item"><a class="nav-links" href="/gioi-thieu.htm">Giới thiệu</a></li>
             <li id="menu-item-250" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-250 nav-item"><a class="nav-links" href="/du-an.htm">Dự án</a><i class="fa fa-caret-down"></i>
                 <ul class="sub-menu">
                     <li id="menu-item-256" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-256 nav-item"><a class="nav-links" href="/du-an/chung-cu.htm">Chung cư</a></li>
@@ -108,8 +116,14 @@
                 </ul>
             </li>
             <li id="menu-item-2332" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2303 nav-item"><a class="nav-links" href="/arbaro24h.htm">Arbaro 24h</a></li>
-            <li id="menu-item-2334" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2303 nav-item"><a class="nav-links" href="/chinh-sach.htm">Chính sách</a></li>
-            <li id="menu-item-2333" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2303 nav-item"><a class="nav-links" href="/trai-nghiem.htm">Trải nghiệm khách hàng</a></li>
+            <li id="menu-item-266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-250 nav-item"><a class="nav-links" href="/chinh-sach.htm">Chính sách</a><i class="fa fa-caret-down"></i>
+                <ul class="sub-menu">
+                    <li id="menu-item-267" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-256 nav-item"><a class="nav-links" href="/chinh-sach-bao-hanh.htm">Chính sách bảo hành</a></li>
+                    <li id="menu-item-268" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-258 nav-item"><a class="nav-links" href="/chinh-sach-uu-dai.htm">Chính sách ưu đãi</a></li>
+                    <li id="menu-item-269" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-252 nav-item"><a class="nav-links" href="/chinh-sach-giao-hang.htm">Chính sách giao hàng</a></li>
+                </ul>
+            </li>
+            <li id="menu-item-2335" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2303 nav-item"><a class="nav-links" href="/trai-nghiem.htm">Trải nghiệm khách hàng</a></li>
             <li id="menu-item-2303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2303 nav-item"><a class="nav-links" href="/lien-he.htm">Liên hệ</a></li>
             <li id="menu-item-2295" class="menu-item menu-item-type-taxonomy menu-item-object-project_cat menu-item-2295 nav-item"><a class="nav-links" href="/tuyen-dung.htm">Tuyển dụng</a></li>
         </ul>

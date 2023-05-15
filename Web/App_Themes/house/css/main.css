@@ -21765,7 +21765,7 @@ body:not(.search-results) .twentysixteen .entry-summary {
 }
 
 .one-half, .three-sixths, .two-fourths {
-    width: 48.717948717948715%
+    width: 48.717948717948715% !important
 }
 
 .one-third, .two-sixths {
@@ -41076,7 +41076,7 @@ body.page-template-gioi-thieu {
     }
 
     .title_home2.title_page .title {
-        font-size: 22px;
+        font-size: 22px !important;
         padding-right: 0
     }
 

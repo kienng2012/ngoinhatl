@@ -19,10 +19,23 @@
 <!-- END BANNER -->
 
 <!-- NAV BREADCUMBS-->
+<div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
+    <div class="container">
+        <span property="itemListElement" typeof="ListItem" class="breadcrumbs-page">
+            <a property="item" typeof="WebPage" title="Go to ABARO." href="http://ngoinhatuonglai.vn" class="home"><span property="name">Trang chủ</span></a>
+            <meta property="position" content="1">
+        </span>
+        <i class="fa fa-angle-right slash" aria-hidden="true"></i>
+        <span class="archive post-product-archive current-item">
+            <a property="item" typeof="WebPage" title="Go to ARBARO." href="/phong-cach.htm" class="home"><span property="name">Phong cách thiết kế</span></a>
+        </span>
+
+    </div>
+</div>
 <!-- END NAV BREADCUMBS -->
 <%--<div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
     <div class="container">
-        <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to NORDIC." href="https://nordic.vn" class="home"><span property="name">Trang chủ</span></a><meta property="position" content="1"></span> <i class="fa fa-angle-right slash" aria-hidden="true"></i><span class="archive post-product-archive current-item">Sản phẩm</span>
+        <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to ARBARO." href="https://nordic.vn" class="home"><span property="name">Trang chủ</span></a><meta property="position" content="1"></span> <i class="fa fa-angle-right slash" aria-hidden="true"></i><span class="archive post-product-archive current-item">Sản phẩm</span>
     </div>
 </div>--%>
 <!-- PROJECT -->
@@ -59,6 +72,7 @@
         </asp:Repeater>
     </div>
     <asp:Literal ID="lblPaging" runat="server" />
+    <div class="spacer spacer-small"></div>
 </div>
 <%--</div>--%>
 

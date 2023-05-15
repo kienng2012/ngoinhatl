@@ -13,7 +13,7 @@ namespace Web.Control.nmn
         protected int _cateID;
         protected string _cateName;
         protected int _pageNumber;
-        const int pageSize = 9;
+        const int pageSize = 12;
         protected string _baseUrlPaging = "tuyen-dung";
         protected void Page_Load(object sender, EventArgs e)
         {

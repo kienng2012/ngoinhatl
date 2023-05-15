@@ -18,20 +18,21 @@ namespace Web.Control.nmn
         }
         protected void LoadDataByCate(int page)
         {
-            _cateName = "Tin tức";
+            _cateName = "Phong cách";
             if (Request.QueryString["cateID"] != null)
             {
                 _cateID = Convert.ToInt32(Request.QueryString["cateID"]);
             }
-            else { _cateID = 1; }
+            else { _cateID = 8; }
 
             CategorySubInfo info = new CategorySubInfo();
+            info.C_ParentID = _cateID; //Lay theo parentID
             info.C_ID = _cateID;
-            DataTable dt = CategorySubDB.CategorySub_GetAll_ByCate_Pager(page, 20, info);
-            if (dt.Rows.Count > 0)
-            {
-                _cateName = dt.Rows[0]["C_Name"].ToString();
-            }
+            DataTable dt = CategorySubDB.CategorySub_GetAll_ByCate_Pager(page, 12, info);
+            //if (dt.Rows.Count > 0)
+            //{
+            //    _cateName = dt.Rows[0]["C_Name"].ToString();
+            //}
             //lblCateName.Text = _cateName;
             //pagerCateSub.ItemCount = info.Output;
             //pagerCateSub.ItemsPerPage = 8;
