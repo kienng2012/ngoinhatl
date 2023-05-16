@@ -39,8 +39,11 @@
 
         private int _C_ParentID;
         public int C_ParentID { get => _C_ParentID; set => _C_ParentID = value; }
+        public string C_Keyword { get => _C_Keyword; set => _C_Keyword = value; }
+        public string C_MetaDesc { get => _C_MetaDesc; set => _C_MetaDesc = value; }
 
-
+        private string _C_Keyword;
+        private string _C_MetaDesc;
 
     }
 

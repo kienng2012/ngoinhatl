@@ -50,6 +50,9 @@ namespace Web.Control.nmn
                     //lblCateName.Text = info.C_Name;
                     //_cateName = info.C_Name;
                     _intCateID = Convert.ToInt32(dt.Rows[0]["C_ID"]);
+                    //For SEO Web .Ref: https://stackoverflow.com/questions/6198726/how-to-add-meta-tag-to-asp-net-content-page
+                    if (dt.Rows[0]["CS_Cmd"] != DBNull.Value && !String.IsNullOrEmpty(dt.Rows[0]["CS_Cmd"].ToString())) Page.MetaKeywords = dt.Rows[0]["CS_Cmd"].ToString();
+                    Page.MetaDescription = _titleArticle;
                 }
 
                 //lblDate.Text = info.CS_CreateDate.ToString("dd/MM/yyyy");

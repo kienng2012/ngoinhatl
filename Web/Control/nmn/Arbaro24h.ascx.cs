@@ -41,9 +41,12 @@ namespace Web.Control.nmn
             info.C_ID = _cateID;
             info.C_ParentID = _cateID; //Query theo parentID
             DataTable dt = CategorySubDB.CategorySub_GetAll_ByCate_Pager(_pageNumber, pageSize, info);
-            if (dt.Rows.Count > 0)
+            CategoryInfo objCate = CategoryDB.GetInfo(_cateID);
+            if (objCate != null)
             {
-                _cateName = dt.Rows[0]["C_Name"].ToString();
+                //For SEO Web .Ref: https://stackoverflow.com/questions/6198726/how-to-add-meta-tag-to-asp-net-content-page
+                if (objCate.C_Keyword != null && !String.IsNullOrEmpty(objCate.C_Keyword)) Page.MetaKeywords = objCate.C_Keyword;
+                if (objCate.C_MetaDesc != null && !String.IsNullOrEmpty(objCate.C_MetaDesc)) Page.MetaDescription = objCate.C_MetaDesc;
             }
             int totalRecord = info.Output;
             //lblCateName.Text = _cateName;

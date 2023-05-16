@@ -83,11 +83,11 @@
                             <CellStyle HorizontalAlign="Center">
                             </CellStyle>
                         </dx:GridViewDataTextColumn>
-                        <%--  <dx:GridViewDataTextColumn Caption="Cú pháp" FieldName="CS_Cmd" VisibleIndex="2">
+                        <dx:GridViewDataTextColumn Caption="Từ khóa" FieldName="CS_Cmd" VisibleIndex="2">
                             <HeaderStyle HorizontalAlign="Center" />
                             <CellStyle HorizontalAlign="Center">
                             </CellStyle>
-                        </dx:GridViewDataTextColumn>--%>
+                        </dx:GridViewDataTextColumn>
                         <dx:GridViewDataTextColumn Caption="Thao Tác" VisibleIndex="5" ShowInCustomizationForm="True">
                             <DataItemTemplate>
                                 <%-- <a href="javascript:void(0)" onclick="OnUpdate(this,<%# Container.KeyValue %>)">Sửa</a><br />
@@ -163,13 +163,13 @@
                             </dx:ASPxTextBox>
                         </td>
                     </tr>
-                    <%--<tr>
-                        <td class="style1">Cú pháp:
+                    <tr>
+                        <td class="style1">Từ khóa:
                         </td>
                         <td>
                             <dx:ASPxTextBox ID="txtCMD" runat="server" ClientIDMode="AutoID" CssFilePath="~/App_Themes/Aqua/{0}/styles.css"
                                 CssPostfix="Aqua" SpriteCssFilePath="~/App_Themes/Aqua/{0}/sprite.css"
-                                Width="250px">
+                                Width="900px">
                                 <ValidationSettings CausesValidation="True" SetFocusOnError="True" ValidationGroup="News">
                                     <ErrorFrameStyle ImageSpacing="4px">
                                         <ErrorTextPaddings PaddingLeft="4px" />
@@ -180,7 +180,7 @@
                                 </ValidationSettings>
                             </dx:ASPxTextBox>
                         </td>
-                    </tr>--%>
+                    </tr>
                     <tr>
                         <td valign="top" class="style1">Chọn danh mục
                         </td>
@@ -218,7 +218,7 @@
                                 </dx:ASPxImage>
                             </div>
                             <br />
-                            <asp:FileUpload ID="fileAvatar"  runat="server" Width="350px" />
+                            <asp:FileUpload ID="fileAvatar" runat="server" Width="350px" />
 
                         </td>
                     </tr>

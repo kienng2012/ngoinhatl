@@ -84,11 +84,17 @@
                             <CellStyle HorizontalAlign="Center">
                             </CellStyle>
                         </dx:GridViewDataTextColumn>
+                        <dx:GridViewDataTextColumn Caption="Từ khóa" FieldName="C_Keyword"
+                            VisibleIndex="3">
+                            <HeaderStyle HorizontalAlign="Center" />
+                            <CellStyle HorizontalAlign="Center">
+                            </CellStyle>
+                        </dx:GridViewDataTextColumn>
                         <dx:GridViewDataTextColumn Caption="Thao Tác" ShowInCustomizationForm="True" VisibleIndex="5">
                             <DataItemTemplate>
                                 <%--<a href="javascript:void(0)" onclick="OnUpdate(this,<%# Container.KeyValue %>)">Sửa</a><br />
                                 <a href="javascript:void(0)" onclick="OnInsert(this,'0')">Thêm mới</a>--%>
-                              <%--  <asp:LinkButton ID="linkbtnAdd" runat="server" CommandArgument="0" OnClick="linkbtnAdd_Click">Thêm mới</asp:LinkButton>--%>
+                                <%--  <asp:LinkButton ID="linkbtnAdd" runat="server" CommandArgument="0" OnClick="linkbtnAdd_Click">Thêm mới</asp:LinkButton>--%>
                                 <asp:LinkButton ID="linkbtnEdit" runat="server" CommandArgument='<%# Eval("C_ID") %>'
                                     OnClick="linkbtnEdit_Click">Sửa</asp:LinkButton>
                             </DataItemTemplate>
@@ -173,6 +179,22 @@
                                 <ValidationSettings>
                                     <RequiredField ErrorText=" Bạn chưa nhập tên đường dẫn link gốc" IsRequired="True" />
                                 </ValidationSettings>
+                            </dx:ASPxTextBox>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label_minigame">Từ khóa:
+                        </td>
+                        <td class="text_minigame">
+                            <dx:ASPxTextBox ID="txtKeyword" runat="server" Width="800px">
+                            </dx:ASPxTextBox>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label_minigame">Meta description:
+                        </td>
+                        <td class="text_minigame">
+                            <dx:ASPxTextBox ID="txtMetaDesc" TextMode="MultiLine" Rows="3" runat="server" Width="800px">
                             </dx:ASPxTextBox>
                         </td>
                     </tr>

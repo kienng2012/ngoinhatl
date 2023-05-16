@@ -3,6 +3,8 @@ using Core.CategorySub;
 using Core.Utils;
 using System;
 using System.Data;
+using System.Runtime.Remoting.Messaging;
+using System.Web.UI.HtmlControls;
 using System.Web.UI.WebControls;
 
 
@@ -24,6 +26,8 @@ namespace Web.Control.nmn
         }
         protected void LoadDataByCate()
         {
+
+
             _cateName = "Dự án";
             if (Request.QueryString["cateID"] != null)
             {
@@ -40,15 +44,16 @@ namespace Web.Control.nmn
             CategorySubInfo info = new CategorySubInfo();
             info.C_ID = _cateID;
             info.C_ParentID = _cateID;
+            CategoryInfo objCate = CategoryDB.GetInfo(_cateID);
+            if (objCate != null)
+            {
+                //For SEO Web .Ref: https://stackoverflow.com/questions/6198726/how-to-add-meta-tag-to-asp-net-content-page
+                if (objCate.C_Keyword != null && !String.IsNullOrEmpty(objCate.C_Keyword)) Page.MetaKeywords = objCate.C_Keyword;
+                if (objCate.C_MetaDesc != null && !String.IsNullOrEmpty(objCate.C_MetaDesc)) Page.MetaDescription = objCate.C_MetaDesc;
+            }
             DataTable dt = CategorySubDB.CategorySub_GetAll_ByCate_Pager(_pageNumber, pageSize, info);
-            //if (dt.Rows.Count > 0)
-            //{
-            //    _cateName = dt.Rows[0]["C_Name"].ToString();
-            //}
+
             int totalRecord = info.Output;
-            //lblCateName.Text = _cateName;
-            //pagerCateSub.ItemCount = info.Output;
-            //pagerCateSub.ItemsPerPage = 8;
             rptListCate.DataSource = dt;
             rptListCate.DataBind();
 

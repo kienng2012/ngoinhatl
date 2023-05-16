@@ -59,6 +59,9 @@ namespace Web.Control.nmn
                 rpImages.DataBind();
 
                 Page.Title = info.CS_Name;//Set dynamic title page . tag <head runat="server">
+                //For SEO Web .Ref: https://stackoverflow.com/questions/6198726/how-to-add-meta-tag-to-asp-net-content-page
+                if (info.CS_Cmd != null && !String.IsNullOrEmpty(info.CS_Cmd)) Page.MetaKeywords = info.CS_Cmd;
+                Page.MetaDescription = info.CS_Name;
                 //Load cac bai viet lien quan
                 //this.LoadDataByCateWithoutCurrentID(info.C_ID, info.CS_ID);
             }

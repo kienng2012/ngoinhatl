@@ -43,33 +43,18 @@ namespace Web.Control.nmn
                     rptDetail.DataSource = dt;
                     rptDetail.DataBind();
                     _titleArticle = dt.Rows[0]["CS_Name"].ToString();
-                    Page.Title = _titleArticle;//Set dynamic title page . tag <head runat="server">
+
                     lblTitlePage.Text = _titleArticle;
                     imgService.ImageUrl = dt.Rows[0]["CS_ImageURL"].ToString();
                     //lblContent.Text = info.CS_Content;
                     //lblCateName.Text = info.C_Name;
                     //_cateName = info.C_Name;
                     _intCateID = Convert.ToInt32(dt.Rows[0]["C_ID"]);
+                    Page.Title = _titleArticle;//Set dynamic title page . tag <head runat="server">
+                    //For SEO Web .Ref: https://stackoverflow.com/questions/6198726/how-to-add-meta-tag-to-asp-net-content-page
+                    if (dt.Rows[0]["CS_Cmd"] != DBNull.Value && !String.IsNullOrEmpty(dt.Rows[0]["CS_Cmd"].ToString())) Page.MetaKeywords = dt.Rows[0]["CS_Cmd"].ToString();
+                    Page.MetaDescription = _titleArticle;
                 }
-
-                //lblDate.Text = info.CS_CreateDate.ToString("dd/MM/yyyy");
-
-
-                //if (info.CS_ArticleImgs != null)
-                //{
-                //    if (info.CS_ArticleImgs.Contains(';'))
-                //    {
-                //        char tmp = info.CS_ArticleImgs[info.CS_ArticleImgs.Length - 1];
-                //        if (tmp == ';') //Loai bo ki tu ; cuoi cung
-                //        { info.CS_ArticleImgs = info.CS_ArticleImgs.Substring(0, info.CS_ArticleImgs.Length - 1); }
-                //    }
-                //    info.lstArticleImgs = info.CS_ArticleImgs.Split(';');
-                //    rpImages.DataSource = from c in info.lstArticleImgs select new { IMG_URL_ITEM = c };
-                //}
-
-                //rpImages.DataBind();
-
-
                 //Load cac bai viet lien quan
                 //this.LoadDataByCateWithoutCurrentID(_intCateID, info.CS_ID);
                 this.LoadDataByProjectWithoutCurrentID(_cateProjectID, _serviceID);

@@ -20,7 +20,6 @@ namespace Web.Control
             this.PageInt();
         }
 
-
         public void PageInt()
         {
             mtvMain.ActiveViewIndex = 0;
@@ -28,9 +27,7 @@ namespace Web.Control
             Session[SESSION_CATE_GAME1] = dt;
             grvCateGame.DataSource = dt;
             grvCateGame.DataBind();
-
         }
-
         protected void btnAdd_Click(object sender, EventArgs e)
         {
             CategoryInfo objCate = null;
@@ -47,7 +44,8 @@ namespace Web.Control
                     objCate = new CategoryInfo();
                     objCate.C_Name = txtName.Text;
                     objCate.C_BaseURL = txtBaseUrl.Text;
-                    //objCate.C_Description = txtDescription.Text;
+                    objCate.C_MetaDesc = txtMetaDesc.Text;
+                    objCate.C_Keyword = txtKeyword.Text;
                     objCate.C_Description = Convert.ToString(fckDescription.Value);
                     StringBuilder sbArticleImgs = new StringBuilder();
                     if (fileUpload.HasFile)
@@ -153,6 +151,8 @@ namespace Web.Control
                 //    return;
                 //}
                 objCate.C_Description = Convert.ToString(fckDescription.Value);
+                objCate.C_MetaDesc = txtMetaDesc.Text;
+                objCate.C_Keyword = txtKeyword.Text;
                 bool isUpdate = CategoryDB.Update(objCate);
                 if (isUpdate)
                 {

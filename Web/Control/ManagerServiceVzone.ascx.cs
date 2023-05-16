@@ -21,8 +21,6 @@ namespace Web.Control
 
         protected void Page_Load(object sender, EventArgs e)
         {
-
-
             if (Session[SESSION_CATE_GAME] != null)
             {
                 grvCateGame.DataSource = Session[SESSION_CATE_GAME];
@@ -31,14 +29,12 @@ namespace Web.Control
 
             if (!IsPostBack)
             {
-
                 this.LoadCategoryName(cbxCategory);
                 cbxCategory.SelectedIndex = 0;
                 this.resetData();
                 this.PageInt();
             }
         }
-
 
         public void PageInt()
         {
@@ -47,14 +43,13 @@ namespace Web.Control
             Session[SESSION_CATE_GAME] = dt;
             grvCateGame.DataSource = dt;
             grvCateGame.DataBind();
-
         }
-
 
         public void resetData()
         {
             txtName.IsValid = true;
-            //txtCMD.IsValid = true;
+            txtCMD.IsValid = true;
+            txtCMD.Text = "";
             txtName.Text = "";
             txtDescription1.Value = "";
             lblStatus.Text = "";
@@ -62,7 +57,7 @@ namespace Web.Control
             fckContent.Value = "";
             ckboxDisplay.Checked = false;
             cbxCategory.SelectedIndex = 0;
-            //txtCMD.Text = "";
+
         }
 
         protected void linkbtnEdit_Click(object sender, EventArgs e)
@@ -79,7 +74,7 @@ namespace Web.Control
 
                     txtName.Text = info.CS_Name;
                     txtDescription1.Text = HttpUtility.HtmlDecode(info.CS_Description);
-                    //txtCMD.Text = HttpUtility.HtmlDecode(info.CS_Cmd);
+                    txtCMD.Text = HttpUtility.HtmlDecode(info.CS_Cmd);
                     fckContent.Value = info.CS_Content;
                     imageServiceView.ImageUrl = info.CS_ImageURL;
                     imageAvatar.ImageUrl = info.CS_ImageURL;
@@ -204,8 +199,8 @@ namespace Web.Control
                     objInfo.CS_Name = txtName.Text;
                     objInfo.CS_Content = Convert.ToString(fckContent.Value);
                     objInfo.CS_Description = ProcessSubString(HttpUtility.HtmlEncode(txtDescription1.Text), 185);
-                    //objInfo.CS_Cmd = txtCMD.Text;
-                    //objInfo.CS_Cmd = HttpUtility.HtmlEncode(txtCMD.Text);
+                    objInfo.CS_Cmd = txtCMD.Text;
+                    objInfo.CS_Cmd = HttpUtility.HtmlEncode(txtCMD.Text);
                     if (ckboxDisplay.Checked)
                     {
                         objInfo.CS_TypeDisplay = 1;
@@ -228,7 +223,6 @@ namespace Web.Control
                         if ((fileAvatar.PostedFile != null) && (fileAvatar.PostedFile.ContentLength > 0))
                         {
                             //String path = "/Upload/Article/";
-
                             foreach (HttpPostedFile uploadedFile in fileAvatar.PostedFiles)
                             {
                                 string prefixNameFile = DateTime.Now.ToString("yyyyMMddHHmmssfff") + "_";
@@ -255,7 +249,6 @@ namespace Web.Control
                         lblStatus.ForeColor = Color.Red;
                         return;
                     }
-
                     //Danh sach Anh cua bai viet
                     StringBuilder sbArticleImgs = new StringBuilder();
                     if (fileUpload.HasFile)
@@ -263,8 +256,6 @@ namespace Web.Control
                         if ((fileUpload.PostedFile != null) && (fileUpload.PostedFile.ContentLength > 0))
                         {
                             var count = 0;
-                            //String path = "/Upload/Article/";
-
                             foreach (HttpPostedFile uploadedFile in fileUpload.PostedFiles)
                             {
                                 string prefixNameFile = DateTime.Now.ToString("yyyyMMddHHmmssfff") + "_";
@@ -315,7 +306,6 @@ namespace Web.Control
                      }
                     */
 
-
                     int status = CategorySubDB.Insert(objInfo);
                     if (status > 1)
                     {
@@ -337,8 +327,8 @@ namespace Web.Control
                 objInfo.CS_Name = txtName.Text;
                 objInfo.CS_Content = Convert.ToString(fckContent.Value);
                 objInfo.CS_Description = ProcessSubString(HttpUtility.HtmlEncode(txtDescription1.Text), 185);
-                //objInfo.CS_Cmd = txtCMD.Text;
-                //objInfo.CS_Cmd = HttpUtility.HtmlEncode(txtCMD.Text);
+                objInfo.CS_Cmd = txtCMD.Text;
+                objInfo.CS_Cmd = HttpUtility.HtmlEncode(txtCMD.Text);
                 if (ckboxDisplay.Checked)
                 {
                     objInfo.CS_TypeDisplay = 1;
@@ -421,8 +411,6 @@ namespace Web.Control
                     }
 
                 }
-
-
 
                 bool status = CategorySubDB.Update(objInfo);
                 {

@@ -50,6 +50,8 @@ namespace Core.Category
             dbCmd.Parameters.Add("@C_Description", _categoryInfo.C_Description);
             dbCmd.Parameters.Add("@C_BaseURL", _categoryInfo.C_BaseURL);
             dbCmd.Parameters.Add("@C_ImageURL", _categoryInfo.C_ImageURL);
+            dbCmd.Parameters.Add("@C_MetaDesc", _categoryInfo.C_MetaDesc);
+            dbCmd.Parameters.Add("@C_Keyword", _categoryInfo.C_Keyword);
             dbCmd.Parameters.Add("@RETURN_VALUE", SqlDbType.Int).Direction = ParameterDirection.ReturnValue;
             try
             {
@@ -73,7 +75,9 @@ namespace Core.Category
             dbCmd.Parameters.Add("@C_BaseURL", _categoryInfo.C_BaseURL);
             dbCmd.Parameters.Add("@C_ImageURL", _categoryInfo.C_ImageURL);
             dbCmd.Parameters.Add("@C_Description", _categoryInfo.C_Description);
-
+            dbCmd.Parameters.Add("@C_MetaDesc", _categoryInfo.C_MetaDesc);
+            dbCmd.Parameters.Add("@C_Keyword", _categoryInfo.C_Keyword);
+            
             try
             {
                 dbConn.Open();
@@ -106,8 +110,9 @@ namespace Core.Category
                     retVal.C_Name = Convert.ToString(dr["C_Name"]);
                     retVal.C_BaseURL = Convert.ToString(dr["C_BaseURL"]);
                     retVal.C_ImageURL = Convert.ToString(dr["C_ImageURL"]);
+                    retVal.C_Keyword = Convert.ToString(dr["C_Keyword"]);
+                    retVal.C_MetaDesc = Convert.ToString(dr["C_MetaDesc"]);
                     retVal.C_Description = Convert.ToString(dr["C_Description"]);
-
                 }
                 if (dr != null) dr.Close();
             }
