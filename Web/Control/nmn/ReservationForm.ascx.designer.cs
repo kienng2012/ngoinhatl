@@ -87,13 +87,13 @@ namespace Web.Control.nmn
         protected global::System.Web.UI.WebControls.TextBox rContent;
 
         /// <summary>
-        /// btnSubmitReservation control.
+        /// btnSubmitContact control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSubmitReservation;
+        protected global::System.Web.UI.WebControls.Button btnSubmitContact;
 
         /// <summary>
         /// lblResultReservation control.

@@ -15,7 +15,8 @@ namespace Web.Control.nmn
             }
         }
 
-        protected void btnSubmitReservation_Click(object sender, EventArgs e)
+
+        protected void btnSubmitContact_Click(object sender, EventArgs e)
         {
             tbl_ReservationInfo dto = new tbl_ReservationInfo();
             dto.R_Name = rName.Text;
@@ -46,6 +47,5 @@ namespace Web.Control.nmn
             String templateEmail = string.Format(_tempReservation, rName.Text, rName.Text, rEmail.Text, rPhone.Text, rContent.Text);
             OutlookEmail.Send(destinationTo, destCCEmail, "[ngoinhatuonglai.vn] Khách hàng liên hệ/đặt lịch", templateEmail, true, null);
         }
-
     }
 }

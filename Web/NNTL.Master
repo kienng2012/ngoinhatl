@@ -57,8 +57,6 @@
         <p>Rất tiếc, sản phẩm này hiện không tồn tại. Hãy chọn một phương thức kết hợp khác.</p>
     </script>--%>
     <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/App_Themes/house/js/jquery.min.js")%>" id="jquery-core-js"></script>
-    <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/App_Themes/house/js/owl.carousel.js")%>"></script>
-    <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/App_Themes/house/js/owl.carousel.min.js")%>"></script>
     <%-- <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/App_Themes/house/js/script.js") %>"></script>--%>
     <%-- <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/App_Themes/house/js/imagesloaded.min.js") %>"></script>--%>
     <%-- <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/App_Themes/house/js/isotope.pkgd.min.js") %>"></script>--%>

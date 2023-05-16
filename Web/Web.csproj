@@ -232,6 +232,11 @@
     <Content Include="App_Themes\house\img\mess-icon.png" />
     <Content Include="App_Themes\house\img\nhm-1-scaled-1.jpg" />
     <Content Include="App_Themes\house\img\popup-boc-tham-tang-do-decor.png" />
+    <Content Include="App_Themes\house\img\qt_1.png" />
+    <Content Include="App_Themes\house\img\qt_2.png" />
+    <Content Include="App_Themes\house\img\qt_3.png" />
+    <Content Include="App_Themes\house\img\qt_4.png" />
+    <Content Include="App_Themes\house\img\qt_5.png" />
     <Content Include="App_Themes\house\img\QuyTrinhArbaro.png" />
     <Content Include="App_Themes\house\img\searchicon.png" />
     <Content Include="App_Themes\house\img\semina-2-1.jpg" />
@@ -274,8 +279,6 @@
     <Content Include="App_Themes\house\js\js2.js" />
     <Content Include="App_Themes\house\js\onion.js" />
     <Content Include="App_Themes\house\js\overlay.js" />
-    <Content Include="App_Themes\house\js\owl.carousel.js" />
-    <Content Include="App_Themes\house\js\owl.carousel.min.js" />
     <Content Include="App_Themes\house\js\remote.js" />
     <Content Include="App_Themes\house\js\search_impl.js" />
     <Content Include="App_Themes\nmn\about.html" />

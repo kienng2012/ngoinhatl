@@ -80,7 +80,7 @@
                 <div class="video">
                     <%--<iframe data-lazyloaded="1" width="560" height="315" src="https://www.youtube.com/embed/l6QwtZsFuew?autoplay=1&amp;mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen name="youtube embed" data-ll-status="loaded" class="entered litespeed-loaded"></iframe>--%>
                     <video width="320" height="240" autoplay muted controls loop>
-                        <source src="../../App_Themes/house/video/Arbaro.mp4" type="video/mp4">
+                        <source src="/App_Themes/house/video/Arbaro.mp4" type="video/mp4">
                     </video>
                 </div>
             </div>
@@ -181,26 +181,26 @@
 <section id="reason">
 
     <div class="reason-header">
-        <h2 class="mbr-section-title align-center mbr-fonts-style mbr-bold display-2">Quy trình làm việc ARBARO</h2>
+        <h2 class="mbr-section-title align-center mbr-fonts-style mbr-bold display-2">QUY TRÌNH LÀM VIỆC ARBARO</h2>
     </div>
 
     <div class="container">
         <div class="reason-content-desktop">
-            <div style="padding-left:30px; padding-right:30px">
-                <img src="../../App_Themes/house/img/QuyTrinhArbaro.png" width="700" height="220" alt="" data-lazy-src="../../App_Themes/house/img/QuyTrinhArbaro.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="../../App_Themes/house/img/QuyTrinhArbaro.png" width="700" height="220" alt=""></noscript>
+            <div class="pannel-img">
+                <img src="/App_Themes/house/img/QuyTrinhArbaro.png" width="700" height="220" alt="" data-lazy-src="/App_Themes/house/img/QuyTrinhArbaro.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="/App_Themes/house/img/QuyTrinhArbaro.png" width="700" height="220" alt=""></noscript>
             </div>
         </div>
         <div class="reason-content-mobile">
             <div class="reason-mobile-slide">
-                <div class="owl-carousel owl-theme reason-carousel owl-loaded owl-drag" id="reason-carousel">
+                <div class="slider_home owl-carousel owl-loaded owl-drag">
                     <div class="owl-stage-outer">
-                        <div class="owl-stage" style="transform: translate3d(-2660px, 0px, 0px); transition: all 0.25s ease 0s; width: 4180px;">
-                            <div class="owl-item active" style="width: 360px; margin-right: 20px;">
+                        <div class="owl-stage" style="transform: translate3d(-3654px, 0px, 0px); transition: all 0s ease 0s; width: 7308px;">
+                            <div class="owl-item active">
                                 <div class="item">
                                     <div class="reason-item">
                                         <div class="item-box">
                                             <p class="number">01</p>
-                                            <img src="https://housedesign.vn/images/dich-vu-khach-hang-tan-tam.png" width="65" height="50" data-lazy-src="https://housedesign.vn/images/dich-vu-khach-hang-tan-tam.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://housedesign.vn/images/dich-vu-khach-hang-tan-tam.png" width="65" height="50"></noscript>
+                                            <img src="/App_Themes/house/img/qt_1.png" width="65" height="50" data-lazy-src="/App_Themes/house/img/qt_1.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="/App_Themes/house/img/qt_1.png" width="65" height="50"></noscript>
                                             <p class="description">
                                                 Khảo sát và tư vấn tại công trình                                       
                                             </p>
@@ -208,12 +208,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="owl-item" style="width: 360px; margin-right: 20px;">
+                            <div class="owl-item">
                                 <div class="item">
                                     <div class="reason-item">
                                         <div class="item-box">
                                             <p class="number">02</p>
-                                            <img src="https://housedesign.vn/images/thiet-ke-sang-tao.png" width="65" height="50" data-lazy-src="https://housedesign.vn/images/thiet-ke-sang-tao.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://housedesign.vn/images/thiet-ke-sang-tao.png" width="65" height="50"></noscript>
+                                            <img src="/App_Themes/house/img/qt_2.png" width="65" height="50" data-lazy-src="/App_Themes/house/img/qt_2.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="/App_Themes/house/img/qt_2.png" width="65" height="50"></noscript>
                                             <p class="description">
                                                 Lên phương án thiết kế chỉ từ 3 ngày                                       
                                             </p>
@@ -221,12 +221,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="owl-item" style="width: 360px; margin-right: 20px;">
+                            <div class="owl-item">
                                 <div class="item">
                                     <div class="reason-item">
                                         <div class="item-box">
                                             <p class="number">03</p>
-                                            <img src="https://housedesign.vn/images/xuong-san-xuat-rieng.png" width="65" height="50" data-lazy-src="https://housedesign.vn/images/xuong-san-xuat-rieng.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://housedesign.vn/images/xuong-san-xuat-rieng.png" width="65" height="50"></noscript>
+                                            <img src="/App_Themes/house/img/qt_3.png" width="65" height="50" data-lazy-src="/App_Themes/house/img/qt_3.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="/App_Themes/house/img/qt_3.png" width="65" height="50"></noscript>
                                             <p class="description">
                                                 Lên dự toán và tối ưu chi phí                                       
                                             </p>
@@ -234,12 +234,13 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="owl-item cloned" style="width: 360px; margin-right: 20px;">
+
+                            <div class="owl-item">
                                 <div class="item">
                                     <div class="reason-item">
                                         <div class="item-box">
                                             <p class="number">04</p>
-                                            <img src="https://housedesign.vn/images/chi-phi-hop-ly.png" width="65" height="50" data-lazy-src="https://housedesign.vn/images/chi-phi-hop-ly.png"><noscript><img src="https://housedesign.vn/images/chi-phi-hop-ly.png" width="65" height="50"></noscript>
+                                            <img src="/App_Themes/house/img/qt_4.png" width="65" height="50" data-lazy-src="/App_Themes/house/img/qt_4.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="/App_Themes/house/img/qt_4.png" width="65" height="50"></noscript>
                                             <p class="description">
                                                 Thi công chỉ từ 7 ngày                                       
                                             </p>
@@ -247,79 +248,13 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="owl-item cloned" style="width: 360px; margin-right: 20px;">
+                            <div class="owl-item">
+
                                 <div class="item">
                                     <div class="reason-item">
                                         <div class="item-box">
                                             <p class="number">05</p>
-                                            <img src="https://housedesign.vn/images/dung-tien-do.png" width="65" height="50" data-lazy-src="https://housedesign.vn/images/dung-tien-do.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://housedesign.vn/images/dung-tien-do.png" width="65" height="50"></noscript>
-                                            <p class="description">
-                                                Bảo hành 1 đổi 1 và bảo trì trọn đời                                        
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="owl-item" style="width: 360px; margin-right: 20px;">
-                                <div class="item">
-                                    <div class="reason-item">
-                                        <div class="item-box">
-                                            <p class="number">01</p>
-                                            <img src="https://housedesign.vn/images/dich-vu-khach-hang-tan-tam.png" width="65" height="50" data-lazy-src="https://housedesign.vn/images/dich-vu-khach-hang-tan-tam.png"><noscript><img src="https://housedesign.vn/images/dich-vu-khach-hang-tan-tam.png" width="65" height="50"></noscript>
-                                            <p class="description">
-                                                Khảo sát và tư vấn tại công trình                                       
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="owl-item" style="width: 360px; margin-right: 20px;">
-                                <div class="item">
-                                    <div class="reason-item">
-                                        <div class="item-box">
-                                            <p class="number">02</p>
-                                            <img src="https://housedesign.vn/images/thiet-ke-sang-tao.png" width="65" height="50" data-lazy-src="https://housedesign.vn/images/thiet-ke-sang-tao.png"><noscript><img src="https://housedesign.vn/images/thiet-ke-sang-tao.png" width="65" height="50"></noscript>
-                                            <p class="description">
-                                                Lên phương án thiết kế chỉ từ 3 ngày                                      
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="owl-item" style="width: 360px; margin-right: 20px;">
-                                <div class="item">
-                                    <div class="reason-item">
-                                        <div class="item-box">
-                                            <p class="number">03</p>
-                                            <img src="https://housedesign.vn/images/xuong-san-xuat-rieng.png" width="65" height="50" data-lazy-src="https://housedesign.vn/images/xuong-san-xuat-rieng.png"><noscript><img src="https://housedesign.vn/images/xuong-san-xuat-rieng.png" width="65" height="50"></noscript>
-                                            <p class="description">
-                                                Lên dự toán và tối ưu chi phí                                       
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="owl-item" style="width: 360px; margin-right: 20px;">
-                                <div class="item">
-                                    <div class="reason-item">
-                                        <div class="item-box">
-                                            <p class="number">04</p>
-                                            <img src="https://housedesign.vn/images/chi-phi-hop-ly.png" width="65" height="50" data-lazy-src="https://housedesign.vn/images/chi-phi-hop-ly.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://housedesign.vn/images/chi-phi-hop-ly.png" width="65" height="50"></noscript>
-                                            <p class="description">
-                                                Thi công chỉ từ 7 ngày                                       
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="owl-item" style="width: 360px; margin-right: 20px;">
-                                <div class="item">
-                                    <div class="reason-item">
-                                        <div class="item-box">
-                                            <p class="number">05</p>
-                                            <img src="https://housedesign.vn/images/dung-tien-do.png" width="65" height="50" data-lazy-src="https://housedesign.vn/images/dung-tien-do.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://housedesign.vn/images/dung-tien-do.png" width="65" height="50"></noscript>
+                                            <img src="/App_Themes/house/img/qt_5.png" width="65" height="50" data-lazy-src="/App_Themes/house/img/qt_5.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="/App_Themes/house/img/qt_5.png" width="65" height="50"></noscript>
                                             <p class="description">
                                                 Bảo hành 1 đổi 1 và bảo trì trọn đời                                       
                                             </p>
@@ -329,17 +264,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="owl-nav">
-                        <button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button>
-                        <button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button>
-                    </div>
-                    <div class="owl-dots">
-                        <button role="button" class="owl-dot"><span></span></button>
-                        <button role="button" class="owl-dot"><span></span></button>
-                        <button role="button" class="owl-dot"><span></span></button>
-                        <button role="button" class="owl-dot"><span></span></button>
-                        <button role="button" class="owl-dot active"><span></span></button>
-                    </div>
+                    <%--<div class="owl-dots"><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot active"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button></div>--%>
                 </div>
             </div>
         </div>
