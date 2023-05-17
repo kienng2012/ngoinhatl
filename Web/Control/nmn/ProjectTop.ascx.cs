@@ -28,6 +28,7 @@ namespace Web.Control.nmn
             CategorySubInfo info = new CategorySubInfo();
             info.C_ParentID = _cateID;//Lay theo parentID
             info.C_ID = _cateID;
+            info.CS_TypeDisplay = 1; //Hien thi o trang chu
             DataTable dt = CategorySubDB.CategorySub_GetAll_ByCate_Pager(page, 12, info);
             //if (dt.Rows.Count > 0)
             //{

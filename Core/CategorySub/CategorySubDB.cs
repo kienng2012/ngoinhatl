@@ -266,6 +266,7 @@ namespace Core.CategorySub
             SqlConnection dbconn = new SqlConnection(ConfigurationManager.ConnectionStrings["SQLGamePortalHTS"].ToString());
             SqlCommand dbcmd = new SqlCommand("CategorySub_GetAll_ByCate_Pager", dbconn);
             dbcmd.Parameters.AddWithValue("@C_ParentID", info.C_ParentID);
+            dbcmd.Parameters.AddWithValue("@CS_TypeDisplay", info.CS_TypeDisplay);
             dbcmd.Parameters.AddWithValue("@C_ID", info.C_ID);
             dbcmd.Parameters.AddWithValue("@page", page);
             dbcmd.Parameters.AddWithValue("@pageSize", pageSize);
