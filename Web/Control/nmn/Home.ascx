@@ -66,22 +66,23 @@
 </div>
 <div class="about_home" style="background-color: #f2efe9;">
     <div class="container-fluid">
-        <!-- class="container"-->
-        <div class="flex">
-            <div class="inner_left center">
-                <h2 class="title">
-                    <span class="main">Nội thất</span>
-                    <span class="tit">Bắc Âu</span>
-                    <span class="sub">cao cấp cho người Việt</span>
-                </h2>
-                <div class="text">Chúng tôi cam kết, tất cả sản phẩm của ARBARO được độc quyền thiết kế kiểu dáng bởi những Designer tài năng và được đăng ký sở hữu trí tuệ tại cục SHTT Việt Nam. ARBARO mang tới chính sách hậu mãi vượt trội. Tỉ mỉ trong từng chi tiết nhỏ nhất, tất cả sản phẩm của ARBARO được hoàn thiện với chất lượng cao, tương đương với tiêu chuẩn Châu Âu, mang lại cho khách hàng những sản phẩm vượt trội.</div>
-            </div>
-            <div class="inner_right">
-                <div class="video">
-                    <%--<iframe data-lazyloaded="1" width="560" height="315" src="https://www.youtube.com/embed/l6QwtZsFuew?autoplay=1&amp;mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen name="youtube embed" data-ll-status="loaded" class="entered litespeed-loaded"></iframe>--%>
-                    <video width="320" height="240" autoplay muted controls loop>
-                        <source src="/App_Themes/house/video/Arbaro.mp4" type="video/mp4">
-                    </video>
+        <div class="container-video">
+            <div class="flex">
+                <div class="inner_left center">
+                    <h2 class="title">
+                        <span class="main">NỘI THẤT</span>
+                        <span class="tit">Tương Lai</span>
+                        <span class="sub">cho ngôi nhà của bạn</span>
+                    </h2>
+                    <div class="text">Bằng sự thấu hiểu, chúng tôi cam kết mang đến cho bạn những trải nghiệm hoàn hảo về nội thất trong chính ngôi nhà của bạn. Tỉ mỉ trong từng chi tiết nhỏ nhất, luôn đặt mình vào vị trí của người sử dụng & đồng hàng cùng bạn trong suốt cả quá trình sử dụng, đó là phương châm của chúng tôi. Tất cả sản phẩm của ARBARO được hoàn thiện với chất lượng cao, với đội ngũ KTS dày năm kinh nghiệm, mang lại cho khách hàng những trải nghiệm vượt trội về không gian và tối ưu không gian sử dụng.</div>
+                </div>
+                <div class="inner_right">
+                    <div class="video">
+                        <%--<iframe data-lazyloaded="1" width="560" height="315" src="https://www.youtube.com/embed/l6QwtZsFuew?autoplay=1&amp;mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen name="youtube embed" data-ll-status="loaded" class="entered litespeed-loaded"></iframe>--%>
+                        <video width="320" height="240" autoplay muted controls loop>
+                            <source src="/App_Themes/house/video/Arbaro.mp4" type="video/mp4">
+                        </video>
+                    </div>
                 </div>
             </div>
         </div>

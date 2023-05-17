@@ -2778,3 +2778,8 @@ fa-angle-up:before {
     color: red;
     font-weight: bold;
 }
+
+.container-video {
+    padding-left: 10em;
+    padding-right: 10em;
+}
