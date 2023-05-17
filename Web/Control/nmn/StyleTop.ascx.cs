@@ -11,11 +11,12 @@ namespace Web.Control.nmn
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
-            {
-                LoadDataByCate(1);
-            }
+            //if (!IsPostBack)
+            //{
+            //    LoadDataByCate(1);
+            //}
         }
+        /*
         protected void LoadDataByCate(int page)
         {
             _cateName = "Phong cách";
@@ -39,6 +40,7 @@ namespace Web.Control.nmn
             rptStyleTop.DataSource = dt;
             rptStyleTop.DataBind();
         }
+        */
 
     }
 

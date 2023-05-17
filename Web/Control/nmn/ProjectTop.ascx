@@ -4,7 +4,10 @@
 <!-- Menu Start -->
 
 <div class="news_home2">
-    <div class="background bg_section" style="background-image: url(<%= Page.ResolveClientUrl("~/App_Themes/house/img/style-top-bn.jpg")%>);"></div>
+    <div class="background bg_section" style="background-image: url(../../App_Themes/house/img/style-top-bn.jpg);"></div>
+    <%--<div class="background bg_section" style="background-image: url( <%= Page.ResolveClientUrl("~/App_Themes/house/img/style-top-bn.jpg")%>);"></div>--%>
+    <%-- <div class="background bg_section" style="background-image: url(App_Themes/house/img/bg-slide-style.jpg);"></div>--%>
+
     <div class="container-fluid">
         <div class="title_home2">
             <h2 class="title">DỰ ÁN</h2>

@@ -36446,7 +36446,8 @@ body.logged-in #menu_mainnav {
         .header_menu .menu > li > ul {
             top: 100%;
             left: 0;
-            padding-top: 10px
+            /*padding-top: 10px*/
+            padding-top: 0px
         }
 
             .header_menu .menu > li > ul li {
@@ -36476,7 +36477,7 @@ body.logged-in #menu_mainnav {
         margin-left: 40px;
         position: relative;
         border: 1px solid #ffffff8c;
-        margin-top: 5px;
+        margin-top: -8px;
     }
 
         .header_menu .woocommerce-search .search-field {
@@ -37372,7 +37373,8 @@ body.home::-webkit-scrollbar {
         width: 40px;
         height: 40px;
         color: #151515;
-        background: #c7af73;
+        /*background: #c7af73;*/
+        background: #886349;
         border-radius: 50%;
         display: flex;
         align-items: center;
@@ -38856,7 +38858,7 @@ body.page-template-gioi-thieu {
 
     .about_home .inner_left {
         width: 50%;
-        padding: 10px 30px 10px 15px
+        padding: 20px 60px 20px 80px
     }
 
         .about_home .inner_left .title {
@@ -38873,13 +38875,15 @@ body.page-template-gioi-thieu {
                 .about_home .inner_left .title span.main {
                     text-transform: uppercase;
                     font-weight: 700;
-                    color: #b29871;
-                    font-size: 70px
+                    /*color: #b29871;*/
+                    color: #886349;
+                    font-size: 68px
                 }
 
                 .about_home .inner_left .title span.tit {
                     font-family: 'MTD-Portrait-Script-Bounce';
-                    font-size: 50px
+                    font-size: 50px;
+                    padding: 10px;
                 }
 
         .about_home .inner_left .text {
@@ -38890,7 +38894,7 @@ body.page-template-gioi-thieu {
 
     .about_home .inner_right {
         width: 50%;
-        padding-right: 30px;
+        padding-left: 40px;
         position: relative
     }
 
@@ -38915,21 +38919,21 @@ body.page-template-gioi-thieu {
 
         .about_home .inner_right .video {
             position: relative;
-            width: 100%;
-            border: 1px solid #15151580;
-            position: relative;
-            padding-top: 56.25%;
+            width: 80%;
+            /*border: 1px solid #15151580;*/
+            padding-top: 48%;
             overflow: hidden
         }
 
             .about_home .inner_right .video iframe, .about_home .inner_right .video video {
                 display: block;
                 width: 100%;
-                height: 100%;
+                /* height: 100%; */
                 position: absolute;
-                top: 0;
+                top: 20px;
                 left: 0;
-                object-fit: cover
+                object-fit: cover;
+                border: 1px solid #15151580;
             }
 
             .about_home .inner_right .video a:after {
@@ -39218,7 +39222,8 @@ body.page-template-gioi-thieu {
     padding: 50px 0 50px;
     position: relative;
     color: #fff;
-    background-color: #151515
+    /*background-color: #151515*/
+    background-color: #141e20
 }
 
     .collection_home .container-fluid {
@@ -39366,15 +39371,56 @@ body.page-template-gioi-thieu {
 
         .collection_home .item .info .name {
             text-transform: uppercase;
-            font-size: 18px;
+            /*font-size: 18px;*/
+            font-size: 14px;
+            font-weight: 600;
             margin-bottom: 15px;
-            line-height: 1
+            line-height: 1;
+            text-align: center;
         }
 
             .collection_home .item .info .name a {
                 line-height: normal;
-                color: #c7af73
+                /*color: #c7af73*/
+                color: #886349;
+                /*  text-decoration: underline 0.15em rgba(0, 0, 0, 0);*/
             }
+
+                .collection_home .item .info .name a:hover, .collection_home .item .info .name a:focus {
+                    text-decoration: underline;
+                    text-decoration-color: #fff;
+                    color: #fff;
+                    transition: text-decoration-color 500ms;
+                }
+
+        /*.collection_home .item .info .name a:hover::after {
+                        text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+
+                    }*/
+
+        /*.collection_home .item .info .name::after {
+                content: '';
+                position: absolute;*/
+        /*width: 80%;*/
+        /*transform: scaleX(0);
+                height: 2px;
+                bottom: 0;
+                left: 50%;
+                width: calc(100% - 40px);
+                background-color: #0087ca;
+                transform-origin: bottom right;
+                transition: transform 0.25s ease-out;
+                display: block;
+                text-underline-offset: 0.5em;
+                margin: auto;
+                text-align: center;*/
+        /*text-decoration: underline;*/
+        /*}
+
+            .collection_home .item .info .name:hover::after {
+                transform: scaleX(1);
+                transform-origin: bottom left;
+            }*/
 
         .collection_home .item .info .text {
             text-align: justify;
@@ -39989,7 +40035,8 @@ body.page-template-gioi-thieu {
             width: calc(50% - 40px);
             margin-left: 40px;
             padding: 35px 40px;
-            background-color: #151515;
+            /* background-color: #151515;*/
+            background-color: #141e20;
             color: #fff;
             border-radius: 8px
         }
@@ -40018,8 +40065,9 @@ body.page-template-gioi-thieu {
         border-radius: 5px;
         line-height: 45px;
         padding: 0 20px;
-        background: #c7af73;
-        color: #151515;
+        /* background: #c7af73;*/
+        background: #886349;
+        color: #fff;
         height: 45px
     }
 
@@ -40052,9 +40100,9 @@ body.page-template-gioi-thieu {
         font-size: 16px
     }
 
-    .collection_home .item .info .name {
+    /*.collection_home .item .info .name {
         font-size: 22px
-    }
+    }*/
 
     .about_home .inner_left .title {
         font-size: 28px
@@ -40253,7 +40301,8 @@ body.page-template-gioi-thieu {
     }
 
     .about_home .inner_right .video {
-        width: 500px
+        /*width: 500px*/
+        object-fit: cover;
     }
 
         .about_home .inner_right .video a {
@@ -40296,9 +40345,9 @@ body.page-template-gioi-thieu {
             font-size: 14px
         }
 
-    .collection_home .item .info .name {
+    /*.collection_home .item .info .name {
         font-size: 20px
-    }
+    }*/
 
     .product_home {
         padding: 50px 0
@@ -41264,34 +41313,71 @@ body.page-template-gioi-thieu {
 
         .about_home .inner_right {
             width: 100%;
-            padding-right: 0
+            padding-right: 0;
+            padding-left: 0;
         }
 
-            .about_home .inner_right .img {
+            .about_home .inner_right .video {
+                position: relative;
                 width: 100%;
-                height: auto;
-                padding-top: 100%;
-                border-radius: 15px
+                /* border: 1px solid #15151580; */
+                padding-top: 48%;
+                overflow: hidden;
             }
 
-            .about_home .inner_right .video a {
-                height: 220px
-            }
+                .about_home .inner_right .video video {
+                    display: block;
+                    width: 100%;
+                    /* height: 100%; */
+                    position: absolute;
+                    top: 20px;
+                    left: 0;
+                    object-fit: cover;
+                    border: 1px solid #15151580;
+                }
 
-            .about_home .inner_right .video iframe {
-                height: 220px
-            }
+    .text-video {
+        width: 100%;
+        margin: auto;
+        text-align: center !important;
+        margin-top: 60px !important;
+    }
 
-            .about_home .inner_right .video a:after {
-                height: 62px;
-                width: 62px;
-                background-size: 26px
-            }
+        .text-video .main-text {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
 
-            .about_home .inner_right .logo {
-                width: 26px;
-                right: 15px
-            }
+        .text-video .second-text {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+
+    .about_home .inner_right .img {
+        width: 100%;
+        height: auto;
+        padding-top: 100%;
+        border-radius: 15px
+    }
+
+    .about_home .inner_right .video a {
+        height: 220px
+    }
+
+    .about_home .inner_right .video iframe {
+        height: 220px
+    }
+
+    .about_home .inner_right .video a:after {
+        height: 62px;
+        width: 62px;
+        background-size: 26px
+    }
+
+    .about_home .inner_right .logo {
+        width: 26px;
+        right: 15px
+    }
 
     .best_seller .img {
         position: initial;

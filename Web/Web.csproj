@@ -193,6 +193,8 @@
     <Content Include="App_Themes\house\img\banner-lien-he.png" />
     <Content Include="App_Themes\house\img\banner2.jpg" />
     <Content Include="App_Themes\house\img\bct.png" />
+    <Content Include="App_Themes\house\img\bg-lido.png" />
+    <Content Include="App_Themes\house\img\bg-slide-style.jpg" />
     <Content Include="App_Themes\house\img\bg_duan.jpg" />
     <Content Include="App_Themes\house\img\chuyen-gia-nu.jpg" />
     <Content Include="App_Themes\house\img\facebook.png" />
@@ -206,6 +208,7 @@
     <Content Include="App_Themes\house\img\H2_03540-scaled.jpg" />
     <Content Include="App_Themes\house\img\H2_04155-scaled.jpg" />
     <Content Include="App_Themes\house\img\hd-1-scaled-1.jpg" />
+    <Content Include="App_Themes\house\img\hiendai-420x236.jpg" />
     <Content Include="App_Themes\house\img\icon-social-38px-fb-OK.png" />
     <Content Include="App_Themes\house\img\icon-social-38px-install-OK.png" />
     <Content Include="App_Themes\house\img\icon-social-38px-pinterest-OK.png" />
@@ -220,6 +223,7 @@
     <Content Include="App_Themes\house\img\ic_hotlinee.png" />
     <Content Include="App_Themes\house\img\ic_zaloo.png" />
     <Content Include="App_Themes\house\img\IMG_1959-1.jpg" />
+    <Content Include="App_Themes\house\img\indochine-420x257.jpg" />
     <Content Include="App_Themes\house\img\linkedin-share.png" />
     <Content Include="App_Themes\house\img\logo-chi-hoi-kien-truc-1.png" />
     <Content Include="App_Themes\house\img\Logo-HD-Mon.png" />
@@ -238,6 +242,7 @@
     <Content Include="App_Themes\house\img\qt_4.png" />
     <Content Include="App_Themes\house\img\qt_5.png" />
     <Content Include="App_Themes\house\img\QuyTrinhArbaro.png" />
+    <Content Include="App_Themes\house\img\scandinavian420x280.jpg" />
     <Content Include="App_Themes\house\img\searchicon.png" />
     <Content Include="App_Themes\house\img\semina-2-1.jpg" />
     <Content Include="App_Themes\house\img\SEMINA-FB-VUONG-KHUY-DONG-scaled.jpg" />
@@ -247,6 +252,7 @@
     <Content Include="App_Themes\house\img\slide2.jpg" />
     <Content Include="App_Themes\house\img\slide3.jpg" />
     <Content Include="App_Themes\house\img\style-top-bn.jpg" />
+    <Content Include="App_Themes\house\img\tan-co-dien-420x281.jpg" />
     <Content Include="App_Themes\house\img\Thiet-ke-chua-co-ten-7-1.png" />
     <Content Include="App_Themes\house\img\twitter-share.png" />
     <Content Include="App_Themes\house\img\Untitled-1-1.jpg" />
@@ -256,6 +262,7 @@
     <Content Include="App_Themes\house\img\Untitled-19.png" />
     <Content Include="App_Themes\house\img\vdh-2-scaled-1.jpg" />
     <Content Include="App_Themes\house\img\vhc2-2-scaled-1.jpg" />
+    <Content Include="App_Themes\house\img\wabisabi-420x280.jpg" />
     <Content Include="App_Themes\house\img\z2082144764952_add1205fef0dcdd7b9d5ddfb53735e2f.jpg" />
     <Content Include="App_Themes\house\img\z3067410105795_9e761610a3cc041982de72889f1730f4.jpg" />
     <Content Include="App_Themes\house\img\_dmca_premi_badge_4.png" />
@@ -281,6 +288,7 @@
     <Content Include="App_Themes\house\js\overlay.js" />
     <Content Include="App_Themes\house\js\remote.js" />
     <Content Include="App_Themes\house\js\search_impl.js" />
+    <Content Include="App_Themes\house\video\Arbaro.mp4" />
     <Content Include="App_Themes\nmn\about.html" />
     <Content Include="App_Themes\nmn\coffee-shop-html-template.jpg" />
     <Content Include="App_Themes\nmn\contact.html" />
@@ -2017,7 +2025,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="App_Themes\house\video\" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />

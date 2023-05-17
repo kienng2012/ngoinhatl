@@ -4,6 +4,7 @@
 <!-- Menu Start -->
 <div class="collection_home">
     <%--<div class="background bg_section" style="background-image: url(<%= Page.ResolveClientUrl("~/App_Themes/house/img/style-top-bn.jpg")%>);"></div>--%>
+    <div class="background bg_section" style="background-image: url(../../App_Themes/house/img/style-top-bn.jpg);"></div>
     <div class="container-fluid">
         <div class="title_home2 white">
             <h2 class="title white">PHONG CÁCH</h2>
@@ -13,7 +14,77 @@
             <div class="owl-carousel owl-loaded owl-drag">
                 <div class="owl-stage-outer">
                     <div class="owl-stage" style="transform: translate3d(-1148px, 0px, 0px); transition: all 0s ease 0s; width: 3827px;">
-                        <asp:Repeater ID="rptStyleTop" runat="server">
+
+                        <div class="owl-item active" style="width: 382.667px;">
+                            <div class="item">
+                                <div class="img">
+                                    <a href="/phong-cach/hien-dai.htm">
+                                        <img src="../../App_Themes/house/img/hiendai-420x236.jpg" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <h3 class="name"><a href="/phong-cach/hien-dai.htm">Phong cách hiện đại</a></h3>
+                                    <%--<div class="text"></div>--%>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="owl-item active" style="width: 382.667px;">
+                            <div class="item">
+                                <div class="img">
+                                    <a href="/phong-cach/scandinavian.htm">
+                                        <img src="../../App_Themes/house/img/scandinavian420x280.jpg" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <h3 class="name"><a href="/phong-cach/scandinavian.htm">Phong cách Scandinavian</a></h3>
+                                    <%--<div class="text"></div>--%>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-item active" style="width: 382.667px;">
+                            <div class="item">
+                                <div class="img">
+                                    <a href="/phong-cach/indochine.htm">
+                                        <img src="../../App_Themes/house/img/indochine-420x257.jpg" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <h3 class="name"><a href="/phong-cach/indochine.htm">Phong cách Indochine</a></h3>
+                                    <%--<div class="text"></div>--%>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="owl-item active" style="width: 382.667px;">
+                            <div class="item">
+                                <div class="img">
+                                    <a href="/phong-cach/wabisabi.htm">
+                                        <img src="../../App_Themes/house/img/wabisabi-420x280.jpg" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <h3 class="name"><a href="/phong-cach/wabisabi.htm">Phong cách Wabisabi</a></h3>
+                                    <%--<div class="text"></div>--%>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="owl-item active" style="width: 382.667px;">
+                            <div class="item">
+                                <div class="img">
+                                    <a href="/phong-cach/tan-co-dien.htm">
+                                        <img src="../../App_Themes/house/img/tan-co-dien-420x281.jpg" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <h3 class="name"><a href="/phong-cach/tan-co-dien.htm">Phong cách Tân cổ điển</a></h3>
+                                    <%--<div class="text"></div>--%>
+                                </div>
+                            </div>
+                        </div>
+
+                        <%--<asp:Repeater ID="rptStyleTop" runat="server">
                             <ItemTemplate>
                                 <div class="owl-item active" style="width: 382.667px;">
                                     <div class="item">
@@ -30,7 +101,7 @@
                                     </div>
                                 </div>
                             </ItemTemplate>
-                        </asp:Repeater>
+                        </asp:Repeater>--%>
                     </div>
                 </div>
                 <div class="owl-nav">

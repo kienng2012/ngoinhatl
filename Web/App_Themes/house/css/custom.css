@@ -52,6 +52,11 @@ div h2:first-child {
         line-height: calc(1.4 * (2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20))));
     }
 
+    .container-video {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
     .mota {
         padding: 20px 20px !important
     }
@@ -306,17 +311,17 @@ wrapper:after, .wrapper-small:after {
     margin-top: 0;
 }*/
 
-.filter li {
+/*.filter li {
     padding: 0 20px 10px 0;
     margin: 0;
     display: inline-block;
-}
+}*/
 
     /*ul li, ol li {
     margin-top: 10px;
 }*/
 
-    .filter li a {
+    /*.filter li a {
         display: block;
         position: relative;
         font-family: "Montserrat",sans-serif;
@@ -327,7 +332,7 @@ wrapper:after, .wrapper-small:after {
         color: #0d0d0d;
         line-height: 20px;
         padding-left: 0.1em;
-    }
+    }*/
 
 a {
     text-decoration: none;
@@ -678,11 +683,11 @@ align-center .filter li {
     padding: 0 10px 10px 10px;
 }
 
-.filter li {
+/*.filter li {
     padding: 0 20px 10px 0;
     margin: 0;
     display: inline-block;
-}
+}*/
 
 filter li a {
     display: block;
@@ -2783,3 +2788,35 @@ fa-angle-up:before {
     padding-left: 10em;
     padding-right: 10em;
 }
+
+.text-video {
+    width: 100%;
+    margin: auto;
+    text-align: center !important;
+    margin-top: 10px
+}
+
+    .text-video .main-text {
+        display: block;
+        position: relative;
+        font-family: "Montserrat",sans-serif;
+        font-size: 11px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+        color: #886349;
+        line-height: 20px;
+        padding-left: 0.3em;
+    }
+
+    .text-video .second-text {
+        display: block;
+        position: relative;
+        font-family: "Montserrat",sans-serif;
+        font-size: 11px;
+        font-weight: 500;
+        /* letter-spacing: .1em; */
+        /* color: #0d0d0d; */
+        /* line-height: 16px; */
+        padding-left: 0.2em;
+    }

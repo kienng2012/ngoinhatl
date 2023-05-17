@@ -66,7 +66,8 @@
 </div>
 <div class="about_home" style="background-color: #f2efe9;">
     <div class="container-fluid">
-        <div class="container-video">
+        <div>
+            <!--container-video -->
             <div class="flex">
                 <div class="inner_left center">
                     <h2 class="title">
@@ -79,9 +80,15 @@
                 <div class="inner_right">
                     <div class="video">
                         <%--<iframe data-lazyloaded="1" width="560" height="315" src="https://www.youtube.com/embed/l6QwtZsFuew?autoplay=1&amp;mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen name="youtube embed" data-ll-status="loaded" class="entered litespeed-loaded"></iframe>--%>
-                        <video width="320" height="240" autoplay muted controls loop>
+                        <video width="320" height="240" autoplay muted controls loop playsinline>
                             <source src="/App_Themes/house/video/Arbaro.mp4" type="video/mp4">
                         </video>
+
+                        <div class="text-video">
+                            <span class="main-text">KHƠI GỢI TINH THẦN KINH DOANH – TIÊN PHONG PHÁT TRIỂN ARBARO</span>
+                            <span class="second-text">Được vinh danh là đơn vị khởi nghiệp tiêu biểu trong thời kì kinh tế khó khăn COVID 19 </span>
+                            <span class="second-text">Nguồn: Chuyên mục Thời sự - Đài truyền hình Việt Nam</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -95,7 +102,7 @@
 <!-- END DU AN TOP -->
 <!-- LY DO LUA CHON -->
 <div class="criteria_home">
-    <div class="background" style="background-image: url(https://nordic.vn/wp-content/uploads/2022/08/Untitled-11.png);"></div>
+    <div class="background" style="background-image: url(App_Themes/house/img/bg-lido.png);"></div>
     <div class="container-fluid">
         <!--class="container-fluid"-->
         <h2 class="title"><span></span>LÝ DO LỰA CHỌN</h2>
@@ -275,7 +282,7 @@
 
 <!-- DOI NGU NHAN SU -->
 <div class="expert_home">
-    <div class="background bg_section" style="background-image: url(https://nordic.vn/wp-content/uploads/2023/04/Untitled-20.jpg);"></div>
+    <div class="background bg_section" style="background-image: url(App_Themes/house/img/bg-slide-style.jpg);"></div>
     <div class="container-fluid">
         <!-- class="container-fluid" -->
         <div class="title_home2 white">
@@ -288,7 +295,7 @@
                         <div class="item">
                             <div class="box">
                                 <div class="top">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/vhc2-2-scaled-1.jpg" alt="avata-1" data-src="https://nordic.vn/wp-content/uploads/2022/08/vhc2-2-scaled-1.jpg" class="avata entered litespeed-loaded" data-ll-status="loaded"><div class="info">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/vhc2-2-scaled-1.jpg" alt="avata-1" class="avata entered litespeed-loaded" data-ll-status="loaded"><div class="info">
                                         <div class="sub">PGS.KTS.</div>
                                         <div class="name">Vũ Hồng Cương</div>
                                         <div class="regency">Trưởng khoa MTCN ĐHKTHN</div>
@@ -302,7 +309,7 @@
                         <div class="item">
                             <div class="box">
                                 <div class="top">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/nhm-1-scaled-1.jpg" alt="avata-2" data-src="https://nordic.vn/wp-content/uploads/2022/08/nhm-1-scaled-1.jpg" class="avata entered litespeed-loaded" data-ll-status="loaded"><div class="info">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/nhm-1-scaled-1.jpg" alt="avata-2" class="avata entered litespeed-loaded" data-ll-status="loaded"><div class="info">
                                         <div class="sub">KTS.</div>
                                         <div class="name">Nguyễn Hoàng Mạnh</div>
                                         <div class="regency">MIA Design Studio</div>
@@ -316,7 +323,7 @@
                         <div class="item">
                             <div class="box">
                                 <div class="top">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/hd-1-scaled-1.jpg" alt="avata-3" data-src="https://nordic.vn/wp-content/uploads/2022/08/hd-1-scaled-1.jpg" class="avata entered litespeed-loaded" data-ll-status="loaded"><div class="info">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/hd-1-scaled-1.jpg" alt="avata-3" class="avata entered litespeed-loaded" data-ll-status="loaded"><div class="info">
                                         <div class="sub">KTS.</div>
                                         <div class="name">Hưng Đào</div>
                                         <div class="regency">AHL Architects</div>
@@ -330,7 +337,7 @@
                         <div class="item">
                             <div class="box">
                                 <div class="top">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/vdh-2-scaled-1.jpg" alt="avata-4" data-src="https://nordic.vn/wp-content/uploads/2022/08/vdh-2-scaled-1.jpg" class="avata entered litespeed-loaded" data-ll-status="loaded"><div class="info">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/vdh-2-scaled-1.jpg" alt="avata-4" class="avata entered litespeed-loaded" data-ll-status="loaded"><div class="info">
                                         <div class="sub">KTS.</div>
                                         <div class="name">Vương Đạo Hoàng</div>
                                         <div class="regency">Tạp chí Kiến Việt</div>
@@ -344,7 +351,7 @@
                         <div class="item">
                             <div class="box">
                                 <div class="top">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/chuyen-gia-nu.jpg" alt="avata-5" data-src="https://nordic.vn/wp-content/uploads/2022/10/chuyen-gia-nu.jpg" class="avata entered litespeed-loaded" data-ll-status="loaded"><div class="info">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/chuyen-gia-nu.jpg" alt="avata-5" class="avata entered litespeed-loaded" data-ll-status="loaded"><div class="info">
                                         <div class="sub">MC</div>
                                         <div class="name">Xuân Quỳnh</div>
                                         <div class="regency">VTV3</div>
@@ -379,147 +386,147 @@
                         <div class="owl-item cloned" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/Logo-HD-Mon.png" data-src="https://nordic.vn/wp-content/uploads/2022/08/Logo-HD-Mon.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/Logo-HD-Mon.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item cloned" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/Logo-Kien-Viet.png" data-src="https://nordic.vn/wp-content/uploads/2022/08/Logo-Kien-Viet.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/Logo-Kien-Viet.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item cloned" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/Logo-Minh-Long.png" data-src="https://nordic.vn/wp-content/uploads/2022/08/Logo-Minh-Long.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/Logo-Minh-Long.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item cloned" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-Luxxy-VN-01.png" data-src="https://nordic.vn/wp-content/uploads/2022/09/logo-Luxxy-VN-01.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-Luxxy-VN-01.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item cloned" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-khoa-noi-that.png" data-src="https://nordic.vn/wp-content/uploads/2023/03/logo-khoa-noi-that.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-khoa-noi-that.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item cloned" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-chi-hoi-kien-truc-1.png" data-src="https://nordic.vn/wp-content/uploads/2023/03/logo-chi-hoi-kien-truc-1.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-chi-hoi-kien-truc-1.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item cloned" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-vietcg-den-1.png" data-src="https://nordic.vn/wp-content/uploads/2023/03/logo-vietcg-den-1.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-vietcg-den-1.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item active" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/Logo-HD-Mon.png" data-src="https://nordic.vn/wp-content/uploads/2022/08/Logo-HD-Mon.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/Logo-HD-Mon.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item active" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/Logo-Kien-Viet.png" data-src="https://nordic.vn/wp-content/uploads/2022/08/Logo-Kien-Viet.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/Logo-Kien-Viet.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item active" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/Logo-Minh-Long.png" data-src="https://nordic.vn/wp-content/uploads/2022/08/Logo-Minh-Long.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/Logo-Minh-Long.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item active" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-Luxxy-VN-01.png" data-src="https://nordic.vn/wp-content/uploads/2022/09/logo-Luxxy-VN-01.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-Luxxy-VN-01.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item active" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-khoa-noi-that.png" data-src="https://nordic.vn/wp-content/uploads/2023/03/logo-khoa-noi-that.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-khoa-noi-that.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item active" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-chi-hoi-kien-truc-1.png" data-src="https://nordic.vn/wp-content/uploads/2023/03/logo-chi-hoi-kien-truc-1.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-chi-hoi-kien-truc-1.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item active" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-vietcg-den-1.png" data-src="https://nordic.vn/wp-content/uploads/2023/03/logo-vietcg-den-1.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-vietcg-den-1.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item cloned" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/Logo-HD-Mon.png" data-src="https://nordic.vn/wp-content/uploads/2022/08/Logo-HD-Mon.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/Logo-HD-Mon.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item cloned" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/Logo-Kien-Viet.png" data-src="https://nordic.vn/wp-content/uploads/2022/08/Logo-Kien-Viet.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/Logo-Kien-Viet.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item cloned" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/Logo-Minh-Long.png" data-src="https://nordic.vn/wp-content/uploads/2022/08/Logo-Minh-Long.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/Logo-Minh-Long.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item cloned" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-Luxxy-VN-01.png" data-src="https://nordic.vn/wp-content/uploads/2022/09/logo-Luxxy-VN-01.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-Luxxy-VN-01.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item cloned" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-khoa-noi-that.png" data-src="https://nordic.vn/wp-content/uploads/2023/03/logo-khoa-noi-that.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-khoa-noi-that.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item cloned" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-chi-hoi-kien-truc-1.png" data-src="https://nordic.vn/wp-content/uploads/2023/03/logo-chi-hoi-kien-truc-1.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-chi-hoi-kien-truc-1.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item cloned" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-vietcg-den-1.png" data-src="https://nordic.vn/wp-content/uploads/2023/03/logo-vietcg-den-1.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-vietcg-den-1.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
                                 </div>
                             </div>
                         </div>
