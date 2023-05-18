@@ -10,8 +10,8 @@
 
     <div class="container-fluid">
         <div class="title_home2">
-            <h2 class="title">DỰ ÁN</h2>
-            <a href="/Du-an.htm" class="link">Xem tất cả</a>
+            <h2 class="title color-coffee">DỰ ÁN</h2>
+            <a href="/du-an.htm" class="link ">Xem tất cả</a>
         </div>
         <div class="wrapper align-center" style="margin-bottom: 10px;">
             <ul id="portfolio-filter-standard" class="filter clearfix" data-related-grid="grid-du-an">
@@ -54,7 +54,7 @@
                                                 </div>
                                                 <h3 class="name"><a href="/du-an/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm"><%#Eval("CS_Name")%></a></h3>
                                                 <div class="text"><%#Eval("CS_Description") %></div>
-                                                <div class="link"><a href="/du-an/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm">Xem chi tiết <i></i></a></div>
+                                                <div class="link"><a href="/du-an/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm" class="hover-underline-egg">Xem chi tiết <i></i></a></div>
                                             </div>
                                         </div>
                                     </div>

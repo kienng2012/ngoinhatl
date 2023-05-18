@@ -193,6 +193,7 @@
     <Content Include="App_Themes\house\img\banner-lien-he.png" />
     <Content Include="App_Themes\house\img\banner2.jpg" />
     <Content Include="App_Themes\house\img\bct.png" />
+    <Content Include="App_Themes\house\img\bg-doingu.jpg" />
     <Content Include="App_Themes\house\img\bg-lido.png" />
     <Content Include="App_Themes\house\img\bg-slide-style.jpg" />
     <Content Include="App_Themes\house\img\bg_duan.jpg" />

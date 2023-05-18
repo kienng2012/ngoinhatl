@@ -23,7 +23,7 @@
                                     </a>
                                 </div>
                                 <div class="info">
-                                    <h3 class="name"><a href="/phong-cach/hien-dai.htm">Phong cách hiện đại</a></h3>
+                                    <h3 class="name"><a href="/phong-cach/hien-dai.htm" class="hover-underline-animation color-white">Phong cách hiện đại</a></h3>
                                     <%--<div class="text"></div>--%>
                                 </div>
                             </div>
@@ -37,7 +37,7 @@
                                     </a>
                                 </div>
                                 <div class="info">
-                                    <h3 class="name"><a href="/phong-cach/scandinavian.htm">Phong cách Scandinavian</a></h3>
+                                    <h3 class="name"><a href="/phong-cach/scandinavian.htm" class="hover-underline-animation color-white">Phong cách Scandinavian</a></h3>
                                     <%--<div class="text"></div>--%>
                                 </div>
                             </div>
@@ -50,7 +50,7 @@
                                     </a>
                                 </div>
                                 <div class="info">
-                                    <h3 class="name"><a href="/phong-cach/indochine.htm">Phong cách Indochine</a></h3>
+                                    <h3 class="name"><a href="/phong-cach/indochine.htm" class="hover-underline-animation color-white">Phong cách Indochine</a></h3>
                                     <%--<div class="text"></div>--%>
                                 </div>
                             </div>
@@ -64,7 +64,7 @@
                                     </a>
                                 </div>
                                 <div class="info">
-                                    <h3 class="name"><a href="/phong-cach/wabisabi.htm">Phong cách Wabisabi</a></h3>
+                                    <h3 class="name"><a href="/phong-cach/wabisabi.htm" class="hover-underline-animation color-white">Phong cách Wabisabi</a></h3>
                                     <%--<div class="text"></div>--%>
                                 </div>
                             </div>
@@ -78,7 +78,7 @@
                                     </a>
                                 </div>
                                 <div class="info">
-                                    <h3 class="name"><a href="/phong-cach/tan-co-dien.htm">Phong cách Tân cổ điển</a></h3>
+                                    <h3 class="name"><a href="/phong-cach/tan-co-dien.htm" class="hover-underline-animation color-white">Phong cách Tân cổ điển</a></h3>
                                     <%--<div class="text"></div>--%>
                                 </div>
                             </div>

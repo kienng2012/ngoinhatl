@@ -75,7 +75,7 @@
                         <span class="tit">Tương Lai</span>
                         <span class="sub">cho ngôi nhà của bạn</span>
                     </h2>
-                    <div class="text">Bằng sự thấu hiểu, chúng tôi cam kết mang đến cho bạn những trải nghiệm hoàn hảo về nội thất trong chính ngôi nhà của bạn. Tỉ mỉ trong từng chi tiết nhỏ nhất, luôn đặt mình vào vị trí của người sử dụng & đồng hàng cùng bạn trong suốt cả quá trình sử dụng, đó là phương châm của chúng tôi. Tất cả sản phẩm của ARBARO được hoàn thiện với chất lượng cao, với đội ngũ KTS dày năm kinh nghiệm, mang lại cho khách hàng những trải nghiệm vượt trội về không gian và tối ưu không gian sử dụng.</div>
+                    <div class="text">&nbsp;&nbsp;&nbsp;&nbsp;Bằng sự thấu hiểu, chúng tôi cam kết mang đến cho bạn những trải nghiệm hoàn hảo về nội thất trong chính ngôi nhà của mình. Tỉ mỉ trong từng chi tiết nhỏ nhất, luôn đặt mình vào vị trí của người sử dụng & đồng hàng cùng bạn trong suốt cả quá trình sử dụng, đó là phương châm của chúng tôi. Tất cả sản phẩm của ARBARO được hoàn thiện với chất lượng cao, với đội ngũ KTS dày năm kinh nghiệm, mang lại cho khách hàng những trải nghiệm vượt trội về không gian và tối ưu công năng sử dụng.</div>
                 </div>
                 <div class="inner_right">
                     <div class="video">
@@ -85,9 +85,9 @@
                         </video>
 
                         <div class="text-video">
-                            <span class="main-text">KHƠI GỢI TINH THẦN KINH DOANH – TIÊN PHONG PHÁT TRIỂN ARBARO</span>
-                            <span class="second-text">Được vinh danh là đơn vị khởi nghiệp tiêu biểu trong thời kì kinh tế khó khăn COVID 19 </span>
-                            <span class="second-text">Nguồn: Chuyên mục Thời sự - Đài truyền hình Việt Nam</span>
+                            <span class="main-text">KHƠI GỢI TINH THẦN KINH DOANH – TIÊN PHONG PHÁT TRIỂN</span>
+                            <span class="second-text"><span class="hover-underline-animation .bg-color-coffee">ARBARO</span> được vinh danh là đơn vị khởi nghiệp tiêu biểu trong thời kì kinh tế khó khăn COVID 19 </span>
+                            <span class="third-text">Nguồn: Chuyên mục Thời sự - Đài truyền hình Việt Nam</span>
                         </div>
                     </div>
                 </div>
@@ -105,7 +105,7 @@
     <div class="background" style="background-image: url(App_Themes/house/img/bg-lido.png);"></div>
     <div class="container-fluid">
         <!--class="container-fluid"-->
-        <h2 class="title"><span></span>LÝ DO LỰA CHỌN</h2>
+        <h2 class="title color-coffee"><span></span>LÝ DO LỰA CHỌN</h2>
         <div class="list">
             <div class="item">
                 <div class="inner">
@@ -189,7 +189,8 @@
 <section id="reason">
 
     <div class="reason-header">
-        <h2 class="mbr-section-title align-center mbr-fonts-style mbr-bold display-2">QUY TRÌNH LÀM VIỆC ARBARO</h2>
+        <%--<h2 class="mbr-section-title align-center mbr-fonts-style mbr-bold display-2 color-coffee">QUY TRÌNH LÀM VIỆC ARBARO</h2>--%>
+         <h2 class="title color-coffee"><span></span>QUY TRÌNH LÀM VIỆC ARBARO</h2>
     </div>
 
     <div class="container">
@@ -282,7 +283,7 @@
 
 <!-- DOI NGU NHAN SU -->
 <div class="expert_home">
-    <div class="background bg_section" style="background-image: url(App_Themes/house/img/bg-slide-style.jpg);"></div>
+    <div class="background bg_section" style="background-image: url(App_Themes/house/img/bg-doingu.jpg);"></div>
     <div class="container-fluid">
         <!-- class="container-fluid" -->
         <div class="title_home2 white">

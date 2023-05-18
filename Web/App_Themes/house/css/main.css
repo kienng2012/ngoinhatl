@@ -27250,7 +27250,7 @@ a {
 }
 
     a:focus, a:hover {
-        color: #23527c;
+        /*  color: #23527c;*/
         text-decoration: underline
     }
 
@@ -36187,9 +36187,10 @@ body.home.fp-viewing-firstSection #header {
 }
 
     .header_logo .logo img {
-        height: 70px;
+        height: 65px;
         object-fit: contain;
-        margin-top: 20px;
+        /*margin-top: -20px;*/
+        margin-bottom: 20px
     }
 
 #menu_mainnav {
@@ -39274,6 +39275,10 @@ body.page-template-gioi-thieu {
         top: 35px
     }
 
+    .title_home2 .title .bg-color-coffee:after {
+        background: #886349 !important;
+    }
+
     .title_home2 .white:after {
         background: #fff !important;
     }
@@ -39304,6 +39309,10 @@ body.page-template-gioi-thieu {
             right: -2px;
             bottom: 6px;
             transform: rotate(45deg)
+        }
+
+        .title_home2 .link .color-coffee:after {
+            background: #886349 !important;
         }
 
     .title_home2.white:after {
@@ -39372,11 +39381,12 @@ body.page-template-gioi-thieu {
         .collection_home .item .info .name {
             text-transform: uppercase;
             /*font-size: 18px;*/
-            font-size: 14px;
-            font-weight: 600;
+            font-size: 16px;
+            font-weight: 700;
             margin-bottom: 15px;
             line-height: 1;
             text-align: center;
+            font-family: "Montserrat",sans-serif
         }
 
             .collection_home .item .info .name a {
@@ -39387,10 +39397,10 @@ body.page-template-gioi-thieu {
             }
 
                 .collection_home .item .info .name a:hover, .collection_home .item .info .name a:focus {
-                    text-decoration: underline;
-                    text-decoration-color: #fff;
+                    /* text-decoration: underline;
+                    text-decoration-color: #fff*/;
                     color: #fff;
-                    transition: text-decoration-color 500ms;
+                    /*transition: text-decoration-color 500ms;*/
                 }
 
         /*.collection_home .item .info .name a:hover::after {
@@ -39514,7 +39524,7 @@ body.page-template-gioi-thieu {
         z-index: 2
     }
 
-    .criteria_home .title {
+    .criteria_home .title, .reason-header .title {
         font-size: 46px;
         text-transform: uppercase;
         margin-bottom: 20px;
@@ -39954,14 +39964,20 @@ body.page-template-gioi-thieu {
                     display: block;
                     position: relative;
                     font-family: "Montserrat",sans-serif;
-                    font-size: 14px;
-                    font-weight: 600;
+                    font-size: 15px;
+                    font-weight: 700;
                     text-transform: uppercase;
                     letter-spacing: .1em;
-                    color: #0d0d0d;
+                    color: #886349;
                     line-height: 20px;
                     padding-left: 0.1em;
                 }
+
+                    .news_home2 .slider .item .info .name a:hover {
+                        text-decoration: underline;
+                        transition: transform 0.25s ease-out;
+                        transform: scaleX(0);
+                    }
 
                 .news_home2 .slider .item .info .text {
                     overflow: hidden;
@@ -39982,6 +39998,22 @@ body.page-template-gioi-thieu {
                         align-items: center;
                         justify-content: flex-end
                     }
+
+                        /*.news_home2 .slider .item .info .link a:after {
+                            content: "";
+                            position: absolute;
+                            bottom: 0;
+                            left: 50%;
+                            margin-left: 0%;
+                            width: 0%;
+                            height: 1px;
+                            background: #0d0d0d;
+                            transition: all 200ms ease;
+                            -webkit-transition: all 200ms ease;
+                            -moz-transition: all 200ms ease;
+                            -o-transition: all 200ms ease;
+                            -ms-transition: all 200ms ease;
+                        }*/
 
                         .news_home2 .slider .item .info .link a i {
                             margin-left: 8px;
@@ -40153,11 +40185,11 @@ body.page-template-gioi-thieu {
             padding: 20px
         }
 
-    .criteria_home .title {
+    .criteria_home .title, .reason-header .title {
         font-size: 36px
     }
 
-        .criteria_home .title span {
+        .criteria_home .title span, .reason-header .title span {
             font-size: 72px
         }
 
@@ -41458,6 +41490,10 @@ body.page-template-gioi-thieu {
                 top: 38px;
             }
 
+            .title_home2 .title .color-coffee:after {
+                background: #886349 !important;
+            }
+
         .title_home2 .white:after {
             background: #fff !important;
         }
@@ -41501,12 +41537,14 @@ body.page-template-gioi-thieu {
         padding: 30px 0 30px
     }
 
-        .criteria_home .title {
+        .criteria_home .title, .reason-header .title {
             font-size: 22px;
-            margin-bottom: 0
+            margin-bottom: 0;
+            margin: auto;
+            text-align: center;
         }
 
-            .criteria_home .title span {
+            .criteria_home .title span, .reason-header .title span {
                 font-size: 48px;
                 padding-bottom: 5px
             }
