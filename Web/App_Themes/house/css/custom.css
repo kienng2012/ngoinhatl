@@ -2725,7 +2725,8 @@ fa-angle-up:before {
 .reason-mobile-slide .reason-item .item-box img {
     width: auto;
     display: inline-block;
-    max-height: 100px !important;
+   /* max-height: 100px !important;*/
+    max-height: 220px !important;
     position: relative;
     text-align: center;
     margin: auto !important;

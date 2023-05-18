@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="HomeHT.ascx.cs" Inherits="Web.Control.nmn.HomeHT" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Home.ascx.cs" Inherits="Web.Control.nmn.Home" %>
 <%@ Import Namespace="Core.Utils" %>
 <%--<%@ Register Src="~/Control/nmn/SlideShowHome.ascx" TagName="slideShowHome" TagPrefix="uc2" %>--%>
 <%@ Register Src="~/Control/nmn/ProjectTop.ascx" TagName="projectTop" TagPrefix="uc1" %>
@@ -98,7 +98,7 @@
 
 
 <!--  DU AN TOP -->
-<uc1:projectTop ID="ProjectTop1" runat="server" />
+<uc1:projectTop ID="ProjectTop2" runat="server" />
 <!-- END DU AN TOP -->
 <!-- LY DO LUA CHON -->
 <div class="criteria_home">
@@ -182,7 +182,7 @@
 </div>
 <!-- END LY DO LUA CHON -- >
 <!-- CAC PHONG CACH -->
-<uc2:styleTop ID="StyleTop1" runat="server" />
+<uc2:styleTop ID="StyleTop2" runat="server" />
 <!-- END CAC PHONG CACH -->
 
 <!-- QUY TRINH LAM VIEC -->
@@ -190,13 +190,13 @@
 
     <div class="reason-header">
         <%--<h2 class="mbr-section-title align-center mbr-fonts-style mbr-bold display-2 color-coffee">QUY TRÌNH LÀM VIỆC ARBARO</h2>--%>
-        <h2 class="title color-coffee"><span></span>QUY TRÌNH LÀM VIỆC ARBARO</h2>
+         <h2 class="title color-coffee"><span></span>QUY TRÌNH LÀM VIỆC ARBARO</h2>
     </div>
 
     <div class="container">
         <div class="reason-content-desktop">
             <div class="pannel-img">
-                <img src="/App_Themes/house/img/QuyTrinhArbaro.png" width="700" height="220" alt="" data-lazy-src="/App_Themes/house/img/QuyTrinhArbaro.png" data-ll-status="loaded" class="entered lazyloaded">
+                <img src="/App_Themes/house/img/QuyTrinhArbaro.png" width="700" height="220" alt="" data-lazy-src="/App_Themes/house/img/QuyTrinhArbaro.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="/App_Themes/house/img/QuyTrinhArbaro.png" width="700" height="220" alt=""></noscript>
             </div>
         </div>
         <div class="reason-content-mobile">
@@ -208,11 +208,11 @@
                                 <div class="item">
                                     <div class="reason-item">
                                         <div class="item-box">
-                                            <%-- <p class="number">01</p>--%>
-                                            <img src="/App_Themes/house/img/qt-1.png" data-lazy-src="/App_Themes/house/img/qt-1.png" data-ll-status="loaded" class="entered lazyloaded">
-                                            <%-- <p class="description">
+                                            <p class="number">01</p>
+                                            <img src="/App_Themes/house/img/qt_1.png" width="65" height="50" data-lazy-src="/App_Themes/house/img/qt_1.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="/App_Themes/house/img/qt_1.png" width="65" height="50"></noscript>
+                                            <p class="description">
                                                 Khảo sát và tư vấn tại công trình                                       
-                                            </p>--%>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -221,11 +221,11 @@
                                 <div class="item">
                                     <div class="reason-item">
                                         <div class="item-box">
-                                            <%-- <p class="number">02</p>--%>
-                                            <img src="/App_Themes/house/img/qt-2.png" data-lazy-src="/App_Themes/house/img/qt-2.png" data-ll-status="loaded" class="entered lazyloaded">
-                                            <%--<p class="description">
+                                            <p class="number">02</p>
+                                            <img src="/App_Themes/house/img/qt_2.png" width="65" height="50" data-lazy-src="/App_Themes/house/img/qt_2.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="/App_Themes/house/img/qt_2.png" width="65" height="50"></noscript>
+                                            <p class="description">
                                                 Lên phương án thiết kế chỉ từ 3 ngày                                       
-                                            </p>--%>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -234,11 +234,11 @@
                                 <div class="item">
                                     <div class="reason-item">
                                         <div class="item-box">
-                                            <%-- <p class="number">03</p>--%>
-                                            <img src="/App_Themes/house/img/qt-3.png" data-lazy-src="/App_Themes/house/img/qt-3.png" data-ll-status="loaded" class="entered lazyloaded">
-                                            <%-- <p class="description">
+                                            <p class="number">03</p>
+                                            <img src="/App_Themes/house/img/qt_3.png" width="65" height="50" data-lazy-src="/App_Themes/house/img/qt_3.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="/App_Themes/house/img/qt_3.png" width="65" height="50"></noscript>
+                                            <p class="description">
                                                 Lên dự toán và tối ưu chi phí                                       
-                                            </p>--%>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -248,11 +248,11 @@
                                 <div class="item">
                                     <div class="reason-item">
                                         <div class="item-box">
-                                            <%-- <p class="number">04</p>--%>
-                                            <img src="/App_Themes/house/img/qt-4.png" data-lazy-src="/App_Themes/house/img/qt-4.png" data-ll-status="loaded" class="entered lazyloaded">
-                                            <%--  <p class="description">
+                                            <p class="number">04</p>
+                                            <img src="/App_Themes/house/img/qt_4.png" width="65" height="50" data-lazy-src="/App_Themes/house/img/qt_4.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="/App_Themes/house/img/qt_4.png" width="65" height="50"></noscript>
+                                            <p class="description">
                                                 Thi công chỉ từ 7 ngày                                       
-                                            </p>--%>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -262,11 +262,11 @@
                                 <div class="item">
                                     <div class="reason-item">
                                         <div class="item-box">
-                                            <%--  <p class="number">05</p>--%>
-                                            <img src="/App_Themes/house/img/qt-5.png" data-lazy-src="/App_Themes/house/img/qt-5.png" data-ll-status="loaded" class="entered lazyloaded">
-                                            <%-- <p class="description">
+                                            <p class="number">05</p>
+                                            <img src="/App_Themes/house/img/qt_5.png" width="65" height="50" data-lazy-src="/App_Themes/house/img/qt_5.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="/App_Themes/house/img/qt_5.png" width="65" height="50"></noscript>
+                                            <p class="description">
                                                 Bảo hành 1 đổi 1 và bảo trì trọn đời                                       
-                                            </p>--%>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -544,8 +544,9 @@
 </div>
 
 <!--FORM LIEN HE -->
-<uc3:reservationForm ID="ReservationForm1" runat="server" />
+<uc3:reservationForm ID="ReservationForm2" runat="server" />
 <!--END FORM LIEN HE -->
 
 <%--</main>--%>
 <!-- PAGEBODY -->
+

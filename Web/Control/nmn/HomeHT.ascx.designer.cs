@@ -11,34 +11,34 @@ namespace Web.Control.nmn
 {
 
 
-    public partial class Home
+    public partial class HomeHT
     {
 
         /// <summary>
-        /// ProjectTop2 control.
+        /// ProjectTop1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::Web.Control.nmn.ProjectTop ProjectTop2;
+        protected global::Web.Control.nmn.ProjectTop ProjectTop1;
 
         /// <summary>
-        /// StyleTop2 control.
+        /// StyleTop1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::Web.Control.nmn.StyleTop StyleTop2;
+        protected global::Web.Control.nmn.StyleTop StyleTop1;
 
         /// <summary>
-        /// ReservationForm2 control.
+        /// ReservationForm1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::Web.Control.nmn.ReservationForm ReservationForm2;
+        protected global::Web.Control.nmn.ReservationForm ReservationForm1;
     }
 }

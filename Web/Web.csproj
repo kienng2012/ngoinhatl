@@ -237,6 +237,11 @@
     <Content Include="App_Themes\house\img\mess-icon.png" />
     <Content Include="App_Themes\house\img\nhm-1-scaled-1.jpg" />
     <Content Include="App_Themes\house\img\popup-boc-tham-tang-do-decor.png" />
+    <Content Include="App_Themes\house\img\qt-1.png" />
+    <Content Include="App_Themes\house\img\qt-2.png" />
+    <Content Include="App_Themes\house\img\qt-3.png" />
+    <Content Include="App_Themes\house\img\qt-4.png" />
+    <Content Include="App_Themes\house\img\qt-5.png" />
     <Content Include="App_Themes\house\img\qt_1.png" />
     <Content Include="App_Themes\house\img\qt_2.png" />
     <Content Include="App_Themes\house\img\qt_3.png" />
@@ -558,6 +563,7 @@
     <Content Include="Control\MenuFooterVzone.ascx" />
     <Content Include="Control\MenuRight.ascx" />
     <Content Include="Control\MenuVzone.ascx" />
+    <Content Include="Control\nmn\HomeHT.ascx" />
     <Content Include="Control\nmn\PolicyGuarantee.ascx" />
     <Content Include="Control\nmn\PolicyDelivery.ascx" />
     <Content Include="Control\nmn\PolicySale.ascx" />
@@ -919,6 +925,13 @@
     </Compile>
     <Compile Include="Control\MenuVzone.ascx.designer.cs">
       <DependentUpon>MenuVzone.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\nmn\HomeHT.ascx.cs">
+      <DependentUpon>HomeHT.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\nmn\HomeHT.ascx.designer.cs">
+      <DependentUpon>HomeHT.ascx</DependentUpon>
     </Compile>
     <Compile Include="Control\nmn\PolicyGuarantee.ascx.cs">
       <DependentUpon>PolicyGuarantee.ascx</DependentUpon>

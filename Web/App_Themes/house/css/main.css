@@ -35032,7 +35032,8 @@ div.wpcf7 .ajax-loader {
 
 .slider_home .owl-dots {
     position: absolute;
-    bottom: 10px;
+    /* bottom: 10px;*/
+    padding:5px;
     left: 0;
     width: 100%;
     text-align: center;
