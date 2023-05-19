@@ -47,7 +47,7 @@
         <ul id="portfolio-filter-standard" class="filter clearfix" data-related-grid="grid-du-an">
             <li><a class="active" data-option-value="*" href="/phong-cach.htm">All</a></li>
             <li><a data-option-value=".biet-thu" href="/phong-cach/hien-dai.htm" title="Hiện đại">Hiện đại</a></li>
-            <li><a data-option-value=".cafe-nha-hang-khach-san" href="phong-cach/scandinavian.htm" title="Scandinavian">Scandinavian</a></li>
+            <li><a data-option-value=".cafe-nha-hang-khach-san" href="/phong-cach/scandinavian.htm" title="Scandinavian">Scandinavian</a></li>
             <li><a data-option-value=".can-ho" href="/phong-cach/indochine.htm" title="Indochine">Indochine</a></li>
             <li><a data-option-value=".du-an-trang-chu" href="/phong-cach/wabisabi.htm" title="Wabisabi">Wabisabi</a></li>
             <li><a data-option-value=".du-an-trang-chu" href="/phong-cach/wabisabi.htm" title="Wabisabi">Wabisabi</a></li>
