@@ -36449,7 +36449,7 @@ body.logged-in #menu_mainnav {
             top: 100%;
             left: 0;
             /*padding-top: 10px*/
-            padding-top: 0px
+            padding-top: 2px
         }
 
             .header_menu .menu > li > ul li {
