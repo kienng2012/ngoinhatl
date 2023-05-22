@@ -574,6 +574,7 @@
     <Content Include="Control\nmn\ProjectDetail2.ascx" />
     <Content Include="Control\nmn\BannerContact.ascx" />
     <Content Include="Control\nmn\ProjectCategory.ascx" />
+    <Content Include="Control\nmn\SearchResult.ascx" />
     <Content Include="Control\nmn\Recruitment.ascx" />
     <Content Include="Control\nmn\RecruitmentDetail.ascx" />
     <Content Include="Control\nmn\StyleCategory.ascx" />
@@ -1002,6 +1003,13 @@
     </Compile>
     <Compile Include="Control\nmn\ProjectCategory.ascx.designer.cs">
       <DependentUpon>ProjectCategory.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\nmn\SearchResult.ascx.cs">
+      <DependentUpon>SearchResult.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\nmn\SearchResult.ascx.designer.cs">
+      <DependentUpon>SearchResult.ascx</DependentUpon>
     </Compile>
     <Compile Include="Control\nmn\Recruitment.ascx.cs">
       <DependentUpon>Recruitment.ascx</DependentUpon>

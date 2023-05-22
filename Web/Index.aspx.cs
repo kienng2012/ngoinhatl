@@ -57,6 +57,7 @@ namespace Web
             PolicyDelivery,
             PolicyGuarantee,
             Testimonial,
+            SearchResult,
             //SubjectDetails,
             //BangVang,
             //BangVangCT,

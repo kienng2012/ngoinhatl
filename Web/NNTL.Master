@@ -202,7 +202,7 @@
                 <div class="footer_wrap">
                     <div class="hotline">
                         <a href="tel:(+84) 826688000">
-                            <img data-lazyloaded="1" src="<%= Page.ResolveClientUrl("~/App_Themes/house/img/icon_lh11.png") %>" alt="icon_lh11" data-src="<%= Page.ResolveClientUrl("~/App_Themes/house/img/icon_lh11.png") %>" data-ll-status="loaded" class="entered litespeed-loaded">(+84) 826688000 </a>
+                            <img data-lazyloaded="1" src="<%= Page.ResolveClientUrl("~/App_Themes/house/img/icon_lh11.png") %>" alt="icon_lh11"  data-ll-status="loaded" class="entered litespeed-loaded">(+84) 826688000 </a>
                     </div>
                 </div>
             </div>

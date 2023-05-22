@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
 
@@ -192,6 +193,67 @@ namespace Core.Utils
                             sb.Append(string.Format("<a class=\"nextpostslink\" rel=\"next\" aria-label=\"Trang sau\" href=\"/{0}-p{1}.htm\">{2}</a>", baseUrl, page + 2, page + 2));
                         }
                         sb.Append(string.Format("<a class=\"last\" aria-label=\"Last Page\" href=\"/{0}-p{1}.htm\">Trang cuối »</a>", baseUrl, maxPage));
+                    }
+                }
+            }
+
+            sb.Append("</div>");
+
+
+            return sb.ToString();
+        }
+        /**
+     * Vi du Full phan trang la = Tin-tuc-p2.htm ==> Base URL = "Tin-tuc"
+     * */
+        public static string generateTagPagingNodricForSearch(string baseUrl, int page, int pageSize, int totalRecord, string keywordParam)
+        {
+            StringBuilder sb = new StringBuilder("<div class=\"wp-pagenavi\" role=\"navigation\">");
+            int maxPage = 1;
+            if (totalRecord > pageSize && totalRecord % pageSize == 0)
+            { maxPage = totalRecord / pageSize; }
+            if (totalRecord > pageSize && totalRecord % pageSize != 0)
+            { maxPage = (totalRecord / pageSize) + 1; }
+
+
+            if (maxPage <= 1)
+            {
+                return "";//Nếu chỉ có trang thì ko hiển thị phân trang
+            }
+
+            else
+            {
+                sb.Append(string.Format("<span class=\"pages\">Trang {0} trên {1}</span>", page, maxPage));
+                if (page <= 1)
+                {
+
+                    sb.Append(string.Format("<span aria-current=\"page\" class=\"current\">{0}</span>", page));
+                    if (page < maxPage)
+                    {
+                        sb.Append(string.Format("<a class=\"nextpostslink\" rel=\"next\" aria-label=\"Trang sau\" href=\"/{0}?pageNumber={1}&keyword={2}\">{3}</a>", baseUrl, page + 1, keywordParam, page + 1));
+                        if (page <= maxPage - 2)
+                        {
+                            sb.Append(string.Format("<a class=\"nextpostslink\" rel=\"next\" aria-label=\"Trang sau\" href=\"/{0}?pageNumber={1}&keyword={2}\" >{3}</a>", baseUrl, page + 2, keywordParam, page + 2));
+                        }
+                        sb.Append(string.Format("<a class=\"last\" aria-label=\"Last Page\" href=\"/{0}?pageNumber={1}&keyword={2}\">Trang cuối »</a>", baseUrl, maxPage, keywordParam));
+                    }
+                }
+                else
+                {
+                    sb.Append(string.Format("<a class=\"first\" aria-label=\"First Page\" href=\"/{0}?pageNumber=1&keyword={1}\">« Trang đầu</a>", baseUrl, keywordParam));
+                    if (page > 2)
+                    {
+                        sb.Append(string.Format("<a class=\"previouspostslink\" rel=\"prev\" aria-label=\"Trang trước\" href=\"/{0}?pageNumber={1}&keyword={2}\">{3}</a>", baseUrl, page - 2, keywordParam, page - 2));
+                    }
+                    sb.Append(string.Format("<a class=\"previouspostslink\" rel=\"prev\" aria-label=\"Trang trước\" href=\"/{0}?pageNumber={1}&keyword={2}\">{3}</a>", baseUrl, page - 1, keywordParam, page - 1));
+                    sb.Append(string.Format("<span aria-current=\"page\" class=\"current\">{0}</span>", page));
+                    if (page < maxPage)
+                    {
+                        sb.Append(string.Format("<a class=\"nextpostslink\" rel=\"next\" aria-label=\"Trang sau\" href=\"/{0}?pageNumber={1}&keyword={2}\">{3}</a>", baseUrl, page + 1, keywordParam, page + 1));
+                        if (page <= maxPage - 2)
+                        {
+                            sb.Append(string.Format("<a class=\"nextpostslink\" rel=\"next\" aria-label=\"Trang sau\" href=\"/{0}?pageNumber={1}&keyword={2}\">{3}</a>", baseUrl, page + 2, keywordParam, page + 2));
+                        }
+                        sb.Append(string.Format("<a class=\"last\" aria-label=\"Last Page\" href=\"/{0}?pageNumber={1}&keyword={2}\">Trang cuối »</a>", baseUrl, maxPage, keywordParam));
                     }
                 }
             }

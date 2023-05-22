@@ -293,6 +293,38 @@ namespace Core.CategorySub
             return dt;
         }
 
+        public static DataTable CategorySub_Search_Pager(int page, int pageSize,string keyword, CategorySubInfo info)
+        {
+            DataTable dt = null;
+
+            SqlConnection dbconn = new SqlConnection(ConfigurationManager.ConnectionStrings["SQLGamePortalHTS"].ToString());
+            SqlCommand dbcmd = new SqlCommand("CategorySub_Search_Pager", dbconn);
+            dbcmd.Parameters.AddWithValue("@Keyword", keyword);
+            dbcmd.Parameters.AddWithValue("@page", page);
+            dbcmd.Parameters.AddWithValue("@pageSize", pageSize);
+            dbcmd.Parameters.Add(new SqlParameter("@OutputCount", SqlDbType.Int, 4, ParameterDirection.Output, false, 0, 0, "", DataRowVersion.Proposed, info.Output));
+            dbcmd.CommandType = CommandType.StoredProcedure;
+            try
+            {
+                dbconn.Open();
+                dt = new DataTable();
+                SqlDataAdapter da = new SqlDataAdapter(dbcmd);
+                da.Fill(dt);
+                info.Output = (int)dbcmd.Parameters["@OutputCount"].Value;
+            }
+            catch (Exception ex)
+            {
+
+                throw (new Exception(ex.Message));
+            }
+            finally
+            {
+                dbconn.Close();
+            }
+
+            return dt;
+        }
+
         public static DataTable CategorySubsByCateWithoutCurrentID(int page, int pageSize, CategorySubInfo info, int currentID)
         {
             DataTable dt = null;

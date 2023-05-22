@@ -53,21 +53,23 @@
                         <li id="menu-item-2673" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2673 nav-item"><a class="nav-links" href="/lien-he.htm">Liên hệ</a></li>
                         <li id="menu-item-2248" class="menu-item menu-item-type-taxonomy menu-item-object-project_cat menu-item-2248 nav-item"><a class="nav-links" href="/tuyen-dung.htm">Tuyển dụng</a></li>
                     </ul>
-                    <form role="search" method="get" class="woocommerce-search" action="http://ngoinhatuonglai.vn/">
+                    <form role="search" method="get" class="woocommerce-search" action="/tim-kiem.htm">
                         <label class="screen-reader-text" for="woocommerce-product-search-field-0">Tìm kiếm:</label>
-                        <input type="search" id="woocommerce-product-search-field-01" class="search-field" placeholder="" value="" name="s">
+                        <input type="search" id="woocommerce-product-search-field-01" class="search-field" placeholder="" value="" name="keyword">
+
                         <button type="submit" value="Tìm kiếm"><i class="iconx icon-search"></i></button>
-                        <input type="hidden" name="post_type" value="product">
+                        <%--<asp:Button ID="btnSearch"  runat="server" OnClick="btnSearch_Click" /><i class="iconx icon-search">--%>
+                       
                     </form>
                 </div>
             </div>
         </div>
         <div class="header_search">
-            <form role="search" method="get" class="woocommerce-product-search" action="http://ngoinhatuonglai.vn/">
+            <form role="search" method="get" class="woocommerce-product-search" action="/tim-kiem.htm">
                 <label class="screen-reader-text" for="woocommerce-product-search-field-2">Tìm kiếm:</label>
-                <input type="search" id="woocommerce-product-search-field-0" class="search-field" placeholder="Tìm sản phẩm…" value="" name="s">
+                <input type="search" id="woocommerce-product-search-field-0" class="search-field" placeholder="Tìm sản phẩm…" value="" name="keyword">
                 <button type="submit" value="Tìm kiếm"><i class="fa fa-search" aria-hidden="true"></i></button>
-                <input type="hidden" name="post_type" value="product">
+               
             </form>
         </div>
     </div>
@@ -95,7 +97,7 @@
                     <li id="menu-item-259" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-251 nav-item"><a class="nav-links" href="/gioi-thieu.htm#Team_ARBARO">Đội ngũ</a></li>
                 </ul>
             </li>--%>
-               <li id="menu-item-2333" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2303 nav-item"><a class="nav-links" href="/gioi-thieu.htm">Giới thiệu</a></li>
+            <li id="menu-item-2333" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2303 nav-item"><a class="nav-links" href="/gioi-thieu.htm">Giới thiệu</a></li>
             <li id="menu-item-250" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-250 nav-item"><a class="nav-links" href="/du-an.htm">Dự án</a><i class="fa fa-caret-down"></i>
                 <ul class="sub-menu">
                     <li id="menu-item-256" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-256 nav-item"><a class="nav-links" href="/du-an/chung-cu.htm">Chung cư</a></li>
@@ -129,11 +131,11 @@
         </ul>
     </div>
     <div class="fixed_search">
-        <form role="search" method="get" class="" action="#">
+        <form role="search" method="get" class="" action="/tim-kiem.htm">
             <label class="screen-reader-text" for="woocommerce-product-search-field-0">Tìm kiếm:</label>
-            <input type="search" class="search-field" placeholder="Nhập từ khóa tìm kiếm" value="" name="s">
+            <input type="search" class="search-field" placeholder="Nhập từ khóa tìm kiếm" value="" name="keyword">
             <button type="submit" value="Tìm kiếm"><span class="arrow"></span></button>
-            <input type="hidden" name="post_type" value="product">
+           
         </form>
         <div class="close_bt">X</div>
     </div>

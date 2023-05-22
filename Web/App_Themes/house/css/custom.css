@@ -1595,6 +1595,23 @@ body {
     width: calc(100% - 40px);
 }
 
+.columns-5 .round-capt .capt {
+    display: block;
+    font-family: "Montserrat",sans-serif;
+    font-size: 11px !important;
+    font-weight: 600;
+    letter-spacing: 0 !important;
+    line-height: 16px !important;
+    text-transform: none !important;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 1;
+    width: calc(100% - 40px);
+}
+
 .item_pro:focus .img, .item_pro:hover .img {
     transform: scale(1);
     -webkit-transition: all 8s ease;
@@ -2725,7 +2742,7 @@ fa-angle-up:before {
 .reason-mobile-slide .reason-item .item-box img {
     width: auto;
     display: inline-block;
-   /* max-height: 100px !important;*/
+    /* max-height: 100px !important;*/
     max-height: 220px !important;
     position: relative;
     text-align: center;
