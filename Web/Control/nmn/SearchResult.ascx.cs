@@ -13,7 +13,7 @@ namespace Web.Control.nmn
         protected int _cateID;
         protected string _cateName;
         protected int _pageNumber;
-        const int pageSize = 5;
+        const int pageSize = 20;
         protected string _baseUrlPaging = "tim-kiem.htm";
         protected string _keyword;
         protected string _originKeyword;
