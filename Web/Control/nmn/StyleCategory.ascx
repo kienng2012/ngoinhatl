@@ -12,14 +12,21 @@
         </div>
     </div>
 </section>--%>
-<section id="page-title" class="full-height" style="background-color: rgb(239, 239, 239); background-size: cover; background-position: center center; background-repeat: no-repeat; min-height: 255px;">
+<%--<section id="page-title" class="full-height" style="background-color: rgb(239, 239, 239); background-size: cover; background-position: center center; background-repeat: no-repeat; min-height: 255px;">
     <asp:Image ID="imgBannerCate" runat="server" class="img-banner-cover" />
-    <%--<div class="section-inner align-center">
+    <div class="section-inner align-center">
         <div class="main-title">
             <h1 style="font-size: 28px; margin-top: 5px;"><strong>Dự án</strong></h1>
         </div>
-    </div>--%>
-</section>
+    </div>
+</section>--%>
+
+<asp:Repeater ID="rpImageBanner" runat="server">
+    <ItemTemplate>
+        <%-- <section id="page-title" class="full-height" style="background-image: url(<%#Eval("IMG_URL_ITEM") %>); background-color: rgb(239, 239, 239); background-size: cover; background-position: center center; background-repeat: no-repeat; min-height: 255px;">--%>
+        <section id="page-title" class="full-height" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(<%#Eval("IMG_URL_ITEM") %>); background-size: cover; background-position: center center; background-repeat: no-repeat; min-height: 623px;"></section>
+    </ItemTemplate>
+</asp:Repeater>
 <!-- END BANNER -->
 
 <!-- NAV BREADCUMBS-->

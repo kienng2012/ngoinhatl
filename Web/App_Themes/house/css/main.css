@@ -35033,7 +35033,7 @@ div.wpcf7 .ajax-loader {
 .slider_home .owl-dots {
     position: absolute;
     /* bottom: 10px;*/
-    padding:5px;
+    padding: 5px;
     left: 0;
     width: 100%;
     text-align: center;
@@ -41379,12 +41379,26 @@ body.page-template-gioi-thieu {
         .text-video .main-text {
             padding-left: 0 !important;
             padding-right: 0 !important;
+            font-size: 9.5px !important;
         }
 
         .text-video .second-text {
             padding-left: 0 !important;
             padding-right: 0 !important;
+            font-size: 9.5px !important;
         }
+
+        .text-video .third-text {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+            font-size: 9px !important;
+        }
+
+    .filter li a {
+        font-size: 11px !important;
+        letter-spacing: 0.1em !important;
+        line-height: 5px !important;
+    }
 
     .about_home .inner_right .img {
         width: 100%;

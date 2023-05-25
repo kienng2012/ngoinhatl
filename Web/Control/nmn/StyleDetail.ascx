@@ -67,7 +67,7 @@
                             </ItemTemplate>
                         </asp:Repeater>
 
-                        <div class="int_auther_box">
+                        <%--<div class="int_auther_box">
                             <div class="int_auther_img">
                                 <img src="https://housedesign.vn/wp-content/uploads/2020/05/author-quach-kim-hai.jpg" width="118" height="138" class="img-fluid entered lazyloaded" alt="Quách Kim Hải – Interior Designer" data-lazy-src="https://housedesign.vn/wp-content/uploads/2020/05/author-quach-kim-hai.jpg" data-ll-status="loaded"><noscript><img src="https://housedesign.vn/wp-content/uploads/2020/05/author-quach-kim-hai.jpg" width="118" height="138" class="img-fluid" alt="Quách Kim Hải – Interior Designer"></noscript>
                             </div>
@@ -76,40 +76,86 @@
                                 <p>Là một kiến trúc sư trẻ nhưng với tôi kiến trúc nó không phải là giấy, không phải là hình thức mà nó là không gian và vật liệu.</p>
                                 <p>“Instead of thinking outside the box, get rid of the box” – Deepak Chopra</p>
                             </div>
+                        </div>--%>
+                    </div>
+
+                    <div class="int_blog_post">
+                        <div class="all_box no-margin">
+                            <div class="section-inner">
+                                <div class="int_sidebar_box custom">
+                                    <p class="title">Bài viết liên quan</p>
+
+                                    <div class="all_box">
+                                        <div class="products columns-3 list_product">
+                                            <asp:Repeater ID="rptListCate" runat="server">
+                                                <ItemTemplate>
+                                                    <div class="item_pro">
+                                                        <div class="img" style="background-image: url(<%#Eval("CS_ImageURL") %>"></div>
+                                                        <%--<div class="img"><img src="<%#Eval("CS_ImageURL") %>" alt=""/></div>--%>
+                                                        <div class="info-style custom">
+                                                            <div class="round-capt"><span class="capt no-text-transform"><%#Eval("CS_Name")%></span></div>
+                                                        </div>
+                                                        <%--  <div class="overlay"><span class="item-pro-title"><%#Eval("CS_Name")%></span></div>--%>
+                                                        <a href="/phong-cach/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm" class="link_full"></a>
+                                                    </div>
+                                                </ItemTemplate>
+                                            </asp:Repeater>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
+
             </div>
             <!-- Sidebar -->
             <div class="pure-u-1 pure-u-lg-1-3">
-                <div class="int_blog_sidebar">
-                    <div class="int_sidebar_box recent_blog_one">
-                        <p class="title">Dự án đã thực hiện</p>
-                        <div class="int_blog_insta_post">
-                            <ul>
+                <div class="int_sidebar_box recent_blog_one">
+                    <p class="title">Dự án đã thực hiện</p>
+                    <div class="int_blog_insta_post">
+                        <div class="all_box">
+                            <div class="products columns-1 list_product">
                                 <asp:Repeater ID="rptProjects" runat="server">
                                     <ItemTemplate>
-                                        <li>
-                                            <a href="/du-an/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm">
-                                                <div class="img-related">
-                                                    <img src="<%#Eval("CS_ImageURL") %>" width="768" height="432" alt="" data-lazy-src="<%#Eval("CS_ImageURL") %>" data-ll-status="loaded" class="entered lazyloaded">
-                                                    <%--<noscript>
-                                                    <img
-                                                        src="<%#Eval("CS_ImageURL") %>"
-                                                        width="768" height="432" alt="" />
-                                                </noscript>--%>
-                                                </div>
-                                            </a>
-                                            <a class="project-name" href="/du-an/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm"><%#Eval("CS_Name")%></a>
-                                        </li>
+                                        <div class="item_pro">
+                                            <div class="img" style="background-image: url(<%#Eval("CS_ImageURL") %>"></div>
+                                            <%--<div class="img"><img src="<%#Eval("CS_ImageURL") %>" alt=""/></div>--%>
+                                            <div class="info-style">
+                                                <div class="round-capt"><span class="capt"><%#Eval("CS_Name")%></span></div>
+                                            </div>
+                                            <%--  <div class="overlay"><span class="item-pro-title"><%#Eval("CS_Name")%></span></div>--%>
+                                            <a href="/du-an/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm" class="link_full"></a>
+                                        </div>
                                     </ItemTemplate>
                                 </asp:Repeater>
-                            </ul>
+                            </div>
                         </div>
                     </div>
+                </div>
+                <%--<div class="int_sidebar_box recent_blog_one">
+                    <p class="title">Dự án đã thực hiện</p>
+                    <div class="int_blog_insta_post">
+                        <ul>
+                            <asp:Repeater ID="rptProjects" runat="server">
+                                <ItemTemplate>
+                                    <li>
+                                        <a href="/du-an/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm">
+                                            <div class="img-related">
+                                                <img src="<%#Eval("CS_ImageURL") %>" width="768" height="432" alt="" data-lazy-src="<%#Eval("CS_ImageURL") %>" data-ll-status="loaded" class="entered lazyloaded">
+                                            </div>
+                                        </a>
+                                        <a class="project-name" href="/du-an/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm"><%#Eval("CS_Name")%></a>
+                                    </li>
+                                </ItemTemplate>
+                            </asp:Repeater>
+                        </ul>
+                    </div>
+                </div>--%>
 
 
-                    <div class="int_sidebar_box recent_blog_one">
+                <%--<div class="int_sidebar_box recent_blog_one">
                         <p class="title">Bài viết liên quan</p>
                         <div class="int_blog_insta_post">
                             <ul>
@@ -119,12 +165,7 @@
                                             <a href="/phong-cach/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm">
                                                 <div class="img-related">
                                                     <img src="<%#Eval("CS_ImageURL") %>" width="768" height="576" alt="<%#Eval("CS_Name")%>" data-lazy-src="<%#Eval("CS_ImageURL") %>" data-ll-status="loaded" class="entered lazyloaded">
-                                                    <%--<noscript>
-                                                    <img
-                                                        src="<%#Eval("CS_ImageURL") %>"
-                                                        width="768" height="576" alt="<%#Eval("CS_Name")%>" />
-                                                </noscript>--%>
-                                                </div>
+                                                                                                  </div>
                                             </a>
 
                                             <a class="project-name" href="/phong-cach/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm"><%#Eval("CS_Name")%></a>
@@ -133,11 +174,11 @@
                                 </asp:Repeater>
                             </ul>
                         </div>
-                    </div>
-                </div>
+                    </div>--%>
             </div>
         </div>
     </div>
+</div>
 </div>
 <!-- BANNER CONTACT -->
 <uc1:bannerContact ID="BannerContact" runat="server" />

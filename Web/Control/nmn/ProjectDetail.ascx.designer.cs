@@ -15,22 +15,13 @@ namespace Web.Control.nmn
     {
 
         /// <summary>
-        /// lblTitlePage control.
+        /// rpImageBanner control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal lblTitlePage;
-
-        /// <summary>
-        /// lblDescriptionPage control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal lblDescriptionPage;
+        protected global::System.Web.UI.WebControls.Repeater rpImageBanner;
 
         /// <summary>
         /// lblTitle control.
@@ -67,6 +58,15 @@ namespace Web.Control.nmn
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Repeater rpImages;
+
+        /// <summary>
+        /// rptListCate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Repeater rptListCate;
 
         /// <summary>
         /// BannerContact control.

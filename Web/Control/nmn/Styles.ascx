@@ -9,7 +9,8 @@
         <h1 class="title_catpro">Sản phẩm</h1>
     </div>
 </div>--%>
-<section id="page-title" class="full-height" style="background-image: url(<%= Page.ResolveClientUrl("~/App_Themes/house/img/bg_duan.jpg")%>); background-color: rgb(239, 239, 239); background-size: cover; background-position: center center; background-repeat: no-repeat; min-height: 255px;">
+<%--<section id="page-title" class="full-height" style="background-image: url(<%= Page.ResolveClientUrl("~/App_Themes/house/img/bg-phongcach.jpg")%>); background-color: rgb(239, 239, 239); background-size: cover; background-position: center center; background-repeat: no-repeat; min-height: 255px;">--%>
+<section id="page-title" class="full-height" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(<%= Page.ResolveClientUrl("~/App_Themes/house/img/bg-phongcach.jpg")%>); background-size: cover; background-position: center center; background-repeat: no-repeat; min-height: 623px;">
     <div class="section-inner align-center">
         <div class="main-title">
             <h1 style="font-size: 28px; margin-top: 5px;"><strong>Phong cách thiết kế</strong></h1>

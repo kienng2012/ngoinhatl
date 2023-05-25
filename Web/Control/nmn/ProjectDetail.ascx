@@ -13,7 +13,7 @@
 
 <!-- BANNER -->
 
-<section id="page-title" class="full-height" style="background-image: url(<%= Page.ResolveClientUrl("~/App_Themes/house/img/bg_duan.jpg")%>); background-color: rgb(239, 239, 239); background-size: cover; background-position: center center; background-repeat: no-repeat; min-height: 255px;">
+<%--<section id="page-title" class="full-height" style="background-image: url(<%= Page.ResolveClientUrl("~/App_Themes/house/img/bg_duan.jpg")%>); background-color: rgb(239, 239, 239); background-size: cover; background-position: center center; background-repeat: no-repeat; min-height: 255px;">
     <div class="section-inner align-center">
         <div class="main-title">
             <h1 style="font-size: 28px; margin-top: 5px;"><strong>
@@ -24,7 +24,24 @@
             </div>
         </div>
     </div>
-</section>
+</section>--%>
+
+<asp:Repeater ID="rpImageBanner" runat="server">
+    <ItemTemplate>
+        <section id="page-title" class="full-height" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(<%#Eval("CS_ImageURL") %>); background-size: cover; background-position: center center; background-repeat: no-repeat; min-height: 623px;">
+            <%-- background-image: url(<%#Eval("CS_ImageURL") %>); background-color: rgb(239, 239, 239); background-size: cover; background-position: center center; background-repeat: no-repeat; min-height: 255px;--%>
+            <div class="section-inner align-center">
+                <div class="main-title">
+                    <h1 style="font-size: 28px; margin-top: 5px;"><strong><%#Eval("CS_Name") %>         </strong></h1>
+                    <div class="port-meta">
+                        <span>
+                            <%#Eval("CS_Description") %></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </ItemTemplate>
+</asp:Repeater>
 <!-- END BANNER -->
 
 <!-- NAV BREADCUMBS-->
@@ -81,38 +98,39 @@
 
                 <!-- V -->
             </div>
-
-            <%-- <div class="cta-container">
-                <div class="container">
-                    <div class="pure-g">
-                        <div class="pure-u-1 pure-u-lg-7-12">
-                            <div class="cta-wrap">
-                                <div class="cta-content">
-                                    <p class="title">ARBARO - Thiết kế thi công nội thất hiện đại</p>
-                                    <p class="sub-title">Liên hệ ngay với chúng tôi để thực hiện dự án của bạn</p>
-                                    <a href="https://ngoinhatuonglai/lien-he.htm/">Liên hệ</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="pure-u-1 pure-u-lg-5-12">
-                            <div class="cta-img">
-                                <img src="../../App_Themes/house/img/banner-lien-he.png" width="482" height="211" alt="" data-lazy-src="../../App_Themes/house/img/banner-lien-he.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="/images/banner-lien-he.png" width="482" height="211" alt=""></noscript>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>--%>
-            <%--<div class="wrapper">
-                <ul class="single-pagination fixed-pagination">
-                    <li class="next "><a href="https://housedesign.vn/du-an/thi-cong-thu-te-villa-vinhome-quan-9/" title="Thi công thự tế Villa Vinhome Quận 9" class="transition" data-name="Thi công thự tế Villa Vinhome Quận 9">
-                        <i class="pagination-icon"></i>Next Project <i class="pagination-icon"></i></a></li>
-                    <li class="prev "><a href="https://housedesign.vn/du-an/thi-cong-thuc-te-duplex-sadora-quan-2/" title="Thi công thực tế- Duplex Sadora Quận 2" class="transition" data-name="Thi công thực tế- Duplex Sadora Quận 2">
-                        <i class="pagination-icon"></i>Previous Project <i class="pagination-icon"></i></a></li>
-                </ul>
-            </div>--%>
         </div>
     </section>
+
+    <div class="all_box no-margin">
+        <div class="section-inner">
+            <div class="archive-title align-center">
+                <h1>Dự án liên quan</h1>
+                <div class="separator"><span></span></div>
+            </div>
+        </div>
+        <div class="products columns-4 list_product">
+            <asp:Repeater ID="rptListCate" runat="server">
+                <ItemTemplate>
+                    <div class="item_pro">
+                        <div class="img" style="background-image: url(<%#Eval("CS_ImageURL") %>"></div>
+                        <%--<div class="img"><img src="<%#Eval("CS_ImageURL") %>" alt=""/></div>--%>
+                        <div class="info-style">
+                            <div class="round-capt"><span class="capt"><%#Eval("CS_Name")%></span></div>
+                        </div>
+                        <%--  <div class="overlay"><span class="item-pro-title"><%#Eval("CS_Name")%></span></div>--%>
+                        <a href="/du-an/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm" class="link_full"></a>
+                    </div>
+
+                </ItemTemplate>
+            </asp:Repeater>
+        </div>
+        <%--  <asp:Literal ID="lblPaging" runat="server" />--%>
+        <div class="spacer spacer-small"></div>
+    </div>
+
 </div>
+
+
 <!-- END CONTENT -->
 <!-- BANNER CONTACT -->
 <uc1:bannerContact ID="BannerContact" runat="server" />

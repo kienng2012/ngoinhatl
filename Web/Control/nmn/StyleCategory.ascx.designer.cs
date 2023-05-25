@@ -15,13 +15,13 @@ namespace Web.Control.nmn
     {
 
         /// <summary>
-        /// imgBannerCate control.
+        /// rpImageBanner control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image imgBannerCate;
+        protected global::System.Web.UI.WebControls.Repeater rpImageBanner;
 
         /// <summary>
         /// lblCateName control.
