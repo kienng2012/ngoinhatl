@@ -46,7 +46,7 @@
                                                 <div class="regency"><%#Eval("C_Company") %></div>
                                             </div>
                                         </div>
-                                        <div class="content"><%#Eval("C_Description") %><</div>
+                                        <div class="content"><%#Eval("C_Description") %></div>
                                     </div>
                                 </div>
                             </div>
