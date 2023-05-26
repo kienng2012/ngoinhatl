@@ -25,7 +25,8 @@ namespace Web
             ManagerServiceVzone,
             ManagerAdvertising,
             ManagerGold,
-            ManagerReservation
+            ManagerReservation,
+            ManagerComment,
         }
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -50,7 +51,7 @@ namespace Web
                 {
                     //TODO: Kienng check
                     tblRoleDetaiInfo infoRole = tblRoleDetaiDB.GetInfo(Convert.ToInt32(Request.QueryString["id"]));
-                    if ( !infoRole.IsView)
+                    if (!infoRole.IsView)
                     {
                         page = ModulePages.Home;
                     }

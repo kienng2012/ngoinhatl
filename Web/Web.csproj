@@ -539,6 +539,7 @@
     <Content Include="Control\Giaoduc\BangVangCT.ascx" />
     <Content Include="Control\HomeOld.ascx" />
     <Content Include="Control\ManageCategoryGame.ascx" />
+    <Content Include="Control\ManagerComment.ascx" />
     <Content Include="Control\ManagerReservation.ascx" />
     <Content Include="Control\ManagerGold.ascx" />
     <Content Include="Control\Giaoduc\BangVang.ascx" />
@@ -723,6 +724,13 @@
     </Compile>
     <Compile Include="Control\ManageCategoryGame.ascx.designer.cs">
       <DependentUpon>ManageCategoryGame.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\ManagerComment.ascx.cs">
+      <DependentUpon>ManagerComment.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\ManagerComment.ascx.designer.cs">
+      <DependentUpon>ManagerComment.ascx</DependentUpon>
     </Compile>
     <Compile Include="Control\ManagerReservation.ascx.cs">
       <DependentUpon>ManagerReservation.ascx</DependentUpon>

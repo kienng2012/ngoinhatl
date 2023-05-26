@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ManagerCategory.ascx.cs" Inherits="Web.Control.ManagerCategory" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ManagerComment.ascx.cs" Inherits="Web.Control.ManagerComment" %>
 <%@ Register Assembly="FredCK.FCKeditorV2" Namespace="FredCK.FCKeditorV2" TagPrefix="FCKeditorV2" %>
 
 <%@ Register Assembly="DevExpress.Web.v10.2" Namespace="DevExpress.Web.ASPxCallbackPanel"
@@ -39,7 +39,7 @@
     </div>
     <div class="bg-main">
         <div class="titleFunc">
-            Quản lý Danh Mục
+            Quản lý Bình luận
         </div>
     </div>
 </div>
@@ -72,19 +72,25 @@
                             <CellStyle HorizontalAlign="Center">
                             </CellStyle>
                         </dx:GridViewDataTextColumn>
-                        <dx:GridViewDataTextColumn Caption="Tên Danh Mục" FieldName="C_Name"
+                        <dx:GridViewDataTextColumn Caption="Họ Tên" FieldName="C_Name"
                             VisibleIndex="1">
                             <HeaderStyle HorizontalAlign="Center" />
                             <CellStyle HorizontalAlign="Center">
                             </CellStyle>
                         </dx:GridViewDataTextColumn>
-                        <dx:GridViewDataTextColumn Caption="Tên đường dẫn" FieldName="C_BaseURL"
+                       <%-- <dx:GridViewDataTextColumn Caption="Tên đường dẫn" FieldName="C_BaseURL"
                             VisibleIndex="2">
                             <HeaderStyle HorizontalAlign="Center" />
                             <CellStyle HorizontalAlign="Center">
                             </CellStyle>
+                        </dx:GridViewDataTextColumn>--%>
+                        <dx:GridViewDataTextColumn Caption="Nghề nghiệp" FieldName="C_Major"
+                            VisibleIndex="3">
+                            <HeaderStyle HorizontalAlign="Center" />
+                            <CellStyle HorizontalAlign="Center">
+                            </CellStyle>
                         </dx:GridViewDataTextColumn>
-                        <dx:GridViewDataTextColumn Caption="Từ khóa" FieldName="C_Keyword"
+                        <dx:GridViewDataTextColumn Caption="Chức vụ" FieldName="C_Company"
                             VisibleIndex="3">
                             <HeaderStyle HorizontalAlign="Center" />
                             <CellStyle HorizontalAlign="Center">
@@ -126,7 +132,7 @@
                         <LoadingPanel Url="~/App_Themes/Aqua/GridView/Loading.gif">
                         </LoadingPanel>
                     </Images>
-                    <SettingsText ConfirmDelete="Bạn có chắc chắn xóa danh mục này?" />
+                    <SettingsText ConfirmDelete="Bạn có chắc chắn bình luận này?" />
                     <StylesEditors>
                         <CalendarHeader Spacing="1px">
                         </CalendarHeader>
@@ -161,17 +167,17 @@
             <asp:View ID="viewUpdate" runat="server">
                 <table border="0" cellpadding="5" cellspacing="5">
                     <tr>
-                        <td class="label_minigame">Tên Danh mục:
+                        <td class="label_minigame">Họ Tên:
                         </td>
                         <td class="text_minigame">
                             <dx:ASPxTextBox ID="txtName" runat="server" Width="250px">
                                 <ValidationSettings>
-                                    <RequiredField ErrorText=" Bạn chưa nhập tên Danh mục!" IsRequired="True" />
+                                    <RequiredField ErrorText=" Bạn chưa nhập tên người bình luận!" IsRequired="True" />
                                 </ValidationSettings>
                             </dx:ASPxTextBox>
                         </td>
                     </tr>
-                    <tr>
+                    <%--<tr>
                         <td class="label_minigame">Đường dẫn:
                         </td>
                         <td class="text_minigame">
@@ -181,25 +187,25 @@
                                 </ValidationSettings>
                             </dx:ASPxTextBox>
                         </td>
-                    </tr>
+                    </tr>--%>
                     <tr>
-                        <td class="label_minigame">Từ khóa:
+                        <td class="label_minigame">Nghề nghiệp:
                         </td>
                         <td class="text_minigame">
-                            <dx:ASPxTextBox ID="txtKeyword" runat="server" Width="800px">
+                            <dx:ASPxTextBox ID="txtMajor" runat="server" Width="800px">
                             </dx:ASPxTextBox>
                         </td>
                     </tr>
                     <tr>
-                        <td class="label_minigame">Meta description:
+                        <td class="label_minigame">Chức vụ:
                         </td>
                         <td class="text_minigame">
-                            <dx:ASPxTextBox ID="txtMetaDesc" TextMode="MultiLine" Rows="3" runat="server" Width="800px">
+                            <dx:ASPxTextBox ID="txtCompany" TextMode="MultiLine" Rows="3" runat="server" Width="800px">
                             </dx:ASPxTextBox>
                         </td>
                     </tr>
                     <tr>
-                        <td class="label_minigame">Ảnh :<br />
+                        <td class="label_minigame">Ảnh đại diện :<br />
                             <span style="color: #6699FF; font-size: 8pt; font-style: italic">(Chấp nhận các kiểu
                                 file: jpeg, gif, png<br />
                                 Dung lượng file tối đa: 1MB)</span>
@@ -214,7 +220,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="label_minigame">Mô tả
+                        <td class="label_minigame">Nội dung
                         </td>
                         <td class="text_minigame">
                             <%-- <dx:ASPxTextBox ID="txtDescription" runat="server" Width="250px" Height="70px">

@@ -80,6 +80,8 @@
   <ItemGroup>
     <Compile Include="Advertising\tbl_AdvertisDB.cs" />
     <Compile Include="Advertising\tbl_AdvertisInfo.cs" />
+    <Compile Include="Comment\CommentDB.cs" />
+    <Compile Include="Comment\CommentInfo.cs" />
     <Compile Include="CategoryGame\tbl_CategoryGameDB.cs" />
     <Compile Include="CategoryGame\tbl_CategoryGameInfo.cs" />
     <Compile Include="CategorySub\CategorySubDB.cs" />
