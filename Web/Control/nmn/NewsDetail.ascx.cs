@@ -9,15 +9,15 @@ using System.Web.UI.WebControls;
 
 namespace Web.Control.nmn
 {
-    public partial class StyleDetail : System.Web.UI.UserControl
+    public partial class NewsDetail : System.Web.UI.UserControl
     {
         protected int _cateProjectID = 1;
-        protected int _cateStyleID = 8;
+        protected int _cateNewsID = 14;
         protected int _intCateID;
         protected int _serviceID;
         protected string _titleArticle;
         protected string _cateSubName;
-        protected string _defaultBanner = "/App_Themes/house/img/bg-phongcach.jpg";
+        protected string _defaultBanner = "/App_Themes/house/img/bg-tintuc.jpg";
         const int pageSize = 6;
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -78,7 +78,7 @@ namespace Web.Control.nmn
                 this.LoadDataByCateWithoutCurrentID(_intCateID, _serviceID);
 
                 //Liet ke danh muc khac
-                DataTable dtAnotherCate = CategoryDB.Category_GetAnotherCate(_intCateID, _cateStyleID);
+                DataTable dtAnotherCate = CategoryDB.Category_GetAnotherCate(_intCateID, _cateNewsID);
                 if (dtAnotherCate.Rows.Count > 0)
                 {
                     rptAnotherCate.DataSource = dtAnotherCate;

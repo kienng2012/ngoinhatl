@@ -197,7 +197,12 @@
     <Content Include="App_Themes\house\img\bg-doingu.jpg" />
     <Content Include="App_Themes\house\img\bg-lido.png" />
     <Content Include="App_Themes\house\img\bg-slide-style.jpg" />
+    <Content Include="App_Themes\house\img\bg_baogia.jpg" />
+    <Content Include="App_Themes\house\img\bg_chinhsach.jpg" />
     <Content Include="App_Themes\house\img\bg_duan.jpg" />
+    <Content Include="App_Themes\house\img\bg_gioithieu.jpg" />
+    <Content Include="App_Themes\house\img\bg_tintuc.jpg" />
+    <Content Include="App_Themes\house\img\bg-trainghiem.jpg" />
     <Content Include="App_Themes\house\img\chuyen-gia-nu.jpg" />
     <Content Include="App_Themes\house\img\facebook.png" />
     <Content Include="App_Themes\house\img\favicon\android-icon-192x192.png" />
@@ -565,6 +570,11 @@
     <Content Include="Control\MenuRight.ascx" />
     <Content Include="Control\MenuVzone.ascx" />
     <Content Include="Control\nmn\HomeHT.ascx" />
+    <Content Include="Control\nmn\PriceDetail.ascx" />
+    <Content Include="Control\nmn\Price.ascx" />
+    <Content Include="Control\nmn\PoliciesCategory.ascx" />
+    <Content Include="Control\nmn\PoliciesDetail.ascx" />
+    <Content Include="Control\nmn\Policies.ascx" />
     <Content Include="Control\nmn\PolicyGuarantee.ascx" />
     <Content Include="Control\nmn\PolicyDelivery.ascx" />
     <Content Include="Control\nmn\PolicySale.ascx" />
@@ -578,9 +588,12 @@
     <Content Include="Control\nmn\SearchResult.ascx" />
     <Content Include="Control\nmn\Recruitment.ascx" />
     <Content Include="Control\nmn\RecruitmentDetail.ascx" />
+    <Content Include="Control\nmn\NewsCategory.ascx" />
     <Content Include="Control\nmn\StyleCategory.ascx" />
     <Content Include="Control\nmn\Arbaro24h.ascx" />
     <Content Include="Control\nmn\Arbaro24hDetail.ascx" />
+    <Content Include="Control\nmn\News.ascx" />
+    <Content Include="Control\nmn\NewsDetail.ascx" />
     <Content Include="Control\nmn\StyleTop.ascx" />
     <Content Include="Control\nmn\ProjectTop.ascx" />
     <Content Include="Control\nmn\GioiThieuSP1.ascx" />
@@ -942,6 +955,41 @@
     <Compile Include="Control\nmn\HomeHT.ascx.designer.cs">
       <DependentUpon>HomeHT.ascx</DependentUpon>
     </Compile>
+    <Compile Include="Control\nmn\PriceDetail.ascx.cs">
+      <DependentUpon>PriceDetail.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\nmn\PriceDetail.ascx.designer.cs">
+      <DependentUpon>PriceDetail.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\nmn\Price.ascx.cs">
+      <DependentUpon>Price.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\nmn\Price.ascx.designer.cs">
+      <DependentUpon>Price.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\nmn\PoliciesCategory.ascx.cs">
+      <DependentUpon>PoliciesCategory.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\nmn\PoliciesCategory.ascx.designer.cs">
+      <DependentUpon>PoliciesCategory.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\nmn\PoliciesDetail.ascx.cs">
+      <DependentUpon>PoliciesDetail.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\nmn\PoliciesDetail.ascx.designer.cs">
+      <DependentUpon>PoliciesDetail.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\nmn\Policies.ascx.cs">
+      <DependentUpon>Policies.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\nmn\Policies.ascx.designer.cs">
+      <DependentUpon>Policies.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Control\nmn\PolicyGuarantee.ascx.cs">
       <DependentUpon>PolicyGuarantee.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1033,6 +1081,13 @@
     <Compile Include="Control\nmn\RecruitmentDetail.ascx.designer.cs">
       <DependentUpon>RecruitmentDetail.ascx</DependentUpon>
     </Compile>
+    <Compile Include="Control\nmn\NewsCategory.ascx.cs">
+      <DependentUpon>NewsCategory.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\nmn\NewsCategory.ascx.designer.cs">
+      <DependentUpon>NewsCategory.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Control\nmn\StyleCategory.ascx.cs">
       <DependentUpon>StyleCategory.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1053,6 +1108,20 @@
     </Compile>
     <Compile Include="Control\nmn\Arbaro24hDetail.ascx.designer.cs">
       <DependentUpon>Arbaro24hDetail.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\nmn\News.ascx.cs">
+      <DependentUpon>News.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\nmn\News.ascx.designer.cs">
+      <DependentUpon>News.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\nmn\NewsDetail.ascx.cs">
+      <DependentUpon>NewsDetail.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\nmn\NewsDetail.ascx.designer.cs">
+      <DependentUpon>NewsDetail.ascx</DependentUpon>
     </Compile>
     <Compile Include="Control\nmn\StyleTop.ascx.cs">
       <DependentUpon>StyleTop.ascx</DependentUpon>

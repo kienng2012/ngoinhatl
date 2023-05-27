@@ -152,7 +152,6 @@
                                 <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2307 nav-item">
                                     <a class="nav-links" href="/phong-cach/hien-dai.htm">Hiện đại</a>
                                 </li>
-
                                 <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3313 nav-item">
                                     <a class="nav-links" href="/phong-cach/scandinavian.htm">Scandinavian</a>
                                 </li>
@@ -167,42 +166,54 @@
                                 </li>
                             </ul>
                         </li>
+
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2673 nav-item">
-                            <a class="nav-links" href="/arbaro24h.htm">ARBARO 24H</a>
+                            <a class="nav-links" href="/trai-nghiem.htm">Trải nghiệm khách hàng</a>
                         </li>
+
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1722 nav-item">
                             <a class="nav-links" href="/chinh-sach.htm">Chính sách</a>
                             <i class="fa fa-angle-down"></i>
                             <ul class="sub-menu">
                                 <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2307 nav-item">
-                                    <a class="nav-links" href="/chinh-sach-bao-hanh.htm">Chính sách bảo hành</a>
+                                    <a class="nav-links" href="/chinh-sach/quy-trinh-va-chinh-sach.htm">Quy trình và Chính Sách</a>
                                 </li>
-
                                 <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3313 nav-item">
-                                    <a class="nav-links" href="/chinh-sach-uu-dai.htm">Chính sách ưu đãi</a>
+                                    <a class="nav-links" href="/chinh-sach/chuong-trinh-uu-dai.htm">Chương trình ưu đãi</a>
                                 </li>
-                                <li class="menu-item menu-item-type-taxonomy menu-item-object-project_cat menu-item-2256 nav-item">
-                                    <a class="nav-links" href="/chinh-sach-van-chuyen.htm">Chính sách vận chuyển</a>
-                                </li>
-
                             </ul>
                         </li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2673 nav-item">
-                            <a class="nav-links" href="/trai-nghiem.htm">Trải nghiệm khách hàng</a>
+                            <a class="nav-links" href="/bao-gia.htm">Báo giá</a>
                         </li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2673 nav-item">
                             <a class="nav-links" href="/lien-he.htm">Liên hệ</a>
                         </li>
-                        <li class="menu-item menu-item-type-taxonomy menu-item-object-project_cat menu-item-2248 nav-item">
-                            <a class="nav-links" href="/tuyen-dung.htm">Tuyển dụng</a>
-                        </li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1722 nav-item">
+                            <a class="nav-links" href="/tin-tuc.htm">Tin tức</a>
+                            <i class="fa fa-angle-down"></i>
+                            <ul class="sub-menu">
+                                <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2307 nav-item">
+                                    <a class="nav-links" href="/tin-tuc/hoat-dong-arbaro.htm">Hoạt động của Arbaro</a>
+                                </li>
+                                <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3313 nav-item">
+                                    <a class="nav-links" href="/tin-tuc/tuyen-dung.htm">Tuyển dụng</a>
+                                </li>
+                                <li class="menu-item menu-item-type-taxonomy menu-item-object-project_cat menu-item-2256 nav-item">
+                                    <a class="nav-links" href="/tin-tuc/blog-noi-that.htm">Blog nội thất</a>
+                                </li>
+                                <li class="menu-item menu-item-type-taxonomy menu-item-object-project_cat menu-item-2256 nav-item">
+                                    <a class="nav-links" href="/tin-tuc/tin-tuc-khac.htm">Tin tức khác</a>
+                                </li>
 
+                            </ul>
+                        </li>
                     </ul>
                 </div>
                 <div class="footer_wrap">
                     <div class="hotline">
                         <a href="tel:(+84) 826688000">
-                            <img data-lazyloaded="1" src="<%= Page.ResolveClientUrl("~/App_Themes/house/img/icon_lh11.png") %>" alt="icon_lh11"  data-ll-status="loaded" class="entered litespeed-loaded">(+84) 826688000 </a>
+                            <img data-lazyloaded="1" src="<%= Page.ResolveClientUrl("~/App_Themes/house/img/icon_lh11.png") %>" alt="icon_lh11" data-ll-status="loaded" class="entered litespeed-loaded">(+84) 826688000 </a>
                     </div>
                 </div>
             </div>

@@ -11,7 +11,7 @@ namespace Web.Control.nmn
 {
 
 
-    public partial class StyleDetail
+    public partial class NewsDetail
     {
 
         /// <summary>

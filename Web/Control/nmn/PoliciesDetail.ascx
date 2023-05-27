@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="StyleDetail.ascx.cs" Inherits="Web.Control.nmn.StyleDetail" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="PoliciesDetail.ascx.cs" Inherits="Web.Control.nmn.PoliciesDetail" %>
 <%@ Import Namespace="Core.Utils" %>
 <%@ Register Src="~/Control/nmn/BannerContact.ascx" TagName="bannerContact" TagPrefix="uc1" %>
 
@@ -38,7 +38,7 @@
     </span>
     <i class="fa fa-angle-right slash" aria-hidden="true"></i>
     <span class="archive post-product-archive current-item">
-        <a property="item" typeof="WebPage" title="Go to ARBARO." href="/phong-cach.htm" class="home"><span property="name">Phong cách thiết kế</span></a>
+        <a property="item" typeof="WebPage" title="Go to ARBARO." href="/chinh-sach.htm" class="home"><span property="name">Chính sách</span></a>
     </span>
 </div>
 
@@ -62,17 +62,17 @@
                                     <p class="social-share-title">Chia sẻ</p>
                                     <ul class="social-share">
                                         <li>
-                                            <a class="btn-social-icon btn-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ngoinhatuonglai.vn/phong-cach/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm" target="_blank">
+                                            <a class="btn-social-icon btn-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ngoinhatuonglai.vn/chinh-sach/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm" target="_blank">
                                                 <img src="../../App_Themes/house/img/fb-share.png" width="40" height="40" alt="Facebook" data-lazy-src="../../App_Themes/house/img/fb-share.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="/images/social-share/fb-share.png" width="40" height="40" alt="Facebook" /></noscript>
                                             </a>
                                         </li>
                                         <li>
-                                            <a class="btn-social-icon btn-twitter" href="https://twitter.com/home?status=http://ngoinhatuonglai.vn/phong-cach/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm" target="_blank">
+                                            <a class="btn-social-icon btn-twitter" href="https://twitter.com/home?status=http://ngoinhatuonglai.vn/chinh-sach/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm" target="_blank">
                                                 <img src="../../App_Themes/house/img/twitter-share.png" width="40" height="40" alt="Twitter" data-lazy-src="../../App_Themes/house/img/twitter-share.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="/images/social-share/twitter-share.png" width="40" height="40" alt="Twitter" /></noscript>
                                             </a>
                                         </li>
                                         <li>
-                                            <a class="btn-social-icon btn-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://ngoinhatuonglai.vn/phong-cach/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm&amp;title=<%# Eval("CS_Name") %>&amp;source=ngoinhatuonglai.vn" target="_blank">
+                                            <a class="btn-social-icon btn-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://ngoinhatuonglai.vn/chinh-sach/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm&amp;title=<%# Eval("CS_Name") %>&amp;source=ngoinhatuonglai.vn" target="_blank">
                                                 <img src="../../App_Themes/house/img/linkedin-share.png" width="40" height="40" alt="Linkedin" data-lazy-src="../../App_Themes/house/img/linkedin-share.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="/images/social-share/linkedin-share.png" width="40" height="40" alt="Linkedin" /></noscript>
                                             </a>
                                         </li>
@@ -110,17 +110,17 @@
                                         <p class="social-share-title">Chia sẻ</p>
                                         <ul class="social-share">
                                             <li>
-                                                <a class="btn-social-icon btn-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ngoinhatuonglai.vn/phong-cach/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm" target="_blank">
+                                                <a class="btn-social-icon btn-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ngoinhatuonglai.vn/chinh-sach/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm" target="_blank">
                                                     <img src="../../App_Themes/house/img/fb-share.png" width="40" height="40" alt="Facebook" data-lazy-src="../../App_Themes/house/img/fb-share.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="/images/social-share/fb-share.png" width="40" height="40" alt="Facebook" /></noscript>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a class="btn-social-icon btn-twitter" href="https://twitter.com/home?status=http://ngoinhatuonglai.vn/phong-cach/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm" target="_blank">
+                                                <a class="btn-social-icon btn-twitter" href="https://twitter.com/home?status=http://ngoinhatuonglai.vn/chinh-sach/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm" target="_blank">
                                                     <img src="../../App_Themes/house/img/twitter-share.png" width="40" height="40" alt="Twitter" data-lazy-src="../../App_Themes/house/img/twitter-share.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="/images/social-share/twitter-share.png" width="40" height="40" alt="Twitter" /></noscript>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a class="btn-social-icon btn-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://ngoinhatuonglai.vn/phong-cach/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm&amp;title=<%# Eval("CS_Name") %>&amp;source=ngoinhatuonglai.vn" target="_blank">
+                                                <a class="btn-social-icon btn-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://ngoinhatuonglai.vn/chinh-sach/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm&amp;title=<%# Eval("CS_Name") %>&amp;source=ngoinhatuonglai.vn" target="_blank">
                                                     <img src="../../App_Themes/house/img/linkedin-share.png" width="40" height="40" alt="Linkedin" data-lazy-src="../../App_Themes/house/img/linkedin-share.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="/images/social-share/linkedin-share.png" width="40" height="40" alt="Linkedin" /></noscript>
                                                 </a>
                                             </li>
@@ -151,7 +151,7 @@
                                                             <div class="round-capt"><span class="capt no-text-transform"><%#Eval("CS_Name")%></span></div>
                                                         </div>
                                                         <%--  <div class="overlay"><span class="item-pro-title"><%#Eval("CS_Name")%></span></div>--%>
-                                                        <a href="/phong-cach/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm" class="link_full"></a>
+                                                        <a href="/chinh-sach/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm" class="link_full"></a>
                                                     </div>
                                                 </ItemTemplate>
                                             </asp:Repeater>
@@ -167,14 +167,14 @@
                         <hr class="my-5">
                     </div>
 
-                    <div class="int_blog_post">
+                 <%--   <div class="int_blog_post">
                         <div class="all_box no-margin">
                             <div class="section-inner">
                                 <div class="int_sidebar_box custom">
-                                    <p class="title">DANH MỤC PHONG CÁCH KHÁC</p>
+                                    <p class="title">DANH MỤC CHÍNH SÁCH KHÁC</p>
 
                                     <div class="all_box">
-                                        <div class="products columns-4 list_product">
+                                        <div class="products columns-3 list_product">
                                             <asp:Repeater ID="rptAnotherCate" runat="server">
                                                 <ItemTemplate>
                                                     <div class="item_pro">
@@ -196,14 +196,14 @@
                     <div class="wrapper"></div>
                     <div class="wrapper mt-5">
                         <hr class="my-5">
-                    </div>
+                    </div>--%>
                 </div>
             </div>
             <!-- Sidebar -->
             <div class="pure-u-1 pure-u-lg-1-3">
                 <div class="int_blog_sidebar">
                     <div class="int_sidebar_box recent_blog_one">
-                        <p class="title">Dự án đã thực hiện</p>
+                        <p class="title">Dự án nổi bật</p>
                         <div class="int_blog_insta_post">
                             <div class="all_box">
                                 <div class="products columns-1 list_product">
@@ -225,7 +225,7 @@
                         </div>
                     </div>
                 </div>
-            <%--<div class="int_sidebar_box recent_blog_one">
+                <%--<div class="int_sidebar_box recent_blog_one">
                     <p class="title">Dự án đã thực hiện</p>
                     <div class="int_blog_insta_post">
                         <ul>
@@ -246,29 +246,29 @@
                 </div>--%>
 
 
-            <%--<div class="int_sidebar_box recent_blog_one">
+                <%--<div class="int_sidebar_box recent_blog_one">
                         <p class="title">Bài viết liên quan</p>
                         <div class="int_blog_insta_post">
                             <ul>
                                 <asp:Repeater ID="rptListCate" runat="server">
                                     <ItemTemplate>
                                         <li>
-                                            <a href="/phong-cach/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm">
+                                            <a href="/chinh-sach/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm">
                                                 <div class="img-related">
                                                     <img src="<%#Eval("CS_ImageURL") %>" width="768" height="576" alt="<%#Eval("CS_Name")%>" data-lazy-src="<%#Eval("CS_ImageURL") %>" data-ll-status="loaded" class="entered lazyloaded">
                                                                                                   </div>
                                             </a>
 
-                                            <a class="project-name" href="/phong-cach/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm"><%#Eval("CS_Name")%></a>
+                                            <a class="project-name" href="/chinh-sach/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm"><%#Eval("CS_Name")%></a>
                                         </li>
                                     </ItemTemplate>
                                 </asp:Repeater>
                             </ul>
                         </div>
                     </div>--%>
+            </div>
         </div>
     </div>
-</div>
 </div>
 </div>
 <!-- BANNER CONTACT -->

@@ -775,7 +775,7 @@ filter li a {
 }
 
 .int_blog_insta_post .item_pro {
-    max-height: 19rem !important;
+    max-height: 23rem !important;
     margin-bottom: 10px !important;
 }
 
@@ -1595,9 +1595,9 @@ body {
     width: calc(100% - 40px);
 }
 
-.columns-5 .round-capt .capt.upper {
-    text-transform: uppercase !important;
-}
+    .columns-5 .round-capt .capt.upper {
+        text-transform: uppercase !important;
+    }
 
 .item_pro:focus .img, .item_pro:hover .img {
     transform: scale(1);

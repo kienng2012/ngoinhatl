@@ -11,7 +11,7 @@ namespace Web.Control.nmn
 {
 
 
-    public partial class StyleDetail
+    public partial class NewsCategory
     {
 
         /// <summary>
@@ -24,13 +24,22 @@ namespace Web.Control.nmn
         protected global::System.Web.UI.WebControls.Repeater rpImageBanner;
 
         /// <summary>
-        /// rptDetail control.
+        /// lblCateName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater rptDetail;
+        protected global::System.Web.UI.WebControls.Label lblCateName;
+
+        /// <summary>
+        /// lblCateDescription control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal lblCateDescription;
 
         /// <summary>
         /// rptListCate control.
@@ -42,6 +51,15 @@ namespace Web.Control.nmn
         protected global::System.Web.UI.WebControls.Repeater rptListCate;
 
         /// <summary>
+        /// lblPaging control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal lblPaging;
+
+        /// <summary>
         /// rptAnotherCate control.
         /// </summary>
         /// <remarks>
@@ -49,23 +67,5 @@ namespace Web.Control.nmn
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Repeater rptAnotherCate;
-
-        /// <summary>
-        /// rptProjects control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater rptProjects;
-
-        /// <summary>
-        /// BannerContact control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::Web.Control.nmn.BannerContact BannerContact;
     }
 }
