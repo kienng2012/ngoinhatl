@@ -35,7 +35,7 @@
             <div class="pure-u-1 pure-u-lg-2-3">
                 <div class="int_blog_box int_blog_single">
                     <div class="int_blog_post">
-                        <asp:Repeater ID="rptDetail" runat="server">
+                        <%-- <asp:Repeater ID="rptDetail1" runat="server">
                             <ItemTemplate>
                                 <ul class="breadcrumb-custom">
                                     <li><%#Eval("CS_Name") %>  </li>
@@ -65,6 +65,57 @@
                                     </ul>
                                 </div>
                             </ItemTemplate>
+                        </asp:Repeater>--%>
+                        <asp:Repeater ID="rptDetail" runat="server" OnItemDataBound="rptDetail_ItemDataBound">
+                            <ItemTemplate>
+                                <div class="section-inner">
+                                    <div class="wrapper">
+                                        <h4 class="title-ultraminimal align-center visible"><%#Eval("CS_Name") %> </h4>
+                                        <p>
+                                            <%#Eval("CS_Content") %>
+                                        </p>
+                                    </div>
+                                    <div class="img-products-details">
+                                        <asp:Image ID="Image1" runat="server" CssClass="imgDetailFull" />
+                                    </div>
+                                    <div class="products-details columns-3 list_product">
+                                        <asp:Repeater ID="rpImages" runat="server">
+                                            <ItemTemplate>
+                                                <div class="item_pro">
+                                                    <a href="<%#Eval("IMG_URL_ITEM") %>" data-fancybox="gallery_sc" class="openfancybox">
+                                                        <div class="img" style="background-image: url(<%#Eval("IMG_URL_ITEM") %>"></div>
+                                                    </a>
+                                                </div>
+                                            </ItemTemplate>
+                                        </asp:Repeater>
+                                    </div>
+
+
+                                    <div class="wrapper mt-5">
+                                        <hr class="my-5">
+                                    </div>
+                                    <div class="social-share-wrap">
+                                        <p class="social-share-title">Chia sẻ</p>
+                                        <ul class="social-share">
+                                            <li>
+                                                <a class="btn-social-icon btn-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ngoinhatuonglai.vn/phong-cach/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm" target="_blank">
+                                                    <img src="../../App_Themes/house/img/fb-share.png" width="40" height="40" alt="Facebook" data-lazy-src="../../App_Themes/house/img/fb-share.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="/images/social-share/fb-share.png" width="40" height="40" alt="Facebook" /></noscript>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="btn-social-icon btn-twitter" href="https://twitter.com/home?status=http://ngoinhatuonglai.vn/phong-cach/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm" target="_blank">
+                                                    <img src="../../App_Themes/house/img/twitter-share.png" width="40" height="40" alt="Twitter" data-lazy-src="../../App_Themes/house/img/twitter-share.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="/images/social-share/twitter-share.png" width="40" height="40" alt="Twitter" /></noscript>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="btn-social-icon btn-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://ngoinhatuonglai.vn/phong-cach/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm&amp;title=<%# Eval("CS_Name") %>&amp;source=ngoinhatuonglai.vn" target="_blank">
+                                                    <img src="../../App_Themes/house/img/linkedin-share.png" width="40" height="40" alt="Linkedin" data-lazy-src="../../App_Themes/house/img/linkedin-share.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="/images/social-share/linkedin-share.png" width="40" height="40" alt="Linkedin" /></noscript>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </ItemTemplate>
                         </asp:Repeater>
 
                         <%--<div class="int_auther_box">
@@ -78,7 +129,10 @@
                             </div>
                         </div>--%>
                     </div>
-
+                    <div class="wrapper"></div>
+                    <div class="wrapper mt-5">
+                        <hr class="my-5">
+                    </div>
                     <div class="int_blog_post">
                         <div class="all_box no-margin">
                             <div class="section-inner">
@@ -106,6 +160,34 @@
                             </div>
 
                         </div>
+                    </div>
+                    <div class="wrapper"></div>
+                    <div class="wrapper mt-5">
+                        <hr class="my-5">
+                    </div>
+                    <div class="section-inner">
+                        <div class="archive-title align-center">
+                            <h1>DANH MỤC PHONG CÁCH KHÁC</h1>
+                            <div class="separator"><span></span></div>
+                        </div>
+                    </div>
+
+                    <div class="products columns-4 list_product">
+                        <asp:Repeater ID="rptAnotherCate" runat="server">
+                            <ItemTemplate>
+                                <div class="item_pro">
+                                    <div class="img" style="background-image: url(<%#Eval("C_ImageURL") %>"></div>
+                                    <div class="info-style">
+                                        <div class="round-capt"><span class="capt upper"><%#Eval("C_Name")%></span></div>
+                                    </div>
+                                    <a href="/<%#Eval("C_BaseURL") %>.htm" class="link_full"></a>
+                                </div>
+                            </ItemTemplate>
+                        </asp:Repeater>
+                    </div>
+                    <div class="wrapper"></div>
+                    <div class="wrapper mt-5">
+                        <hr class="my-5">
                     </div>
                 </div>
 

@@ -88,10 +88,37 @@
         </asp:Repeater>
     </div>
     <asp:Literal ID="lblPaging" runat="server" />
-    <div class="spacer spacer-small"></div>
+    <div class="wrapper"></div>
+    <div class="wrapper mt-5">
+        <hr class="my-5">
+    </div>
     <%--<div class="wp-pagenavi" role="navigation">
         <span class="pages">Trang 1 trên 6</span><span aria-current="page" class="current">1</span><a class="page larger" title="Page 2" href="https://nordic.vn/san-pham/page/2/">2</a><a class="page larger" title="Page 3" href="https://nordic.vn/san-pham/page/3/">3</a><a class="page larger" title="Page 4" href="https://nordic.vn/san-pham/page/4/">4</a><a class="page larger" title="Page 5" href="https://nordic.vn/san-pham/page/5/">5</a><span class="extend">...</span><a class="nextpostslink" rel="next" aria-label="Trang sau" href="https://nordic.vn/san-pham/page/2/">»</a><a class="last" aria-label="Last Page" href="https://nordic.vn/san-pham/page/6/">Trang cuối »</a>
     </div>--%>
+    <div class="section-inner">
+        <div class="archive-title align-center">
+            <h1>DANH MỤC DỰ ÁN KHÁC</h1>
+            <div class="separator"><span></span></div>
+        </div>
+    </div>
+
+    <div class="products columns-5 list_product">
+        <asp:Repeater ID="rptAnotherCate" runat="server">
+            <ItemTemplate>
+                <div class="item_pro">
+                    <div class="img" style="background-image: url(<%#Eval("C_ImageURL") %>"></div>
+                    <div class="info-style">
+                        <div class="round-capt"><span class="capt upper"><%#Eval("C_Name")%></span></div>
+                    </div>
+                    <a href="/<%#Eval("C_BaseURL") %>.htm" class="link_full"></a>
+                </div>
+            </ItemTemplate>
+        </asp:Repeater>
+    </div>
+   <div class="wrapper"></div>
+    <div class="wrapper mt-5">
+        <hr class="my-5">
+    </div>
 </div>
 <%--</div>--%>
 <!-- END PROJECT -->

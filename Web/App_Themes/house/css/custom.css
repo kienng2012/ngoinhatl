@@ -1595,6 +1595,10 @@ body {
     width: calc(100% - 40px);
 }
 
+.columns-5 .round-capt .capt.upper {
+    text-transform: uppercase !important;
+}
+
 .item_pro:focus .img, .item_pro:hover .img {
     transform: scale(1);
     -webkit-transition: all 8s ease;

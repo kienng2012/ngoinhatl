@@ -86,6 +86,14 @@ namespace Web.Control.nmn
                 Page.MetaDescription = info.CS_Name;
                 //Load cac bai viet lien quan
                 this.LoadDataByCateWithoutCurrentID(info.C_ID, info.CS_ID);
+
+                //Liet ke danh muc khac
+                DataTable dtAnotherCate = CategoryDB.Category_GetAnotherCate(info.C_ID, objCate.C_ParentID);
+                if (dtAnotherCate.Rows.Count > 0)
+                {
+                    rptAnotherCate.DataSource = dtAnotherCate;
+                    rptAnotherCate.DataBind();
+                }
             }
         }
         protected void LoadDataByCateWithoutCurrentID(int _cateID, int exceptArticleId)

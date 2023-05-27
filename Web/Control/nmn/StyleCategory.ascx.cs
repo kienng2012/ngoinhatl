@@ -71,6 +71,14 @@ namespace Web.Control.nmn
             //Xu ly phan trang bang cach tao the : 
             //https://stackoverflow.com/questions/35891828/how-to-dynamically-create-an-html-table
             lblPaging.Text = RewriteUrl.generateTagPagingNodric(_baseUrlPaging, _pageNumber, pageSize, totalRecord); //generateTagPaging
+
+            //Liet ke danh muc khac
+            DataTable dtAnotherCate = CategoryDB.Category_GetAnotherCate(_cateID, objCate.C_ParentID);
+            if (dtAnotherCate.Rows.Count > 0)
+            {
+                rptAnotherCate.DataSource = dtAnotherCate;
+                rptAnotherCate.DataBind();
+            }
         }
     }
 

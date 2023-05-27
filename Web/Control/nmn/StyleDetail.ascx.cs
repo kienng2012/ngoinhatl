@@ -1,15 +1,17 @@
-﻿using Core.CategorySub;
-using Core.Utils;
+﻿using Core.Category;
+using Core.CategorySub;
+
 using System;
 using System.Data;
 using System.Linq;
-using System.Web.Services.Description;
+using System.Web.UI.WebControls;
 
 namespace Web.Control.nmn
 {
     public partial class StyleDetail : System.Web.UI.UserControl
     {
         protected int _cateProjectID = 1;
+        protected int _cateStyleID = 8;
         protected int _intCateID;
         protected int _serviceID;
         protected string _titleArticle;
@@ -59,6 +61,14 @@ namespace Web.Control.nmn
                 //this.LoadDataByCateWithoutCurrentID(_intCateID, info.CS_ID);
                 this.LoadDataByProjectWithoutCurrentID(_cateProjectID, _serviceID);
                 this.LoadDataByCateWithoutCurrentID(_intCateID, _serviceID);
+
+                //Liet ke danh muc khac
+                DataTable dtAnotherCate = CategoryDB.Category_GetAnotherCate(_intCateID, _cateStyleID);
+                if (dtAnotherCate.Rows.Count > 0)
+                {
+                    rptAnotherCate.DataSource = dtAnotherCate;
+                    rptAnotherCate.DataBind();
+                }
             }
         }
         protected void LoadDataByProjectWithoutCurrentID(int _cateID, int exceptArticleId)
@@ -66,7 +76,7 @@ namespace Web.Control.nmn
             CategorySubInfo info = new CategorySubInfo();
             info.C_ID = _cateID;
             info.C_ParentID = _cateID;//Load theo danh muc chinh
-            DataTable dt = CategorySubDB.CategorySubsByCateWithoutCurrentID(1, 6, info, exceptArticleId);
+            DataTable dt = CategorySubDB.CategorySubsByCateWithoutCurrentID(1, 5, info, exceptArticleId);
             if (dt.Rows.Count > 0)
             {
                 _titleArticle = dt.Rows[0]["C_Name"].ToString();
@@ -90,6 +100,33 @@ namespace Web.Control.nmn
             //int totalRecord = info.Output;
             //lblPaging.Text = RewriteUrl.generateTagPaging(_baseUrlPaging, _pageNumber, pageSize, totalRecord);
         }
-
+        protected void rptDetail_ItemDataBound(object sender, RepeaterItemEventArgs e)
+        {
+            RepeaterItem ri = e.Item;
+            if ((ri.ItemType == ListItemType.Item) || (ri.ItemType == ListItemType.AlternatingItem))
+            {
+                DataRowView drv = (DataRowView)ri.DataItem;
+                if (drv != null)
+                {
+                    Repeater rptChilden = e.Item.FindControl("rpImages") as Repeater;
+                    if (drv["CS_ArticleImgs"] != null)
+                    {
+                        String strImgs = Convert.ToString(drv["CS_ArticleImgs"]).Trim();
+                        if (strImgs != null)
+                        {
+                            if (strImgs.Contains(';'))
+                            {
+                                char tmp = strImgs[strImgs.Length - 1];
+                                if (tmp == ';') //Loai bo ki tu ; cuoi cung
+                                { strImgs = strImgs.Substring(0, strImgs.Length - 1); }
+                            }
+                            string[] lstArticleImgs = strImgs.Split(';');
+                            rptChilden.DataSource = from c in lstArticleImgs select new { IMG_URL_ITEM = c };
+                            rptChilden.DataBind();
+                        }
+                    }
+                }
+            }
+        }
     }
 }

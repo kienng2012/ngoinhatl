@@ -66,7 +66,6 @@
     <section id="portfolio-single" class="notoppadding">
         <div class="section-inner">
             <div class="wrapper">
-
                 <h4 class="title-ultraminimal align-center visible">
                     <asp:Label ID="lblTitle" runat="server" Text="" /></h4>
                 <%--<div class="spacer spacer-small"></div>--%>
@@ -78,7 +77,6 @@
             <div class="img-products-details">
                 <asp:Image ID="imgService" runat="server" CssClass="imgDetailFull" />
             </div>
-
             <div class="products-details columns-4 list_product">
                 <asp:Repeater ID="rpImages" runat="server">
                     <ItemTemplate>
@@ -90,43 +88,65 @@
                     </ItemTemplate>
                 </asp:Repeater>
             </div>
-            <div class="wrapper">
-            </div>
-
+            <div class="wrapper"></div>
             <div class="wrapper mt-5">
                 <hr class="my-5">
-
-                <!-- V -->
             </div>
         </div>
     </section>
 
-    <div class="all_box no-margin">
-        <div class="section-inner">
-            <div class="archive-title align-center">
-                <h1>Dự án liên quan</h1>
-                <div class="separator"><span></span></div>
-            </div>
+    <div class="section-inner">
+        <div class="archive-title align-center">
+            <h1>Dự án liên quan</h1>
+            <div class="separator"><span></span></div>
         </div>
-        <div class="products columns-4 list_product">
-            <asp:Repeater ID="rptListCate" runat="server">
-                <ItemTemplate>
-                    <div class="item_pro">
-                        <div class="img" style="background-image: url(<%#Eval("CS_ImageURL") %>"></div>
-                        <%--<div class="img"><img src="<%#Eval("CS_ImageURL") %>" alt=""/></div>--%>
-                        <div class="info-style">
-                            <div class="round-capt"><span class="capt"><%#Eval("CS_Name")%></span></div>
-                        </div>
-                        <%--  <div class="overlay"><span class="item-pro-title"><%#Eval("CS_Name")%></span></div>--%>
-                        <a href="/du-an/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm" class="link_full"></a>
-                    </div>
-
-                </ItemTemplate>
-            </asp:Repeater>
-        </div>
-        <%--  <asp:Literal ID="lblPaging" runat="server" />--%>
-        <div class="spacer spacer-small"></div>
     </div>
+    <div class="products columns-4 list_product">
+        <asp:Repeater ID="rptListCate" runat="server">
+            <ItemTemplate>
+                <div class="item_pro">
+                    <div class="img" style="background-image: url(<%#Eval("CS_ImageURL") %>"></div>
+                    <%--<div class="img"><img src="<%#Eval("CS_ImageURL") %>" alt=""/></div>--%>
+                    <div class="info-style">
+                        <div class="round-capt"><span class="capt"><%#Eval("CS_Name")%></span></div>
+                    </div>
+                    <%--  <div class="overlay"><span class="item-pro-title"><%#Eval("CS_Name")%></span></div>--%>
+                    <a href="/du-an/<%# RewriteUrl.ConvertToUnSign(Eval("CS_Name").ToString()) %>-<%#Eval("CS_ID") %>.htm" class="link_full"></a>
+                </div>
+
+            </ItemTemplate>
+        </asp:Repeater>
+    </div>
+    <div class="wrapper"></div>
+    <div class="wrapper mt-5">
+        <hr class="my-5">
+    </div>
+
+    <div class="section-inner">
+        <div class="archive-title align-center">
+            <h1>DANH MỤC DỰ ÁN KHÁC</h1>
+            <div class="separator"><span></span></div>
+        </div>
+    </div>
+
+    <div class="products columns-5 list_product">
+        <asp:Repeater ID="rptAnotherCate" runat="server">
+            <ItemTemplate>
+                <div class="item_pro">
+                    <div class="img" style="background-image: url(<%#Eval("C_ImageURL") %>"></div>
+                    <div class="info-style">
+                        <div class="round-capt"><span class="capt upper"><%#Eval("C_Name")%></span></div>
+                    </div>
+                    <a href="/<%#Eval("C_BaseURL") %>.htm" class="link_full"></a>
+                </div>
+            </ItemTemplate>
+        </asp:Repeater>
+    </div>
+    <div class="wrapper"></div>
+    <div class="wrapper mt-5">
+        <hr class="my-5">
+    </div>
+
 
 </div>
 

@@ -80,7 +80,34 @@
         </asp:Repeater>
     </div>
     <asp:Literal ID="lblPaging" runat="server" />
-    <div class="spacer spacer-small"></div>
+    <div class="wrapper"></div>
+    <div class="wrapper mt-5">
+        <hr class="my-5">
+    </div>
+    <div class="section-inner">
+        <div class="archive-title align-center">
+            <h1>DANH MỤC PHONG CÁCH KHÁC</h1>
+            <div class="separator"><span></span></div>
+        </div>
+    </div>
+
+    <div class="products columns-4 list_product">
+        <asp:Repeater ID="rptAnotherCate" runat="server">
+            <ItemTemplate>
+                <div class="item_pro">
+                    <div class="img" style="background-image: url(<%#Eval("C_ImageURL") %>"></div>
+                    <div class="info-style">
+                        <div class="round-capt"><span class="capt upper"><%#Eval("C_Name")%></span></div>
+                    </div>
+                    <a href="/<%#Eval("C_BaseURL") %>.htm" class="link_full"></a>
+                </div>
+            </ItemTemplate>
+        </asp:Repeater>
+    </div>
+   <div class="wrapper"></div>
+    <div class="wrapper mt-5">
+        <hr class="my-5">
+    </div>
 </div>
 <%--</div>--%>
 

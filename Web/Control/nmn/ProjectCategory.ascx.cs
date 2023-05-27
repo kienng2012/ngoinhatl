@@ -63,7 +63,6 @@ namespace Web.Control.nmn
             rpImageBanner.DataSource = from c in arrBanner select new { IMG_URL_ITEM = c };
             rpImageBanner.DataBind();
             DataTable dt = CategorySubDB.CategorySub_GetAll_ByCate_Pager(_pageNumber, pageSize, info);
-
             int totalRecord = info.Output;
             rptListCate.DataSource = dt;
             rptListCate.DataBind();
@@ -72,7 +71,13 @@ namespace Web.Control.nmn
             //https://stackoverflow.com/questions/35891828/how-to-dynamically-create-an-html-table
             lblPaging.Text = RewriteUrl.generateTagPagingNodric(_baseUrlPaging, _pageNumber, pageSize, totalRecord); //generateTagPaging
 
-
+            //Liet ke danh muc khac
+            DataTable dtAnotherCate = CategoryDB.Category_GetAnotherCate(_cateID, objCate.C_ParentID);
+            if (dtAnotherCate.Rows.Count > 0)
+            {
+                rptAnotherCate.DataSource = dtAnotherCate;
+                rptAnotherCate.DataBind();
+            }
         }
 
     }
