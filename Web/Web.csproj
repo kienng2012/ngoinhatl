@@ -201,6 +201,7 @@
     <Content Include="App_Themes\house\img\bg_chinhsach.jpg" />
     <Content Include="App_Themes\house\img\bg_duan.jpg" />
     <Content Include="App_Themes\house\img\bg_gioithieu.jpg" />
+    <Content Include="App_Themes\house\img\bg_lienhe.jpg" />
     <Content Include="App_Themes\house\img\bg_tintuc.jpg" />
     <Content Include="App_Themes\house\img\bg-trainghiem.jpg" />
     <Content Include="App_Themes\house\img\chuyen-gia-nu.jpg" />

@@ -75,7 +75,7 @@
                         <span class="tit">Tương Lai</span>
                         <span class="sub">cho ngôi nhà của bạn</span>
                     </h2>
-                    <div class="text">&nbsp;&nbsp;&nbsp;&nbsp;Bằng sự thấu hiểu, chúng tôi cam kết mang đến cho bạn những trải nghiệm hoàn hảo về nội thất trong chính ngôi nhà của mình. Tỉ mỉ trong từng chi tiết nhỏ nhất, luôn đặt mình vào vị trí của người sử dụng & đồng hàng cùng bạn trong suốt cả quá trình sử dụng, đó là phương châm của chúng tôi. Tất cả sản phẩm của ARBARO được hoàn thiện với chất lượng cao, với đội ngũ KTS dày năm kinh nghiệm, mang lại cho khách hàng những trải nghiệm vượt trội về không gian và tối ưu công năng sử dụng.</div>
+                    <div class="text">&nbsp;&nbsp;&nbsp;&nbsp;Bằng sự thấu hiểu, chúng tôi cam kết mang đến cho bạn những trải nghiệm hoàn hảo về nội thất trong chính ngôi nhà của mình. Tỉ mỉ trong từng chi tiết nhỏ nhất, luôn đặt mình vào vị trí của người sử dụng & đồng hành cùng bạn trong suốt cả quá trình sử dụng, đó là phương châm của chúng tôi. Tất cả sản phẩm của ARBARO được hoàn thiện với chất lượng cao, đội ngũ KTS dày năm kinh nghiệm, mang lại cho khách hàng những trải nghiệm vượt trội về không gian và tối ưu công năng sử dụng.</div>
                 </div>
                 <div class="inner_right">
                     <div class="video">

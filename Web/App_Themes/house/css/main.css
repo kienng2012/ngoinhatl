@@ -41337,7 +41337,8 @@ body.page-template-gioi-thieu {
                 }
 
                 .about_home .inner_left .title span.tit {
-                    font-size: 32px
+                    font-weight:600;
+                    font-size: 36px !important
                 }
 
             .about_home .inner_left .text {
@@ -41380,6 +41381,8 @@ body.page-template-gioi-thieu {
             padding-left: 0 !important;
             padding-right: 0 !important;
             font-size: 9.5px !important;
+            letter-spacing: 0.05em !important;
+            font-weight: 700 !important;
         }
 
         .text-video .second-text {
