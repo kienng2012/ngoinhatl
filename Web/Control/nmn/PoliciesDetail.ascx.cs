@@ -115,33 +115,6 @@ namespace Web.Control.nmn
             //int totalRecord = info.Output;
             //lblPaging.Text = RewriteUrl.generateTagPaging(_baseUrlPaging, _pageNumber, pageSize, totalRecord);
         }
-        protected void rptDetail_ItemDataBound(object sender, RepeaterItemEventArgs e)
-        {
-            RepeaterItem ri = e.Item;
-            if ((ri.ItemType == ListItemType.Item) || (ri.ItemType == ListItemType.AlternatingItem))
-            {
-                DataRowView drv = (DataRowView)ri.DataItem;
-                if (drv != null)
-                {
-                    Repeater rptChilden = e.Item.FindControl("rpImages") as Repeater;
-                    if (drv["CS_ArticleImgs"] != null)
-                    {
-                        String strImgs = Convert.ToString(drv["CS_ArticleImgs"]).Trim();
-                        if (strImgs != null)
-                        {
-                            if (strImgs.Contains(';'))
-                            {
-                                char tmp = strImgs[strImgs.Length - 1];
-                                if (tmp == ';') //Loai bo ki tu ; cuoi cung
-                                { strImgs = strImgs.Substring(0, strImgs.Length - 1); }
-                            }
-                            string[] lstArticleImgs = strImgs.Split(';');
-                            rptChilden.DataSource = from c in lstArticleImgs select new { IMG_URL_ITEM = c };
-                            rptChilden.DataBind();
-                        }
-                    }
-                }
-            }
-        }
+       
     }
 }

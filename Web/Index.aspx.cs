@@ -66,6 +66,7 @@ namespace Web
             PoliciesCategory,
             Price,
             PriceDetail,
+            QuaySo,
             //SubjectDetails,
             //BangVang,
             //BangVangCT,

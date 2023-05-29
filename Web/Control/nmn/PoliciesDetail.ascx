@@ -1,6 +1,8 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="PoliciesDetail.ascx.cs" Inherits="Web.Control.nmn.PoliciesDetail" %>
 <%@ Import Namespace="Core.Utils" %>
 <%@ Register Src="~/Control/nmn/BannerContact.ascx" TagName="bannerContact" TagPrefix="uc1" %>
+<link rel="stylesheet" href="<%= Page.ResolveClientUrl("~/App_Themes/house/css/jquery.fancybox.min.css")%>" type="text/css" media="all">
+<script type="text/javascript" src="<%= Page.ResolveClientUrl("~/App_Themes/house/js/jquery.fancybox.min.js") %>" id="fancybox-js"></script>
 
 <%--<section id="page-title" class="full-height"
     style="background-color: rgb(239, 239, 239); background-size: cover; background-position: center center; background-repeat: no-repeat; min-height: 255px;">
@@ -80,7 +82,7 @@
                                 </div>
                             </ItemTemplate>
                         </asp:Repeater>--%>
-                        <asp:Repeater ID="rptDetail" runat="server" OnItemDataBound="rptDetail_ItemDataBound">
+                        <asp:Repeater ID="rptDetail" runat="server">
                             <ItemTemplate>
                                 <div class="section-inner">
                                     <div class="wrapper">
@@ -89,7 +91,7 @@
                                             <%#Eval("CS_Content") %>
                                         </p>
                                     </div>
-                                    <div class="img-products-details">
+                                   <%-- <div class="img-products-details">
                                         <asp:Image ID="Image1" runat="server" CssClass="imgDetailFull" />
                                     </div>
                                     <div class="products-details columns-3 list_product">
@@ -102,7 +104,7 @@
                                                 </div>
                                             </ItemTemplate>
                                         </asp:Repeater>
-                                    </div>
+                                    </div>--%>
                                     <div class="wrapper mt-5">
                                         <hr class="my-5">
                                     </div>

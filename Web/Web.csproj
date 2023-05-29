@@ -72,15 +72,28 @@
     <Reference Include="FredCK.FCKeditorV2, Version=2.6.3.22451, Culture=neutral, PublicKeyToken=4f86767c9b519a06, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.9.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.9\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http, Version=5.2.9.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.9\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.9.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.9\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.Routing" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
@@ -571,6 +584,7 @@
     <Content Include="Control\MenuRight.ascx" />
     <Content Include="Control\MenuVzone.ascx" />
     <Content Include="Control\nmn\HomeHT.ascx" />
+    <Content Include="Control\nmn\QuaySo.ascx" />
     <Content Include="Control\nmn\PriceDetail.ascx" />
     <Content Include="Control\nmn\Price.ascx" />
     <Content Include="Control\nmn\PoliciesCategory.ascx" />
@@ -618,6 +632,7 @@
     <Content Include="Control\ServiceDetails.ascx" />
     <Content Include="database\DB_WEBGIAODUCVER2_06_03_14.sql" />
     <Content Include="Default.aspx" />
+    <Content Include="GiaiDacBiet.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Home_Nodric.html" />
     <Content Include="Index.aspx" />
@@ -955,6 +970,13 @@
     </Compile>
     <Compile Include="Control\nmn\HomeHT.ascx.designer.cs">
       <DependentUpon>HomeHT.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\nmn\QuaySo.ascx.cs">
+      <DependentUpon>QuaySo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\nmn\QuaySo.ascx.designer.cs">
+      <DependentUpon>QuaySo.ascx</DependentUpon>
     </Compile>
     <Compile Include="Control\nmn\PriceDetail.ascx.cs">
       <DependentUpon>PriceDetail.ascx</DependentUpon>
@@ -1304,6 +1326,13 @@
       <DependentUpon>upload.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="GiaiDacBiet.aspx.cs">
+      <DependentUpon>GiaiDacBiet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GiaiDacBiet.aspx.designer.cs">
+      <DependentUpon>GiaiDacBiet.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -1364,6 +1393,7 @@
       <DependentUpon>ThongkeGamechon.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuayThuongController.cs" />
     <Compile Include="ShowMTLog.aspx.cs">
       <DependentUpon>ShowMTLog.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1378,6 +1408,7 @@
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
+    <Compile Include="WebApiConfig.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Core\Core.csproj">
@@ -2108,6 +2139,7 @@
     <Content Include="GiaoDuc.Master" />
     <Content Include="NMN.Master" />
     <Content Include="NNTL.Master" />
+    <None Include="packages.config" />
     <None Include="Skin\Images\Thumbs.db" />
     <None Include="Skin\img\Thumbs.db" />
   </ItemGroup>
