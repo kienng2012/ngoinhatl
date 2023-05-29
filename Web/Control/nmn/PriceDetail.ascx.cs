@@ -115,6 +115,8 @@ namespace Web.Control.nmn
             //int totalRecord = info.Output;
             //lblPaging.Text = RewriteUrl.generateTagPaging(_baseUrlPaging, _pageNumber, pageSize, totalRecord);
         }
+
+        /*
         protected void rptDetail_ItemDataBound(object sender, RepeaterItemEventArgs e)
         {
             RepeaterItem ri = e.Item;
@@ -143,5 +145,6 @@ namespace Web.Control.nmn
                 }
             }
         }
+        */
     }
 }

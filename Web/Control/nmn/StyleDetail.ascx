@@ -1,6 +1,8 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="StyleDetail.ascx.cs" Inherits="Web.Control.nmn.StyleDetail" %>
 <%@ Import Namespace="Core.Utils" %>
 <%@ Register Src="~/Control/nmn/BannerContact.ascx" TagName="bannerContact" TagPrefix="uc1" %>
+<link rel="stylesheet" href="<%= Page.ResolveClientUrl("~/App_Themes/house/css/jquery.fancybox.min.css")%>" type="text/css" media="all">
+<script type="text/javascript" src="<%= Page.ResolveClientUrl("~/App_Themes/house/js/jquery.fancybox.min.js") %>" id="fancybox-js"></script>
 
 <%--<section id="page-title" class="full-height"
     style="background-color: rgb(239, 239, 239); background-size: cover; background-position: center center; background-repeat: no-repeat; min-height: 255px;">
@@ -225,7 +227,7 @@
                         </div>
                     </div>
                 </div>
-            <%--<div class="int_sidebar_box recent_blog_one">
+                <%--<div class="int_sidebar_box recent_blog_one">
                     <p class="title">Dự án đã thực hiện</p>
                     <div class="int_blog_insta_post">
                         <ul>
@@ -246,7 +248,7 @@
                 </div>--%>
 
 
-            <%--<div class="int_sidebar_box recent_blog_one">
+                <%--<div class="int_sidebar_box recent_blog_one">
                         <p class="title">Bài viết liên quan</p>
                         <div class="int_blog_insta_post">
                             <ul>
@@ -266,9 +268,9 @@
                             </ul>
                         </div>
                     </div>--%>
+            </div>
         </div>
     </div>
-</div>
 </div>
 </div>
 <!-- BANNER CONTACT -->

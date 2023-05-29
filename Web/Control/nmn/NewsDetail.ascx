@@ -1,6 +1,8 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="NewsDetail.ascx.cs" Inherits="Web.Control.nmn.NewsDetail" %>
 <%@ Import Namespace="Core.Utils" %>
 <%@ Register Src="~/Control/nmn/BannerContact.ascx" TagName="bannerContact" TagPrefix="uc1" %>
+<link rel="stylesheet" href="<%= Page.ResolveClientUrl("~/App_Themes/house/css/jquery.fancybox.min.css")%>" type="text/css" media="all">
+<script type="text/javascript" src="<%= Page.ResolveClientUrl("~/App_Themes/house/js/jquery.fancybox.min.js") %>" id="fancybox-js"></script>
 
 <%--<section id="page-title" class="full-height"
     style="background-color: rgb(239, 239, 239); background-size: cover; background-position: center center; background-repeat: no-repeat; min-height: 255px;">
@@ -89,9 +91,9 @@
                                             <%#Eval("CS_Content") %>
                                         </p>
                                     </div>
-                                    <div class="img-products-details">
+                                  <%--  <div class="img-products-details">
                                         <asp:Image ID="Image1" runat="server" CssClass="imgDetailFull" />
-                                    </div>
+                                    </div>--%>
                                     <div class="products-details columns-3 list_product">
                                         <asp:Repeater ID="rpImages" runat="server">
                                             <ItemTemplate>

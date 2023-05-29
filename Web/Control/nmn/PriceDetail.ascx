@@ -80,7 +80,7 @@
                                 </div>
                             </ItemTemplate>
                         </asp:Repeater>--%>
-                        <asp:Repeater ID="rptDetail" runat="server" OnItemDataBound="rptDetail_ItemDataBound">
+                        <asp:Repeater ID="rptDetail" runat="server">
                             <ItemTemplate>
                                 <div class="section-inner">
                                     <div class="wrapper">
@@ -89,7 +89,7 @@
                                             <%#Eval("CS_Content") %>
                                         </p>
                                     </div>
-                                    <div class="img-products-details">
+                                   <%-- <div class="img-products-details">
                                         <asp:Image ID="Image1" runat="server" CssClass="imgDetailFull" />
                                     </div>
                                     <div class="products-details columns-3 list_product">
@@ -102,7 +102,7 @@
                                                 </div>
                                             </ItemTemplate>
                                         </asp:Repeater>
-                                    </div>
+                                    </div>--%>
                                     <div class="wrapper mt-5">
                                         <hr class="my-5">
                                     </div>
