@@ -45,6 +45,25 @@ namespace Core.Category
             }
             return retVal;
         }
+        public static DataTable Category_GetAllCateByParentID(int _c_ParentID)
+        {
+            DataTable retVal = null;
+            SqlConnection dbConn = new SqlConnection(ConfigurationManager.ConnectionStrings["SQLGamePortalHTS"].ToString());
+            SqlCommand dbCmd = new SqlCommand("Category_GetAllCateByParentID", dbConn);
+            dbCmd.CommandType = CommandType.StoredProcedure;
+            dbCmd.Parameters.Add("@C_ParentID", _c_ParentID);
+            try
+            {
+                retVal = new DataTable();
+                SqlDataAdapter da = new SqlDataAdapter(dbCmd);
+                da.Fill(retVal);
+            }
+            finally
+            {
+                dbConn.Close();
+            }
+            return retVal;
+        }
         public static void Delete(int _c_ID)
         {
             SqlConnection dbConn = new SqlConnection(ConfigurationManager.ConnectionStrings["SQLGamePortalHTS"].ToString());

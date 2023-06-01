@@ -14,8 +14,24 @@
             <div class="owl-carousel owl-loaded owl-drag">
                 <div class="owl-stage-outer">
                     <div class="owl-stage" style="transform: translate3d(-1148px, 0px, 0px); transition: all 0s ease 0s; width: 3827px;">
+                        <asp:Repeater ID="rptAnotherCate" runat="server">
+                            <ItemTemplate>
+                                <div class="owl-item active" style="width: 382.667px;">
+                                    <div class="item">
+                                        <div class="img">
+                                            <a href="/<%#Eval("C_BaseURL") %>.htm">
+                                                <img src="<%#Eval("C_ImageURL") %>" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                            </a>
+                                        </div>
+                                        <div class="info">
+                                            <h3 class="name"><a href="/<%#Eval("C_BaseURL") %>.htm" class="hover-underline-animation color-white"><%#Eval("C_Name")%></a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ItemTemplate>
+                        </asp:Repeater>
 
-                        <div class="owl-item active" style="width: 382.667px;">
+                        <%--<div class="owl-item active" style="width: 382.667px;">
                             <div class="item">
                                 <div class="img">
                                     <a href="/phong-cach/hien-dai.htm">
@@ -24,7 +40,6 @@
                                 </div>
                                 <div class="info">
                                     <h3 class="name"><a href="/phong-cach/hien-dai.htm" class="hover-underline-animation color-white">Phong cách hiện đại</a></h3>
-                                    <%--<div class="text"></div>--%>
                                 </div>
                             </div>
                         </div>
@@ -38,7 +53,6 @@
                                 </div>
                                 <div class="info">
                                     <h3 class="name"><a href="/phong-cach/scandinavian.htm" class="hover-underline-animation color-white">Phong cách Scandinavian</a></h3>
-                                    <%--<div class="text"></div>--%>
                                 </div>
                             </div>
                         </div>
@@ -51,7 +65,6 @@
                                 </div>
                                 <div class="info">
                                     <h3 class="name"><a href="/phong-cach/indochine.htm" class="hover-underline-animation color-white">Phong cách Indochine</a></h3>
-                                    <%--<div class="text"></div>--%>
                                 </div>
                             </div>
                         </div>
@@ -65,7 +78,6 @@
                                 </div>
                                 <div class="info">
                                     <h3 class="name"><a href="/phong-cach/wabisabi.htm" class="hover-underline-animation color-white">Phong cách Wabisabi</a></h3>
-                                    <%--<div class="text"></div>--%>
                                 </div>
                             </div>
                         </div>
@@ -79,11 +91,22 @@
                                 </div>
                                 <div class="info">
                                     <h3 class="name"><a href="/phong-cach/tan-co-dien.htm" class="hover-underline-animation color-white">Phong cách Tân cổ điển</a></h3>
-                                    <%--<div class="text"></div>--%>
                                 </div>
                             </div>
-                        </div>
-
+                        </div>--%>
+                     <%--    <div class="owl-item active" style="width: 382.667px;">
+                            <div class="item">
+                                <div class="img">
+                                    <a href="/phong-cach/tan-co-dien.htm">
+                                        <img src="../../App_Themes/house/img/tan-co-dien-420x281.jpg" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <h3 class="name"><a href="/phong-cach/tan-co-dien.htm" class="hover-underline-animation color-white">Phong cách Tân cổ điển</a></h3>
+                                    <div class="text"></div>
+                                </div>
+                            </div>
+                        </div>--%>
                         <%--<asp:Repeater ID="rptStyleTop" runat="server">
                             <ItemTemplate>
                                 <div class="owl-item active" style="width: 382.667px;">

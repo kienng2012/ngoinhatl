@@ -1,4 +1,5 @@
-﻿using Core.CategorySub;
+﻿using Core.Category;
+using Core.CategorySub;
 using System;
 using System.Data;
 
@@ -8,13 +9,25 @@ namespace Web.Control.nmn
     {
         protected int _cateID;
         protected string _cateName;
+        const int _C_ParentID = 8; //Phong cach
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            //if (!IsPostBack)
-            //{
-            //    LoadDataByCate(1);
-            //}
+            if (!IsPostBack)
+            {
+                //LoadDataByCate(1);
+                loadAllStyleCategory();
+            }
+        }
+        protected void loadAllStyleCategory()
+        {
+            //Liet ke danh muc khac
+            DataTable dtAnotherCate = CategoryDB.Category_GetAllCateByParentID(_C_ParentID);
+            if (dtAnotherCate.Rows.Count > 0)
+            {
+                rptAnotherCate.DataSource = dtAnotherCate;
+                rptAnotherCate.DataBind();
+            }
         }
         /*
         protected void LoadDataByCate(int page)

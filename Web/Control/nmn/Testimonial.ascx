@@ -83,5 +83,10 @@
 </div>
 <div class="spacer spacer-small"></div>
 <!-- BANNER CONTACT -->
-<uc1:bannerContact ID="BannerContact" runat="server" />
+<%--<uc1:bannerContact ID="BannerContact" runat="server" />--%>
+<div id="page-body">
+    <div class="img-products-details">
+        <img class="imgDetailFull" src="<%= Page.ResolveClientUrl("~/App_Themes/house/img/trai_nghiem_bot.jpg")%>">
+    </div>
+</div>
 <!-- END BANNER CONTACT -->

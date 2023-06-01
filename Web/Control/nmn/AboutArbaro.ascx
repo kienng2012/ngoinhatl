@@ -14,11 +14,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="inner_right1 bg_section" style="background-image: url(https://nordic.vn/wp-content/uploads/2022/08/Untitled-110.png);"></div>
+                <div class="inner_right1 bg_section" style="background-image: url(<%= Page.ResolveClientUrl("~/App_Themes/house/img/1.ArbaroLaAi.jpg")%>);"></div>
             </div>
             <div class="inner2">
                 <div class="inner_left2">
-                    <img data-lazyloaded="1" src="https://nordic.vn/wp-content/uploads/2022/08/Untitled-111.png" data-src="https://nordic.vn/wp-content/uploads/2022/08/Untitled-111.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                    <img data-lazyloaded="1" src="../../App_Themes/house/img/2TamNhin.jpg" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
                 </div>
                 <div class="inner_right2">
                     <div class="box">
@@ -194,7 +194,7 @@
                 </div>
                 <div class="inner_right">
                     <div class="image">
-                        <img data-lazyloaded="1" src="https://nordic.vn/wp-content/uploads/2022/08/Untitled-12.png" data-src="https://nordic.vn/wp-content/uploads/2022/08/Untitled-12.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                        <img data-lazyloaded="1" src="../../App_Themes/house/img/3.SuMenh.jpg" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
                     </div>
                 </div>
             </div>
