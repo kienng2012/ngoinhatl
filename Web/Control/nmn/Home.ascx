@@ -292,7 +292,7 @@
         <div class="owl-carousel owl-loaded owl-drag">
             <div class="owl-stage-outer owl-height" style="height: 440px;">
                 <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 1398px;">
-                    <div class="owl-item active" style="width: 279.5px;">
+                    <%--<div class="owl-item active" style="width: 279.5px;">
                         <div class="item">
                             <div class="box">
                                 <div class="top">
@@ -305,60 +305,184 @@
                                 <div class="content">Thiết kế &amp; Sản xuất đồ nội thất là một mảnh đất rộng lớn nhưng đang rất hoang hóa ở Việt Nam. SEMA ARBARO là một trong số ít đơn vị đi đầu trong lĩnh vực này. Tôi thực sự đánh giá cao cách làm việc của  ARBARO. Các ý tưởng thiết kế được tái hiện rất xuất sắc.</div>
                             </div>
                         </div>
-                    </div>
-                    <div class="owl-item active" style="width: 279.5px;">
+                    </div>--%>
+                    <div class="owl-item active" style="width: 200px;">
                         <div class="item">
                             <div class="box">
                                 <div class="top">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/nhm-1-scaled-1.jpg" alt="avata-2" class="avata entered litespeed-loaded" data-ll-status="loaded"><div class="info">
-                                        <div class="sub">KTS.</div>
-                                        <div class="name">Nguyễn Hoàng Mạnh</div>
-                                        <div class="regency">MIA Design Studio</div>
+                                    <div class="img-center">
+                                        <img data-lazyloaded="1" src="../../App_Themes/house/img/hr/1-KTS.DucPham-CEO.png" alt="avata-2" class="avata entered litespeed-loaded" data-ll-status="loaded">
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">KTS. Đức Phạm</div>
+                                        <div class="regency">CEO</div>
                                     </div>
                                 </div>
-                                <div class="content">Các sản phẩm mới của  ARBARO hiện đại thích ứng rộng rãi cho lối sống trẻ trung cá tính và rất phù hợp với mọi không gian sống,nhất là giải quyết cho những không gian ở nhỏ! Chúc mừng các tác giả! Hy vọng  ARBARO sẽ ngày càng phát triển lớn mạnh hơn!</div>
                             </div>
                         </div>
                     </div>
-                    <div class="owl-item active" style="width: 279.5px;">
+                    <div class="owl-item active" style="width: 200px;">
                         <div class="item">
                             <div class="box">
                                 <div class="top">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/hd-1-scaled-1.jpg" alt="avata-3" class="avata entered litespeed-loaded" data-ll-status="loaded"><div class="info">
-                                        <div class="sub">KTS.</div>
-                                        <div class="name">Hưng Đào</div>
-                                        <div class="regency">AHL Architects</div>
+                                    <div class="img-center">
+                                        <img data-lazyloaded="1" src="../../App_Themes/house/img/hr/2-KTS.AnhDo-Founder.png" alt="avata-2" class="avata entered litespeed-loaded" data-ll-status="loaded">
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">KTS. Anh Đỗ</div>
+                                        <div class="regency">Founder</div>
                                     </div>
                                 </div>
-                                <div class="content">Tôi thích cách đi của tập thể SEMA đang thực hiện bởi nó được bắt đầu từ những thứ rất cơ bản, kỹ càng trên phác thảo và sản phẩm được hiện thực hóa một cách chỉn chu, bài bản. Các sản phẩm của  ARBARO thực sự cho tôi cách nhìn mới mẻ về nội thất Việt Nam.</div>
                             </div>
                         </div>
                     </div>
-                    <div class="owl-item active" style="width: 279.5px;">
+                    <div class="owl-item active" style="width: 200px;">
                         <div class="item">
                             <div class="box">
                                 <div class="top">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/vdh-2-scaled-1.jpg" alt="avata-4" class="avata entered litespeed-loaded" data-ll-status="loaded"><div class="info">
-                                        <div class="sub">KTS.</div>
-                                        <div class="name">Vương Đạo Hoàng</div>
-                                        <div class="regency">Tạp chí Kiến Việt</div>
+                                    <div class="img-center">
+                                        <img data-lazyloaded="1" src="../../App_Themes/house/img/hr/3-BaoNgoc-marketing manager.png" alt="avata-2" class="avata entered litespeed-loaded" data-ll-status="loaded">
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Bảo Ngọc</div>
+                                        <div class="regency">Marketing Manager</div>
                                     </div>
                                 </div>
-                                <div class="content">The Lover là BST mang phong cách Bắc Âu vào thiết kế, nhưng lại có những chi tiết tỉ mỉ, dụng ý thiết kế mang màu sắc Á Đông. Sự kết hợp này đem lại khả năng ứng dụng vô cùng linh hoạt và độc đáo trong bối cảnh nội thất ở Việt Nam hiện nay.</div>
                             </div>
                         </div>
                     </div>
-                    <div class="owl-item" style="width: 279.5px;">
+                    <div class="owl-item active" style="width: 200px;">
                         <div class="item">
                             <div class="box">
                                 <div class="top">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/chuyen-gia-nu.jpg" alt="avata-5" class="avata entered litespeed-loaded" data-ll-status="loaded"><div class="info">
-                                        <div class="sub">MC</div>
-                                        <div class="name">Xuân Quỳnh</div>
-                                        <div class="regency">VTV3</div>
+                                    <div class="img-center">
+                                        <img data-lazyloaded="1" src="../../App_Themes/house/img/hr/4-KTS.ThanhHai-ProjectManager.png" alt="avata-2" class="avata entered litespeed-loaded" data-ll-status="loaded">
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">KTS. Thanh Hải</div>
+                                        <div class="regency">Project Manager</div>
                                     </div>
                                 </div>
-                                <div class="content">Biết đến Queen Chair sau lần đọc Heritage rồi trở thành khách hàng của  ARBARO, Xuân Quỳnh thật sự bị ấn tượng bởi cách mà ARBARO  làm việc. Các sản phẩm được thiết kế tỉ mỉ trong từng đường nét, sự có tâm trong tư vấn khiến Quỳnh cảm thấy hài lòng.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-item active" style="width: 200px;">
+                        <div class="item">
+                            <div class="box">
+                                <div class="top">
+                                    <div class="img-center">
+                                        <img data-lazyloaded="1" src="../../App_Themes/house/img/hr/5-DuongHanh-HumanResources.png" alt="avata-2" class="avata entered litespeed-loaded" data-ll-status="loaded">
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Dương Hạnh</div>
+                                        <div class="regency">Human Resources</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-item active" style="width: 200px;">
+                        <div class="item">
+                            <div class="box">
+                                <div class="top">
+                                    <div class="img-center">
+                                        <img data-lazyloaded="1" src="../../App_Themes/house/img/hr/7-KTS.LuongNguyen-TechnicalDesigner.png" alt="avata-2" class="avata entered litespeed-loaded" data-ll-status="loaded">
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">KTS. Lượng Nguyễn</div>
+                                        <div class="regency">Technical Designer</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-item active" style="width: 200px;">
+                        <div class="item">
+                            <div class="box">
+                                <div class="top">
+                                    <div class="img-center">
+                                        <img data-lazyloaded="1" src="../../App_Themes/house/img/hr/6-KTS.QuocKhanh-Designer.png" alt="avata-2" class="avata entered litespeed-loaded" data-ll-status="loaded">
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">KTS. Quốc Khánh</div>
+                                        <div class="regency">Designer</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-item active" style="width: 200px;">
+                        <div class="item">
+                            <div class="box">
+                                <div class="top">
+                                    <div class="img-center">
+                                        <img data-lazyloaded="1" src="../../App_Themes/house/img/hr/8-HoangDiep-Accountant.png" alt="avata-2" class="avata entered litespeed-loaded" data-ll-status="loaded">
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Hoàng Diệp</div>
+                                        <div class="regency">Accountant</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-item active" style="width: 200px;">
+                        <div class="item">
+                            <div class="box">
+                                <div class="top">
+                                    <div class="img-center">
+                                        <img data-lazyloaded="1" src="../../App_Themes/house/img/hr/9-KTS.DuyThuong-Designer.png" alt="avata-2" class="avata entered litespeed-loaded" data-ll-status="loaded">
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">KTS. Duy Thường</div>
+                                        <div class="regency">Designer</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-item active" style="width: 200px;">
+                        <div class="item">
+                            <div class="box">
+                                <div class="top">
+                                    <div class="img-center">
+                                        <img data-lazyloaded="1" src="../../App_Themes/house/img/hr/10-ThuyDuong-Maketing.png" alt="avata-2" class="avata entered litespeed-loaded" data-ll-status="loaded">
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Thùy Dương</div>
+                                        <div class="regency">Marketing</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-item active" style="width: 200px;">
+                        <div class="item">
+                            <div class="box">
+                                <div class="top">
+                                    <div class="img-center">
+                                        <img data-lazyloaded="1" src="../../App_Themes/house/img/hr/11-VanAi-Technicians.png" alt="avata-2" class="avata entered litespeed-loaded" data-ll-status="loaded">
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Văn Ái</div>
+                                        <div class="regency">Technicians</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-item active" style="width: 200px;">
+                        <div class="item">
+                            <div class="box">
+                                <div class="top">
+                                    <div class="img-center">
+                                        <img data-lazyloaded="1" src="../../App_Themes/house/img/hr/12-VuongTran-Technicians.png" alt="avata-2" class="avata entered litespeed-loaded" data-ll-status="loaded">
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Vượng Trần</div>
+                                        <div class="regency">Technicians</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -370,7 +494,7 @@
             </div>
             <div class="owl-dots disabled"></div>
         </div>
-    </div>
+</div>
 </div>
 <!-- END DOI NGU NHAN SU -->
 

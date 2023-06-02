@@ -1489,7 +1489,10 @@ body {
     /*margin: 0 20px;*/
     margin: auto;
     text-align: center;
+    /*transform: scale(1);
+    background: rgba(57, 57, 57, 0.502);*/
 }
+
 
 /* hover */
 .item_pro:hover .overlay {
@@ -1531,6 +1534,26 @@ body {
         /*left: 6px;*/
         bottom: 5px;
         width: calc(100% - 12px);
+    }
+
+    .overlay {
+        transform: scale(1) !important
+    }
+
+    .item_pro:hover .overlay, .item_pro:focus .overlay {
+        transform: scale(1);
+        background: rgba(57, 57, 57, 0.502);
+    }
+
+    .item_pro .item-pro-title {
+        font-size: 12px !important;
+        letter-spacing: .1em !important;
+        width: calc(100% - 0px);
+        background: rgba(57, 57, 57, 0.502) !important;
+        padding-left: 0.5em !important;
+        padding-right: 0.5em !important;
+        padding-top: 7px !important;
+        padding-bottom: 7px !important;
     }
 }
 
@@ -2932,4 +2955,11 @@ fa-angle-up:before {
 
 .color-coffee {
     color: #886349 !important
+}
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }

@@ -38768,7 +38768,7 @@ body.page-template-gioi-thieu {
 
                 .about_sec3 .inner .inner_left .box .content {
                     text-align: justify;
-                   /* font-size: 18px*/
+                    /* font-size: 18px*/
                 }
 
                     .about_sec3 .inner .inner_left .box .content li {
@@ -39789,7 +39789,8 @@ body.page-template-gioi-thieu {
             border-radius: 10px;
             padding: 25px 25px 40px;
             height: 100%;
-            position: relative
+            position: relative;
+           /* min-height: 320px */
         }
 
             .expert_home .item .box:after {
@@ -39816,14 +39817,15 @@ body.page-template-gioi-thieu {
             }
 
                 .expert_home .item .box .top .avata {
-                    width: 110px;
-                    height: 110px;
+                   /* width: 110px;
+                    height: 110px;*/
                     border-radius: 50%;
                     object-fit: cover
                 }
 
                 .expert_home .item .box .top .info {
-                    width: calc(100% - 110px);
+                    /*width: calc(100% - 110px);*/
+                    width: 100%;
                     padding-left: 10px
                 }
 
@@ -39832,13 +39834,15 @@ body.page-template-gioi-thieu {
                     }
 
                     .expert_home .item .box .top .info .name {
+                        text-align: center;
                         font-weight: 600;
                         font-size: 18px
                     }
 
                     .expert_home .item .box .top .info .regency {
-                        font-size: 12px;
-                        color: 6e6e6e
+                        font-size: 14px;
+                        color: 6e6e6e;
+                        text-align: center
                     }
 
 .partner_home {
@@ -40214,18 +40218,18 @@ body.page-template-gioi-thieu {
             padding: 20px 20px 30px
         }
 
-            .expert_home .item .box .top .avata {
+           /* .expert_home .item .box .top .avata {
                 width: 100px;
                 height: 100px
-            }
+            }*/
 
-            .expert_home .item .box .top .info {
-                width: calc(100% - 100px)
-            }
+            /* .expert_home .item .box .top .info {
+               width: calc(100% - 100px)
+            }*/
 
-                .expert_home .item .box .top .info .name {
-                    font-size: 16px
-                }
+            .expert_home .item .box .top .info .name {
+                font-size: 16px
+            }
 
             .expert_home .item .box .content {
                 margin-top: 15px;
@@ -40427,7 +40431,7 @@ body.page-template-gioi-thieu {
         }
 
             .expert_home .item .box .top .info .name {
-                font-size: 14px
+                font-size: 16px
             }
 
             .expert_home .item .box .top .info .sub {
@@ -41337,7 +41341,7 @@ body.page-template-gioi-thieu {
                 }
 
                 .about_home .inner_left .title span.tit {
-                    font-weight:600;
+                    font-weight: 600;
                     font-size: 36px !important
                 }
 
@@ -41662,7 +41666,8 @@ body.page-template-gioi-thieu {
 
         .expert_home .item {
             width: 100%;
-            padding: 30px 10px
+            /*padding: 30px 10px*/
+            padding: 10px 25px
         }
 
             .expert_home .item .box {
