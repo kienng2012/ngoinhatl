@@ -39785,12 +39785,13 @@ body.page-template-gioi-thieu {
     }
 
         .expert_home .item .box {
-            background: #fff;
+            /*background: #fff;*/
+            background-color: #f2efe9;
             border-radius: 10px;
             padding: 25px 25px 40px;
             height: 100%;
             position: relative;
-           /* min-height: 320px */
+            /* min-height: 320px */
         }
 
             .expert_home .item .box:after {

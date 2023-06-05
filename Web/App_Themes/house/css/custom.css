@@ -68,6 +68,9 @@ div h2:first-child {
     .breadcrumbs-page {
         padding-left: 20px !important;
     }
+    .section-inner .wrapper {
+        text-align: justify !important
+    }
 }
 
 .display-2 {
