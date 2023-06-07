@@ -511,150 +511,57 @@
                         <div class="owl-item cloned" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/Logo-HD-Mon.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/partner/ancuong.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="owl-item cloned" style="width: 164px;">
+                            <div class="item_slider">
+                                <div class="item">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/partner/blum.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item cloned" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/Logo-Kien-Viet.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/partner/cariny.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item cloned" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/Logo-Minh-Long.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/partner/dulux.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item cloned" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-Luxxy-VN-01.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/partner/glob.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item cloned" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-khoa-noi-that.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/partner/haefele.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
                                 </div>
                             </div>
                         </div>
+                       
                         <div class="owl-item cloned" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-chi-hoi-kien-truc-1.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/partner/Logo-Minh-Long.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
                                 </div>
                             </div>
                         </div>
-                        <div class="owl-item cloned" style="width: 164px;">
-                            <div class="item_slider">
-                                <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-vietcg-den-1.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item active" style="width: 164px;">
-                            <div class="item_slider">
-                                <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/Logo-HD-Mon.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item active" style="width: 164px;">
-                            <div class="item_slider">
-                                <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/Logo-Kien-Viet.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item active" style="width: 164px;">
-                            <div class="item_slider">
-                                <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/Logo-Minh-Long.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item active" style="width: 164px;">
-                            <div class="item_slider">
-                                <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-Luxxy-VN-01.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item active" style="width: 164px;">
-                            <div class="item_slider">
-                                <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-khoa-noi-that.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item active" style="width: 164px;">
-                            <div class="item_slider">
-                                <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-chi-hoi-kien-truc-1.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item active" style="width: 164px;">
-                            <div class="item_slider">
-                                <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-vietcg-den-1.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item cloned" style="width: 164px;">
-                            <div class="item_slider">
-                                <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/Logo-HD-Mon.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item cloned" style="width: 164px;">
-                            <div class="item_slider">
-                                <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/Logo-Kien-Viet.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item cloned" style="width: 164px;">
-                            <div class="item_slider">
-                                <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/Logo-Minh-Long.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item cloned" style="width: 164px;">
-                            <div class="item_slider">
-                                <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-Luxxy-VN-01.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item cloned" style="width: 164px;">
-                            <div class="item_slider">
-                                <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-khoa-noi-that.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item cloned" style="width: 164px;">
-                            <div class="item_slider">
-                                <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-chi-hoi-kien-truc-1.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item cloned" style="width: 164px;">
-                            <div class="item_slider">
-                                <div class="item">
-                                    <img data-lazyloaded="1" src="App_Themes/house/img/logo-vietcg-den-1.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
                 <div class="owl-nav disabled">
