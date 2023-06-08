@@ -257,7 +257,13 @@
     <Content Include="App_Themes\house\img\partner\dulux.png" />
     <Content Include="App_Themes\house\img\partner\glob.png" />
     <Content Include="App_Themes\house\img\partner\haefele.png" />
+    <Content Include="App_Themes\house\img\partner\logo-chi-hoi-kien-truc-1.png" />
+    <Content Include="App_Themes\house\img\partner\Logo-HD-Mon.png" />
+    <Content Include="App_Themes\house\img\partner\logo-khoa-noi-that.png" />
+    <Content Include="App_Themes\house\img\partner\Logo-Kien-Viet.png" />
+    <Content Include="App_Themes\house\img\partner\logo-Luxxy-VN-01.png" />
     <Content Include="App_Themes\house\img\partner\Logo-Minh-Long.png" />
+    <Content Include="App_Themes\house\img\partner\logo-vietcg-den-1.png" />
     <Content Include="App_Themes\house\img\popup-boc-tham-tang-do-decor.png" />
     <Content Include="App_Themes\house\img\qt-1.png" />
     <Content Include="App_Themes\house\img\qt-2.png" />

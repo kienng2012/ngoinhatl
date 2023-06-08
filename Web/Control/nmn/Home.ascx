@@ -507,8 +507,8 @@
         <div class="block_slider">
             <div class="owl-carousel owl-loaded owl-drag">
                 <div class="owl-stage-outer">
-                    <div class="owl-stage" style="transform: translate3d(-1148px, 0px, 0px); transition: all 0s ease 0s; width: 3444px;">
-                        <div class="owl-item cloned" style="width: 164px;">
+                    <div class="owl-stage" >
+                        <div class="owl-item" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
                                     <img data-lazyloaded="1" src="App_Themes/house/img/partner/ancuong.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
@@ -516,37 +516,35 @@
                             </div>
                         </div>
 
-
-
-                        <div class="owl-item cloned" style="width: 164px;">
+                        <div class="owl-item" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
                                     <img data-lazyloaded="1" src="App_Themes/house/img/partner/blum.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
                                 </div>
                             </div>
                         </div>
-                        <div class="owl-item cloned" style="width: 164px;">
+                        <div class="owl-item" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
                                     <img data-lazyloaded="1" src="App_Themes/house/img/partner/cariny.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
                                 </div>
                             </div>
                         </div>
-                        <div class="owl-item cloned" style="width: 164px;">
+                        <div class="owl-item" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
                                     <img data-lazyloaded="1" src="App_Themes/house/img/partner/dulux.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
                                 </div>
                             </div>
                         </div>
-                        <div class="owl-item cloned" style="width: 164px;">
+                        <div class="owl-item" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
                                     <img data-lazyloaded="1" src="App_Themes/house/img/partner/glob.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
                                 </div>
                             </div>
                         </div>
-                        <div class="owl-item cloned" style="width: 164px;">
+                        <div class="owl-item" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
                                     <img data-lazyloaded="1" src="App_Themes/house/img/partner/haefele.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
@@ -554,14 +552,51 @@
                             </div>
                         </div>
                        
-                        <div class="owl-item cloned" style="width: 164px;">
+                        <div class="owl-item" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
                                     <img data-lazyloaded="1" src="App_Themes/house/img/partner/Logo-Minh-Long.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
                                 </div>
                             </div>
                         </div>
-                        
+
+
+
+                        <div class="owl-item" style="width: 164px;">
+                            <div class="item_slider">
+                                <div class="item">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/partner/logo-khoa-noi-that.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-item" style="width: 164px;">
+                            <div class="item_slider">
+                                <div class="item">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/partner/Logo-Kien-Viet.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-item" style="width: 164px;">
+                            <div class="item_slider">
+                                <div class="item">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/partner/logo-Luxxy-VN-01.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-item" style="width: 164px;">
+                            <div class="item_slider">
+                                <div class="item">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/partner/logo-vietcg-den-1.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-item" style="width: 164px;">
+                            <div class="item_slider">
+                                <div class="item">
+                                    <img data-lazyloaded="1" src="App_Themes/house/img/partner/logo-chi-hoi-kien-truc-1.png" alt="" data-ll-status="loaded" class="entered litespeed-loaded">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="owl-nav disabled">
