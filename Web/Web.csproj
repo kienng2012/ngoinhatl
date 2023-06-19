@@ -232,6 +232,8 @@
     <Content Include="App_Themes\house\img\hr\7-KTS.LuongNguyen-TechnicalDesigner.png" />
     <Content Include="App_Themes\house\img\hr\8-HoangDiep-Accountant.png" />
     <Content Include="App_Themes\house\img\hr\9-KTS.DuyThuong-Designer.png" />
+    <Content Include="App_Themes\house\img\hr\HieuPham-SaleManager.jpg" />
+    <Content Include="App_Themes\house\img\hr\ThanhBinh-TechnicalDesigner.jpg" />
     <Content Include="App_Themes\house\img\icon-social-38px-fb-OK.png" />
     <Content Include="App_Themes\house\img\icon-social-38px-install-OK.png" />
     <Content Include="App_Themes\house\img\icon-social-38px-pinterest-OK.png" />

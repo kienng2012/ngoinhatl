@@ -426,6 +426,36 @@
                             </div>
                         </div>
                     </div>
+                     <div class="owl-item active" style="width: 200px;">
+                        <div class="item">
+                            <div class="box">
+                                <div class="top">
+                                    <div class="img-center">
+                                        <img data-lazyloaded="1" src="../../App_Themes/house/img/hr/HieuPham-SaleManager.jpg" alt="avata-2" class="avata entered litespeed-loaded" data-ll-status="loaded">
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Hiếu Phạm</div>
+                                        <div class="regency">Sale Manager</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="owl-item active" style="width: 200px;">
+                        <div class="item">
+                            <div class="box">
+                                <div class="top">
+                                    <div class="img-center">
+                                        <img data-lazyloaded="1" src="../../App_Themes/house/img/hr/ThanhBinh-TechnicalDesigner.jpg" alt="avata-2" class="avata entered litespeed-loaded" data-ll-status="loaded">
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Thanh Bình</div>
+                                        <div class="regency">Technical Designer</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="owl-item active" style="width: 200px;">
                         <div class="item">
                             <div class="box">
