@@ -356,6 +356,21 @@
                             <div class="box">
                                 <div class="top">
                                     <div class="img-center">
+                                        <img data-lazyloaded="1" src="../../App_Themes/house/img/hr/HieuPham-SaleManager.jpg" alt="avata-2" class="avata entered litespeed-loaded" data-ll-status="loaded">
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Hiếu Phạm</div>
+                                        <div class="regency">Sale Manager</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-item active" style="width: 200px;">
+                        <div class="item">
+                            <div class="box">
+                                <div class="top">
+                                    <div class="img-center">
                                         <img data-lazyloaded="1" src="../../App_Themes/house/img/hr/4-KTS.ThanhHai-ProjectManager.png" alt="avata-2" class="avata entered litespeed-loaded" data-ll-status="loaded">
                                     </div>
                                     <div class="info">
@@ -426,22 +441,8 @@
                             </div>
                         </div>
                     </div>
-                     <div class="owl-item active" style="width: 200px;">
-                        <div class="item">
-                            <div class="box">
-                                <div class="top">
-                                    <div class="img-center">
-                                        <img data-lazyloaded="1" src="../../App_Themes/house/img/hr/HieuPham-SaleManager.jpg" alt="avata-2" class="avata entered litespeed-loaded" data-ll-status="loaded">
-                                    </div>
-                                    <div class="info">
-                                        <div class="name">Hiếu Phạm</div>
-                                        <div class="regency">Sale Manager</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                     <div class="owl-item active" style="width: 200px;">
+
+                    <div class="owl-item active" style="width: 200px;">
                         <div class="item">
                             <div class="box">
                                 <div class="top">
@@ -524,7 +525,7 @@
             </div>
             <div class="owl-dots disabled"></div>
         </div>
-</div>
+    </div>
 </div>
 <!-- END DOI NGU NHAN SU -->
 
@@ -537,7 +538,7 @@
         <div class="block_slider">
             <div class="owl-carousel owl-loaded owl-drag">
                 <div class="owl-stage-outer">
-                    <div class="owl-stage" >
+                    <div class="owl-stage">
                         <div class="owl-item" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
@@ -581,7 +582,7 @@
                                 </div>
                             </div>
                         </div>
-                       
+
                         <div class="owl-item" style="width: 164px;">
                             <div class="item_slider">
                                 <div class="item">
