@@ -3,6 +3,7 @@
 using Core.CategorySub;
 using DevExpress.Web.ASPxEditors;
 using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Drawing;
 using System.IO;
@@ -250,7 +251,8 @@ namespace Web.Control
                         return;
                     }
                     //Danh sach Anh cua bai viet
-                    StringBuilder sbArticleImgs = new StringBuilder();
+                    //StringBuilder sbArticleImgs = new StringBuilder();
+                    HashSet<string> lstImgs = new HashSet<string>();
                     if (fileUpload.HasFile)
                     {
                         if ((fileUpload.PostedFile != null) && (fileUpload.PostedFile.ContentLength > 0))
@@ -264,7 +266,8 @@ namespace Web.Control
                                 try
                                 {
                                     uploadedFile.SaveAs(MapPath(SaveLocation));
-                                    sbArticleImgs.Append(SaveLocation).Append(";"); //Second img is image detail 
+                                    //sbArticleImgs.Append(SaveLocation).Append(";"); //Second img is image detail 
+                                    lstImgs.Add(SaveLocation);
                                     count++;
                                 }
                                 catch (Exception ex)
@@ -277,7 +280,16 @@ namespace Web.Control
                                 lblStatus.Text = count + " files has been uploaded.";
                             }
                         }
-                        objInfo.CS_ArticleImgs = sbArticleImgs.Length > 0 ? sbArticleImgs.ToString() : null;
+                        if (lstImgs != null && lstImgs.Count > 0)
+                        {
+                            StringBuilder sbArticleImgs = new StringBuilder();
+                            foreach (var img in lstImgs)
+                            {
+                                sbArticleImgs.Append(img).Append(";");
+                            }
+                            objInfo.CS_ArticleImgs = sbArticleImgs.Length > 0 ? sbArticleImgs.ToString() : null;
+                        }
+
                         //else
                         //{
                         //    lblStatus.Text = "Please select a file to upload.";
@@ -371,18 +383,14 @@ namespace Web.Control
                     {
                         lblStatus.Text = "Please select a file avatar to upload.";
                     }
-                }
-
-
-                //Danh sach Anh cua bai viet
-                StringBuilder sbArticleImgs = new StringBuilder();
+                }//Danh sach Anh cua bai viet
+                 //StringBuilder sbArticleImgs = new StringBuilder();
+                HashSet<string> lstImgs = new HashSet<string>();
                 if (fileUpload.HasFile)
                 {
                     if ((fileUpload.PostedFile != null) && (fileUpload.PostedFile.ContentLength > 0))
                     {
                         var count = 0;
-                        String path = "/Upload/Article/";
-
                         foreach (HttpPostedFile uploadedFile in fileUpload.PostedFiles)
                         {
                             string prefixNameFile = DateTime.Now.ToString("yyyyMMddHHmmssfff") + "_";
@@ -391,7 +399,8 @@ namespace Web.Control
                             try
                             {
                                 uploadedFile.SaveAs(MapPath(SaveLocation));
-                                sbArticleImgs.Append(SaveLocation).Append(";"); //Second img is image detail 
+                                //sbArticleImgs.Append(SaveLocation).Append(";"); //Second img is image detail 
+                                lstImgs.Add(SaveLocation);
                                 count++;
                             }
                             catch (Exception ex)
@@ -404,14 +413,16 @@ namespace Web.Control
                             lblStatus.Text = count + " files has been uploaded.";
                         }
                     }
-                    //objInfo.CS_ArticleImgs = sbArticleImgs.Length > 0 ? sbArticleImgs.ToString() : null;
-                    if (sbArticleImgs.Length > 0)
+                    if (lstImgs != null && lstImgs.Count > 0)
                     {
-                        objInfo.CS_ArticleImgs = sbArticleImgs.ToString();
+                        StringBuilder sbArticleImgs = new StringBuilder();
+                        foreach (var img in lstImgs)
+                        {
+                            sbArticleImgs.Append(img).Append(";");
+                        }
+                        objInfo.CS_ArticleImgs = sbArticleImgs.Length > 0 ? sbArticleImgs.ToString() : null;
                     }
-
                 }
-
                 bool status = CategorySubDB.Update(objInfo);
                 {
                     if (status == true)
