@@ -3,10 +3,11 @@
 
 
 <!-- Menu Start -->
-<section id="page-title" class="full-height" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(<%= Page.ResolveClientUrl("~/App_Themes/house/img/bg_lienhe.jpg")%>); background-size: cover; background-position: center center; background-repeat: no-repeat; min-height: 623px;">
+<section id="page-title" class="full-height" style="background-image: url(<%= Page.ResolveClientUrl("~/App_Themes/house/img/bg_lienhe.jpg")%>); background-size: cover; background-position: center center; background-repeat: no-repeat; min-height: 623px;">
+    <!--<section id="page-title" class="full-height" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(<%= Page.ResolveClientUrl("~/App_Themes/house/img/bg_lienhe.jpg")%>); background-size: cover; background-position: center center; background-repeat: no-repeat; min-height: 623px;">-->
     <div class="section-inner align-center">
         <div class="main-title">
-            <h1 style="font-size: 28px; margin-top: 5px;"><strong>Liên hệ</strong></h1>
+            <h1 style="font-size: 28px; margin-top: 5px;"><strong></strong></h1>
         </div>
     </div>
 </section>
