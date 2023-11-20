@@ -31,27 +31,29 @@ namespace Web
         public IHttpActionResult Get()
 
         {
-            List<int> list = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 };
+            List<int> list = new List<int>() { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
-            List<string> listStr = new List<string>() { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" };
+            List<string> listStr = new List<string>() {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9" };
             List<int> randomNumberList = new List<int>();
-            randomNumberList = GetRandomElements(list, 3);
+           // randomNumberList = GetRandomElements(list, 12);
             StringBuilder sb = new StringBuilder();
+           
+            /*
             sb.AppendLine("List int result:");
             foreach (var i in randomNumberList)
             {
                 sb.Append(i.ToString() + "; ");
             }
             List<string> randomListStr = new List<string>();
-            randomListStr = GetRandomElements(listStr, 2);
+            randomListStr = GetRandomElements(listStr, 10);
             sb.AppendLine("List str result:");
             foreach (var j in randomListStr)
             {
                 sb.Append(j + "; ");
             }
-
+            */
             //tREN LA TEST CHOI CHOI
-            randomNumberList = GetRandomElements(list, 1);
+            randomNumberList = GetRandomElements(list, 12);
             sb = new StringBuilder();
             foreach (var i in randomNumberList)
             {

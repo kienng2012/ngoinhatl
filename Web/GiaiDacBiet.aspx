@@ -12,7 +12,7 @@
         function beginQuayThuong() {
             if (document.getElementById("btQuay").value == 'START') {
                 document.querySelector('#btQuay').value = 'STOP';
-                myInterval = setInterval(myTimer, 25);
+                myInterval = setInterval(myTimer, 20); //Thiet lap toc do quay cua so . cang nho cang nhanh
             }
             else if (document.getElementById("btQuay").value == 'STOP') {
                 /*  alert('Dung lai day thoi ^-^');*/
@@ -76,7 +76,7 @@
         function myTimer() {
             //const date = new Date();
             //document.getElementById("random_number").innerHTML = date.toLocaleTimeString();
-              var t = Math.round(Math.random() * (1000 - 1) + 1);
+              var t = Math.round(Math.random() * (100000000000 - 1) + 1); //Thiet lap xem max bao nhieu so hien thi ngau nhien
             //var t = Math.round(Math.random() * (100) + 1);
        /*     var t = Math.floor(Math.random() * 100) + 1*/
             document.getElementById("random_number").innerHTML = t;

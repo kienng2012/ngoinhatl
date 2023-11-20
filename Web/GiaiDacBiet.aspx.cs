@@ -56,7 +56,7 @@ namespace Web
 
             List<string> listStr = new List<string>() { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" };
             List<int> randomNumberList = new List<int>();
-            randomNumberList = GetRandomElements(list, 3);
+            randomNumberList = GetRandomElements(list, 11);
             StringBuilder sb = new StringBuilder();
             sb.AppendLine("List int result:");
             foreach (var i in randomNumberList)
