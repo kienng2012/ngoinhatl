@@ -212,12 +212,16 @@
                                     </div>
                                 </div>
 
-                                <div class="frm-group" style="padding-top: 4%; font-weight: bold; background-color: #ffffff; color: red; height: 100%; font-size: 65px; margin-top: 15px; padding: 0px" id="random_number">
-                                </div>
-                                <div class="frm-group">
-                                    <input id="btQuay" type="button" onclick="beginQuayThuong()" value="START" />
-                                    <%--   <input type="button" onclick="clearInterval(inter)" value="STOP HERE" />--%>
-                                </div>
+                                <%--<div style="text-align:center; max-height:100em; max-width:100em; background-color:bisque">
+                                        <div class="frm-group" style=" padding-top: 4%; font-weight: bold; background-color: #00ff80; color: red; height: 100%; font-size: 65px; margin-top: 15px; padding: 0px; border:dotted" id="random_number"></div>
+                               </div>--%>
+                                <div style="margin:auto;text-align:center; max-height:100em; max-width:25em; background-color:#00ff80;border:dotted;border-color:RED">
+                                    <div class="frm-group" style=" font-weight: bold;  color: red; font-size: 65px;" id="random_number">&nbsp</div>
+                                    
+                               </div>
+                           
+                              <div style="margin:auto;text-align:center;margin-top: 10px"><div class="frm-group"><input id="btQuay" type="button" onclick="beginQuayThuong()" value="START" /></div>
+                              </div>
                                 <div class="frm-group" style="display: none">
                                     <!--<div class="alert alert-success text-center hide" role="alert" id="loadingnha" style="font-weight: bold; background-color: #ffffff; border-color: #333; color: red;">
                                        Bấm nút quay để bắt đầu

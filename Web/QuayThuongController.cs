@@ -53,7 +53,7 @@ namespace Web
             }
             */
             //tREN LA TEST CHOI CHOI
-            randomNumberList = GetRandomElements(list, 12);
+            randomNumberList = GetRandomElements(list, 13);
             sb = new StringBuilder();
             foreach (var i in randomNumberList)
             {
